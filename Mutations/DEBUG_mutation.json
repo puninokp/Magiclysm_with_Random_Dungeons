@@ -1,0 +1,42 @@
+[
+
+     {
+        "type": "mutation",
+        "id": "CHEAT_MANA_STORE",
+        "name": "Great Mana Pocket 2000",
+        "points": 4,
+        "valid": false,
+        "purifiable": false,
+        "description": "You are able to store more mana in your body than usual.",
+        "starting_trait": false,
+        "flags": [ "NON_THRESH" ],
+        "mana_modifier": 20000
+      },
+
+     {
+        "type": "mutation",
+        "id": "CHEAT_MANA_GREATREGEN",
+        "name": "Greater Mana Regeneration 2.0",
+        "points": 5,
+        "valid": false,
+        "purifiable": false,
+        "description": "Your natural mana regeneration is very faster than normal.",
+        "starting_trait": false,
+        "flags": [ "NON_THRESH" ],
+        "mana_regen_multiplier": 2.0
+      },
+
+      {
+        "type": "mutation",
+        "id": "CHEAT_MUTATION_ITEM_MANA",
+        "name": { "str": "MANA Pocket 15000" },
+        "valid": false,
+        "purifiable": false,
+        "points": 2,
+        "flags": [ "NON_THRESH" ],
+        "description": "You are able to store more mana in your body than usual.",
+        "starting_trait": false,
+        "mana_modifier": 5000
+      }
+
+]

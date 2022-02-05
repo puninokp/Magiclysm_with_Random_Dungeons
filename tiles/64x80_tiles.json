@@ -1,0 +1,26 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/64x80_pictures.png",
+          "sprite_width": 64, 
+          "sprite_height": 80,
+          "sprite_offset_x": -16, 
+          "sprite_offset_y": -48,
+          "tiles": [
+            { "id": "PSY_magi_f_huge_blue_crystal","fg": 0 },
+            { "id": "PSY_magi_f_huge_red_crystal" ,"fg": 1 },
+            { "id": "PSY_magi_f_huge_bloody_crystal" ,"fg": 2},
+            { "id": "PSY_magi_f_huge_green_crystal" ,"fg": 3},
+            { "id": "PSY_magi_f_huge_treasure" ,"fg": 4},
+            { "id": "PSY_magi_f_huge_treasure_opened" ,"fg": 5},
+            { "id": "PSY_magi_mon_crystal_golem" ,"fg": 6},
+            { "id": "PSY_magi_rnd_mon_eye_gate" ,"fg": 7},
+            { "id": "PSY_magi_rnd_mon_golem_turret" ,"fg": 8}
+          ]
+        }
+      ]
+    }
+]

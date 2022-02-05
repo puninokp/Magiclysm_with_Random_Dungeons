@@ -1,0 +1,288 @@
+[
+
+    {
+        "type": "profession",
+        "id": "profession_PSYFULL",
+        "name": "CHEAT UNIT FOR MOD",
+        "description": "This is a character for debugging. It is not a bug even if this is displayed.",
+        "points": 99,
+        "spells": [ 
+          { "id": "PSY_magi_create_magic_moon_light", "level": 0 },
+          { "id": "PSY_magi_woodskin", "level": 0 },
+          { "id": "PSY_magi_create_spellbook_from2", "level": 0 },
+          { "id": "PSY_magi_spell_golem_charge", "level": 0 },
+          { "id": "PSY_magi_spell_golem_retreat", "level": 0 },
+          { "id": "PSY_magi_spell_repair_golem", "level": 0 },
+          { "id": "PSY_magi_grave_fall", "level": 0 },
+          { "id": "PSY_magi_Thunder_snake_base", "level": 0 },
+          { "id": "PSY_magi_summon_skeleton_grave", "level": 0 },
+          { "id": "PSY_magi_acid_rain", "level": 0 },
+          { "id": "PSY_magi_spell_search_field", "level": 0 },
+          { "id": "shocking_lash", "level": 20 },
+          { "id": "PSY_magi_great_blessing", "level": 0 },
+          { "id": "PSY_magi_spawn_blight_box", "level": 0 },
+          { "id": "PSY_magi_spell_repair_totem", "level": 0 },
+          { "id": "PSY_magi_spell_morph_totem", "level": 0 },
+          { "id": "PSY_magi_create_clone", "level": 10 },
+          { "id": "PSY_magi_conj_throwing_blade", "level": 0 },
+          { "id": "PSY_magi_conj_throwing_bat", "level": 0 },
+          { "id": "PSY_magi_necrotic_calamity", "level": 1 },
+          { "id": "PSY_magi_electro_stun", "level": 1 },
+          { "id": "PSY_magi_spell_vacuum", "level": 1 },
+          { "id": "PSY_magi_spell_scatter_caltrop", "level": 1 },
+          { "id": "PSY_magi_str_down_spell", "level": 1 },
+          { "id": "PSY_magi_dex_down_spell", "level": 1 },
+          { "id": "PSY_magi_per_down_spell", "level": 1 },
+          { "id": "PSY_magi_spawn_fear_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_charm_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_blind_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_plague_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_taunt_totem", "level": 1 },
+          { "id": "PSY_magi_spell_create_orchard", "level": 1 },
+          { "id": "PSY_magi_call_lightning_tornado", "level": 1 },
+          { "id": "PSY_magi_summon_decoy_replacement", "level": 1 },
+          { "id": "PSY_magi_summon_guided_missile", "level": 1 },
+          { "id": "PSY_magi_spell_Tangled_vine_line", "level": 1 },
+          { "id": "PSY_magi_spawn_vine_tentacle", "level": 1 },
+          { "id": "PSY_magi_spawn_plant_shooter", "level": 1 },
+          { "id": "PSY_magi_summon_deployed_turret", "level": 1 },
+          { "id": "PSY_magi_spell_Speed_UP_line", "level": 1 },
+          { "id": "PSY_magi_spell_Create_Sanctuary", "level": 1 },
+          { "id": "PSY_magi_push_force", "level": 1 },
+          { "id": "PSY_magi_push_force_cone", "level": 1 },
+          { "id": "PSY_magi_spell_magnetic_field", "level": 1 },
+          { "id": "PSY_magi_call_black_hole", "level": 1 },
+          { "id": "PSY_magi_summon_flying_skul", "level": 1 },
+          { "id": "PSY_magi_open_summon_gate", "level": 1 },
+          { "id": "PSY_magi_create_magic_bomb_spider_web", "level": 1 },
+          { "id": "PSY_magi_sweep", "level": 1 },
+          { "id": "PSY_magi_meteor", "level": 1 },
+          { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
+          { "id": "PSY_magi_summon_bug_swarm", "level": 20 },
+          { "id": "PSY_magi_spawn_pushing_orb", "level": 1 },
+          { "id": "PSY_magi_spell_remove_telegrow", "level": 1 },
+          { "id": "PSY_magi_CHEAT_MANA_POCKET", "level": 1 },
+          { "id": "PSY_magi_Tiamat_breath", "level": 1 },
+          { "id": "PSY_magi_CHEAT_recover_mana", "level": 1 },
+          { "id": "PSY_magi_mindcontrol", "level": 1 },
+          { "id": "PSY_magi_short_swap_pos", "level": 1 },
+          { "id": "PSY_magi_long_swap_pos", "level": 1 },
+          { "id": "PSY_magi_summon_magic_UFO", "level": 3 },
+          { "id": "PSY_magi_summon_magic_5x5box", "level": 1 },     
+          { "id": "PSY_magi_spawn_resurrect_orb", "level": 1 },   
+          { "id": "PSY_magi_crystallize_mana", "level": 3 },
+          { "id": "PSY_magi_conj_res_aura_acid", "level": 3 },
+          { "id": "PSY_magi_conj_res_aura_bash", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_cut", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_stab", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_heat", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_cold", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_electro", "level": 1 },
+          { "id": "PSY_magi_conj_res_aura_bio", "level": 1 }       
+      ],
+      "CBMs": [
+        "bio_razors",
+        "bio_sunglasses",
+        "bio_ears",
+        "bio_heat_absorb",
+        "bio_speed",
+        "bio_dex_enhancer",
+        "bio_ups",
+        "bio_armor_eyes",
+        "bio_armor_head",
+        "bio_armor_torso",
+        "bio_armor_arms",
+        "bio_armor_legs",
+        "bio_batteries",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII",
+        "bio_power_storage_mkII"
+      ],
+        "skills": [
+          { "level": 10, "name": "spellcraft" }
+        ],
+        "proficiencies": [ "prof_helicopter_pilot" ],
+        "items": {
+          "both": {
+            "items": [
+              "winter_pants_army",
+              "army_top",
+              "winter_jacket_army",
+              "gloves_tactical",
+              "molle_pack",
+              "socks",
+              "wristwatch",
+              "ammo_satchel",
+              "attached_ear_plugs_off",
+              "PSY_magi_golem_crystal",
+              "helmet_army",
+              "mbelt_pockets_greater",
+              "PSY_magi_wand_summon_clone",
+              "PSY_magi_wand_magic_transform_greater"
+            ],
+            "entries": [
+              { "item": "water_clean", "charges": 6, "container-item": "canteen" },
+              { "item": "knife_combat", "container-item": "sheath" },
+              { "item": "crystallized_mana", "charges": 50 },
+              { "group": "charged_cell_phone" }
+            ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "sports_bra", "boxer_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_alien",
+        "name": "[Magiclysm_with_Random_Dungeons] Alien Pilot",
+        "description": "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth.",
+        "points": 9,
+        "skills": [ { "level": 4, "name": "driving" }, { "level": 3, "name": "spellcraft" }, { "level": 3, "name": "mechanics" } ],
+        "proficiencies": [ "prof_helicopter_pilot" ],
+        "spells": [ 
+          { "id": "PSY_magi_spell_vacuum", "level": 1 },
+          { "id": "PSY_magi_spell_magnetic_field", "level": 1 },
+          { "id": "PSY_magi_spell_remove_telegrow", "level": 1 },
+          { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
+          { "id": "PSY_magi_mindcontrol", "level": 1 },
+          { "id": "PSY_magi_summon_magic_UFO", "level": 3 }    
+        ],
+        "traits": [ "PSY_MANA_STORE1000" ],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_botanist",
+        "name": "[Magiclysm_with_Random_Dungeons] Magical botanist",
+        "description": "You are an advanced botanist and know how to grow plants instantly from the seeding.",
+        "points": 7,
+        "skills": [ { "level": 2, "name": "cooking" }, { "level": 3, "name": "spellcraft" }, { "level": 5, "name": "survival" } ],
+        "spells": [ 
+          { "id": "PSY_magi_spawn_vine_tentacle", "level": 1 },
+          { "id": "PSY_magi_spawn_plant_shooter", "level": 1 },
+          { "id": "PSY_magi_spell_Tangled_vine_line", "level": 1 },
+          { "id": "PSY_magi_summon_magic_5x5box", "level": 1 },     
+          { "id": "PSY_magi_spell_create_orchard", "level": 1 }
+        ],
+        "traits": [ "PSY_PLANT_MUTATION" ],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_totemancer",
+        "name": "[Magiclysm_with_Random_Dungeons] Totemancer",
+        "description": "You are a shaman familiar with totems.",
+        "points": 8,
+        "skills": [ { "level": 4, "name": "tailor" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
+        "spells": [ 
+          { "id": "PSY_magi_spawn_fear_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_charm_totem", "level": 1 },
+          { "id": "PSY_magi_spawn_blind_totem", "level": 1 },
+          { "id": "PSY_magi_spell_Speed_UP_line", "level": 1 },
+          { "id": "PSY_magi_spell_Create_Sanctuary", "level": 1 }
+        ],
+        "traits": [ "PSY_MANA_STORE500" ],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_disaster",
+        "name": "[Magiclysm_with_Random_Dungeons] Disaster bringer",
+        "description": "You were drawn to Earth by a natural cataclysm and came to visit.",
+        "points": 12,
+        "skills": [  { "level": 7, "name": "spellcraft" }],
+        "spells": [ 
+          { "id": "PSY_magi_summon_guided_missile", "level": 1 },
+          { "id": "PSY_magi_spawn_pushing_orb", "level": 1 },
+          { "id": "PSY_magi_call_lightning_tornado", "level": 5 },
+          { "id": "PSY_magi_call_black_hole", "level": 1 },
+          { "id": "PSY_magi_open_summon_gate", "level": 1 },
+          { "id": "PSY_magi_meteor", "level": 1 }
+        ],
+        "traits": [ "PSY_MANA_STORE1500"],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_unholy_summoner",
+        "name": "[Magiclysm_with_Random_Dungeons] Unholy summoner",
+        "description": "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic.",
+        "points": 8,
+        "skills": [  { "level": 5, "name": "spellcraft" }],
+        "spells": [ 
+          { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
+          { "id": "PSY_magi_summon_flying_skul", "level": 1 },
+          { "id": "PSY_magi_spell_Create_Sanctuary", "level": 1 },
+          { "id": "PSY_magi_spawn_resurrect_orb", "level": 1 },
+          { "id": "PSY_magi_open_summon_gate", "level": 1 }
+        ],
+        "traits": [ "PSY_MANA_REGEN11"],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_the_clone",
+        "name": "[Magiclysm_with_Random_Dungeons] All for one",
+        "description": "You have the unique property of being able to create clones.\nLet's make this world full of you!",
+        "points": 8,
+        "skills": [  { "level": 5, "name": "spellcraft" }],
+        "spells": [ 
+          { "id": "PSY_magi_create_clone", "level": 5 }
+        ],
+        "traits": [ "PSY_MANA_REGEN11"],
+        "items": {
+          "both": {
+            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
+            "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      }
+
+]

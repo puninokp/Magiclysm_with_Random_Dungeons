@@ -1,0 +1,215 @@
+[
+
+    {
+        "id": "PSY_magi_potion_ManaUP500",
+        "name": { "str": "enhance potion:ManaUP500" },
+        "description": "Drinking this will permanently increase your Max MP by 500!.Each potion will only work once.",
+        "type": "COMESTIBLE",
+        "weight": "265 g",
+        "quench": 10,
+        "calories": 75,
+        "volume": "250ml",
+        "charges": 1,
+        "fun": -1,
+        "healthy": 1,
+        "symbol": "~",
+        "looks_like": "mana_potion_lesser",
+        "color": "light_blue",
+        "comestible_type": "DRINK",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_ManaUP500", "no_fail": true, "level": 0 },
+        "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
+        "price": 25000,
+        "freezing_point": 40
+    },
+
+    {
+        "id": "PSY_magi_potion_ManaUP1000",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:ManaUP1000" },
+        "description": "Drinking this will permanently increase your Max MP by 1000!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_ManaUP1000", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_ManaUP1500",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:ManaUP1500" },
+        "description": "Drinking this will permanently increase your Max MP by 1500!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_ManaUP1500", "no_fail": true, "level": 0 },
+        "price": 75000
+    },
+
+    {
+        "id": "PSY_magi_potion_MANA_REGEN11",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:MANA_REGEN1.1" },
+        "description": "Drinking this will permanently increase your MP regeneration speed by 1.1x!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_MANA_REGEN11", "no_fail": true, "level": 0 },
+        "price": 25000
+    },
+
+    {
+        "id": "PSY_magi_potion_MANA_REGEN12",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:MANA_REGEN1.2" },
+        "description": "Drinking this will permanently increase your MP regeneration speed by 1.2x!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_MANA_REGEN12", "no_fail": true, "level": 0 },
+        "price": 55000
+    },
+
+    {
+        "id": "PSY_magi_potion_MANA_REGEN13",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:MANA_REGEN1.3" },
+        "description": "Drinking this will permanently increase your MP regeneration speed by 1.3x!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_MANA_REGEN13", "no_fail": true, "level": 0 },
+        "price": 75000
+    },
+
+    {
+        "id": "PSY_magi_potion_STRUP_1",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:STRUP 1" },
+        "description": "Drinking this will permanently increase your STR by 1!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_STRUP_1", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_STRUP_2",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:STRUP 2" },
+        "description": "Drinking this will permanently increase your STR by 2!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_STRUP_2", "no_fail": true, "level": 0 },
+        "price": 100000
+    },
+
+    {
+        "id": "PSY_magi_potion_INTUP_1",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:INTUP 1" },
+        "description": "Drinking this will permanently increase your INT by 1!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_INTUP_1", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_INTUP_2",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:INTUP 2" },
+        "description": "Drinking this will permanently increase your INT by 2!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_INTUP_2", "no_fail": true, "level": 0 },
+        "price": 100000
+    },
+
+    {
+        "id": "PSY_magi_potion_DEXUP_1",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:DEXUP 1" },
+        "description": "Drinking this will permanently increase your DEX by 1!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_DEXUP_1", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_DEXUP_2",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:DEXUP 2" },
+        "description": "Drinking this will permanently increase your DEX by 2!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_DEXUP_2", "no_fail": true, "level": 0 },
+        "price": 100000
+    },
+
+    {
+        "id": "PSY_magi_potion_PERUP_1",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:PERUP 1" },
+        "description": "Drinking this will permanently increase your PER by 1!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_PERUP_1", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_PERUP_2",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:PERUP 2" },
+        "description": "Drinking this will permanently increase your PER by 2!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_PERUP_2", "no_fail": true, "level": 0 },
+        "price": 100000
+    },
+
+    {
+        "id": "PSY_magi_potion_STAMINA_REGEN11",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:STAMINA_REGEN1.1" },
+        "description": "Drinking this will permanently increase your Stamina regeneration speed by 1.1x!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_STAMINA_REGEN11", "no_fail": true, "level": 0 },
+        "price": 25000
+    },
+
+    {
+        "id": "PSY_magi_potion_STAMINA_REGEN12",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:STAMINA_REGEN1.2" },
+        "description": "Drinking this will permanently increase your Stamina regeneration speed by 1.2x!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_STAMINA_REGEN12", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_STAMINA_STORE15",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:STAMINA STORE15%" },
+        "description": "Drinking this will permanently increase your Max stamina by 15%!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_STAMINA_STORE15", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_SPEED_UP5",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:SPEED UP5%" },
+        "description": "Drinking this will permanently increase your action speed by 5%!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_SPEED_UP5", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_HP_UP10",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:MAXHP UP10%" },
+        "description": "Drinking this will permanently increase your MAXHP by 10%!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_HP_UP10", "no_fail": true, "level": 0 },
+        "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_HARDENSKIN1",
+        "type": "COMESTIBLE",
+        "name": { "str": "enhance potion:HARDENSKIN1" },
+        "description": "Drinking this will permanently increase your all parts of armor by 1!.Each potion will only work once.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_HARDENSKIN1", "no_fail": true, "level": 0 },
+        "price": 50000
+    }
+
+]

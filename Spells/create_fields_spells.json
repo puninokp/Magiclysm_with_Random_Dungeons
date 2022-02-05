@@ -1,0 +1,78 @@
+[
+
+    {
+        "id": "PSY_magi_spell_scatter_caltrop",
+        "type": "SPELL",
+        "name": "Scatter poisonous caltrops",
+        "description": "Scatter a lot of poisonous caltrops on target area. \n Those who step on it will be poisoned and decreased movement speed for a while. ",
+        "valid_targets": ["hostile","ally","ground"],
+        "flags": ["SILENT","NO_PROJECTILE","NO_LEGS" ],
+        "effect": "attack",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 6,
+        "max_level": 20,
+        "base_casting_time": 200,
+        "casting_time_increment": -2.5,
+        "final_casting_time": 150,
+        "base_energy_cost": 280,
+        "energy_increment": -2.5,
+        "final_energy_cost": 230,
+        "min_range": 8,
+        "max_range": 13,
+        "range_increment": 0.25,
+        "min_aoe": 5,
+        "max_aoe": 5,
+        "extra_effects": [
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"},
+          { "id": "PSY_magi_spell_scatter_caltrop_sub"}
+        ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_scatter_caltrop_sub",
+        "name": "Scatter_caltropsub",
+        "description": "This spell create orchard fields.",
+        "valid_targets": [ "ground"],
+        "effect": "attack",
+        "shape": "blast",
+        "base_casting_time": 20,
+        "flags": ["SILENT", "NO_LEGS", "NO_HANDS","RANDOM_TARGET" ],
+        "field_id": "fd_PSY_magi_caltrop",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "min_range": 5,
+        "max_range": 5,
+        "message": "",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_scatter_caltrop_bleed_sub"}
+        ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_scatter_caltrop_bleed_sub",
+        "name": "Scatter_caltropsub",
+        "description": "This spell create orchard fields.",
+        "valid_targets": [ "ground"],
+        "effect": "attack",
+        "shape": "blast",
+        "base_casting_time": 20,
+        "flags": ["SILENT", "NO_LEGS", "NO_HANDS" ],
+        "field_id": "fd_PSY_magi_caltrop_sub",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "min_range": 50,
+        "max_range": 50,
+        "message": ""
+    }
+
+]

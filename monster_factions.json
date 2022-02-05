@@ -1,0 +1,37 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_summoned_monster",
+    "friendly": [ "PSY_magi_random_dungeon_allies" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_the_box",
+    "friendly": [ "PSY_magi_summoned_monster", "human", "player" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_witch_doctor",
+    "friendly": [ "insect"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [ "zombie", "bot", "fungus", "exodii" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_monsters",
+    "friendly": [ "PSY_magi_random_dungeon_allies"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_allies",
+    "friendly": [ "insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters"],
+    "neutral": ["fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
+    "hate": [  "player"  ]
+  }
+]

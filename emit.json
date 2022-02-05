@@ -1,0 +1,40 @@
+[
+
+    {
+        "id": "PSY_magi_emit_hp_healing",
+        "type": "emit",
+        "field": "fd_PSY_magi_heal_air1",
+        "intensity": 1,
+        "qty": 60,
+        "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_speed_rising",
+      "type": "emit",
+      "field": "fd_PSY_magi_speed_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_stamina_recovery",
+      "type": "emit",
+      "field": "fd_PSY_magi_stamina_recovery_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_cursed",
+      "type": "emit",
+      "field": "fd_PSY_magi_cursed_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    }
+
+
+]

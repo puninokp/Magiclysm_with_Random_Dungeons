@@ -1,0 +1,198 @@
+[
+
+    {
+        "id": "PSY_magi_create_spellbook_from2",
+        "type": "SPELL",
+        "name": "Synthetic Spell books",
+        "components": "PSY_magi_spell_components_book_changer",
+        "description": "Synthetic 2 of [magiclysm_with_spell] spell books to 1 random its spell book.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "max_level": 10,
+        "effect": "none",
+        "shape": "blast",
+        "base_casting_time": 60000,
+        "final_casting_time": 60000,
+        "base_energy_cost": 1000,
+        "difficulty": 12,
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "flags": ["SILENT", "NO_LEGS", "NO_HANDS","WONDER" ],
+        "extra_effects": [
+            { "id": "PSY_magi_create_PSY_magi_control_beginner" },
+            { "id": "PSY_magi_create_PSY_magi_alien_advanced" },
+            { "id": "PSY_magi_create_PSY_magi_Vegetable_paradox" },
+            { "id": "PSY_magi_create_PSY_magi_tome_of_trickstar" },
+            { "id": "PSY_magi_create_PSY_magi_the_fear_of_disaster" },
+            { "id": "PSY_magi_create_PSY_magi_summon_advanced" },
+            { "id": "PSY_magi_create_PSY_magi_ninja_instruction" },
+            { "id": "PSY_magi_create_PSY_magi_unholy_summoning_advanced" },
+            { "id": "PSY_magi_create_PSY_magi_create_items_spellbook" },
+            { "id": "PSY_magi_create_PSY_magi_create_totems_spellbook" }       
+          ]
+      },
+    
+    
+      {
+        "id": "PSY_magi_create_PSY_magi_control_beginner",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_control_beginner",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_alien_advanced",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_alien_advanced",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_Vegetable_paradox",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_Vegetable_paradox",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_tome_of_trickstar",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_tome_of_trickstar",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_the_fear_of_disaster",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_the_fear_of_disaster",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_summon_advanced",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_summon_advanced",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_ninja_instruction",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_ninja_instruction",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_unholy_summoning_advanced",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_unholy_summoning_advanced",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_create_items_spellbook",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_create_items_spellbook",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      },
+
+      {
+        "id": "PSY_magi_create_PSY_magi_create_totems_spellbook",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_create_totems_spellbook",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+      }
+
+
+]

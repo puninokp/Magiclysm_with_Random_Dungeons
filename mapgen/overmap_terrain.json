@@ -1,0 +1,63 @@
+[
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_bugtower_1", "PSY_magi_bugtower_2", "PSY_magi_bugtower_3", "PSY_magi_bugtower_4" ],
+        "name": "witch doctor tower",
+        "sym": "B",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_0_NW","PSY_magi_random_dungeon_0_NE","PSY_magi_random_dungeon_0_SW","PSY_magi_random_dungeon_0_SE" ],
+        "name": "Random Dungeon",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_1_NW","PSY_magi_random_dungeon_1_NE","PSY_magi_random_dungeon_1_SW","PSY_magi_random_dungeon_1_SE" ],
+        "name": "Random Dungeon -1F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_2_NW","PSY_magi_random_dungeon_2_NE","PSY_magi_random_dungeon_2_SW","PSY_magi_random_dungeon_2_SE" ],
+        "name": "Random Dungeon -2F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_3_NW","PSY_magi_random_dungeon_3_NE","PSY_magi_random_dungeon_3_SW","PSY_magi_random_dungeon_3_SE" ],
+        "name": "Random Dungeon -3F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_base_NW","PSY_magi_random_dungeon_base_NE","PSY_magi_random_dungeon_base_SW","PSY_magi_random_dungeon_base_SE" ],
+        "name": "Random Dungeon",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    }
+
+]

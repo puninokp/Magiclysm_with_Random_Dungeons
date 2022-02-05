@@ -1,0 +1,165 @@
+[
+
+    {
+        "type": "furniture",
+        "id": "PSY_magi_f_huge_blue_crystal",
+        "name": "huge mana crystal",
+        "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate blue energy, occasionally bursting with flashes of pent-up light.",
+        "symbol": "]",
+        "color": "white_yellow",
+        "move_cost_mod": -1,
+        "coverage": 75,
+        "required_str": -1,
+        "looks_like": "f_boulder_large",
+        "flags": [ "TRANSPARENT" ],
+        "emissions": [ "PSY_magi_emit_speed_rising" ],
+        "light_emitted": 12,
+        "bash": {
+          "str_min": 25,
+          "str_max": 35,
+          "sound": "glass shattering!",
+          "sound_fail": "mana crackling!",
+          "items": [
+            { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+            { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+            { "item": "glass_shard", "count": [ 8, 12 ] }
+          ]
+        }
+    },
+
+    {
+        "type": "furniture",
+        "id": "PSY_magi_f_huge_red_crystal",
+        "name": "huge mana crystal",
+        "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate red energy, occasionally bursting with flashes of pent-up light.",
+        "symbol": "]",
+        "color": "white_yellow",
+        "move_cost_mod": -1,
+        "coverage": 75,
+        "required_str": -1,
+        "looks_like": "f_boulder_large",
+        "flags": [ "TRANSPARENT" ],
+        "emissions": [ "PSY_magi_emit_hp_healing" ],
+        "light_emitted": 12,
+        "bash": {
+          "str_min": 25,
+          "str_max": 35,
+          "sound": "glass shattering!",
+          "sound_fail": "mana crackling!",
+          "items": [
+            { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+            { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+            { "item": "glass_shard", "count": [ 8, 12 ] }
+          ]
+        }
+    },
+
+    {
+      "type": "furniture",
+      "id": "PSY_magi_f_huge_bloody_crystal",
+      "name": "huge mana crystal",
+      "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate dark-red energy, occasionally bursting with flashes of pent-up light.",
+      "symbol": "]",
+      "color": "white_yellow",
+      "move_cost_mod": -1,
+      "coverage": 75,
+      "required_str": -1,
+      "looks_like": "f_boulder_large",
+      "flags": [ "TRANSPARENT" ],
+      "emissions": [ "PSY_magi_emit_cursed" ],
+      "light_emitted": 12,
+      "bash": {
+        "str_min": 25,
+        "str_max": 35,
+        "sound": "glass shattering!",
+        "sound_fail": "mana crackling!",
+        "items": [
+          { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+          { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+          { "item": "glass_shard", "count": [ 8, 12 ] }
+        ]
+      }
+  },
+
+  {
+      "type": "furniture",
+      "id": "PSY_magi_f_huge_green_crystal",
+      "name": "huge mana crystal",
+      "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+      "symbol": "]",
+      "color": "white_yellow",
+      "move_cost_mod": -1,
+      "coverage": 75,
+      "required_str": -1,
+      "looks_like": "f_boulder_large",
+      "flags": [ "TRANSPARENT" ],
+      "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+      "light_emitted": 12,
+      "bash": {
+        "str_min": 25,
+        "str_max": 35,
+        "sound": "glass shattering!",
+        "sound_fail": "mana crackling!",
+        "items": [
+          { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+          { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+          { "item": "glass_shard", "count": [ 8, 12 ] }
+        ]
+      }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_treasure",
+    "name": "huge treasure",
+    "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_treasure_opened",
+    "name": "opened huge treasure",
+    "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  }
+
+]

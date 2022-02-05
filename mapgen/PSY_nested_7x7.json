@@ -1,0 +1,1281 @@
+[
+
+    {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_null",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|||||||",
+            "|||||||",
+            "|||||||",
+            "|||||||",
+            "|||||||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "faction_owner": [
+            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+          ],
+          "rows": [
+            "|||||||",
+            "|X|||X|",
+            "t|%%%|t",
+            "||%%%||",
+            "t|%%%|t",
+            "|!|||!|",
+            "|||||||"
+          ],
+          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
+          "monster": { 
+            "X": { "monster": "mon_forgeborn", "friendly": true },
+            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
+          },
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "w": "t_water_sh",
+            "l": "t_lava",
+            "#": "t_strconc_wall",
+            "t": "t_ov_reb_cage",
+            "%": "PSY_magi_t_carpet_red",
+            "W": "t_water_dp",
+            "3": "t_water_moving_sh_underground",
+            " ": "t_region_groundcover_forest",
+            "T": "t_trunk",
+            "&": "t_ballistic_door_glass_c",
+            ".": "t_window_stained_green",
+            "X": "PSY_magi_t_strconc_floor",
+            "|": "PSY_magi_t_strconc_floor",
+            "h": "PSY_magi_t_strconc_floor",
+            "!": "PSY_magi_t_strconc_floor",
+            "~": "PSY_magi_t_strconc_floor",
+            "1": "PSY_magi_t_strconc_floor",
+            "z": "PSY_magi_t_strconc_floor",
+            "Z": "PSY_magi_t_strconc_floor",
+            "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
+            "f": "PSY_magi_t_strconc_floor",
+            "F": "PSY_magi_t_strconc_floor",
+            "8": "PSY_magi_t_strconc_floor",
+            "9": "t_vault_vent",
+            "2": "PSY_magi_t_strconc_floor",
+            "4": "PSY_magi_t_thconc_floor",
+            "+": "t_railroad_rubble"
+          },
+          "furniture": {
+            "h": "f_demon_forge",
+            "@": "f_logstool",
+            "c": "f_orrery",
+            "Y": [ [ "f_boulder_small", 5 ], "f_boulder_medium", "f_boulder_large", "f_glow_boulder" ],
+            "=": "f_huge_mana_crystal",
+            "z": "f_alembic",
+            "Z": "f_magic_bench",
+            "!": "f_anvil",
+            "f": "f_table",
+            "2": "f_everburning_candelabra"
+          },
+          "items": {
+            "%": [
+              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
+              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
+              { "item": "magic_smith", "chance": 15 }
+            ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "faction_owner": [
+            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+          ],
+          "rows": [
+            "Xwh|||X",
+            "|||||||",
+            "~|%%%|~",
+            "||%%%||",
+            "~|%%%|~",
+            "|~|||~|",
+            "@@~~~Zz"
+          ],
+          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
+          "monster": { 
+            "X": { "monster": "mon_forgeborn", "friendly": true },
+            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3},  
+            "~": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
+          },
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "w": "t_water_sh",
+            "l": "t_lava",
+            "#": "t_strconc_wall",
+            "t": "t_ov_reb_cage",
+            "%": "PSY_magi_t_carpet_red",
+            "W": "t_water_dp",
+            "3": "t_water_moving_sh_underground",
+            " ": "t_region_groundcover_forest",
+            "T": "t_trunk",
+            "&": "t_ballistic_door_glass_c",
+            ".": "t_window_stained_green",
+            "X": "PSY_magi_t_strconc_floor",
+            "|": "PSY_magi_t_strconc_floor",
+            "h": "PSY_magi_t_strconc_floor",
+            "!": "PSY_magi_t_strconc_floor",
+            "~": "PSY_magi_t_strconc_floor",
+            "1": "PSY_magi_t_strconc_floor",
+            "c": "PSY_magi_t_strconc_floor",
+            "z": "PSY_magi_t_strconc_floor",
+            "Z": "PSY_magi_t_strconc_floor",
+            "@": "PSY_magi_t_strconc_floor",
+            "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
+            "f": "PSY_magi_t_strconc_floor",
+            "F": "PSY_magi_t_strconc_floor",
+            "8": "PSY_magi_t_strconc_floor",
+            "9": "t_vault_vent",
+            "2": "PSY_magi_t_strconc_floor",
+            "4": "PSY_magi_t_thconc_floor",
+            "+": "t_railroad_rubble"
+          },
+          "furniture": {
+            "h": "f_demon_forge",
+            "@": "f_logstool",
+            "c": "f_orrery",
+            "Y": [ [ "f_boulder_small", 5 ], "f_boulder_medium", "f_boulder_large", "f_glow_boulder" ],
+            "=": "f_huge_mana_crystal",
+            "z": "f_alembic",
+            "Z": "f_magic_bench",
+            "!": "f_anvil",
+            "f": "f_table",
+            "2": "f_everburning_candelabra"
+          },
+          "items": {
+            "%": [
+              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
+              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
+              { "item": "magic_smith", "chance": 15 }
+            ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "faction_owner": [
+            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+          ],
+          "rows": [
+            "|X|||||",
+            "|~~~~~|",
+            "|~%%%~|",
+            "|&%%%~|",
+            "|~%%%~|",
+            "|~~~~~|",
+            "|||||X|"
+          ],
+          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
+          "monster": { 
+            "X": { "monster": "mon_forgeborn", "friendly": true },
+            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
+          },
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "w": "t_water_sh",
+            "l": "t_lava",
+            "#": "t_strconc_wall",
+            "t": "t_ov_reb_cage",
+            "%": "PSY_magi_t_carpet_red",
+            "W": "t_water_dp",
+            "3": "t_water_moving_sh_underground",
+            " ": "t_region_groundcover_forest",
+            "T": "t_trunk",
+            "&": "t_ballistic_door_glass_c",
+            ".": "t_window_stained_green",
+            "X": "PSY_magi_t_strconc_floor",
+            "|": "PSY_magi_t_strconc_floor",
+            "h": "PSY_magi_t_strconc_floor",
+            "!": "PSY_magi_t_strconc_floor",
+            "~": "t_wall_glassteel_alarm",
+            "1": "PSY_magi_t_strconc_floor",
+            "z": "PSY_magi_t_strconc_floor",
+            "Z": "PSY_magi_t_strconc_floor",
+            "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
+            "f": "PSY_magi_t_strconc_floor",
+            "F": "PSY_magi_t_strconc_floor",
+            "8": "PSY_magi_t_strconc_floor",
+            "9": "t_vault_vent",
+            "2": "PSY_magi_t_strconc_floor",
+            "4": "PSY_magi_t_thconc_floor",
+            "+": "t_railroad_rubble"
+          },
+          "furniture": {
+            "h": "f_demon_forge",
+            "@": "f_logstool",
+            "c": "f_orrery",
+            "Y": [ [ "f_boulder_small", 5 ], "f_boulder_medium", "f_boulder_large", "f_glow_boulder" ],
+            "=": "f_huge_mana_crystal",
+            "z": "f_alembic",
+            "Z": "f_magic_bench",
+            "!": "f_anvil",
+            "f": "f_table",
+            "2": "f_everburning_candelabra"
+          },
+          "items": {
+            "%": [
+              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
+              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
+              { "item": "magic_smith", "chance": 15 }
+            ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_insects_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||s|s=",
+            "|||||||",
+            "|||||||",
+            "s|||||s",
+            "|||||||",
+            "|||||||",
+            "=||s|s|"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "s": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            "|": [
+              "t_swater_sh",
+              "t_swater_sh",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_underbrush",
+              "t_tree",
+              "t_tree_young"
+            ],
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_RND_INSECTS", "x": [ 2, 4 ], "y": [ 2, 3 ] }
+          ],
+          "monster": { 
+            "=": { "monster": "PSY_magi_rnd_mon_insect_summoner", "chance": 15}  
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_insects_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "ssssss=",
+            "s|||||s",
+            "s|||||s",
+            "s|||||s",
+            "s|||||s",
+            "s|||||s",
+            "=ssssss"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "s": [
+              "t_swater_sh",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "PSY_magi_t_dirt",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_grass",
+              "t_grass"
+            ],
+            "+": "PSY_magi_t_dirt",
+            "|": [
+              "t_swater_sh",
+              "t_swater_sh",
+              "PSY_magi_t_dirt",
+              "t_grass",
+              "t_grass"
+            ],
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_RND_INSECTS", "x": [ 0, 5 ], "y": 0 }
+          ],
+          "monster": { 
+            "=": { "monster": "PSY_magi_rnd_mon_insect_summoner", "chance": 20}  
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "%v|||bb",
+            "|YfAfY|",
+            "|Y~~~e|",
+            "|Y~+~Y|",
+            "|Y~~~Y|",
+            "aYYYYY|",
+            "aa|||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_thconc_floor",
+            "A": "PSY_magi_t_thconc_floor",
+            "v": "PSY_magi_t_thconc_floor",
+            "b": "PSY_magi_t_thconc_floor",
+            "f": "PSY_magi_t_thconc_floor",
+            "a": "t_region_tree_fruit",
+            "~": "t_water_pool_shallow",
+            " ": "PSY_magi_t_dirt",
+            "e": "t_water_pump",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "&": "f_trashcan",
+            "Y": [ [ "f_null", 40 ], "f_region_flower" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "L": "f_table",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "place_items": [
+            { "chance": 3, "item": "stash_drugs", "x": 0, "y": 0 },
+            { "chance": 10, "item": "magazines", "x": 6, "y": 0 },
+            { "chance": 10, "item": "child_items", "x": 6, "y": 0 },
+            { "chance": 10, "item": "child_items", "x": 5, "y": 0 },
+            { "chance": 10, "item": "snacks", "x": 5, "y": 0 },
+            { "chance": 10, "item": "toy_box", "x": 3, "y": 6 },
+            { "chance": 10, "item": "toy_box", "x": 4, "y": 6 }
+          ],
+          "vendingmachines": { "v": { "item_group": "PSY_magi_vending_food" } },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_BIRD_THUNDER", "x": [ 2, 5 ], "y": 6 }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "%v|||bb",
+            "|YfAfY|",
+            "|Y~~~e|",
+            "|Y~P~Y|",
+            "|Y~~~Y|",
+            "aYYYYY|",
+            "aa|||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_thconc_floor",
+            "A": "PSY_magi_t_thconc_floor",
+            "v": "PSY_magi_t_thconc_floor",
+            "b": "PSY_magi_t_thconc_floor",
+            "f": "PSY_magi_t_thconc_floor",
+            "a": "t_region_tree_fruit",
+            "~": "t_water_pool_shallow",
+            " ": "PSY_magi_t_dirt",
+            "e": "t_water_pump",
+            "%": "PSY_magi_t_thconc_floor",
+            "$": "PSY_magi_t_thconc_floor",
+            "=": "PSY_magi_t_thconc_floor",
+            ",": "PSY_magi_t_thconc_floor",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_thconc_floor",
+            "P": "PSY_magi_t_thconc_floor",
+            "!": "PSY_magi_t_thconc_floor"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "&": "f_trashcan",
+            "Y": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "L": "f_table",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "place_items": [
+            { "chance": 3, "item": "stash_drugs", "x": 0, "y": 0 },
+            { "chance": 10, "item": "magazines", "x": 6, "y": 0 },
+            { "chance": 10, "item": "child_items", "x": 6, "y": 0 },
+            { "chance": 10, "item": "child_items", "x": 5, "y": 0 },
+            { "chance": 10, "item": "snacks", "x": 5, "y": 0 },
+            { "chance": 10, "item": "toy_box", "x": 3, "y": 6 },
+            { "chance": 10, "item": "toy_box", "x": 4, "y": 6 }
+          ],
+          "vendingmachines": { "v": { "item_group": "PSY_magi_vending_drink" } },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_BIRD_THUNDER", "x": [ 2, 5 ], "y": 6 }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "#|#|#|#",
+            "|#|#|#|",
+            "#|||||#",
+            "|#|i|#|",
+            "#|||||#",
+            "|#|#|#|",
+            "#|#|#|#"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "#": "PSY_magi_t_dirt",
+            "i": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "#": "f_hedge_tall",
+            "&": "f_trashcan",
+            "Y": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_topiary_dragon",
+            "L": "f_table",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "enchanted_misc", "chance": 1 },
+              { "item": "enchanted_tokens_tool", "chance": 1 },
+              { "item": "enchanted_rings_common", "chance": 3 }
+            ]
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_BIRD_BLAZE", "x": 2, "y": [ 1, 4 ] }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_4",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "#|#|#|#",
+            "|#|#|#|",
+            "#|||||#",
+            "|#|+|#|",
+            "#|||||#",
+            "|#|#|#|",
+            "#|#|#|#"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "#": "t_grass",
+            "i": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "&": "f_trashcan",
+            "#": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "L": "f_table",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "enchanted_rings_uncommon", "chance": 1 },
+              { "item": "enchanted_small_items", "chance": 3 },
+              { "item": "enchanted_rings_common", "chance": 2 }
+            ]
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_BIRD_BLAZE", "x": 2, "y": [ 1, 4 ] }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_5",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|uuu|X|",
+            "|u+u|||",
+            "|uuSuu|",
+            "|||uPu|",
+            "|w|uuu|",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_carpet_red",
+            "S": "PSY_magi_t_carpet_red",
+            "X": "PSY_magi_t_carpet_red",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "u": "t_underbrush_harvested_spring",
+            "$": "PSY_magi_t_dirt",
+            "#": "t_grass",
+            "w": "t_water_pool_shallow",
+            "i": "PSY_magi_t_carpet_red",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_carpet_red",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "S": "f_statue",
+            "&": "f_trashcan",
+            "#": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "L": "f_table",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "classless_items", "chance": 3 },
+              { "item": "forge_vault_money", "chance": 4 },
+              { "item": "forge_vault_items", "chance": 2 }
+            ]
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_BIRD_BLAZE", "x": [ 1, 2 ], "y": 0 },
+            { "monster": "GROUP_PSY_magi_BIRD_THUNDER", "x": [ 4, 5 ], "y": 6 }
+            
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_6",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "||Y||||",
+            "||##b||",
+            "||##b||",
+            "|cbb|||",
+            "|Lc||t|",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "Y": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor",
+            "b": "PSY_magi_t_floor",
+            "L": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "k": "PSY_magi_t_floor",
+            "S": "PSY_magi_t_carpet_red",
+            "X": "PSY_magi_t_carpet_red",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "u": "t_underbrush_harvested_spring",
+            "$": "PSY_magi_t_dirt",
+            ",": "t_region_groundcover_urban",
+            ".": "t_open_air",
+            "*": "t_region_shrub_decorative",
+            "_": "t_pavement",
+            ";": "t_tile_flat_roof",
+            "^": "t_region_tree_fruit",
+            "[": "t_sidewalk",
+            "!": "t_privacy_fence",
+            ":": "t_railing",
+            "#": "t_wall_glass_alarm",
+            "w": "t_water_pool_shallow",
+            "i": "PSY_magi_t_carpet_red",
+            "=": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_carpet_red"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "t": "PSY_magi_f_huge_green_crystal",
+            "k": "PSY_magi_f_huge_green_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "S": "f_statue",
+            "&": "f_trashcan",
+            "c": "f_cupboard",
+            "C": "f_counter",
+            "L": "f_alembic",
+            "#": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bookcase",
+            "Y": "f_rack_coat",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "classless_items", "chance": 1 },
+              { "item": "forge_vault_money", "chance": 1 },
+              { "item": "forge_vault_items", "chance": 1 },
+              { "item": "magic_tools_and_loot", "chance": 3 }
+            ],
+            "Y": [ { "item": "coat_rack", "chance": 70 }, { "item": "magic_shop_clothes", "chance": 30 } ],
+            "b": [
+              { "item": "homebooks", "chance": 45, "repeat": [ 1, 5 ] },
+              { "item": "spellbook_loot_1", "chance": 15 },
+              { "item": "spellbook_loot_2", "chance": 1 }
+            ]
+          },
+          "monster": { 
+            "|": { "monster": "mon_plasticgolem", "chance": 10}  
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_7",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "b|||||b",
+            "|b|S|b|",
+            "|Yb|b||",
+            "|S|k|S|",
+            "||b|b||",
+            "|b|S|b|",
+            "b|||||b"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "Y": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor",
+            "b": "PSY_magi_t_floor",
+            "L": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "k": "PSY_magi_t_floor",
+            "S": "PSY_magi_t_carpet_red",
+            "X": "PSY_magi_t_carpet_red",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "u": "t_underbrush_harvested_spring",
+            "$": "PSY_magi_t_dirt",
+            ",": "t_region_groundcover_urban",
+            ".": "t_open_air",
+            "*": "t_region_shrub_decorative",
+            "_": "t_pavement",
+            ";": "t_tile_flat_roof",
+            "^": "t_region_tree_fruit",
+            "[": "t_sidewalk",
+            "!": "t_privacy_fence",
+            ":": "t_railing",
+            "#": "t_grass",
+            "w": "t_water_pool_shallow",
+            "i": "PSY_magi_t_carpet_red",
+            "=": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_carpet_red"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "t": "PSY_magi_f_huge_green_crystal",
+            "k": "PSY_magi_f_huge_bloody_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "S": "f_statue",
+            "&": "f_trashcan",
+            "c": "f_cupboard",
+            "C": "f_counter",
+            "L": "f_alembic",
+            "#": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bookcase",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "snacks", "chance": 5, "repeat": [ 1, 2 ] },
+              { "item": "magic_tools_and_loot", "chance": 2 }
+            ],
+            "Y": [ { "item": "coat_rack", "chance": 70 }, { "item": "magic_shop_clothes", "chance": 30 } ],
+            "b": [
+              { "item": "homebooks", "chance": 15, "repeat": [ 1, 5 ] },
+              { "item": "spellbook_loot_1", "chance": 2 }
+            ]
+          },
+          "monster": { 
+            "Y": { "monster": "mon_leprechaun", "chance": 100}  
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_crystalhouse_8",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||%v",
+            "|||||||",
+            "|hhhh||",
+            "|h+thB|",
+            "|hkPhb|",
+            "|hhhh||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_carpet_yellow",
+            "Y": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor",
+            "b": "PSY_magi_t_carpet_yellow",
+            "L": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_carpet_yellow",
+            "B": "PSY_magi_t_carpet_yellow",
+            "v": "PSY_magi_t_carpet_yellow",
+            "k": "PSY_magi_t_carpet_yellow",
+            "S": "PSY_magi_t_carpet_red",
+            "X": "PSY_magi_t_carpet_red",
+            "+": "PSY_magi_t_carpet_yellow",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_carpet_yellow",
+            "u": "t_underbrush_harvested_spring",
+            "$": "PSY_magi_t_dirt",
+            ",": "t_region_groundcover_urban",
+            ".": "t_open_air",
+            "*": "t_region_shrub_decorative",
+            "_": "t_pavement",
+            ";": "t_tile_flat_roof",
+            "^": "t_region_tree_fruit",
+            "[": "t_sidewalk",
+            "!": "t_privacy_fence",
+            ":": "t_railing",
+            "#": "t_grass",
+            "w": "t_water_pool_shallow",
+            "i": "PSY_magi_t_carpet_red",
+            "=": "PSY_magi_t_carpet_red",
+            "~": "PSY_magi_t_dirt",
+            "h": "t_wall_glass_alarm",
+            "P": "PSY_magi_t_carpet_yellow"
+          },
+
+          "furniture": {
+            "+": "PSY_magi_f_huge_red_crystal",
+            "t": "PSY_magi_f_huge_green_crystal",
+            "k": "PSY_magi_f_huge_bloody_crystal",
+            "P": "PSY_magi_f_huge_blue_crystal",
+            "$": "f_firering",
+            "%": "f_trashcan",
+            "S": "f_statue",
+            "&": "f_trashcan",
+            "c": "f_cupboard",
+            "C": "f_counter",
+            "L": "f_alembic",
+            "#": [ [ "f_null", 40 ], "f_region_weed","f_region_water_plant","f_boulder_small" ],
+            "{": "f_dumpster",
+            "A": "f_statue",
+            "B": "f_bench",
+            "b": "f_bench",
+            "Y": "f_rack_coat",
+            "d": "f_region_weed",
+            "f": "f_region_flower_decorative",
+            "I": "f_region_water_plant",
+            "i": "f_region_water_plant",
+            "O": [ [ "f_boulder_small", 2 ], [ "f_boulder_medium", 4 ], "f_boulder_large" ],
+            "T": "f_table",
+            "v": "f_vending_c",
+            "x": "f_toilet",
+            "X": "f_trashcan",
+            "0": [ [ "f_boulder_medium", 3 ], "f_boulder_large" ],
+            "5": "f_sink"
+          },
+          "items": {
+            "|": [
+              { "item": "magic_tools_and_loot", "chance": 4 }
+            ],
+            "Y": [ { "item": "coat_rack", "chance": 70 }, { "item": "magic_shop_clothes", "chance": 30 } ],
+            "b": [
+              { "item": "homebooks", "chance": 15, "repeat": [ 1, 5 ] },
+              { "item": "spellbook_loot_1", "chance": 2 }
+            ]
+          },
+          "monster": { 
+            "B": { "monster": "PSY_magi_rnd_mon_totem_summoner", "chance": 100},
+            "|": { "monster": "PSY_magi_rnd_mon_flying_mask2", "chance": 3},
+            "b": { "monster": "PSY_magi_rnd_mon_insect_summoner", "chance": 100}  
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_ninja_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|yy|yy|",
+            "|y|||y|",
+            "||%|%||",
+            "|y|||y|",
+            "|yy|yy|",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "y": [ "f_indoor_plant", "f_indoor_plant_y" ],
+            "|": "f_tatami",
+            "%": "f_tatami",
+            "B": "f_bench",
+            "C": "f_chair",
+            "D": "f_desk",
+            "L": "f_locker",
+            "S": "f_shower",
+            "X": "f_rack",
+            "p": [ "f_datura", "f_bluebell", "f_mutpoppy", "f_dahlia", "f_flower_tulip", "f_chamomile", "f_flower_spurge", "f_lily" ]
+          },
+          "monster": {
+            "%": { "monster": "PSY_magi_rnd_mon_ninja2", "chance": 100 }
+          },
+          "items": { "|": { "item": "PSY_magi_mon_ninja_drop_scrolls", "chance": 5 } }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_ninja_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|CC|CC|",
+            "|||||||",
+            "|L|L|L|",
+            "|S|S|S|",
+            "|S|S|S|",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "C": "PSY_magi_t_dirt",
+            "L": "PSY_magi_t_dirt",
+            "S": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "y": [ "f_indoor_plant", "f_indoor_plant_y" ],
+            "|": "f_tatami",
+            "%": "f_tatami",
+            "B": "f_bench",
+            "C": "f_chair",
+            "D": "f_desk",
+            "L": "f_locker",
+            "S": "f_shower",
+            "X": "f_rack",
+            "p": [ "f_datura", "f_bluebell", "f_mutpoppy", "f_dahlia", "f_flower_tulip", "f_chamomile", "f_flower_spurge", "f_lily" ]
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_ninja", "chance": 13 }
+          },
+          "items": { 
+            "|": { "item": "PSY_magi_mon_ninja_drop_scrolls", "chance": 5 },
+            "L": { "item": "judo_belts", "chance": 80 },
+            "C": { "item": "gi", "chance": 40 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_frog_ench_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "||hhh||",
+            "||ttt||",
+            "||hhh||",
+            "|||+|||",
+            "||XXX||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "X": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "i": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "h": "f_chair",
+            "@": "f_bed",
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "X": "f_sofa",
+            "s": "f_sink",
+            "o": "f_oven",
+            "f": "f_fridge",
+            "n": "f_counter",
+            "m": "f_cupboard",
+            "d": "f_dresser",
+            "R": "f_trashcan",
+            "D": "f_wardrobe",
+            "7": "f_bench",
+            "C": "f_armchair",
+            "t": "f_bookcase",
+            "B": "f_birdbath",
+            "a": "f_rack_coat",
+            "g": "f_floor_lamp",
+            "W": "f_fireplace",
+            "i": "f_beaded_door",
+            "x": "f_rotary_clothesline",
+            "S": "f_shower",
+            "l": "f_water_heater",
+            "k": "f_water_purifier"
+          },
+          "items": {
+            "h": { "item": "livingroom", "chance": 20 },
+            "t": [
+              { "item": "dragon_books", "chance": 30, "repeat": [ 1, 3 ] },
+              { "item": "druid_items", "chance": 10, "repeat": [ 0, 4 ] },
+              { "item": "novels", "chance": 60, "repeat": [ 1, 8 ] },
+              { "item": "religious_books", "chance": 60, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 30 }
+            ],
+            "X": [
+              { "item": "earthshaper_items", "chance": 30 },
+              { "item": "technomancer_items", "chance": 30 },
+              { "item": "stash_food", "chance": 50 }
+            ]
+          },
+          "monster": {
+            "+": { "monster": "PSY_magi_rnd_mon_frog_polymopher", "chance": 100 },
+            "h": { "monster": "PSY_magi_rnd_mon_upgradeable_frog", "chance": 50 }
+          }
+        }
+      }
+
+
+
+]

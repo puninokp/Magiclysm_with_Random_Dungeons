@@ -1,0 +1,38 @@
+[
+
+    {
+        "id": "PSY_magi_Small_UFO",
+        "type": "vehicle",
+        "name": "Small UFO",
+        "parts": [
+          { "x": 0, "y": 0, "parts": [ "frame_cross", "reclining_seat", "seatbelt", "PSY_magi_UFO_controls","PSY_magi_UFO_controls_electronic" ] },
+          { "x": 0, "y": 0, "parts": [ "dashboard", "roof" ] },
+          { "x": -1, "y": 0, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": 0, "parts": [ "PSY_magi_small_UFO_rotors", "PSY_magi_engine_turbine_UFO" ] },
+          { "x": -1, "y": 0, "parts": [ "PSY_magi_alternator_UFO", "PSY_magi_small_UFO_battery" ] },
+          { "x": -1, "y": 1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": -1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": -2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": 2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 0, "y": -2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 0, "y": 2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": -2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": 2, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": -2, "part": "turret_mount" },
+          { "x": 1, "y": 2, "part": "turret_mount" },
+          {
+            "x": 1,
+            "y": -2,
+            "part": "PSY_magi_mounted_fake_laser_gun"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "part": "PSY_magi_mounted_fake_laser_gun"
+          },
+          { "x": 1, "y": -2, "part": "headlight_reinforced" },
+          { "x": 1, "y": 2, "part": "headlight_reinforced" }
+        ]
+    }
+
+]

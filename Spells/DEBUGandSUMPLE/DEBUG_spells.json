@@ -1,0 +1,111 @@
+[
+
+    {
+        "id": "PSY_magi_CHEAT_recover_mana",
+        "type": "SPELL",
+        "name": "DEBUG Recover Mana",
+        "description": "You recover full of mana.",
+        "valid_targets": [ "self" ],
+        "min_damage": 50000,
+        "damage_increment": 500.0,
+        "max_damage": 70000,
+        "base_casting_time": 108,
+        "max_level": 40,
+        "effect": "recover_energy",
+        "effect_str": "MANA",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "message": "You start regenerating mana!",
+        "energy_source": "MANA",
+        "base_energy_cost": 0,
+        "energy_increment": 0,
+        "final_energy_cost": 0,
+        "flags": [ "SILENT", "NO_LEGS" ],
+        "difficulty": 0
+    },
+
+    {
+        "id": "PSY_magi_CHEAT_MANA_POCKET",
+        "type": "SPELL",
+        "name": "MUGEN MANA POCKET",
+        "description": "you've learned how to become slime while spitting slime mucus.   This spell changes your form like slime,   While its form,  you become smarter, increase perception and lose some muscles,   Immune from poison, disease and parasite.   sometimes split mini blob from your body.   But your look become ugly.  in addition, hunger and thirst are twice faster than normal to keep your form.",
+        "valid_targets": [ "self" ],
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_aura_MUGENMANA",
+        "shape": "blast",
+        "flags": [ "SOMATIC", "VERBAL" ],
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 8,
+        "base_casting_time": 60,
+        "base_energy_cost": 10,
+        "max_level": 20,
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_duration": 1080000,
+        "max_duration": 2160000,
+        "duration_increment": 54000
+    },
+
+    {
+        "id": "PSY_magi_aura_MUGENMANA",
+        "type": "ARMOR",
+        "name": "MUGEN MANA POCKET",
+        "description": "MUGEN OF MANA.",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "price": 3646,
+        "symbol": "o",
+        "color": "white",
+        "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 5.0, "add": 2500 } ] } ]
+        }
+    },
+
+    {
+        "id": "PSY_magi_crystallize_mana",
+        "type": "SPELL",
+        "name": "Crystallize Mana CHEAT",
+        "description": "Crystallizes mana +50, small mana crystal +1",
+        "valid_targets": [ "self" ],
+        "spell_class": "NONE",
+        "flags": [ "PERMANENT", "NO_LEGS", "CONCENTRATE" ],
+        "difficulty": 3,
+        "min_damage": 50,
+        "max_damage": 50,
+        "duration_increment": 1,
+        "effect": "spawn_item",
+        "effect_str": "crystallized_mana",
+        "shape": "blast",
+        "energy_source": "MANA",
+        "base_energy_cost": 10,
+        "final_energy_cost": 10,
+        "base_casting_time": 720,
+        "final_casting_time": 720,
+        "extra_effects": [ { "id": "PSY_magi_crystallize_mana_sub" } ]
+      },
+      
+      {
+        "id": "PSY_magi_crystallize_mana_sub",
+        "type": "SPELL",
+        "name": "Crystallize Mana",
+        "description": "Crystallizes mana into solid form",
+        "valid_targets": [ "self" ],
+        "spell_class": "NONE",
+        "flags": [ "PERMANENT", "NO_LEGS", "CONCENTRATE" ],
+        "difficulty": 3,
+        "min_damage": 1,
+        "max_damage": 1,
+        "duration_increment": 1,
+        "effect": "spawn_item",
+        "effect_str": "small_mana_crystal",
+        "shape": "blast",
+        "energy_source": "MANA",
+        "base_energy_cost": 10,
+        "final_energy_cost": 10,
+        "base_casting_time": 720,
+        "final_casting_time": 720
+      }
+
+]

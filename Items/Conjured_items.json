@@ -1,0 +1,463 @@
+[
+
+    {
+        "id": "PSY_magi_web_bomb",
+        "looks_like": "gasbomb_makeshift",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": { "str": "spider web canister" },
+        "description": "This is a magic bomb that uses mana. After equipping this item, pull out the pin. After five seconds, it will start spitting out spider webs.",
+        "weight": "1264 g",
+        "volume": "250 ml",
+        "price": 0,
+        "price_postapoc": 0,
+        "to_hit": -1,
+        "bashing": 6,
+        "material": [ "steel" ],
+        "symbol": "*",
+        "color": "dark_gray",
+        "use_action": {
+          "need_wielding": true,
+          "target": "PSY_magi_web_bomb_act",
+          "msg": "You arm the spider web canister.",
+          "target_charges": 10,
+          "active": true,
+          "menu_text": "Arm",
+          "type": "transform"
+        },
+        "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB","TRADER_AVOID" ]
+      },
+      {
+        "id": "PSY_magi_web_bomb_act",
+        "looks_like": "gasbomb_makeshift_act",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": { "str": "active spider web canister" },
+        "description": "This is a magic bomb that uses mana. After equipping this item, pull out the pin. After five seconds, it will start spitting out spider webs.",
+        "weight": "1264 g",
+        "volume": "250 ml",
+        "price": 0,
+        "price_postapoc": 0,
+        "to_hit": -1,
+        "bashing": 6,
+        "material": [ "steel" ],
+        "symbol": "*",
+        "color": "dark_gray",
+        "initial_charges": 10,
+        "max_charges": 10,
+        "turns_per_charge": 1,
+        "use_action": {
+          "type": "explosion",
+          "fields_type": "fd_web",
+          "fields_radius": 4,
+          "fields_min_intensity": 1,
+          "fields_max_intensity": 3,
+          "sound_volume": 0,
+          "sound_msg": "Hiss.",
+          "no_deactivate_msg": "You've already armed the %s; try throwing it instead."
+        },
+        "flags": [ "TRADER_AVOID" ]
+      },
+
+      {
+        "id": "PSY_magi_wand_summon_clone",
+        "type": "TOOL",
+        "name": "Clone of compressed cells.",
+        "weight": "25000 g",
+        "volume": "20000 ml",
+        "price": "400 USD",
+        "bashing": 1,
+        "to_hit": 1,
+        "material": [ "wood" ],
+        "looks_like": "spell_wand",
+        "description": "It is a clone of you. Use this to make a clone that will follow you and support you in your life.",
+        "symbol": "|",
+        "color": "brown",
+        "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+        "use_action": {
+          "type": "place_npc",
+          "npc_class_id": "PSY_magi_yourclone",
+          "summon_msg": "hmm?",
+          "place_randomly": true,
+          "moves": 50
+        }
+      },
+
+      {
+        "id": "PSY_magi_Ethereal_moon_light",
+        "looks_like": "spell_wand",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": { "str": "Magic moon light" },
+        "description": "A magic wand that attacks by emitting a strong light on the target. The ammunition will fill up as time passes.",
+        "weight": "2950 g",
+        "volume": "3 L",
+        "longest_side": "900 mm",
+        "to_hit": 1,
+        "bashing": 28,
+        "material": [ "magical_material" ],
+        "symbol": "(",
+        "color": "yellow",
+        "ammo": [ "crystallized_mana" ],
+        "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 s", "regenerate_ammo": true } },
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 100 } } ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_moon_light_magic", "no_fail": true, "level": 1, "need_wielding": true },
+        "flags": [
+            "BELT_CLIP", 
+            "MAGIC_FOCUS",
+            "UNBREAKABLE_MELEE",
+            "NONCONDUCTIVE",
+            "NO_REPAIR",
+            "NO_SALVAGE",
+            "NO_UNLOAD",
+            "TRADER_AVOID"
+          ]
+      },
+
+      {
+        "type": "GENERIC",
+        "id": "PSY_magi_conjure_bat",
+        "looks_like": "bat",
+        "name": { "str": "baseball bat" },
+        "description": "A sturdy wood bat.  Makes a great melee weapon.",
+        "weight": "1133 g",
+        "longest_side": "90 cm",
+        "to_hit": 5,
+        "price_postapoc": 750,
+        "color": "brown",
+        "symbol": "/",
+        "material": [ "wood" ],
+        "techniques": [ "WBLOCK_1" ],
+        "flags": [ "DURABLE_MELEE" ],
+        "volume": "1750 ml",
+        "bashing": 22,
+        "price": 10
+      },
+
+      {
+        "id": "PSY_magi_Woodskin_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "Woodskin" },
+        "description": "A thick layer of bark that affords some protections againist stub, cut and bash.",
+        "weight": "3000g",
+        "volume": "15000ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_BASH", "multiply": -0.2 },{ "value": "ARMOR_CUT", "multiply": -0.2 },{ "value": "ARMOR_STAB", "multiply": -0.2 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_acid_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "acid resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against acid.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "symbol": "o",
+        "material": [ "magical_material" ],
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ACID", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_bash_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "bash resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against bash.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_BASH", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_cut_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "cut resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against cut.",
+        "weight": "1g",
+        "volume": "1ml",
+        "material": [ "magical_material" ],
+        "price": 3646,
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_stab_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "stab resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against stab.",
+        "weight": "1g",
+        "volume": "1ml",
+        "material": [ "magical_material" ],
+        "price": 3646,
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_STAB", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_heat_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "heat resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against heat.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "symbol": "o",
+        "material": [ "magical_material" ],
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_cold_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "cold resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against cold.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "symbol": "o",
+        "material": [ "magical_material" ],
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_elec_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "electro resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against electro.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC", "multiply": -0.5 } ] } ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_bio_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "bio resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against bio.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_BIO", "multiply": -0.5 } ] } ]
+        }
+      },
+      
+      {
+        "id": "PSY_magi_golem_crystal",
+        "type": "TOOL",
+        "name": { "str": "golem crystal" },
+        "description": "It is an inactive golem. Activate it to summon a golem with a variety of attack methods!",
+        "weight": "4700 g",
+        "volume": "750 ml",
+        "price": 64500,
+        "price_postapoc": 3000,
+        "to_hit": -3,
+        "bashing": 6,
+        "cutting": 6,
+        "material": [ "aluminum", "plastic" ],
+        "symbol": ",",
+        "color": "cyan",
+        "use_action": {
+          "type": "place_monster",
+          "monster_id": "PSY_magi_mon_crystal_golem",
+          "friendly_msg": "The crystal golem!",
+          "hostile_msg": "You misprogram the EMP hack; take cover!",
+          "difficulty": 0,
+          "moves": 60,
+          "place_randomly": true,
+          "skills": [ "electronics", "computer" ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_golem_crystal_broken",
+        "type": "TOOL",
+        "name": { "str": "broken golem crystal" },
+        "description": "This is an broken golem crystal.You can repair it from the Craft menu.",
+        "weight": "4700 g",
+        "volume": "750 ml",
+        "price": 64500,
+        "price_postapoc": 3000,
+        "to_hit": -3,
+        "bashing": 6,
+        "cutting": 6,
+        "material": [ "aluminum", "plastic" ],
+        "symbol": ",",
+        "color": "cyan"
+      },
+
+      {
+        "id": "PSY_magi_powerful_great_blessing",
+        "type": "ARMOR",
+        "name": "Great Blessing",
+        "looks_like": "protect_env",
+        "description": "You got great blessing and covered by protect aura that reduce all received damage by half and increase your HP,STAMINA and MANA by 20%. This aura also heal your hp every 10 minutes",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "price": 3646,
+        "symbol": "o",
+        "material": [ "magical_material" ],
+        "color": "white",
+        "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "warmth": 0,
+        "material_thickness": 2,
+        "environmental_protection": 5,
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "relic_data": {
+          "passive_effects": [
+            {
+              "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "light_healing", "hit_self": true } ] } ] }
+            },
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "STRENGTH", "add": 15 },
+                { "value": "DEXTERITY", "add": 15 },
+                { "value": "INTELLIGENCE", "add": 15 },
+                { "value": "PERCEPTION", "add": 15 },
+                { "value": "ARMOR_ACID", "multiply": -0.5 },
+                { "value": "ARMOR_BASH", "multiply": -0.5 },                
+                { "value": "ARMOR_CUT", "multiply": -0.5 },
+                { "value": "ARMOR_STAB", "multiply": -0.5 },
+                { "value": "ARMOR_HEAT", "multiply": -0.5 },
+                { "value": "ARMOR_COLD", "multiply": -0.5 },                
+                { "value": "ARMOR_ELEC", "multiply": -0.5 },
+                { "value": "ARMOR_STAB", "multiply": -0.5 },
+                { "value": "ARMOR_BIO", "multiply": -0.5 },
+                { "value": "MAX_HP", "multiply": 0.2 },
+                { "value": "MAX_MANA", "multiply": 0.2 },
+                { "value": "MAX_STAMINA", "multiply": 0.2 }
+              ],
+              "mutations": [
+                "REGEN"
+              ]
+            }
+          ]
+        }
+      }
+
+]

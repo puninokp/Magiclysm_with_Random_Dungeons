@@ -1,0 +1,1603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cataclysm-dda 0.E\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2022-02-04 11:00+0900\n"
+"Last-Translator: Pigmentblue15, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/cataclysm-dda-translators/teams/2217/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "Stormshaper Runes"
+msgstr "ストームシェイパー・ルーンズ"
+
+msgid "Mental cracking"
+msgstr "精神操作"
+
+msgid "Control an enemy under 180 MAX HP and change to our side for short of period."
+msgstr "敵の精神の隙間に入り込み、最大HP180以下の対象の敵を一時的に味方として戦わせる"
+
+msgid "Mass Mindcontrol"
+msgstr "集団マインドコントロール"
+
+msgid "This aoe spell Control enemies under the 100 MAXHP and force to fight for our side."
+msgstr "敵の精神の一部を書き換え、最大HP100以下の範囲内の敵を一時的に味方として戦わせる"
+
+msgid "Push Force"
+msgstr "押し出し波動"
+
+msgid "You channel the magical force to push an enemy backward."
+msgstr "魔法の力を手に籠めて強力な気力を敵にぶつけて後方に押しやる"
+
+msgid "Push Force Cone"
+msgstr "押し出しウェーブ"
+
+msgid "Vacuum Collect "
+msgstr "吸引回収"
+
+msgid ""
+"Distort space-time for a moment and collect surrounding items in the target area.\n"
+" This effects ignore walls."
+msgstr "一瞬の間時空を歪めて、収納されていない周囲のアイテムを目の前に引き寄せる。この効果は壁越しのアイテムにも発動する"
+
+msgid "Magnetic Field"
+msgstr "磁場フィールド"
+
+msgid "Distort the magnetic field and collect all object at the target point."
+msgstr "少しの間磁場を歪めて、生物やフィールドを含む周囲のオブジェクトを全てを対象地点に引き寄せる"
+
+msgid "Phase trick"
+msgstr "位相トリック"
+
+msgid ""
+"Swaps you and target positions in a short distance, \n"
+"  also slow target movement for a short of period."
+msgstr "短い範囲にいる対象と自分の位置を交換する。その対象は少しの間移動速度が低下する"
+
+msgid "long Phase trick"
+msgstr "広範囲位相トリック"
+
+msgid ""
+"Swaps you and target positions in a long distance,   also slow target movement for a short of period.     This spell requires "
+"a lot time for casting."
+msgstr "遠くにいる対象と自分の位置を交換してその対象の移動速度を少しの間低下させる。この魔法には長い詠唱時間が必要です。"
+
+msgid "Head Knocking"
+msgstr "脳震盪光線"
+
+msgid "This spell stuns enemy in short distance for a short time."
+msgstr "敵に脳に直接ダメージを与える見えない光線を放ち、一定の間動けなくする。"
+
+msgid "Sweep"
+msgstr "マジカル足払い"
+
+msgid "Sweeping with magical legs around and knock down units to the ground for a short time."
+msgstr "霊的な足を召喚し周囲の敵の脚にあたるものを払い、地面に叩きつけてノックダウンさせる。"
+
+msgid "Remove Tainted effect"
+msgstr "睨み汚染除去"
+
+msgid ""
+"Remove Tainted effect caused by flaming eye and immune for 1-3 hours.\n"
+" This spell also removes nausea symptoms."
+msgstr ""
+"フレーミングアイから睨まれたことで起きるデバフを取り除き、そのあと１～3時間の間睨みに耐性がある透明な膜を張る。また、それによる"
+"吐き気も抑える。"
+
+msgid "Create floating earth"
+msgstr "創造：浮遊する大地"
+
+msgid "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil."
+msgstr "周辺に漂う物質を凝縮し、空中に留まる踏める大地を召喚する。　水上や溶岩の上にも召喚することができる。"
+
+msgid "Necrotic Calamity"
+msgstr "ネクロティック・カラミティ"
+
+msgid ""
+"You sacrifice your own blood to amplify necrotic power into your fingertips, damaging the target you point at.\n"
+" Summon Skeleton snake for 10 minutes at target location if target is killed by this spell."
+msgstr ""
+"自分の鮮血を糧にし、指先に邪悪なる力を増幅させる。指を指した対象にバイオ属性のダメージを与え、この魔法により倒れた場合、対象の"
+"魂を生贄にしてスケルトンスネークを召喚する。"
+
+msgid "Tangled Vine"
+msgstr "絡みつく蔓"
+
+msgid ""
+"Conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n"
+" Monsters who steps on the vine will move slower."
+msgstr ""
+"対象の地点まで魔力によって作られた蔓を這わせ、到達すると同時に爆発的にその場所一面を絡みつく蔓を繁茂させる。絡みつく蔓は少しの"
+"時間フィールドに残り続け、少量のダメージを与え、敵の移動速度を低下させる."
+
+msgid "Create Accelerating fields"
+msgstr "召喚：加速フィールド"
+
+msgid ""
+"This spell creates magical field up to the target location, those fields greatly increase the movement those who step on ."
+msgstr ""
+"対象の地点まで速度が大幅に上がるフィールドを召喚する。このフィールドは少しの間残り続け、敵味方構わず乗る者の移動速度を上げる。"
+
+msgid "Create Sanctuary"
+msgstr "召喚：聖域"
+
+msgid ""
+"Create a sanctuary that lasts about 2 minutes at the target tile.\n"
+" while you are on it, gain greatly status buffs, recover some stamina every seconds and immune from dazed and stunned."
+msgstr ""
+"対象の地点に2分ほど続く聖域を召喚する。聖域の中にいる者はステータスが大幅に上がり、スタンと朦朧を無効化し毎秒スタミナが回復す"
+"る。"
+
+msgid "Create orchard fields"
+msgstr "インスタント果樹園"
+
+msgid ""
+"Instantly fills some of target tiles with orchard.\n"
+" Those who step on those fields gain status bonus, quench some thirst and greatly recover stamina."
+msgstr ""
+"対象のエリアにすぐに採取できる果樹園を作る。果樹園に入ったものは採取した後すぐにその果物を食べて少量の喉の渇きをいやし、スタミ"
+"ナを大幅に回復させて食べた果実の種類によってさまざまなバフを得ることができる。"
+
+msgid "Scatter poisonous caltrops"
+msgstr "有毒マキビシ"
+
+msgid ""
+"Scatter a lot of poisonous caltrops on target area. \n"
+" Those who step on it will be poisoned and decreased movement speed for a while. "
+msgstr "対象エリアに沢山の毒が塗られたマキビシを撒く。踏んだ者は毒に侵されダメージを受け、移動速度が低下する。"
+
+msgid "<color_light_green>Magiclysm with Spells</color>"
+msgstr "<color_light_green>追加-: マジクリズムwithスペル</color>"
+
+msgid "Create a Bomb of spider web "
+msgstr "召喚：蜘蛛の巣爆弾"
+
+msgid ""
+"Conjure an Magic bomb of spider web,     after conjured this magic bomb, Use this item to arm it.  In five seconds it will "
+"begin to expel spider web.<color_light_red>required components have to in inventry or hands!</color>"
+msgstr ""
+"魔法の力により蜘蛛の巣爆弾を作る。蜘蛛の巣爆弾はピンを抜いてから5秒後に蜘蛛の巣をまき散らす爆発を起こす。　このアイテム作成には"
+"素材が必要です。"
+
+msgid "Conjure Throwing Blade"
+msgstr "召喚：投げナイフ"
+
+msgid "conjures a throwing knives"
+msgstr "投げナイフを召喚する"
+
+msgid "conjures 3 throwing knives"
+msgstr "３つの投げナイフを召喚する"
+
+msgid "Conjure Throwing Bat"
+msgstr "召喚：投げバット"
+
+msgid "conjures a throwing bat"
+msgstr "投げ野球バットを召喚する"
+
+msgid "Random Polymorph"
+msgstr "変化の術"
+
+msgid "Transform target enemy into random monster."
+msgstr "対象の敵を別のモンスターに変化させる。"
+
+msgid "Cause a tornado "
+msgstr "召喚：竜巻"
+
+msgid "Summon a tornado that push nearest enemy far away."
+msgstr "対象の地点に近くの敵を遠くに吹き飛ばす竜巻を召喚する。"
+
+msgid "Fire a Guided missile "
+msgstr "召喚：誘導ミサイル"
+
+msgid "Summon a Guided missile that lock on nearest enemy and  KaBooooooooom! ."
+msgstr "自分の隣接したタイルにミサイルを召喚する。ミサイルは最も近くの敵を追跡し、対象に当たると自爆して大ダメージを与える。"
+
+msgid "Decoy replacement "
+msgstr "変わり身の術"
+
+msgid ""
+"This spell for Emergency avoidance,   Summon a wooden decoy to target location and teleport you to random tile, then gives you "
+"invisible aura for short period of time,   This aura also increases your movement speed by 100."
+msgstr ""
+"近くの対象地点に自分に瓜二つの丸太を召喚した後、ランダムな地点にテレポートする。　テレポートした後は少しの間移動速度が上がり、"
+"敵から見つからなくなる。"
+
+msgid "Summon the black hole "
+msgstr "召喚：ブラックホール"
+
+msgid "Cause space-time distortion to target location and summon a black hole that swallows everything."
+msgstr "対象の地点の時空を歪ませ、全てを飲み込むブラックホールを召喚する。"
+
+msgid "Call a lighting tornado "
+msgstr "召喚：荒れ狂う竜巻"
+
+msgid ""
+"Call a lightning tornado at target location.\n"
+" Move while shooting many lightning toward enemies and swallow nearby objects."
+msgstr "対象の地点に、近くの敵を吸い寄せ遠くの敵に沢山の雷を放つ黒い竜巻を召喚する。"
+
+msgid "Conjure a vine tentacle "
+msgstr "召喚：蔓の触手"
+
+msgid "Summon a plant tentacle at target location, it pull nearby enemy and attack with its long body"
+msgstr ""
+"対象の地点に植物でできた触手を召喚する。触手は少し遠くの敵を引っ張ることができ、長い胴体のおかげで2タイル離れた敵を攻撃できる。"
+
+msgid "Conjure a sentry plant "
+msgstr "召喚：植物タレット"
+
+msgid "Summon a sentry-plant that shoots seeds to nearest enemy."
+msgstr "対象の地点に植物でできたタレットを召喚する。威力は低いが沢山の種を一度に飛ばして攻撃することができる。"
+
+msgid "Summon a flying skul "
+msgstr "召喚：空飛ぶ頭蓋骨"
+
+msgid "Summon a flying skul that deals cold damage to enemies while keeping a certain distance ."
+msgstr ""
+"対象の地点に空飛ぶ頭蓋骨を召喚する。頭蓋骨は敵と一定の距離を保ちながら遠くの敵に冷却属性のダメージを与える連射攻撃と近くの敵に"
+"範囲攻撃をする。範囲攻撃には吸い込むと少しの間移動速度を下げる霧を発生させる"
+
+msgid "Summon an Animated Utensil"
+msgstr "アニメーテッド・食器"
+
+msgid "Summon an animated utensil to target location using your blood and a steel utensil not suitable for combat."
+msgstr "魔力によって戦闘にはあまり向かない食器に少しの魂を分け与え、自分の敵を襲わせる動く凶器に変える。"
+
+msgid "Summon 5 Animated Utensils EX"
+msgstr "アニメーテッド・食器　X5"
+
+msgid "Summon 5 animated utensil to target locations using your blood and 5 steel utensil not suitable for combat."
+msgstr ""
+"強化版[アニメーテッド・食器]　\n"
+" 5本の戦闘にあまり向かない食器に全てに魂を分け与え、自分の敵を集団で襲わせる動く災害に変える。"
+
+msgid "Fallen Resurrection "
+msgstr "堕落した復活"
+
+msgid ""
+"Summon many orbs that resurrect non destroyed revive-able creatures.  it soon after being resurrected are weak, but these "
+"creatures don't disappear with time."
+msgstr ""
+"対象のエリアに沢山の人魂を召喚し、近くの復活可能な生物の体に乗り移る。　生き返ったすぐ後の生物はHPが減っていて弱いが、時間経過"
+"で消えることなくその場に居続ける。"
+
+msgid "Emergency call"
+msgstr "緊急招集"
+
+msgid ""
+"This spell for Emergency avoidance,     Summon 8 of wisps to distract enemies attension and gives you invisible aura for short "
+"period of time,   This aura also increases your movement speed by 100."
+msgstr ""
+"これは緊急回避に適した魔法であり、詠唱後すぐに敵意を逸らすための8匹のウィスプを自分の周囲に召喚し、少しの間自分の移動速度を１０"
+"０上昇させてステルスになる。"
+
+msgid "Create Summon Gate"
+msgstr "召喚:サモンゲート"
+
+msgid ""
+"Create summon gate at target location.\n"
+" it lasts about 3 minutes and Many monsters will come out from it until the gate closes."
+msgstr "対象の地点にアビスへ続く門を召喚する。この門はおよそ3分ほどその場に留まり持続的にモンスターを召喚し続ける"
+
+msgid "Summon a fear Totem "
+msgstr "召喚:恐怖のトーテム"
+
+msgid "Summon a Totem that frighten nearby enemies(max range:6 tiles)."
+msgstr "対象の地点に周囲6タイル以内の敵を恐れさせ逃走させるトーテムを召喚する。"
+
+msgid "Summon a Mindcontrol Totem "
+msgstr "召喚:精神操作のトーテム"
+
+msgid "Summon a Totem that Mindcontrol random enemy(maxHP 180 or under) within 5 tiles."
+msgstr "対象の地点に周囲5タイル以内の最大HP180以下の敵の精神を少しの間操り、こちらに寝返させるトーテムを召喚する。"
+
+
+msgid "Summon a blind Totem "
+msgstr "召喚：盲目のトーテム"
+
+msgid "Summon a Totem that blind nearest enemies(max range:8 tiles)."
+msgstr "対象の地点に周囲8タイル以内の敵の視界を一次的に奪い、盲目にさせるトーテムを召喚する。"
+
+msgid "Summon UFO"
+msgstr "乗り物召喚:UFO"
+
+msgid ""
+"Are you ready to fly high? Magic UFO is waiting for your riding.\n"
+" Maneuvering skills are required to maneuver."
+msgstr ""
+"風を感じる準備はできたかい？　UFOはいつもあなたが操縦するのを待っている！\n"
+" 対象の地点に３ｘ５タイルの思うがままに空飛べる乗り物を召喚する。飛行するには操縦士のスキルが必要です。"
+
+msgid "Summon Vine Wall"
+msgstr "召喚:蔓の壁"
+
+msgid ""
+"Summon 5x5 vine walls around the target tile.\n"
+" Those inside can't get out unless they destroy the wall or walls disappears by time"
+msgstr ""
+"対象の地点の周囲を囲うように５ｘ５タイルの蔓の壁を召喚する。この壁は時間経過で消えるのを待つか、破壊するまで中にいる者は脱出す"
+"ることができない。"
+
+msgid "Meteor Strike"
+msgstr "メテオストライク"
+
+msgid ""
+"You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat."
+msgstr ""
+"対象地点の上空に小型の隕石を召喚し地面に勢いよくぶつける。衝突範囲内の全てに致命的な炎ダメージを与え、その地点にクレーターが残"
+"る。"
+
+msgid "Synthetic Spell books"
+msgstr "本の合成"
+
+msgid "Synthetic 2 of [magiclysm_with_spell] spell books to 1 random its spell book."
+msgstr "二つの同じ[マジクリズムwithスペル]の呪文書をかけ合わせ、ランダムなmodの呪文書を手に入れる"
+
+msgid "A Beginner's Guide to Control enemies"
+msgstr "呪文書：敵の精神支配：序盤"
+
+msgid "copies of A Beginner's Guide to Control enemies"
+msgstr "呪文書：敵の精神支配：序盤"
+
+msgid "The mystery of the universe"
+msgstr "呪文書：宇宙の神秘"
+
+msgid "copies of The mystery of the universe"
+msgstr "呪文書：宇宙の神秘"
+
+msgid "The Book of [Vegetable Paradox]"
+msgstr "呪文書：植物パラドックス"
+
+msgid "copies of The Book of [Vegetable Paradox]"
+msgstr "呪文書：植物パラドックス"
+
+msgid "The Tome [Trickstar]"
+msgstr "呪文書：トリックスター"
+
+msgid "copies of The Tome [Trickstar]"
+msgstr "呪文書：トリックスター"
+
+msgid "The Fear of Disaster"
+msgstr "呪文書：恐怖の大災害"
+
+msgid "copies of The Fear of Disaster"
+msgstr "呪文書：恐怖の大災害"
+
+msgid "A Treatise on Magical Summons"
+msgstr "呪文書：魔法召喚についての論文"
+
+msgid "copies of A Treatise on Magical Summons"
+msgstr "呪文書：魔法召喚についての論文"
+
+msgid "The Ninja instruction Book"
+msgstr "呪文書：忍術指南書"
+
+msgid "copies of The Ninja instruction Book"
+msgstr "呪文書：忍術指南書"
+
+msgid "The benefits of unholy summoning"
+msgstr "呪文書：邪悪なる召喚による利益"
+
+msgid "copies of The benefits of unholy summoning"
+msgstr "呪文書：邪悪なる召喚による利益"
+
+msgid "Book of Magic Creation"
+msgstr "呪文書：魔法創造"
+
+msgid "Book of Totem Creation"
+msgstr "呪文書：トーテム創造"
+
+msgid "copies of Book of Totem Creation"
+msgstr "呪文書：トーテム創造"
+
+msgid "Slow[2]"
+msgstr "鈍足[2]"
+
+msgid "Slow[3](max)"
+msgstr "鈍足[3]"
+
+msgid "Decreased your movement for a short period."
+msgstr "少しの間、あなたの移動速度が低下します。"
+
+msgid "No more slowed."
+msgstr "鈍足ではなくなりました"
+
+msgid "slowed."
+msgstr "鈍足になりました"
+
+msgid "Remove Taint"
+msgstr "汚染除去"
+
+msgid "Disables the polluting effect of floating eyes"
+msgstr "フローティングアイによる汚染効果を無効します"
+
+msgid "No more immune from taint."
+msgstr "これ以上フローティングアイの汚染効果を防ぐことができなくなりました。"
+
+msgid "Remove Nausea"
+msgstr "吐き気無効"
+
+msgid "You removed Nausea effect"
+msgstr "吐き気効果を無効化します"
+
+msgid "Cold Slow"
+msgstr "霜焼け"
+
+msgid "Emagency Invisible"
+msgstr "緊急退避"
+
+msgid "You are invisible and haste your movement by 100."
+msgstr "あなたは透明状態になっており、移動速度が１００上がります"
+
+msgid "Emagency haste"
+msgstr "緊急加速"
+
+msgid "haste your movement by 200."
+msgstr "移動速度が200上昇します"
+
+msgid "entangled in ivy"
+msgstr "ツタの絡まり"
+
+msgid "You are entangled in ivy!"
+msgstr "ツタに絡まりました"
+
+msgid "The vines restrict your movement."
+msgstr "ツタがあなたの動きを阻害しています"
+
+msgid "Accelerating"
+msgstr "加速"
+
+msgid "Your movement is accelerating by the field!"
+msgstr "あなたの動きはフィールドの効果で加速しています。"
+
+msgid "Sanctuary"
+msgstr "聖域"
+
+msgid ""
+"You are in sanctuary ! While you're in it, immune to stunned and dazed, also buffed all status then recover 50 of stamina "
+"every second."
+msgstr ""
+"あなたは聖域の中にいます！　その中にいる限り気絶と呆然効果を無効化し、すべてのステータスを強化します。またスタミナが毎秒５０回"
+"復します。"
+
+msgid "Foods:INT UP"
+msgstr "食べ物：賢さアップ"
+
+msgid "Foods:STR UP"
+msgstr "食べ物：力アップ"
+
+msgid "Foods:DEX UP"
+msgstr "食べ物：器用さアップ"
+
+msgid "Foods:PER UP"
+msgstr "食べ物：知覚アップ"
+
+msgid "Foods:SPEED UP"
+msgstr "食べ物：速度アップ"
+
+msgid "You ate a picked apple and gained int buff."
+msgstr "あなたは落ちているリンゴを食べ、賢さが上がった"
+
+msgid "You ate a picked strawberries and gained str buff."
+msgstr "あなたは落ちているイチゴを食べ、力が上がった"
+
+msgid "You ate a picked banana and gained dex buff."
+msgstr "あなたは落ちているバナナを食べ、器用さが上がった"
+
+msgid "You ate a picked blueberries and gained per buff."
+msgstr "あなたは落ちているブルーベリーを食べ、知覚が上がった"
+
+msgid "You ate a picked lemon and gained speed buff."
+msgstr "あなたは落ちているレモンを食べ、速度が上がった"
+
+msgid "Injured by a caltrop"
+msgstr "マキビシを踏んでケガをした"
+
+msgid "Your legs are hurting, Decreased your movement be continuous damaged from it's effect."
+msgstr "あなたの脚は傷ついた！。移動速度が低下し、継続的にダメージを受けます"
+
+msgid "Plague"
+msgstr "伝染病"
+
+msgid "You got plague from totem. Decreased your movement and be continuous damaged from it's effect."
+msgstr "トーテムにより伝染病にかかった。移動速度が低下し、継続的にダメージを受けます"
+
+msgid "You got plague from totem."
+msgstr "トーテムにより伝染病に罹った"
+
+msgid "Plague has healed."
+msgstr "伝染病が治った"
+
+msgid "Strengthening"
+msgstr "強化祝福"
+
+msgid "You are Strengthened by totem ! immune to stunned, buffed all status then recover 25 of stamina every seconds."
+msgstr ""
+"あなたは強化の祝福をトーテムから授かった。気絶効果を無効化し、全てのステータスが強化される。また毎秒25のスタミナが回復する。"
+
+msgid "Aura of Healing"
+msgstr "回復のオーラ"
+
+msgid "My body is healed by being near the crystal."
+msgstr "近くのクリスタルにより、体の回復が早まっている。"
+
+msgid "Aura of Speed rising"
+msgstr "俊敏のオーラ"
+
+msgid "The effect of the nearby crystal has increased your movement speed."
+msgstr "近くのクリスタルにより、移動速度が上がっている。"
+
+msgid "Aura of Stamina Recovery"
+msgstr "スタミナ回復のオーラ"
+
+msgid "I feel like I could run forever."
+msgstr "永遠に走れそうな気分です。"
+
+msgid "Aura of Cursed"
+msgstr "呪いのオーラ"
+
+msgid "You are cursed because of the crystal. Hurry up and destroy the crystal or leave the place!"
+msgstr "クリスタルのせいであなたは呪われています。すぐその場から離れるか、クリスタルを破壊することで効果を防ぐことができます。"
+
+msgid "minor wand of random polymorph"
+msgid_plural "minor wands of random polymorph"
+msgstr[0] "下級：変化の杖"
+
+msgid "lesser wand of random polymorph"
+msgid_plural "lesser wands of random polymorph"
+msgstr[0] "中級：変化の杖"
+
+msgid "greater wand of random polymorph"
+msgid_plural "greater wands of random polymorph"
+msgstr[0] "上級：変化の杖"
+
+msgid ""
+"A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random "
+"polymorph] that polymorphs target enemy has MAXHP equal 100 or less."
+msgstr ""
+"根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが100以下の敵を変化す"
+"る[ランダム変化]を唱える"
+
+msgid ""
+"A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random "
+"polymorph] that polymorphs target enemy has MAXHP equal 150 or less."
+msgstr ""
+"根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが150以下の敵を変化す"
+"る[ランダム変化]を唱える"
+
+msgid ""
+"A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random "
+"polymorph] that polymorphs target enemy has MAXHP equal 200 or less."
+msgstr ""
+"根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが200以下の敵を変化す"
+"る[ランダム変化]を唱える"
+
+msgid "wand of insects"
+msgid_plural "wands of insects"
+msgstr[0] "蟲の召喚杖"
+
+msgid ""
+"This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for "
+"a short time!"
+msgstr "この魔法の杖はずっと蠢いています。この杖を振るとどこからともなく友好的な虫が少しの間現れます。"
+
+msgid "Clone of compressed cells."
+msgstr "圧縮されたクローン人間"
+
+msgid "It is a clone of you. Use this to make a clone that will follow you and support you in your life."
+msgstr "それは、あなたのクローンです。これを使って、あなたに付いていきあなたの生活をを支えてくれるクローンを作ってください。"
+
+msgid "spider web canister"
+msgstr "蜘蛛糸爆弾"
+
+msgid ""
+"This is a magic bomb that uses mana. After equipping this item, pull out the pin. After five seconds, it will start spitting "
+"out spider webs."
+msgstr "マナを使った魔法爆弾です。 このアイテムを装備したあとピンを抜きます。 5秒後に蜘蛛の巣を吐き出し始めます。"
+
+msgid "active spider web canister"
+msgstr "蜘蛛糸爆弾(アクティブ)"
+
+msgid "Magic moon light"
+msgstr "マジックムーン・ライト"
+
+msgid "A magic wand that attacks by emitting a strong light on the target. The ammunition will fill up as time passes."
+msgstr "対象に強い光を放ち攻撃する魔法の杖です。時間経過により弾薬が充填されます"
+
+msgid "Woodskin"
+msgstr "ウッドスキン"
+
+msgid "Creates a thick layer of bark that covers caster's skin. the layer affords some protections againist stub, cut and bash. "
+msgstr "厚い樹皮の層は、物理攻撃からある程度保護することができます。"
+
+msgid "golem crystal"
+msgstr "ゴーレムクリスタル"
+
+msgid "It is an inactive golem. Activate it to summon a golem with a variety of attack methods!"
+msgstr "これは不活性のゴーレムです。発動させると、多彩な攻撃方法を持つゴーレムを召喚することができます"
+
+msgid "broken golem crystal"
+msgstr "壊れたゴーレムクリスタル"
+
+msgid "This is an broken golem crystal.You can repair it from the Craft menu."
+msgstr "壊れたゴーレムクリスタルです。クラフトメニューから修復できます。"
+
+msgid "Great Blessing"
+msgstr "大いなる祝福"
+
+msgid ""
+"You got great blessing and covered by protect aura that reduce all received damage by half and increase your HP,STAMINA and "
+"MANA by 20%. This aura also heal your hp every 10 minutes"
+msgstr ""
+"あなたは大いなる祝福を受け、受けた全てのダメージを半減し、HPとSTAMINAとMANAを20%増加させるプロテクトオーラに守られている。ま"
+"た、このオーラは10分ごとにあなたのHPを回復させる。"
+
+msgid "Rice ball"
+msgstr "大きなおにぎり"
+
+msgid "These rice balls are large and nutritious. Some people only eat these."
+msgstr "このおにぎりは大きく、栄養価が高いです。ある者はこれしか食べないとか,,,"
+
+msgid "Grilled rice ball"
+msgstr "焼きおにぎり"
+
+msgid "These grilled rice balls have a savory soy sauce flavor. It also recovers HP mysteriously."
+msgstr "このおにぎりは醤油でこんがりと焼かれています。食べると不思議とHPも回復するようです"
+
+msgid "thunder bird egg"
+msgstr "雷鳥の卵"
+
+msgid "blaze bird egg"
+msgstr "炎鳥の卵"
+
+msgid "Nutritious egg laid by a thunder bird."
+msgstr "雷鳥により産み落とされた卵です"
+
+msgid "Nutritious egg laid by a blaze bird."
+msgstr "炎鳥により産み落とされた卵です"
+
+msgid "enhance potion:ManaUP500"
+msgstr "強化ポーション：マナアップ５００"
+
+msgid "enhance potion:ManaUP1000"
+msgstr "強化ポーション：マナアップ１０００"
+
+msgid "enhance potion:ManaUP1500"
+msgstr "強化ポーション：マナアップ１５００"
+
+msgid "Drinking this will permanently increase your Max MP by 500!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を500増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max MP by 1000!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を1000増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max MP by 1500!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を1500増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:MANA_REGEN1.1"
+msgstr "強化ポーション：マナ回復1.1"
+
+msgid "enhance potion:MANA_REGEN1.2"
+msgstr "強化ポーション：マナ回復1.2"
+
+msgid "enhance potion:MANA_REGEN1.3"
+msgstr "強化ポーション：マナ回復1.3"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.1x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.1倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.2x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.2倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.3x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.3倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STRUP 1"
+msgstr "強化ポーション：STRUP 1"
+
+msgid "enhance potion:STRUP 2"
+msgstr "強化ポーション：STRUP 2"
+
+msgid "Drinking this will permanently increase your STR by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にSTRの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your STR by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にSTRの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:INTUP 1"
+msgstr "強化ポーション：INTUP 1"
+
+msgid "enhance potion:INTUP 2"
+msgstr "強化ポーション：INTUP 2"
+
+msgid "Drinking this will permanently increase your INT by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にINTの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your INT by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にINTの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:DEXUP 1"
+msgstr "強化ポーション：DEXUP 1"
+
+msgid "enhance potion:DEXUP 2"
+msgstr "強化ポーション：DEXUP 2"
+
+msgid "Drinking this will permanently increase your DEX by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にDEXの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your DEX by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にDEXの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:PERUP 1"
+msgstr "強化ポーション：PERUP 1"
+
+msgid "enhance potion:PERUP 2"
+msgstr "強化ポーション：PERUP 2"
+
+msgid "Drinking this will permanently increase your PER by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にPERの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your PER by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にPERの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STAMINA_REGEN1.1"
+msgstr "強化ポーション：スタミナ回復1.1"
+
+msgid "enhance potion:STAMINA_REGEN1.2"
+msgstr "強化ポーション：スタミナ回復1.2"
+
+msgid "Drinking this will permanently increase your Stamina regeneration speed by 1.1x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの回復速度が1.1倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Stamina regeneration speed by 1.2x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの回復速度が1.2倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max stamina by 15%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの最大値を15%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STAMINA STORE15%"
+msgstr "強化ポーション：スタミナアップ15%"
+
+msgid "enhance potion:SPEED UP5%"
+msgstr "強化ポーション：スピードアップ5%"
+
+msgid "Drinking this will permanently increase your action speed by 5%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的に速度を5%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:MAXHP UP10%"
+msgstr "強化ポーション：HPアップ10%"
+
+msgid "Drinking this will permanently increase your MAXHP by 10%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にHPの最大値を10%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:HARDENSKIN1"
+msgstr "強化ポーション：強化皮膚"
+
+msgid "Drinking this will permanently increase your all parts of armor by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的に皮膚の硬さを１増やす。各ポーションは1回のみ有効です。"
+
+msgid "Random Dungeon"
+msgstr "ランダムダンジョン"
+
+msgid "Random Dungeon -1F"
+msgstr "ランダムダンジョン 地下一階"
+
+msgid "Random Dungeon -2F"
+msgstr "ランダムダンジョン 地下二階"
+
+msgid "Random Dungeon -3F"
+msgstr "ランダムダンジョン 地下三階"
+
+msgid "It's a spellbook on how to manipulate the mind of your opponent."
+msgstr "相手の心を操るための方法が書かれた呪術書"
+
+msgid "It's a spellbook on how to manipulate magnetism and how to deal with it."
+msgstr "磁気を操る方法とその対処法に関する呪術書"
+
+msgid "It is a book covered with plants. It contains instructions on how to grow plants instantly!"
+msgstr "植物で覆われた魔法本。植物を即座に育てる方法が書かれています！"
+
+msgid "It's a spellbook that describes how to exchange positions with your partner."
+msgstr "相手と位置を交換する方法を記した呪文書です"
+
+msgid "It's a spellbook about how to create a disaster easily."
+msgstr "災害を簡単に起こす方法について書かれた呪文書"
+
+msgid "This is a book where you can learn intermediate summoning techniques."
+msgstr "中級の召喚術が学べる本です。"
+
+msgid "This is a spellbook on how to use ninjutsu."
+msgstr "忍術のハウトゥーが学べる本です。"
+
+msgid "This is a spellbook with a suspicious glow. It looks like you could learn a thing or two about summoning..."
+msgstr "怪しい光を放つ呪文書です。召喚術の勉強になりそうだ..."
+
+msgid "This is a spellbook on how to create simple items with magic."
+msgstr "魔法で簡単なアイテムを作る方法を紹介した呪文書です"
+
+msgid "This is a book for beginner spellcasters. It contains information on totems."
+msgstr "初心者の呪術者にお勧めの呪術書です。トーテムの召喚方法が書かれています。"
+
+msgid "Scroll of [Polymorph Totem]"
+msgid_plural "Scrolls of [Polymorph Totem]"
+msgstr[0] "巻物：ポリモーフ・トーテム"
+
+msgid ""
+"You can read this scroll to learn [Polymorph Totem].\n"
+" Polymorph target totem into another form.\n"
+" Fear totem into stun totem that stun nearby enemies.\n"
+"Mindcontrol Totem into Strengthening totem that buffs nearby friendly units.\n"
+"blind Totem into spotting totem that spots and illuminates all nearby enemies.\n"
+"Plague totem into rat totem that summon a lot of plague rats."
+msgstr "この巻物を読むと対象のトーテムを別のトーテムに変えることができる[ポリモーフ・トーテム]を習得できる"
+
+msgid "Scroll of [Repair Totem]"
+msgid_plural "Scrolls of [Repair Totem]"
+msgstr[0] "巻物：修復・トーテム"
+
+msgid ""
+"You can read this scroll to learn [Repair Totem].\n"
+" Repair target totem to full HP . "
+msgstr "この巻物を読むと対象のトーテムの体力を全回復できる[修復・トーテム]を習得できる"
+
+msgid "Scroll of [Summon a skeleton grave]"
+msgid_plural "Scrolls of [Summon a skeleton grave]"
+msgstr[0] "巻物：召喚:スケルトン墓"
+
+msgid ""
+"You can read this scroll to learn [Summon a skeleton grave].\n"
+" Summon a grave that raises lesser skeletons from underground every 8 seconds."
+msgstr "この巻物を読むと8秒ごとに2体のスケルトンを召喚する墓を召喚することができる[召喚・スケルトン墓]を習得できる"
+
+msgid "Fear Totem"
+msgstr "恐怖のトーテム。"
+
+msgid "A totem that scares nearby enemies into running away."
+msgstr "近くの敵を怖がらせて逃げさせるトーテム。"
+
+msgid "Mindcontrol Totem"
+msgstr "精神支配のトーテム。"
+
+msgid "A totem that can take control of the mind of a nearby enemy and change sides for a short period of time."
+msgstr "近くにいる敵の精神を支配し、短時間の間、敵を寝返らせるトーテム。"
+
+msgid "Blind Totem"
+msgstr "盲目のトーテム。"
+
+msgid "A totem that eliminates the vision of nearby enemies."
+msgstr "近くにいる敵の視界を無くすトーテム。"
+
+msgid "Plague Totem"
+msgstr "伝染病のトーテム。"
+
+msgid "A totem that spreads plagues to nearby enemies."
+msgstr "近くの敵に疫病を撒き散らすトーテム"
+
+msgid "Tauntotem"
+msgstr "タウントーテム。"
+
+msgid "Totems that taunt nearby enemies"
+msgstr "近くの敵を挑発するトーテム"
+
+msgid "Stun Totem"
+msgstr "気絶のトーテム"
+
+msgid "A totem that stun nearby enemies"
+msgstr "近くの敵を気絶させるトーテム"
+
+msgid "Spotting Totem"
+msgstr "敵探知のトーテム"
+
+msgid "A totem that detect nearby enemies"
+msgstr "近くの敵を探知するトーテム"
+
+msgid "Strengthening Totem"
+msgstr "強化祝福のトーテム"
+
+msgid "A totem that strengthening nearby friendly units."
+msgstr "近くの味方のステータスを強化するトーテム"
+
+msgid "Plague Rat Totem"
+msgstr "毒ネズミのトーテム"
+
+msgid "A totem that Summons 2 of plague rats every 10 seconds."
+msgstr "二匹の毒ネズミを10秒毎に召喚するトーテム"
+
+msgid "A totem that Summons 1 of plague rats every 10 seconds."
+msgstr "1匹の毒ネズミを10秒毎に召喚するトーテム"
+
+msgid "hurricane"
+msgstr "ハリケーン"
+
+msgid "hurricane that pushes nearest enemy far away."
+msgstr "近くの敵を押しのけるハリケーン"
+
+msgid "Plant tentacle"
+msgstr "植物触手"
+
+msgid "Big plant tentacle that pulls nearby enemy and attack with its long body."
+msgstr "近くの敵を引っ張り、長い胴体で遠くの敵を攻撃する植物で出来た触手"
+
+msgid "Sentry plant"
+msgstr "セントリープラント"
+
+msgid "sentry-plant that shoots seeds to nearest enemy."
+msgstr "近くの敵に種を飛ばす植物のセントリーガン"
+
+msgid "Resurrect orb"
+msgstr "リザレクションオーブ"
+
+msgid "This flying orb will bring back the zombies."
+msgstr "近くの復活可能のゾンビを甦らせるオーブ"
+
+msgid "Flying skul"
+msgstr "フライング頭蓋骨"
+
+msgid "flying skul that deals cold damage to enemies while keeping a certain distance."
+msgstr "一定の距離を保ちながら氷結ブレスを敵に吐き続ける頭蓋骨"
+
+msgid "Black hole"
+msgstr "ブラックホール"
+
+msgid "black hole that swallows everything."
+msgstr "全てを飲み込むブラックホール"
+
+msgid "Ethereal laser turret"
+msgstr "エーテル・レーザータレット"
+
+msgid "A laser turret created by magic."
+msgstr "魔法により作られたレーザータレットです。"
+
+msgid "Guided Missile"
+msgstr "誘導ミサイル"
+
+msgid "KaBooooooooom!."
+msgstr "BOOOOOOOOOOOM!ブーーーム!!!"
+
+msgid "Skeleton Snake"
+msgstr "スケルトンスネーク"
+
+msgid "Skeleton snake that sprays acid on nearby enemies."
+msgstr "近くの敵に酸を吹きかける骨の蛇です。"
+
+msgid "Wooden decoy"
+msgstr "木の身代わり人形"
+
+msgid ""
+"This wood seems like you! \n"
+" Everyone doesn't doubt."
+msgstr "あなたにそっくりの木で出来た身代わり人形です。だれも疑ったりしませんよ？"
+
+msgid "Lightning Tornado"
+msgstr "ライトニングトルネード"
+
+msgid "Conjured lightning Tornado that moves while shooting many lightning toward enemies and swallow nearby objects."
+msgstr "雷を敵に放ちながら近くの敵を吸い込むトルネード"
+
+msgid "Blight Box"
+msgstr "光り輝く箱"
+
+msgid "This box emits weakly light continuously."
+msgstr "この箱はずっと弱い光を放ち続けています。"
+
+msgid "plague rat"
+msgstr "毒ネズミ"
+
+msgid ""
+"The plague rat, an omnivorous rodent with sheer black fur and a long, rough tail.  Harbinger of pestilence, famine, and mange, "
+"it will sometimes swarm over the dead or dying."
+msgstr "黒い見た目で長いしっぽを持ったネズミです。伝染病を感染させることに特化しています。"
+
+msgid "Skeleton Grave"
+msgstr "スケルトン墓"
+
+msgid "Summon 2 of lesser skeletons every 8 seconds."
+msgstr "8秒毎にレッサースケルトンを召喚します。"
+
+msgid "A lesser skeleton, raised from grave."
+msgstr "墓から蘇ったばかりの骨の中身がかっすかすのスケルトンです。"
+
+msgid "Crystal golem"
+msgstr "クリスタルゴーレム"
+
+msgid "A golem made of mana crystal. It has a variety of attack methods."
+msgstr "マナクリスタルで作られたゴーレムです。多彩な攻撃方法を持っています"
+
+msgid "Shock Wave"
+msgstr "衝撃波"
+
+msgid "animated spoon"
+msgstr "アニメーテッド・スプーン"
+
+msgid "A moving spoon that doesn't try to bend itself."
+msgstr "自分自身を曲げようとしない動くスプーンです。"
+
+msgid "It's a butter knife that spreads the enemy's blood on the bread without permission."
+msgstr "返り血を勝手にパンに塗ってくるバターナイフです。"
+
+msgid "It's a moving fork that loves to poke out the eyes of its enemies."
+msgstr "敵の目を突くことが大好きな動くフォークです"
+
+msgid "I'm a spork who learned to attack from a distance so that I don't have to share the role with a spoon and fork."
+msgstr "スプーンとフォークと役割が被らないように遠距離攻撃を覚えたスポークです。"
+
+msgid "animated butter knife"
+msgstr "アニメーテッド・バターナイフ"
+
+msgid "animated fork"
+msgstr "アニメーテッド・フォーク"
+
+msgid "animated spork"
+msgstr "アニメーテッド・スポーク"
+
+msgid "animated pizza cutter"
+msgstr "アニメーテッド・ピザカッター"
+
+msgid "The pizza cutter that stopped cutting pizza is on a journey to find a tougher opponent."
+msgstr "ピザを切るのをやめたピザカッターです、今はもっと硬くて手ごわい相手を探す旅をしています"
+
+msgid ""
+"An animated frying pan. It's floating in the air.If you get close enough, you can even float in the air for a little while."
+msgstr "動くフライパンです。宙に浮いており、近寄ると少しの間ですがあなたも宙に浮くことができます。"
+
+msgid "animated frying pan"
+msgstr "アニメーテッド・フライパン"
+
+msgid "babble"
+msgstr "バブル"
+
+msgid "This cute and lovable creature is a bubble! Why don't you up your dog food?."
+msgstr "このキュートでラブリーな生物はバブルです！。ドッグフードを与えてみませんか？"
+
+msgid "hole babble"
+msgstr "あなぐらバブル"
+
+msgid "Yes, the different colored monsters in this bubble! It's a hole-in-the-wall bubble! looks like it likes dog food."
+msgstr "イエス！！この色違いのバブルはあなぐらバブルです！。ドッグフードが好きそうな顔をしていますね。"
+
+msgid "cave babble"
+msgstr "洞窟バブル"
+
+msgid "Whoa! This purple bubble seems to have a harder skin than it looks! it still seems to like dog food."
+msgstr "ワオォ！　この紫色のバブルは見た目以上に硬い皮膚を持っているようです。まだドッグフードが好きそうです。"
+
+msgid "Insect Summoner"
+msgstr "蟲術師"
+
+msgid "summoner who excels in the art of summoning insects."
+msgstr "蟲術に精通している召喚士です。"
+
+msgid "Flying mask"
+msgstr "浮遊する仮面"
+
+msgid "An animated mask, it seems to be staring at you the whole time."
+msgstr "宙に漂っている動く仮面です。ずっとあなたのことを見つめているようです。"
+
+msgid "masked human"
+msgstr "仮面をしたヒトガタ"
+
+msgid "It is a human-like creature whose mind is controlled by a mask."
+msgstr "仮面に精神を乗っ取られた人の形をした生物です。"
+
+msgid "thunder bird chick"
+msgstr "雷鳥の雛"
+
+msgid "It is an electrified bird of chick. Would you like to touch it?"
+msgstr "静電気を放つ鳥の雛です。少し触ってみませんか？"
+
+msgid "thunder bird"
+msgstr "雷鳥"
+
+msgid "It is an electrified bird with large wings and two tails. Touching it is a good stimulus! Would you like to touch it?"
+msgstr "長い羽と二つのしっぽを持つ電気をまとっている成鳥です。触ってみると良い刺激を得ることができます。触れてみませんか？"
+
+msgid "blaze bird chick"
+msgstr "炎鳥の雛"
+
+msgid "It is an blaze bird of chick. It is releasing heat."
+msgstr "熱気を放つ鳥の雛です。空飛ぶ暖房器具です。"
+
+msgid "blaze bird"
+msgstr "炎鳥"
+
+msgid "It is a blaze bird with large wings and two tails. It's so hot that you can sweat even from a distance."
+msgstr "長い羽と二つのしっぽを持つ炎をまとっている成鳥です。遠くにいても汗を掻くほどの熱気を出しています。"
+
+msgid "shaman who excels at summoning totems."
+msgstr "トーテム召喚に精通しているシャーマンです。"
+
+msgid "Slow Totem"
+msgstr "鈍足のトーテム"
+
+msgid "slow nearby enemies."
+msgstr "近くの敵を鈍足にするトーテム"
+
+msgid "Healing red Fairy"
+msgstr "回復妖精：レッド"
+
+msgid "She is a fairy who will take a stand and heal your hp."
+msgstr "身を挺してあなたの体力を回復してくれる妖精さんです。"
+
+msgid "Healing blue Fairy"
+msgstr "回復妖精：ブルー"
+
+msgid "She is a fairy who will take a stand and heal your mp."
+msgstr "身を挺してあなたのMPを回復してくれる妖精さんです。"
+
+msgid "Enchanter"
+msgstr "エンチャンター"
+
+msgid "enchanter who excels in the art of enchanting and healing."
+msgstr "近くの味方の移動速度を上昇させ、体力を少量回復するエンチャンターです。"
+
+msgid "Magical Botanist"
+msgstr "マジカル植物学者"
+
+msgid "botanist with access to nature-related magic."
+msgstr "自然魔法に精通している植物学者です。"
+
+msgid "wandering spirit"
+msgstr "ただよう魂"
+
+msgid "It is a wandering spirit. It doesn't seem dangerous, but it's very quick."
+msgstr "ただよう魂です。危険には見えませんがすごくすばしっこいです。"
+
+msgid "One-eyed bat"
+msgstr "一つ目コウモリ"
+
+msgid "One-eyed turret"
+msgstr "一つ目タレット"
+
+msgid "One-eyed Gate"
+msgstr "一つ目の門"
+
+msgid "Golem turret"
+msgstr "ゴーレムタレット"
+
+msgid "Invoke crystal golem "
+msgstr "ゴーレムを呼び出す"
+
+msgid "Command Golem:Charge"
+msgstr "コマンド ゴーレム：突撃"
+
+msgid "Command Golem:Retreat"
+msgstr "コマンド ゴーレム：撤退"
+
+msgid "Command the golem to assault the enemy."
+msgstr "ゴーレムに命令を出し、敵に突撃させる。"
+
+msgid "Command the golem to withdraw from the enemy to recover from the bad situation."
+msgstr "ゴーレムに命令を出し、一時的に敵から撤退させ、劣勢な状況から回復させる。"
+
+msgid "Repair Golem"
+msgstr "修復：ゴーレム"
+
+msgid "Repair some HP of the target golem ."
+msgstr "ゴーレムの体力をいくつか回復させる。"
+
+msgid "Moon light"
+msgstr "月光"
+
+msgid "A magic that condenses the power of moonlight and releases it as a laser."
+msgstr "月光の力を凝縮し、それをレーザーとして放つ魔法。"
+
+msgid "Onigiri heal"
+msgstr "おにぎりヒール"
+
+msgid "You recover some hp."
+msgstr "いくつかのHPを回復します。"
+
+msgid "Summon insects"
+msgstr "蟲招来"
+
+msgid "Summons a random insect."
+msgstr "ランダムな虫を召喚します。"
+
+msgid "Acid rain."
+msgstr "アシッドレイン"
+
+msgid "Totem Polymorph:Plague rat"
+msgstr "トーテム変化：毒ネズミ"
+
+msgid "Polymorph target totem into plague rat totem that summons 2 of plague rats every 8 seconds."
+msgstr "対象のトーテムを毒ネズミトーテムに変化させます"
+
+msgid "Polymorph Totem"
+msgstr "変化：トーテム"
+
+msgid ""
+"Polymorph target totem into another form.\n"
+" Fear totem into stun totem that stun nearby enemies.\n"
+"Mindcontrol Totem into Strengthening totem that buffs nearby friendly units.\n"
+"blind Totem into spotting totem that spots and illuminates all nearby enemies.\n"
+"Plague totem into rat totem that summon a lot of plague rats."
+msgstr ""
+"対象のトーテムを別の姿に変化させます。\n"
+"恐怖のトーテムを近くの敵を気絶するトーテムに\n"
+"精神支配のトーテムを味方を強化する祝福のトーテムに\n"
+"盲目のトーテムを近くの敵を探知するトーテムに\n"
+"伝染病のトーテムを毒ネズミを召喚するトーテムに変化させます。"
+
+msgid "Repair Totem"
+msgstr "修復：トーテム"
+
+msgid "Repair target totem to full HP ."
+msgstr "対象のトーテムのHPを最大まで回復させます。"
+
+msgid "Summon a Tauntotem "
+msgstr "召喚：タウントーテム"
+
+msgid "Summon a Totem that Taunt nearby enemies(max range:5 tiles)."
+msgstr "5タイル以内の敵を挑発して攻撃を引き受けるトーテムを召喚する。"
+
+msgid "Summon a plague Totem "
+msgstr "召喚：伝染病のトーテム"
+
+msgid "Summon a Totem that inflicts plague(slowing and Dot) nearby enemies(max range:12 tiles)."
+msgstr "12タイル以内の敵に移動速度と継続ダメージを与える毒を放つトーテムを召喚する。"
+
+msgid "Summon a Totem that blind nearest enemies(max range:15 tiles)."
+msgstr "15タイル以内の敵の視界を奪うトーテムを召喚する。"
+
+msgid "Summon blight box "
+msgstr "召喚：光り輝く箱"
+
+msgid "Summon a box that emits weakly light continuously, this box doesn't attack anything nor is considered as your ally."
+msgstr "光を放つ箱を召喚する。箱は敵として召喚され、その場を動くことも攻撃することもない"
+
+msgid "Tiamat breath"
+msgstr "ティアマト・ブレス"
+
+msgid ""
+"Shoots a very large ice laser to the target point. It takes a while to recharge, but it's powerful enough to create a pool of "
+"water in the path of the laser."
+msgstr ""
+"対象の地点までものすごく大きい氷のレーザーを放つ。チャージに時間はかかるが、威力は申し分なく、レーザーの通り道に水のたまり場が"
+"できる"
+
+msgid "Mega Cure wounds"
+msgstr "大いなる回復術"
+
+msgid "It consumes a lot of time and heals a lot of your HP."
+msgstr "多くの時間を消費し、自分のHPを大量に治癒する。"
+
+msgid "Conjure a Magic Moon Light "
+msgstr "召喚：月光の魔法杖"
+
+msgid "Conjure a magic wand of moonlight that can continue to cast laser-spell until it disappears."
+msgstr "消えるまでずっとレーザー魔法を放ち続けることができる月光の魔法杖を召喚する"
+
+msgid ""
+"This spell enchants you with great blessing and covered by protect aura that reduce all received damage by half and increase "
+"your HP,STAMINA and MANA by 20%, strengthen all status by 15. This aura also heal your hp every 10 minutes"
+msgstr ""
+"この魔法はあなたに大いなる祝福を与え、受けた全てのダメージを半減し、HPとSTAMINAとMANAを20%増加させ、全てのステータスを15%強化す"
+"るプロテクトオーラに覆われる. また、このオーラは10分ごとにあなたのHPを回復します。"
+
+msgid "Mask's acceleration"
+msgstr "マスク・オ・加速"
+
+msgid "This spell overclock yourself for a short time."
+msgstr "一瞬だがあなたの速度を急上昇させる。"
+
+msgid "mask of acceleration"
+msgid_plural "masks of acceleration"
+msgstr[0] "加速せし奇妙なマスク"
+
+msgid "magical vine seeds"
+msgstr "魔法の蔓の種"
+
+msgid "Seeds that grow friendly vines as soon as they are planted."
+msgstr "植えるとすぐに友好的な蔓が生えてくる魔法の種。"
+
+msgid "magical sentry-plant seeds"
+msgstr "魔法のセントリープラントの種"
+
+msgid "Seeds that grow friendly sentry-plants as soon as they are planted."
+msgstr "植えるとすぐに友好的なセントリープラントが生えてくる魔法の種。"
+
+msgid "low-ranking ninja"
+msgstr "下忍"
+
+msgid "middle-ranking ninja"
+msgstr "中忍"
+
+msgid "My ninjutsu skills are not yet up to par, but I am still a ninja!"
+msgstr "忍術の腕はまだまだですが、それでも私は忍者です！"
+
+msgid "He is a ninja who excels in ninjutsu. He will definitely make you confused!"
+msgstr "忍術に精通している中忍です。彼の術に錯乱させられること間違いなしです！"
+
+msgid "Dark Fairy"
+msgstr "ダークフェアリー"
+
+msgid "Thunder Snake"
+msgstr "サンダースネーク"
+
+msgid "Summon a thunder snake that jumps from enemy to enemy in the target area and dealing damage to them."
+msgstr "対象範囲内の敵から敵へと飛び回りながらダメージを与える雷の蛇を召喚する"
+
+msgid "Summon a skeleton grave"
+msgstr "召喚：スケルトン墓"
+
+msgid "Summon a grave that raises lesser skeletons from underground every 8 seconds."
+msgstr "対象地点に墓を召喚する。その墓は8秒毎に2体のレッサースケルトンを召喚し続ける。"
+
+msgid "Acid rain"
+msgstr "アシッドレイン"
+
+msgid "A spell that causes acid rain to fall on a target location."
+msgstr "対象範囲に酸の雨を降らしダメージを与える。その範囲内に沢山の酸のフィールドを残す。"
+
+msgid "Search Field"
+msgstr "探知フィールド"
+
+msgid "Visualize all organisms at the target location for a short while."
+msgstr "対象地点にいるすべての生物を少しの間可視化する。"
+
+msgid "Create Your Clone"
+msgstr "クローン作成"
+
+msgid "Create your own clone with your blood,clone has random traits and support your life."
+msgstr "自分の血液を使い、あなたの生活をより豊かにするクローンをつくる。"
+
+msgid "Magiclysm with Random Dungeons"
+msgstr "マジクリズム　with ランダムダンジョン"
+
+msgid "Unofficial Expansion of magiclysm.\nConquer randomly generated dungeons to get lots of spellbooks, wands, and treasures!"
+msgstr "非公式のマジクリズムの拡張modです。ランダムに生成されるダンジョンを制覇して沢山の魔法書や魔法杖、お宝を手に入れましょう!"
+
+msgid "Babble's tail"
+msgstr "バブルの尻尾"
+
+msgid "The Babble's tail are bouncy and taste good."
+msgstr "弾力があり、味も良く、生で食べることができるバブルの大きな尻尾です。"
+
+msgid "Frog Polymorpher"
+msgstr "カエルの変化術師"
+
+msgid "Polymorpher who excels in the art of Polymophing frogs."
+msgstr "カエルの変化術師です。近くのカエルを変化させる魔法に精通しています。"
+
+msgid "wand of upgrade"
+msgid_plural "wands of upgrade"
+msgstr[0] "進化の魔法杖"
+
+msgid "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded."
+msgstr "これは進化可能なモンスターを一段階上のランクに進化させることができる魔法の杖です。進化不可のモンスターには効果がありません。"
+
+msgid "wand of tangled vines"
+msgid_plural "wands of tangled vines"
+msgstr[0] "絡まる蔦の魔法杖"
+
+msgid "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower."
+msgstr "この魔法の杖は、魔法でツルを目的地まで伸ばしそこに到達した後にたくさんのツルを繁茂させて敵にダメージを与えて対象の移動を阻害させる魔法を放つことができます。"
+
+msgid "wand of healing"
+msgid_plural "wand of healing"
+msgstr[0] "回復の魔法杖"
+
+msgid "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed."
+msgstr "これは10タイル以内にいるすべての仲間モンスターの体力を回復させ、一時的に移動速度を上げる魔法の杖です。自分自身には効果がありません。"
+
+msgid "Scroll of the Big Room"
+msgstr "大部屋の巻物"
+
+msgid "Remove all stone walls from random dungeons."
+msgstr "読むとランダムダンジョンの全ての石壁を取り除く巻物です。"
+
+msgid "Scroll of clairvoyance"
+msgstr "透視の巻物"
+
+msgid "You'll be able to see through the entire terrain for a little while."
+msgstr "読むと広範囲のエリアを短い間、透視することができる巻物です。"
+
+msgid "Scroll of Hasten"
+msgstr "加速の巻物"
+
+msgid "A spell scroll that affects a wide area.\n Greatly increases the movement speed of all affected units."
+msgstr "読むと広範囲のエリアにいる全てのユニットの速度を短い間、大幅に上げる巻物です。"
+
+msgid "Scroll of Frighten"
+msgstr "恐怖の巻物"
+
+msgid "A spell scroll that, when read, will briefly terrify all units in a wide area and cause them to flee."
+msgstr "読むと広範囲のエリアにいる全てのユニットを短い間、恐怖に陥れ、逃げるようにさせる巻物です。"
+
+msgid "Scroll of Freese"
+msgstr "硬直の巻物"
+
+msgid "A spell scroll that, when read, causes all units in a wide area to become stiff and unable to act for a short period of time!."
+msgstr "読むと広範囲のエリアにいる全てのユニットを短い間、硬直させ、行動不能にさせる巻物です。"
+
+msgid "Scroll of Summoning"
+msgstr "召喚の巻物"
+
+msgid "This is a scroll of summoning.\n When you read it, it will summon many dungeon creatures around you for 10 minutes, either enemies or allies."
+msgstr "これは召喚の巻物です。読むと周囲にたくさんのモンスターを10分間呼びます。敵が呼ばれるか味方が呼ばれるかはランダムです。"
+
+msgid "Scroll of Collect items"
+msgstr "アイテム収集の巻物"
+
+msgid "This is a scroll of collect items.\n When you read it, collect surrounding items in the target area.\n This effects ignore walls."
+msgstr "これはアイテム収集の巻物です。読むと壁を無視して、周囲のアイテムを対象地点に集めます。吸い寄せることができないアイテムもあります。"
+
+msgid "Scroll of Sanctuary"
+msgstr "聖域の巻物"
+
+msgid "This is a scroll of Sanctuary.\n When you read it, Create a sanctuary field at the target location. While in the sanctuary, all stats will be enhanced."
+msgstr "これは聖域の巻物です。読むと対象地点に聖域を作ります。聖域内にいる限り全てのステータスが大幅に上がります。"
+
+msgid "Scroll of summon gate"
+msgstr "召喚ゲートの巻物"
+
+msgid "This is a scroll of summon gate.\n When you read it, Create a summon gate field at the target location. A lot of hostiles appear from that field."
+msgstr "これは召喚ゲートの巻物です。読むと対象地点に召喚の門を作ります。その門からは沢山のモンスターが出現し、カオスになること間違いないでしょう。"
+
+msgid "Scroll of Thunder snake"
+msgstr "サンダースネークの巻物"
+
+msgid "This is a scroll of thunder snake.\n When you read it, Summon a thunder snake that jumps from enemy to enemy in the target area and dealing damage to them."
+msgstr "これはサンダースネークの巻物です。読むと対象範囲内の敵から敵へと飛び回りながらダメージを与える雷の蛇を召喚する。"
+
+msgid "Scroll of Orchard"
+msgstr "果樹園の巻物"
+
+msgid "This is a scroll of Scroll of Orchard.\n When you read it, Instantly fills some of target tiles with orchard.\n Those who step on those fields gain status bonus, quench some thirst and greatly recover stamina."
+msgstr "これは果樹園の巻物です。読むと、瞬時に対象のタイルの一部が果樹園で満たされ、その上に乗るとスタミナが回復し、果物の種類により様々なバフが獲得できます。"
+
+msgid "Scroll of Upgrade"
+msgstr "進化の巻物"
+
+msgid "This is a scroll of Scroll of Orchard.\n When you read it, Upgrade upgradeable monsters in a large AOE."
+msgstr "これは進化の巻物です。読むと広範囲の進化可能なモンスターを一段階成長させます。"
+
+msgid "Scroll of Monster House"
+msgstr "モンスターハウスの巻物"
+
+msgid "This is the scroll of the Monster House.\n When you read it, it summons a lot of enemies around you. These monsters won't disappear until they die!."
+msgstr "これはモンスターハウスの巻物です。読むと部屋一面にモンスターで溢れます。それらのモンスターは死ぬまで消えることはありません。"
+
+msgid "Scroll of Nothing Written"
+msgstr "白紙の巻物"
+
+msgid "This is the scroll of the Nothing Written.\n When you read it, you know what is blank!."
+msgstr "これは白紙の巻物です。読むと空白が何かを理解することができます。"
+
+msgid "The Sword of Babble"
+msgstr "バブルの剣"
+
+msgid "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while."
+msgstr "これはバブルの剣です。偶に攻撃時に味方のバブルが加勢に来てくれます。"
+
+msgid "The Shield of Babble"
+msgstr "バブルの盾"
+
+msgid "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while."
+msgstr "これはバブルの盾です。偶に被攻撃時に味方のバブルが加勢に来てくれます。"
+
+msgid "Hello one of me!\nDo you want to travel with me?"
+msgstr "やあ、私たちの一人よ！ 一緒に旅行しないか？"
+
+msgid "That's exactly my thought. We have so much in common, let's travel together!!"
+msgstr "もちろんよ！私たちは共通点が多いんだから一緒に旅に出るべきだわ。"
+
+msgid "Hey, I'm you! I was made from you."
+msgstr "私はあなたよ！　あなたから作られたの！"
+
+msgctxt "profession_male"
+msgid "CHEAT UNIT FOR MOD"
+msgstr "magiclysm_with_dungeonデバッグ用のキャラ"
+
+msgctxt "profession_female"
+msgid "CHEAT UNIT FOR MOD"
+msgstr "magiclysm_with_dungeonデバッグ用のキャラ"
+
+msgctxt "prof_desc_male"
+msgid "This is a character for debugging. It is not a bug even if this is displayed."
+msgstr "これはマジクリズムwithランダムダンジョンのデバッグ用のキャラです。これが表示されていてもバグではございません。"
+
+msgctxt "prof_desc_female"
+msgid "This is a character for debugging. It is not a bug even if this is displayed."
+msgstr "これはマジクリズムwithランダムダンジョンのデバッグ用のキャラです。これが表示されていてもバグではございません。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Alien Pilot"
+msgstr "[Magiclysm_with_Random_Dungeons]異星人パイロット"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Alien Pilot"
+msgstr "[Magiclysm_with_Random_Dungeons]異星人パイロット"
+
+msgctxt "prof_desc_male"
+msgid "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth."
+msgstr "念願のUFOパイロットの免許を取得し、あなたはビジネスマンや観光客を乗せて生計を立てて生活していました。 しかしあるときに天変地異が起きUFOに誤作動が起き、ここ地球まで飛ばされました."
+
+msgctxt "prof_desc_female"
+msgid "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth."
+msgstr "念願のUFOパイロットの免許を取得し、あなたはビジネスマンや観光客を乗せて生計を立てて生活していました。 しかしあるときに天変地異が起きUFOに誤作動が起き、ここ地球まで飛ばされました."
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Magical botanist"
+msgstr "[Magiclysm_with_Random_Dungeons]魔法の植物学者"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Magical botanist"
+msgstr "[Magiclysm_with_Random_Dungeons]魔法の植物学者"
+
+msgctxt "prof_desc_male"
+msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
+msgstr "あなたは上級の植物学者で、種まきから即座に植物を育てる方法を知っています。"
+
+msgctxt "prof_desc_female"
+msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
+msgstr "あなたは上級の植物学者で、種まきから即座に植物を育てる方法を知っています。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Totemancer"
+msgstr "[Magiclysm_with_Random_Dungeons]トーテム術師"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Totemancer"
+msgstr "[Magiclysm_with_Random_Dungeons]トーテム術師"
+
+msgctxt "prof_desc_male"
+msgid "You are a shaman familiar with totems."
+msgstr "あなたはトーテムに精通するシャーマンです。"
+
+msgctxt "prof_desc_female"
+msgid "You are a shaman familiar with totems."
+msgstr "あなたはトーテムに精通するシャーマンです。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
+msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
+msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
+
+msgctxt "prof_desc_male"
+msgid "You were drawn to Earth by a natural cataclysm and came to visit."
+msgstr "あなたは天変地異に引き寄せられ地球に遊びに来たヒトガタです。"
+
+msgctxt "prof_desc_female"
+msgid "You were drawn to Earth by a natural cataclysm and came to visit."
+msgstr "あなたは天変地異に引き寄せられ地球に遊びに来たヒトガタです。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] All for one"
+msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] All for one"
+msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
+
+msgctxt "prof_desc_male"
+msgid "You have the unique property of being able to create clones.\nLet's make this world full of you!"
+msgstr "あなたはクローンを作成できる唯一無二の特性を持っています。この世界をあなたで満ち溢れさせましょう!"
+
+msgctxt "prof_desc_female"
+msgid "You have the unique property of being able to create clones.\nLet's make this world full of you!"
+msgstr "あなたはクローンを作成できる唯一無二の特性を持っています。この世界をあなたで満ち溢れさせましょう!"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Unholy summoner"
+msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Unholy summoner"
+msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
+
+msgctxt "prof_desc_male"
+msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
+msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒魔術を使う召喚士です。"
+
+msgctxt "prof_desc_female"
+msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
+msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒魔術を使う召喚士です。"

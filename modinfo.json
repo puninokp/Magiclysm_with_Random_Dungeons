@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PSY_magi_spells",
+    "name": "Magiclysm with Random Dungeons",
+    "authors": [ "Punin" ],
+    "description": "Unofficial Expansion of magiclysm.\nConquer randomly generated dungeons to get lots of spellbooks, wands, and treasures!",
+    "category": "misc_additions",
+    "dependencies": [ "dda" , "magiclysm"]
+  }
+]

@@ -1,0 +1,303 @@
+[
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_ManaUP500",
+        "name": { "str": "enhance potion:ManaUP500" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_STORE500",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_ManaUP1000",
+        "name": { "str": "enhance potion:ManaUP1000" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_STORE1000",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_ManaUP1500",
+        "name": { "str": "enhance potion:ManaUP1500" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_STORE1500",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_MANA_REGEN11",
+        "name": { "str": "enhance potion:MANA_REGEN1.1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_REGEN11",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_MANA_REGEN12",
+        "name": { "str": "enhance potion:MANA_REGEN1.2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_REGEN12",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_MANA_REGEN13",
+        "name": { "str": "enhance potion:MANA_REGEN1.3" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_MANA_REGEN13",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_STRUP_1",
+        "name": { "str": "enhance potion:STRUP 1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_STRUP_1",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_STRUP_2",
+        "name": { "str": "enhance potion:STRUP 2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_STRUP_2",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_INTUP_1",
+        "name": { "str": "enhance potion:INTUP 1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_INTUP_1",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_INTUP_2",
+        "name": { "str": "enhance potion:INTUP 2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_INTUP_2",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_DEXUP_1",
+        "name": { "str": "enhance potion:DEXUP 1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_DEXUP_1",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_DEXUP_2",
+        "name": { "str": "enhance potion:DEXUP 2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_DEXUP_2",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_PERUP_1",
+        "name": { "str": "enhance potion:PERUP 1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_PERUP_1",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_PERUP_2",
+        "name": { "str": "enhance potion:PERUP 2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_PERUP_2",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_STAMINA_REGEN11",
+        "name": { "str": "enhance potion:STAMINA_REGEN1.1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_STAMINA_REGEN11",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_STAMINA_REGEN12",
+        "name": { "str": "enhance potion:STAMINA_REGEN1.2" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_STAMINA_REGEN12",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_STAMINA_STORE15",
+        "name": { "str": "enhance potion:STAMINA STORE15%" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_STAMINA_STORE15",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_SPEED_UP5",
+        "name": { "str": "enhance potion:SPEED UP5%" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_SPEED_UP5",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_HP_UP10",
+        "name": { "str": "enhance potion:MAXHP UP10%" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_HP_UP10",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_HARDENSKIN1",
+        "name": { "str": "enhance potion:HARDENSKIN1" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_HARDENSKIN1",
+        "description": "This enhances your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    }
+
+]

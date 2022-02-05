@@ -1,0 +1,653 @@
+[
+
+    {
+        "id": "fd_PSY_magi_cold_mist",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "cold mist",
+            "sym": "%",
+            "color": "white",
+            "dangerous": true,
+            "translucency": 0.1,
+            "convection_temperature_mod": -10,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 2,
+                "min_duration": "10 seconds",
+                "max_duration": "1 minutes",
+                "immune_inside_vehicle": true,
+                "is_environmental": false,
+                "message": "You feel cold from inhaling the mist.",
+                "message_type": "bad"
+              }
+            ]
+          },
+          {
+            "name": "cold cloud",
+            "color": "white",
+            "convection_temperature_mod": -20,
+            "translucency": 0.4,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 2,
+                "min_duration": "10 seconds",
+                "max_duration": "1 minutes",
+                "immune_inside_vehicle": true,
+                "is_environmental": false,
+                "message": "You feel cold from inhaling the cloud.",
+                "message_type": "bad"
+              }
+            ]
+          },
+          {
+            "name": "thick cold cloud",
+            "color": "white",
+            "convection_temperature_mod": -30,
+            "translucency": 0.7,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 5,
+                "min_duration": "10 seconds",
+                "max_duration": "1 minutes",
+                "//": "won't be applied outside of vehicles, so it could apply harsher effect",
+                "immune_outside_vehicle": true,
+                "is_environmental": false,
+                "message": "You feel sick from inhaling the thick extinguisher cloud.",
+                "message_type": "bad"
+              }
+            ]
+          }
+        ],
+        "description_affix": "on",
+        "decay_amount_factor": 3,
+        "priority": 4,
+        "half_life": "10 seconds",
+        "phase": "gas",
+        "display_items": false,
+        "display_field": true,
+        "looks_like": "fd_fog",
+        "gas_absorption_factor": 15,
+        "has_fume": true,
+        "percent_spread": 90,
+        "dirty_transparency_cache": true
+      },
+
+
+      {
+        "id": "fd_PSY_magi_tiamat_cold_mist",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "tick cold mist",
+            "sym": "%",
+            "color": "white",
+            "dangerous": true,
+            "translucency": 0.1,
+            "convection_temperature_mod": -30,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 4,
+                "min_duration": "10 seconds",
+                "max_duration": "2 minutes",
+                "is_environmental": false,
+                "immune_inside_vehicle": true,
+                "message": "You feel cold from inhaling the mist.",
+                "message_type": "bad"
+              }
+            ]
+          },
+          {
+            "name": "frosty cloud",
+            "color": "white",
+            "convection_temperature_mod": -50,
+            "translucency": 0.4,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 5,
+                "min_duration": "10 seconds",
+                "max_duration": "2 minutes",
+                "is_environmental": false,
+                "immune_inside_vehicle": true,
+                "message": "You feel cold from inhaling the cloud.",
+                "message_type": "bad"
+              }
+            ]
+          },
+          {
+            "name": "thick frosty cloud",
+            "color": "white",
+            "convection_temperature_mod": -70,
+            "translucency": 0.7,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_cold_slow",
+                "intensity": 8,
+                "min_duration": "30 seconds",
+                "max_duration": "3 minutes",
+                "//": "won't be applied outside of vehicles, so it could apply harsher effect",
+                "immune_outside_vehicle": true,
+                "is_environmental": false,
+                "message": "You feel sick from inhaling the thick extinguisher cloud.",
+                "message_type": "bad"
+              }
+            ]
+          }
+        ],
+        "description_affix": "on",
+        "decay_amount_factor": 3,
+        "priority": 4,
+        "half_life": "60 seconds",
+        "phase": "gas",
+        "display_items": false,
+        "display_field": true,
+        "looks_like": "fd_fog",
+        "gas_absorption_factor": 15,
+        "has_fume": true,
+        "percent_spread": 10,
+        "dirty_transparency_cache": true
+      },
+
+      {
+        "id": "fd_PSY_magi_summon_gate",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Summon Gate",
+            "color": "magenta",
+            "monster_spawn_chance": 15,
+            "monster_spawn_count": 1,
+            "monster_spawn_radius": 1,
+            "monster_spawn_group": "GROUP_PSY_magi_TRANSFORM",
+            "light_emitted": 160
+          }
+        ],
+        "priority": 13,
+        "half_life": "180 seconds",
+        "accelerated_decay": false,
+        "phase": "solid",
+        "display_field": true,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_tangled_vine",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "tangled vine",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_tangled", "intensity": 1, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "priority": 11,
+        "half_life": "25 seconds",
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "hsh!",
+          "msg_success": "You brush aside some vines."
+        },
+        "phase": "solid",
+        "display_field": true,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_weak_tangled_vine",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "tangled vine",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_tangled", "intensity": 1, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "priority": 11,
+        "half_life": "25 seconds",
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "hsh!",
+          "msg_success": "You brush aside some vines."
+        },
+        "phase": "solid",
+        "display_field": true,
+        "immune_mtypes": [ "PSY_magi_rnd_mon_vegitable_botanist", "PSY_magi_rnd_mon_vine_tentacle" ],
+        "looks_like": "fd_PSY_magi_tangled_vine"
+      },
+
+      {
+        "id": "fd_PSY_magi_Accelerator_field",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Accelerator Field",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_accelerating", "intensity": 10, "min_duration": "15 seconds", "immune_in_vehicle": true }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": false,
+        "phase": "solid",
+        "half_life": "15 seconds",
+        "dirty_transparency_cache": true,
+        "outdoor_age_speedup": "0 turns",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_Sanctuary",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Sanctuary",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_in_sanctuary", "intensity": 1, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "priority": 10,
+        "phase": "solid",
+        "half_life": "120 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_apple_orchard",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Apple",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_foods_int", 
+                "intensity": 1, 
+                "min_duration": "180 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false, 
+                "message": "You ate an apple and gain int buff."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "900 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_Strawberries_orchard",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Strawberries",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_foods_str", "intensity": 1, "min_duration": "180 seconds", "immune_in_vehicle": true, "is_environmental": false, 
+                "message": "You ate some strawberries and gain str buff."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "900 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_banana_orchard",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Banana",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_foods_dex", "intensity": 1, "min_duration": "180 seconds", "immune_in_vehicle": true, "is_environmental": false,
+                "message": "You ate a banana and gain dex buff."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "900 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_blueberries_orchard",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Blueberries",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_foods_per", "intensity": 1, "min_duration": "180 seconds", "immune_in_vehicle": true, "is_environmental": false, 
+                "message": "You ate some blueberries and gain per buff."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "900 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_lemon_orchard",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Lemon",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_foods_speed", "intensity": 1, "min_duration": "180 seconds", "immune_in_vehicle": true, "is_environmental": false, 
+                "message": "You ate a lemon and gain speed buff."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "900 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_caltrop",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Caltrop",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_caltrop_slow", 
+                "intensity": 3,
+                "body_part": "foot_r", 
+                "min_duration": "20 seconds",
+                "max_duration": "20 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false, 
+                "message": "You stepped on a caltrop."
+              }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "1800 seconds",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_smoke"
+      },
+
+      {
+        "id": "fd_PSY_magi_caltrop_sub",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Caltrop second",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "venom_dmg", 
+                "intensity": 50,
+                "body_part": "foot_l", 
+                "min_duration": "5 minutes", 
+                "max_duration": "5 minutes",
+                "immune_in_vehicle": true, 
+                "is_environmental": false,
+                "message_type": "bad"
+              }
+            ]
+          }
+        ],
+        "priority": 1,
+        "decrease_intensity_on_contact": true,
+        "bash": {
+          "str_min": 1,
+          "str_max": 1,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "bash!"
+        },
+        "phase": "solid",
+        "half_life": "1800 seconds",
+        "dirty_transparency_cache": true,
+        "outdoor_age_speedup": "0 turns",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_PSY_magi_caltrop"
+      },
+
+      {
+        "id": "fd_PSY_magi_spotlight",
+        "type": "field_type",
+        "legacy_enum_id": 26,
+        "intensity_levels": [ { "name": "spotlight", "sym": "&", "light_emitted": 5 } ],
+        "description_affix": "illuminated_by",
+        "priority": 14,
+        "dirty_transparency_cache": true,
+        "outdoor_age_speedup": "0 turns",
+        "half_life": "1 turns",
+        "display_field": true,
+        "looks_like": "fd_laser"
+      },
+
+      {
+        "id": "fd_PSY_magi_plague_bite",
+        "type": "field_type",
+        "legacy_enum_id": 26,
+        "intensity_levels": [ { "name": "Plague bite", "sym": "&" } ],
+        "priority": 15,
+        "dirty_transparency_cache": true,
+        "outdoor_age_speedup": "0 turns",
+        "half_life": "1 turns",
+        "display_field": true,
+        "looks_like": "fd_laser"
+      },
+
+      {
+        "id": "fd_PSY_magi_heal_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "Aura of healing", 
+            "sym": "&", 
+            "color": "red",
+            "convection_temperature_mod": 4, 
+            "effects": [
+              { "effect_id": "PSY_magi_healing_air_effect", 
+                "intensity": 1,
+                "min_duration": "30 seconds",
+                "max_duration": "30 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false
+              }
+            ]
+          }
+        ],
+        "decay_amount_factor": 5,
+        "percent_spread": 10,
+        "outdoor_age_speedup": "100 minutes",
+        "priority": -1,
+        "half_life": "50 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog"
+      },
+
+      {
+        "id": "fd_PSY_magi_speed_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "Aura of Speed rising", 
+            "sym": "&", 
+            "color": "blue",
+            "convection_temperature_mod": -4, 
+            "effects": [
+              { "effect_id": "PSY_magi_speed_rising_air_effect", 
+                "intensity": 1,
+                "min_duration": "5 seconds",
+                "max_duration": "5 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false
+              }
+            ]
+          }
+        ],
+        "decay_amount_factor": 5,
+        "percent_spread": 10,
+        "outdoor_age_speedup": "100 minutes",
+        "priority": -1,
+        "half_life": "50 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog"
+      },
+
+      {
+        "id": "fd_PSY_magi_stamina_recovery_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "Aura of stamina recovery", 
+            "sym": "&", 
+            "color": "green",
+            "convection_temperature_mod": -2, 
+            "effects": [
+              { "effect_id": "PSY_magi_stamina_recover_air_effect", 
+                "intensity": 1,
+                "min_duration": "5 seconds",
+                "max_duration": "5 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false
+              }
+            ]
+          }
+        ],
+        "decay_amount_factor": 5,
+        "percent_spread": 10,
+        "outdoor_age_speedup": "100 minutes",
+        "priority": -1,
+        "half_life": "50 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog"
+      },
+
+      {
+        "id": "fd_PSY_magi_cursed_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "Aura of cursed", 
+            "sym": "&", 
+            "color": "pink",
+            "effects": [
+              { "effect_id": "PSY_magi_cursed_air_effect", 
+                "intensity": 1,
+                "min_duration": "3 seconds",
+                "max_duration": "3 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false
+              }
+            ]
+          }
+        ],
+        "decay_amount_factor": 5,
+        "percent_spread": 10,
+        "outdoor_age_speedup": "2 minutes",
+        "priority": -1,
+        "half_life": "1 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog"
+      }
+
+]

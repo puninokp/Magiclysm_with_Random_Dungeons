@@ -1,0 +1,135 @@
+[
+
+    {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_floating_earth_form",
+        "terrain": [
+          {
+            "result": "t_dirt",
+            "valid_terrain": [ 
+              "t_null",
+              "t_open_air",
+              "t_open_air_rooved_outside",
+              "t_water_sh",
+              "t_water_dp",
+              "t_water_murky",
+              "t_water_moving_sh",
+              "t_water_moving_dp", 
+              "t_swater_sh",
+              "t_swater_dp",
+              "t_sewage",
+              "t_lava",
+              "t_water_hot",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors",
+              "t_glass_roof"
+            ],
+            "message": "Created floating dirt!"
+          },
+
+          {
+            "result": "t_dirt_underground",
+            "valid_terrain": [ 
+              "t_water_pool_shallow",
+              "t_water_sh_underground",
+              "t_water_dp_underground",
+              "t_open_air_rooved",
+              "t_water_murky_sh_murky_underground",
+              "t_water_moving_sh_underground",
+              "t_water_moving_dp_underground",
+              "t_swater_sh_underground",
+              "t_swater_dp_underground",
+              "t_water_pool"
+            ],
+            "message": "Created floating dirt!"
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_remove_wall_form",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_dirt",
+            "valid_terrain": [ 
+              "t_rock",
+              "t_door_c"
+            ],
+            "message": "Remove all walls!"
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_create_metaldoor_form",
+        "//": "Furniture alteration has to be able to reasonably check for most intervening furniture and remove it.",
+        "terrain": [
+          {
+            "result": "t_door_metal_c",
+            "valid_flags": ["WALL"],
+            "message": "Wall changed to metal door."
+          },
+
+          {
+            "result": "t_door_metal_pickable",
+            "valid_terrain": [ 
+              "t_door_metal_c",
+              "t_door_metal_o"
+            ],
+            "message": "locked metal door."
+          }
+        ],
+        "furniture": [ { "result": "f_null", "valid_flags": [ "TRANSPARENT", "WALL" ] } ]
+      },
+
+
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_after_water_form",
+        "terrain": [
+
+          {
+            "result": "t_water_dp",
+            "valid_terrain": [ 
+              "t_pit_corpsed",
+              "t_pit_covered",
+              "t_pit_glass",
+              "t_pit_glass_covered",
+              "t_pit_spiked",
+              "t_pit_spiked_covered",
+              "t_rootcellar",
+              "t_pit_shallow",
+              "t_pit",
+              "t_water_sh"
+            ],
+            "message": "Created deep water!"
+          },
+          
+          {
+            "result": "t_water_sh",
+            "valid_terrain": [ 
+              "t_grave",
+              "t_dirt",
+              "t_sand",
+              "t_clay",
+              "t_dirtmound",
+              "t_grass",
+              "t_grass_long",
+              "t_grass_tall",
+              "t_grass_dead",
+              "t_grass_white",
+              "t_dirtfloor",
+              "t_fungus_floor_in",
+              "t_fungus_floor_sup",
+              "t_fungus_floor_out",
+              "t_sandbox"
+            ],
+            "message": "Created shallow water!"
+          }
+        ]
+      }
+
+]

@@ -1,0 +1,15 @@
+[
+
+    {
+        "type": "npc",
+        "id": "PSY_magi_yourclone",
+        "//": "A clone, made from you.",
+        "name_suffix": "Clone",
+        "class": "PSY_magi_NC_CLONE",
+        "attitude": 0,
+        "mission": 7,
+        "chat": "TALK_NC_PSY_CLONE",
+        "faction": "your_followers"
+      }
+
+]

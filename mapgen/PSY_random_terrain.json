@@ -1,0 +1,193 @@
+[
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_floor_blue",
+        "name": "floor",
+        "looks_like": "t_floor_blue",
+        "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+        "symbol": ".",
+        "color": "cyan",
+        "move_cost": 2,
+        "light_emitted": 20,
+        "roof": "t_flat_roof",
+        "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+        "bash": {
+          "sound": "SMASH!",
+          "ter_set": "t_null",
+          "str_min": 50,
+          "str_max": 400,
+          "str_min_supported": 100,
+          "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+        }
+    },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_carpet_red",
+        "name": "floor",
+        "looks_like": "t_carpet_red",
+        "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+        "symbol": ".",
+        "color": "cyan",
+        "move_cost": 2,
+        "light_emitted": 30,
+        "roof": "t_flat_roof",
+        "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+        "bash": {
+          "sound": "SMASH!",
+          "ter_set": "t_null",
+          "str_min": 50,
+          "str_max": 400,
+          "str_min_supported": 100,
+          "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+        }
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_magi_t_carpet_yellow",
+      "name": "floor",
+      "looks_like": "t_carpet_yellow",
+      "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+      "symbol": ".",
+      "color": "cyan",
+      "move_cost": 2,
+      "light_emitted": 30,
+      "roof": "t_flat_roof",
+      "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+      "bash": {
+        "sound": "SMASH!",
+        "ter_set": "t_null",
+        "str_min": 50,
+        "str_max": 400,
+        "str_min_supported": 100,
+        "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+      }
+  },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_strconc_floor",
+        "name": "floor",
+        "looks_like": "t_strconc_floor",
+        "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+        "symbol": ".",
+        "color": "cyan",
+        "move_cost": 2,
+        "light_emitted": 30,
+        "roof": "t_flat_roof",
+        "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+        "bash": {
+          "sound": "SMASH!",
+          "ter_set": "t_null",
+          "str_min": 50,
+          "str_max": 400,
+          "str_min_supported": 100,
+          "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+        }
+    },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_thconc_floor",
+        "name": "floor",
+        "looks_like": "t_thconc_floor",
+        "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+        "symbol": ".",
+        "color": "cyan",
+        "move_cost": 2,
+        "light_emitted": 30,
+        "roof": "t_flat_roof",
+        "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+        "bash": {
+          "sound": "SMASH!",
+          "ter_set": "t_null",
+          "str_min": 50,
+          "str_max": 400,
+          "str_min_supported": 100,
+          "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+        }
+    },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_floor",
+        "name": "floor",
+        "looks_like": "t_floor",
+        "description": "Interlocking wooden tiles that are more than likely treated against fire, with wooden posts and beams supporting a roof.",
+        "symbol": ".",
+        "color": "cyan",
+        "move_cost": 2,
+        "light_emitted": 20,
+        "roof": "t_flat_roof",
+        "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+        "bash": {
+          "sound": "SMASH!",
+          "ter_set": "t_null",
+          "str_min": 50,
+          "str_max": 400,
+          "str_min_supported": 100,
+          "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+        }
+    },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_dirt",
+        "name": "dirt",
+        "description": "It's dirt.  Looks like some fine soil for tillage.  Could also be dug out for construction projects.",
+        "symbol": ".",
+        "color": "brown",
+        "looks_like": "t_dirt",
+        "light_emitted": 30,
+        "move_cost": 2,
+        "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
+        "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    },
+
+    {
+        "type": "terrain",
+        "id": "PSY_magi_t_dirtfloor",
+        "name": "dirt",
+        "description": "It's dirt.  Looks like some fine soil for tillage.  Could also be dug out for construction projects.",
+        "symbol": ".",
+        "color": "brown",
+        "looks_like": "t_dirtfloor",
+        "light_emitted": 20,
+        "move_cost": 2,
+        "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
+        "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+    },
+
+    {
+      "type": "terrain",
+      "id": "t_rock_11111",
+      "name": "solid rock",
+      "description": "It's solid rock, could be full of all kinds of interesting things.  Best grab your pickaxe or equivalent digging implement, and strike the earth!",
+      "symbol": "#",
+      "color": "white",
+      "looks_like": "t_rock",
+      "move_cost": 0,
+      "coverage": 100,
+      "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "MINEABLE", "BLOCK_WIND" ],
+      "roof": "t_rock_floor_no_roof",
+      "bash": {
+        "str_min": 100,
+        "str_max": 400,
+        "sound": "crash!",
+        "sound_fail": "whump!",
+        "ter_set": "t_rock_floor",
+        "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+        "items": [
+          { "item": "rock", "count": [ 3, 7 ] },
+          { "item": "coal_lump", "charges": [ 250, 500 ], "prob": 10 },
+          { "item": "material_limestone", "charges": [ 10, 25 ], "prob": 80 },
+          { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 20 },
+          { "item": "material_rhodonite", "count": [ 0, 1 ], "prob": 3 },
+          { "item": "material_zincite", "count": [ 0, 5 ], "prob": 5 }
+        ]
+      }
+    }
+
+]

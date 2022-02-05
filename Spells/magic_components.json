@@ -1,0 +1,92 @@
+[
+
+      {
+        "id": "PSY_magi_spell_components_thread100",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "thread", 100 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 1 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 10 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap7",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 7 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 30 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_steel_utensil",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "fork", 1 ],
+                [ "spoon", 1 ],
+                [ "knife_butter", 1 ], 
+                [ "spork", 1 ],  
+                [ "pizza_cutter", 1 ], 
+                [ "foon", 1 ],
+                [ "carving_fork", 1 ]
+              ]
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_steel_utensil5",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "fork", 5 ],
+                [ "spoon", 5 ],
+                [ "knife_butter", 5 ], 
+                [ "spork", 5 ],  
+                [ "pizza_cutter", 5 ], 
+                [ "foon", 5 ],
+                [ "carving_fork", 5 ]
+              ]
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_book_changer",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "PSY_magi_control_beginner", 2 ],
+                [ "PSY_magi_alien_advanced", 2 ],
+                [ "PSY_magi_Vegetable_paradox", 2 ], 
+                [ "PSY_magi_tome_of_trickstar", 2 ],  
+                [ "PSY_magi_the_fear_of_disaster", 2 ], 
+                [ "PSY_magi_summon_advanced", 2 ],
+                [ "PSY_magi_ninja_instruction", 2 ],
+                [ "PSY_magi_unholy_summoning_advanced", 2 ], 
+                [ "PSY_magi_create_items_spellbook", 2 ],  
+                [ "PSY_magi_create_totems_spellbook", 2 ]
+              ]
+            ]
+      }
+
+]

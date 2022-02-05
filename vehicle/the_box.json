@@ -1,0 +1,36 @@
+[
+
+    {
+        "id": "PSY_magi_5x5box",
+        "type": "vehicle",
+        "name": "Plant wall",
+        "parts": [
+          { "x": 0, "y": 0, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 1, "y": 0, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": -1, "y": 0, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 0, "y": 1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 0, "y": -1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": -1, "y": -1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 1, "y": 1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 1, "y": -1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": -1, "y": 1, "parts": [ "PSY_magi_frame_vine" ] },
+          { "x": 2, "y": 0, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -2, "y": 0, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 0, "y": 2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 0, "y": -2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 2, "y": -1, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 2, "y": 1, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -2, "y": -1, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -2, "y": 1, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -1, "y": 2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 1, "y": 2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -1, "y": -2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 1, "y": -2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -2, "y": -2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 2, "y": -2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": 2, "y": 2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] },
+          { "x": -2, "y": 2, "parts": [ "PSY_magi_frame_vine", "PSY_magi_plant_xlhalfboard", "PSY_magi_plant_roof" ] }
+        ]
+    }
+
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "spellbook_tier_0",
+        "type": "item_group",
+        "//": "These are spellbooks that a beginner would have, or scrolls that would have this tier or one tier higher of spells.",
+        "items": [ [ "PSY_magi_ninja_instruction", 20 ],[ "PSY_magi_control_beginner", 20 ], [ "PSY_magi_tome_of_trickstar", 20 ], [ "PSY_magi_create_items_spellbook", 20 ], [ "PSY_magi_create_totems_spellbook", 20 ], [ "PSY_magi_Vegetable_paradox", 20 ]]
+      },
+      {
+        "id": "spellbook_tier_1",
+        "type": "item_group",
+        "items": [ [ "PSY_magi_the_fear_of_disaster", 20 ],[ "PSY_magi_control_beginner", 20 ],[ "PSY_magi_unholy_summoning_advanced", 25 ],[ "PSY_magi_summon_advanced", 25 ], [ "PSY_magi_tome_of_trickstar", 25 ], [ "PSY_magi_create_items_spellbook", 20 ], [ "PSY_magi_alien_advanced", 20 ]]
+      }
+
+]

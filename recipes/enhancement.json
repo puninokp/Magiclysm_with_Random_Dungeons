@@ -1,0 +1,303 @@
+[
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_ManaUP500",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 50 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_ManaUP1000",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 100 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_ManaUP1500",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_MANA_REGEN11",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 50 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_MANA_REGEN12",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 100 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_MANA_REGEN13",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_STRUP_1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_STRUP_2",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_INTUP_1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_INTUP_2",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_DEXUP_1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_DEXUP_2",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_PERUP_1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_PERUP_2",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 150 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_STAMINA_REGEN11",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 50 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_STAMINA_REGEN12",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 100 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_STAMINA_STORE15",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_SPEED_UP5",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_HP_UP10",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_potion_HARDENSKIN1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
+         ]
+    }
+
+]

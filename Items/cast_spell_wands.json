@@ -1,0 +1,101 @@
+[
+
+    {
+        "abstract": "PSY_magi_spell_wand",
+        "name": { "str": "Magic Wand" },
+        "type": "TOOL",
+        "weight": "230 g",
+        "volume": "500 ml",
+        "price": "400 USD",
+        "bashing": 3,
+        "to_hit": 1,
+        "material": [ "wood" ],
+        "looks_like": "spell_wand",
+        "symbol": "|",
+        "color": "brown",
+        "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+        "charges_per_use": 1,
+        "ammo": [ "crystallized_mana" ],
+        "pocket_data": [
+          {
+            "pocket_type": "MAGAZINE_WELL",
+            "holster": true,
+            "max_contains_volume": "20 L",
+            "max_contains_weight": "20 kg",
+            "item_restriction": [ "small_mana_crystal" ]
+          }
+        ]
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_minor",
+        "name": { "str": "minor wand of random polymorph", "str_pl": "minor wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price_postapoc": "150 USD",
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 100 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 5, "need_wielding": true }
+      },
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_lesser",
+        "name": { "str": "lesser wand of random polymorph", "str_pl": "lesser wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 20000,
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 150 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 5, "need_wielding": true }
+      },
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_greater",
+        "name": { "str": "greater wand of random polymorph", "str_pl": "greater wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 200 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_summon_insects",
+        "name": { "str": "wand of insects", "str_pl": "wands of insects" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "description": "This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_insects", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_upgrade",
+        "name": { "str": "wand of upgrade", "str_pl": "wands of upgrade" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_upgrade", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_tangled_vine",
+        "name": { "str": "wand of tangled vines", "str_pl": "wands of tangled vine" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_Tangled_vine_line", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_healing",
+        "name": { "str": "wand of healing", "str_pl": "wands of healing" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_ally", "no_fail": true, "level": 0, "need_wielding": true }
+      }
+
+]

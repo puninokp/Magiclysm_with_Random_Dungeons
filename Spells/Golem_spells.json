@@ -1,0 +1,166 @@
+[
+
+    {
+        "id": "PSY_magi_create_magic_bomb_spider_web",
+        "type": "SPELL",
+        "name": "Create a Bomb of spider web ",
+        "components": "PSY_magi_spell_components_thread100",
+        "description": "Conjure an Magic bomb of spider web,     after conjured this magic bomb, Use this item to arm it.  In five seconds it will begin to expel spider web.<color_light_red>required components have to in inventry or hands!</color>",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_web_bomb",
+        "shape": "blast",
+        "base_casting_time": 300,
+        "base_energy_cost": 150,
+        "min_duration": 1,
+        "max_duration": 2,
+        "duration_increment": 1,
+        "difficulty": 3,
+        "max_level": 0,
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS" ]
+    },
+
+
+    {
+        "id": "PSY_magi_create_crystal_golem",
+        "type": "SPELL",
+        "name": "Invoke crystal golem ",
+        "components": "PSY_magi_spell_components_thread100",
+        "description": "Conjure the crystal golem ",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_golem_crystal",
+        "shape": "blast",
+        "base_casting_time": 300,
+        "base_energy_cost": 1500,
+        "min_duration": 1,
+        "max_duration": 2,
+        "duration_increment": 1,
+        "difficulty": 3,
+        "max_level": 0,
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "flags": [ "PERMANENT","SILENT", "NO_LEGS" ]
+    },
+
+    {
+      "id": "PSY_magi_spell_golem_charge",
+      "type": "SPELL",
+      "name": { "str": "Command Golem:Charge" },
+      "targeted_monster_ids": [
+        "PSY_magi_mon_crystal_golem"
+      ],
+      "description": "Command the golem to assault the enemy.",
+      "effect": "mod_moves",
+      "shape": "blast",
+      "message": "",
+      "flags": ["NO_LEGS" , "NO_HANDS","IGNORE_WALLS"],
+      "valid_targets": [ "ally" ],
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "max_level": 10,
+      "difficulty": 1,
+      "base_energy_cost": 150,
+      "energy_increment": -5.0,
+      "final_energy_cost": 100,
+      "base_casting_time": 150,
+      "casting_time_increment": -5.0,
+      "final_casting_time": 100,
+      "min_damage": 500,
+      "max_damage": 800,
+      "damage_increment": 30,
+      "min_range": 20,
+      "max_range": 20
+    },
+
+    {
+      "id": "PSY_magi_spell_golem_retreat",
+      "type": "SPELL",
+      "name": { "str": "Command Golem:Retreat" },
+      "description": "Command the golem to withdraw from the enemy to recover from the bad situation.",
+      "targeted_monster_ids": [
+        "PSY_magi_mon_crystal_golem"
+      ],
+      "valid_targets": [ "ally" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+      "effect": "attack",
+      "effect_str": "run",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "max_level": 10,
+      "difficulty": 1,
+      "base_energy_cost": 75,
+      "energy_increment": -2.5,
+      "final_energy_cost": 50,
+      "base_casting_time": 100,
+      "casting_time_increment": -5.0,
+      "final_casting_time": 50,
+      "min_duration": 300,
+      "max_duration": 300,
+      "min_range": 20,
+      "max_range": 20,
+      "extra_effects": [
+          { "id": "PSY_magi_spell_golem_retreat_sub" }
+        ]
+    },
+
+    {
+      "id": "PSY_magi_spell_golem_retreat_sub",
+      "type": "SPELL",
+      "name": "Speed",
+      "description": "force fear.",
+      "valid_targets": [ "ally" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+      "effect": "attack",
+      "effect_str": "PSY_magi_haste_200",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "difficulty": 0,
+      "base_casting_time": 100,
+      "max_level": 0,
+      "min_duration": 300,
+      "max_duration": 300,
+      "min_range": 20,
+      "max_range": 20
+    },
+
+    {
+      "id": "PSY_magi_spell_repair_golem",
+      "type": "SPELL",
+      "name": "Repair Golem",
+      "description": "Repair some HP of the target golem .",
+      "valid_targets": [ "ally" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+      "targeted_monster_ids": [
+        "PSY_magi_mon_crystal_golem"
+      ],
+      "effect": "attack",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "max_level": 10,
+      "min_damage": -100,
+      "max_damage": -175,
+      "damage_increment": -7.5,
+      "damage_type": "pure",
+      "base_energy_cost": 350,
+      "energy_increment": -5.0,
+      "final_energy_cost": 300,
+      "min_range": 10,
+      "max_range": 15,
+      "range_increment": 0.5,
+      "base_casting_time": 250,
+      "final_casting_time": 200,
+      "casting_time_increment": -5.0
+    }
+
+
+
+]

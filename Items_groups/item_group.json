@@ -1,0 +1,56 @@
+[
+
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_group_rice_balls",
+        "items": [ [ "PSY_magi_rice_ball", 1 ], [ "PSY_magi_grilled_rice_ball", 1 ]]
+    },
+
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_food",
+        "entries": [
+          { "group": "vending_food_items", "count-min": 5, "count-max": 20 },
+          { "group": "vending_food_items", "prob": 66, "count-min": 5, "count-max": 25 },
+          { "group": "PSY_magi_group_rice_balls", "count-min": 2, "count-max": 4 },
+          { "group": "alchemy_items", "count-min": 5, "count-max": 10 },
+          { "group": "alchemy_items", "prob": 20, "count-min": 5, "count-max": 10 }
+        ]
+      },
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_drink",
+        "entries": [
+          { "group": "potions_common", "count-min": 3, "count-max": 5 },
+          { "group": "potions_common", "prob": 66, "count-min": 2, "count-max": 5 },
+          { "group": "vending_drink_items", "count-min": 5, "count-max": 25 },
+          { "group": "vending_drink_items", "prob": 66, "count-min": 5, "count-max": 25 },
+          { "group": "vending_drink_items", "prob": 20, "count-min": 5, "count-max": 25 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magi_mon_ninja_drop_scrolls",
+        "items": [
+          { "item": "PSY_magi_scroll_big_room", "prob": 1 },
+          { "item": "PSY_magi_scroll_of_Nothing_Written", "prob": 1 },
+          { "item": "PSY_magi_scroll_of_Light", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_Frighten", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_summoning", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_Haste", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_collect_item", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_sanctuary", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_summon_gate", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_thunder_snake", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_Orchard", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_Upgrade", "prob": 3 },
+          { "item": "PSY_magi_scroll_of_Monster_house", "prob": 3 }
+        ]
+      }
+
+
+]

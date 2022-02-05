@@ -1,0 +1,175 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "PSY_magi_bugtower_1",
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "............||..........",
+        "..........||||||........",
+        "........|||TPTP|||......",
+        "......|||       V|||....",
+        "....|||V          T||...",
+        "...||<            T |...",
+        "...|||      P P     ||..",
+        "....||       &      T|..",
+        ".....|      P P     T|..",
+        ".....+              ||..",
+        "....|| TPTP     TPTP|...",
+        "..|||V              |...",
+        "||| +      TPTP  V ||...",
+        "||  ||| TPTP     |||....",
+        "||    ||||||||TT||......",
+        ".|&  ||......||||.......",
+        ".|||||..................",
+        "........................",
+        "........................",
+        "........................",
+        "........................"
+      ],
+      "palettes": [ "PSY_magi_bugtower1_palette" ],
+      "place_monsters": [ { "monster": "GROUP_PSY_magi_BUG_SWARM", "density": 0.1, "x": 8, "y": 10 , "repeat": [ 3, 4 ]} ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "PSY_magi_bugtower_2",
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvv||vvvvvvvvvv",
+        "vvvvvvvvvv||||||vvvvvvvv",
+        "vvvvvvvv|||   O|||vvvvvv",
+        "vvvvvv|||    OTO |||vvvv",
+        "vvvv|||i  O   O i O||vvv",
+        "vvv||>   OTO     OTO|vvv",
+        "vvv||<    O   O   O ||vv",
+        "vvvv||i    F OTO    i|vv",
+        "vvvvv|    O   O  O   |vv",
+        "vvvvv|   OTO    OTO ||vv",
+        "vvvv|| i  O   O  O  |vvv",
+        "vv|||        OTO  T |vvv",
+        "||| + F  &    O   V||vvv",
+        "||T |||    i    F|||vvvv",
+        "||   i||||||||ii||vvvvvv",
+        "v|PPP||vvvvvv||||vvvvvvv",
+        "v|||||vvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv"
+      ],
+      "palettes": [ "PSY_magi_bugtower1_palette" ],
+      "place_monsters": [ { "monster": "GROUP_PSY_magi_BUG_SWARM", "density": 0.1, "x": 8, "y": 10, "repeat": [ 3, 4 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "PSY_magi_bugtower_3",
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvv||vvvvvvvvvv",
+        "vvvvvvvvvv||||||vvvvvvvv",
+        "vvvvvvvv|||    |||vvvvvv",
+        "vvvvvv|||        |||vvvv",
+        "vvvv|||            ||vvv",
+        "vvv||<              |vvv",
+        "vvv||>              ||vv",
+        "vvvv||               |vv",
+        "vvvvv|               |vv",
+        "vvvvv|              ||vv",
+        "vvvv||              |vvv",
+        "vv|||               |vvv",
+        "||| +              ||vvv",
+        "||  |||          |||vvvv",
+        "||    ||||||||  ||vvvvvv",
+        "v|   ||vvvvvv||||vvvvvvv",
+        "v|||||vvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv"
+      ],
+      "palettes": [ "PSY_magi_bugtower1_palette" ],
+      "place_monsters": [ { "monster": "GROUP_PSY_magi_BUG_SWARM", "density": 0.1, "x": 12, "y": 12, "repeat": [ 3, 4 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "PSY_magi_bugtower_4",
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvv##vvvvvvvvvv",
+        "vvvvvvvvvv######vvvvvvvv",
+        "vvvvvvvv###_ii_###vvvvvv",
+        "vvvvvv###________###vvvv",
+        "vvvv###____________##vvv",
+        "vvv##>___T__________#vvv",
+        "vvv##&_______&______##vv",
+        "vvvv##_______________ivv",
+        "vvvvvi_______T________vv",
+        "vvvvv_________________vv",
+        "vvvvi____________T___vvv",
+        "vv###________&______ivvv",
+        "###_+____T_________##vvv",
+        "##T_###__________###vvvv",
+        "##P__i#i____i___##vvvvvv",
+        "v##P_##vvvvvv####vvvvvvv",
+        "v#####vvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv"
+      ],
+      "palettes": [ "PSY_magi_bugtower1_palette" ],
+      "place_monsters": [ { "monster": "GROUP_PSY_magi_BUG_SWARM", "density": 0.1, "x": 12, "y": 12, "repeat": [ 3, 4 ] } ]
+    }
+  },
+
+  {
+    "type": "palette",
+    "id": "PSY_magi_bugtower1_palette",
+    "terrain": {
+      ",": "t_platform_resin",
+      "|": "t_wall_w",
+      "#": "t_rock_wall",
+      "+": "t_door_c",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "p": "t_platform_resin",
+      "v": "t_open_air",
+      "_": "t_tile_flat_roof",
+      ".": "t_region_groundcover",
+      "@": "t_null"
+    },
+    "furniture": {
+      "i": "f_alien_tendril",
+      "n": "f_alien_table",
+      "V": "f_alien_anemone",
+      "&": "f_huge_mana_crystal",
+      "F": "f_bookcase",
+      "T": "f_table",
+      "P": [ [ "f_alien_pod", 2 ], [ "f_alien_pod_organ", 2 ], "f_alien_pod_resin" ],
+      "p": [ [ "f_alien_pod", 2 ], [ "f_alien_pod_organ", 2 ], "f_alien_pod_resin" ],
+      "O": "f_alien_pod_resin"
+    }
+  }
+]

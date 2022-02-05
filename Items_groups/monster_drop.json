@@ -1,0 +1,227 @@
+[
+
+    {
+        "type": "item_group",
+        "id": "mon_crystal_golem_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_golem_crystal", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "spoon", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_knife_butter_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "knife_butter", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_fork_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "fork", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_spork_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "spork", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_vine_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_vine_seeds", "prob": 5 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_sentry-plant_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_sentry-plant_seeds", "prob": 5 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_babbles_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_babble_sippo", "prob": 5 },{ "item": "PSY_magi_armor_babble_shield", "prob": 1 },{ "item": "PSY_magi_weapon_babble_sword", "prob": 1 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_babbles2_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_babble_sippo", "prob": 5 }, { "item": "PSY_magi_armor_babble_shield", "prob": 3 },{ "item": "PSY_magi_weapon_babble_sword", "prob": 3 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_masks_drops",
+        "subtype": "collection",
+        "entries": [  { "item": "PSY_magi_mmask_acceleration", "prob": 2 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_masks2_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_mmask_acceleration", "prob": 3 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_grave_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "spell_scroll_PSY_magi_summon_skeleton_grave", "prob": 10 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_ninja_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_ninja_instruction", "prob": 10 },
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] },
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 30 }]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_ninja2_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_ninja_instruction", "prob": 10 },
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] },
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 100 }]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_blaze_bird2_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_blaze_bird_feather", "prob": 15 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_thunder_bird2_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_thunder_bird_feather", "prob": 15 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_blaze_bird_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_blaze_bird_feather", "prob": 3 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_thunder_bird_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_thunder_bird_feather", "prob": 3 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ] } ]
+    },
+
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_summoner_insect_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_summon_insects", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_polymopher_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_upgrade", "prob": 5 },{ "item": "PSY_magi_wand_magic_transform_minor", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_enchanter_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_healing", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_summoner_totem_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "spell_scroll_PSY_magi_spell_repair_totem", "prob": 5 },
+            { "item": "spell_scroll_PSY_magi_spawn_taunt_totem", "prob": 5 },
+            { "item": "spell_scroll_PSY_magi_spell_morph_totem", "prob": 5 },
+            { "item": "PSY_magi_create_totems_spellbook", "prob": 30 },
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_botanist_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_Vegetable_paradox", "prob": 30 },
+            { "item": "PSY_magi_wand_of_tangled_vine", "prob": 10 },
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_spirit_mon_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 10, 30 ] } ,
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 3 },
+            { "group": "potions_common", "count-min": 2, "count-max": 3 },
+            { "group": "alchemy_items", "count-min": 3, "count-max": 5 }
+        ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ]},
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 1 },
+            { "group": "potions_common", "prob": 2 }  
+        ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_2_mon_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 6 ] } ,
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 3 },
+            { "group": "potions_common", "prob": 4 }    
+        ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_3_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 10, 30 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_coin_4_mon_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_magical_coin_bronze", "count": [ 30, 99 ] } ]
+    }
+
+]

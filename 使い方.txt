@@ -1,0 +1,31 @@
+ダウンロードしていただきありがとうございます！！
+
+このmod[Magiclysm_with_spells]の使い方
+
+１	まずこのファイル[Magiclysm_with_spells_EX]を
+
+	cdda/data/mods/Magiclysm_with_spells_EX
+
+	に入れてください
+
+２	そしてこの中に翻訳ファイル
+
+	magiclysm_with_dungeon_HONYAKU.mo
+	
+	が入っています。
+
+	こちらのファイルをお手数ですが
+
+	cdda / lang / mo / ja / LC_MESSAGES に置いていただけば
+
+	日本語が適応されます(０F-3より後の開発版のみ)
+
+
+３	画像はアンデッドピーポーをベースにしております。
+	対応する画像	{"UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm"}
+
+	もし上記の対応タイルであるのに、適用されていないのであれば以下をお試しください
+
+	１　タイルが反映されるまでゲームをリログする（ダウンロードしてすぐだとなぜかタイル画像適応に時間がかかるときがあります）
+	
+	2　それでもだめなら　作者”puninokp”にdiscordにて連絡ください。

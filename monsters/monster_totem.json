@@ -1,0 +1,425 @@
+[
+
+    {
+        "id": "PSY_magi_mon_fear_totem",
+        "type": "MONSTER",
+        "name": "Fear Totem",
+        "description": "A totem that scares nearby enemies into running away.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 95,
+        "speed": 120,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 6,
+        "vision_night": 6,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fear_base" }, "cooldown": 3 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_charm_totem",
+        "type": "MONSTER",
+        "name": "Mindcontrol Totem",
+        "description": "A totem that can take control of the mind of a nearby enemy and change sides for a short period of time.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 195,
+        "speed": 125,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 5,
+        "vision_night": 5,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_charm_base" }, "cooldown": 7 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_blind_totem",
+        "type": "MONSTER",
+        "name": "Blind Totem",
+        "description": "A totem that removes the vision of nearby enemies.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 145,
+        "speed": 120,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 15,
+        "vision_night": 15,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_blind_base" }, "cooldown": 10 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_plague_totem",
+        "type": "MONSTER",
+        "name": "Plague Totem",
+        "description": "A totem that spreads plagues to nearby enemies.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 245,
+        "speed": 120,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 8,
+        "vision_night": 8,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_plague_base" }, "cooldown": 1 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_taunt_totem",
+        "type": "MONSTER",
+        "name": "Tauntotem",
+        "description": "Totems that taunt nearby enemies",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "13006 g",
+        "hp": 550,
+        "speed": 50,
+        "luminance": 50,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 7,
+        "vision_night": 7,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_taunt_all_weak_base" }, "cooldown": 10 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_stun_totem",
+        "type": "MONSTER",
+        "name": "Stun Totem",
+        "description": "A totem that stun nearby enemies",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 300,
+        "speed": 120,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 7,
+        "vision_night": 7,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_stun_base" }, "cooldown": 5 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_deaf_totem",
+        "type": "MONSTER",
+        "name": "Deafening Totem",
+        "description": "Deafening nearby enemies.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 345,
+        "speed": 120,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 50,
+        "vision_night": 50,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_deaf_base" }, "cooldown": 0 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_glowy_totem",
+        "type": "MONSTER",
+        "name": "Spotting Totem",
+        "description": "A totem that detect nearby enemies",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_deaf_totem",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 350,
+        "speed": 100,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 50,
+        "vision_night": 50,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_glowy_led_base" }, "cooldown": 1 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_Strengthening_totem",
+        "type": "MONSTER",
+        "name": "Strengthening Totem",
+        "description": "A totem that strengthening nearby friendly units.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_deaf_totem",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 390,
+        "speed": 100,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 30,
+        "vision_night": 30,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_Strengthening_base" }, "cooldown": 22 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_plague_rat_totem",
+        "type": "MONSTER",
+        "name": "Plague Rat Totem",
+        "description": "A totem that Summons 2 of plague rats every 10 seconds.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_deaf_totem",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "1500 ml",
+        "weight": "136 g",
+        "hp": 440,
+        "speed": 100,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 25,
+        "vision_night": 25,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_summon_plague_rat_base" }, "cooldown": 10 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      }
+
+
+]
