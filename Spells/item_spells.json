@@ -208,7 +208,7 @@
     {
       "id": "PSY_magi_item_spell_scroll_of_summon_base",
       "type": "SPELL",
-      "name": "Scroll of Summon",
+      "name": "Scroll of Summoning",
       "description": "This is a scroll of summoning. When you read it, it will summon many dungeon creatures around you for 10 minutes, either enemies or allies.",
       "valid_targets": ["hostile", "ground" ,"self", "ground"],
       "flags": ["WONDER", "SOMATIC", "LOUD", "NO_PROJECTILE" ,"RANDOM_TARGET"],

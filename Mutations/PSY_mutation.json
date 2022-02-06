@@ -80,7 +80,7 @@
         "purifiable": false,
         "points": 2,
         "ignored_by": [ "PLANT" ],
-        "description": "You smell like a plant,  So plant creatures won't hostile against you.",
+        "description": "You smell like a plant,  So triffids won't hostile against you.",
         "mana_regen_multiplier": 1.05
       },
 
@@ -231,11 +231,11 @@
       {
         "type": "mutation",
         "id": "PSY_HP_UP10",
-        "name": "MAX HP 10%",
+        "name": "MAX HP +10%",
         "points": 4,
         "valid": false,
         "purifiable": false,
-        "description": "It takes a lot to bring you down!  You get a 20% bonus to all hit points.",
+        "description": "It takes a lot to bring you down!  You get a 10% bonus to all hit points.",
         "flags": [ "NON_THRESH" ],
         "hp_modifier": 0.1
       },

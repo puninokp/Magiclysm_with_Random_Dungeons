@@ -37,8 +37,14 @@ msgstr "魔法の力を手に籠めて強力な気力を敵にぶつけて後方
 msgid "Push Force Cone"
 msgstr "押し出しウェーブ"
 
+msgid "Vacuum Collect"
+msgstr "吸引回収"
+
 msgid "Vacuum Collect "
 msgstr "吸引回収"
+
+msgid "Distort space-time for a moment and collect surrounding items in the target area.\n This effects ignore walls"
+msgstr "一瞬の間時空を歪めて、収納されていない周囲のアイテムを目の前に引き寄せる。この効果は壁越しのアイテムにも発動する"
 
 msgid ""
 "Distort space-time for a moment and collect surrounding items in the target area.\n"
@@ -427,6 +433,9 @@ msgstr "吐き気効果を無効化します"
 
 msgid "Cold Slow"
 msgstr "霜焼け"
+
+msgid "cold mist"
+msgstr "冷たい霧"
 
 msgid "Emagency Invisible"
 msgstr "緊急退避"
@@ -1295,6 +1304,9 @@ msgstr "魔法の蔓の種"
 msgid "Seeds that grow friendly vines as soon as they are planted."
 msgstr "植えるとすぐに友好的な蔓が生えてくる魔法の種。"
 
+msgid "Magical Coin"
+msgstr "魔法のコイン"
+
 msgid "magical sentry-plant seeds"
 msgstr "魔法のセントリープラントの種"
 
@@ -1601,3 +1613,66 @@ msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒
 msgctxt "prof_desc_female"
 msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
 msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒魔術を使う召喚士です。"
+
+msgid "Mana Pocket 500"
+msgstr "マナ容量500"
+
+msgid "Mana Pocket 1000"
+msgstr "マナ容量1000"
+
+msgid "Mana Pocket 1500"
+msgstr "マナ容量1500"
+
+msgid "Mana Regeneration 1.1"
+msgstr "マナ回復1.1x"
+
+msgid "Mana Regeneration 1.2"
+msgstr "マナ回復1.2x"
+
+msgid "Mana Regeneration 1.3"
+msgstr "マナ回復1.3x"
+
+msgid "Your natural mana regeneration is 1.1x faster than normal."
+msgstr "マナ回復速度が1,1倍に増えます。"
+
+msgid "Your natural mana regeneration is 1.2x faster than normal."
+msgstr "マナ回復速度が1,2倍に増えます。"
+
+msgid "Your natural mana regeneration is 1.3x faster than normal."
+msgstr "マナ回復速度が1,3倍に増えます。"
+
+msgid "Plant Smell"
+msgstr "植物の匂い"
+
+msgid "You smell like a plant,  So triffids won't hostile against you."
+msgstr "あなたは植物と同じ匂いがします。トリフィドたちはあなたに敵対しません。"
+
+msgid "Stamina Regeneration 1.1"
+msgstr "スタミナ回復1.1x"
+
+msgid "Stamina Regeneration 1.2"
+msgstr "スタミナ回復1.2x"
+
+msgid "Your natural stamina regeneration is 1.1x faster than normal."
+msgstr "スタミナ回復速度が1,1倍に増えます。"
+
+msgid "Your natural stamina regeneration is 1.2x faster than normal."
+msgstr "スタミナ回復速度が1.2倍に増えます。"
+
+msgid "Stamina Capacity 1.15"
+msgstr "スタミナ容量15%UP"
+
+msgid "Your stamina capacity has been increased by 15%."
+msgstr "あなたのスタミナの容量が15%増えました。"
+
+msgid "MAX HP +10%"
+msgstr "MAXHP10%UP"
+
+msgid "It takes a lot to bring you down!  You get a 10% bonus to all hit points."
+msgstr "あなたが倒されるまでの時間がより多く必要です。全パーツのMAXHPに10%のボーナス"
+
+msgid "HARDEN SKIN 1"
+msgstr "強化皮膚 1"
+
+msgid "Your skin is tough.  Cutting and bashing damage is slightly reduced for you.  All parts of armor +1."
+msgstr "あなたの皮膚は少し硬くなりました。カットとバッシュダメージを少し減らします。全てのパーツに装甲+１"

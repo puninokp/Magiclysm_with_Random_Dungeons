@@ -65,7 +65,7 @@
     {
         "id": "PSY_magi_spell_vacuum",
         "type": "SPELL",
-        "name": "Vacuum Collect ",
+        "name": "Vacuum Collect",
         "description": "Distort space-time for a moment and collect surrounding items in the target area.\n This effects ignore walls",
         "valid_targets": ["ground"],
         "flags": [ "WONDER","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],

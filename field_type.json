@@ -168,7 +168,7 @@
           }
         ],
         "priority": 13,
-        "half_life": "180 seconds",
+        "half_life": "180 turns",
         "accelerated_decay": false,
         "phase": "solid",
         "display_field": true,
@@ -248,7 +248,7 @@
         "priority": 9,
         "decrease_intensity_on_contact": false,
         "phase": "solid",
-        "half_life": "15 seconds",
+        "half_life": "15 turns",
         "dirty_transparency_cache": true,
         "outdoor_age_speedup": "0 turns",
         "display_field": true,
@@ -271,7 +271,7 @@
         ],
         "priority": 10,
         "phase": "solid",
-        "half_life": "120 seconds",
+        "half_life": "120 turns",
         "display_field": true,
         "accelerated_decay": false,
         "looks_like": "fd_smoke"
