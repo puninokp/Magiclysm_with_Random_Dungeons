@@ -513,6 +513,100 @@
     "flags": [ "SILENT" ],
     "shape": "blast",
     "effect": "noise"
+  },
+
+  {
+    "id": "PSY_magi_spell_wand_of_resurrection",
+    "type": "SPELL",
+    "name": "wand of resurrection",
+    "description": "Reanimates the corpse of a resurrectable target.",
+    "valid_targets": ["ground"],
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "shape": "blast",
+    "spell_class": "NONE",
+    "max_level": 20,
+    "min_range": 20,
+    "max_range": 20,
+    "base_casting_time": 100,
+    "effect": "revive",
+    "effect_str": "ZOMBIE",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_wand_of_resurrection_sub" }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_wand_of_resurrection_sub",
+    "name": "Mental cracking",
+    "description": "Control an enemy under 180 MAX HP and change to our side for short of period.",
+    "valid_targets": [ "hostile","ground" ],
+    "effect": "charm_monster",
+    "message": "",
+    "min_damage": 9000,
+    "max_damage": 9000,
+    "max_level": 20,
+    "shape": "blast",
+    "min_range": 20,
+    "max_range": 20,
+    "min_duration": 8640000,
+    "max_duration": 8640000,
+    "duration_increment": 20000,
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "extra_effects": [
+      { "id": "PSY_magi_spell_wand_of_resurrection_sub_healing" }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_wand_of_resurrection_sub_healing",
+    "type": "SPELL",
+    "name": "Healing ally",
+    "description": "healing ally.",
+    "valid_targets": ["ally","ground"],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "min_damage": -5000,
+    "max_damage": -5000,
+    "max_level": 0,
+    "min_range": 20,
+    "max_range": 20
+  },
+
+  {
+    "id": "PSY_magi_spell_wand_of_pulling",
+    "type": "SPELL",
+    "name": "wand of pulling",
+    "description": "Attempts to pull the target towards the caster in a straight line.",
+    "valid_targets": ["hostile","ally"],
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "shape": "blast",
+    "spell_class": "NONE",
+    "max_level": 20,
+    "min_range": 20,
+    "max_range": 20,
+    "base_casting_time": 100,
+    "effect": "pull_target"
+  },
+
+  {
+    "id": "PSY_magi_spell_wand_of_dashing",
+    "type": "SPELL",
+    "name": "wand of dashing",
+    "description": "shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
+    "valid_targets": ["hostile","ally"],
+    "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+    "shape": "blast",
+    "spell_class": "NONE",
+    "max_level": 20,
+    "min_range": 20,
+    "max_range": 20,
+    "base_casting_time": 100,
+    "effect": "dash"
   }
 
 ]

@@ -96,6 +96,40 @@
         "charges_per_use": 5,
         "description": "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_ally", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_resurrection",
+        "name": { "str": "wand of resurrection", "str_pl": "wands of resurrection" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_resurrection", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_pulling",
+        "name": { "str": "wand of pulling", "str_pl": "wands of pulling" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that attempts to pull the target towards the caster in a straight line.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_pulling", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_dashing",
+        "name": { "str": "wand of dashing", "str_pl": "wands of dashing" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_dashing", "no_fail": true, "level": 0, "need_wielding": true }
       }
+
 
 ]
