@@ -129,6 +129,17 @@
         "charges_per_use": 2,
         "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_dashing", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_bloodrain",
+        "name": { "str": "wand of blood rain", "str_pl": "wands of blood rain" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_blood_rain", "no_fail": true, "level": 0, "need_wielding": true }
       }
 
 
