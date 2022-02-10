@@ -19,6 +19,10 @@
               [ "PSY_magi_nested_room_5x5_skeleton_1", 3 ],
               [ "PSY_magi_nested_room_5x5_skeleton_2", 2 ],
               [ "PSY_magi_nested_room_5x5_frog_1", 3 ],
+              [ "PSY_magi_nested_room_5x5_chess_1", 1 ],
+              [ "PSY_magi_nested_room_5x5_chess_2", 2 ],
+              [ "PSY_magi_nested_room_5x5_chess_3", 2 ],
+              [ "PSY_magi_nested_room_5x5_chess_4", 2 ],
               [ "PSY_magi_nested_room_5x5_gym_1", 3 ],
               [ "PSY_magi_nested_room_5x5_gym_2", 3 ],
               [ "PSY_magi_nested_room_5x5_bat_1", 4 ],
@@ -56,6 +60,7 @@
               [ "PSY_magi_nested_room_6x6_garden_1", 10 ],
               [ "PSY_magi_nested_room_6x6_garden_2", 10 ],
               [ "PSY_magi_nested_room_6x6_tomb_1", 10 ],
+              [ "PSY_magi_nested_room_6x6_chess_1", 10 ],
               [ "PSY_magi_nested_room_6x6_tomb_2", 10 ],
               [ "PSY_magi_nested_room_6x6_toruneko_1", 10 ],
               [ "PSY_magi_nested_room_6x6_toruneko_2", 10 ]

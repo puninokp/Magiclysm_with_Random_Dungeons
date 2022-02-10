@@ -21,6 +21,51 @@
           "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
         }
     },
+    {
+      "type": "terrain",
+      "id": "PSY_magi_t_linoleum_white",
+      "name": "linoleum tile",
+      "description": "A section of flooring made out of a tough, rubbery material.  Colored a simple white.",
+      "symbol": ".",
+      "color": "white",
+      "looks_like": "t_linoleum_white",
+      "light_emitted": 20,
+      "connects_to": "LINOLEUM",
+      "move_cost": 2,
+      "roof": "t_flat_roof",
+      "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+      "bash": {
+        "sound": "SMASH!",
+        "ter_set": "t_null",
+        "str_min": 50,
+        "str_max": 400,
+        "str_min_supported": 100,
+        "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+      }
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_magi_t_linoleum_gray",
+      "name": "linoleum tile",
+      "roof": "t_flat_roof",
+      "description": "A section of flooring made out of a tough, gray, rubbery material.",
+      "symbol": ".",
+      "color": "light_gray",
+      "looks_like": "t_linoleum_gray",
+      "light_emitted": 20,
+      "connects_to": "LINOLEUM",
+      "move_cost": 2,
+      "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+      "bash": {
+        "sound": "SMASH!",
+        "ter_set": "t_null",
+        "str_min": 50,
+        "str_max": 400,
+        "str_min_supported": 100,
+        "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 5, 10 ] } ]
+      }
+    },
 
     {
         "type": "terrain",

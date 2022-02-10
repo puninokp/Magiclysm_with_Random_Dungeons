@@ -2454,7 +2454,7 @@
         "armor_cut": 10,
         "armor_bullet": 16,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2502,7 +2502,7 @@
           [ "RANGED_PULL", 10 ],
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_rook_of_pulling" }, "cooldown": 14 }
         ],
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_chess_rook_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2519,7 +2519,7 @@
         "id": "PSY_magi_rnd_mon_chess_knight",
         "type": "MONSTER",
         "name": "animated knight of chess",
-        "description": "A moving knight of chess that assaults you and puts you in a dizzy state.",
+        "description": "A moving chess knight that charges at you and deals damage.",
         "default_faction": "PSY_magi_random_dungeon_chesses",
         "species": [ "PSY_MAGI_CHESS_MONS","PSY_MAGI_SUMMONED_MONS" ],
         "volume": "500000 ml",
@@ -2549,7 +2549,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_knight_base" }, "cooldown": 7 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_chess_knight_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2596,7 +2596,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_queen_of_bishop_base" }, "cooldown": 11 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_chess_bishop_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2643,7 +2643,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_queen_of_resurrection_base" }, "cooldown": 7 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_chess_queen_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2689,7 +2689,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_summon_hostile_pawn_base" }, "cooldown": 15 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_mon_spoon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_chess_king_drops",
         "flags": [
           "SEES",
           "NOGIB",

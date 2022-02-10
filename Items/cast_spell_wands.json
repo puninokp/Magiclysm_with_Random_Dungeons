@@ -133,6 +133,17 @@
 
       {
         "type": "TOOL",
+        "id": "PSY_magi_wand_of_swapping",
+        "name": { "str": "wand of swapping", "str_pl": "wands of swapping" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_swapping", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
         "id": "PSY_magi_wand_of_bloodrain",
         "name": { "str": "wand of blood rain", "str_pl": "wands of blood rain" },
         "copy-from": "PSY_magi_spell_wand",
@@ -140,6 +151,17 @@
         "charges_per_use": 3,
         "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_blood_rain", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_chess_king",
+        "name": { "str": "wand of chess of king", "str_pl": "wands of chess of king" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that summons 2 chess of pawns to the target location.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_pawns", "no_fail": true, "level": 0, "need_wielding": true }
       }
 
 

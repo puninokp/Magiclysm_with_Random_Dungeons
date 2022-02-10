@@ -1676,3 +1676,77 @@ msgstr "強化皮膚 1"
 
 msgid "Your skin is tough.  Cutting and bashing damage is slightly reduced for you.  All parts of armor +1."
 msgstr "あなたの皮膚は少し硬くなりました。カットとバッシュダメージを少し減らします。全てのパーツに装甲+１"
+
+msgid "animated pawn of chess"
+msgstr "動くチェス駒：ポーン"
+
+msgid "A moving pawn of chess that will come closer to you step by step."
+msgstr "一歩一歩、あなたに近づいてくる動くチェス駒のポーン。"
+
+msgid "animated rook of chess"
+msgstr "動くチェス駒：ルーク"
+
+msgid "A moving rook of chess that draws you in and delivers a powerful blow."
+msgstr "敵を引き込み、強烈な一撃を放つ動くチェス駒のルーク。"
+
+msgid "animated knight of chess"
+msgstr "動くチェス駒：ナイト"
+
+msgid "A moving chess knight that charges at you and deals damage."
+msgstr "遠方からあなたに向かって突撃しダメージを与える、動くチェス駒の騎士。"
+
+msgid "animated bishop of chess"
+msgstr "動くチェス駒：ビショップ"
+
+msgid "A moving bishop of chess that uses a variety of magic to provide support."
+msgstr "様々な魔法を駆使してサポートする動くチェス駒のビショップ。"
+
+msgid "animated queen of chess"
+msgstr "動くチェス駒：クイーン"
+
+msgid "A moving queen of chess that can revive her fellow chess pieces."
+msgstr "仲間のチェスの駒を復活させることができる、動くチェス駒の女王。"
+
+msgid "animated king of chess"
+msgstr "動くチェス駒：キング"
+
+msgid "A moving king of chess that can summon his fellow chess pieces."
+msgstr "仲間の駒を呼び出すことができる、動くチェスの王。"
+
+msgid "wand of resurrection"
+msgid_plural "wands of resurrection"
+msgstr[0] "堕落復活の魔法杖"
+
+msgid "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours."
+msgstr "復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。/n そのゾンビは24時間後に再び敵として寝返る。"
+
+msgid "wand of pulling"
+msgid_plural "wands of pulling"
+msgstr[0] "引き寄せの魔法杖"
+
+msgid "A magic wand that attempts to pull the target towards the caster in a straight line."
+msgstr "対象モンスターを一直線にキャスターの元へ引き寄せる魔法の杖。"
+
+msgid "wand of dashing"
+msgid_plural "wands of dashing"
+msgstr[0] "突撃の魔法杖"
+
+msgid "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line."
+msgstr "目標に向かって魔弾を発射し、使用者をその目標に一直線に移動させる魔法の杖。"
+
+msgid "wand of swapping"
+msgid_plural "wands of swapping"
+msgstr[0] "入れ替えの魔法杖"
+
+msgid "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period."
+msgstr "目標に魔法の弾丸を発射し、当たった対象モンスターと自分の位置が入れ替え、短時間対象の動きを遅くする魔法の杖です。"
+
+msgid "wand of chess of king"
+msgid_plural "wands of chess of king"
+msgstr[0] "チェスキングの魔法杖"
+
+msgid "A magic wand that summons 2 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "Summon chess of pawns"
+msgstr "召喚:チェスの駒:ポーン"

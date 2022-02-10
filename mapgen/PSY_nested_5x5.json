@@ -1756,32 +1756,149 @@
         "type": "mapgen",
         "method": "json",
         "//": "a nested map for basements",
-        "nested_mapgen_id": "PSY_magi_nested_room_5x5_takashi_1",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_chess_1",
         "weight": 1000,
         "object": {
           "mapgensize": [ 5, 5 ],
           "rotation": [ 0, 3 ],
           "rows": [
-            "|||||",
-            "|||||",
-            "|||||",
-            "|||||",
-            "|||||"
+            "=|=|=",
+            "|=|=|",
+            "=|=|=",
+            "|=|=|",
+            "=|=|="
           ],
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
-            "|": "PSY_magi_t_dirt",
+            "|": "PSY_magi_t_linoleum_white",
             "+": "PSY_magi_t_dirt",
             " ": "PSY_magi_t_dirt",
             "%": "PSY_magi_t_dirt",
             "$": "PSY_magi_t_dirt",
-            "=": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_linoleum_gray",
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",
             "Y": "PSY_magi_t_dirt",
             "h": "PSY_magi_t_dirt",
             "P": "PSY_magi_t_dirt",
             "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_chess_pawn", "chance": 15 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_chess_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "=|=|=",
+            "|=|=|",
+            "=s=|=",
+            "|=|=|",
+            "=|=|="
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "=": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_linoleum_gray",
+            "|": "PSY_magi_t_linoleum_gray",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_chess_pawn", "chance": 10 },
+            "s": { "monster": "PSY_magi_rnd_mon_chess_rook", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_chess_3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "=|=|=",
+            "|=|=|",
+            "=s=|=",
+            "|=|=|",
+            "=|=|="
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "=": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_linoleum_gray",
+            "|": "PSY_magi_t_linoleum_gray",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_chess_pawn", "chance": 10 },
+            "s": { "monster": "PSY_magi_rnd_mon_chess_knight", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_chess_4",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "=|=|=",
+            "|=|=|",
+            "=s=|=",
+            "|=|=|",
+            "=|=|="
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "=": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_linoleum_gray",
+            "|": "PSY_magi_t_linoleum_gray",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_chess_pawn", "chance": 10 },
+            "s": { "monster": "PSY_magi_rnd_mon_chess_bishop", "chance": 100 }
           }
         }
       }

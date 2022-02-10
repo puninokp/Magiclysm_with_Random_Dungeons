@@ -156,6 +156,41 @@
 
     {
         "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_chess_knight_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_dashing", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_chess_rook_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_pulling", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_chess_bishop_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_swapping", "prob": 20 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 5 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_chess_queen_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_resurrection", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_chess_king_drops",
+        "subtype": "collection",
+        "entries": [ { "item": "PSY_magi_wand_of_chess_king", "prob": 100 },{ "item": "PSY_magi_magical_coin_bronze", "count": [ 5, 10 ] } ]
+    },
+
+    {
+        "type": "item_group",
         "id": "PSY_magi_mon_rnd_mon_summoner_totem_drops",
         "subtype": "collection",
         "entries": [ 
