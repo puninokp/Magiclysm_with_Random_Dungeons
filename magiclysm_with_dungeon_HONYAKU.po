@@ -1376,6 +1376,9 @@ msgstr "カエルの変化術師"
 msgid "Polymorpher who excels in the art of Polymophing frogs."
 msgstr "カエルの変化術師です。近くのカエルを変化させる魔法に精通しています。"
 
+msgid "Healing ally"
+msgstr "仲間回復"
+
 msgid "wand of upgrade"
 msgid_plural "wands of upgrade"
 msgstr[0] "進化の魔法杖"
@@ -1750,3 +1753,6 @@ msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の�
 
 msgid "Summon chess of pawns"
 msgstr "召喚:チェスの駒:ポーン"
+
+msgid "dungeon map"
+msgstr "ダンジョンマップ"

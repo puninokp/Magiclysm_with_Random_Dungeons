@@ -116,6 +116,7 @@
               "gloves_tactical",
               "molle_pack",
               "socks",
+              "dungeon map",
               "wristwatch",
               "ammo_satchel",
               "attached_ear_plugs_off",
@@ -156,7 +157,7 @@
         "traits": [ "PSY_MANA_STORE1000" ],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "pants_cargo", "dungeon map","socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -181,7 +182,7 @@
         "traits": [ "PSY_PLANT_MUTATION" ],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "pants_cargo","dungeon map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -206,7 +207,7 @@
         "traits": [ "PSY_MANA_STORE500" ],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "pants_cargo","dungeon map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -232,7 +233,7 @@
         "traits": [ "PSY_MANA_STORE1500"],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "pants_cargo","dungeon map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -257,7 +258,7 @@
         "traits": [ "PSY_MANA_REGEN11"],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "pants_cargo","dungeon map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -278,7 +279,7 @@
         "traits": [ "PSY_MANA_REGEN11"],
         "items": {
           "both": {
-            "items": [ "pants_cargo", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
+            "items": [ "pants_cargo","dungeon map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],

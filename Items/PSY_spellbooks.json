@@ -1,5 +1,25 @@
 [
 
+    {
+        "id": "PSY_magi_dungeon_map",
+        "copy-from": "abstractmap",
+        "type": "GENERIC",
+        "category": "maps",
+        "name": "dungeon map",
+        "description": "This is an well worn map.  It has pictures of fantastical beasts embellishing the carefully drawn map markers.",
+        "color": "white",
+        "use_action": {
+          "type": "reveal_map",
+          "radius": 135,
+          "terrain": [
+            "PSY_magi_random_dungeon_0_NW",
+            "PSY_magi_random_dungeon_0_NE",
+            "PSY_magi_random_dungeon_0_SW",
+            "PSY_magi_random_dungeon_0_SE"
+          ],
+          "message": "You add the locations to your map."
+        }
+    },
 
     {
         "id": "PSY_magi_control_beginner",

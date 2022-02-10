@@ -341,7 +341,7 @@
   {
     "id": "PSY_magi_spell_wand_of_upgrade",
     "type": "SPELL",
-    "name": { "str": "wand of Upgrade" },
+    "name": { "str": "wand of upgrade" },
     "description": "Upgrade target upgradeable monster.",
     "valid_targets": [ "hostile", "ally" ],
     "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
@@ -485,7 +485,7 @@
     "id": "PSY_magi_item_spell_healing_ally",
     "type": "SPELL",
     "name": "Healing ally",
-    "description": "healing ally.",
+    "description": "healing ally",
     "valid_targets": ["ally"],
     "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
     "effect": "attack",
