@@ -22,7 +22,15 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_monsters",
-    "friendly": [ "PSY_magi_random_dungeon_allies"],
+    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_chesses"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_chesses",
+    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_monsters"],
     "neutral": ["fish","small_animal", "aquatic_predator" ],
     "hate": [  "player"  ]
   },
@@ -30,7 +38,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_allies",
-    "friendly": [ "insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters"],
+    "friendly": [ "insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
     "neutral": ["fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
     "hate": [  "player"  ]
   }

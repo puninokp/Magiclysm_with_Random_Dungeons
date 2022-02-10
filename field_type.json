@@ -257,6 +257,30 @@
       },
 
       {
+        "id": "fd_PSY_magi_Accelerator_field_bishop",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Accelerator Field",
+            "color": "magenta",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_accelerating", "intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true }
+            ]
+          }
+        ],
+        "priority": 9,
+        "decrease_intensity_on_contact": false,
+        "phase": "solid",
+        "half_life": "1 turns",
+        "dirty_transparency_cache": true,
+        "outdoor_age_speedup": "0 turns",
+        "display_field": true,
+        "accelerated_decay": false,
+        "looks_like": "fd_PSY_magi_Accelerator_field"
+      },
+
+      {
         "id": "fd_PSY_magi_Sanctuary",
         "type": "field_type",
         "intensity_levels": [

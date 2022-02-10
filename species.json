@@ -1,5 +1,13 @@
-{
+[
+  {
     "type": "SPECIES",
     "id": "PSY_MAGI_SUMMONED_MONS",
     "description": "a summoned creature"
+  },
+
+  {
+    "type": "SPECIES",
+    "id": "PSY_MAGI_CHESS_MONS",
+    "description": "a chess creature"
   }
+]
