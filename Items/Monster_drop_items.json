@@ -62,7 +62,7 @@
         "type": "TOOL_ARMOR",
         "id": "PSY_magi_mmask_acceleration",
         "name": { "str": "mask of acceleration", "str_pl": "masks of acceleration" },
-        "description": "A mask with no facial features at all, just eye and mouth holes, upon activation it makes everything ignore your presence for a while.",
+        "description": "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\nUpgrades will reduce charging time and increase charge pocket size.",
         "copy-from": "mmask",
         "looks_like": "PSY_magi_rnd_mon_flying_mask",
         "charges_per_use": 1,
@@ -71,6 +71,36 @@
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_maskhuman_speedup", "no_fail": true, "level": 0, "need_worn": true },
         "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true } },
         "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 1 } } ]
+    },
+
+    {
+        "type": "TOOL_ARMOR",
+        "id": "PSY_magi_mmask_acceleration+1",
+        "name": { "str": "mask of acceleration+1", "str_pl": "masks of acceleration+1" },
+        "description": "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\nUpgrades will reduce charging time and increase charge pocket size.",
+        "copy-from": "mmask",
+        "looks_like": "PSY_magi_mmask_acceleration",
+        "charges_per_use": 1,
+        "material": [ "steel", "leather" ],
+        "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_maskhuman_speedup", "no_fail": true, "level": 0, "need_worn": true },
+        "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "6 h", "regenerate_ammo": true } },
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+    },
+
+    {
+        "type": "TOOL_ARMOR",
+        "id": "PSY_magi_mmask_acceleration+2",
+        "name": { "str": "mask of acceleration+2", "str_pl": "masks of acceleration+2" },
+        "description": "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\nUpgrades will reduce charging time and increase charge pocket size.",
+        "copy-from": "mmask",
+        "looks_like": "PSY_magi_mmask_acceleration",
+        "charges_per_use": 1,
+        "material": [ "steel", "leather" ],
+        "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_maskhuman_speedup", "no_fail": true, "level": 0, "need_worn": true },
+        "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
     },
 
     {
@@ -451,6 +481,72 @@
     },
 
     {
+        "id": "PSY_magi_weapon_babble_sword+1",
+        "looks_like": "PSY_magi_weapon_babble_sword",
+        "type": "TOOL",
+        "symbol": "/",
+        "color": "light_gray",
+        "name": { "str": "The Sword of Babble+1" },
+        "description": "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while.\nThe upgrades increase the power of the weapon and the chance of it coming to your aid.",
+        "price": 222000,
+        "price_postapoc": 18000,
+        "material": [ "steel" ],
+        "techniques": [ "WBLOCK_2", "WIDE" ],
+        "weight": "960 g",
+        "volume": "2 L",
+        "longest_side": "90 cm",
+        "bashing": 13,
+        "cutting": 31,
+        "to_hit": 2,
+        "category": "weapons",
+        "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 5 ] ],
+        "use_action": [
+          { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_call_babble_active", "no_fail": true, "level": 15, "need_wielding": true },
+          "WEATHER_TOOL"
+        ],
+        "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "THERMOMETER", "MAGIC_FOCUS", "NO_UNLOAD", "NO_RELOAD" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "crystallized_mana": 2 } } ],
+        "relic_data": {
+          "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true },
+          "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_call_babble_base+1" } ] } ]
+        },
+        "charges_per_use": 1
+    },
+
+    {
+        "id": "PSY_magi_weapon_babble_sword+2",
+        "looks_like": "PSY_magi_weapon_babble_sword",
+        "type": "TOOL",
+        "symbol": "/",
+        "color": "light_gray",
+        "name": { "str": "The Sword of Babble+2" },
+        "description": "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while.\nFurther upgrades increase the power of the weapon and the chance of it coming to your aid.",
+        "price": 222000,
+        "price_postapoc": 18000,
+        "material": [ "steel" ],
+        "techniques": [ "WBLOCK_2", "WIDE" ],
+        "weight": "960 g",
+        "volume": "2 L",
+        "longest_side": "90 cm",
+        "bashing": 16,
+        "cutting": 41,
+        "to_hit": 2,
+        "category": "weapons",
+        "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 5 ] ],
+        "use_action": [
+          { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_call_babble_active", "no_fail": true, "level": 20, "need_wielding": true },
+          "WEATHER_TOOL"
+        ],
+        "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "THERMOMETER", "MAGIC_FOCUS", "NO_UNLOAD", "NO_RELOAD" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "crystallized_mana": 2 } } ],
+        "relic_data": {
+          "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true },
+          "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_call_babble_base+2" } ] } ]
+        },
+        "charges_per_use": 1
+    },
+
+    {
         "id": "PSY_magi_armor_babble_shield",
         "type": "ARMOR",
         "name": { "str": "The Shield of Babble" },
@@ -488,6 +584,94 @@
                 { "value": "ARMOR_BULLET", "add": -3 }
               ],
               "hit_me_effect": [ { "id": "PSY_magi_item_spell_call_babble_base2" } ] 
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_armor_babble_shield+1",
+        "looks_like": "PSY_magi_armor_babble_shield",
+        "type": "ARMOR",
+        "name": { "str": "The Shield of Babble+1" },
+        "category": "armor",
+        "description": "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\nThe upgrades increase the defence of the shield and the chance of it coming to your aid.",
+        "weight": "960 g",
+        "volume": "2 L",
+        "price": 222000,
+        "price_postapoc": 18000,
+        "longest_side": "50 cm",
+        "material": [ "steel" ],
+        "symbol": "O",
+        "color": "light_gray",
+        "bashing": 4,
+        "sided": true,
+        "material_thickness": 10,
+        "techniques": [ "WBLOCK_2" ],
+        "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ],
+        "armor": [
+            {
+              "encumbrance": 7,
+              "coverage": 75,
+              "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ]
+            }
+          ],
+        "relic_data": {
+          "passive_effects": [
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_CUT", "add": -2 },
+                { "value": "ARMOR_BASH", "add": -5 },
+                { "value": "ARMOR_STAB", "add": -2 },
+                { "value": "ARMOR_BULLET", "add": -5 }
+              ],
+              "hit_me_effect": [ { "id": "PSY_magi_item_spell_call_babble_base2+1" } ] 
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_armor_babble_shield+2",
+        "looks_like": "PSY_magi_armor_babble_shield",
+        "type": "ARMOR",
+        "name": { "str": "The Shield of Babble+2" },
+        "category": "armor",
+        "description": "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\nFurther upgrades increase the defence of the shield and the chance of it coming to your aid.",
+        "weight": "960 g",
+        "volume": "2 L",
+        "price": 222000,
+        "price_postapoc": 18000,
+        "longest_side": "50 cm",
+        "material": [ "steel" ],
+        "symbol": "O",
+        "color": "light_gray",
+        "bashing": 4,
+        "sided": true,
+        "material_thickness": 10,
+        "techniques": [ "WBLOCK_2" ],
+        "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ],
+        "armor": [
+            {
+              "encumbrance": 7,
+              "coverage": 75,
+              "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ]
+            }
+          ],
+        "relic_data": {
+          "passive_effects": [
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_CUT", "add": -3 },
+                { "value": "ARMOR_BASH", "add": -7 },
+                { "value": "ARMOR_STAB", "add": -3 },
+                { "value": "ARMOR_BULLET", "add": -7 }
+              ],
+              "hit_me_effect": [ { "id": "PSY_magi_item_spell_call_babble_base2+2" } ] 
             }
           ]
         }

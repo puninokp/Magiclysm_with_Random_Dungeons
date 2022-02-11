@@ -1,0 +1,355 @@
+[
+
+  {
+        "type": "recipe",
+        "result": "PSY_magi_wand_summon_insects+1",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_UPGRADE",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+           [ [ "PSY_magi_wand_summon_insects", 2 ] ]
+         ]
+  },
+
+  {
+      "type": "recipe",
+      "result": "PSY_magi_wand_summon_insects+2",
+      "id_suffix": "using_mwmi",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_UPGRADE",
+      "skill_used": "chemistry",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "components": [
+         [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+         [ [ "PSY_magi_wand_summon_insects+1", 2 ] ]
+       ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_tangled_vine+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_tangled_vine", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_tangled_vine+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_tangled_vine+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_healing+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_healing", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_healing+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_healing+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_resurrection+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_resurrection", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_resurrection+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_resurrection+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_pulling+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_pulling", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_pulling+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_pulling+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_dashing+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_dashing", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_dashing+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_dashing+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_swapping+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_swapping", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_swapping+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_swapping+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_wand_of_chess_king+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+       [ [ "PSY_magi_wand_of_chess_king", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_wand_of_chess_king+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 50 ] ],
+     [ [ "PSY_magi_wand_of_chess_king+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_mmask_acceleration+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 30 ] ],
+       [ [ "PSY_magi_mmask_acceleration", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_mmask_acceleration+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 70 ] ],
+     [ [ "PSY_magi_mmask_acceleration+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_babble_sword+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 30 ] ],
+       [ [ "PSY_magi_weapon_babble_sword", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_weapon_babble_sword+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 70 ] ],
+     [ [ "PSY_magi_weapon_babble_sword+1", 2 ] ]
+   ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_babble_shield+1",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_UPGRADE",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_bronze", 30 ] ],
+       [ [ "PSY_magi_armor_babble_shield", 2 ] ]
+     ]
+  },
+
+  {
+  "type": "recipe",
+  "result": "PSY_magi_armor_babble_shield+2",
+  "id_suffix": "using_mwmi",
+  "category": "CC_PSY_MAGI",
+  "subcategory": "CSC_PSY_MAGI_UPGRADE",
+  "skill_used": "chemistry",
+  "difficulty": 0,
+  "time": "1 m",
+  "autolearn": true,
+  "components": [
+     [ [ "PSY_magi_magical_coin_bronze", 70 ] ],
+     [ [ "PSY_magi_armor_babble_shield+1", 2 ] ]
+   ]
+  }
+
+]

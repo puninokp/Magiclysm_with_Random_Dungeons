@@ -590,10 +590,16 @@ msgid "wand of insects"
 msgid_plural "wands of insects"
 msgstr[0] "蟲の召喚杖"
 
-msgid ""
-"This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for "
-"a short time!"
-msgstr "この魔法の杖はずっと蠢いています。この杖を振るとどこからともなく友好的な虫が少しの間現れます。"
+msgid "wand of insects+1"
+msgid_plural "wands of insects+1"
+msgstr[0] "蟲の召喚杖+1"
+
+msgid "wand of insects+2"
+msgid_plural "wands of insects+2"
+msgstr[0] "蟲の召喚杖+2"
+
+msgid "This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!\nUpgrades will increase summoned insect of duration."
+msgstr "この魔法の杖はずっと蠢いています。この杖を振るとどこからともなく友好的な虫が少しの間現れます。アップグレードすることにより蟲の召喚時間が伸びます。"
 
 msgid "Clone of compressed cells."
 msgstr "圧縮されたクローン人間"
@@ -1298,6 +1304,14 @@ msgid "mask of acceleration"
 msgid_plural "masks of acceleration"
 msgstr[0] "加速せし奇妙なマスク"
 
+msgid "mask of acceleration+1"
+msgid_plural "masks of acceleration+1"
+msgstr[0] "加速せし奇妙なマスク+1"
+
+msgid "mask of acceleration+2"
+msgid_plural "masks of acceleration+2"
+msgstr[0] "加速せし奇妙なマスク+2"
+
 msgid "magical vine seeds"
 msgstr "魔法の蔓の種"
 
@@ -1378,27 +1392,6 @@ msgstr "カエルの変化術師です。近くのカエルを変化させる魔
 
 msgid "Healing ally"
 msgstr "仲間回復"
-
-msgid "wand of upgrade"
-msgid_plural "wands of upgrade"
-msgstr[0] "進化の魔法杖"
-
-msgid "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded."
-msgstr "これは進化可能なモンスターを一段階上のランクに進化させることができる魔法の杖です。進化不可のモンスターには効果がありません。"
-
-msgid "wand of tangled vines"
-msgid_plural "wands of tangled vines"
-msgstr[0] "絡まる蔦の魔法杖"
-
-msgid "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower."
-msgstr "この魔法の杖は、魔法でツルを目的地まで伸ばしそこに到達した後にたくさんのツルを繁茂させて敵にダメージを与えて対象の移動を阻害させる魔法を放つことができます。"
-
-msgid "wand of healing"
-msgid_plural "wand of healing"
-msgstr[0] "回復の魔法杖"
-
-msgid "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed."
-msgstr "これは10タイル以内にいるすべての仲間モンスターの体力を回復させ、一時的に移動速度を上げる魔法の杖です。自分自身には効果がありません。"
 
 msgid "Scroll of the Big Room"
 msgstr "大部屋の巻物"
@@ -1484,17 +1477,50 @@ msgstr "白紙の巻物"
 msgid "This is the scroll of the Nothing Written.\n When you read it, you know what is blank!."
 msgstr "これは白紙の巻物です。読むと空白が何かを理解することができます。"
 
+msgid "Call babble"
+msgstr "バブル招集"
+
+msgid "Call babble+1"
+msgstr "バブル招集+1"
+
+msgid "Call babble+2"
+msgstr "バブル招集+2"
+
 msgid "The Sword of Babble"
 msgstr "バブルの剣"
+
+msgid "The Sword of Babble+1"
+msgstr "バブルの剣+1"
+
+msgid "The Sword of Babble+2"
+msgstr "バブルの剣+2"
 
 msgid "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while."
 msgstr "これはバブルの剣です。偶に攻撃時に味方のバブルが加勢に来てくれます。"
 
+msgid "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while.\nThe upgrades increase the power of the weapon and the chance of it coming to your aid."
+msgstr "これはバブルの剣+1です。偶に攻撃時に味方のバブルが加勢に来てくれます。\n強化により、武器の威力と加勢に来る確率が上がっています。"
+
+msgid "This is a rare weapon dropped by a babble.\nOn rare occasions when attacking, babbles will come to your aid for a short while.\nFurther upgrades increase the power of the weapon and the chance of it coming to your aid."
+msgstr "これはバブルの剣+2です。偶に攻撃時に味方のバブルが加勢に来てくれます。\nさらなる強化により、武器の威力と加勢に来る確率が上がっています。"
+
 msgid "The Shield of Babble"
 msgstr "バブルの盾"
 
+msgid "The Shield of Babble+1"
+msgstr "バブルの盾+1"
+
+msgid "The Shield of Babble+2"
+msgstr "バブルの盾+2"
+
 msgid "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while."
 msgstr "これはバブルの盾です。偶に被攻撃時に味方のバブルが加勢に来てくれます。"
+
+msgid "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\nThe upgrades increase the defence of the shield and the chance of it coming to your aid."
+msgstr "これはバブルの盾+1です。偶に被攻撃時に味方のバブルが加勢に来てくれます。強化により、盾の防御力と加勢に来る確率が上がっています"
+
+msgid "This is a rare shield dropped by a babble.\nOn rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\nFurther upgrades increase the defence of the shield and the chance of it coming to your aid."
+msgstr "これはバブルの盾+2です。偶に被攻撃時に味方のバブルが加勢に来てくれます。さらなる強化により、盾の防御力と加勢に来る確率が上がっています"
 
 msgid "Hello one of me!\nDo you want to travel with me?"
 msgstr "やあ、私たちの一人よ！ 一緒に旅行しないか？"
@@ -1716,43 +1742,132 @@ msgstr "動くチェス駒：キング"
 msgid "A moving king of chess that can summon his fellow chess pieces."
 msgstr "仲間の駒を呼び出すことができる、動くチェスの王。"
 
+msgid "wand of upgrade"
+msgid_plural "wands of upgrade"
+msgstr[0] "進化の魔法杖"
+
+msgid "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded."
+msgstr "これは進化可能なモンスターを一段階上のランクに進化させることができる魔法の杖です。進化不可のモンスターには効果がありません。"
+
+msgid "wand of tangled vines"
+msgid_plural "wands of tangled vines"
+msgstr[0] "絡まる蔦の魔法杖"
+
+msgid "wand of tangled vines+1"
+msgid_plural "wands of tangled vines+1"
+msgstr[0] "絡まる蔦の魔法杖+1"
+
+msgid "wand of tangled vines+2"
+msgid_plural "wands of tangled vines+2"
+msgstr[0] "絡まる蔦の魔法杖+2"
+
+msgid "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.\nUpgrades will increase damage and range."
+msgstr "この魔法の杖は、魔法でツタを目的地まで伸ばしそこに到達した後にたくさんのツタを繁茂させて敵にダメージを与えて対象の移動を阻害させる魔法を放つことができます。\nアップグレードすることによりダメージと射程が増えます。"
+
+msgid "wand of healing"
+msgid_plural "wand of healing"
+msgstr[0] "回復の魔法杖"
+
+msgid "wand of healing+1"
+msgid_plural "wand of healing+1"
+msgstr[0] "回復の魔法杖+1"
+
+msgid "wand of healing+2"
+msgid_plural "wand of healing+2"
+msgstr[0] "回復の魔法杖+2"
+
+msgid "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.\nUpgrades will increase healing power."
+msgstr "これは10タイル以内にいるすべての仲間モンスターの体力を回復させ、一時的に移動速度を上げる魔法の杖です。自分自身には効果がありません。\nアップグレードすることにより回復力が上がる。"
+
 msgid "wand of resurrection"
 msgid_plural "wands of resurrection"
 msgstr[0] "堕落復活の魔法杖"
 
-msgid "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours."
-msgstr "復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。/n そのゾンビは24時間後に再び敵として寝返る。"
+msgid "wand of resurrection+1"
+msgid_plural "wands of resurrection+1"
+msgstr[0] "堕落復活の魔法杖+1"
+
+msgid "wand of resurrection+2"
+msgid_plural "wands of resurrection+2"
+msgstr[0] "堕落復活の魔法杖+2"
+
+msgid "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\nUpgrades will decrease casting cost."
+msgstr "復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。/n そのゾンビは24時間後に再び敵として寝返る。\nアップグレードすることにより消費コストが下がる。"
 
 msgid "wand of pulling"
 msgid_plural "wands of pulling"
 msgstr[0] "引き寄せの魔法杖"
 
-msgid "A magic wand that attempts to pull the target towards the caster in a straight line."
-msgstr "対象モンスターを一直線にキャスターの元へ引き寄せる魔法の杖。"
+msgid "wand of pulling+1"
+msgid_plural "wands of pulling+1"
+msgstr[0] "引き寄せの魔法杖+1"
+
+msgid "wand of pulling+2"
+msgid_plural "wands of pulling+2"
+msgstr[0] "引き寄せの魔法杖+2"
+
+msgid "A magic wand that attempts to pull the target towards the caster in a straight line.\nUpgrades will increase range."
+msgstr "対象モンスターを一直線にキャスターの元へ引き寄せる魔法の杖。\nアップグレードすることにより射程が伸びる。"
 
 msgid "wand of dashing"
 msgid_plural "wands of dashing"
 msgstr[0] "突撃の魔法杖"
 
-msgid "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line."
-msgstr "目標に向かって魔弾を発射し、使用者をその目標に一直線に移動させる魔法の杖。"
+msgid "wand of dashing+1"
+msgid_plural "wands of dashing+1"
+msgstr[0] "突撃の魔法杖+1"
+
+msgid "wand of dashing+2"
+msgid_plural "wands of dashing+2"
+msgstr[0] "突撃の魔法杖+2"
+
+msgid "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.\nUpgrades will increase range."
+msgstr "目標に向かって魔弾を発射し、使用者をその目標に一直線に移動させる魔法の杖。\nアップグレードすることにより射程が伸びる。"
 
 msgid "wand of swapping"
 msgid_plural "wands of swapping"
 msgstr[0] "入れ替えの魔法杖"
 
-msgid "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period."
-msgstr "目標に魔法の弾丸を発射し、当たった対象モンスターと自分の位置が入れ替え、短時間対象の動きを遅くする魔法の杖です。"
+msgid "wand of swapping+1"
+msgid_plural "wands of swapping+1"
+msgstr[0] "入れ替えの魔法杖+1"
+
+msgid "wand of swapping+2"
+msgid_plural "wands of swapping+2"
+msgstr[0] "入れ替えの魔法杖+2"
+
+msgid "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.\nUpgrades will increase range and duration."
+msgstr "目標に魔法の弾丸を発射し、当たった対象モンスターと自分の位置が入れ替え、短時間対象の動きを遅くする魔法の杖です。\nアップグレードすることにより射程と効果時間が伸びる。"
 
 msgid "wand of chess of king"
 msgid_plural "wands of chess of king"
 msgstr[0] "チェスキングの魔法杖"
 
+msgid "wand of chess of king+1"
+msgid_plural "wands of chess of king+1"
+msgstr[0] "チェスキングの魔法杖+1"
+
+msgid "wand of chess of king+2"
+msgid_plural "wands of chess of king+2"
+msgstr[0] "チェスキングの魔法杖+2"
+
 msgid "A magic wand that summons 2 chess of pawns to the target location."
 msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "A magic wand that summons 4 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "A magic wand that summons 6 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "Summons 2(+ 2*enhancement value) chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体+(2xプラス値)、目標地点に召喚する魔法の杖。"
 
 msgid "Summon chess of pawns"
 msgstr "召喚:チェスの駒:ポーン"
 
 msgid "dungeon map"
 msgstr "ダンジョンマップ"
+
+msgid "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\nUpgrades will reduce charging time and increase charge pocket size."
+msgstr "不気味な光を放つマスクで、起動するとあなたの移動速度を急激に上げ、すべてのものが一時的に時間が止まったよう見えるようになります。アップグレードすることによりチャージ速度の短縮と充電容量が増えます。"

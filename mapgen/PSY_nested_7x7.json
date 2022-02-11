@@ -1274,6 +1274,67 @@
             "h": { "monster": "PSY_magi_rnd_mon_upgradeable_frog", "chance": 50 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_chess_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|=|=|=|",
+            "=|=|=|=",
+            "|=|=|=|",
+            "=|=|=|=",
+            "|=|=|=|",
+            "=|=|=|=",
+            "rhqkshr"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "=": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_linoleum_gray",
+            "|": "PSY_magi_t_linoleum_gray",
+            "r": "PSY_magi_t_linoleum_gray",
+            "q": "PSY_magi_t_linoleum_white",
+            "k": "PSY_magi_t_linoleum_gray",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_linoleum_white",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": {
+            "=": [
+              { "item": "livingroom", "chance": 10 },
+              { "item": "dragon_books", "chance": 3, "repeat": [ 1, 3 ] },
+              { "item": "druid_items", "chance": 2, "repeat": [ 0, 4 ] },
+              { "item": "novels", "chance": 10, "repeat": [ 1, 8 ] },
+              { "item": "religious_books", "chance": 10, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 10 },
+              { "item": "classless_items", "chance": 1 },
+              { "item": "earthshaper_items", "chance": 1 },
+              { "item": "boss_treasure_items", "chance": 1 },
+              { "item": "technomancer_items", "chance": 1 }
+            ]
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_rnd_mon_chess_pawn", "chance": 5 },
+            "s": { "monster": "PSY_magi_rnd_mon_chess_bishop", "chance": 100 },
+            "r": { "monster": "PSY_magi_rnd_mon_chess_rook", "chance": 100 },
+            "h": { "monster": "PSY_magi_rnd_mon_chess_knight", "chance": 100 },
+            "q": { "monster": "PSY_magi_rnd_mon_chess_queen", "chance": 100 },
+            "k": { "monster": "PSY_magi_rnd_mon_chess_king", "chance": 100 }
+          }
+        }
       }
 
 
