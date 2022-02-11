@@ -1314,12 +1314,6 @@
           },
           "items": {
             "=": [
-              { "item": "livingroom", "chance": 10 },
-              { "item": "dragon_books", "chance": 3, "repeat": [ 1, 3 ] },
-              { "item": "druid_items", "chance": 2, "repeat": [ 0, 4 ] },
-              { "item": "novels", "chance": 10, "repeat": [ 1, 8 ] },
-              { "item": "religious_books", "chance": 10, "repeat": [ 0, 3 ] },
-              { "item": "manuals", "chance": 10 },
               { "item": "classless_items", "chance": 1 },
               { "item": "earthshaper_items", "chance": 1 },
               { "item": "boss_treasure_items", "chance": 1 },
