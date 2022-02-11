@@ -247,9 +247,10 @@
         "default": "PSY_magi_rnd_mon_chess_pawn",
         "//": "Cheap golems used to defend the average wizard's tower.",
         "monsters": [
-          { "monster": "PSY_magi_rnd_mon_chess_rook", "freq": 120, "cost_multiplier": 1 },
-          { "monster": "PSY_magi_rnd_mon_chess_knight", "freq": 120, "cost_multiplier": 1 },
-          { "monster": "PSY_magi_rnd_mon_chess_bishop", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_chess_pawn", "freq": 600, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_chess_rook", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_chess_knight", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_chess_bishop", "freq": 100, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_chess_queen", "freq": 10, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_chess_king", "freq": 10, "cost_multiplier": 1 }
         ]
