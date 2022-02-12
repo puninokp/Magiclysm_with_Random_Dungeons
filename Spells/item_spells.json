@@ -64,7 +64,7 @@
       "description": "You recover hp.",
       "valid_targets": [ "self" ],
       "min_damage": -10,
-      "damage_increment": 2.0,
+      "damage_increment": -2.0,
       "max_damage": -30,
       "max_level": 10,
       "effect": "attack",
