@@ -50,6 +50,17 @@
           { "item": "PSY_magi_scroll_of_Upgrade", "prob": 3 },
           { "item": "PSY_magi_scroll_of_Monster_house", "prob": 3 }
         ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_tresure_box_drops",
+        "entries": [
+          { "group": "potions_common", "count-min": 3, "count-max": 5 },
+          { "group": "potions_common", "prob": 20, "count-min": 2, "count-max": 5 },
+          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 3 }
+        ]
       }
 
 

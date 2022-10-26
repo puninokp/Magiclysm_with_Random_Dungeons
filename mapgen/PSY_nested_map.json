@@ -153,6 +153,128 @@
             "!": [ { "item": "book_gunref", "chance": 40, "repeat": [ 1, 2 ] } ]
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "//": "Empty cell",
+        "weight": 100,
+        "object": { "mapgensize": [ 1, 1 ], "rows": [ "0" ], "terrain": { "0": "PSY_magi_t_dirt" } }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "//": "Egg cell.",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "rows": [ "0" ],
+          "terrain": { "0": "t_floor_paper_hard" },
+          "item": { "0": { "item": "egg_wasp" } }
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "//": "Hatched larva, unsealed",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "rows": [ "0" ],
+          "terrain": { "0": "PSY_magi_t_dirt" },
+          "monster": { "0": { "monster": "mon_wasp_larva" } }
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "//": "Sealed brood with a pupating wasp.",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "rows": [ "0" ],
+          "terrain": { "0": "t_floor_brood_wasp" },
+          "monster": { "0": { "monster": "mon_wasp_pupa" } }
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "//": "Just in time for the adult. Lucky you.",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "rows": [ "0" ],
+          "terrain": { "0": "t_floor_brood_wasp" },
+          "monster": { "0": { "group": "GROUP_WASP_NEST" } }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "place_fields": [ { "field": "fd_blood", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "place_fields": [ { "field": "fd_blood_insect", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 100,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "place_fields": [ { "field": "fd_blood_invertebrate", "x": 0, "y": 0, "intensity": 1, "repeat": [ 0, 3 ] } ]
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 80,
+        "object": { "mapgensize": [ 1, 1 ], "place_loot": [ { "group": "bug_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ] }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 80,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "place_loot": [ { "group": "vertebrate_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 } ]
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "PSY_magi_wasp_brood",
+        "weight": 80,
+        "object": {
+          "mapgensize": [ 1, 1 ],
+          "place_loot": [
+            { "group": "human_parts", "x": 0, "y": 0, "repeat": [ 0, 3 ], "chance": 50 },
+            { "group": "wasp_lair", "x": 0, "y": 0, "repeat": [ 0, 1 ], "chance": 25 }
+          ]
+        }
       }
 
 

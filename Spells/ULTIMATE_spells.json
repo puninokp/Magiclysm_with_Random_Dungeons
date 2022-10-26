@@ -47,7 +47,7 @@
         "name": "Bash ground",
         "description": "Bashes the terrain at the target area and destroy fragile furnitures and plants.",
         "valid_targets": [ "ground" ],
-        "flags": [ "SILENT", "VERBAL", "SOMATIC", "NO_PROJECTILE", "NO_LEGS","NO_PROJECTILE","IGNORE_WALLS" ],
+        "flags": [ "SILENT", "VERBAL", "SOMATIC", "NO_LEGS","NO_PROJECTILE","IGNORE_WALLS" ],
         "effect": "bash",
         "shape": "blast",
         "spell_class": "NONE",

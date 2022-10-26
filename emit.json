@@ -34,6 +34,60 @@
       "intensity": 1,
       "qty": 60,
       "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_flying_eye",
+      "type": "emit",
+      "field": "fd_clairvoyant",
+      "intensity": 1,
+      "qty": 3000,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_extinguisher_gas",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_extinguisher",
+      "intensity": 3,
+      "qty": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_extinguisher_gas_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_extinguisher",
+      "intensity": 3,
+      "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_quick_gas_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_Accelerator_field",
+      "intensity": 1,
+      "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_acid_splash_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_acid",
+      "intensity": 1,
+      "qty": 2
+    },
+
+    {
+      "id": "PSY_magi_emit_tiamat_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_tiamat_cold_mist",
+      "intensity": 3,
+      "qty": 10
     }
 
 

@@ -58,6 +58,89 @@
         "color": "light_gray",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ "PSY_magi_random_dungeon_forest_base_NW", "PSY_magi_random_dungeon_forest_base_N", "PSY_magi_random_dungeon_forest_base_NE","PSY_magi_random_dungeon_forest_base_SW", "PSY_magi_random_dungeon_forest_base_S", "PSY_magi_random_dungeon_forest_base_SE" ],
+        "name": "Random Dungeon<Forest>",
+        "sym": "F",
+        "color": "green",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": 
+        [ 
+            "PSY_magi_random_dungeon_forest_0_NW", 
+            "PSY_magi_random_dungeon_forest_0_N", 
+            "PSY_magi_random_dungeon_forest_0_NE",
+            "PSY_magi_random_dungeon_forest_0_SW", 
+            "PSY_magi_random_dungeon_forest_0_S", 
+            "PSY_magi_random_dungeon_forest_0_SE" 
+        ],
+        "name": "Random Dungeon<Forest>",
+        "sym": "F",
+        "color": "green",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": 
+        [ 
+            "PSY_magi_random_dungeon_forest_1_NW", 
+            "PSY_magi_random_dungeon_forest_1_N", 
+            "PSY_magi_random_dungeon_forest_1_NE",
+            "PSY_magi_random_dungeon_forest_1_SW", 
+            "PSY_magi_random_dungeon_forest_1_S", 
+            "PSY_magi_random_dungeon_forest_1_SE" 
+        ],
+        "name": "Random Dungeon<Forest> -1F",
+        "sym": "F",
+        "color": "green",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": 
+        [ 
+            "PSY_magi_random_dungeon_forest_2_NW", 
+            "PSY_magi_random_dungeon_forest_2_N", 
+            "PSY_magi_random_dungeon_forest_2_NE",
+            "PSY_magi_random_dungeon_forest_2_SW", 
+            "PSY_magi_random_dungeon_forest_2_S", 
+            "PSY_magi_random_dungeon_forest_2_SE" 
+        ],
+        "name": "Random Dungeon<Forest> -2F",
+        "sym": "F",
+        "color": "green",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": 
+        [ 
+            "PSY_magi_random_dungeon_forest_3_NW", 
+            "PSY_magi_random_dungeon_forest_3_N", 
+            "PSY_magi_random_dungeon_forest_3_NE",
+            "PSY_magi_random_dungeon_forest_3_SW", 
+            "PSY_magi_random_dungeon_forest_3_S", 
+            "PSY_magi_random_dungeon_forest_3_SE" 
+        ],
+        "name": "Random Dungeon<Forest> -3F",
+        "sym": "F",
+        "color": "green",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
     }
+
 
 ]

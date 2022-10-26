@@ -141,6 +141,7 @@
         ],
         "description_affix": "on",
         "decay_amount_factor": 3,
+        "immune_mtypes": [ "PSY_magi_rnd_mon_snail_blue" ],
         "priority": 4,
         "half_life": "60 seconds",
         "phase": "gas",
@@ -672,6 +673,50 @@
         "half_life": "1 minutes",
         "phase": "gas",
         "looks_like": "fd_fog"
+      },
+
+      {
+        "id": "fd_PSY_magi_web",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "cobwebs",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "webbed", "intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "webs",
+            "effects": [
+              { "effect_id": "webbed", "intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "thick webs",
+            "transparent": false,
+            "effects": [
+              { "effect_id": "webbed", "intensity": 3, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "immunity_data": { "traits": [ "WEB_WALKER" ] },
+        "immune_mtypes": [ "mon_spider_web", "mon_spider_web_s", "mon_mutant_arthropod" ],
+        "decrease_intensity_on_contact": true,
+        "priority": 2,
+        "phase": "solid",
+        "display_items": false,
+        "bash": {
+          "str_min": 1,
+          "str_max": 3,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "hsh!",
+          "msg_success": "You brush aside some webs."
+        },
+        "display_field": true
       }
 
 ]

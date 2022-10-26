@@ -211,9 +211,86 @@
         "range_increment": 0.25,
         "min_duration": 12000,
         "max_duration": 30000
-      }
+      },
 
 
+      {
+        "id": "PSY_magi_summon_flying_eye",
+        "type": "SPELL",
+        "name": "Summon a flying eye ",
+        "description": "Summon a flying eye at target location, It has the ability to share its vision with you without moving from its spot",
+        "valid_targets": [ "ground" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "max_level": 20,
+        "difficulty": 2,
+        "spell_class": "NONE",
+        "effect": "summon",
+        "effect_str": "PSY_magi_mon_eye_bat",
+        "shape": "blast",
+        "energy_source": "MANA",
+        "base_energy_cost": 280,
+        "energy_increment": -2.0,
+        "final_energy_cost": 240,
+        "base_casting_time": 300,
+        "casting_time_increment": -5.0,
+        "final_casting_time": 200,
+        "min_range": 5,
+        "max_range": 15,
+        "range_increment": 0.5,
+        "flags": [ "SOMATIC", "NO_LEGS","NO_PROJECTILE","SILENT", "NO_HANDS" ],
+        "min_duration": 6000,
+        "max_duration": 18000,
+        "duration_increment": 600
+    },
+
+
+    {
+        "id": "PSY_magi_flying_spell",
+        "type": "SPELL",
+        "name": "Flying spell",
+        "description": "You can float in the air, and even if you fall for a little while, you will not be damaged.",
+        "effect": "attack",
+        "shape": "blast",
+        "targeted_monster_ids": [
+          "PSY_magi_mon_eye_bat"
+        ],
+        "valid_targets": [ "ally" ],
+        "flags": [ "NO_PROJECTILE", "SILENT", "NO_LEGS", "NO_HANDS" ,"IGNORE_WALLS","SWAP_POS"],
+        "min_range": 10,
+        "max_range": 30,
+        "range_increment": 1.0,
+        "max_level": 20,
+        "difficulty": 5,
+        "spell_class": "NONE",
+        "base_casting_time": 300,
+        "energy_source": "MANA",
+        "base_energy_cost": 300,
+        "energy_increment": -5,
+        "final_energy_cost": 200,
+        "extra_effects": [
+          { "id": "PSY_magi_flying_spell_sub" , "hit_self": true}
+        ]
+    },
+
+    {
+        "id": "PSY_magi_flying_spell_sub",
+        "type": "SPELL",
+        "name": "Feather Fall",
+        "description": "Feather Fall",
+        "valid_targets": [ "self" ],
+        "flags": [ "NO_PROJECTILE","NO_LEGS", "NO_HANDS" ],
+        "effect": "attack",
+        "effect_str": "PSY_magi_feather_fall",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "difficulty": 0,
+        "base_casting_time": 100,
+        "max_level": 20,
+        "min_duration": 3000,
+        "max_duration": 9000,
+        "duration_increment": 30
+    }
 
 
 ]

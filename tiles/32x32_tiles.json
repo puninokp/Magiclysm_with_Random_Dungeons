@@ -108,7 +108,30 @@
             { "id": "PSY_magi_armor_babble_shield" ,"fg": 82},
             { "id": "overlay_worn_PSY_magi_armor_babble_shield" ,"fg": 83},
             { "id": "PSY_magi_rnd_mon_frog_polymopher" ,"fg": 84},
-            { "id": "PSY_magi_babble_sippo" ,"fg": 85}
+            { "id": "PSY_magi_babble_sippo" ,"fg": 85},
+            { "id": "PSY_magi_rnd_mon_mushroom_red" ,"fg": 86},
+            { "id": "PSY_magi_rnd_mon_swarm_mushroom_red" ,"fg": 87},
+            { "id": "PSY_magi_rnd_mon_mushroom_big" ,"fg": 88},
+            { "id": "PSY_magi_rnd_mon_mushroom_big_bad" ,"fg": 89},
+            { "id": "PSY_magi_rnd_mon_stump_ghost" ,"fg": 90},
+            { "id": "PSY_magi_rnd_mon_stump_ghost_red" ,"fg": 91},
+            { "id": "PSY_magi_rnd_mon_seedling" ,"fg": 92},
+            { "id": "PSY_magi_rnd_mon_seedling_flower" ,"fg": 93},
+            { "id": "PSY_magi_rnd_mon_seedling_stinger" ,"fg": 94},
+            { "id": "PSY_magi_rnd_mon_worm_ear" ,"fg": 95},
+            { "id": "PSY_magi_rnd_mon_worm_ear_red" ,"fg": 96},
+            { "id": "PSY_magi_rnd_mon_worm_ear_blue" ,"fg": 97},
+            { "id": "PSY_magi_rnd_mon_cactus" ,"fg": 98},
+            { "id": "PSY_magi_rnd_mon_cactus_old" ,"fg": 99},
+            { "id": "PSY_magi_rnd_mon_carnivorous_plant" ,"fg": 100},
+            { "id": "PSY_magi_rnd_mon_carnivorous_plant_aged" ,"fg": 101},
+            { "id": "PSY_magi_rnd_mon_turnip" ,"fg": 102},
+            { "id": "PSY_magi_rnd_mon_turnip_big" ,"fg": 103},
+            { "id": "PSY_magi_rnd_mon_nepenthes" ,"fg": 104},
+            { "id": "PSY_magi_rnd_mon_nepenthes_red" ,"fg": 105},
+            { "id": "PSY_magi_rnd_mon_snail" ,"fg": 106},
+            { "id": "PSY_magi_rnd_mon_snail_green" ,"fg": 107},
+            { "id": "PSY_magi_rnd_mon_snail_blue" ,"fg": 108}
           ]
         }
       ]

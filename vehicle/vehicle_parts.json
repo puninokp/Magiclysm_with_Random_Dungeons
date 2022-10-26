@@ -25,7 +25,8 @@
           { "item": "scrap", "count": [ 1, 3 ] }
         ],
         "requirements": {
-          "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] }
+          "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+          "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
         },
         "damage_reduction": { "all": 80 }
     },
@@ -42,7 +43,7 @@
       "durability": 400,
       "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
       "damage_modifier": 80,
-      "requirements": { "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "1 h", "using": "vehicle_weld_removal" } },
+      "requirements": { "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "1 h", "using": "vehicle_weld_removal" },          "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] } },
       "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
       "damage_reduction": { "all": 102 }
     },
@@ -58,7 +59,8 @@
       "folded_volume": "500 ml",
       "breaks_into": [ { "item": "scrap", "count": [ 1, 2 ] } ],
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "100 s", "using": [  ] }
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "100 s", "using": [  ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "extend": { "flags": [ "FOLDABLE" ] }
     },
@@ -74,7 +76,8 @@
       "description": "A half-height thin metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
       "breaks_into": [ { "item": "pipe", "prob": 1 } ],
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] }
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "extend": { "flags": [ "HALF_BOARD" ] },
       "damage_reduction": { "all": 60 }
@@ -91,7 +94,8 @@
       "description": "A half-height thin metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
       "breaks_into": [ { "item": "pipe", "prob": 1 } ],
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] }
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "extend": { "flags": [ "HALF_BOARD" ] },
       "damage_reduction": { "all": 20 }
@@ -112,7 +116,8 @@
       "item": "sheet_metal",
       "location": "roof",
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] }
+        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "flags": [ "ROOF" ],
       "breaks_into": "ig_vp_sheet_metal",
@@ -134,7 +139,8 @@
       "description": "A wooden framework.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size.  Wood and nail construction means it can be constructed and added to the vehicle without welding tools.",
       "breaks_into": [ { "item": "splinter", "count": [ 7, 9 ] } ],
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] }
+        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "flags": [ "MOUNTABLE", "INITIAL_PART" ],
       "damage_reduction": { "all": 5 }
@@ -151,7 +157,8 @@
       "broken_color": "light_blue",
       "breaks_into": [ { "item": "scrap", "count": 10 } ],
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 99 ] ] }
+        "removal": { "skills": [ [ "mechanics", 99 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       }
     },
 
@@ -173,9 +180,9 @@
         { "item": "scrap", "count": [ 3, 6 ] }
       ],
       "requirements": {
-        "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-        "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+        "install": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+        "removal": { "skills": [ [ "mechanics",99 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+        "repair": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "damage_reduction": { "all": 80 }
     },
@@ -198,7 +205,8 @@
       "description": "Some switches and knobs to control the vehicle's electrical systems.",
       "folded_volume": "750 ml",
       "requirements": {
-        "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] }
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "flags": [ "CTRL_ELECTRONIC", "FOLDABLE", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
       "breaks_into": "ig_vp_device",
@@ -222,9 +230,9 @@
       "folded_volume": "1500 ml",
       "item": "vehicle_controls",
       "requirements": {
-        "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-        "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+        "install": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "repair": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
       },
       "flags": [ "CONTROLS", "FOLDABLE" ],
       "breaks_into": [

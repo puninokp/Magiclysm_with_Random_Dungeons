@@ -26,5 +26,40 @@
     "city_distance": [ 8, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 0, 3 ]
+  },
+
+  {
+    "type": "overmap_special",
+    "id": "PSY_magi_random_dungeon_forest_map",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_NW_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_N_north" },
+      { "point": [ 2, 0, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_NE_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_SW_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_S_north" },
+      { "point": [ 2, 1, 0 ], "overmap": "PSY_magi_random_dungeon_forest_0_SE_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_NW_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_N_north" },
+      { "point": [ 2, 0, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_NE_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_SW_north" },
+      { "point": [ 1, 1, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_S_north" },
+      { "point": [ 2, 1, -1 ], "overmap": "PSY_magi_random_dungeon_forest_1_SE_north" },       
+      { "point": [ 0, 0, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_NW_north" },
+      { "point": [ 1, 0, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_N_north" },
+      { "point": [ 2, 0, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_NE_north" },
+      { "point": [ 0, 1, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_SW_north" },
+      { "point": [ 1, 1, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_S_north" },
+      { "point": [ 2, 1, -2 ], "overmap": "PSY_magi_random_dungeon_forest_2_SE_north" },
+      { "point": [ 0, 0, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_NW_north" },
+      { "point": [ 1, 0, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_N_north" },
+      { "point": [ 2, 0, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_NE_north" },
+      { "point": [ 0, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_SW_north" },
+      { "point": [ 1, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_S_north" },
+      { "point": [ 2, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_SE_north" }     
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 8, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 3 ]
   }
 ]

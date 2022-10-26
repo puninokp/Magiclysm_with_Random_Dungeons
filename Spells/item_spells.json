@@ -57,7 +57,27 @@
     },
 
   
-
+    {
+      "id": "PSY_magi_onigiri_recover_HP",
+      "type": "SPELL",
+      "name": "Onigiri heal",
+      "description": "You recover hp.",
+      "valid_targets": [ "self" ],
+      "min_damage": -10,
+      "damage_increment": -2.0,
+      "max_damage": -30,
+      "max_level": 10,
+      "effect": "attack",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "message": "You are full of energy after eating a grilled rice ball.",
+      "energy_source": "MANA",
+      "base_energy_cost": 0,
+      "energy_increment": 0,
+      "final_energy_cost": 0,
+      "flags": [ "SILENT", "NO_LEGS" ],
+      "difficulty": 3
+    },
 
     {
       "type": "SPELL",

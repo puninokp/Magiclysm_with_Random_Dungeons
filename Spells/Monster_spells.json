@@ -2327,5 +2327,257 @@
     "shape": "blast",
     "effect": "summon",
     "effect_str": "PSY_magi_rnd_mon_chess_pawn"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_summon_mashroom_base",
+    "name": "Summon shrooms",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": ["self"],
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 300,
+    "flags": ["WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 2,
+    "max_range": 2,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_summon_mashroom_sub" , "hit_self": true}
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_summon_mashroom_sub",
+    "name": "Summon insects",
+    "description": "Summons wisps.",
+    "flags": [ "HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_TARGET", "PERMANENT" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 2,
+    "max_range": 2,
+    "min_duration": 6000,
+    "max_duration": 12000,
+    "message": "The swarm of mashrooms Split!",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_rnd_mon_mushroom_red"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_summon_mashroom_death",
+    "name": "Summon insects",
+    "description": "Summons wisps.",
+    "flags": [ "HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION", "PERMANENT","SPAWN_WITH_DEATH_DROPS" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 3,
+    "max_damage": 3,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 6000,
+    "max_duration": 12000,
+    "message": "The swarm of mashrooms Split!",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_rnd_mon_mushroom_red"
+  },
+
+  {
+    "id": "PSY_magi_spell_bad_mashroom_death_gas",
+    "type": "SPELL",
+    "name": { "str": "Gas Explosion" },
+    "description": "Causes a small explosion of toxic gas.",
+    "valid_targets": [ "self" ],
+    "shape": "blast",
+    "effect": "emit",
+    "effect_str": "PSY_magi_emit_extinguisher_gas"
+  },
+
+
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_stump_teleport_base",
+    "name": { "str": "Stump Teleport" },
+    "description": "Teleports the monster.",
+    "effect": "short_range_teleport",
+    "shape": "blast",
+    "valid_targets": [ "ground" ],
+    "flags": [ "SOMATIC", "SILENT", "NO_LEGS" , "TARGET_TELEPORT"],
+    "min_range": 7,
+    "max_range": 7,
+    "min_aoe": 2,
+    "max_aoe": 2,
+    "base_casting_time": 100
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_acid_lance_base",
+    "name": "Acid lance",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": [ "ground","hostile"],
+    "effect": "attack",
+    "damage_type": "acid",
+    "field_id": "fd_acid",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "shape": "line",
+    "base_casting_time": 100,
+    "flags": ["SILENT", "NO_LEGS", "NO_HANDS" ],
+    "min_damage": 3,
+    "max_damage": 3,
+    "min_range": 2,
+    "max_range": 2,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_monster_escape300" , "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_monster_escape300",
+    "type": "SPELL",
+    "name": "Run",
+    "description": "Run away.",
+    "valid_targets": [ "self" ],
+    "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "effect_str": "run",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "max_level": 0,
+    "min_duration": 300,
+    "max_duration": 300
+  },
+
+  {
+    "id": "PSY_magi_monster_worm_deaf_spell",
+    "type": "SPELL",
+    "name": "Earworm ultrasound",
+    "description": "Force Deaf.",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "effect": "noise",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "min_damage": 3000,
+    "max_damage": 3000,
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "max_level": 0,
+    "min_range": 1,
+    "max_range": 1
+  },
+
+  {
+    "id": "PSY_magi_monster_bash_death",
+    "type": "SPELL",
+    "name": "Bash ground",
+    "description": "Bashes the terrain at the target area and destroy fragile furnitures and plants.",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS","NO_PROJECTILE","IGNORE_WALLS" ],
+    "effect": "bash",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "min_damage": 999,
+    "max_damage": 999,
+    "max_level": 0,
+    "min_aoe": 3,
+    "max_aoe": 3
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_vomit_hostile_insect",
+    "name": "Summon insects",
+    "description": "Summons wisps.",
+    "flags": [ "HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","SPAWN_GROUP", "PERMANENT","SPAWN_WITH_DEATH_DROPS" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 3,
+    "max_damage": 3,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 1000,
+    "max_duration": 2000,
+    "message": "The plant vomit out bugs!",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "GROUP_PSY_magi_RND_INSECTS"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_open_chest_death_base",
+    "name": "Pull all",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": [ "ground","self"],
+    "effect": "none",
+    "shape": "blast",
+    "base_casting_time": 100,
+    "flags": ["WONDER","SILENT", "NO_LEGS", "NO_HANDS","RANDOM_TARGET","IGNORE_WALLS" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death" , "hit_self": true },
+      { "id": "PSY_magi_spell_open_chest_death_mons" , "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_open_chest_death",
+    "type": "SPELL",
+    "name": { "str": "Open Chest" },
+    "description": "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil.",
+    "valid_targets": [ "ground","self" ],
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_chest_after_form",
+    "shape": "blast",
+    "energy_source": "MANA",
+    "flags": [ "CONCENTRATE", "VERBAL", "NO_LEGS" ],
+    "base_casting_time": 100,
+    "max_level": 20
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_open_chest_death_mons",
+    "name": "Summon Wisps",
+    "description": "Summons wisps.",
+    "flags": [ "SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET", "HOSTILE_SUMMON", "PERMANENT","SPAWN_WITH_DEATH_DROPS" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 100,
+    "max_duration": 100,
+    "message": "grave summons skeletons!",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_rnd_mon_treasure_chest_monster"
   }
 ]

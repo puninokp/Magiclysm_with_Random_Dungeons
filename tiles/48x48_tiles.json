@@ -8,12 +8,27 @@
           "sprite_height":48,
           "sprite_width":48,
           "sprite_offset_x": -12, 
-          "sprite_offset_y": -12,
+          "sprite_offset_y": -16,
           "tiles": [
             { "id": "PSY_magi_rnd_mon_blaze_bird","fg": 0 },
             { "id": "PSY_magi_rnd_mon_thunder_bird" ,"fg": 1 },
             { "id": "PSY_magi_rnd_mon_eye_turret" ,"fg": 2},
             { "id": "PSY_magi_mon_skeleton_snake" ,"fg": 3}
+          ]
+        },
+        {
+          "file": "./tiles/48x48_pictures.png",
+          "sprite_height":48,
+          "sprite_width":48,
+          "sprite_offset_x": -8, 
+          "sprite_offset_y": -16,
+          "tiles": [
+            { "id": "PSY_magi_rnd_mon_treasure_chest" ,"fg": 4},
+            { "id": "PSY_magi_f_treasure_chest_opened_empty" ,"fg": 5},
+            { "id": "PSY_magi_rnd_mon_treasure_chest_monster" ,"fg": 6},
+            { "id": "PSY_magi_f_treasure_chest_opened_mid" ,"fg": 7},
+            { "id": "PSY_magi_f_treasure_chest_opened_big" ,"fg": 8},
+            { "id": "PSY_magi_f_treasure_chest_opened" ,"fg": 9}
           ]
         }
       ]

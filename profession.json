@@ -8,6 +8,8 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_magi_create_magic_moon_light", "level": 0 },
+          { "id": "PSY_magi_summon_flying_eye", "level": 0 },
+          { "id": "PSY_magi_flying_spell", "level": 0 },
           { "id": "PSY_magi_conj_extinguisher_bomb", "level": 0 },
           { "id": "PSY_magi_woodskin", "level": 0 },
           { "id": "PSY_magi_create_spellbook_from2", "level": 0 },

@@ -804,6 +804,48 @@
               "HARDTOSHOOT",
               "PACIFIST" 
             ]
+      },
+
+      {
+        "id": "PSY_magi_mon_eye_bat",
+        "type": "MONSTER",
+        "name": "One-eyed bat",
+        "description": "This monster will not move from its spot and has the ability to share its vision with you!",
+        "default_faction": "PSY_magi_summoned_monster",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "looks_like": "PSY_magi_rnd_mon_eye_bat",
+        "volume": "150 ml",
+        "weight": "106 g",
+        "hp": 50,
+        "speed": 100,
+        "luminance": 3,
+        "material": [ "steel" ],
+        "symbol": "E",
+        "color": "yellow",
+        "aggression": -100,
+        "morale": 100,
+        "melee_skill": 1,
+        "melee_dice": 1,
+        "melee_dice_sides": 1,
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_flying_eye", "delay": "1 s" } ],
+        "dodge": 15,
+        "vision_day": 1,
+        "vision_night": 1,
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "flags": [
+          "SEES",
+          "FLIES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "PACIFIST",
+          "FIREPROOF",
+          "COLDPROOF",
+          "IMMOBILE",
+          "PACIFIST"
+        ]
       }
 
 

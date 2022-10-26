@@ -176,6 +176,16 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_SPIDERS",
+        "default": "mon_spider_web",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "mon_spider_web_s", "freq": 400, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_INSECTS",
         "default": "PSY_magi_rnd_mon_fly",
         "//": "Cheap golems used to defend the average wizard's tower.",
@@ -317,6 +327,102 @@
           { "monster": "PSY_magi_rnd_mon_green_babble", "freq": 90, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON",
+        "default": "PSY_magi_rnd_mon_mushroom_red",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_swarm_mushroom_red", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big_bad", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost_red", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_flower", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_stinger", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear_red", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear_blue", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cactus", "freq": 60, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cactus_old", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant", "freq": 60, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant_aged", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes_red", "freq": 15, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_green", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_blue", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_vine_tentacle", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_plant_shooter", "freq": 20, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON_IMMOBILE",
+        "default": "PSY_magi_rnd_mon_cactus",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_cactus_old", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant_aged", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_vine_tentacle", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_plant_shooter", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 2, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON_FRIENDLY",
+        "default": "PSY_magi_rnd_mon_turnip",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_turnip", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling", "freq": 250, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_flower", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_stinger", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON_MOBILE",
+        "default": "PSY_magi_rnd_mon_mushroom_red",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_swarm_mushroom_red", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big_bad", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost", "freq": 80, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost_red", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_flower", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_stinger", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear_red", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_worm_ear_blue", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes_red", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_green", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_blue", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
         ]
       }
 

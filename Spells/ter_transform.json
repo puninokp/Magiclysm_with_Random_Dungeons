@@ -130,6 +130,24 @@
             "message": "Created shallow water!"
           }
         ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_chest_after_form",
+        "furniture":[
+          {
+            "result": [ 
+              [ "PSY_magi_f_treasure_chest_opened", 10 ], 
+              [ "PSY_magi_f_treasure_chest_opened_empty", 2 ],
+              [ "PSY_magi_f_treasure_chest_opened_big", 1 ],
+              [ "PSY_magi_f_treasure_chest_opened_mid", 3 ]  
+            ],
+            "valid_furniture": [ "f_null" ],
+            "message": "The treasure chest has opened!",
+            "message_good": true
+          }
+        ]
       }
 
 ]
