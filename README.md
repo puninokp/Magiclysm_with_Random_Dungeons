@@ -33,6 +33,11 @@ cdda / lang / mo / ja / LC_MESSAGES に置いていただけば
 
 -------------画像を参考にしたサイト、及び画像を使用したサイト----------------
 
+使用しているドット絵は下記の作者様のイラストを改変したものが含まれており、配布を禁じます。
+使用されている画像の著作権は、その著者に帰属します。
+The dots used include modified versions of the illustrations by the following authors and may not be distributed.
+The copyrights of the images used belong to their authors.
+
 【name】いらすとや　様 【URL】https://www.irasutoya.com/
 
 【name】UndeadPeople　様 【URL】https://github.com/SomeDeadGuy/UndeadPeopleUnpacked/releases
@@ -54,6 +59,13 @@ cdda / lang / mo / ja / LC_MESSAGES に置いていただけば
 不具合や翻訳ミス、または新たに案などがありましたら、よろしければdiscord又はここで報告お願いします。
 
 --------------アップデート情報---------------
+
+ver1.1.1
+
+魔法召喚で現れる車両のパーツを実質作成不可に
+
+少しの難易度調整
+
 
 ver1.1
 

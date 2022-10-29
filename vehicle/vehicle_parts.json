@@ -1,3 +1,4 @@
+
 [
 
     {
@@ -242,5 +243,252 @@
         { "item": "cable", "charges": [ 0, 4 ] }
       ],
       "damage_reduction": { "all": 99 }
+    },
+
+
+
+    {
+        "abstract": "PSY_magi_mana_engine",
+        "copy-from": "engine_combustion",
+        "looks_like": "engine_combustion",
+        "type": "vehicle_part",
+        "fuel_type": "mana",
+        "m2c": 60,
+        "//": "30% energy efficiency",
+        "description": "A magically manifested combustion engine.  Despite operating entirely off of mana rather than normal fuel, it otherwise functions exactly as a conventional internal combustion engine.  Somehow."
+    },
+
+
+    {
+        "id": "PSY_magi_engine_turbine_UFO",
+        "copy-from": "PSY_magi_mana_engine",
+        "type": "vehicle_part",
+        "item": "small_turbine_engine",
+        "durability": 400,
+        "epower": -10,
+        "power": 1006695,
+        "energy_consumption": 10000,
+        "breaks_into": [
+          { "item": "scrap", "count": [ 1, 3 ] }
+        ],
+        "requirements": {
+          "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+          "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+        },
+        "damage_reduction": { "all": 80 }
+    },
+
+    {
+      "id": "PSY_magi_small_UFO_rotors",
+      "copy-from": "helicopter_rotors",
+      "type": "vehicle_part",
+      "looks_like": "small_civilian_rotors",
+      "name": { "str": "small helicopter rotors" },
+      "item": "small_helicopter_rotor",
+      "//": "rotor diameter is in meters",
+      "rotor_diameter": 4,
+      "durability": 400,
+      "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
+      "damage_modifier": 80,
+      "requirements": { "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "1 h", "using": "vehicle_weld_removal" },          "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] } },
+      "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
+      "damage_reduction": { "all": 102 }
+    },
+
+    {
+      "id": "PSY_magi_small_UFO_battery",
+      "copy-from": "storage_battery",
+      "looks_like": "storage_battery",
+      "type": "vehicle_part",
+      "name": { "str": "small storage battery" },
+      "item": "small_storage_battery",
+      "durability": 100,
+      "folded_volume": "500 ml",
+      "breaks_into": [ { "item": "scrap", "count": [ 1, 2 ] } ],
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "100 s", "using": [  ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "extend": { "flags": [ "FOLDABLE" ] }
+    },
+
+    {
+      "id": "PSY_magi_UFO_xlhalfboard",
+      "type": "vehicle_part",
+      "copy-from": "base_board_abstract",
+      "name": { "str": "extra light quarterpanel" },
+      "item": "pipe",
+      "looks_like": "halfboard",
+      "durability": 396,
+      "description": "A half-height thin metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
+      "breaks_into": [ { "item": "pipe", "prob": 1 } ],
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "extend": { "flags": [ "HALF_BOARD" ] },
+      "damage_reduction": { "all": 60 }
+    },
+
+    {
+      "id": "PSY_magi_plant_xlhalfboard",
+      "type": "vehicle_part",
+      "copy-from": "base_board_abstract",
+      "name": { "str": "plant wall" },
+      "item": "pipe",
+      "durability": 396,
+      "looks_like": "PSY_magi_mon_vine_tentacle",
+      "description": "A half-height thin metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
+      "breaks_into": [ { "item": "pipe", "prob": 1 } ],
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "extend": { "flags": [ "HALF_BOARD" ] },
+      "damage_reduction": { "all": 20 }
+    },
+
+    {
+      "type": "vehicle_part",
+      "id": "PSY_magi_plant_roof",
+      "name": { "str": "roof" },
+      "symbol": "#",
+      "categories": [ "hull" ],
+      "color": "light_gray",
+      "broken_symbol": "#",
+      "broken_color": "dark_gray",
+      "durability": 240,
+      "description": "A metal roof.",
+      "looks_like": "PSY_magi_plant_xlhalfboard",
+      "item": "sheet_metal",
+      "location": "roof",
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "flags": [ "ROOF" ],
+      "breaks_into": "ig_vp_sheet_metal",
+      "damage_reduction": { "all": 20 }
+    },
+
+    {
+      "id": "PSY_magi_frame_vine",
+      "type": "vehicle_part",
+      "name": { "str": "plant frame" },
+      "item": "frame_wood",
+      "location": "structure",
+      "standard_symbols": true,
+      "categories": [ "hull" ],
+      "color": "brown",
+      "looks_like": "fd_PSY_magi_tangled_vine",
+      "broken_color": "brown",
+      "durability": 150,
+      "description": "A wooden framework.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size.  Wood and nail construction means it can be constructed and added to the vehicle without welding tools.",
+      "breaks_into": [ { "item": "splinter", "count": [ 7, 9 ] } ],
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "flags": [ "MOUNTABLE", "INITIAL_PART" ],
+      "damage_reduction": { "all": 5 }
+    },
+
+    {
+      "id": "PSY_magi_mounted_fake_laser_gun",
+      "copy-from": "turret",
+      "looks_like": "plasma_gun",
+      "type": "vehicle_part",
+      "name": { "str": "mounted Laser Gun" },
+      "item": "PSY_magi_fake_laser_bio_gun",
+      "color": "light_blue",
+      "broken_color": "light_blue",
+      "breaks_into": [ { "item": "scrap", "count": 10 } ],
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 99 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      }
+    },
+
+    {
+      "id": "PSY_magi_alternator_UFO",
+      "copy-from": "vehicle_alternator",
+      "looks_like": "alternator_car",
+      "type": "vehicle_part",
+      "name": { "str": "UFO alternator" },
+      "//": "65A @12VDC ~ 2HP drain @ 52% efficiency",
+      "item": "alternator_car",
+      "durability": 475,
+      "power": -1492,
+      "epower": 780,
+      "damage_modifier": 80,
+      "breaks_into": [
+        { "item": "steel_lump", "count": [ 3, 6 ] },
+        { "item": "steel_chunk", "count": [ 3, 6 ] },
+        { "item": "scrap", "count": [ 3, 6 ] }
+      ],
+      "requirements": {
+        "install": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+        "removal": { "skills": [ [ "mechanics",99 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+        "repair": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "damage_reduction": { "all": 80 }
+    },
+
+    {
+      "type": "vehicle_part",
+      "id": "PSY_magi_UFO_controls_electronic",
+      "looks_like": "controls",
+      "name": { "str": "electronics control unit" },
+      "symbol": "$",
+      "categories": [ "energy", "lighting" ],
+      "color": "yellow",
+      "broken_symbol": "$",
+      "broken_color": "red",
+      "damage_modifier": 10,
+      "durability": 500,
+      "bonus": 10,
+      "epower": -25,
+      "item": "electronics_controls",
+      "description": "Some switches and knobs to control the vehicle's electrical systems.",
+      "folded_volume": "750 ml",
+      "requirements": {
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "350 s", "using": [ [ "vehicle_screw", 1 ] ] },
+        "install": { "skills": [ [ "mechanics", 99 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "flags": [ "CTRL_ELECTRONIC", "FOLDABLE", "DOME_LIGHT", "ENABLED_DRAINS_EPOWER" ],
+      "breaks_into": "ig_vp_device",
+      "damage_reduction": { "all": 80 }
+    },
+
+    {
+      "type": "vehicle_part",
+      "id": "PSY_magi_UFO_controls",
+      "looks_like": "controls",
+      "name": { "str": "UFO controls" },
+      "symbol": "$",
+      "categories": [ "operations" ],
+      "color": "light_gray",
+      "broken_symbol": "$",
+      "broken_color": "red",
+      "damage_modifier": 10,
+      "durability": 250,
+      "description": "A steering wheel and accelerator and brake pedals.",
+      "bonus": 10,
+      "folded_volume": "1500 ml",
+      "item": "vehicle_controls",
+      "requirements": {
+        "install": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+        "removal": { "skills": [ [ "mechanics", 99 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+        "repair": { "skills": [ [ "mechanics", 99 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      },
+      "flags": [ "CONTROLS", "FOLDABLE" ],
+      "breaks_into": [
+        { "item": "steel_lump" },
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "scrap", "count": [ 1, 3 ] },
+        { "item": "cable", "charges": [ 0, 4 ] }
+      ],
+      "damage_reduction": { "all": 99 }
     }
+
 ]
