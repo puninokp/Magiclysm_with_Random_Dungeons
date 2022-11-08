@@ -148,6 +148,58 @@
             "message_good": true
           }
         ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_swamp_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_swamp",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_horn_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_horn",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_cleric_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_cleric",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_mysterious_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_mysterious",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
       }
 
 ]

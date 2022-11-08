@@ -377,12 +377,10 @@
     "max_duration": "135 seconds",
     "max_intensity": 1,
     "base_mods": {
-      "health_min": [ 1 ],
-      "health_chance": [ 5 ],
-      "h_mod_min": [ 1 ],
-      "h_mod_chance": [ 5 ],
-      "pain_tick": [ 10 ],
-      "pain_min": [ -1 ],
+      
+      "hurt_min": [ -1 ],
+      "hurt_chance" : [ 15 ],
+      "healing_rate": [ 5 ],
       "hunger_min": [ 1 ], 
       "hunger_chance": [ 18, 36 ]
     },

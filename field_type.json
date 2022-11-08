@@ -717,6 +717,147 @@
           "msg_success": "You brush aside some webs."
         },
         "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_blood",
+        "type": "field_type",
+        "legacy_enum_id": 1,
+        "intensity_levels": [ { "name": "blood splatter", "color": "red" }, { "name": "blood stain" }, { "name": "puddle of blood" } ],
+        "description_affix": "covered_in",
+        "underwater_age_speedup": "1 seconds",
+        "decay_amount_factor": 2,
+        "is_splattering": true,
+        "half_life": "3 seconds",
+        "phase": "liquid",
+        "accelerated_decay": true,
+        "display_field": true,
+        "looks_like": "fd_blood"
+      },
+
+      {
+        "id": "PSY_fd_sludge",
+        "type": "field_type",
+        "legacy_enum_id": 9,
+        "mopsafe": true,
+        "intensity_levels": [
+          {
+            "name": "thin sludge trail",
+            "sym": "5",
+            "color": "light_gray",
+            "dangerous": true,
+            "effects": [ { "effect_id": "sludged", "intensity": 1, "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "sludge trail",
+            "color": "dark_gray",
+            "effects": [ { "effect_id": "sludged", "intensity": 2, "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "thick sludge trail",
+            "effects": [ { "effect_id": "sludged", "intensity": 3, "immune_in_vehicle": true, "is_environmental": false } ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "is_splattering": true,
+        "priority": 2,
+        "underwater_age_speedup": "1 seconds",
+        "half_life": "3 seconds",
+        "phase": "liquid",
+        "display_field": true,
+        "immunity_data": { "flags": [ "SLUDGE_IMMUNE" ] },
+        "looks_like": "fd_sludge"
+      },
+
+      {
+        "id": "PSY_fd_shadow",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "shadow", "light_override": 3.7 } ],
+        "half_life": "3 seconds",
+        "looks_like": "fd_shadow",
+        "percent_spread": 50
+      },
+
+      {
+        "id": "PSY_fd_dazzling",
+        "type": "field_type",
+        "legacy_enum_id": 27,
+        "intensity_levels": [
+          {
+            "name": "dazzling",
+            "color": "light_red_yellow",
+            "sym": "#",
+            "light_emitted": 5,
+            "effects": [
+              {
+                "effect_id": "blind",
+                "body_part": "eyes",
+                "intensity": 2,
+                "min_duration": "1 seconds",
+                "max_duration": "1 seconds",
+                "chance_in_vehicle": 1,
+                "chance_inside_vehicle": 1,
+                "chance_outside_vehicle": 1
+              },
+              {
+                "effect_id": "blind",
+                "body_part": "eyes",
+                "intensity": 10,
+                "min_duration": "2 seconds",
+                "max_duration": "2 seconds",
+                "chance_in_vehicle": 5,
+                "chance_inside_vehicle": 5,
+                "chance_outside_vehicle": 5
+              }
+            ]
+          },
+          {
+            "//": "repeat last entry",
+            "effects": [
+              {
+                "effect_id": "blind",
+                "body_part": "eyes",
+                "intensity": 10,
+                "min_duration": "2 seconds",
+                "max_duration": "2 seconds",
+                "chance_in_vehicle": 1,
+                "chance_inside_vehicle": 1,
+                "chance_outside_vehicle": 1
+              }
+            ]
+          },
+          { "//": "repeat last entry" }
+        ],
+        "description_affix": "illuminated_by",
+        "immunity_data": { "immunity_flags_worn_any": [ [ "sensor", "FLASH_PROTECTION" ], [ "sensor", "BLIND" ] ], "flags": [ "BLIND" ] },
+        "priority": 4,
+        "half_life": "1 turns",
+        "phase": "plasma",
+        "display_items": false,
+        "display_field": true,
+        "looks_like": "fd_dazzling"
+      },
+
+      {
+        "id": "PSY_fd_fog",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "mist", "sym": "~", "dangerous": false, "transparent": false, "translucency": 5 },
+          { "name": "fog", "translucency": 3 },
+          { "name": "dense fog", "translucency": 1 }
+        ],
+        "decay_amount_factor": 15,
+        "gas_absorption_factor": 5,
+        "percent_spread": 30,
+        "outdoor_age_speedup": "3 seconds",
+        "dirty_transparency_cache": true,
+        "has_fume": true,
+        "priority": 8,
+        "half_life": "3 seconds",
+        "phase": "gas",
+        "display_items": false,
+        "display_field": true,
+        "looks_like": "fd_fog"
       }
 
 ]

@@ -165,7 +165,7 @@
   {
 		"type":"furniture",
     "id": "PSY_magi_f_treasure_chest_opened",
-		"name":"Opened Tresure chest",
+		"name":"Opened Treasure chest",
 		"description":"It's an opened treasure chest. Attack again to get the item!",
     "symbol": "C",
     "color": "yellow",
@@ -188,7 +188,7 @@
   {
 		"type":"furniture",
     "id": "PSY_magi_f_treasure_chest_opened_empty",
-		"name":"Opened Empty Tresure chest",
+		"name":"Opened Empty Treasure chest",
 		"description":"It's an opened empty treasure chest. Attack again to get nothing!",
     "symbol": "C",
     "color": "yellow",
@@ -207,7 +207,7 @@
   {
 		"type":"furniture",
     "id": "PSY_magi_f_treasure_chest_opened_mid",
-		"name":"Opened Tresure chest",
+		"name":"Opened Treasure chest",
 		"description":"It's an opened treasure chest. Attack again to get the item!",
     "symbol": "C",
     "color": "yellow",
@@ -230,7 +230,7 @@
   {
 		"type":"furniture",
     "id": "PSY_magi_f_treasure_chest_opened_big",
-		"name":"Opened Tresure chest",
+		"name":"Opened Treasure chest",
 		"description":"It's an opened treasure chest. Attack again to get the item!",
     "symbol": "C",
     "color": "yellow",
@@ -248,6 +248,106 @@
         {"group":"PSY_magi_tresure_box_drops"}
         ]
       }
-	}
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_swamp",
+    "name": "Statue",
+    "description": "A Statue of the Queen of the Swamp that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_horn",
+    "name": "Statue",
+    "description": "A Statue of the Horned creature that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_cleric",
+    "name": "Statue",
+    "description": "A Statue of the cleric that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_mysterious",
+    "name": "Statue",
+    "description": "A Statue of the mysterious that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  }
 
 ]

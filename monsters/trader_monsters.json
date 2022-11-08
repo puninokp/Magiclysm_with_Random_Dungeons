@@ -1,0 +1,48 @@
+[
+  {
+    "id": "PSY_magi_mon_scorching_samurai_trader",
+    "type": "MONSTER",
+    "name": { "str": "Trader:The Scorching Samurai" },
+    "description": "He is a mysterious samurai surrounded by a blazing fire.  Apparently, they are willing to do business with us if you give him a riceball(except burned one).",
+	  "default_faction":"player",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "volume": "360100 ml",
+    "weight": "36010 g",
+    "hp": 800,
+    "speed": 120,
+    "material": [ "powder" ],
+    "symbol": "S",
+    "color": "white",
+    "aggression": 100,
+    "morale": 100,
+    "armor_bash": 10,
+    "armor_cut": 10,
+    "armor_bullet": 99,
+    "vision_day": 50,
+    "chat_topics":["PSY_TALK_TRADER_MONSTER"],
+	  "anger_triggers":[ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "petfood":{"food": [ "PSY_TRADER_FOOD" ],"feed": "You gave him rice ball to make a trade","pet": "You gave him rice ball to make a trade"},
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 3,
+        "move_cost": 100,
+        "gun_type": "PSY_magi_fake_samurai_gun",
+        "fake_skills": [ [ "gun", 8 ], [ "rifle", 8 ] ],
+        "targeting_cost": 50,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"The samurai points the muzzle of his gunsword at his enemy.\"",
+        "targeting_volume": 10,
+        "fake_dex": 3,
+        "fake_per": 3,
+        "require_targeting_player": false,
+        "description": "The samurai fires a bullet!",
+        "ranges": [ [ 0, 20, "DEFAULT" ] ]
+      }
+    ],
+    "special_when_hit": [ "RETURN_FIRE", 100 ],
+    "death_drops": {  },
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_1", "IMMOBILE", "NO_BREATHE", "STUN_IMMUNE" ]
+  }
+]

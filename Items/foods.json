@@ -19,6 +19,8 @@
         "charges": 1,
         "flags": [ "EATEN_HOT" ],
         "fun": 3,
+        "use_action":[ "PETFOOD" ],
+        "petfood":[ "PSY_TRADER_FOOD" ],
         "vitamins": [ [ "vitA", 5 ],[ "vitC", 5 ], [ "calcium", 10 ], [ "iron", 4 ] ]
     },
 

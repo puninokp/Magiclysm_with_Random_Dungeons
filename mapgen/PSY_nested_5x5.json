@@ -79,7 +79,7 @@
             "~": { "item": "midden_heap", "chance": 40, "repeat": [ 1, 2 ] }
           },
           "monster": {
-            "|": { "monster": "mon_baleful_polymorph_frog", "chance": 50 }
+            "|": { "monster": "PSY_magi_rnd_mon_baleful_polymorph_frog", "chance": 50 }
           }
         }
       },
@@ -1414,7 +1414,7 @@
             "t": "f_sink"
           },
 
-          "items": { "|": { "item": "gym", "chance": 20 }, "c": { "item": "vending_drink", "chance": 15, "repeat": [ 4, 8 ] } },
+          "items": { "|": { "item": "gym", "chance": 20 }, "c": { "item": "vending_drink", "chance": 1, "repeat": [ 1, 2 ] } },
           "monster": {
             "|": { "monster": "PSY_magi_mon_lemure", "chance": 10 }
           }
@@ -1472,7 +1472,7 @@
             "t": "f_sink"
           },
 
-          "items": { "|": { "item": "gym", "chance": 20 }, "c": { "item": "vending_drink", "chance": 15, "repeat": [ 4, 8 ] } },
+          "items": { "|": { "item": "gym", "chance": 20 }, "c": { "item": "vending_drink", "chance": 1, "repeat": [ 1, 2 ] } },
           "monster": {
             "|": { "monster": "PSY_magi_mon_lemure", "chance": 10 }
           }

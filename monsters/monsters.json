@@ -714,7 +714,7 @@
         "vision_night": 25,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "harvest": "mr_bones",
-        "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "POISON", "BONES", "FILTHY" ]
+        "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "POISON", "FILTHY" ]
       },
 
       {

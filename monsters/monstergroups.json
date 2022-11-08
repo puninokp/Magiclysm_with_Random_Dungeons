@@ -241,6 +241,18 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_FOREST_BOSSES",
+        "default": "PSY_magi_mon_mystical_bird",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_mon_chimera", "freq": 250, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_Sprit_Great_tree", "freq": 250, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_tree_shaman", "freq": 250, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_CALL_BABBLE",
         "default": "PSY_magi_rnd_mon_babble",
         "//": "Cheap golems used to defend the average wizard's tower.",

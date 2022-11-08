@@ -76,8 +76,8 @@
             { "id": "PSY_magi_mon_plague_rat" ,"fg": 52},
             { "id": "PSY_magi_mon_plague_rat2" ,"fg": 53},
             { "id": "PSY_magi_mon_skeleton_grave" ,"fg":54, "rotates": false},
-            { "id": "PSY_magi_mon_zombie_skeltal_minion" ,"fg": 55},
-            { "id": "PSY_magi_mon_shock_wave" ,"fg": 56},
+            { "id": "PSY_magi_mon_zombie_skeltal_minion" ,"fg": 55,"rotates": true},
+            { "id": "PSY_magi_mon_shock_wave" ,"fg": 56,"rotates": true},
             { "id": "PSY_magi_rnd_mon_insect_summoner" ,"fg": 57},
             { "id": "PSY_magi_rnd_mon_babble" ,"fg": 58},
             { "id": "PSY_magi_rnd_mon_green_babble" ,"fg": 59},
@@ -85,7 +85,7 @@
             { "id": "PSY_magi_rnd_mon_flying_mask" ,"fg": 61},
             { "id": "overlay_wielded_PSY_magi_mmask_acceleration" ,"fg":61, "rotates": false},
             { "id": "overlay_worn_PSY_magi_mmask_acceleration" ,"fg":61, "rotates": false},
-            { "id": "PSY_magi_rnd_mon_flying_mask2" ,"fg": 62},
+            { "id": "PSY_magi_rnd_mon_flying_mask2" ,"fg": 62,"rotates": true},
             { "id": "PSY_magi_rnd_mon_wandering_spirit" ,"fg": 63},
             { "id": "PSY_magi_rnd_mon_blaze_bird_chick" ,"fg": 64},
             { "id": "PSY_magi_rnd_mon_thunder_bird_chick" ,"fg": 65},
@@ -131,7 +131,9 @@
             { "id": "PSY_magi_rnd_mon_nepenthes_red" ,"fg": 105},
             { "id": "PSY_magi_rnd_mon_snail" ,"fg": 106},
             { "id": "PSY_magi_rnd_mon_snail_green" ,"fg": 107},
-            { "id": "PSY_magi_rnd_mon_snail_blue" ,"fg": 108}
+            { "id": "PSY_magi_rnd_mon_snail_blue" ,"fg": 108},
+            { "id": "PSY_magi_mon_mystical_bird_feather" ,"fg": 109},
+            { "id": "PSY_magi_rnd_mon_upgradeable_frog" ,"fg": 110, "rotates": true}
           ]
         }
       ]

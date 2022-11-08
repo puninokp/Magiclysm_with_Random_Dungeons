@@ -1,0 +1,23 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/64x64_pictures.png",
+          "sprite_width": 64, 
+          "sprite_height": 64,
+          "sprite_offset_x": -16, 
+          "sprite_offset_y": -32,
+          "tiles": [
+            { "id": "PSY_magi_mon_mystical_bird" ,"fg": 0 },
+            { "id": "PSY_magi_mon_chimera" ,"fg": 1 },
+            { "id": "PSY_magi_mon_scorching_samurai_trader" ,"fg": 2 },
+            { "id": "PSY_magi_mon_tree_shaman" ,"fg": 6 },
+            { "id": "PSY_magi_mon_Sprit_Great_tree" ,"fg": 7 },
+            { "id": "PSY_magi_mon_chimera_afterimage" ,"fg": 16 }
+          ]
+        }
+      ]
+    }
+]

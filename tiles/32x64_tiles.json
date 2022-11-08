@@ -21,7 +21,15 @@
             {"id": "corpse_PSY_magi_rnd_mon_chess_knight", "fg": 6, "rotates": false},
             {"id": "corpse_PSY_magi_rnd_mon_chess_bishop", "fg": 6, "rotates": false},
             {"id": "corpse_PSY_magi_rnd_mon_chess_queen", "fg": 6, "rotates": false},
-            {"id": "corpse_PSY_magi_rnd_mon_chess_king", "fg": 6, "rotates": false}
+            {"id": "corpse_PSY_magi_rnd_mon_chess_king", "fg": 6, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_swamp", "fg": 7, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_horn", "fg": 8, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_cleric", "fg": 9, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_mysterious", "fg": 11, "rotates": false},
+            {"id": "PSY_magi_f_statue_swamp", "fg": 12, "rotates": false},
+            {"id": "PSY_magi_f_statue_horn", "fg": 13, "rotates": false},
+            {"id": "PSY_magi_f_statue_cleric", "fg": 14, "rotates": false},
+            {"id": "PSY_magi_f_statue_mysterious", "fg": 15, "rotates": false}
           ]
         }
       ]

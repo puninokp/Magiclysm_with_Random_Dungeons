@@ -448,7 +448,7 @@
         "vision_day": 30,
         "vision_night": 25,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "POISON", "BONES", "FILTHY" ]
+        "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "POISON", "FILTHY" ]
       },
 
       {
@@ -479,7 +479,7 @@
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles_drops",
         "upgrades": { "age_grow": 25, "into": "PSY_magi_rnd_mon_green_babble" },
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -529,7 +529,7 @@
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles_drops",
         "upgrades": { "age_grow": 25, "into": "PSY_magi_rnd_mon_green_babble" },
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -578,7 +578,7 @@
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles_drops",
         "upgrades": { "age_grow": 150, "into": "PSY_magi_rnd_mon_purple_babble" },
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -628,7 +628,7 @@
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles_drops",
         "upgrades": { "age_grow": 150, "into": "PSY_magi_rnd_mon_purple_babble" },
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -678,7 +678,7 @@
         "path_settings": { "max_dist": 15 },
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles2_drops",
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -729,7 +729,7 @@
         "path_settings": { "max_dist": 15 },
         "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops": "PSY_magi_mon_rnd_mon_babbles2_drops",
-        "placate_triggers": [ "MEAT" ],
+        
         "petfood": {
           "food": [ "DOGFOOD" ],
           "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
@@ -1709,7 +1709,7 @@
         "species": [ "INSECT" ],
         "volume": "65000 ml",
         "weight": "63600 g",
-        "hp": 180,
+        "hp": 120,
         "speed": 80,
         "material": [ "powder" ],
         "symbol": "o",
@@ -1749,7 +1749,7 @@
         "species": [ "INSECT" ],
         "volume": "65000 ml",
         "weight": "63600 g",
-        "hp": 180,
+        "hp": 120,
         "speed": 100,
         "material": [ "powder" ],
         "symbol": "o",
@@ -1812,7 +1812,7 @@
         "default_faction": "PSY_magi_random_dungeon_monsters",
         "species": [ "AMPHIBIAN" ],
         "volume": "750 ml",
-        "looks_like": "mon_baleful_polymorph_frog",
+        "looks_like": "PSY_magi_rnd_mon_upgradeable_frog",
         "weight": "1 kg",
         "hp": 20,
         "speed": 80,
@@ -1875,7 +1875,7 @@
         "species": [ "INSECT" ],
         "volume": "65000 ml",
         "weight": "63600 g",
-        "hp": 130,
+        "hp": 110,
         "speed": 100,
         "luminance": 5,
         "material": [ "powder" ],
@@ -2712,7 +2712,7 @@
         "diff": 2,
         "volume": "9250 ml",
         "weight": "10 kg",
-        "hp": 30,
+        "hp": 10,
         "speed": 100,
         "material": [ "veggy" ],
         "symbol": "F",
@@ -2748,7 +2748,7 @@
         "diff": 5,
         "volume": "5250 ml",
         "weight": "50 kg",
-        "hp": 150,
+        "hp": 100,
         "speed": 90,
         "material": [ "veggy" ],
         "symbol": "F",
@@ -2792,7 +2792,7 @@
         "diff": 2,
         "volume": "9250 ml",
         "weight": "10 kg",
-        "hp": 150,
+        "hp": 130,
         "speed": 90,
         "material": [ "veggy" ],
         "symbol": "F",
@@ -2827,7 +2827,7 @@
         "diff": 2,
         "volume": "9250 ml",
         "weight": "10 kg",
-        "hp": 180,
+        "hp": 160,
         "speed": 100,
         "material": [ "veggy" ],
         "symbol": "F",
@@ -2867,7 +2867,7 @@
         "volume": "150 ml",
         "weight": "106 g",
         "looks_like": "PSY_magi_mon_spoon",
-        "hp": 135,
+        "hp": 115,
         "speed": 50,
         "luminance": 1,
         "material": [ "steel" ],
@@ -2886,7 +2886,7 @@
         "armor_acid": 10,
         "armor_bullet": 3,
         "armor_elec": 3,
-        "special_attacks": [ [ "SMASH", 10 ] ],
+        "special_attacks": [ [ "SMASH", 30 ] ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
@@ -2908,7 +2908,7 @@
         "volume": "150 ml",
         "weight": "106 g",
         "looks_like": "PSY_magi_mon_spoon",
-        "hp": 225,
+        "hp": 155,
         "speed": 40,
         "luminance": 15,
         "material": [ "steel" ],
@@ -2929,7 +2929,7 @@
         "armor_elec": 3,
         "special_attacks": 
         [ 
-          [ "SMASH", 10 ],
+          [ "SMASH", 30 ],
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_stump_teleport_base" }, "cooldown": 12 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
@@ -3194,7 +3194,7 @@
         "species": [ "PSY_MAGI_SUMMONED_MONS" ],
         "volume": "150000 ml",
         "weight": "136000 g",
-        "hp": 120,
+        "hp": 100,
         "speed": 85,
         "material": [ "veggy" ],
         "symbol": "o",
@@ -3249,7 +3249,7 @@
         "species": [ "PSY_MAGI_SUMMONED_MONS" ],
         "volume": "150000 ml",
         "weight": "136000 g",
-        "hp": 150,
+        "hp": 120,
         "speed": 75,
         "material": [ "veggy" ],
         "symbol": "o",
@@ -3304,7 +3304,7 @@
         "species": [ "PSY_MAGI_SUMMONED_MONS" ],
         "volume": "150000 ml",
         "weight": "136000 g",
-        "hp": 300,
+        "hp": 200,
         "speed": 70,
         "material": [ "veggy" ],
         "symbol": "o",
@@ -3362,7 +3362,7 @@
         "species": [ "PSY_MAGI_SUMMONED_MONS" ],
         "volume": "150000 ml",
         "weight": "136000 g",
-        "hp": 220,
+        "hp": 180,
         "speed": 65,
         "material": [ "veggy" ],
         "symbol": "o",
@@ -3731,7 +3731,7 @@
         "volume": "150000 ml",
         "weight": "136000 g",
         "hp": 240,
-        "speed": 80,
+        "speed": 70,
         "material": [ "veggy" ],
         "symbol": "o",
         "color": "yellow",
@@ -3755,6 +3755,216 @@
           "NOHEAD",
           "NO_BREATHE",
           "ACIDPROOF"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_statue_swamp",
+        "type": "MONSTER",
+        "name": "Statue",
+        "description": "Statue of the Queen of the Swamp. If you attack the statue, you will get a buff.",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 1,
+        "speed": 1,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 0,
+        "morale": 0,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "vision_day": 0,
+        "vision_night": 0,
+        "armor_elec": 99,
+        "armor_bullet": 99,
+        "harvest": "exempt",
+        "death_function": {
+          "message": "The %s has broken!",
+          "effect": { "id": "PSY_magi_spell_statue_swamp_death", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE",
+          "ACIDPROOF",
+          "COLDPROOF"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_statue_horn",
+        "type": "MONSTER",
+        "name": "Statue",
+        "description": "Statue of the Horned monster. If you attack the statue, you will get a buff.",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 1,
+        "speed": 1,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 0,
+        "morale": 0,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "vision_day": 0,
+        "vision_night": 0,
+        "armor_elec": 99,
+        "armor_bullet": 99,
+        "harvest": "exempt",
+        "death_function": {
+          "message": "The %s has broken!",
+          "effect": { "id": "PSY_magi_spell_statue_horn_death", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE",
+          "ACIDPROOF",
+          "COLDPROOF"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_statue_cleric",
+        "type": "MONSTER",
+        "name": "Statue",
+        "description": "Statue of cleric. If you attack the statue, you will get a buff.",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 1,
+        "speed": 1,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 0,
+        "morale": 0,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "vision_day": 0,
+        "vision_night": 0,
+        "armor_elec": 99,
+        "armor_bullet": 99,
+        "harvest": "exempt",
+        "death_function": {
+          "message": "The %s has broken!",
+          "effect": { "id": "PSY_magi_spell_statue_cleric_death", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE",
+          "ACIDPROOF",
+          "COLDPROOF"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_statue_mysterious",
+        "type": "MONSTER",
+        "name": "Statue",
+        "description": "Statue of the mysterious. If you attack the statue, you will get a buff.",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 1,
+        "speed": 1,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 0,
+        "morale": 0,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "vision_day": 0,
+        "vision_night": 0,
+        "armor_elec": 99,
+        "armor_bullet": 99,
+        "harvest": "exempt",
+        "death_function": {
+          "message": "The %s has broken!",
+          "effect": { "id": "PSY_magi_spell_statue_mysterious_death", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE",
+          "ACIDPROOF",
+          "COLDPROOF"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_statue_bosses",
+        "type": "MONSTER",
+        "name": "Boss Statue",
+        "description": "Statue of the boss. Approaching this stone statue summons the boss.",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 100,
+        "speed": 200,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "vision_day": 5,
+        "vision_night": 5,
+        "armor_elec": 99,
+        "armor_bullet": 99,
+        "harvest": "exempt",
+        "special_attacks": 
+        [ 
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_self_death_forest_boss_base" }, "cooldown": 5 }
+        ],
+        "death_function": {
+          "message": "The %s has broken!",
+          "effect": { "id": "PSY_magi_spell_boss_statue_death_summon", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "NOGIB",
+          "SEES",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE",
+          "ACIDPROOF",
+          "COLDPROOF"
         ]
       }
 
