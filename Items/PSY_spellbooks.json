@@ -377,6 +377,150 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Summon a skeleton grave]", "str_pl": "Scrolls of [Summon a skeleton grave]" },
         "description": "You can read this scroll to learn [Summon a skeleton grave].\n Summon a grave that raises lesser skeletons from underground every 8 seconds."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_four_element",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_four_element" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Element]", "str_pl": "Scrolls of [Summon Element]" },
+        "description": "You can read this scroll to learn [Summon Element].\n Summons one of the four elements."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_meteor",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_meteor" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Meteor Strike]", "str_pl": "Scrolls of [Meteor Strike]" },
+        "description": "You can read this scroll to learn [Meteor Strike].\n Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_Tiamat_breath",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_Tiamat_breath" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Tiamat breath]", "str_pl": "Scrolls of [Tiamat breath]" },
+        "description": "You can read this scroll to learn [Tiamat breath].\n Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_dead_end",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_dead_end" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Dead End]", "str_pl": "Scrolls of [Dead End]" },
+        "description": "You can read this scroll to learn [Dead End].\n Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_bug_swarm",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_bug_swarm" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Bug Swarm]", "str_pl": "Scrolls of [Bug Swarm]" },
+        "description": "You can read this scroll to learn [Bug Swarm].\n Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_mega_healing",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_mega_healing" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Mega Cure wounds]", "str_pl": "Scrolls of [Mega Cure wounds]" },
+        "description": "You can read this scroll to learn [Mega Cure wounds].\n Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_ultimate_flame_feather",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_ultimate_flame_feather" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Feather]", "str_pl": "Scrolls of [Summon Feather]" },
+        "description": "You can read this scroll to learn [Summon Feather].\n Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_ultimate_random_breath",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_ultimate_random_breath" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Chimera Breath]", "str_pl": "Scrolls of [Chimera Breath]" },
+        "description": "You can read this scroll to learn [Chimera Breath].\n Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_ultimate_apple_tree",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_ultimate_apple_tree" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Apple Tree Monster]", "str_pl": "Scrolls of [Summon Apple Tree Monster]" },
+        "description": "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
     }
 
 ]

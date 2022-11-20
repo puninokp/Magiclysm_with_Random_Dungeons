@@ -15,7 +15,16 @@
             { "id": "PSY_magi_mon_scorching_samurai_trader" ,"fg": 2 },
             { "id": "PSY_magi_mon_tree_shaman" ,"fg": 6 },
             { "id": "PSY_magi_mon_Sprit_Great_tree" ,"fg": 7 },
-            { "id": "PSY_magi_mon_chimera_afterimage" ,"fg": 16 }
+            { "id": "PSY_magi_mon_mecha_guard_heavy" ,"fg": 14 },
+            { "id": "PSY_magi_mon_chimera_afterimage" ,"fg": 16 },
+            { "id": "PSY_magi_mon_mecha_guard_purple" ,"fg": 17 },
+            { "id": "PSY_magi_mon_mecha_guard_blue" ,"fg": 18 },
+            { "id": "PSY_magi_mon_mecha_floting_armor" ,"fg": 19 },
+            { "id": "PSY_magi_mon_mecha_guard_orange" ,"fg": 20 },
+            { "id": "PSY_magi_mon_fire_element" ,"fg": 25 },
+            { "id": "PSY_magi_mon_water_element" ,"fg": 26 },
+            { "id": "PSY_magi_mon_earth_element" ,"fg": 27 },
+            { "id": "PSY_magi_mon_air_element" ,"fg": 28 }
           ]
         }
       ]

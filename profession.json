@@ -8,6 +8,13 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_magi_create_magic_moon_light", "level": 0 },
+          { "id": "PSY_magi_create_bloody_cloud_field", "level": 0 },
+          { "id": "PSY_magi_spell_summon_ultimate_apple_tree", "level": 0 },
+          { "id": "PSY_magi_create_darkness_field", "level": 0 },
+          { "id": "PSY_magi_create_stunning_field", "level": 0 },
+          { "id": "PSY_magi_throw_ice_lance", "level": 0 },
+          { "id": "PSY_magi_spell_summon_ultimate_flame_feather", "level": 0 },
+          { "id": "PSY_magi_spell_ultimate_random_breath", "level": 0 },
           { "id": "PSY_magi_summon_flying_eye", "level": 0 },
           { "id": "PSY_magi_flying_spell", "level": 0 },
           { "id": "PSY_magi_conj_extinguisher_bomb", "level": 0 },

@@ -4,10 +4,10 @@
     "id": "CC_PSY_MAGI",
     "recipe_subcategories": [
       "CSC_ALL",
-      "CSC_PSY_MAGI_DARK",
-      "CSC_PSY_MAGI_PSYCHIC",
+      "CSC_PSY_MAGI_EQUIPMENT",
       "CSC_PSY_MAGI_UPGRADE",
       "CSC_PSY_MAGI_ENHANCEMENT",
+      "CSC_PSY_MAGI_NORMALSPELLS",
       "CSC_PSY_MAGI_ULTIMATESPELLS",
       "CSC_PSY_MAGI_SCROLL"
     ]

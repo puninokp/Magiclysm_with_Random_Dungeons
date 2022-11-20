@@ -25,7 +25,7 @@
     "vision_day": 20,
     "vision_night": 5,
     "harvest": "exempt",
-    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "death_drops": "PSY_magi_mon_myth_bird_drops",
     "special_attacks": [
       { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mystical_bird_base" }, "cooldown": 6 }
     ],
@@ -99,7 +99,7 @@
     "vision_day": 20,
     "vision_night": 5,
     "harvest": "exempt",
-    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "death_drops": "PSY_magi_mon_chimera_drops",
     "special_attacks": [
       { "type": "spell", "spell_data": { "id": "PSY_magi_spell_chimera_base" }, "cooldown": 6 }
     ],
@@ -126,7 +126,7 @@
     "hp": 1,
     "speed": 100,
     "material": [ "powder" ],
-    "symbol": "o",
+    "symbol": "G",
     "color": "yellow",
     "aggression": 100,
     "morale": 100,
@@ -137,9 +137,8 @@
     "vision_day": 20,
     "vision_night": 5,
     "harvest": "exempt",
-    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
     "special_attacks": [
-      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_chimera_random_breath" }, "cooldown": 6 }
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_chimera_random_breath" }, "cooldown": 2 }
     ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [
@@ -152,6 +151,8 @@
     ]
   },
 
+
+
   {
     "id": "PSY_magi_mon_Sprit_Great_tree",
     "type": "MONSTER",
@@ -161,11 +162,11 @@
     "bodytype": "blob",
     "looks_like": "PSY_magi_mon_plant_shooter",
     "species": [ "PSY_MAGI_SUMMONED_MONS" ],
-    "volume": "1500 ml",
-    "weight": "136 g",
+    "volume": "150000 ml",
+    "weight": "13600 g",
     "hp": 600,
     "speed": 80,
-    "material": [ "powder" ],
+    "material": [ "veggy" ],
     "symbol": "o",
     "color": "yellow",
     "aggression": 100,
@@ -177,24 +178,9 @@
     "vision_day": 20,
     "vision_night": 5,
     "harvest": "exempt",
-    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "death_drops": "PSY_magi_mon_ancient_apple_tree_drops",
     "special_attacks": [
-      {
-        "type": "gun",
-        "cooldown": 5,
-        "move_cost": 200,
-        "gun_type": "PSY_magi_fake_seed_bio_gun",
-        "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
-        "targeting_cost": 200,
-        "targeting_timeout_extend": -10,
-        "targeting_sound": "\"The plant's face is puffed up.\"",
-        "targeting_volume": 10,
-        "fake_dex": 3,
-        "fake_per": 3,
-        "require_targeting_player": false,
-        "description": "The plant fires seeds!",
-        "ranges": [ [ 0, 5, "DEFAULT" ] ]
-      }
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_great_tree_base" }, "cooldown": 7 }
     ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [
@@ -203,6 +189,147 @@
       "NOGIB",
       "NO_BREATHE"
     ]
+  },
+
+  {
+    "id": "PSY_magi_mon_Sprit_Great_tree_afterimage",
+    "type": "MONSTER",
+    "name": "Sprit of Great Tree",
+    "description": "A large tree that emits some kind of eerie light at regular intervals. This creature seems to produce numerous fruits",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "bodytype": "blob",
+    "looks_like": "t_tree_apple",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "volume": "150000 ml",
+    "weight": "13600 g",
+    "hp": 100,
+    "speed": 10,
+    "material": [ "veggy" ],
+    "symbol": "G",
+    "color": "yellow",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 1,
+    "vision_day": 20,
+    "vision_night": 5,
+    "harvest": "exempt",
+    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "NOGIB",
+      "NO_BREATHE",
+      "PACIFIST",
+      "IMMOBILE"
+    ]
+  },
+
+  {
+    "id": "PSY_magi_mon_Sprit_Great_tree_apple",
+    "type": "MONSTER",
+    "name": { "str": "Monster of Apple" },
+    "description": "An apple monster.",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "looks_like": "mon_wisp",
+    "volume": "3000 ml",
+    "weight": "1207 g",
+    "hp": 30,
+    "speed": 65,
+    "material": [ "veggy" ],
+    "symbol": "A",
+    "color": "light_gray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 1,
+    "armor_bash": 0,
+    "armor_cut": 0,
+    "armor_bullet": 0,
+    "vision_night": 50,
+    "death_drops": {  },
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [ 
+          "SEES",
+          "NOHEAD", 
+          "NO_BREATHE"
+        ]
+  },
+
+  {
+    "id": "PSY_magi_mon_Sprit_Great_tree_apple_poison",
+    "type": "MONSTER",
+    "name": { "str": "Monster of poisonous Apple" },
+    "description": "An apple monster.",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "looks_like": "mon_wisp",
+    "volume": "3000 ml",
+    "weight": "1207 g",
+    "hp": 15,
+    "speed": 60,
+    "material": [ "veggy" ],
+    "symbol": "A",
+    "color": "light_gray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "melee_dice_sides": 4,
+    "dodge": 1,
+    "armor_bash": 0,
+    "armor_cut": 0,
+    "armor_bullet": 0,
+    "vision_night": 50,
+    "emit_fields": [ { "emit_id": "PSY_magi_emit_sludge_trail_normal", "delay": "1 s" } ],
+    "death_drops": {  },
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [ 
+          "SEES",
+          "NOHEAD", 
+          "NO_BREATHE"
+        ]
+  },
+
+  {
+    "id": "PSY_magi_mon_Sprit_Great_tree_apple_cold",
+    "type": "MONSTER",
+    "name": { "str": "Monster of Alien Apple" },
+    "description": "An apple monster.",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "looks_like": "mon_wisp",
+    "volume": "3000 ml",
+    "weight": "1207 g",
+    "hp": 5,
+    "speed": 55,
+    "material": [ "veggy" ],
+    "symbol": "A",
+    "color": "light_gray",
+    "aggression": 100,
+    "morale": 100,
+    "dodge": 1,
+    "armor_bash": 0,
+    "armor_cut": 0,
+    "armor_bullet": 0,
+    "vision_night": 50,
+    "special_attacks": [
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_kaze_apple_cold" }, "cooldown": 0 }
+    ],
+    "death_drops": {  },
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [ 
+          "SEES",
+          "NOHEAD", 
+          "NO_BREATHE",
+          "PACIFIST" 
+        ]
   },
 
   {
@@ -218,7 +345,7 @@
     "weight": "136 g",
     "hp": 550,
     "speed": 90,
-    "material": [ "powder" ],
+    "material": [ "veggy" ],
     "symbol": "o",
     "color": "yellow",
     "aggression": 100,
@@ -232,22 +359,7 @@
     "harvest": "exempt",
     "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
     "special_attacks": [
-      {
-        "type": "gun",
-        "cooldown": 5,
-        "move_cost": 200,
-        "gun_type": "PSY_magi_fake_seed_bio_gun",
-        "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
-        "targeting_cost": 200,
-        "targeting_timeout_extend": -10,
-        "targeting_sound": "\"The plant's face is puffed up.\"",
-        "targeting_volume": 10,
-        "fake_dex": 3,
-        "fake_per": 3,
-        "require_targeting_player": false,
-        "description": "The plant fires seeds!",
-        "ranges": [ [ 0, 5, "DEFAULT" ] ]
-      }
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_tree_shaman_base" }, "cooldown": 8 }
     ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [

@@ -91,6 +91,24 @@
       },
 
       {
+        "id": "PSY_magi_fake_armor_chest_gun",
+        "type": "GUN",
+        "copy-from": "fake_item",
+        "name": { "str": "Great 3 chest-laser" },
+        "description": "Fake gun that fires some sort of solidified organic matter at very high speed by unknown means of propulsion.",
+        "flags": [ "NEVER_JAMS" ],
+        "ammo_effects": [ "NEVER_MISFIRES", "NO_PENETRATE_OBSTACLES","NO_ITEM_DAMAGE","LASER" ],
+        "skill": "rifle",
+        "durability": 10,
+        "range": 10,
+        "dispersion": 200,
+        "loudness": 60,
+        "recoil": 60,
+        "modes": [ [ "DEFAULT", "semi-auto", 3 ], [ "AUTO", "auto", 5 ] ],
+        "ranged_damage": { "damage_type": "cold", "amount": 8, "armor_penetration": 12 }
+      },
+
+      {
         "id": "PSY_magi_fake_shuriken",
         "type": "GUN",
         "copy-from": "fake_item",

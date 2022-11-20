@@ -251,6 +251,30 @@
 	},
 
   {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened_harden",
+		"name":"Opened Treasure chest",
+    "looks_like": "PSY_magi_f_treasure_chest_opened_big",
+		"description":"It's an opened treasure chest. Attack again to get the item!",
+    "symbol": "C",
+    "color": "yellow",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+      }
+	},
+
+  {
     "type": "furniture",
     "id": "PSY_magi_f_statue_swamp",
     "name": "Statue",

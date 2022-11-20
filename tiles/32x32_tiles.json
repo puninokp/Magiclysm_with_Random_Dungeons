@@ -45,7 +45,7 @@
             { "id": "PSY_magi_create_totems_spellbook" ,"fg":28, "rotates": false},
             { "id": "PSY_magi_wand_summon_insects" ,"fg": 29},
             { "id": "overlay_wielded_PSY_magi_wand_summon_insects" ,"fg": 30},
-            { "id": "PSY_magi_magical_coin_bronze" ,"fg": 31},
+
             { "id": "PSY_magi_mon_vine_tentacle" ,"fg": 32},
             {
               "id": "vp_PSY_magi_plant_xlhalfboard", 
@@ -133,7 +133,128 @@
             { "id": "PSY_magi_rnd_mon_snail_green" ,"fg": 107},
             { "id": "PSY_magi_rnd_mon_snail_blue" ,"fg": 108},
             { "id": "PSY_magi_mon_mystical_bird_feather" ,"fg": 109},
-            { "id": "PSY_magi_rnd_mon_upgradeable_frog" ,"fg": 110, "rotates": true}
+            { "id": "PSY_magi_mon_ultimate_bird_feather" ,"fg": 109},
+            { "id": "PSY_magi_rnd_mon_upgradeable_frog" ,"fg": 110, "rotates": true},
+            { "id": "PSY_magi_mon_Sprit_Great_tree_apple" ,"fg": 112},
+            { "id": "PSY_magi_mon_Sprit_Great_tree_apple_poison" ,"fg": 113},
+            { "id": "PSY_magi_mon_Sprit_Great_tree_apple_cold" ,"fg": 114},
+            { "id": "PSY_magi_chimera_gun_sludge" ,"fg": 115},
+            { "id": "PSY_magi_chimera_gun_extinguisher" ,"fg": 115},
+            { "id": "PSY_magi_chimera_gun_shadow" ,"fg": 115},
+            { "id": "PSY_magi_chimera_gun_dazzling" ,"fg": 115},
+            { "id": "PSY_magi_chimera_gun_clairvoyant" ,"fg": 115},
+            { "id": "overlay_wielded_PSY_magi_chimera_gun_sludge" ,"fg": 116},
+            { "id": "overlay_wielded_PSY_magi_chimera_gun_extinguisher" ,"fg": 116},
+            { "id": "overlay_wielded_PSY_magi_chimera_gun_shadow" ,"fg": 116},
+            { "id": "overlay_wielded_PSY_magi_chimera_gun_dazzling" ,"fg": 116},
+            { "id": "overlay_wielded_PSY_magi_chimera_gun_clairvoyant" ,"fg": 116},
+            { "id": "PSY_magi_weapon_mystical_bird_knife" ,"fg": 117},
+            { "id": "overlay_wielded_PSY_magi_weapon_mystical_bird_knife" ,"fg": 118},
+            { "id": "fd_PSY_magi_ice_field" ,"fg": 119, "rotates": false},
+            { "id": "fd_PSY_magi_stunning_field", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":120},
+            {"weight": 50, "sprite":121},
+            {"weight": 50, "sprite":122},
+            {"weight": 50, "sprite":123},
+            {"weight": 50, "sprite":124}
+            ]
+            },
+            { "id": "fd_PSY_magi_darkness_field", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":125},
+            {"weight": 50, "sprite":126},
+            {"weight": 50, "sprite":127},
+            {"weight": 50, "sprite":128},
+            {"weight": 50, "sprite":129}
+            ]
+            },
+            { "id": "PSY_magi_weapon_ice_lance" ,"fg": 130},
+            { "id": "overlay_wielded_PSY_magi_weapon_ice_lance" ,"fg": 131},
+            { "id": "PSY_magi_cactus_mini_gun" ,"fg": 132},
+            { "id": "overlay_wielded_PSY_magi_cactus_mini_gun" ,"fg": 133},
+            { "id": "PSY_magi_turret_generator_box" ,"fg": 134},
+            { "id": "fd_PSY_magi_field_of_death", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 30, "sprite":156},
+            {"weight": 30, "sprite":157},
+            {"weight": 30, "sprite":158},
+            {"weight": 30, "sprite":159}
+            ]
+            },
+            { "id": "fd_PSY_magi_bloody_cloud_field", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 30, "sprite":172},
+            {"weight": 30, "sprite":173},
+            {"weight": 30, "sprite":174},
+            {"weight": 30, "sprite":175},
+            {"weight": 30, "sprite":176},
+            {"weight": 30, "sprite":177},
+            {"weight": 30, "sprite":178},
+            {"weight": 30, "sprite":179},
+            {"weight": 30, "sprite":180},
+            {"weight": 30, "sprite":181}
+            ]
+            },
+            { "id": "fd_PSY_magi_field_of_fear", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 30, "sprite":322},
+            {"weight": 30, "sprite":323},
+            {"weight": 30, "sprite":324},
+            {"weight": 30, "sprite":325},
+            {"weight": 30, "sprite":326},
+            {"weight": 30, "sprite":327},
+            {"weight": 30, "sprite":328},
+            {"weight": 30, "sprite":329},
+            {"weight": 30, "sprite":320},
+            {"weight": 30, "sprite":321}
+            ]
+            },
+            { "id": "PSY_magi_magical_coin_forest" ,"fg": 363},
+            { "id": "PSY_magi_magical_coin_bronze" ,"fg": 366},
+            { "id": "PSY_magi_magical_coin_forest_core" ,"fg": 373},
+            { "id": "PSY_magi_armor_death_shield" ,"fg": 380},
+            { "id": "overlay_worn_PSY_magi_armor_death_shield" ,"fg": 381},
+            { "id": "PSY_magi_weapon_great_sword" ,"fg": 382},
+            { "id": "overlay_wielded_PSY_magi_weapon_great_sword" ,"fg": 383},
+            { "id": "PSY_magi_weapon_excelent_sword" ,"fg": 384},
+            { "id": "overlay_wielded_PSY_magi_weapon_excelent_sword" ,"fg": 385},
+            { "id": "PSY_magi_weapon_elite_sword" ,"fg": 386},
+            { "id": "overlay_wielded_PSY_magi_weapon_elite_sword" ,"fg": 387},
+            { "id": "PSY_magi_weapon_enchanted_sword" ,"fg": 388},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_sword" ,"fg": 389},
+            { "id": "PSY_magi_weapon_enchanted_bastard_sword" ,"fg": 390},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_bastard_sword" ,"fg": 391},
+            { "id": "PSY_magi_weapon_enchanted_Juggler_Rainbow_Sword" ,"fg": 392},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_Juggler_Rainbow_Sword" ,"fg": 393},
+            { "id": "PSY_magi_weapon_enchanted_long_sword" ,"fg": 394},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_long_sword" ,"fg": 395},
+            { "id": "PSY_magi_weapon_enchanted_great_sword" ,"fg": 396},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_great_sword" ,"fg": 397},
+            { "id": "PSY_magi_weapon_enchanted_lich_sword" ,"fg": 398},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_lich_sword" ,"fg": 399},
+            { "id": "PSY_magi_weapon_enchanted_dragon_hunter_sword" ,"fg": 400},
+            { "id": "overlay_wielded_PSY_magi_weapon_enchanted_dragon_hunter_sword" ,"fg": 401},
+            { "id": "PSY_magi_armor_sword_shield" ,"fg": 402},
+            { "id": "overlay_worn_PSY_magi_armor_sword_shield" ,"fg": 403},
+            { "id": "PSY_magi_armor_metal_shield" ,"fg": 404},
+            { "id": "overlay_worn_PSY_magi_armor_metal_shield" ,"fg": 405},
+            { "id": "PSY_magi_armor_tower_shield" ,"fg": 406},
+            { "id": "overlay_worn_PSY_magi_armor_tower_shield" ,"fg": 407},
+            { "id": "PSY_magi_armor_mirage_prison_shield" ,"fg": 408},
+            { "id": "overlay_worn_PSY_magi_armor_mirage_prison_shield" ,"fg": 409},
+            { "id": "PSY_magi_armor_iron_maiden_shield" ,"fg": 410},
+            { "id": "overlay_worn_PSY_magi_armor_iron_maiden_shield" ,"fg": 411},
+            { "id": "PSY_magi_armor_alchemic_shield" ,"fg": 412},
+            { "id": "overlay_worn_PSY_magi_armor_alchemic_shield" ,"fg": 413},
+            { "id": "PSY_magi_armor_protect_shield" ,"fg": 414},
+            { "id": "overlay_worn_PSY_magi_armor_protect_shield" ,"fg": 415},
+            { "id": "PSY_magi_armor_absolute_defence_shield" ,"fg": 416},
+            { "id": "overlay_worn_PSY_magi_armor_absolute_defence_shield" ,"fg": 417},
+            { "id": "PSY_magi_armor_guardian_element_shield" ,"fg": 418},
+            { "id": "overlay_worn_PSY_magi_armor_guardian_element_shield" ,"fg": 419}
+            
+            
           ]
         }
       ]

@@ -77,23 +77,57 @@
     "trail": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2, "chance": 66 }
   },
   {
+    "id": "PSY_SLUDGE_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2, "size": 2 }
+  },
+
+  {
     "id": "PSY_EXTINGUISHER_TRAIL",
     "type": "ammo_effect",
     "trail": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2 }
   },
+
+  {
+    "id": "PSY_EXTINGUISHER_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+  },
+
+
   {
     "id": "PSY_SHADOW_TRAIL",
     "type": "ammo_effect",
     "trail": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 1 }
   },
+
+  {
+    "id": "PSY_SHADOW_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+  },
+
   {
     "id": "PSY_DAZZLING_TRAIL",
     "type": "ammo_effect",
     "trail": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 1 }
   },
+
   {
-    "id": "PSY_clairvoyant_TRAIL",
+    "id": "PSY_DAZZLING_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+  },
+
+  {
+    "id": "PSY_CLAIRVOYANT_TRAIL",
     "type": "ammo_effect",
     "trail": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 1 }
+  },
+
+  {
+    "id": "PSY_CLAIRVOYANT_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 2, "size": 6 }
   }
 ]

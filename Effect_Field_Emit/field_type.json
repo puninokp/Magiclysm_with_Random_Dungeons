@@ -593,6 +593,34 @@
       },
 
       {
+        "id": "fd_PSY_magi_heal_water1",
+        "type": "field_type",
+        "intensity_levels": [
+          { "name": "hot spring water", 
+            "sym": "&", 
+            "color": "red",
+            "convection_temperature_mod": 4, 
+            "effects": [
+              { "effect_id": "PSY_magi_healing_hot_water_effect", 
+                "intensity": 1,
+                "min_duration": "3 seconds",
+                "max_duration": "3 seconds", 
+                "immune_in_vehicle": true, 
+                "is_environmental": false
+              }
+            ]
+          }
+        ],
+        "decay_amount_factor": 5,
+        "percent_spread": 0,
+        "outdoor_age_speedup": "5 minutes",
+        "priority": -1,
+        "half_life": "5 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog"
+      },
+
+      {
         "id": "fd_PSY_magi_speed_air1",
         "type": "field_type",
         "intensity_levels": [
@@ -716,6 +744,156 @@
           "sound": "hsh!",
           "msg_success": "You brush aside some webs."
         },
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_ice_field",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 3, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "decrease_intensity_on_contact": true,
+        "priority": 2,
+        "phase": "solid",
+        "display_items": false,
+        "bash": {
+          "str_min": 6,
+          "str_max": 12,
+          "sound_vol": 2,
+          "sound_fail_vol": 2,
+          "sound": "crush!",
+          "msg_success": "You crushed ice field."
+        },
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_stunning_field",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "Weak Stunning field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Stunning field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Strong Stunning field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "60 seconds",
+        "display_items": false,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_darkness_field",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "Weak Darkness field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 1, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Darkness field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 2, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Strong Darkness field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 3, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "30 seconds",
+        "display_items": false,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_bloody_cloud_field",
+        "type": "field_type",
+        "looks_like": "fd_smoke",
+        "intensity_levels": [
+          {
+            "name": "Weak Bloody cloud",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Bloody cloud",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "Strong Bloody cloud",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "outdoor_age_speedup": "30 seconds",
+        "half_life": "90 seconds",
+        "phase": "gas",
+        "accelerated_decay": true,
+        "display_items": false,
         "display_field": true
       },
 
@@ -858,6 +1036,61 @@
         "display_items": false,
         "display_field": true,
         "looks_like": "fd_fog"
+      },
+
+      {
+        "id": "fd_PSY_magi_field_of_fear",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "Fear",
+            "sym": "}"
+          },
+          {
+            "name": "Fear",
+            "sym": "}"
+          },
+          {
+            "name": "Fear",
+            "sym": "}"
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "1 seconds",
+        "display_items": false,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_field_of_death",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "Death",
+            "sym": "D",
+            "effects": [ { "effect_id": "PSY_magi_death_field_effect","min_duration": "2 seconds","max_duration": "2 seconds","intensity": 3, "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "Death",
+            "sym": "D",
+            "effects": [ { "effect_id": "PSY_magi_death_field_effect","min_duration": "2 seconds","max_duration": "2 seconds", "intensity": 3, "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "Death",
+            "sym": "D",
+            "effects": [ { "effect_id": "PSY_magi_death_field_effect","min_duration": "2 seconds","max_duration": "2 seconds", "intensity": 3, "immune_in_vehicle": true, "is_environmental": false } ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "20 seconds",
+        "display_items": false,
+        "display_field": true
       }
 
 ]

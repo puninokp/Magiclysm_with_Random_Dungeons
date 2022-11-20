@@ -311,6 +311,55 @@
         "base_casting_time": 1000,
         "casting_time_increment": -20.0,
         "final_casting_time": 800
+      },
+
+      {
+        "id": "PSY_magi_conj_bot_turret",
+        "type": "SPELL",
+        "name": "Create inactive turret",
+        "description": "Create an inactive turret.It doesn't come with the bullets this turret need.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "bot_turret",
+        "shape": "blast",
+        "base_casting_time": 18000,
+        "base_energy_cost": 360,
+        "min_duration": 1,
+        "max_duration": 2,
+        "duration_increment": 1,
+        "difficulty": 3,
+        "max_level": 0,
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "flags": [ "PERMANENT", "NO_LEGS", "CONCENTRATE" ]
+      },
+
+      {
+        "id": "PSY_magi_conj_res_aura_invincible",
+        "type": "SPELL",
+        "name": "Protect aura of invincible",
+        "description": "conjures an invisible layer of protection against all damage effects for 5 min",
+        "valid_targets": [ "self" ],
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_invincible_res_aura",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 6,
+        "max_level": 10,
+        "min_damage": 1,
+        "max_damage": 1,
+        "base_energy_cost": 5500,
+        "energy_increment": -50.0,
+        "final_energy_cost": 5000,
+        "min_duration": 30000,
+        "max_duration": 30000,
+        "duration_increment": 3000,
+        "base_casting_time": 1000,
+        "casting_time_increment": -20.0,
+        "final_casting_time": 800
       }
 
 ]

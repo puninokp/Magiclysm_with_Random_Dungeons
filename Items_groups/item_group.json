@@ -34,6 +34,31 @@
 
       {
         "type": "item_group",
+        "id": "PSY_magi_mon_chimera_drop_guns",
+        "items": [
+          { "item": "PSY_magi_chimera_gun_sludge", "prob": 3 },
+          { "item": "PSY_magi_chimera_gun_extinguisher", "prob": 3 },
+          { "item": "PSY_magi_chimera_gun_shadow", "prob": 3 },
+          { "item": "PSY_magi_chimera_gun_dazzling", "prob": 3 },
+          { "item": "PSY_magi_chimera_gun_clairvoyant", "prob": 3 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magi_forest_rare_drop_all",
+        "items": [
+          { "item": "PSY_magi_magical_coin_box", "prob": 3 },
+          { "item": "PSY_magi_magical_coin_forest_core", "prob": 3 },
+          { "item": "PSY_magi_turret_generator_box", "prob": 3 },
+          { "item": "PSY_magi_wand_of_create_stunning_field", "prob": 3 },
+          { "item": "PSY_magi_wand_of_create_darkness_field", "prob": 3 },
+          { "group": "PSY_magi_weapon_shield_drops", "prob": 1 }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "id": "PSY_magi_mon_ninja_drop_scrolls",
         "items": [
           { "item": "PSY_magi_scroll_big_room", "prob": 1 },
@@ -54,12 +79,82 @@
 
       {
         "type": "item_group",
+        "id": "PSY_magi_weapon_drop_collection",
+        "items": [
+          { "item": "PSY_magi_weapon_ice_lance", "prob": 3 },
+          { "item": "PSY_magi_weapon_great_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_excelent_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_elite_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_bastard_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_Juggler_Rainbow_Sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_long_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_great_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_lich_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_dragon_hunter_sword", "prob": 3 },
+          { "item": "cudgel_plus_two", "prob": 3 },
+          { "item": "q_staff_plus_two", "prob": 3 },
+          { "item": "i_staff_plus_two", "prob": 3 },
+          { "item": "longsword_plus_two", "prob": 3 },
+          { "item": "sledge_plus_two", "prob": 3 },
+          { "item": "sledge_heavy_plus_two", "prob": 3 },
+          { "item": "warhammer_plus_two", "prob": 3 },
+          { "item": "bat_plus_two", "prob": 3 },
+          { "item": "bat_metal_plus_two", "prob": 3 },
+          { "item": "spear_steel_plus_two", "prob": 3 },
+          { "item": "qiang_plus_two", "prob": 3 },
+          { "item": "halberd_plus_two", "prob": 3 },
+          { "item": "glaive_plus_two", "prob": 3 },
+          { "item": "naginata_plus_two", "prob": 3 },
+          { "item": "mace_plus_two", "prob": 3 },
+          { "item": "morningstar_plus_two", "prob": 3 },
+          { "item": "jian_plus_two", "prob": 3 },
+          { "item": "scimitar_plus_two", "prob": 3 },
+          { "item": "estoc_plus_two", "prob": 3 },
+          { "item": "arming_sword_plus_two", "prob": 3 },
+          { "item": "broadsword_plus_two", "prob": 3 },
+          { "item": "battleaxe_plus_two", "prob": 3 },
+          { "item": "cavalry_sabre_plus_two", "prob": 3 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magi_shield_drop_collection",
+        "items": [
+          { "item": "PSY_magi_armor_death_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_sword_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_metal_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_tower_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_mirage_prison_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_iron_maiden_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_alchemic_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_protect_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_absolute_defence_shield", "prob": 3 },
+          { "item": "PSY_magi_armor_guardian_element_shield", "prob": 3 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_weapon_shield_drops",
+        "entries": [
+          { "group": "PSY_magi_shield_drop_collection", "prob": 30 },
+          { "group": "PSY_magi_weapon_drop_collection", "prob": 70 }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "subtype": "collection",
         "id": "PSY_magi_tresure_box_drops",
         "entries": [
           { "group": "potions_common", "count-min": 3, "count-max": 5 },
           { "group": "potions_common", "prob": 20, "count-min": 2, "count-max": 5 },
-          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 3 }
+          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 2 },
+          { "group": "PSY_magi_weapon_shield_drops", "prob": 100 },
+          { "group": "PSY_magi_weapon_shield_drops", "prob": 10 }
         ]
       }
 

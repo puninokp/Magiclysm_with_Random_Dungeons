@@ -1,27 +1,19 @@
 ダウンロードしていただきありがとうございます！！
 
-このmod[Magiclysm_with_spells]の使い方
+このmod[Magiclysm_with_Random_Dungeons]の使い方
 
-１	まずこのファイル[Magiclysm_with_spells_EX]を
+１	まずこのファイル[Magiclysm_with_Random_Dungeons]を
 
-	cdda/data/mods/Magiclysm_with_spells_EX
+	cdda/mods/Magiclysm_with_Random_Dungeons
 
-	に入れてください
+	として入れてください
+	cddaにmodsファイルがない場合は新たに作ってください
 
-２	そしてこの中に翻訳ファイル
-
-	magiclysm_with_dungeon_HONYAKU.mo
-	
-	が入っています。
-
-	こちらのファイルをお手数ですが
-
-	cdda / lang / mo / ja / LC_MESSAGES に置いていただけば
-
-	日本語が適応されます(０F-3より後の開発版のみ)
+	※cdda/data/modsに入れても機能はしますが、日本語翻訳は適応されなくなります。
 
 
-３	画像はアンデッドピーポーをベースにしております。
+
+2	画像はUNDEAD_PEOPLEをベースにしております。
 	対応する画像	{"UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm"}
 
 	もし上記の対応タイルであるのに、適用されていないのであれば以下をお試しください

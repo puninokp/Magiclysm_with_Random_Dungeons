@@ -1,0 +1,139 @@
+[
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_spell_summon_four_element",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+     ]
+  },
+
+  {
+        "type": "recipe",
+        "result": "spell_scroll_PSY_magi_meteor",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+         ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_Tiamat_breath",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+     ]
+  },
+
+  {
+        "type": "recipe",
+        "result": "spell_scroll_PSY_magi_dead_end",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+         ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_summon_bug_swarm",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_mega_healing",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 2 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_spell_summon_ultimate_flame_feather",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 4 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_spell_ultimate_random_breath",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 4 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_spell_summon_ultimate_apple_tree",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_ULTIMATESPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest_core", 4 ] ]
+     ]
+  }
+
+
+
+]

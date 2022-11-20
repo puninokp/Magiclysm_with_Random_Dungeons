@@ -1,0 +1,338 @@
+[
+
+  {
+        "type": "recipe",
+        "result": "PSY_magi_weapon_ice_lance",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+           [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+         ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_great_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+        "type": "recipe",
+        "result": "PSY_magi_weapon_excelent_sword",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+        "skill_used": "chemistry",
+        "difficulty": 0,
+        "time": "1 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+           [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+         ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_elite_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_bastard_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_Juggler_Rainbow_Sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_long_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_great_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_lich_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_weapon_enchanted_dragon_hunter_sword",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_death_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_sword_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_metal_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_tower_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_mirage_prison_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_iron_maiden_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_alchemic_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_protect_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_absolute_defence_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "PSY_magi_armor_guardian_element_shield",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_EQUIPMENT",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_coin_forest", 50 ] ],
+       [ [ "PSY_magi_magical_coin_forest_core", 3 ] ]
+     ]
+  }
+
+]

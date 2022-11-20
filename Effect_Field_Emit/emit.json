@@ -82,6 +82,24 @@
     },
 
     {
+      "id": "PSY_magi_emit_sludge_trail_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "PSY_fd_sludge",
+      "intensity": 1,
+      "qty": 1
+    },
+
+    {
+      "id": "PSY_magi_emit_healing_hot_water",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_heal_water1",
+      "intensity": 1,
+      "qty": 1
+    },
+
+    {
       "id": "PSY_magi_emit_tiamat_normal",
       "type": "emit",
       "//": "Large blast of toxic gas (example: bloated zombie explosion)",

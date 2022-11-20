@@ -52,7 +52,19 @@ The copyrights of the images used belong to their authors.
 
 【name】YasuYasu 様(json関係の修正や案など)
 
+【name】兎餅 様(動くエフェクト画像の作成など)
+
+
+
+使用したAI画像生成ソフト
+
+Stable Diffusion　v1.5
+一部の剣、及び盾の装備のドット絵の元絵の作成に使用
+tiles/Made_with_AI.pngを参照
+
 そして、discordの方々も応援ありがとうございました！
+
+
 
 ----------------その他----------------------
 

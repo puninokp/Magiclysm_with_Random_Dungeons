@@ -210,7 +210,7 @@
         "armor_cut": 12,
         "armor_bullet": 32,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -779,7 +779,7 @@
         "vision_day": 5,
         "vision_night": 5,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "PATH_AVOID_FIRE" ]
       },
 
@@ -1603,7 +1603,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fairy_heal_base" }, "cooldown": 4 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -1644,7 +1644,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fairy_mp_heal_base" }, "cooldown": 4 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -1685,7 +1685,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fairy_mp_heal_base" }, "cooldown": 4 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -1860,7 +1860,7 @@
         "harvest": "lemure",
         "anger_triggers": [ "PLAYER_CLOSE" ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "regenerates": 1,
         "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_FIRE" ]
       },
@@ -1968,7 +1968,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fairy_heal_base" }, "cooldown": 4 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -2009,7 +2009,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_fairy_heal_base" }, "cooldown": 4 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "FLIES",
@@ -2454,7 +2454,7 @@
         "armor_cut": 10,
         "armor_bullet": 16,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2725,7 +2725,7 @@
         "dodge": 2,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -2765,7 +2765,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_summon_mashroom_base" }, "cooldown": 7 }
         ],
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": {
           "message": "The %s split!",
           "effect": { "id": "PSY_magi_spell_summon_mashroom_death", "hit_self": true },
@@ -2805,7 +2805,7 @@
         "dodge": 1,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -2841,7 +2841,7 @@
         "armor_elec": 3,
         "emit_fields": [ { "emit_id": "PSY_magi_emit_extinguisher_gas_normal", "delay": "10 s" } ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_2_mon_drops",
         "death_function": {
           "message": "The %s split!",
           "effect": { "id": "PSY_magi_spell_bad_mashroom_death_gas", "hit_self": true },
@@ -2888,7 +2888,7 @@
         "armor_elec": 3,
         "special_attacks": [ [ "SMASH", 30 ] ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2933,7 +2933,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_stump_teleport_base" }, "cooldown": 12 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_2_mon_drops",
         "flags": [
           "SEES",
           "NOGIB",
@@ -2967,7 +2967,7 @@
         "dodge": 4,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3003,7 +3003,7 @@
         "dodge": 4,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3042,7 +3042,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_acid_lance_base" }, "cooldown": 5 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3082,7 +3082,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_worm_deaf_spell" }, "cooldown": 12 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3125,7 +3125,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_worm_deaf_spell" }, "cooldown": 12 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3168,7 +3168,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_worm_deaf_spell" }, "cooldown": 12 }
         ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3207,7 +3207,7 @@
         "dodge": 1,
         "vision_day": 10,
         "vision_night": 10,
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_cactus_drops",
         "special_attacks": [
           {
             "type": "gun",
@@ -3262,7 +3262,7 @@
         "dodge": 1,
         "vision_day": 10,
         "vision_night": 10,
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_mon_cactus_drops",
         "special_attacks": [
           {
             "type": "gun",
@@ -3317,7 +3317,7 @@
         "dodge": 1,
         "vision_day": 1,
         "vision_night": 1,
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "special_attacks": 
           [ 
             [ "GRAB", 5 ],
@@ -3375,7 +3375,7 @@
         "dodge": 1,
         "vision_day": 3,
         "vision_night": 3,
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_2_mon_drops",
         "special_attacks": 
           [ 
             [ "GRAB_DRAG", 5 ],
@@ -3434,7 +3434,7 @@
         "dodge": 6,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "SEES",
@@ -3471,7 +3471,7 @@
         "dodge": 1,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": {
           "message": "The %s is dropped!",
           "effect": { "id": "PSY_magi_monster_bash_death", "hit_self": true },
@@ -3510,7 +3510,7 @@
         "dodge": 2,
         "armor_elec": 3,
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": {
           "message": "The %s vomits something!",
           "effect": { "id": "PSY_magi_spell_vomit_hostile_insect", "hit_self": true },
@@ -3551,7 +3551,7 @@
         "armor_elec": 3,
         "harvest": "exempt",
         "emit_fields": [ { "emit_id": "PSY_magi_emit_acid_splash_normal", "delay": "15 s" } ],
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_2_mon_drops",
         "death_function": {
           "message": "The %s vomits something!",
           "effect": { "id": "PSY_magi_spell_vomit_hostile_insect", "hit_self": true },
@@ -3592,7 +3592,7 @@
         "armor_elec": 3,
         "emit_fields": [ { "emit_id": "emit_shadow_field", "delay": "1 s" } ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "HEARS",
@@ -3629,7 +3629,7 @@
         "armor_elec": 3,
         "emit_fields": [ { "emit_id": "PSY_magi_emit_quick_gas_normal", "delay": "1 s" } ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "HEARS",
@@ -3666,7 +3666,7 @@
         "armor_elec": 3,
         "emit_fields": [ { "emit_id": "PSY_magi_emit_tiamat_normal", "delay": "1 s" } ],
         "harvest": "exempt",
-        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "death_drops": "PSY_magi_mon_rnd_coin_forest_1_mon_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "HEARS",
@@ -3682,7 +3682,7 @@
         "id": "PSY_magi_rnd_mon_treasure_chest",
         "type": "MONSTER",
         "name": "Chest",
-        "description": "A treasure chest that may contain treasure./nLet's get closer and open it!",
+        "description": "A treasure chest that may contain treasure./n Let's get closer and open it!",
         "default_faction": "PSY_magi_random_dungeon_allies",
         "bodytype": "blob",
         "looks_like": "PSY_magi_mon_vine_tentacle",

@@ -234,6 +234,23 @@
           { "item": "material_zincite", "count": [ 0, 5 ], "prob": 5 }
         ]
       }
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_t_water_hot",
+      "name": "hot spring water",
+      "looks_like": "t_water_hot",
+      "description": "Comfortable temperature hot spring. Soaking in it helps to heal your body.",
+      "symbol": "~",
+      "light_emitted": 20,
+      "color": "light_blue",
+      "emissions": [ "PSY_magi_emit_healing_hot_water" ],
+      "move_cost": 5,
+      "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SHALLOW_WATER" ],
+      "connect_groups": "WATER",
+      "connects_to": "WATER",
+      "examine_action": "water_source"
     }
 
 ]

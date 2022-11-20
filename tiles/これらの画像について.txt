@@ -1,6 +1,6 @@
-これらのドット絵は下記の作者様のイラストを改変したものが含まれており、配布を禁じます。
+これらのドット絵は下記の作者様のイラストを改変したものが含まれており、再配布を禁じます。
 これらの画像の著作権は、その著者に帰属します。
-These dots contain modified versions of illustrations by the following authors and not be distributed.
+These pixel arts contain modified versions of illustrations by the following authors and not be distributed.
 The copyrights of these images belong to their authors.
 
 【name】いらすとや　様
@@ -16,3 +16,12 @@ The copyrights of these images belong to their authors.
 【URL】https://pipoya.net/
 
 【name】蒼牙　様
+
+【name】兎餅　様
+
+
+使用したAI画像生成ソフト
+
+Stable Diffusion　v1.5
+一部のモンスター、剣、及び盾の装備のドット絵の元絵の作成に使用
+Made_with_AI.pngと64x64_pictures.pngを参照

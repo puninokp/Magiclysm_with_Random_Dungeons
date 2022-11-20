@@ -186,6 +186,52 @@
       },
 
       {
+        "id": "PSY_magi_spell_kaze_apple_cold",
+        "type": "SPELL",
+        "name": "Boooom",
+        "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+        "effect": "attack",
+        "shape": "blast",
+        "valid_targets": [ "self", "ally", "hostile", "ground" ],
+        "flags": [ "SOMATIC", "VERBAL", "NO_LEGS" ],
+        "min_damage": 3,
+        "max_damage": 3,
+        "min_aoe": 2,
+        "max_aoe": 2,
+        "min_range": 1,
+        "max_range": 1,
+        "spell_class": "NONE",
+        "base_casting_time": 20,
+        "damage_type": "cold",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_self_death_base" , "hit_self": true }
+        ]
+      },
+
+      {
+        "id": "PSY_magi_spell_kaze_apple_cold_strong",
+        "type": "SPELL",
+        "name": "Boooom",
+        "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+        "effect": "attack",
+        "shape": "blast",
+        "valid_targets": [ "self", "ally", "hostile", "ground" ],
+        "flags": [ "SOMATIC", "VERBAL", "NO_LEGS" ],
+        "min_damage": 30,
+        "max_damage": 30,
+        "min_aoe": 3,
+        "max_aoe": 3,
+        "min_range": 1,
+        "max_range": 1,
+        "spell_class": "NONE",
+        "base_casting_time": 20,
+        "damage_type": "cold",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_self_death_base" , "hit_self": true }
+        ]
+      },
+
+      {
         "id": "PSY_magi_spell_kaze_fireball",
         "type": "SPELL",
         "name": "Boooom",
@@ -219,6 +265,27 @@
         "flags": ["SOMATIC", "VERBAL", "NO_LEGS" ],
         "min_damage": 2,
         "max_damage": 2,
+        "min_range": 1,
+        "max_range": 1,
+        "spell_class": "NONE",
+        "base_casting_time": 20,
+        "damage_type": "pure",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_self_death_base" , "hit_self": true }
+        ]
+      },
+
+      {
+        "id": "PSY_magi_spell_ultimate_kaze_feather_strike",
+        "type": "SPELL",
+        "name": "Boooom",
+        "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+        "effect": "attack",
+        "shape": "blast",
+        "valid_targets": [ "self", "ally", "hostile", "ground" ],
+        "flags": ["SOMATIC", "VERBAL", "NO_LEGS" ],
+        "min_damage": 50,
+        "max_damage": 50,
         "min_range": 1,
         "max_range": 1,
         "spell_class": "NONE",
@@ -404,6 +471,24 @@
       {
         "type": "SPELL",
         "id": "PSY_magi_spell_self_damage_30",
+        "name": "summons creature",
+        "description": "Causes one of the summon spells to be cast.",
+        "valid_targets": [ "self"],
+        "effect": "attack",
+        "damage_type": "pure",
+        "shape": "blast",
+        "base_casting_time": 10,
+        "flags": ["NO_EXPLOSION_SFX","SILENT", "NO_LEGS", "NO_HANDS" ],
+        "min_damage": 30,
+        "max_damage": 30,
+        "min_range": 1,
+        "max_range": 1,
+        "message": ""
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_self_damage_50",
         "name": "summons creature",
         "description": "Causes one of the summon spells to be cast.",
         "valid_targets": [ "self"],
@@ -1100,6 +1185,87 @@
 
       {
         "type": "SPELL",
+        "id": "PSY_magi_spell_summon_apple_monster_base",
+        "name": "Summon Apples",
+        "description": "Causes one of the summon spells to be cast.",
+        "valid_targets": ["self"],
+        "effect": "attack",
+        "shape": "blast",
+        "base_casting_time": 600,
+        "flags": ["NO_EXPLOSION_SFX","SILENT", "NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+        "min_range": 25,
+        "max_range": 25,
+        "message": "",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_summon_apple_monster_sub", "hit_self": true},
+          { "id": "PSY_magi_spell_summon_apple_monster_sub2", "hit_self": true},
+          { "id": "PSY_magi_spell_summon_apple_monster_sub3", "hit_self": true},
+          { "id": "PSY_magi_spell_self_damage_50" , "hit_self": true }
+        ]
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_summon_apple_monster_sub",
+        "name": "Summon apples",
+        "description": "Summons wisps.",
+        "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_range": 1,
+        "max_range": 3,
+        "min_duration": 4000,
+        "max_duration": 6000,
+        "message": "tree summons apples!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "PSY_magi_mon_summoned_Great_tree_apple"
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_summon_apple_monster_sub2",
+        "name": "Summon apples",
+        "description": "Summons wisps.",
+        "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_range": 1,
+        "max_range": 3,
+        "min_duration": 4000,
+        "max_duration": 6000,
+        "message": "tree summons apples!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "PSY_magi_mon_summoned_Great_tree_apple_poison"
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_summon_apple_monster_sub3",
+        "name": "Summon apples",
+        "description": "Summons wisps.",
+        "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_range": 1,
+        "max_range": 3,
+        "min_duration": 4000,
+        "max_duration": 6000,
+        "message": "tree summons apples!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "PSY_magi_mon_summoned_Great_tree_apple_cold"
+      },
+
+      {
+        "type": "SPELL",
         "id": "PSY_magi_spell_summon_weak_skeleton_base",
         "name": "Summon skeletons",
         "description": "Causes one of the summon spells to be cast.",
@@ -1114,7 +1280,7 @@
         "extra_effects": [
           { "id": "PSY_magi_spell_summon_weak_skeleton_sub", "hit_self": true},
           { "id": "PSY_magi_spell_summon_weak_skeleton_sub" , "hit_self": true},
-          { "id": "PSY_magi_spell_self_damage_20" , "hit_self": true }
+          { "id": "PSY_magi_spell_self_damage_30" , "hit_self": true }
         ]
       },
 
@@ -1130,6 +1296,7 @@
         "max_damage": 1,
         "min_range": 2,
         "max_range": 2,
+        
         "min_duration": 6000,
         "max_duration": 72000,
         "message": "grave summons skeletons!",
@@ -1180,6 +1347,147 @@
 
       {
         "type": "SPELL",
+        "id": "PSY_magi_spell_tree_shaman_base",
+        "name": "Tree Shaman Magic",
+        "description": "Causes one of the summon spells to be cast.",
+        "valid_targets": ["hostile","self","ground"],
+        "effect": "none",
+        "shape": "blast",
+        "min_damage": 1,
+        "max_damage": 1,
+        "base_casting_time": 100,
+        "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","NO_PROJECTILE" ,"RANDOM_TARGET"],
+        "min_range": 10,
+        "max_range": 10,
+        "message": "Bloom",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_great_tree_teleport", "hit_self": true},
+          { "id": "PSY_magi_spell_great_tree_Tangled_vine_line", "hit_self": false},
+          { "id": "PSY_magi_spell_tree_shaman_summon_hostile_totem_sub", "hit_self": false},
+          { "id": "PSY_magi_spell_tree_shaman_summon_hostile_insect_sub", "hit_self": true},
+          { "id": "PSY_magi_spell_tree_shaman_summon_frog_sub", "hit_self": false}
+        ]
+      },
+
+      {
+        "id": "PSY_magi_spell_tree_shaman_summon_frog_sub",
+        "type": "SPELL",
+        "name": { "str": "Death Halfworm" },
+        "description": "Spawns two halfworms.",
+        "valid_targets": [ "ground", "self" ],
+        "min_damage": 2,
+        "max_damage": 2,
+        "min_duration": 2000,
+        "max_duration": 2000,
+        "flags": [ "SILENT", "HOSTILE_SUMMON","SPAWN_WITH_DEATH_DROPS" ],
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "PSY_magi_rnd_mon_upgradeable_frog",
+        "min_aoe": 5,
+        "max_aoe": 5
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_tree_shaman_summon_hostile_insect_sub",
+        "name": "Summon insects",
+        "description": "Summons wisps.",
+        "flags": ["HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET","SPAWN_GROUP" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 2,
+        "max_damage": 2,
+        "min_aoe": 3,
+        "max_aoe": 3,
+        "min_duration": 1000,
+        "max_duration": 2000,
+        "message": "The summoner summons insects!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "GROUP_PSY_magi_RND_INSECTS"
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_tree_shaman_summon_hostile_totem_sub",
+        "name": "Summon insects",
+        "description": "Summons wisps.",
+        "flags": [ "HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET","SPAWN_GROUP" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_range": 2,
+        "max_range": 2,
+        "min_duration": 1500,
+        "max_duration": 2000,
+        "message": "The summoner summons totem!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "GROUP_PSY_magi_RND_TOTEMS"
+      },
+
+      {
+        "id": "PSY_magi_spell_great_tree_Tangled_vine_line",
+        "type": "SPELL",
+        "name": "Tangled Vine",
+        "description": "Conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.",
+        "valid_targets": [ "hostile", "ally" ,"ground"],
+        "flags": [ "CONCENTRATE", "SOMATIC","NO_PROJECTILE","LOUD" ],
+        "effect": "attack",
+        "shape": "line",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 3,
+        "max_level": 20,
+        "base_casting_time": 300,
+        "casting_time_increment": -5.0,
+        "final_casting_time": 200,
+        "base_energy_cost": 360,
+        "energy_increment": -5.0,
+        "final_energy_cost": 260,
+        "min_damage": 1,
+        "max_damage": 1,
+        "damage_increment": 2.0,
+        "damage_type": "biological",
+        "field_id": "fd_PSY_magi_tangled_vine",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "min_range": 10,
+        "max_range": 10,
+        "range_increment": 0.5,
+        "extra_effects": [
+          { "id": "PSY_magi_spell_great_tree_Tangled_vine_line_sub" }
+        ]
+    },
+
+    {
+        "id": "PSY_magi_spell_great_tree_Tangled_vine_line_sub",
+        "type": "SPELL",
+        "name": "Tangled vine sub",
+        "description": "Conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.",
+        "valid_targets": [ "hostile", "ally" ,"ground"],
+        "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+        "effect": "attack",
+        "shape": "blast",
+        "damage_type": "biological",
+        "spell_class": "NONE",
+        "field_id": "fd_PSY_magi_tangled_vine",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "max_level": 20,
+        "min_damage": 3,
+        "max_damage": 3,
+        "damage_increment": 2.0,
+        "min_range": 18,
+        "max_range": 18,
+        "min_aoe": 2,
+        "max_aoe": 2,
+        "base_casting_time": 100
+    },
+
+      {
+        "type": "SPELL",
         "id": "PSY_magi_spell_great_tree_base",
         "name": "Sprit of Great Tree Magic",
         "description": "Causes one of the summon spells to be cast.",
@@ -1192,12 +1500,95 @@
         "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","NO_PROJECTILE" ,"RANDOM_TARGET"],
         "min_range": 10,
         "max_range": 10,
-        "message": "flutter! flutter!",
+        "message": "Bloom!",
         "extra_effects": [
-          { "id": "PSY_magi_spell_chimera_teleport", "hit_self": true},
-          { "id": "PSY_magi_spell_chimera_random_breath", "hit_self": false},
-          { "id": "PSY_magi_spell_chimera_random_breath", "hit_self": false}
+          { "id": "PSY_magi_spell_great_tree_teleport", "hit_self": true},
+          { "id": "PSY_magi_spell_great_tree_create_orchard", "hit_self": true},
+          { "id": "PSY_magi_spell_great_tree_create_orchard", "hit_self": true},
+          { "id": "PSY_magi_spell_summon_great_tree_apples", "hit_self": true},
+          { "id": "PSY_magi_spell_summon_great_tree_apples", "hit_self": true}
         ]
+      },
+
+      {
+        "id": "PSY_magi_spell_great_tree_teleport",
+        "type": "SPELL",
+        "name": { "str": "ninjutsu" },
+        "description": "Spawns two halfworms.",
+        "valid_targets": [ "ground", "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "flags": [ "SILENT", "HOSTILE_SUMMON","RANDOM_TARGET" ],
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "PSY_magi_mon_Sprit_Great_tree_afterimage",
+        "min_range": 1,
+        "max_range": 1,
+        "min_duration": 300,
+        "max_duration": 300,
+        "extra_effects": [
+          { "id": "PSY_magi_spell_great_tree_teleport_sub", "hit_self": true}
+        ]
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_great_tree_teleport_sub",
+        "name": { "str": "Ninja Teleport" },
+        "description": "Teleports the monster.",
+        "effect": "short_range_teleport",
+        "shape": "blast",
+        "valid_targets": [ "none" ],
+        "flags": [ "SOMATIC", "SILENT", "NO_LEGS" ],
+        "min_range": 2,
+        "max_range": 4,
+        "min_aoe": 3,
+        "max_aoe": 4,
+        "base_casting_time": 100
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_great_tree_create_orchard",
+        "name": "Sprit of Great Tree Magic",
+        "description": "Causes one of the summon spells to be cast.",
+        "valid_targets": ["hostile","self","ground"],
+        "effect": "none",
+        "shape": "blast",
+        "min_damage": 2,
+        "max_damage": 2,
+        "base_casting_time": 100,
+        "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","NO_PROJECTILE" ,"RANDOM_TARGET"],
+        "min_range": 10,
+        "max_range": 10,
+        "message": "Bloom!",
+        "extra_effects": [
+          { "id": "PSY_magi_spell_create_orchard_sub"  },
+          { "id": "PSY_magi_spell_create_orchard_sub2"  },
+          { "id": "PSY_magi_spell_create_orchard_sub3"  },
+          { "id": "PSY_magi_spell_create_orchard_sub4"  },
+          { "id": "PSY_magi_spell_create_orchard_sub5"  }
+        ]
+      },
+
+      {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_summon_great_tree_apples",
+        "name": "Summon Apples",
+        "description": "Summons wisps.",
+        "flags": ["HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","SPAWN_GROUP","SPAWN_WITH_DEATH_DROPS" ],
+        "valid_targets": [ "ground" ],
+        "base_casting_time": 100,
+        "min_damage": 2,
+        "max_damage": 2,
+        "min_aoe": 3,
+        "max_aoe": 3,
+        "min_duration": 1500,
+        "max_duration": 1500,
+        "message": "The plant vomit out bugs!",
+        "shape": "blast",
+        "effect": "summon",
+        "effect_str": "GROUP_PSY_magi_MONSTER_APPLES"
       },
 
       {
@@ -1214,7 +1605,7 @@
         "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","NO_PROJECTILE" ,"RANDOM_TARGET"],
         "min_range": 10,
         "max_range": 10,
-        "message": "flutter! flutter!",
+        "message": "howl! howl!",
         "extra_effects": [
           { "id": "PSY_magi_spell_chimera_teleport", "hit_self": true},
           { "id": "PSY_magi_spell_chimera_random_breath", "hit_self": false},
@@ -2395,8 +2786,7 @@
     "message": "",
     "extra_effects": [
       { "id": "PSY_magi_monster_healing_chess_spell", "hit_self": true},
-      { "id": "PSY_magi_spell_bishop_teleport", "hit_self": true},
-      { "id": "PSY_magi_bishop_swap_pos"}
+      { "id": "PSY_magi_spell_bishop_teleport", "hit_self": true}
     ]
   },
 
@@ -2891,13 +3281,38 @@
     "energy_source": "MANA",
     "flags": ["NO_EXPLOSION_SFX", "CONCENTRATE", "VERBAL", "NO_LEGS" ],
     "base_casting_time": 100,
-    "max_level": 20
+    "max_level": 20,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_statue_swamp_death_sub", "hit_self": false}
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_statue_swamp_death_sub",
+    "type": "SPELL",
+    "name": "Statue Buff",
+    "description": "Statue Buff.",
+    "valid_targets": ["ally","hostile"],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_statue_blessing_swamp",
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "min_duration": 360000,
+    "max_duration": 360000,
+    "max_level": 0,
+    "min_range": 30,
+    "max_range": 30,
+    "min_aoe": 30,
+    "max_aoe": 30
   },
 
   {
     "id": "PSY_magi_spell_statue_horn_death",
     "type": "SPELL",
-    "name": { "str": "Death Statue Swamp" },
+    "name": { "str": "Death Statue Horn" },
     "description": "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil.",
     "valid_targets": [ "ground","self" ],
     "effect": "ter_transform",
@@ -2906,13 +3321,37 @@
     "energy_source": "MANA",
     "flags": ["NO_EXPLOSION_SFX", "CONCENTRATE", "VERBAL", "NO_LEGS" ],
     "base_casting_time": 100,
-    "max_level": 20
+    "max_level": 20,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_statue_horn_death_sub", "hit_self": false}
+    ]
   },
 
   {
+    "id": "PSY_magi_spell_statue_horn_death_sub",
+    "type": "SPELL",
+    "name": "Statue Buff",
+    "description": "Statue Buff.",
+    "valid_targets": ["ally","hostile"],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_statue_blessing_horn",
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "min_duration": 360000,
+    "max_duration": 360000,
+    "max_level": 0,
+    "min_range": 30,
+    "max_range": 30,
+    "min_aoe": 30,
+    "max_aoe": 30
+  },
+  {
     "id": "PSY_magi_spell_statue_cleric_death",
     "type": "SPELL",
-    "name": { "str": "Death Statue Swamp" },
+    "name": { "str": "Death Statue cleric" },
     "description": "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil.",
     "valid_targets": [ "ground","self" ],
     "effect": "ter_transform",
@@ -2921,13 +3360,37 @@
     "energy_source": "MANA",
     "flags": ["NO_EXPLOSION_SFX", "CONCENTRATE", "VERBAL", "NO_LEGS" ],
     "base_casting_time": 100,
-    "max_level": 20
+    "max_level": 20,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_statue_cleric_death_sub", "hit_self": false}
+    ]
   },
 
   {
+    "id": "PSY_magi_spell_statue_cleric_death_sub",
+    "type": "SPELL",
+    "name": "Statue Buff",
+    "description": "Statue Buff.",
+    "valid_targets": ["ally","hostile"],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_statue_blessing_cleric",
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "min_duration": 360000,
+    "max_duration": 360000,
+    "max_level": 0,
+    "min_range": 30,
+    "max_range": 30,
+    "min_aoe": 30,
+    "max_aoe": 30
+  },
+  {
     "id": "PSY_magi_spell_statue_mysterious_death",
     "type": "SPELL",
-    "name": { "str": "Death Statue Swamp" },
+    "name": { "str": "Death Statue mysterious" },
     "description": "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil.",
     "valid_targets": [ "ground","self" ],
     "effect": "ter_transform",
@@ -2936,9 +3399,33 @@
     "energy_source": "MANA",
     "flags": ["NO_EXPLOSION_SFX", "CONCENTRATE", "VERBAL", "NO_LEGS" ],
     "base_casting_time": 100,
-    "max_level": 20
+    "max_level": 20,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_statue_mysterious_death_sub", "hit_self": false}
+    ]
   },
 
+  {
+    "id": "PSY_magi_spell_statue_mysterious_death_sub",
+    "type": "SPELL",
+    "name": "Statue Buff",
+    "description": "Statue Buff.",
+    "valid_targets": ["ally","hostile"],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_statue_blessing_mysterious",
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "min_duration": 360000,
+    "max_duration": 360000,
+    "max_level": 0,
+    "min_range": 30,
+    "max_range": 30,
+    "min_aoe": 30,
+    "max_aoe": 30
+  },
   {
     "type": "SPELL",
     "id": "PSY_magi_spell_boss_statue_death_summon",

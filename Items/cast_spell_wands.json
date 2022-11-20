@@ -338,6 +338,28 @@
         "charges_per_use": 5,
         "description": "A magic wand that summons 6 chess of pawns to the target location.",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_pawns", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_create_stunning_field",
+        "name": { "str": "wand of Create Stunning Field", "str_pl": "wands of Create Stunning Field" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "Create a field of stunning in the area of the target point.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_create_stunning_field", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_create_darkness_field",
+        "name": { "str": "wand of Create Darkness Field", "str_pl": "wands of Create Darkness Field" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "Create a field of darkness in the area of the target point.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_create_darkness_field", "no_fail": true, "level": 0, "need_wielding": true }
       }
 
 

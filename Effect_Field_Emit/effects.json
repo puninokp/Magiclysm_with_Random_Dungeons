@@ -177,6 +177,56 @@
 
   {
     "type": "effect_type",
+    "id": "PSY_magi_bird_accelerating",
+    "name":  [ 
+      "Bird Accelerating"        
+    ],
+    "desc": [ "Your movement speed is increased by the blessing of a mystical bird!" ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 10,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ 20 ] },
+    "scaling_mods": { "speed_mod": [ 20 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_bird_attack_tempo",
+    "name":  [ 
+      "Attack Tempo"        
+    ],
+    "desc": [ "Your movement speed is increased by the blessing of a mystical bird!" ],
+    "rating": "good",
+    "max_duration": "60 seconds",
+    "max_intensity": 50,
+    "int_add_val": 5,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 11 ] },
+    "scaling_mods": { "speed_mod": [ 1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_futile_wishes_attack_tempo",
+    "name":  [ 
+      "Attack Tempo"        
+    ],
+    "desc": [ "Your movement speed is increased by someone's wish" ],
+    "rating": "good",
+    "max_duration": "60 seconds",
+    "max_intensity": 100,
+    "int_add_val": 10,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 1 ] },
+    "scaling_mods": { "speed_mod": [ 1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
     "id": "PSY_magi_in_sanctuary",
     "name":  [ 
       "Sanctuary"      
@@ -353,6 +403,131 @@
 
   {
     "type": "effect_type",
+    "id": "PSY_magi_bloody_cursed",
+    "name": [ 
+      "Bloody Curse"
+    ],
+    "desc": [ "You are under the curse of blood." ],
+    "apply_message": "You are cursed from bloody cloud.",
+    "remove_message": "No more Cursed.",
+    "max_duration": "3 seconds",
+    "max_intensity": 3,
+    "base_mods": { 
+      "speed_mod": [ -35 ],               
+      "dex_mod": [ -3 ], 
+      "hurt_min": [ 12 ]
+    },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_death_field_effect",
+    "name": [ 
+      "Deadly Cursed"
+    ],
+    "desc": [ "You are under the curse of death." ],
+    "apply_message": "You are cursed from deadly field.",
+    "remove_message": "No more Cursed.",
+    "max_duration": "3 seconds",
+    "max_intensity": 3,
+    "base_mods": { 
+      "hurt_min": [ 50 ]
+    },
+    "scaling_mods": { 
+      "dex_mod": [ 10 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_swamp",
+    "name":  [ 
+      "Blessing of Swamp"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned" ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {"stamina_min": [ 300 ]},
+    "removes_effects": [ "stunned" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_horn",
+    "name":  [ 
+      "Blessing of Horn"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding" ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "speed_mod": [ 50 ] },
+    "removes_effects": [ "bleed" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_cleric",
+    "name":  [ 
+      "Blessing of Cleric"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of cleric. You are immune from most conditions." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "speed_mod": [ 30 ] },
+    "removes_effects": [
+      "fungus",
+      "dermatik",
+      "bloodworms",
+      "paincysts",
+      "brainworms",
+      "tapeworm",
+      "blind",
+      "poison",
+      "venom_dmg",
+      "venom_weaken",
+      "stung",
+      "badpoison",
+      "foodpoison",
+      "paralyzepoison",
+      "tetanus",
+      "rat_bite_fever",
+      "infected",
+      "asthma",
+      "common_cold",
+      "flu"
+    ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_mysterious",
+    "name":  [ 
+      "Blessing of mysterious"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the mysterious.All your status are increased." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "str_mod": [ 3 ], "dex_mod": [ 3 ], "per_mod": [ 3 ], "int_mod": [ 3 ],"speed_mod": [ 20 ] },
+    "removes_effects": [ "bleed" ],
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
     "id": "PSY_magi_Strengthening",
     "name":  [ 
       "Strengthening"      
@@ -383,6 +558,27 @@
       "healing_rate": [ 5 ],
       "hunger_min": [ 1 ], 
       "hunger_chance": [ 18, 36 ]
+    },
+    "removes_effects": ["bleed", "common_cold"],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_healing_hot_water_effect",
+    "name":  [ 
+      "Pleasant hot water temperature"      
+    ],
+    "desc": [ "Soaking in hot water at a comfortable temperature." ],
+    "rating": "good",
+    "max_duration": "3 seconds",
+    "max_intensity": 1,
+    "base_mods": {
+      
+      "healing_rate": [ 5 ],
+      "hunger_min": [ 1 ], 
+      "hunger_chance": [ 18, 36 ],
+      "stamina_min": [ 500 ]
     },
     "removes_effects": ["bleed", "common_cold"],
     "show_in_info": true

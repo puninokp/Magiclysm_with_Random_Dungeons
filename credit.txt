@@ -2,7 +2,7 @@
 
 使用しているドット絵は下記の作者様のイラストを改変したものが含まれており、配布を禁じます。
 使用されている画像の著作権は、その著者に帰属します。
-The dots used include modified versions of the illustrations by the following authors and may not be distributed.
+Those Pixel arts used include modified versions of the illustrations by the following authors and may not be distributed.
 The copyrights of the images used belong to their authors.
 
 【name】いらすとや　様
@@ -22,3 +22,13 @@ The copyrights of the images used belong to their authors.
 【name】蒼牙　様 (このmodの企画、及び日本語の修正、画像の作成などその他もろもろ)
 
 【name】YasuYasu 様(json関係の修正や案など)
+
+【name】兎餅 様(動くエフェクト画像の作成など)
+
+
+
+使用したAI画像生成ソフト
+
+Stable Diffusion　v1.5
+一部の剣、及び盾の装備のドット絵の元絵の作成に使用
+tiles/Made_with_AI.pngを参照

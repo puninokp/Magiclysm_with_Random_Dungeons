@@ -48,13 +48,224 @@
 
       {
         "type": "ter_furn_transform",
+        "id": "PSY_magi_transform_hidden_world",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_dirt",
+            "valid_terrain": [ 
+              "t_rock",
+              "t_door_c",
+              "t_wall_log"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_dirt",
+            "valid_terrain": [ 
+              "t_null",
+              "t_open_air",
+              "t_open_air_rooved_outside",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors",
+              "t_glass_roof"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_lava",
+            "valid_terrain": [ 
+              "t_water_dp",
+              "t_swater_sh",
+              "t_swater_dp"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_water_pool_outdoors",
+            "valid_terrain": [ 
+              "t_water_murky",
+              "t_sewage",
+              "t_water_hot"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_water_sh",
+            "valid_terrain": [ 
+              "t_pit_covered",
+              "t_pit_glass",
+              "t_pit_glass_covered"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_pit_corpsed",
+            "valid_terrain": [ 
+              "t_pit_spiked",
+              "t_pit_spiked_covered",
+              "t_rootcellar",
+              "t_pit_shallow",
+              "t_pit"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_grass",
+            "valid_terrain": [ 
+              "t_pavement",
+              "t_sidewalk",
+              "t_brick_wall",
+              "t_rock_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_thconc_floor",
+            "valid_terrain": [ 
+              "t_floor",
+              "t_grate",
+              "t_floor_red",
+              "t_floor_blue"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_red",
+            "valid_terrain": [ 
+              "t_carpet_base_wood",
+              "t_carpet_wood_yellow",
+              "t_carpet_wood_purple",
+              "t_carpet_concrete_red"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_metal_red",
+            "valid_terrain": [ 
+              "t_carpet_metal_yellow",
+              "t_carpet_metal_purple",
+              "t_carpet_strconcrete_green",
+              "t_carpet_rock_green"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_primitive_red",
+            "valid_terrain": [ 
+              "t_carpet_primitive_green",
+              "t_carpet_base_linoleum_gray",
+              "t_carpet_linoleum_gray_yellow",
+              "t_linoleum_white"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_primitive_red",
+            "valid_terrain": [ 
+              "t_carpet_primitive_green",
+              "t_carpet_base_linoleum_gray",
+              "t_carpet_linoleum_gray_yellow",
+              "t_linoleum_white"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_moss_underground",
+            "valid_terrain": [ 
+              "t_sand_underground",
+              "t_moss_underground",
+              "t_dirt_underground",
+              "t_claymound_underground"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_sand",
+            "valid_terrain": [ 
+              "t_mud",
+              "t_claymound",
+              "t_glassed_sand",
+              "t_dirtmound"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_grave",
+            "valid_terrain": [ 
+              "t_zebra",
+              "t_concrete_y",
+              "t_metal_floor_no_roof",
+              "t_dirtfloor_no_roof"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_tree_dead",
+            "valid_terrain": [ 
+              "t_tree_blackjack",
+              "t_tree_alder",
+              "t_tree_alder_harvested",
+              "t_tree_chestnut",
+              "t_tree_beech",
+              "t_tree_walnut",
+              "t_tree_apple",
+              "t_tree_coffee",
+              "t_tree_peach"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_resin",
+            "valid_terrain": [ 
+              "t_triffid_bark_wall",
+              "t_bark_wall_chipped",
+              "t_triffid_wood_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_pillar",
+            "valid_terrain": [ 
+              "t_wall",
+              "t_rock_smooth",
+              "t_wall_metal",
+              "t_sconc_wall",
+              "t_scrap_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_wood",
+            "valid_terrain": [ 
+              "t_palisade",
+              "t_junk_wall",
+              "t_wall_dirt"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_glass",
+            "valid_terrain": [ 
+              "t_paper",
+              "t_wax",
+              "t_paper_brood",
+              "t_paper_hard"
+            ],
+            "message": ""
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
         "id": "PSY_magi_remove_wall_form",
         "terrain": [
           {
             "result": "PSY_magi_t_dirt",
             "valid_terrain": [ 
               "t_rock",
-              "t_door_c"
+              "t_door_c",
+              "t_wall_log"
             ],
             "message": "Remove all walls!"
           }

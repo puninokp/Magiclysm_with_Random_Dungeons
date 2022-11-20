@@ -244,6 +244,47 @@
       },
 
       {
+        "id": "PSY_magi_invincible_res_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "all-immune resistance aura" },
+        "description": "An all-encompassing, invisible layer of protection against all damage effect.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "symbol": "o",
+        "material": [ "magical_material" ],
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [
+            {
+              "has": "WORN",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_ACID", "multiply": -1 },
+                { "value": "ARMOR_BIO", "multiply": -1 },
+                { "value": "ARMOR_ELEC", "multiply": -1 },
+                { "value": "ARMOR_HEAT", "multiply": -1 },
+                { "value": "ARMOR_COLD", "multiply": -1 },
+                { "value": "ARMOR_CUT", "multiply": -1 },
+                { "value": "ARMOR_BASH", "multiply": -1 },
+                { "value": "ARMOR_STAB", "multiply": -1 },
+                { "value": "ARMOR_BULLET", "multiply": -1 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
         "id": "PSY_magi_bash_res_aura",
         "type": "ARMOR",
         "looks_like": "protect_env",
