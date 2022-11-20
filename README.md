@@ -7,35 +7,36 @@
 
 新たに追加される自動生成ダンジョンを攻略して沢山の魔法書や巻物、そして固有レアアイテムを獲得したり、それらのドロップを使ってあなた自身を強化したりできるようになるmodです。
 
-新たに覚えることが可能な魔法の種類は　40　以上、 新たにダンジョンに登場するモンスターの種類は　50　以上で各モンスターには固有のレアドロップが設定されています。
+新たに覚えることが可能な魔法の種類は　50　以上、 新たにダンジョンに登場するモンスターの種類は　80　以上で各モンスターには固有のレアドロップが設定されています。
 
 また名前の通りダンジョンは自動生成されるため、毎回潜るときには新鮮な気分になれること間違いなし。
 
 ----------使い方---------
 
-１ まずこのファイル[Magiclysm_with_Random_Dungeons]のzipを解凍したあと
 
-cdda>data>mods に入れてください
+１	まずこのファイル[Magiclysm_with_Random_Dungeons]のzipを解凍したあと
 
-２ そしてこの中に翻訳ファイル
+	cdda/mods/Magiclysm_with_Random_Dungeons
 
-magiclysm_with_dungeon_HONYAKU.mo
+	として入れてください
+	cddaにmodsファイルがない場合は新たに作ってください
 
-が入っています。
+	※cdda/data/modsに入れても機能はしますが、日本語翻訳は適応されなくなります。
 
-こちらのファイルをお手数ですが
+2	画像はUNDEAD_PEOPLEをベースにしております。
+	対応する画像	{"UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm"}
 
-cdda / lang / mo / ja / LC_MESSAGES に置いていただけば
+	もし上記の対応タイルであるのに、適用されていないのであれば以下をお試しください
 
-日本語が適応されます(０F-3より後の開発版のみ)
-
-３ 画像はアンデッドピーポーをベースにしております。 対応する画像 {"UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm"}
+	１　タイルが反映されるまでゲームをリログする（ダウンロードしてすぐだとなぜかタイル画像適応に時間がかかるときがあります）
+	
+	2　それでもだめなら　作者”puninokp”にdiscordにて連絡ください。
 
 -------------画像を参考にしたサイト、及び画像を使用したサイト----------------
 
 使用しているドット絵は下記の作者様のイラストを改変したものが含まれており、配布を禁じます。
 使用されている画像の著作権は、その著者に帰属します。
-The dots used include modified versions of the illustrations by the following authors and may not be distributed.
+Those pixel arts used include modified versions of the illustrations by the following authors and may not be distributed.
 The copyrights of the images used belong to their authors.
 
 【name】いらすとや　様 【URL】https://www.irasutoya.com/
@@ -71,6 +72,15 @@ tiles/Made_with_AI.pngを参照
 不具合や翻訳ミス、または新たに案などがありましたら、よろしければdiscord又はここで報告お願いします。
 
 --------------アップデート情報---------------
+
+ver2.0
+
+森ダンジョン追加
+アイテム40種以上追加
+特殊効果のある　剣と盾を10種ずつ
+モンスター30種以上追加
+
+森ダンジョンの日本語翻訳は次のバージョンで追加予定です
 
 ver1.1.1
 
