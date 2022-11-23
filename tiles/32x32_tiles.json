@@ -196,6 +196,22 @@
             {"weight": 30, "sprite":181}
             ]
             },
+            { "id": "PSY_magi_mon_boomerang", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":182},
+            {"weight": 10, "sprite":183},
+            {"weight": 10, "sprite":184},
+            {"weight": 10, "sprite":185}
+            ]
+            },
+            { "id": "PSY_magi_mon_boomerang_hallu", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":186},
+            {"weight": 10, "sprite":187},
+            {"weight": 10, "sprite":188},
+            {"weight": 10, "sprite":189}
+            ]
+            },
             { "id": "fd_PSY_magi_field_of_fear", "rotates": false,"animated": true,"fg":
             [
             {"weight": 30, "sprite":322},

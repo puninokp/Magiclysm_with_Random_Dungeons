@@ -228,6 +228,17 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_BOOMERANG",
+        "default": "PSY_magi_mon_boomerang_hallu",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_mon_boomerang_hallu", "freq": 900, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_boomerang_hallu2", "freq": 100, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_INSECTS",
         "default": "PSY_magi_rnd_mon_fly",
         "//": "Cheap golems used to defend the average wizard's tower.",

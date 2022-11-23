@@ -296,6 +296,8 @@
         ]
       },
 
+
+
       {
         "id": "PSY_magi_spell_kaze_shockwave",
         "type": "SPELL",
@@ -3426,6 +3428,7 @@
     "min_aoe": 30,
     "max_aoe": 30
   },
+
   {
     "type": "SPELL",
     "id": "PSY_magi_spell_boss_statue_death_summon",
@@ -3445,6 +3448,7 @@
     "effect": "summon",
     "effect_str": "GROUP_PSY_magi_FOREST_BOSSES"
   },
+
 
   {
     "type": "SPELL",
@@ -3500,5 +3504,122 @@
     "min_range": 1,
     "max_range": 1,
     "message": ""
+  },
+
+  {
+    "id": "PSY_magi_spell__kaze_boomerang_strike",
+    "type": "SPELL",
+    "name": "Boooomerang",
+    "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "flags": ["SOMATIC", "VERBAL", "NO_LEGS" ],
+    "min_damage": 25,
+    "max_damage": 25,
+    "min_range": 1,
+    "max_range": 1,
+    "spell_class": "NONE",
+    "base_casting_time": 20,
+    "damage_type": "cut",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_boomerang_death_summon_hallu_sub" , "hit_self": false },
+      { "id": "PSY_magi_spell_boomerang_self_death_base" , "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell__kaze_boomerang_strike_poly",
+    "type": "SPELL",
+    "name": { "str": "Polymorphing" },
+    "description": "Spawns two halfworms.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS", "HOSTILE_SUMMON" ],
+    "min_damage": 10000,
+    "max_damage": 10000,
+    "base_casting_time": 200,
+    "shape": "blast",
+    "effect": "targeted_polymorph",
+    "effect_str": "PSY_magi_mon_boomerang_hallu"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_boomerang_self_death_base",
+    "name": "summons creature",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": [ "self"],
+    "effect": "attack",
+    "damage_type": "pure",
+    "shape": "blast",
+    "base_casting_time": 10,
+    "flags": ["SILENT", "NO_LEGS", "NO_HANDS" ],
+    "min_damage": 15,
+    "max_damage": 15,
+    "min_range": 1,
+    "max_range": 1,
+    "message": ""
+  },
+
+
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_boomerang_death_summon_hallu_sub",
+    "name": "Summon boomerang",
+    "description": "Summons boss.",
+    "flags": ["NO_EXPLOSION_SFX", "SILENT", "NO_PROJECTILE","RANDOM_DURATION", "HOSTILE_SUMMON", "PERMANENT","RANDOM_TARGET","SPAWN_GROUP"],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "message": "",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "GROUP_PSY_magi_BOOMERANG"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_boomerang_death_summon_hallu_sub2",
+    "name": "Summon boomerang",
+    "description": "Summons boss.",
+    "flags": ["NO_EXPLOSION_SFX", "SILENT", "NO_PROJECTILE","RANDOM_DURATION", "HOSTILE_SUMMON","RANDOM_TARGET"],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "message": "",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_boomerang_hallu"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_boomerang_death_summon_real",
+    "name": "Summon boomerang",
+    "description": "Summons boss.",
+    "flags": ["NO_EXPLOSION_SFX", "SILENT", "NO_PROJECTILE","RANDOM_DURATION" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "message": "",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_boomerang"
   }
 ]

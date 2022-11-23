@@ -214,7 +214,7 @@
     "name":  [ 
       "Attack Tempo"        
     ],
-    "desc": [ "Your movement speed is increased by someone's wish" ],
+    "desc": [ "Your movement speed is increased by someone's wish." ],
     "rating": "good",
     "max_duration": "60 seconds",
     "max_intensity": 100,
@@ -450,7 +450,7 @@
     "name":  [ 
       "Blessing of Swamp"      
     ],
-    "desc": [ "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned" ],
+    "desc": [ "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned." ],
     "rating": "good",
     "max_duration": "24 hours",
     "max_intensity": 1,
@@ -465,7 +465,7 @@
     "name":  [ 
       "Blessing of Horn"      
     ],
-    "desc": [ "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding" ],
+    "desc": [ "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding." ],
     "rating": "good",
     "max_duration": "24 hours",
     "max_intensity": 1,
@@ -516,7 +516,7 @@
     "name":  [ 
       "Blessing of mysterious"      
     ],
-    "desc": [ "You have received the blessing of the stone statue of the mysterious.All your status are increased." ],
+    "desc": [ "You have received the blessing of the stone statue of the mysterious. All your status are increased." ],
     "rating": "good",
     "max_duration": "24 hours",
     "max_intensity": 1,
@@ -569,7 +569,7 @@
     "name":  [ 
       "Pleasant hot water temperature"      
     ],
-    "desc": [ "Soaking in hot water at a comfortable temperature." ],
+    "desc": [ "The water is soaked at a comfortable temperature." ],
     "rating": "good",
     "max_duration": "3 seconds",
     "max_intensity": 1,
@@ -643,9 +643,9 @@
     "type": "effect_type",
     "id": "PSY_magi_cursed_blood_effect",
     "name":  [ 
-      "Cursed"      
+      "Curse of blood"      
     ],
-    "desc": [ "You are cursed because of blood rain." ],
+    "desc": [ "You are cursed with the curse of blood." ],
     "rating": "bad",
     "max_duration": "180 seconds",
     "max_intensity": 1,

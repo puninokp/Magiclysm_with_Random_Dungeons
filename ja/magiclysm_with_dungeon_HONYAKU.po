@@ -1879,3 +1879,343 @@ msgid ""
 "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\n"
 "Upgrades will reduce charging time and increase charge pocket size."
 msgstr "不気味な光を放つマスクで、起動するとあなたの移動速度を急激に上げ、すべてのものが一時的に時間が止まったよう見えるようになります。アップグレードすることによりチャージ速度の短縮と充電容量が増えます。"
+
+msgid "Cursed"
+msgstr "呪い"
+
+msgid "Curse of blood"
+msgstr "血の呪い"
+
+msgid "You are cursed with the curse of blood."
+msgstr ""
+
+msgid "Pleasant hot water temperature"
+msgstr "快適な湯温"
+
+msgid "The water is soaked at a comfortable temperature."
+msgstr "心地よい温度のお湯に浸かっています。"
+
+msgid "Blessing of mysterious"
+msgstr "神秘の祝福"
+
+msgid "You have received the blessing of the stone statue of the mysterious. All your status are increased."
+msgstr "神秘の石像の加護を受け、全てのステータスが上昇しています。"
+
+msgid "Blessing of Cleric"
+msgstr "クレリックの祝福"
+
+msgid "You have received the blessing of the stone statue of cleric. You are immune from most conditions."
+msgstr "あなたはクレリックの石像の祝福を受けています。あなたはほとんどの状態異常から免れることができます。"
+
+msgid "Blessing of Horn"
+msgstr "角獣の祝福"
+
+msgid "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding."
+msgstr "角獣の石像の祝福を受け、移動速度と出血への耐性が増加しています。"
+
+msgid "Blessing of Swamp"
+msgstr "湿地の恵み"
+
+msgid "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned."
+msgstr "沼地の石像の加護を受けた。スタミナ回復速度、気絶耐性が上昇します。"
+
+msgid "Deadly Cursed"
+msgstr "死霊の呪い"
+
+msgid "You are under the curse of death."
+msgstr "あなたは死の呪いにかかっています。"
+
+msgid "Bloody Curse"
+msgstr "ブラッディカース"
+
+msgid "You are under the curse of blood."
+msgstr "あなたは血の呪いにかかっています。"
+
+msgid "Attack Tempo"
+msgstr "アタックテンポ"
+
+msgid "Your movement speed is increased by the blessing of a mystical bird!"
+msgstr "神秘の鳥の加護により、移動速度がアップしています!"
+
+msgid "Your movement speed is increased by someone's wish."
+msgstr "誰かの歪んだ願いによりあなたの移動速度が上がっています。"
+
+msgid "Bird Accelerating"
+msgstr "バード・アクセラレーター"
+
+msgid "wand of Create Darkness Field"
+msgstr "ダークネスフィールドの魔法ワンド"
+
+msgid "wands of Create Darkness Field"
+msgstr "ダークネスフィールドの魔法ワンド"
+
+msgid "Create a field of darkness in the area of the target point."
+msgstr "目標地点の周辺に暗黒のフィールドを作る。"
+
+msgid "wand of Create Stunning Field"
+msgstr "電磁波フィールドの魔法ワンド"
+
+msgid "wands of Create Stunning Field"
+msgstr "電磁波フィールドの魔法ワンド"
+
+msgid "wand of blood rain"
+msgstr "血の雨の杖"
+
+msgid "wands of blood rain"
+msgstr "血の雨の杖"
+
+msgid "all-immune resistance aura"
+msgstr "オールイミューンレジスタンスオーラ"
+
+msgid "An all-encompassing, invisible layer of protection against all damage effect."
+msgstr "あらゆるダメージ効果から守る、目に見えないオーラ。"
+
+msgid "Guardian of the Elements"
+msgstr "エレメントの守護者"
+
+msgid "The Guardian of the Elements is a shield that appears in the Tale of King Walilnorth.This shield is said that the holder of this shield can manipulate the power of the four elements.The holder of this shield is said to be able to manipulate the power of the four elements. It is also said that the bearer of this shield never loses heart and never loses hope in any situation.The shield is rectangular in shape, with red, blue, yellow, and green gems embedded in the shield's handle.The gems are then filled with light of the four colors."
+msgstr "エレメントの守護者とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"精霊界と人間界を繋ぐ門番として、人間に害をなす魔物たちを討伐する役目を担っており、この盾を持つものは四元素"
+"の力を操ることができるとされている。また、この盾を持つ者は、どんな時でも決して心が折れることがなく、どのような状況でも希望を失わないという。"
+"盾の形状は長方形で、盾の持ち手には赤・青・黄・緑の宝石が埋め込まれている。"
+"そしてその宝石から、四色の光が溢れ出るようになっている。"
+
+msgid "Noble and luminous shield"
+msgstr "高貴なる光り輝く盾"
+
+msgid "The Noble and luminous shield is the shield that appears in the Tale of King Walilnorth.This shield was worn by King Walilnorth in his battle against the demon tribe.It is said to be so beautiful that enemy soldiers mistook it for the sun because of its brilliance.It is said that if anyone attacked a person equipped with this shield, he or she would be blinded by the dazzling light that was emitted.For this reason, it is said that the demon tribe could not attack the king who possessed this shield.It is also said that this shield contains powerful magical power, and when struck with it, even if the opponent is a demon king, it can create a momentary opening."
+msgstr "高貴なる光り輝く盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"ワリルノース王が魔族との戦いにおいて身に着けていたもので、その輝きから敵兵からは太陽と間違われたという逸話があるほどに美しいものであるとされている。"
+"そして、この盾を装備する者に攻撃をすると、眩い光が放たれて目を潰されてしまうらしい。"
+"そのため、魔族はこの盾を持つ王に対し攻撃することができなかったと言われている。"
+"また、この盾には強力な魔力が秘められており、その盾で殴られると、例え相手が魔王であっても一瞬の隙を作ることができると言われている。"
+
+msgid "The Great Shield of the Neutral End"
+msgstr "中立なる終わりの大盾"
+
+msgid "The Great Shield of the Neutral End is a shield that appears in the Tale of King Walilnorth.This shield has the effect of equalizing any damage it takes. Whether it is dragon fire or powerful acid, all damage blocked by this shield is reduced to 3.There is an anecdote about a man who, with this shield in his hand, was able to survive all the attacks of an oncoming dragon.However, the man was killed shortly thereafter by a large number of low-grade monsters."
+msgstr "中立なる終わりの大盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、受けるあらゆるダメージを均一にする効果を持つ。たとえ相手がドラゴンの炎であろうが、強力な酸であろうが、この盾に防がれたダメージはすべて3になるのだ。"
+"とある男が、この盾を持って迫りくるドラゴンの攻撃をすべて受け切ったという逸話がある。"
+"しかし、その男はその後すぐに大量に発生した低級モンスターによって命を落としてしまったという……。"
+
+msgid "Shield of Stories and Fraternity"
+msgstr "物語と友愛の盾"
+
+msgid "The Shield of Tales and Fraternity is a shield that appears in the Tales of King Walilnorth.This shield was The hero king Walilnorth risked his life to create it for the woman he loved, who later became the first queen.It is said that this shield has two powers.One is the power to protect those we love, and the other is the power to destroy those who are evil.It is said that these two powers have not disappeared even after King Walilnorth's death, and they continue to reside in the shield to this day."
+msgstr "物語と友愛の盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"英雄王ワリルノースが、愛した女性のために命を懸けて作り上げたもので、その女性は後に初代女王となった。"
+"この盾には、二つの力が備わっていると言われている。"
+"一つは、愛する者を守るための力であり、もう一つは、悪しき者を滅する力だ。"
+"この二つの力は、ワリルノース王が死してなお消えず、今も盾に宿り続けているとされている。"
+
+msgid "Shield of futile wishes"
+msgstr "無益な願いの盾"
+
+msgid "The Shield of Futile Wishes is a shield that appears in the Tale of King Walilnorth.This shield belonged to a certain male merchant, and was apparently placed in a coffin with him when he died. There is a curse on the shield, and if what you wish for comes true to your disadvantage, it will come true, but if what you wish for comes true to your disadvantage, it will not come true.But if the wish is for one's own benefit, it will not come true.Therefore, it is said that the person who obtains this shield will spend his life being driven by the greed of others.Due to the effect of this shield, the man kept failing in business and finally went bankrupt.The descendant of the merchant who owned the shield is said to have been involved in the founding of the Kingdom of Walil North.The descendant of the merchant is said to have been very lucky and became a wealthy man as his country developed greatly."
+msgstr "無益な願いの盾とは、ワリルノース王物語に登場する盾である。この盾はとある男商人が持っていた物で、男が死んだ時に一緒に棺桶に入れられていたらしい。その盾には呪いがかけられており、願った事が自分の不利益になる場合は叶うが、願った事が自分の利益に繋がると、それを叶えない性質を持っている。そのため、この盾を手に入れた者は、他人の欲に振り回される人生を送る事になるという。この盾の効果によって、この男は商売に失敗し続け最後には破産したそうだ。そんな逸話を持つ盾だが、この盾を持っていた男商人の子孫が、ワリルノース王国を建国に関わった者と云われている。この商人の子孫は、非常に幸運だったらしく、国が大きく発展すると共に大富豪となったようだ。"
+
+msgid "Shield of limpid filth"
+msgstr "清冽な汚物の盾"
+
+msgid "A shield of limpid filth is a shield that It is a shield that can disperse filth when it blocks an attack from an enemy.Its effect can also block the enemy's vision.It is also possible to attack a wide area by scattering the filth around the shield."
+msgstr "清冽な汚物の盾とは、敵からの攻撃を防いだ際に汚物をばら撒くことができる盾である。その効果で、敵の視界を封じることもできる。また、盾の周囲に汚物を巻き散らかすことで、広範囲を攻撃できる。"
+
+msgid "Shield of thought and Awakening"
+msgstr "思考と不覚の盾"
+
+msgid "The Shield of Thought and Awakening is when magical power is put into the shield, the shield itself has a will and periodically heals the person's wounds.However, if the person acts or thinks in a way that does not conform to the shield's will, it will attack back.The shield is also said to be cursed with a powerful curse, and even a single attack on the shield is said to cause extreme pain to the point of death."
+msgstr "思考と不覚の盾は"
+"魔力を込めると盾そのものが意思を持ち、その人物の傷を周期的に癒してくれるというものである。"
+"ただし、盾の意思にそぐわない行動や考えをすると、逆に攻撃してくる。"
+"そして、その盾には強力な呪いがかけられており、一度でも攻撃をくらってしまうと、死ぬほどの激痛を伴うという"
+
+msgid "The Shield of Decision and Wrath"
+msgstr "決断と怒りの盾"
+
+msgid "The Shield of Decision and Wrath is a shield that appears in the Tales of King Walilnorth.This shield was used by King Walilnorth when he slayed the evil dragon, and an anecdote has it that it protected him from the fireballs and flames that the dragon unleashed.King Walilnorth later won the battle against the evil entity, but it is said that he lost his life in the battle.The shield is inscribed with words of praise for his victory over the evil entity, and the feelings behind these words remain to this day."
+msgstr "決断と怒りの盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、ワリルノース王が邪悪なドラゴンを退治した時に使われた盾で、ドラゴンが放った火球や炎から守ったという逸話がある。"
+"ワリルノース王はその後、邪悪なる存在との戦いに勝利したが、その際に命を落としたと伝えられている。"
+"盾には邪悪なる存在に対する勝利を称える言葉が刻まれており、その言葉に込められた思いは今もなお残っている。"
+
+msgid "The Shield of the Hidden World"
+msgstr "隠された世界の盾"
+
+msgid "The shield of the hidden world is It has the ability to block any attack by releasing the power hidden in the shield, causing the world to be hidden.The shield of the hidden world also has another power, which is the power to create and change the world itself.With this ability, the shield of the hidden world can re-create the world itself."
+msgstr "隠された世界の盾は、"
+"盾に秘められた力を解放することで、世界が隠されてしまい、あらゆる攻撃を遮断するという能力を持っている。"
+"また、隠された世界の盾にはもう1つの力があり、それは世界そのものを創り変える力である。"
+"この能力により、隠された世界の盾は世界そのものを創造し直すことができる。"
+
+msgid "The Shield of Envy and Hatred"
+msgstr "妬み憎しみの盾"
+
+msgid "The Shield of Envy and Hatred is said to have the ability to amplify negative emotions such as jealousy and hatred that its owner harbors toward other human beings.Therefore, it is said that the negative emotions amplified by the shield of envy and hatred can be used to inflict damage on the other person.However, this ability is so powerful that it can become a double-edged sword that can cause pain to some users."
+msgstr "妬み憎しみの盾とは、持ち主が他の人間に対して抱く嫉妬や憎しみといった負の感情を増幅させる能力があるとされる。"
+"そのため、妬み憎しみの盾で増幅させた負の感情を相手にぶつけることで、相手にダメージを与えることができるという。"
+"しかし、この能力はあまりにも強力すぎるため、使い手によっては自分を苦しめる諸刃の剣と化してしまう。"
+
+msgid "The Sword of the Merciful and Relentless"
+msgstr "慈悲深き無頼の剣"
+
+msgid "The Sword of the Merciful and Relentless is a sword that appears in the Tales of King Walilnorth.It is said that this sword is a magical sword that changes its appearance depending on its wielder, and that it displays various abilities depending on the wielder.It is also said that its ability is dependent on the quality of the wielder, so even if the same person uses it, it will have a completely different ability.However, it is said that the true power of the sword is only demonstrated when the wielder becomes a truly powerful person, and no one has yet demonstrated its true power.Incidentally, when King Walilnorth used it, it was said to be a holy sword that healed its user."
+msgstr "慈悲深き無頼の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣は持ち主によって姿を変える魔剣であり、使い手に応じて様々な能力を発揮すると言われている。"
+"また、その能力は使い手の素質に左右されるらしく、同じ人間が使っても全く別の能力になるらしい。"
+"だが、真の力を発揮するのは、持ち主が真の強者になった時だと言われており、まだ誰も真の力を発揮した事はない。"
+"ちなみに、ワリルノース王が使用した時は、使用者を癒す聖剣だったそうだ。"
+
+msgid "Deadly Sword of No-Rayu"
+msgstr "ノ・ラーユの死霊剣"
+
+msgid "The Deadly Sword of No-Rayu is a sword that appears in the Tales of King Walilnorth.It is said to have the power to manipulate the souls of the dead and make them repeat their actions in life.Using this power, King Walil North is said to have destroyed his enemies many times.After his death, however, the sword was sealed in the royal cemetery and is said to be guarded by the tomb guard dogs."
+msgstr "ノ・ラーユの死霊剣とは、ワリルノース王物語に登場する剣である。"
+"死者の魂を操り、生前の行動を繰り返させる力を持っているとされる。"
+"この力を用いて、ワリルノース王は敵国を何度も滅ぼしたとされている。"
+"しかし、その死後、王家の墓地にてこの剣は封印され、墓守の番犬が守護していると伝えられている。"
+
+msgid "The Sword of Termination and Waste"
+msgstr "終了と廃物の剣"
+
+msgid "The Sword of Termination and Waste is a sword that appears in the Tales of King Walilnorth.This sword is said to have been made by an enemy witch who cast a spell on King Walilnorth when he and his entourage of knights fought at the Alamo fortress.The sword is imbued with powerful magical powers and has the ability to read the minds and memories of those who touch it.It also has the terrifying power to force those touched by its blade to remember the fears within their own hearts."
+msgstr "終了と廃物の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣はワリルノース王が側近の騎士と共にアラモの砦で戦った際に、敵の魔女が魔法をかけて作った物であると言われている。"
+"この剣には強力な魔力が宿っており、触れた者の心や記憶を読み取る力を持っている。"
+"また、その刃に触れた者は、己の心の中にある恐怖を強制的に思い出してしまうという恐ろしい力を持つ。"
+
+msgid "Thirteenth Needle of Resentment Slaughter"
+msgstr "怨念の十三針惨劇の剣"
+
+msgid "Thirteenth Needle of Resentment Slaughter is a cursed magical sword wielded by a knight trapped in a grudge.It is said that those who are wounded by the sword die, with blood spurting from their entire body.This sword was once used by the knights of the Warilnorth nation to cover the heroes in the battle between the heroes and the Demon King.However, the hero was taken in by a grudge, went out of control, and in the end wounded his comrades.As a result, the hero is said to have taken his own life."
+msgstr "怨念の十三針惨劇の剣とは、"
+"怨念に囚われた騎士が振るう呪いの魔剣である。"
+"その剣で傷つけられたものは、全身から血を吹き出しながら死ぬという。"
+"この剣は、かつて勇者と魔王の戦いにおいて、ワリルノース国の騎士が勇者を援護するために使われたものである。"
+"しかし、勇者は怨念に取り込まれて暴走し、最後には仲間を傷つけてしまった。"
+"その結果、勇者は自らの命を絶ったと伝えられている。"
+
+msgid "Acrobat's Rainbow Sword"
+msgstr "曲芸師の虹の剣"
+
+msgid "The acrobat's rainbow sword is a sword that is controlled by a circus acrobat.Acrobats specialize in aerial trapeze, juggling, and other acrobatic feats, of which the rainbow sword is the most difficult and dangerous, and failure to perform it can result in serious injury.The acrobat's Rainbow Sword is performed on a rope that is strung higher than the acrobat's own height, and during the performance, the acrobat makes a slashing gesture with the sword in his hand toward the Audience (performer posing as audience). During the performance, the acrobat makes a slashing gesture toward the audience with the sword in his hand, which causes blood to spray from the audience's neck, and when the juggler swings his sword again, the spectator falls directly to the ground, a terrifying sight.This performance is now banned because of an incident in which a person was actually decapitated, and people who witnessed it were so horrified that they stopped watching the circus afterwards. However, even today, however, some acrobats still seem to perform this performance."
+msgstr "曲芸師の虹の剣とは、サーカス団の曲芸師が操る剣のことである。"
+"曲芸師は空中ブランコやジャグリングなどの曲技を得意とし、その中でも虹の剣は最も難易度が高く、失敗すれば大怪我をしてしまう危険な演目である。"
+"曲芸師の虹の剣は、曲芸師が自身の身長よりも高くに張られた綱の上で行う演技であり、その演技中に曲芸師は手にした剣で観客(を装った演者)に向かって斬るような仕草をする。すると観客の首元から血飛沫が上がり、曲芸師がもう一度剣を振りかざすと観客はそのまま地面に落下するという恐ろしいものである。"
+"この演出は実際に首を切断された人間がいて、それを目撃した人間が恐怖し、それ以降サーカスを見なくなったという事件があったため、現在では禁止となっている。しかし現在でも、曲芸師の中には未だにこの演目を行っている者もいるようだ。"
+
+msgid "High Sword of the Sorcerer"
+msgstr "ハイソード オブ ソーサラー"
+
+msgid "It is a magic sword whose blade has been dyed black by the power of an unusual ability.It is said to be so sharp that it can cut through even the hardest of objects as easily as tofu.However, there is a disadvantage: when cut by this weapon, the part of the sword that is cut is also dyed black."
+msgstr "異能の力によって刀身が黒く染まった魔法剣である。"
+"その切れ味は凄まじく、どんなに硬いものでも豆腐のようにスッと切ることができるという。"
+"しかし、この武器で斬られると、その部分も同じように黒く染まってしまうというデメリットがある。"
+
+msgid "The Sword of Confusion and Starlight"
+msgstr "混迷と星影の剣"
+
+msgid "The Sword of Confusion and Starlight is a sword that appears in the Tales of King Walilnorth.This sword was It is said that the sword has two effects.The first is that the light emitted from the blade, which is charged with magic power, confuses the opponent.The second is that the wind generated when the sword is swung blows the opponent away."
+msgstr "混迷と星影の剣とは、ワリルノース王物語に登場する剣である。この剣には、魔力を帯びた刃から放たれる光によって相手を混乱させる効果と、剣を振るう際に発生する風によって相手を吹き飛ばす効果があると言われています。"
+
+msgid "The Spirit Sword of Alamoa"
+msgstr "アラモアの霊剣"
+
+msgid "The Alamoa Spirit Sword is named after the fairy king who is said to have joined King Walilnose in the battle of Fort Alamo. When the sword is swung, an invisible spirit makes an additional attack on another target."
+msgstr "アラモアの霊剣は、アラモ砦の戦いでワリルノース王に加勢したとされる妖精王の名前から取られたものです。剣を振ると、目に見えない精霊が別の対象に追加攻撃をします。"
+
+msgid "Yaeza's death straight sword"
+msgstr "ヤエザの死の直剣"
+
+
+
+msgid "The King's Sword of Walilnorth"
+msgstr "ワリルノースの王者の剣"
+
+msgid "The King's Sword of Walilnorth is a sword that appears in the Tales of the Kings of Walilnorth.This sword has been passed down from generation to generation in the royal family of Walilnorth, and is a treasure that serves as a symbol of the royal family.Legend has it that long ago, when an evil dragon attacked Waril North, the wielder of this champion's sword fought bravely and vanquished the evil dragon, and from this legend, it is said that it became a reminder that the wielder of this sword must have both courage and strength.However, the sword itself is not particularly powerful.It is a legendary weapon and has no special power."
+msgstr "ワリルノースの王者の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣は、ワリルノースの王家に代々受け継がれてきたもので、王家の象徴ともなる宝物である。"
+"その昔、邪竜がワリルノースに攻め込んできた時に、この王者の剣を持つ者が勇敢に戦い邪竜を退治したという伝説があり、その伝説から、この剣を持つ者は勇気と力を兼ね備えていなければならないという戒めとなったと言われている。"
+"しかし、この剣自体は特に強い力を持っているわけではない。"
+"あくまで伝説の武器であり、特別な力などはないのだ。"
+
+msgid "Cactus minigun"
+msgstr "サボテンミニガン"
+
+msgid "This is a minigun made of cactus. The power is incredibly low, but the bullets refill on their own."
+msgstr "サボテンでできたミニガンです。威力はとてつもなく低い針を飛ばしますが、時間によって自動的に補充されます。"
+
+msgid "Zineke's ice spear+1"
+msgstr "ジネケの氷槍+1"
+
+msgid "Zineke's ice spear+2"
+msgstr "ジネケの氷槍+2"
+
+msgid "Zineke's ice spear"
+msgstr "ジネケの氷槍"
+
+msgid "The tip of this lance is as cold as ice. It is possible to send the illusion of the ice lance far and wide for long-range attacks."
+msgstr "氷で覆われたランスです。先端は、氷山の如く冷たくなっています。また氷のランスの幻影を遠くまで飛ばして遠距離攻撃をすることが可能。"
+
+msgid "The Knife of Mystical Bird"
+msgstr "神秘の鳥のナイフ"
+
+msgid "The Knife of Mystical Bird+1"
+msgstr "神秘の鳥のナイフ+1"
+
+msgid "The Knife of Mystical Bird+2"
+msgstr "神秘の鳥のナイフ+2"
+
+msgid "This is a very light knife made from mystical bird material.Your movement speed increases with each attack."
+msgstr "神秘の鳥を素材にした、とても軽いナイフです。このナイフで攻撃するたびに移動速度が上昇します。"
+
+msgid "Chimera Gun: CLAIRVOYANT"
+msgstr "キメラガン:千里眼"
+
+msgid "Chimera Gun: DAZZLING"
+msgstr "キメラガン:眩暈"
+
+msgid "Chimera Gun: SHADOW"
+msgstr "キメラガン:常闇"
+
+msgid "Chimera Gun: EXTINGUISHER"
+msgstr "キメラガン:消火"
+
+msgid "Chimera Gun: SLUDGE"
+msgstr "キメラガン:ヘドロ"
+
+msgid "The gun is made of a chimeric material that releases various fluids and can emit a clairvoyant field that does pure damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、純粋なダメージを与える千里眼フィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can emit a dizzying field that causes flame damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、炎ダメージを与える眩暈フィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can emit a field of shadows that cause cut damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、カットダメージを与える影のフィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can release a field of cold damaging extinguishing fire."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、コールドダメージを与える消火のフィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various fluids and can emit a sludge field that causes biological damage."
+msgstr "この銃は様々な液体を放出するキメラ素材でできており、バイオロジカルのダメージを与えるヘドロフィールドを発することができます。"
+
+msgid "Magic 3D printer of [Turret]"
+msgstr "魔法の3Dプリンター[タレット]"
+
+msgid "Magic 3D printers of [Turret]"
+msgstr "魔法の3Dプリンター[タレット]"
+
+msgid "This is a magical 3D printer that produces turrets when you start it up after putting 15 magic coins in it!"
+msgstr "魔法のコインを15枚入れて起動すると、瞬時にタレットが出来上がる魔法の3Dプリンターです!残念ながら弾はついてきません"
+
+msgid "This is stored in a small glass box with a minuscule fairy that makes two coins each day, which are stored in a cellar that can be opened and closed."
+msgstr "これは極小の妖精がいる小さなガラス箱です。その妖精は毎日2枚ずつ魔法のコインを作ってくれます。"
+
+msgid "The Straight Sword of Death of Yaeza is a sword that appears in the Tales of King Walilnoth.This sword is also known as the 'Sword of Reincarnation,' which derives from the fact that those who are buried by this sword will be reincarnated.The straight sword of death of Yaeza belonged to one of the four swordsmen that King Walilnose chose as his companions when he set out on his adventurous journey.The swordsman's name was Yaeza, who was not only an outstanding swordsman, but also a man of outstanding character, and King Walilnorth trusted him deeply.However, Yaeza lost his life during the journey.The sword, which remained in his hand even after Yaeza's death, had a mysterious power: it could guide mortals to their destiny.It is also said that those who are buried with this sword can be reborn into a new life."
+msgstr "ヤエザの死の直剣とは、ワリルノース王物語に登場する剣である。この剣は別名で、輪廻の剣と呼ばれることもあり、その由来は、この剣により葬られた者は転生することに由来する。"
+"ヤエザの死の直剣は、ワリルノース王が冒険の旅に出掛ける際にお供として選んだ四人の剣士のうちの一人が所有していたものである。その剣士の名はヤエザといい、彼は卓越した剣の腕前を持つだけでなく、人格的にも優れた人物であり、ワリルノース王は彼を深く信頼していた。"
+"しかしヤエザは旅の途中で命を落としてしまう。"
+"ヤエザの死後も彼の手から放れることのなかったこの直剣には不思議な力が備わっており、それは死すべき運命にある人間の元へと導くというものであった。そして、この直剣によって葬られた者は、新たなる生へと生まれ変わることができるとも云われている。"
