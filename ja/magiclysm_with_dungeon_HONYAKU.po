@@ -2219,3 +2219,178 @@ msgstr "ヤエザの死の直剣とは、ワリルノース王物語に登場す
 "ヤエザの死の直剣は、ワリルノース王が冒険の旅に出掛ける際にお供として選んだ四人の剣士のうちの一人が所有していたものである。その剣士の名はヤエザといい、彼は卓越した剣の腕前を持つだけでなく、人格的にも優れた人物であり、ワリルノース王は彼を深く信頼していた。"
 "しかしヤエザは旅の途中で命を落としてしまう。"
 "ヤエザの死後も彼の手から放れることのなかったこの直剣には不思議な力が備わっており、それは死すべき運命にある人間の元へと導くというものであった。そして、この直剣によって葬られた者は、新たなる生へと生まれ変わることができるとも云われている。"
+
+msgid "Blade of Air"
+msgstr "エアブレード"
+
+msgid "Continuously summons blades of air that slices the target for a certain period of time."
+msgstr "一定期間の間、対象を切り刻む空気の刃を召喚し続ける"
+
+msgid "Boomerang"
+msgstr "ブーメラン"
+
+msgid "A boomerang is a throwing weapon. It consists of a curved wooden or metal body with a feather ornament attached to the end.Usually they are made to fly in a straight line, but rarely they fly in an irregular trajectory, which is called a boomerang trajectory. Boomerangs have the property of flying in an arc away from the thrower's hand and then returning to the thrower's hand."
+msgstr "ブーメランは投擲用の武器である。通常は直線的に飛ぶように作られているが、まれに不規則な軌道で飛ぶことがあり、これをブーメラン軌道と呼ぶ。ブーメランは、投げる人の手から離れる方向に弧を描いて飛び、投げる人の手に戻ってくる性質がある。"
+
+msgid "Returning Boomerang"
+msgstr "リターン　ブーメラン"
+
+msgid "Sharp compressed air slices through the enemy."
+msgstr "圧縮した鋭い空気が敵を切り刻みます!"
+
+msgid "Summon Element"
+msgstr "サモン　エレメント"
+
+msgid "Summons a random element from among the four attributes."
+msgstr "4元素の中からランダムな要素を召喚する。"
+
+msgid "Summons a random element from among the four elements."
+msgstr "4元素の中からランダムな要素を召喚する。"
+
+msgid "Noble and luminous"
+msgstr "高貴な輝き"
+
+msgid "Shines a dazzling light on the enemy."
+msgstr "眩い光を敵に放ちます"
+
+msgid "Summons compressed, sharp air that slices the target"
+msgstr "対象を切り刻む圧縮した鋭い空気を召喚します"
+
+msgid "You blast a cone of dizzling light toward the target."
+msgstr "対象に向かって円錐状の眩しい光を放つ。"
+
+msgid "All attacks you receive will do 3 damage."
+msgstr "あなたは全ての受ける攻撃が3ダメージになります"
+
+msgid "heal your enemy and haste it"
+msgstr "敵に回復とヘイストを与える"
+
+msgid "futile wishes"
+msgstr "無益な願い"
+
+msgid "Limpid filth"
+msgstr "腐敗した汚物"
+
+msgid "Create a field of vomit in the area of the target point."
+msgstr "対象地点の周辺に嘔吐のフィールドを作る。"
+
+msgid "Hidden World"
+msgstr "隠された世界"
+
+msgid "Mutates the surrounding terrain."
+msgstr "周囲の地形を変異させる。"
+
+msgid "Force Fear"
+msgstr "強制恐怖"
+
+msgid "Create a field of fear in the area of the target point."
+msgstr "対象地点の周辺に恐怖のフィールドを作る。"
+
+msgid "You blast a cone of Fear toward the target."
+msgstr "恐怖を引き起こす攻撃を円錐状の範囲に向けて放つ。"
+
+msgid "reincarnation"
+msgstr "転生"
+
+msgid "Starlight Confusion"
+msgstr "スターライト・コンフュージョン"
+
+msgid "Throw Ice Lance"
+msgstr "投擲　アイスランス"
+
+msgid "Create Stunning Field"
+msgstr "電磁波フィールド"
+
+msgid "Create a field of stunning in the area of the target point."
+msgstr "目標地点の周辺に電磁波フィールドを作る。"
+
+msgid "Create Death Field"
+msgstr "デスフィールド"
+
+msgid "Create a field of death in the area of the target point."
+msgstr "目標地点の周辺に死のフィールドを作る。"
+
+msgid "Create Darkness Field"
+msgstr "ダークネス　フィールド"
+
+msgid "Create Bloody Cloud Field"
+msgstr "ブラッディ　クラウド"
+
+msgid "Create a field of bloody cloud in the area of the target point."
+msgstr "目標地点の周辺に血の雲のフィールドを作成する。"
+
+msgid "Scroll of [Summon Apple Tree Monster]"
+msgid_plural "Scroll of [Summon Apple Tree Monster]"
+msgstr[0] "【リンゴの木召喚】の巻物"
+
+msgid "Scroll of [Chimera Breath]"
+msgid_plural "Scrolls of [Chimera Breath]"
+msgstr[0] "【キメラブレス】の巻物"
+
+msgid "Scroll of [Summon Feather]"
+msgid_plural "Scrolls of [Summon Feather]"
+msgstr[0] "【サモン　フェザー】の巻物"
+
+msgid "Scroll of [Mega Cure wounds]"
+msgid_plural "Scrolls of [Mega Cure wounds]"
+msgstr[0] "【メガキュアウーンド】の巻物"
+
+msgid "Scroll of [Bug Swarm]"
+msgid_plural "Scrolls of [Bug Swarm]"
+msgstr[0] "【バグスウォーム】の巻物"
+
+msgid "Scroll of [Dead End]"
+msgid_plural "Scrolls of [Dead End]"
+msgstr[0] "【デッドエンド】の巻物"
+
+msgid "Scroll of [Tiamat breath]"
+msgid_plural "Scrolls of [Tiamat breath]"
+msgstr[0] "【ティアマトブレス】の巻物"
+
+msgid "Scroll of [Meteor Strike]"
+msgid_plural "Scrolls of [Meteor Strike]"
+msgstr[0] "【メテオ】の巻物"
+
+msgid "Scroll of [Summon Element]"
+msgid_plural "Scrolls of [Summon Element]"
+msgstr[0] "【サモン　エレメント】の巻物"
+
+msgid "Scroll of [Blade of Air]"
+msgid_plural "Scrolls of [Blade of Air]"
+msgstr[0] "【エアブレード】の巻物"
+
+msgid "Blade Dance"
+msgstr "剣の舞"
+
+msgid "Scatter a number of daggers that cut surrounding enemies at different times."
+msgstr "周囲の敵を異なるタイミングで斬りかかるダガーを多数ばら撒く。"
+
+msgid "magic dagger that attacks nearby enemies after a certain period of time."
+msgstr "一定時間たつと近くの敵を攻撃する魔法のダガーです"
+
+msgid "Throw Boomerang"
+msgstr "投擲：ブーメラン"
+
+msgid "Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "自分に返ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
+
+msgid "Summon Apple Tree Monster"
+msgstr ""
+
+msgid "Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+msgstr "多数の悪魔りんごを生む、リンゴの木のモンスターを召喚します。"
+
+msgid "Summon Feather"
+msgstr "サモン　フェザー"
+
+msgid "Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+msgstr "鳥のボスを倒すと手に入る呪文。近くのターゲットにピュアダメージを与える神秘的な鳥の羽根を2枚召喚し、あなたは10回スタック可能な移動速度バフを獲得します。"
+
+msgid "Chimera Breath"
+msgstr "キメラブレス"
+
+msgid "Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+msgstr "キメラのボスを倒すと手に入る呪文。ターゲット地点に向かってランダムな属性のブレスを数回放ちます。呪文のレベルを上げるごとにブレス回数が増え、最大10回発動できます。"
+
+msgid "Conjure extinguisher bomb"
+msgstr "作成：消火器爆弾"

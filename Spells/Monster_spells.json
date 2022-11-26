@@ -3621,5 +3621,67 @@
     "shape": "blast",
     "effect": "summon",
     "effect_str": "PSY_magi_mon_boomerang"
+  },
+
+  {
+    "id": "PSY_magi_spell__kaze_blade_of_air_strike",
+    "type": "SPELL",
+    "name": "Blade of Air",
+    "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "flags": ["SOMATIC", "VERBAL", "NO_LEGS" ],
+    "min_damage": 30,
+    "max_damage": 30,
+    "min_range": 1,
+    "max_range": 1,
+    "spell_class": "NONE",
+    "base_casting_time": 20,
+    "damage_type": "cut",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_boomerang_self_death_base" , "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell__kaze_blade_dance_strike",
+    "type": "SPELL",
+    "name": "Blade of Air",
+    "description": "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat.",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "flags": ["SOMATIC", "VERBAL", "NO_LEGS" ],
+    "min_damage": 45,
+    "max_damage": 45,
+    "min_range": 1,
+    "max_range": 1,
+    "spell_class": "NONE",
+    "base_casting_time": 20,
+    "damage_type": "cut",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_boomerang_self_death_base" , "hit_self": true }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_magic_dagger_death_summon",
+    "name": "Summon boomerang",
+    "description": "Summons boss.",
+    "flags": ["NO_EXPLOSION_SFX", "SILENT", "NO_PROJECTILE","RANDOM_DURATION" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 2000,
+    "max_duration": 2000,
+    "message": "",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_blade_dance"
   }
 ]

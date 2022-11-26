@@ -268,7 +268,33 @@
             { "id": "PSY_magi_armor_absolute_defence_shield" ,"fg": 416},
             { "id": "overlay_worn_PSY_magi_armor_absolute_defence_shield" ,"fg": 417},
             { "id": "PSY_magi_armor_guardian_element_shield" ,"fg": 418},
-            { "id": "overlay_worn_PSY_magi_armor_guardian_element_shield" ,"fg": 419}
+            { "id": "overlay_worn_PSY_magi_armor_guardian_element_shield" ,"fg": 419},
+            { "id": "PSY_magi_mon_air_blade", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":435},
+            {"weight": 10, "sprite":436},
+            {"weight": 10, "sprite":437},
+            {"weight": 10, "sprite":438}
+            ]
+            },
+
+            { "id": "PSY_magi_mon_magic_dagger", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 15, "sprite":451},
+            {"weight": 15, "sprite":452},
+            {"weight": 15, "sprite":453},
+            {"weight": 15, "sprite":452}
+            ]
+            },
+
+            { "id": "PSY_magi_mon_blade_dance", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":454},
+            {"weight": 10, "sprite":455},
+            {"weight": 10, "sprite":456},
+            {"weight": 10, "sprite":457}
+            ]
+            }
             
             
           ]

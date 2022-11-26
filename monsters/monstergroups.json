@@ -239,6 +239,21 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_BLADE_DANCE",
+        "default": "PSY_magi_mon_magic_dagger",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_magi_mon_magic_dagger", "freq": 160, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_magic_dagger2", "freq": 160, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_magic_dagger3", "freq": 160, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_magic_dagger4", "freq": 160, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_magic_dagger5", "freq": 160, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_magic_dagger6", "freq": 160, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_INSECTS",
         "default": "PSY_magi_rnd_mon_fly",
         "//": "Cheap golems used to defend the average wizard's tower.",

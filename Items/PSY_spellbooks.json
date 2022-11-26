@@ -521,6 +521,38 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Summon Apple Tree Monster]", "str_pl": "Scrolls of [Summon Apple Tree Monster]" },
         "description": "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_conj_blade_of_air",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_conj_blade_of_air" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Blade of Air]", "str_pl": "Scrolls of [Blade of Air]" },
+        "description": "You can read this scroll to learn [Blade of Air].\n Continuously summons blades of air that slices the target for a certain period of time."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_blade_dance",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_blade_dance" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Blade Dance]", "str_pl": "Scrolls of [Blade Dance]" },
+        "description": "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
     }
 
 ]

@@ -7,7 +7,9 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_magi_summon_blade_dance", "level": 0 },
           { "id": "PSY_magi_summon_boomerang", "level": 0 },
+          { "id": "PSY_magi_conj_blade_of_air", "level": 0 },
           { "id": "PSY_magi_create_magic_moon_light", "level": 0 },
           { "id": "PSY_magi_create_bloody_cloud_field", "level": 0 },
           { "id": "PSY_magi_spell_summon_ultimate_apple_tree", "level": 0 },

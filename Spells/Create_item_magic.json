@@ -30,7 +30,7 @@
       {
         "id": "PSY_magi_conj_extinguisher_bomb",
         "type": "SPELL",
-        "name": "Conjure an extinguisher bomb.",
+        "name": "Conjure extinguisher bomb",
         "description": "conjures an extinguisher bomb that spreads fire extinguisher all over the area",
         "valid_targets": [ "self" ],
         "min_damage": 1,
@@ -360,6 +360,32 @@
         "base_casting_time": 1000,
         "casting_time_increment": -20.0,
         "final_casting_time": 800
+      },
+
+      {
+        "id": "PSY_magi_conj_blade_of_air",
+        "type": "SPELL",
+        "name": "Blade of Air",
+        "description": "Continuously summons blades of air that slices the target for a certain period of time.",
+        "valid_targets": [ "self" ],
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_blade_of_air_aura",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 4,
+        "max_level": 20,
+        "min_damage": 1,
+        "max_damage": 1,
+        "base_energy_cost": 400,
+        "energy_increment": -5.0,
+        "final_energy_cost": 300,
+        "min_duration": 800,
+        "max_duration": 1600,
+        "duration_increment": 40,
+        "base_casting_time": 500,
+        "casting_time_increment": -10.0,
+        "final_casting_time": 300
       }
 
 ]

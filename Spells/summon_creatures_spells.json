@@ -263,6 +263,36 @@
         "min_duration": 1000,
         "max_duration": 1000,
         "duration_increment": 1200
+      },
+
+      {
+        "id": "PSY_magi_summon_blade_dance",
+        "type": "SPELL",
+        "name": "Blade Dance",
+        "description": "Scatter a number of daggers that cut surrounding enemies at different times.",
+        "valid_targets": [ "ground" ],
+        "min_damage": 8,
+        "max_damage": 15,
+        "damage_increment": 1.0,
+        "max_level": 20,
+        "difficulty": 5,
+        "spell_class": "NONE",
+        "effect": "summon",
+        "effect_str": "GROUP_PSY_magi_BLADE_DANCE",
+        "shape": "blast",
+        "energy_source": "MANA",
+        "base_energy_cost": 600,
+        "energy_increment": -5.0,
+        "final_energy_cost": 500,
+        "base_casting_time": 760,
+        "casting_time_increment": -3.0,
+        "final_casting_time": 700,
+        "min_aoe": 6,
+        "max_aoe": 6,
+        "flags": ["NO_LEGS","SILENT","PERMANENT","SPAWN_GROUP"],
+        "min_duration": 1000,
+        "max_duration": 1000,
+        "duration_increment": 1200
       }
 
 
