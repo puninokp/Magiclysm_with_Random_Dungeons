@@ -2573,3 +2573,218 @@ msgstr "[魔法のコイン10枚】魔法のフォレストコイン15個"
 msgid "conjures a bomb that disperse fire extinguishers"
 msgstr "消火剤をまき散らす爆弾を作る"
 
+msgid "Random Dungeon<Forest>"
+msgstr "ランダムダンジョン<森>"
+
+msgid "Random Dungeon<Forest> -1F"
+msgstr "ランダムダンジョン<森> -1F"
+
+msgid "Random Dungeon<Forest> -2F"
+msgstr "ランダムダンジョン<森> -2F"
+
+msgid "Random Dungeon<Forest> -3F"
+msgstr "ランダムダンジョン<森> -3F"
+
+msgid "Mystical Giant Bird"
+msgstr "神秘の巨鳥"
+
+msgid "A bird of light. It has a sharp beak, feathers that never cease to glow, and it looks at you with a piercing gaze!"
+msgstr "光の鳥。鋭いくちばし、絶えることのない光を放つ羽、そして鋭い眼差しであなたを見つめています！"
+
+msgid "Mystical bird's feather"
+msgstr "神秘的な鳥の羽根"
+
+msgid "A feather that emits light. It flies toward us at high speed."
+msgstr "光を放つ羽根。高速でこちらに向かって飛んできます。"
+
+msgid "A chimera, of what organism it is composed of, is unknown. There are at least three pairs of eyes, all seemingly staring back at us."
+msgstr "どのような生物で構成されているかは不明なキメラである。少なくとも3対の目があり、すべてこちらを見つめているように見える。"
+
+msgid "Chimera's afterimage"
+msgstr "キメラの残像"
+
+msgid "Sprit of Great Tree"
+msgstr "大いなる樹の精霊"
+
+msgid "A large tree that emits some kind of eerie light at regular intervals. This creature seems to produce numerous fruits."
+msgstr "定期的に何やら不気味な光を放つ大木の精霊です。この生物は多数の不気味な実を実らせています。"
+
+msgid "Monster of Apple"
+msgstr "悪魔リンゴ"
+
+msgid "An apple monster."
+msgstr "リンゴのモンスターです。"
+
+msgid "Monster of poisonous Apple"
+msgstr "悪魔毒リンゴ"
+
+msgid "Monster of Alien Apple"
+msgstr "エイリアン悪魔リンゴ"
+
+msgid "Tree Shaman"
+msgstr "ツリーシャーマン"
+
+msgid "This shaman has a spherical head and a body made of wood. Numerous natural magic will keep you at the mercy of the elements."
+msgstr "球体の頭部と木でできた体を持つシャーマン。数々の自然魔術で敵を翻弄します。"
+
+msgid "Red mushroom"
+msgstr "赤キノコ"
+
+msgid "This poisonous mushroom is red and look delicious. Would you like to take a look at the poison?"
+msgstr "このキノコは赤くておいしそうです。試しに毒見してみませんか？"
+
+msgid "Swarm of red mushroom"
+msgstr "赤キノコの群れ"
+
+msgid "It's a swarm of red mushrooms. It's got enough nutrients for a day."
+msgstr "赤いキノコの大群です。一日分の栄養があります。"
+
+msgid "Big mushroom"
+msgstr "ビッグシュルーム"
+
+msgid "It is a large mushroom, about the same size as a person. At first glance, it appears to be non-poisonous."
+msgstr "人と同じぐらいの大きさの動くキノコです。見た目では毒はないように見えます。"
+
+msgid "Big Bad mushroom"
+msgstr "ビックバッドシュルーム"
+
+msgid "It is a large mushroom, about the same size as a person. its skin seems to be in bad shape."
+msgstr "人と同じぐらいビックでバッドなキノコ。肌の調子が悪いようです。"
+
+msgid "Stump ghost"
+msgstr "切り株お化け"
+
+msgid "It's a ghost with a soul in a stump.He has a sturdy body, and even heavy objects seem to be smash away lightly!."
+msgstr "切り株に魂が宿った幽霊です。頑丈な体をしていて、重い物も軽々と打ち砕いてしまいそう！？"
+
+msgid "Red stump ghost"
+msgstr "レッド切り株ゴースト"
+
+msgid "It's a ghost with a lot of resentment and hatred in a stump.\nHe seems to be itching to push something away."
+msgstr "怨念や憎悪の念が沢山取り込まれた切り株の幽霊です。何かをぶっ飛ばしたくてウズウズしているような雰囲気がします。"
+
+msgid "Seedling"
+msgstr "シードリング"
+
+msgid "She is a charming little seed fairy. What will grow when you plant them?"
+msgstr "彼女はチャーミングな小さな種の妖精です。植えたら何が育つかな？"
+
+msgid "Flower Seedling"
+msgstr "フラワーシードリング"
+
+msgid "It is a small seed fairy with a charming flower growing out of it. It smells a little sweet and nice."
+msgstr "小さな種の妖精から、愛嬌のある花が生えています。ちょっと甘くていい香りがします。"
+
+msgid "Stinger Seedling"
+msgstr "スティンガーシードリング"
+
+msgid "It's a seed fairy with a poisonous needle. If you mess with it, you might regret it."
+msgstr "毒針を持った種の妖精です。手を出すと後悔するかもしれませんよ？"
+
+msgid "Ear Worm"
+msgstr "耳ワーム"
+
+msgid "A worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きな耳を持つワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "Red ear Worm"
+msgstr "赤耳ワーム"
+
+msgid "A red worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きくて、耳を持つ赤いワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "A blue worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きくて、耳を持つ青いワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "Blue ear Worm"
+msgstr "青耳ワーム"
+
+msgid "Cactus"
+msgstr "サボテン"
+
+msgid "It is a cactus. It sends many thorns flying at once."
+msgstr "サボテンです。一度に沢山の棘を飛ばしてきます。"
+
+msgid "Old cactus"
+msgstr "爺サボテン"
+
+msgid "An old cactus. It sends many thorns flying at once."
+msgstr "サボテンです。一度に沢山の棘を飛ばしてきます。"
+
+msgid "Carnivorous plant"
+msgstr "肉食プラント"
+
+msgid "It's a carnivorous plant that can even swallow people!\nIf you get too close to it, it looks very dangerous, so attack it from a distance or leave it alone!"
+msgstr "人を飲み込むこともある肉食植物です。あまり近づくと危険だから、遠くから攻撃するか、そっとしておくのが良いでしょう。"
+
+msgid "Aged carnivorous plant"
+msgstr "熟成された肉食プラント"
+
+msgid "It's an carnivorous plant that has swallowed many people over the years!\nEven if you're not near it, it will try to draw you in and swallow you up."
+msgstr "数多の人を飲み込んできた肉食植物です。近くにいなくても、引き寄せて飲み込もうとします。"
+
+msgid "flying turnip"
+msgstr "空飛ぶカブ"
+
+msgid "It's a turnip floating in the air. He's doing his best to fly."
+msgstr "宙に浮いているカブです。がんばって飛んでいます。"
+
+msgid "heavy turnip"
+msgstr "重カブ"
+
+msgid "It's a turnip that can't fly anymore. He seems to have gained weight since he quit flying."
+msgstr "飛べなくなった凄く重いカブです。飛ぶのをやめてから太ったようです。"
+
+msgid "flying nepenthes"
+msgstr "空飛ぶウツボカズラ"
+
+msgid "An insectivorous plant that has grown wings from eating too many insects."
+msgstr "昆虫を食べ過ぎておかげで、虫の羽が生えた食虫植物です。"
+
+msgid "flying red nepenthes"
+msgstr "レッド・フライング・ウツボカズラ"
+
+msgid "An insectivorous plant that has turned red and grown wings from eating too many spicy insects!"
+msgstr "スパイシーな虫を食べ過ぎて真っ赤になり、羽が生えた食虫植物です。"
+
+msgid "Shadow Snail"
+msgstr "シャドウスネイル"
+
+msgid "It's just a snail. Except for the secretions."
+msgstr "ただのカタツムリです。分泌物を除けば。"
+
+msgid "Haste snail"
+msgstr "ヘイストスネイル"
+
+msgid "Tiamat snail"
+msgstr "ティアマトスネイル"
+
+msgid "Treasure Chest"
+msgstr "宝箱"
+
+msgid "A treasure chest that may contain treasure. Let's get closer and open it!"
+msgstr "お宝が入っていそうな宝箱。近づいて開けてみよう!"
+
+msgid "Mimic"
+msgstr "ミミック"
+
+msgid "It's a monster that turns into a treasure chest. It has a terrifying appearance."
+msgstr "宝箱に変身していたモンスターです。おどろおどろしい姿をしています。"
+
+msgid "Statue of the Queen of the Swamp. If you attack the statue, you will get a buff."
+msgstr "沼地の女王の像。この像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of the Horned monster. If you attack the statue, you will get a buff."
+msgstr "角の生えたモンスターの像。この像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of the mysterious. If you attack the statue, you will get a buff."
+msgstr "神秘の像です。像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of cleric. If you attack the statue, you will get a buff."
+msgstr "クレリックの像。この像を攻撃するとバフを得ることができます。"
+
+msgid "Boss Statue"
+msgstr "ボスの石像"
+
+msgid "Statue of the boss. Approaching this stone statue summons the boss."
+msgstr "ボスの石像。この石像に近づくとランダムなボスが召喚されます。"
