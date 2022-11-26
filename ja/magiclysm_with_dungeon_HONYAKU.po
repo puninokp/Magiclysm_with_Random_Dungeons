@@ -449,7 +449,7 @@ msgid "Foods:SPEED UP"
 msgstr "食べ物：速度アップ"
 
 msgid "You ate a picked apple and gained int buff."
-msgstr "あなたは落ちているリンゴを食べ、賢さが上がった"
+msgstr "あなたは落ちている悪魔リンゴを食べ、賢さが上がった"
 
 msgid "You ate a picked strawberries and gained str buff."
 msgstr "あなたは落ちているイチゴを食べ、力が上がった"
@@ -1886,6 +1886,9 @@ msgstr "呪い"
 msgid "Curse of blood"
 msgstr "血の呪い"
 
+msgid "Statue"
+msgstr "石像"
+
 msgid "You are cursed with the curse of blood."
 msgstr ""
 
@@ -2319,9 +2322,12 @@ msgstr "ブラッディ　クラウド"
 msgid "Create a field of bloody cloud in the area of the target point."
 msgstr "目標地点の周辺に血の雲のフィールドを作成する。"
 
+msgid "Summon Apple Tree Monster"
+msgstr "悪魔リンゴの木召喚"
+
 msgid "Scroll of [Summon Apple Tree Monster]"
 msgid_plural "Scroll of [Summon Apple Tree Monster]"
-msgstr[0] "【リンゴの木召喚】の巻物"
+msgstr[0] "【悪魔リンゴの木召喚】の巻物"
 
 msgid "Scroll of [Chimera Breath]"
 msgid_plural "Scrolls of [Chimera Breath]"
@@ -2349,7 +2355,7 @@ msgstr[0] "【ティアマトブレス】の巻物"
 
 msgid "Scroll of [Meteor Strike]"
 msgid_plural "Scrolls of [Meteor Strike]"
-msgstr[0] "【メテオ】の巻物"
+msgstr[0] "【メテオストライク】の巻物"
 
 msgid "Scroll of [Summon Element]"
 msgid_plural "Scrolls of [Summon Element]"
@@ -2358,6 +2364,58 @@ msgstr[0] "【サモン　エレメント】の巻物"
 msgid "Scroll of [Blade of Air]"
 msgid_plural "Scrolls of [Blade of Air]"
 msgstr[0] "【エアブレード】の巻物"
+
+msgid "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+msgstr "この巻物を読むと[悪魔リンゴの木召喚]を習得できる。多数の悪魔りんごを生む、悪魔リンゴの木のモンスターを召喚します。"
+
+msgid "You can read this scroll to learn [Chimera Breath].\n Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+msgstr "この巻物を読むと[キメラブレス]を習得できる。キメラのボスを倒すと手に入る呪文。ターゲット地点に向かってランダムな属性のブレスを数回放ちます。呪文のレベルを上げるごとにブレス回数が増え、最大10回発動できます。"
+
+msgid "You can read this scroll to learn [Summon Feather].\n Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+msgstr "この巻物を読むと[サモン　フェザー]を習得できる。鳥のボスを倒すと手に入る呪文。近くのターゲットにピュアダメージを与える神秘的な鳥の羽根を2枚召喚し、あなたは10回スタック可能な移動速度バフを獲得します。"
+
+msgid "You can read this scroll to learn [Mega Cure wounds].\n Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+msgstr "この巻物を読むと[メガキュアウーンド]を習得できる。メガキュアウーンドとは、膨大なMPと詠唱時間が必要な回復魔法で、HPを瀕死状態からほぼ完全に回復できる。ただし、その長い詠唱時間のあまり、瀕死状態の者は詠唱中に苦痛によって気絶しそうになるため、逆に使わない方がマシなこともある。この呪文の効果はパーティメンバーには使用できず、あくまで自分ひとりを対象としたもの。またHPのみしか回復できず、毒・病気・呪いなどは回復できない。"
+
+msgid "Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+msgstr "メガキュアウーンドとは、膨大なMPと詠唱時間が必要な回復魔法で、HPを瀕死状態からほぼ完全に回復できる。ただし、その長い詠唱時間のあまり、瀕死状態の者は詠唱中に苦痛によって気絶しそうになるため、逆に使わない方がマシなこともある。この呪文の効果はパーティメンバーには使用できず、あくまで自分ひとりを対象としたもの。またHPのみしか回復できず、毒・病気・呪いなどは回復できない。"
+
+
+msgid "You can read this scroll to learn [Bug Swarm].\n Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+msgstr "この巻物を読むと[バグスウォーム]を習得できる。バグスウォームとは、魔力によって大量の虫を召喚する魔法。その種類は様々であり、ワームやビートルといったモンスターからゴキブリのような虫まで幅広いラインナップが揃っている。召喚した虫のコントロールもある程度は可能であるため、集団戦を苦手とする者は特に警戒しなければならない。また、一部の虫には強力な毒を持っていたり飛行可能だったりする者もいるため、それらとの戦闘においては油断はできないだろう。"
+
+msgid "Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+msgstr "バグスウォームとは、魔力によって大量の虫を召喚する魔法。その種類は様々であり、ワームやビートルといったモンスターからゴキブリのような虫まで幅広いラインナップが揃っている。召喚した虫のコントロールもある程度は可能であるため、集団戦を苦手とする者は特に警戒しなければならない。また、一部の虫には強力な毒を持っていたり飛行可能だったりする者もいるため、それらとの戦闘においては油断はできないだろう。"
+
+
+msgid "You can read this scroll to learn [Dead End].\n Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+msgstr "この巻物を読むと[デッドエンド]を習得できる。デッドエンドとは、使用者の魔力を対価に対象の生命を奪う魔法のこと。その性質から対大型生物に対して効果を発揮するが、その詠唱時間の長さゆえに、使用者自身も死亡するリスクがある諸刃の剣。"
+
+msgid "Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+msgstr "デッドエンドとは、使用者の魔力を対価に対象の生命を奪う魔法のこと。その性質から対大型生物に対して効果を発揮するが、その詠唱時間の長さゆえに、使用者自身も死亡するリスクがある諸刃の剣。"
+
+
+msgid "You can read this scroll to learn [Tiamat breath].\n Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+msgstr "この巻物を読むと[ティアマトブレス]を習得できる。ティアマトブレスは、海竜種の魔獣ティアマトの力を借りた、魔力を消費する水属性のブレス攻撃です。大地を貫くほどの威力があると言われていますが、発動までに膨大な魔力を消費するので、使いどころを選ぶ技です。受けた者は死を免れないと言われていますが、発動までに時間がかかり、使いどころが難しくなっています。"
+
+msgid "Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+msgstr "ティアマトブレスは、海竜種の魔獣ティアマトの力を借りた、魔力を消費する水属性のブレス攻撃です。大地を貫くほどの威力があると言われていますが、発動までに膨大な魔力を消費するので、使いどころを選ぶ技です。受けた者は死を免れないと言われていますが、発動までに時間がかかり、使いどころが難しくなっています。"
+
+
+msgid "You can read this scroll to learn [Meteor Strike].\n Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+msgstr "この巻物を読むと[メテオストライク]を習得できる。メテオストライクとは、魔力を消費して発動する、星の力を借りた攻撃である。"
+"対象地点の上空に小型隕石の塊を作り、その落下地点の範囲に対して炎属性の大ダメージを与える。"
+"ただし、この魔法の欠点として、使用者は隕石が落下するまでの間は無防備になるということが挙げられる。"
+"また、この魔法の使用後のMPはほとんどの場合枯渇しており、使いどころを見極める必要性がある。"
+
+msgid "Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+msgstr "メテオストライクとは、魔力を消費して発動する、星の力を借りた攻撃である。"
+"対象地点の上空に小型隕石の塊を作り、その落下地点の範囲に対して炎属性の大ダメージを与える。"
+"ただし、この魔法の欠点として、使用者は隕石が落下するまでの間は無防備になるということが挙げられる。"
+"また、この魔法の使用後のMPはほとんどの場合枯渇しており、使いどころを見極める必要性がある。"
+
+msgid "You can read this scroll to learn [Summon Element].\n Summons one of the four elements."
+msgstr "この巻物を読むと[サモン　エレメント]を習得できる。4元素の中からランダムな要素を召喚する。"
 
 msgid "Blade Dance"
 msgstr "剣の舞"
@@ -2372,13 +2430,11 @@ msgid "Throw Boomerang"
 msgstr "投擲：ブーメラン"
 
 msgid "Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
-msgstr "自分に返ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
+msgstr "自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
 
-msgid "Summon Apple Tree Monster"
-msgstr ""
 
 msgid "Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
-msgstr "多数の悪魔りんごを生む、リンゴの木のモンスターを召喚します。"
+msgstr "多数の悪魔りんごを生む、悪魔リンゴの木のモンスターを召喚します。"
 
 msgid "Summon Feather"
 msgstr "サモン　フェザー"
@@ -2394,3 +2450,126 @@ msgstr "キメラのボスを倒すと手に入る呪文。ターゲット地点
 
 msgid "Conjure extinguisher bomb"
 msgstr "作成：消火器爆弾"
+
+msgid "Trader:Samurai"
+msgstr "サムライ商人"
+
+msgid "He is a mysterious samurai surrounded by a blazing fire.  Apparently, they are willing to do business with us if you give him a riceball(except burned one)."
+msgstr "燃え盛る炎に包まれた謎の侍。 おにぎり（焼いたのは除く）を渡せば取引してくれるらしい。"
+
+msgid "Guard Mecha"
+msgstr "ガードメカ"
+
+msgid "Soldiers made of steals that run on their own power.Equipped with a blade that radiates energy."
+msgstr "自家発電で動く鋼鉄製の兵士で、エネルギーを放射する刃を装備しています。"
+
+msgid "Heavy Guard Mecha"
+msgstr "重ガードメカ"
+
+msgid "Soldiers made of steals that run on their own power.Equipped with a large scissors-like weapon and hooks."
+msgstr "自家発電で動く鋼鉄製の兵士で、大きなハサミのような武器とフックを装備しています。"
+
+msgid "Floting Armor"
+msgstr "空飛ぶ鎧"
+
+msgid "This is a moving armor that has no legs and floats in the air. It shoots lasers from three holes in its chest."
+msgstr "足がなく、浮遊しながら動く鎧です。胸にある3つの穴からレーザーを発射します。"
+
+msgid "Welcome! What would you like?"
+msgstr "ようこそ！何をお望みですか？"
+
+
+
+msgid "[I need some kind of spells.]"
+msgstr "呪文が必要だ"
+
+msgid "[other]"
+msgstr "その他"
+
+msgid "[I need some kind of magic item.]"
+msgstr "魔法アイテムが必要だ"
+
+msgid "[I need some kind of weapon.]"
+msgstr "武器が必要だ"
+
+msgid "[I'd like to try my luck.]"
+msgstr "運試しをしたい"
+
+msgid "Please select the item you want."
+msgstr "ご希望の商品をお選びください。"
+
+msgid "[I don't want any right now.]"
+msgstr "今は何も必要ない"
+
+msgid "Thank you very much. Is there anything else you need?"
+msgstr "ありがとうございました。他に何か必要なものはありますか？"
+
+msgid "Maybe there is."
+msgstr "あるかも"
+
+msgid "You don't have enough currency."
+msgstr "通貨が足りません。"
+
+msgid "Magical Forest Core"
+msgstr "魔法のフォレストコア"
+
+msgid "Magical Forest Coin"
+msgstr "魔法のフォレストコイン"
+
+msgid "a rare item that can be obtained from monsters in the forest dungeon by chance.These coins are used in the crafting menu to enhance your body and acquire magic."
+msgstr "森のダンジョンでモンスターから偶に入手できるレアアイテム。このコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
+
+msgid "[30 Magical Forest Coin] a longsword +2"
+msgstr "[魔法のフォレストコイン30枚]ロングソード+2"
+
+msgid "[35 Magical Forest Coin] a sledge hammer +2"
+msgstr "[魔法のフォレストコイン35枚]スレッジハンマー+2"
+
+msgid "[40 Magical Forest Coin] a halberd +2"
+msgstr "[魔法のフォレストコイン40枚]ハルバード+2"
+
+msgid "[30 Magical Forest Coin] a morningstar +2"
+msgstr "[魔法のフォレストコイン30枚]モーニングスター+2"
+
+msgid "[40 Magical Forest Coin] a rapier +2"
+msgstr "[魔法のフォレストコイン40枚]レイピア+2"
+
+msgid "[1 Magical Forest Core] a Magus battle staff"
+msgstr "[魔法のフォレストコア1個]メイガスバトルスタッフ"
+
+msgid "[1 Magical Forest Core] a ring of wizardry"
+msgstr "[魔法のフォレストコア1個]魔法使いの指輪"
+
+msgid "[1 Magical Forest Core] an eel ring"
+msgstr "[魔法のフォレストコア1個]ウナギの指輪"
+
+msgid "[1 Magical Forest Core] a lesser storage ring"
+msgstr "[魔法のフォレストコア1個]小収納リング"
+
+msgid "[1 Magical Forest Core] a Scroll of [Blade Dance]"
+msgstr "[魔法のフォレストコア1個]【剣の舞】の巻物"
+
+msgid "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
+msgstr "この巻物を読むと[剣の舞]を習得できる。周囲の敵をタイミングよく斬るダガーを多数ばら撒く。"
+
+msgid "[1 Magical Forest Core] a Scroll of [Blade of Air]"
+msgstr "[魔法のフォレストコア1個]【エアブレード】の巻物"
+
+msgid "Scroll of [Throw Boomerang]"
+msgstr "【投擲：ブーメラン】の巻物"
+
+msgid "[1 Magical Forest Core] a Scroll of [Throw Boomerang]"
+msgstr "[魔法のフォレストコア1個]【投擲：ブーメラン】の巻物"
+
+msgid "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "この巻物を読むと[投擲：ブーメラン]を習得できる。自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
+
+msgid "[50 Magical Forest Coin] a Magical Forest Core"
+msgstr "[魔法のフォレストコイン50枚]魔法のフォレストコア1個"
+
+msgid "[10 Magical Coin] 15 Magical Forest Coin"
+msgstr "[魔法のコイン10枚】魔法のフォレストコイン15個"
+
+msgid "conjures a bomb that disperse fire extinguishers"
+msgstr "消火剤をまき散らす爆弾を作る"
+

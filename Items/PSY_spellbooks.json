@@ -553,6 +553,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Blade Dance]", "str_pl": "Scrolls of [Blade Dance]" },
         "description": "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_boomerang",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_boomerang" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Throw Boomerang]", "str_pl": "Scrolls of [Throw Boomerang]" },
+        "description": "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
     }
 
 ]

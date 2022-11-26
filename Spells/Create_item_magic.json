@@ -31,7 +31,7 @@
         "id": "PSY_magi_conj_extinguisher_bomb",
         "type": "SPELL",
         "name": "Conjure extinguisher bomb",
-        "description": "conjures an extinguisher bomb that spreads fire extinguisher all over the area",
+        "description": "conjures a bomb that disperse fire extinguishers",
         "valid_targets": [ "self" ],
         "min_damage": 1,
         "max_damage": 1,
