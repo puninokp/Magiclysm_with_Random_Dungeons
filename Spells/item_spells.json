@@ -85,6 +85,33 @@
     },
 
     {
+      "id": "PSY_magi_create_stunning_line",
+      "type": "SPELL",
+      "name": "Create Stunning Field",
+      "description": "Create a field of stunning in the area of the target point.",
+      "valid_targets": [ "hostile", "ally" ,"ground"],
+      "flags": [ "NO_PROJECTILE","LOUD" ],
+      "effect": "attack",
+      "shape": "line",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 7,
+      "max_level": 1,
+      "base_casting_time": 470,
+      "base_energy_cost": 500,
+      "final_energy_cost": 500,
+      "min_damage": 10,
+      "max_damage": 10,
+      "damage_type": "cold",
+      "field_id": "fd_PSY_magi_stunning_field",
+      "min_field_intensity": 2,
+      "max_field_intensity": 2,
+      "min_range": 4,
+      "max_range": 4,
+      "range_increment": 1.0
+    },
+
+    {
       "id": "PSY_magi_create_stunning_field",
       "type": "SPELL",
       "name": "Create Stunning Field",
@@ -1632,7 +1659,7 @@
     "min_duration": 1200,
     "max_duration": 1200,
     "duration_increment": 200,
-    "message": "You summon element!",
+    "message": "",
     "shape": "blast",
     "effect": "summon",
     "effect_str": "PSY_magi_mon_air_blade"
