@@ -1927,6 +1927,8 @@ msgstr "召喚:チェスの駒:ポーン"
 
 msgid "dungeon map"
 msgstr "ダンジョンマップ"
+msgid "forest dungeon map"
+msgstr "森ダンジョンマップ"
 
 msgid ""
 "A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\n"
@@ -2841,3 +2843,35 @@ msgstr "ボスの石像"
 
 msgid "Statue of the boss. Approaching this stone statue summons the boss."
 msgstr "ボスの石像。この石像に近づくとランダムなボスが召喚されます。"
+
+msgid "penetrating thrust"
+msgstr "貫きスラスト"
+
+msgid "slash effect"
+msgstr "斬撃エフェクト"
+
+msgid "Moves instantly to the target point, piercing and damaging enemies in its path."
+msgstr "対象の地点まで一瞬で移動して、通り道にいる敵を貫き、ダメージを与えます。"
+
+msgctxt "profession_male"
+msgid "[PSY] Sword Mancer"
+msgstr "[PSY]ソードマンサー"
+
+msgctxt "profession_female"
+msgid "[PSY] Sword Mancer"
+msgstr "[PSY]ソードマンサー"
+
+msgid "You are a wizard with excellent swordsmanship."
+msgstr "あなたは剣術に優れた魔法使いです。"
+
+msgid "Thrust dagger"
+msgstr "スラストダガー"
+
+msgid "Thrust dagger:MANA"
+msgstr "貫きのダガー：マナ"
+
+msgid "a dagger made of a very light magic material.It can recover a small amount of mana with a normal attack, and can also use a skill that allows it to move instantly to a target point, piercing and damaging enemies in its path."
+msgstr "凄く軽い素材で出来た魔法のダガーです。通常攻撃で少量のマナを回復することができ、また、対象の地点まで一瞬で移動して通り道にいる敵を貫き、ダメージを与えるスキルを使うことができます。"
+
+msgid "Mana Heal"
+msgstr "マナ回復"

@@ -22,6 +22,29 @@
     },
 
     {
+        "id": "PSY_magi_forest_dungeon_map",
+        "copy-from": "abstractmap",
+        "type": "GENERIC",
+        "category": "maps",
+        "name": "forest dungeon map",
+        "description": "This is an well worn map.  It has pictures of fantastical beasts embellishing the carefully drawn map markers.",
+        "color": "white",
+        "use_action": {
+          "type": "reveal_map",
+          "radius": 135,
+          "terrain": [
+            "PSY_magi_random_dungeon_forest_0_NW", 
+            "PSY_magi_random_dungeon_forest_0_N", 
+            "PSY_magi_random_dungeon_forest_0_NE",
+            "PSY_magi_random_dungeon_forest_0_SW", 
+            "PSY_magi_random_dungeon_forest_0_S", 
+            "PSY_magi_random_dungeon_forest_0_SE" 
+          ],
+          "message": "You add the locations to your map."
+        }
+    },
+
+    {
         "id": "PSY_magi_control_beginner",
         "type": "BOOK",
         "name": { "str": "A Beginner's Guide to Control enemies", "str_pl": "copies of A Beginner's Guide to Control enemies" },

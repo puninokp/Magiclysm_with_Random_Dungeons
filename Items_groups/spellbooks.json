@@ -17,13 +17,17 @@
   "type": "item_group",
   "subtype": "distribution",
   "items": [
-    { "item": "PSY_magi_dungeon_map", "prob": 50 }
+    { "item": "PSY_magi_dungeon_map", "prob": 50 },
+    { "item": "PSY_magi_forest_dungeon_map", "prob": 50 }
    ]
   },
 
   {
     "type": "item_group",
     "id": "academy_lore",
-    "items": [ [ "PSY_magi_dungeon_map", 100 ] ]
+    "items": [ 
+    [ "PSY_magi_dungeon_map", 100 ] ,
+    [ "PSY_magi_forest_dungeon_map", 100 ]
+  ]
   }
 ]

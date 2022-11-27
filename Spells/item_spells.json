@@ -1663,6 +1663,124 @@
     "shape": "blast",
     "effect": "summon",
     "effect_str": "PSY_magi_mon_air_blade"
+  },
+
+  {
+    "id": "PSY_magi_penetrating_thrust_base",
+    "type": "SPELL",
+    "name": "penetrating thrust",
+    "description": "Moves instantly to the target point, piercing and damaging enemies in its path.",
+    "valid_targets": ["ground"],
+    "flags": [ "NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "line",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 4,
+    "max_level": 20,
+    "base_casting_time": 170,
+    "base_energy_cost": 300,
+    "final_energy_cost": 300,
+    "min_damage": 40,
+    "max_damage": 80,
+    "damage_type": "pure",
+    "min_range": 6,
+    "max_range": 12,
+    "range_increment": 1.0,
+    "extra_effects": [
+      { "id": "PSY_magi_penetrating_thrust_line" }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_penetrating_thrust_line",
+    "type": "SPELL",
+    "name": "penetrating thrust",
+    "description": "Moves instantly to the target point, piercing and damaging enemies in its path.",
+    "valid_targets": [ "hostile", "ally" ,"ground"],
+    "flags": [ "NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "line",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 7,
+    "max_level": 20,
+    "base_casting_time": 170,
+    "base_energy_cost": 300,
+    "final_energy_cost": 300,
+    "min_damage": 40,
+    "max_damage": 80,
+    "damage_type": "pure",
+    "field_id": "fd_PSY_magi_field_of_slash_effect",
+    "min_field_intensity": 2,
+    "max_field_intensity": 2,
+    "min_range": 6,
+    "max_range": 12,
+    "range_increment": 1.0,
+    "extra_effects": [
+      { "id": "PSY_magi_penetrating_thrust_dimension_door" }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_penetrating_thrust_dimension_door",
+    "type": "SPELL",
+    "name": "penetrating thrust",
+    "description": "Moves instantly to the target point, piercing and damaging enemies in its path.",
+    "effect": "short_range_teleport",
+    "shape": "blast",
+    "valid_targets": [ "ground" ],
+    "flags": [ "SOMATIC", "SILENT", "NO_LEGS", "TARGET_TELEPORT" ],
+    "min_range": 20,
+    "max_range": 20,
+    "range_increment": 1,
+    "max_level": 30,
+    "difficulty": 5,
+    "base_casting_time": 10,
+    "energy_source": "MANA",
+    "base_energy_cost": 600,
+    "energy_increment": -10,
+    "final_energy_cost": 350
+  },
+
+  {
+    "id": "PSY_magi_spell_thrust_dagger_mana",
+    "type": "SPELL",
+    "name": "Mana Heal",
+    "description": "This is a scroll of summoning. When you read it, it will summon many dungeon creatures around you for 10 minutes, either enemies or allies.",
+    "valid_targets": ["hostile", "ground" ,"self", "ground"],
+    "flags": ["NO_EXPLOSION_SFX","WONDER", "SOMATIC", "LOUD", "NO_PROJECTILE" ,"RANDOM_TARGET"],
+    "min_range": 10,
+    "max_range": 10,
+    "effect": "none",
+    "shape": "blast",
+    "difficulty": 4,
+    "min_damage": 1,
+    "max_damage": 1,
+    "max_level": 20,
+    "base_casting_time": 100,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_thrust_dagger_mana_sub", "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_thrust_dagger_mana_sub",
+    "type": "SPELL",
+    "name": "Mana Heal",
+    "description": "force fear.",
+    "valid_targets": [ "self" ],
+    "flags": ["SILENT","NO_EXPLOSION_SFX", "NO_PROJECTILE","NO_LEGS" ],
+    "effect": "recover_energy",
+    "effect_str": "MANA",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "min_damage": 5,
+    "damage_increment": 0.1,
+    "max_damage": 7,
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "max_level": 20
   }
 
 ]

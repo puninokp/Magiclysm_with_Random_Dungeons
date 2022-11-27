@@ -1065,6 +1065,32 @@
       },
 
       {
+        "id": "fd_PSY_magi_field_of_slash_effect",
+        "type": "field_type",
+        "looks_like": "fd_web",
+        "intensity_levels": [
+          {
+            "name": "slash effect",
+            "sym": "}"
+          },
+          {
+            "name": "slash effect",
+            "sym": "}"
+          },
+          {
+            "name": "slash effect",
+            "sym": "}"
+          }
+        ],
+        "description_affix": "covered_in",
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "1 seconds",
+        "display_items": false,
+        "display_field": true
+      },
+
+      {
         "id": "fd_PSY_magi_field_of_death",
         "type": "field_type",
         "looks_like": "fd_web",

@@ -1730,6 +1730,38 @@
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_element", "no_fail": true, "level": 0, "need_worn": true },
         "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 2 } } ],
         "charges_per_use": 1
+      },
+
+      {
+        "id": "PSY_magi_weapon_thrust_dagger_mana",
+        "looks_like": "scimitar",
+        "type": "TOOL",
+        "symbol": "/",
+        "color": "light_gray",
+        "name": { "str": "Thrust dagger:MANA" },
+        "description": "a dagger made of a very light magic material.It can recover a small amount of mana with a normal attack, and can also use a skill that allows it to move instantly to a target point, piercing and damaging enemies in its path.",
+        "price": 222000,
+        "price_postapoc": 18000,
+        "material": [ "powder" ],
+        "techniques": [ "WBLOCK_1"  ],
+        "weight": "75 g",
+        "volume": "150 ml",
+        "longest_side": "12 cm",
+        "bashing": 6,
+        "cutting": 18,
+        "to_hit":  2,
+        "category": "weapons",
+        "qualities": [ [ "CUT", 1 ] ],
+        "use_action": [
+          { "type": "cast_spell", "spell_id": "PSY_magi_penetrating_thrust_base", "no_fail": true, "level": 0, "need_wielding": true }
+        ],
+        "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "THERMOMETER", "MAGIC_FOCUS", "NO_UNLOAD", "NO_RELOAD" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "crystallized_mana": 4 } } ],
+        "relic_data": {
+          "charge_info": { "recharge_type": "periodic", "time": "6 h", "regenerate_ammo": true },
+          "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_spell_thrust_dagger_mana" } ] } ]
+        },
+        "charges_per_use": 1
       }
 
 ]

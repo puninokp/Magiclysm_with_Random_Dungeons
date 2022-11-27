@@ -294,7 +294,17 @@
             {"weight": 10, "sprite":456},
             {"weight": 10, "sprite":457}
             ]
-            }
+            },
+            { "id": "fd_PSY_magi_field_of_slash_effect", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":470},
+            {"weight": 10, "sprite":471},
+            {"weight": 10, "sprite":472},
+            {"weight": 10, "sprite":473}
+            ]
+            },
+            { "id": "PSY_magi_weapon_thrust_dagger_mana" ,"fg": 481},
+            { "id": "overlay_wielded_PSY_magi_weapon_thrust_dagger_mana" ,"fg": 483}
             
             
           ]
