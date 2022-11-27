@@ -1742,7 +1742,7 @@
         "description": "a dagger made of a very light magic material.It can recover a small amount of mana with a normal attack, and can also use a skill that allows it to move instantly to a target point, piercing and damaging enemies in its path.",
         "price": 222000,
         "price_postapoc": 18000,
-        "material": [ "powder" ],
+        "material": [ "steel" ],
         "techniques": [ "WBLOCK_1"  ],
         "weight": "75 g",
         "volume": "150 ml",

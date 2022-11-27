@@ -38,8 +38,8 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_allies",
-    "friendly": [ "insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
-    "neutral": ["fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
+    "friendly": [ "slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
+    "neutral": ["human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
     "hate": [  "player"  ]
   }
 ]
