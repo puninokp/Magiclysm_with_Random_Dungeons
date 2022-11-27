@@ -1874,12 +1874,12 @@
         "valid_targets": ["hostile","self","ground"],
         "effect": "none",
         "shape": "blast",
-        "min_damage": 15,
-        "max_damage": 15,
+        "min_damage": 10,
+        "max_damage": 10,
         "base_casting_time": 100,
         "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
-        "min_range": 10,
-        "max_range": 10,
+        "min_range": 5,
+        "max_range": 5,
         "message": "",
         "extra_effects": [
           { "id": "PSY_magi_spell_pull_all_main5" }
@@ -1928,16 +1928,33 @@
         "valid_targets": ["hostile","self","ground"],
         "effect": "none",
         "shape": "blast",
-        "min_damage": 30,
-        "max_damage": 30,
+        "min_damage": 20,
+        "max_damage": 20,
         "base_casting_time": 100,
         "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
-        "min_range": 10,
-        "max_range": 10,
+        "min_range": 7,
+        "max_range": 7,
         "message": "",
         "extra_effects": [
           { "id": "PSY_magi_spell_pull_all_main8" }
         ]
+      },
+
+      {
+        "id": "PSY_magi_spell_mech_of_pulling",
+        "type": "SPELL",
+        "name": "wand of pulling",
+        "description": "Attempts to pull the target towards the caster in a straight line.",
+        "valid_targets": ["hostile"],
+        "flags": [ "RANDOM_TARGET","NO_LEGS","NO_PROJECTILE" ],
+        "shape": "blast",
+        "spell_class": "NONE",
+        "max_level": 20,
+        "min_range": 15,
+        "max_range": 30,
+        "range_increment": 1.0,
+        "base_casting_time": 100,
+        "effect": "pull_target"
       },
 
       {
