@@ -2470,7 +2470,7 @@ msgstr "メテオストライクとは、魔力を消費して発動する、星
 "また、この魔法の使用後のMPはほとんどの場合枯渇しており、使いどころを見極める必要性がある。"
 
 msgid "You can read this scroll to learn [Summon Element].\n Summons one of the four elements."
-msgstr "この巻物を読むと[サモン　エレメント]を習得できる。4元素の中からランダムな要素を召喚する。"
+msgstr "この巻物を読むと[サモン　エレメント]を習得できる。4元素エレメントの中からランダムに召喚する。"
 
 msgid "Blade Dance"
 msgstr "剣の舞"
@@ -2881,3 +2881,70 @@ msgstr "凄く軽い素材で出来た魔法のダガーです。通常攻撃で
 
 msgid "Mana Heal"
 msgstr "マナ回復"
+
+msgid "Summon a flying eye"
+msgstr "サモン　フライングアイ"
+
+msgid "Summon a flying eye at target location, It has the ability to share its vision with you without moving from its spot"
+msgstr "対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
+
+msgid "Spell Token"
+msgstr "スペルトークン"
+
+msgid "This token is used to learn normal magic in the crafting menu. They are sold by merchants on the ground floor of the forest dungeon."
+msgstr "このトークンは、クラフトメニューでノーマル魔法の習得に使用されます。森のダンジョンの地上階にいる商人が販売しています。"
+
+msgid "Scroll of [Summon a flying eye]"
+msgid_plural "Scrolls of [Summon a flying eye]"
+msgstr[0] "【サモン　フライングアイ】の巻物"
+
+msgid "You can read this scroll to learn [Summon a flying eye].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "この巻物を読むと[サモン　フライングアイ]を習得できる。対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
+
+msgid "[1 Magical Forest Core] a Spell Token"
+msgstr "[魔法のフォレストコア1個]スペルトークン1個"
+
+msgid "[30 Magical Coin] a Spell Token"
+msgstr "[魔法のコイン30枚]スペルトークン1個"
+
+msgid "CSC_PSY_MAGI_EQUIPMENT"
+msgstr "装備"
+
+msgid "CSC_PSY_MAGI_UPGRADE"
+msgstr "強化"
+
+msgid "CSC_PSY_MAGI_ENHANCEMENT"
+msgstr "エンハンスメント"
+
+msgid "CSC_PSY_MAGI_NORMALSPELLS"
+msgstr "通常魔法"
+
+msgid "CSC_PSY_MAGI_ULTIMATESPELLS"
+msgstr "究極魔法"
+
+msgid "CSC_PSY_MAGI_SCROLL"
+msgstr "巻物"
+
+msgid "PSY_MAGI"
+msgstr "ダンジョン"
+
+msgid "EQUIPMENT"
+msgstr "装備"
+
+msgid "UPGRADE"
+msgstr "強化"
+
+msgid "ENHANCEMENT"
+msgstr "エンハンスメント"
+
+msgid "NORMALSPELLS"
+msgstr "通常魔法"
+
+msgid "ULTIMATESPELLS"
+msgstr "究極魔法"
+
+msgid "SCROLL"
+msgstr "巻物"
+
+msgid "Scroll of [Blade Dance]"
+msgstr "【剣の舞】の巻物"

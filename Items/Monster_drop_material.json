@@ -61,9 +61,9 @@
     {
         "type": "AMMO",
         "category": "spare_parts",
-        "id": "PSY_magi_magical_coin_silver",
-        "name": { "str": "Magical silver coin" },
-        "description": "These coins are used in the crafting menu to enhance your body and acquire magic.",
+        "id": "PSY_magi_magical_spell_token",
+        "name": { "str": "Spell Token" },
+        "description": "This token is used to learn normal magic in the crafting menu. They are sold by merchants on the ground floor of the forest dungeon.",
         "price": 1500,
         "price_postapoc": 100,
         "//": "$50 bills have substantial pre-Cataclysm value, but are worth 1 meat jerky",

@@ -163,6 +163,32 @@
     "dynamic_line": "Please select the item you want.",
     "responses": [
       {
+        "text": "[1 Magical Forest Core] a Spell Token",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_spell_token", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[30 Magical Coin] a Spell Token",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_spell_token", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
         "text": "[1 Magical Forest Core] a Scroll of [Blade Dance]",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
         "success": {

@@ -229,6 +229,7 @@
             { "id": "PSY_magi_magical_coin_forest" ,"fg": 363},
             { "id": "PSY_magi_magical_coin_bronze" ,"fg": 366},
             { "id": "PSY_magi_magical_coin_forest_core" ,"fg": 373},
+            { "id": "PSY_magi_magical_coin_forest_core" ,"fg": 370},
             { "id": "PSY_magi_armor_death_shield" ,"fg": 380},
             { "id": "overlay_worn_PSY_magi_armor_death_shield" ,"fg": 381},
             { "id": "PSY_magi_weapon_great_sword" ,"fg": 382},
