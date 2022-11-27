@@ -2861,8 +2861,14 @@ msgctxt "profession_female"
 msgid "[PSY] Sword Mancer"
 msgstr "[PSY]ソードマンサー"
 
+msgctxt "prof_desc_male"
 msgid "You are a wizard with excellent swordsmanship."
 msgstr "あなたは剣術に優れた魔法使いです。"
+
+msgctxt "prof_desc_female"
+msgid "You are a wizard with excellent swordsmanship."
+msgstr "あなたは剣術に優れた魔法使いです。"
+
 
 msgid "Thrust dagger"
 msgstr "スラストダガー"
