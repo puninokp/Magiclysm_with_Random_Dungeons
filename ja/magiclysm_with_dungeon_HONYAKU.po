@@ -1532,6 +1532,14 @@ msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] Alien Pilot"
 msgstr "[Magiclysm_with_Random_Dungeons]異星人パイロット"
 
+msgctxt "profession_male"
+msgid "[PSY] Alien Pilot"
+msgstr "[PSY]異星人パイロット"
+
+msgctxt "profession_female"
+msgid "[PSY] Alien Pilot"
+msgstr "[PSY]異星人パイロット"
+
 msgctxt "prof_desc_male"
 msgid "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth."
 msgstr "念願のUFOパイロットの免許を取得し、あなたはビジネスマンや観光客を乗せて生計を立てて生活していました。 しかしあるときに天変地異が起きUFOに誤作動が起き、ここ地球まで飛ばされました."
@@ -1548,9 +1556,18 @@ msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] Magical botanist"
 msgstr "[Magiclysm_with_Random_Dungeons]魔法の植物学者"
 
+msgctxt "profession_male"
+msgid "[PSY] Magical botanist"
+msgstr "[PSY]魔法の植物学者"
+
+msgctxt "profession_female"
+msgid "[PSY] Magical botanist"
+msgstr "[PSY]魔法の植物学者"
+
 msgctxt "prof_desc_male"
 msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
 msgstr "あなたは上級の植物学者で、種まきから即座に植物を育てる方法を知っています。"
+
 
 msgctxt "prof_desc_female"
 msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
@@ -1564,6 +1581,16 @@ msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] Totemancer"
 msgstr "[Magiclysm_with_Random_Dungeons]トーテム術師"
 
+
+msgctxt "profession_male"
+msgid "[PSY] Totemancer"
+msgstr "[PSY]トーテム術師"
+
+msgctxt "profession_female"
+msgid "[PSY] Totemancer"
+msgstr "[PSY]トーテム術師"
+
+
 msgctxt "prof_desc_male"
 msgid "You are a shaman familiar with totems."
 msgstr "あなたはトーテムに精通するシャーマンです。"
@@ -1573,12 +1600,21 @@ msgid "You are a shaman familiar with totems."
 msgstr "あなたはトーテムに精通するシャーマンです。"
 
 msgctxt "profession_male"
+msgid "[PSY] Disaster bringer"
+msgstr "[PSY]災害をもたらす者"
+
+msgctxt "profession_female"
+msgid "[PSY] Disaster bringer"
+msgstr "[PSY]災害をもたらす者"
+
+msgctxt "profession_male"
 msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
 msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
 
 msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
 msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
+
 
 msgctxt "prof_desc_male"
 msgid "You were drawn to Earth by a natural cataclysm and came to visit."
@@ -1595,6 +1631,14 @@ msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
 msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] All for one"
 msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
+
+msgctxt "profession_male"
+msgid "[PSY] All for one"
+msgstr "[PSY]  オールフォーワン"
+
+msgctxt "profession_female"
+msgid "[PSY] All for one"
+msgstr "[PSY]  オールフォーワン"
 
 msgctxt "prof_desc_male"
 msgid ""
@@ -1615,6 +1659,15 @@ msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
 msgctxt "profession_female"
 msgid "[Magiclysm_with_Random_Dungeons] Unholy summoner"
 msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
+
+msgctxt "profession_male"
+msgid "[PSY] Unholy summoner"
+msgstr "[PSY]邪悪なる召喚士"
+
+msgctxt "profession_female"
+msgid "[PSY] Unholy summoner"
+msgstr "[PSY]邪悪なる召喚士"
+
 
 msgctxt "prof_desc_male"
 msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
