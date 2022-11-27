@@ -156,7 +156,7 @@
         "name": "[PSY] Alien Pilot",
         "description": "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth.",
         "points": 9,
-        "skills": [ { "level": 4, "name": "driving" }, { "level": 3, "name": "spellcraft" }, { "level": 3, "name": "mechanics" } ],
+        "skills": [ { "level": 2, "name": "firstaid" },{ "level": 4, "name": "driving" }, { "level": 3, "name": "spellcraft" }, { "level": 3, "name": "mechanics" } ],
         "proficiencies": [ "prof_helicopter_pilot" ],
         "spells": [ 
           { "id": "PSY_magi_spell_vacuum", "level": 1 },
@@ -183,7 +183,7 @@
         "name": "[PSY] Magical botanist",
         "description": "You are an advanced botanist and know how to grow plants instantly from the seeding.",
         "points": 7,
-        "skills": [ { "level": 2, "name": "cooking" }, { "level": 3, "name": "spellcraft" }, { "level": 5, "name": "survival" } ],
+        "skills": [ { "level": 4, "name": "firstaid" },{ "level": 2, "name": "cooking" }, { "level": 3, "name": "spellcraft" }, { "level": 5, "name": "survival" } ],
         "spells": [ 
           { "id": "PSY_magi_spawn_vine_tentacle", "level": 1 },
           { "id": "PSY_magi_spawn_plant_shooter", "level": 1 },
@@ -208,7 +208,7 @@
         "name": "[PSY] Totemancer",
         "description": "You are a shaman familiar with totems.",
         "points": 8,
-        "skills": [ { "level": 4, "name": "tailor" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
+        "skills": [ { "level": 3, "name": "firstaid" },{ "level": 4, "name": "tailor" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
         "spells": [ 
           { "id": "PSY_magi_spawn_fear_totem", "level": 1 },
           { "id": "PSY_magi_spawn_charm_totem", "level": 1 },
@@ -259,7 +259,7 @@
         "name": "[PSY] Unholy summoner",
         "description": "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic.",
         "points": 8,
-        "skills": [  { "level": 5, "name": "spellcraft" }],
+        "skills": [  { "level": 3, "name": "melee" },{ "level": 2, "name": "speech" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
           { "id": "PSY_magi_summon_flying_skul", "level": 1 },
@@ -284,7 +284,7 @@
         "name": "[PSY] All for one",
         "description": "You have the unique property of being able to create clones.\nLet's make this world full of you!",
         "points": 8,
-        "skills": [  { "level": 5, "name": "spellcraft" }],
+        "skills": [  { "level": 4, "name": "firstaid" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_create_clone", "level": 5 }
         ],
@@ -305,7 +305,13 @@
         "name": "[PSY] Sword Mancer",
         "description": "You are a wizard with excellent swordsmanship.",
         "points": 8,
-        "skills": [  { "level": 5, "name": "spellcraft" }],
+        "skills": [
+          { "level": 4, "name": "melee" },
+          { "level": 1, "name": "unarmed" },
+          { "level": 2, "name": "firstaid" },
+          { "level": 2, "name": "survival" },
+          { "level": 3, "name": "spellcraft" }
+        ],
         "spells": [ 
           { "id": "PSY_magi_summon_blade_dance", "level": 5 },
           { "id": "PSY_magi_summon_boomerang", "level": 5 },
