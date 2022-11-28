@@ -64,8 +64,8 @@
         "type": "overmap_terrain",
         "id": [ "PSY_magi_random_dungeon_forest_base_NW", "PSY_magi_random_dungeon_forest_base_N", "PSY_magi_random_dungeon_forest_base_NE","PSY_magi_random_dungeon_forest_base_SW", "PSY_magi_random_dungeon_forest_base_S", "PSY_magi_random_dungeon_forest_base_SE" ],
         "name": "Random Dungeon<Forest>",
-        "sym": "F",
-        "color": "light_blue",
+        "sym": "D",
+        "color": "blue",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
