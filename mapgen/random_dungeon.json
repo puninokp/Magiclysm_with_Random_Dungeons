@@ -619,7 +619,7 @@
       "B": "PSY_magi_f_statue_cleric",
       "N": "f_vending_c"
     },
-    "items": { "E": { "item": "gym", "chance": 1 }, "N": { "item": "vending_drink", "chance": 100, "repeat": [ 6, 12 ] } },
+    "items": { "E": { "item": "gym", "chance": 1 }, "N": { "item": "PSY_magi_vending_drink_food", "chance": 100, "repeat": [ 1, 2 ] } },
     "monster": {
       "P": { "monster": "PSY_magi_mon_scorching_samurai_trader"},
       "L": { "monster": "PSY_magi_mon_mecha_guard_purple_immobile"},
