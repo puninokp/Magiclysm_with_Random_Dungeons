@@ -1839,10 +1839,10 @@
     "shape": "blast",
     "min_range": 20,
     "max_range": 20,
-    "min_duration": 300,
-    "max_duration": 300,
+    "min_duration": 500,
+    "max_duration": 1000,
     "duration_increment": 100,
-    "flags": [ "NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ]
+    "flags": [ "NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ,"RANDOM_DAMAGE"]
   },
 
   {
