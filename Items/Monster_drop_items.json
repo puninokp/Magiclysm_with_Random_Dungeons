@@ -1783,7 +1783,7 @@
         "cutting": 16,
         "category": "weapons",
         "qualities": [ [ "COOK", 1 ] ],
-        "flags": [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
+        "flags": [ "MAGIC_FOCUS","DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
         "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "good" },
         "relic_data": {
           "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_random_charm" } ] } ]
@@ -1803,7 +1803,7 @@
         "price": 3500,
         "price_postapoc": 500,
         "material": [ "steel" ],
-        "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
+        "flags": ["MAGIC_FOCUS", "REACH_ATTACK", "REACH3", "WHIP" ],
         "cutting": 7,
         "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "neutral" },
         "category": "weapons",
