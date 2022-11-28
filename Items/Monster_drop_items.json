@@ -1762,6 +1762,54 @@
           "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_spell_thrust_dagger_mana" } ] } ]
         },
         "charges_per_use": 1
+      },
+
+      {
+        "id": "PSY_magi_weapon_charm_spear",
+        "looks_like": "spear_steel",
+        "type": "TOOL",
+        "symbol": "/",
+        "color": "light_gray",
+        "name": { "str": "Charm Spear" },
+        "description": "It is a spear that does little damage. If the target's HP is below a certain level at the time of the attack, it can be seduced for a short while.",
+        "price": 22000,
+        "price_postapoc": 8000,
+        "material": [ "steel" ],
+        "techniques": [ "WBLOCK_1" ],
+        "weight": "1500 g",
+        "volume": "13500 ml",
+        "longest_side": "180 cm",
+        "bashing": 6,
+        "cutting": 16,
+        "category": "weapons",
+        "qualities": [ [ "COOK", 1 ] ],
+        "flags": [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
+        "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "good" },
+        "relic_data": {
+          "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_random_charm" } ] } ]
+        }
+      },
+
+      {
+        "id": "metal_vine_whip",
+        "type": "GENERIC",
+        "symbol": "/",
+        "color": "brown",
+        "looks_like": "bullwhip",
+        "name": { "str": "Metal Vine Whip" },
+        "description": "It is an inflexible vine whip made of steel.The vines entangle at the point of attack.",
+        "weight": "3460 g",
+        "volume": "2 L",
+        "price": 3500,
+        "price_postapoc": 500,
+        "material": [ "steel" ],
+        "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
+        "cutting": 7,
+        "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "neutral" },
+        "category": "weapons",
+        "relic_data": {
+          "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_Tangled_vine_whip" } ] } ]
+        }
       }
 
 ]

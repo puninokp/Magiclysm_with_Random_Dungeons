@@ -128,6 +128,8 @@
           { "item": "PSY_magi_weapon_enchanted_lich_sword", "prob": 3 },
           { "item": "PSY_magi_weapon_enchanted_dragon_hunter_sword", "prob": 3 },
           { "item": "PSY_magi_weapon_thrust_dagger_mana", "prob": 3 },
+          { "item": "PSY_magi_weapon_charm_spear", "prob": 3 },
+          { "item": "metal_vine_whip", "prob": 3 },
           { "item": "cudgel_plus_two", "prob": 3 },
           { "item": "q_staff_plus_two", "prob": 3 },
           { "item": "i_staff_plus_two", "prob": 3 },

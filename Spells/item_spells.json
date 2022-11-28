@@ -1823,6 +1823,49 @@
     "difficulty": 0,
     "base_casting_time": 100,
     "max_level": 20
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_random_charm",
+    "name": "Charm",
+    "description": "Control a monster under 30 MAX HP and change to our side for 2 seconds.",
+    "valid_targets": [ "hostile","ground" ],
+    "effect": "charm_monster",
+    "message": "",
+    "min_damage": 30,
+    "max_damage": 30,
+    "max_level": 20,
+    "shape": "blast",
+    "min_range": 20,
+    "max_range": 20,
+    "min_duration": 300,
+    "max_duration": 300,
+    "duration_increment": 100,
+    "flags": [ "NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ]
+  },
+
+  {
+    "id": "PSY_magi_item_spell_Tangled_vine_whip",
+    "type": "SPELL",
+    "name": "Tangled vine sub",
+    "description": "Conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.",
+    "valid_targets": [ "hostile", "ally" ,"ground"],
+    "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "damage_type": "biological",
+    "spell_class": "NONE",
+    "field_id": "fd_PSY_magi_tangled_vine",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "max_level": 20,
+    "min_damage": 1,
+    "max_damage": 1,
+    "damage_increment": 2.0,
+    "min_range": 18,
+    "max_range": 18,
+    "base_casting_time": 100
   }
 
 ]
