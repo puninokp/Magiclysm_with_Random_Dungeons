@@ -2596,7 +2596,7 @@ msgstr "[魔法のフォレストコイン40枚]レイピア+2"
 msgid "[1 Magical Forest Core] a Magus battle staff"
 msgstr "[魔法のフォレストコア1個]メイガスバトルスタッフ"
 
-msgid "[1 Magical Forest Core] a ring of wizardry"
+msgid "[1 Magical Forest Core] a ring of mana recovery"
 msgstr "[魔法のフォレストコア1個]魔法使いの指輪"
 
 msgid "[1 Magical Forest Core] an eel ring"
@@ -2628,6 +2628,9 @@ msgstr "[魔法のフォレストコイン50枚]魔法のフォレストコア1�
 
 msgid "[10 Magical Coin] 15 Magical Forest Coin"
 msgstr "[魔法のコイン10枚】魔法のフォレストコイン15個"
+
+msgid "[1 Magical Forest Core] a ring of wizardry"
+msgstr "[魔法のフォレストコア1個】魔力の指輪Lv3"
 
 msgid "conjures a bomb that disperse fire extinguishers"
 msgstr "消火剤をまき散らす爆弾を作る"
@@ -2911,25 +2914,25 @@ msgstr "[魔法のフォレストコア1個]スペルトークン1個"
 msgid "[30 Magical Coin] a Spell Token"
 msgstr "[魔法のコイン30枚]スペルトークン1個"
 
-msgid "CSC_PSY_MAGI_EQUIPMENT"
+msgid "CSC_MAGI_EQUIPMENT"
 msgstr "装備"
 
-msgid "CSC_PSY_MAGI_UPGRADE"
+msgid "CSC_MAGI_UPGRADE"
 msgstr "強化"
 
-msgid "CSC_PSY_MAGI_ENHANCEMENT"
+msgid "CSC_MAGI_ENHANCEMENT"
 msgstr "エンハンスメント"
 
-msgid "CSC_PSY_MAGI_NORMALSPELLS"
+msgid "CSC_MAGI_NORMALSPELLS"
 msgstr "通常魔法"
 
-msgid "CSC_PSY_MAGI_ULTIMATESPELLS"
+msgid "CSC_MAGI_ULTIMATESPELLS"
 msgstr "究極魔法"
 
-msgid "CSC_PSY_MAGI_SCROLL"
+msgid "CSC_MAGI_SCROLL"
 msgstr "巻物"
 
-msgid "PSY_MAGI"
+msgid "MAGI"
 msgstr "ダンジョン"
 
 msgid "EQUIPMENT"
@@ -2952,3 +2955,88 @@ msgstr "巻物"
 
 msgid "Scroll of [Blade Dance]"
 msgstr "【剣の舞】の巻物"
+
+msgid "minor ring of mana recovery"
+msgid_plural "minor rings of mana recovery"
+msgstr[0] "小マナ回復のリング"
+
+msgid "ring of mana recovery"
+msgid_plural "rings of mana recovery"
+msgstr[0] "中マナ回復のリング"
+
+msgid "greater ring of mana recovery"
+msgid_plural "greater ring of mana recovery"
+msgstr[0] "大マナ回復のリング"
+
+msgid "ring of boomerang"
+msgid_plural "rings of boomerang"
+msgstr[0] "ブーメランのリング"
+
+
+msgid "ring of healing"
+msgid_plural "rings of healing"
+msgstr[0] "回復のリング"
+
+
+msgid "A thin copper band ring, It is imbued with magic power, and mana is restored at regular intervals."
+msgstr "銅製の細いバンドリング。魔力を帯びており、一定時間ごとにマナが回復する。"
+
+msgid "An ornate silver ring engraved with fire that conjures boomerang on activation."
+msgstr "起動時にブーメランを呼び出す、炎が刻まれた装飾的なシルバーリング。"
+
+msgid "An ornate silver ring engraved with fire that can restore a small amount of HP upon activation."
+msgstr "起動時に少量のHPを回復することができる、炎が刻まれた装飾的なシルバーリング。"
+
+msgid "luminescent ring"
+msgstr "発光のリング"
+
+msgid "A thin silver band ring,  Allows you to luminate yourself."
+msgstr "細いシルバーのバンドリング。 自分自身を照らすことができる。"
+
+msgid "Ring of Physical Beauty"
+msgstr "肉体美のリング"
+
+msgid "A thin gold band ring, wearing this ring increases maximum HP by 15"
+msgstr "細いゴールドのバンドリング。この指輪をはめると、最大HPが15増える"
+
+msgid "ring of stamina"
+msgstr "スタミナのリング"
+
+msgid "A golden ring that increases the maximum value of stamina when you wear it."
+msgstr "身につけるとスタミナの最大値が上がる黄金の指輪。"
+
+msgid "ring of bionic power"
+msgstr "バイオ電力のリング"
+
+msgid "A golden ring that increases the maximum value of bionic power when you wear it."
+msgstr "装着するとバイオニック電力の最大値が増加する黄金の指輪。"
+
+msgid "ring of resting"
+msgstr "休息のリング"
+
+msgid "A golden ring that increases stamina recovery when you wear it."
+msgstr "身につけるとスタミナの回復量がアップする黄金の指輪。"
+
+msgid "ring of archmage"
+msgstr "大賢者のリング"
+
+msgid "A ring made of platinum that, when worn, significantly increases maximum mana and mana recovery instead of halving maximum HP."
+msgstr "プラチナ製のリングで、装着すると最大HPが半分になる代わりに、最大マナとマナ回復量が大幅に増加します。"
+
+msgid "A Statue of the mysterious that has lost its luster."
+msgstr "輝きを失った神秘の像。"
+
+msgid "A Statue of the cleric that has lost its luster."
+msgstr "輝きを失ったクレリックの像。"
+
+msgid "A Statue of the Horned creature that has lost its luster."
+msgstr "輝きを失った角の生えた生物の像。"
+
+msgid "A Statue of the Queen of the Swamp that has lost its luster."
+msgstr "輝きを失った沼の女王の像。"
+
+msgid "It's an opened treasure chest. Attack again to get the item!"
+msgstr "開いた宝箱です。もう一度攻撃して、アイテムを手に入れよう"
+
+msgid "It's an opened empty treasure chest. Attack again to get nothing!"
+msgstr "開いた空の宝箱です。もう一度攻撃しても、何も出てきません"

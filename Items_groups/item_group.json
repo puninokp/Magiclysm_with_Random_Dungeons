@@ -39,6 +39,7 @@
         "entries": [
           { "group": "potions_common", "count-min": 3, "count-max": 5 },
           { "group": "potions_common", "prob": 66, "count-min": 2, "count-max": 5 },
+          { "group": "PSY_magi_magic_ring_drops", "prob": 25 },
           { "group": "vending_drink_items", "count-min": 5, "count-max": 25 },
           { "group": "PSY_magi_group_rice_balls", "count-min": 2, "count-max": 4 },
           { "group": "vending_drink_items", "prob": 66, "count-min": 5, "count-max": 25 },
@@ -62,6 +63,23 @@
 
       {
         "type": "item_group",
+        "id": "PSY_magi_magic_ring_drops",
+        "items": [
+          { "item": "PSY_mring_mana_recovery_minor", "prob": 3 },
+          { "item": "PSY_mring_mana_recovery_normal", "prob": 2 },
+          { "item": "PSY_mring_mana_recovery_greater", "prob": 1 },
+          { "item": "PSY_mring_PSY_magi_summon_boomerang", "prob": 3 },
+          { "item": "PSY_mring_PSY_light_healing", "prob": 3 },
+          { "item": "PSY_mring_lumination", "prob": 3 },
+          { "item": "PSY_mring_hp_bonus_15", "prob": 3 },
+          { "item": "PSY_mring_stamina", "prob": 3 },
+          { "item": "PSY_mring_restore_stamina", "prob": 2 },
+          { "item": "PSY_mring_archmage", "prob": 1 }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "id": "PSY_magi_forest_rare_drop_all",
         "items": [
           { "item": "PSY_magi_magical_coin_box", "prob": 3 },
@@ -69,6 +87,7 @@
           { "item": "PSY_magi_turret_generator_box", "prob": 3 },
           { "item": "PSY_magi_wand_of_create_stunning_field", "prob": 3 },
           { "item": "PSY_magi_wand_of_create_darkness_field", "prob": 3 },
+          { "group": "PSY_magi_magic_ring_drops", "prob": 3 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 1 }
         ]
       },

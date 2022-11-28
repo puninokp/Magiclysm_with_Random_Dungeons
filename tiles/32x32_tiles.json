@@ -305,7 +305,15 @@
             ]
             },
             { "id": "PSY_magi_weapon_thrust_dagger_mana" ,"fg": 481},
-            { "id": "overlay_wielded_PSY_magi_weapon_thrust_dagger_mana" ,"fg": 483}
+            { "id": "overlay_wielded_PSY_magi_weapon_thrust_dagger_mana" ,"fg": 483},
+            { "id": "PSY_mring_mana_recovery_minor" ,"fg": 494},
+            { "id": "PSY_mring_mana_recovery_normal" ,"fg": 495},
+            { "id": "PSY_mring_mana_recovery_greater" ,"fg": 497},
+            { "id": "PSY_mring_hp_bonus_15" ,"fg": 490},
+            { "id": "PSY_mring_stamina" ,"fg": 492},
+            { "id": "PSY_mring_bionic_power" ,"fg": 491},
+            { "id": "PSY_mring_restore_stamina" ,"fg": 493},
+            { "id": "PSY_mring_PSY_magi_summon_boomerang" ,"fg": 425}
             
             
           ]

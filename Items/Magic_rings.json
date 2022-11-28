@@ -1,0 +1,245 @@
+[
+  {
+    "abstract": "PSY_mring_copper",
+    "type": "TOOL_ARMOR",
+    "name": "copper magic ring",
+    "description": "A generic copper magic ring.",
+    "weight": "4 g",
+    "volume": "1 ml",
+    "price": 5000,
+    "price_postapoc": "20 USD",
+    "material": [ "copper" ],
+    "symbol": "[",
+    "color": "light_red",
+    "looks_like": "copper_ring",
+    "sided": true,
+    "warmth": 0,
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONE_PER_LAYER", "SKINTIGHT" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ],
+        "rigid_layer_only": true
+      }
+    ]
+  },
+  {
+    "abstract": "PSY_mring_silver",
+    "type": "TOOL_ARMOR",
+    "name": "magic ring",
+    "description": "A generic silver magic ring.",
+    "weight": "5 g",
+    "volume": "1 ml",
+    "price": 5000,
+    "price_postapoc": "20 USD",
+    "material": [ "silver" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "looks_like": "silver_ring",
+    "sided": true,
+    "warmth": 0,
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONE_PER_LAYER", "SKINTIGHT" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ],
+        "rigid_layer_only": true
+      }
+    ]
+  },
+  {
+    "abstract": "PSY_mring_gold",
+    "type": "TOOL_ARMOR",
+    "name": "magic ring",
+    "description": "A generic gold magic ring.",
+    "weight": "9 g",
+    "volume": "1 ml",
+    "price": 5000,
+    "price_postapoc": "20 USD",
+    "material": [ "gold" ],
+    "symbol": "[",
+    "color": "yellow",
+    "looks_like": "gold_ring",
+    "sided": true,
+    "warmth": 0,
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONE_PER_LAYER", "SKINTIGHT" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ],
+        "rigid_layer_only": true
+      }
+    ]
+  },
+  {
+    "abstract": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "name": "magic ring",
+    "description": "A generic platinum magic ring.",
+    "weight": "11 g",
+    "volume": "1 ml",
+    "price": 5000,
+    "price_postapoc": "20 USD",
+    "material": [ "platinum" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "looks_like": "platinum_ring",
+    "sided": true,
+    "warmth": 0,
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONE_PER_LAYER", "SKINTIGHT" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ],
+        "rigid_layer_only": true
+      }
+    ]
+  },
+
+  {
+    "copy-from": "PSY_mring_copper",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_mana_recovery_minor",
+    "name": { "str": "minor ring of mana recovery", "str_pl": "minor rings of mana recovery" },
+    "description": "A thin copper band ring, It is imbued with magic power, and mana is restored at regular intervals.",
+    "price_postapoc": "1000 USD",
+    "relic_data": { 
+      "passive_effects": [ 
+        {
+          "intermittent_activation": { "effects": [ { "frequency": "60 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
+        }
+        
+        ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_copper",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_mana_recovery_normal",
+    "name": { "str": "ring of mana recovery", "str_pl": "rings of mana recovery" },
+    "description": "A thin copper band ring, It is imbued with magic power, and mana is restored at regular intervals.",
+    "price_postapoc": "10000 USD",
+    "relic_data": { 
+      "passive_effects": [ 
+        {
+          "intermittent_activation": { "effects": [ { "frequency": "40 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
+        }
+        
+        ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_copper",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_mana_recovery_greater",
+    "name": { "str": "greater ring of mana recovery", "str_pl": "greater ring of mana recovery" },
+    "description": "A thin copper band ring, It is imbued with magic power, and mana is restored at regular intervals.",
+    "price_postapoc": "100000 USD",
+    "relic_data": { 
+      "passive_effects": [ 
+        {
+          "intermittent_activation": { "effects": [ { "frequency": "20 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
+        }
+        
+        ] }
+  },
+  {
+    "copy-from": "PSY_mring_silver",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_PSY_magi_summon_boomerang",
+    "name": { "str": "ring of boomerang", "str_pl": "rings of boomerang" },
+    "price_postapoc": "300 USD",
+    "description": "An ornate silver ring engraved with fire that conjures boomerang on activation.",
+    "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_summon_boomerang", "no_fail": true, "level": 1, "need_worn": true },
+    "extend": { "flags": [ "NO_UNLOAD", "NO_RELOAD" ] },
+    "charges_per_use": 1,
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+  },
+
+  {
+    "copy-from": "PSY_mring_silver",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_PSY_light_healing",
+    "looks_like": "PSY_mring_PSY_magi_summon_boomerang",
+    "name": { "str": "ring of healing", "str_pl": "rings of healing" },
+    "price_postapoc": "300 USD",
+    "description": "An ornate silver ring engraved with fire that can restore a small amount of HP upon activation.",
+    "use_action": { "type": "cast_spell", "spell_id": "PSY_light_healing", "no_fail": true, "level": 2, "need_worn": true },
+    "extend": { "flags": [ "NO_UNLOAD", "NO_RELOAD" ] },
+    "charges_per_use": 1,
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "6 h", "regenerate_ammo": true } },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 4 } } ]
+  },
+
+  {
+    "copy-from": "PSY_mring_silver",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_lumination",
+    "looks_like": "PSY_mring_mana_recovery_normal",
+    "name": "luminescent ring",
+    "price_postapoc": "1500 USD",
+    "description": "A thin silver band ring,  Allows you to luminate yourself.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LUMINATION", "add": 5 } ] } ] }
+  },
+  {
+    "copy-from": "PSY_mring_gold",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_hp_bonus_15",
+    "price_postapoc": "3000 USD",
+    "name": { "str": "Ring of Physical Beauty" },
+    "description": "A thin gold band ring, wearing this ring increases maximum HP by 15",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "add": 15 } ] } ] }
+  },
+  {
+    "copy-from": "PSY_mring_gold",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_stamina",
+    "price_postapoc": "4000 USD",
+    "name": { "str": "ring of stamina"},
+    "description": "A golden ring that increases the maximum value of stamina when you wear it.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.2 } ] } ] }
+  },
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_bionic_power",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of bionic power"},
+    "description": "A golden ring that increases the maximum value of bionic power when you wear it.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BIONIC_POWER", "add": 500 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_restore_stamina",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of resting"},
+    "description": "A golden ring that increases stamina recovery when you wear it.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "REGEN_STAMINA", "add": 10 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_archmage",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of archmage"},
+    "description": "A ring made of platinum that, when worn, significantly increases maximum mana and mana recovery instead of halving maximum HP.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": -0.5 } ] } ,
+        { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 1.0 } ] } ,
+        { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "REGEN_MANA", "multiply": 1.0 } ] } 
+        ] }
+  }
+]
