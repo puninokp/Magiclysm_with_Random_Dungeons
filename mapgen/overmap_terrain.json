@@ -64,8 +64,8 @@
         "type": "overmap_terrain",
         "id": [ "PSY_magi_random_dungeon_forest_base_NW", "PSY_magi_random_dungeon_forest_base_N", "PSY_magi_random_dungeon_forest_base_NE","PSY_magi_random_dungeon_forest_base_SW", "PSY_magi_random_dungeon_forest_base_S", "PSY_magi_random_dungeon_forest_base_SE" ],
         "name": "Random Dungeon<Forest>",
-        "sym": "D",
-        "color": "blue",
+        "sym": "F",
+        "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -83,7 +83,7 @@
         ],
         "name": "Random Dungeon<Forest>",
         "sym": "F",
-        "color": "green",
+        "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -101,7 +101,7 @@
         ],
         "name": "Random Dungeon<Forest> -1F",
         "sym": "F",
-        "color": "green",
+        "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -119,7 +119,7 @@
         ],
         "name": "Random Dungeon<Forest> -2F",
         "sym": "F",
-        "color": "green",
+        "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -137,7 +137,7 @@
         ],
         "name": "Random Dungeon<Forest> -3F",
         "sym": "F",
-        "color": "green",
+        "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     }
