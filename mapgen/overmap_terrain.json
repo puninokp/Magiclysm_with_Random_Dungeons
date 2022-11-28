@@ -65,7 +65,7 @@
         "id": [ "PSY_magi_random_dungeon_forest_base_NW", "PSY_magi_random_dungeon_forest_base_N", "PSY_magi_random_dungeon_forest_base_NE","PSY_magi_random_dungeon_forest_base_SW", "PSY_magi_random_dungeon_forest_base_S", "PSY_magi_random_dungeon_forest_base_SE" ],
         "name": "Random Dungeon<Forest>",
         "sym": "F",
-        "color": "green",
+        "color": "light_blue",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
