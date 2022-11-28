@@ -3052,3 +3052,6 @@ msgstr "メタル蔓の鞭"
 
 msgid "It is an inflexible vine whip made of steel.The vines entangle at the point of attack."
 msgstr "鋼鉄製のしなやかではない蔓の鞭です。攻撃した地点に蔓が絡みます"
+
+msgid "Comfortable temperature hot spring. Soaking in it helps to heal your body."
+msgstr "快適な温度の温泉。浸かると体が癒されます。"
