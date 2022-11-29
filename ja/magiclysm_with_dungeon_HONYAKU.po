@@ -3055,3 +3055,37 @@ msgstr "鋼鉄製のしなやかではない蔓の鞭です。攻撃した地点
 
 msgid "Comfortable temperature hot spring. Soaking in it helps to heal your body."
 msgstr "快適な温度の温泉。浸かると体が癒されます。"
+
+msgid "Magic Tower"
+msgstr "マジックタワー"
+
+msgid "Summon Magic Tower"
+msgstr "召喚：マジックタワー"
+
+msgid "Summons a magic tower that works by placing two of them."
+msgstr "2つ置くことで機能する魔法の塔を召喚する。"
+
+msgid "This tower will be made functional by the presence of another set of towers."
+msgstr "このタワーは、もう一組のタワーが存在することよって機能するようになる"
+
+msgid "Laser Damage"
+msgstr "レーザーダメージ"
+
+msgid "The laser is irradiated. Movement speed is reduced and periodic damage"
+msgstr "レーザーに照射されています。移動速度低下と定期的なダメージを受けます"
+
+msgid "Laser irradiation"
+msgstr "レーザー照射"
+
+msgid "Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "対象の敵にレーザーを照射し続ける魔法の塔を召喚する。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "Magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "対象の敵にレーザーを照射し続ける魔法の塔です。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "Scroll of [Summon Magic Tower]"
+msgid_plural "Scrolls of [Summon Magic Tower]"
+msgstr[0] "【召喚：マジックタワー】の巻物"
+
+msgid "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "この巻物を読むと[召喚：マジックタワー]を習得できる。対象の敵にレーザーを照射し続ける魔法の塔を召喚します。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"

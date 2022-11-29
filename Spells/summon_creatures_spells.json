@@ -1,9 +1,5 @@
 [
 
-
-
-
-  
       {
         "id": "PSY_magi_spawn_blight_box",
         "type": "SPELL",
@@ -323,6 +319,36 @@
         "min_duration": 6000,
         "max_duration": 18000,
         "duration_increment": 600
+    },
+
+    {
+      "id": "PSY_magi_summon_magic_tower",
+      "type": "SPELL",
+      "name": "Summon Magic Tower",
+      "description": "Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced.",
+      "valid_targets": [ "ground" ],
+      "min_damage": 1,
+      "max_damage": 1,
+      "max_level": 20,
+      "difficulty": 1,
+      "spell_class": "NONE",
+      "effect": "summon",
+      "effect_str": "PSY_magi_mon_magic_tower",
+      "shape": "blast",
+      "energy_source": "MANA",
+      "base_energy_cost": 750,
+      "energy_increment": -5.0,
+      "final_energy_cost": 650,
+      "base_casting_time": 1250,
+      "casting_time_increment": -10.0,
+      "final_casting_time": 1050,
+      "min_range": 8,
+      "max_range": 15,
+      "range_increment": 0.5,
+      "flags": ["SOMATIC", "NO_LEGS","NO_PROJECTILE", "NO_HANDS" ],
+      "min_duration": 36000,
+      "max_duration": 108000,
+      "duration_increment": 3600
     }
 
 

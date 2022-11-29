@@ -1225,6 +1225,50 @@
               "NO_BREATHE",
               "PACIFIST" 
             ]
+      },
+
+      {
+        "id": "PSY_magi_mon_magic_tower",
+        "type": "MONSTER",
+        "name": "Magic Tower",
+        "description": "Magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "looks_like": "PSY_magi_rnd_mon_eye_bat",
+        "volume": "210000 ml",
+        "weight": "280000 g",
+        "hp": 300,
+        "speed": 100,
+        "luminance": 3,
+        "material": [ "steel" ],
+        "symbol": "E",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 7,
+        "melee_dice": 7,
+        "melee_dice_sides": 7,
+        "vision_day": 50,
+        "vision_night": 50,
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "special_attacks": [
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_magic_tower_base" }, "cooldown": 0 }
+        ],
+        "death_drops": "PSY_magi_mon_rnd_coin_1_mon_drops",
+        "flags": [
+          "SEES",
+          "FLIES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "ELECTRIC",
+          "NOHEAD",
+          "NO_BREATHE",
+          "PACIFIST",
+          "FIREPROOF",
+          "COLDPROOF",
+          "IMMOBILE",
+          "PACIFIST"
+        ]
       }
 
 

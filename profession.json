@@ -8,6 +8,7 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_magi_summon_blade_dance", "level": 0 },
+          { "id": "PSY_magi_summon_magic_tower", "level": 0 },
           { "id": "PSY_magi_summon_boomerang", "level": 0 },
           { "id": "PSY_magi_conj_blade_of_air", "level": 0 },
           { "id": "PSY_magi_create_magic_moon_light", "level": 0 },

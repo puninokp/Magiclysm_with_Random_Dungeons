@@ -608,6 +608,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Summon a flying eye]", "str_pl": "Scrolls of [Summon a flying eye]" },
         "description": "You can read this scroll to learn [Summon a flying eye].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_magic_tower",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_magic_tower" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Magic Tower]", "str_pl": "Scrolls of [Summon Magic Tower]" },
+        "description": "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
     }
 
 ]
