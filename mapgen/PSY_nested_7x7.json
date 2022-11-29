@@ -1354,9 +1354,261 @@
               { "item": "stash_food", "chance": 50 }
             ]
           },
-          "place_monsters": [
-            { "monster": "GROUP_PSY_magi_FOREST_STATUE", "x": 3, "y": 3 }
-          ]
+          "monster": {
+            "T": { "monster": "PSY_magi_rnd_mon_statue_swamp", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_stone_statue",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|||U|||",
+            "||UUU||",
+            "|UUTUU|",
+            "||UUU||",
+            "|||U|||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "U": "PSY_t_water_hot",
+            "T": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "i": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "h": "f_chair",
+            "@": "f_bed",
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "s": "f_sink",
+            "o": "f_oven",
+            "f": "f_fridge",
+            "n": "f_counter",
+            "m": "f_cupboard",
+            "d": "f_dresser",
+            "R": "f_trashcan",
+            "D": "f_wardrobe",
+            "7": "f_bench",
+            "C": "f_armchair",
+            "t": "f_bookcase",
+            "B": "f_birdbath",
+            "a": "f_rack_coat",
+            "g": "f_floor_lamp",
+            "W": "f_fireplace",
+            "i": "f_beaded_door",
+            "x": "f_rotary_clothesline",
+            "S": "f_shower",
+            "l": "f_water_heater",
+            "k": "f_water_purifier"
+          },
+          "items": {
+            "h": { "item": "livingroom", "chance": 20 },
+            "t": [
+              { "item": "dragon_books", "chance": 30, "repeat": [ 1, 3 ] },
+              { "item": "druid_items", "chance": 10, "repeat": [ 0, 4 ] },
+              { "item": "novels", "chance": 60, "repeat": [ 1, 8 ] },
+              { "item": "religious_books", "chance": 60, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 30 }
+            ],
+            "X": [
+              { "item": "earthshaper_items", "chance": 30 },
+              { "item": "technomancer_items", "chance": 30 },
+              { "item": "stash_food", "chance": 50 }
+            ]
+          },
+          "monster": {
+            "T": { "monster": "PSY_magi_rnd_mon_statue_mysterious", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_stone_statue",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|||U|||",
+            "||UUU||",
+            "|UUTUU|",
+            "||UUU||",
+            "|||U|||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "U": "PSY_t_water_hot",
+            "T": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "i": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "h": "f_chair",
+            "@": "f_bed",
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "s": "f_sink",
+            "o": "f_oven",
+            "f": "f_fridge",
+            "n": "f_counter",
+            "m": "f_cupboard",
+            "d": "f_dresser",
+            "R": "f_trashcan",
+            "D": "f_wardrobe",
+            "7": "f_bench",
+            "C": "f_armchair",
+            "t": "f_bookcase",
+            "B": "f_birdbath",
+            "a": "f_rack_coat",
+            "g": "f_floor_lamp",
+            "W": "f_fireplace",
+            "i": "f_beaded_door",
+            "x": "f_rotary_clothesline",
+            "S": "f_shower",
+            "l": "f_water_heater",
+            "k": "f_water_purifier"
+          },
+          "items": {
+            "h": { "item": "livingroom", "chance": 20 },
+            "t": [
+              { "item": "dragon_books", "chance": 30, "repeat": [ 1, 3 ] },
+              { "item": "druid_items", "chance": 10, "repeat": [ 0, 4 ] },
+              { "item": "novels", "chance": 60, "repeat": [ 1, 8 ] },
+              { "item": "religious_books", "chance": 60, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 30 }
+            ],
+            "X": [
+              { "item": "earthshaper_items", "chance": 30 },
+              { "item": "technomancer_items", "chance": 30 },
+              { "item": "stash_food", "chance": 50 }
+            ]
+          },
+          "monster": {
+            "T": { "monster": "PSY_magi_rnd_mon_statue_cleric", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_stone_statue",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|||U|||",
+            "||UUU||",
+            "|UUTUU|",
+            "||UUU||",
+            "|||U|||",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "U": "PSY_t_water_hot",
+            "T": "PSY_magi_t_floor",
+            "t": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "i": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "h": "f_chair",
+            "@": "f_bed",
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "s": "f_sink",
+            "o": "f_oven",
+            "f": "f_fridge",
+            "n": "f_counter",
+            "m": "f_cupboard",
+            "d": "f_dresser",
+            "R": "f_trashcan",
+            "D": "f_wardrobe",
+            "7": "f_bench",
+            "C": "f_armchair",
+            "t": "f_bookcase",
+            "B": "f_birdbath",
+            "a": "f_rack_coat",
+            "g": "f_floor_lamp",
+            "W": "f_fireplace",
+            "i": "f_beaded_door",
+            "x": "f_rotary_clothesline",
+            "S": "f_shower",
+            "l": "f_water_heater",
+            "k": "f_water_purifier"
+          },
+          "items": {
+            "h": { "item": "livingroom", "chance": 20 },
+            "t": [
+              { "item": "dragon_books", "chance": 30, "repeat": [ 1, 3 ] },
+              { "item": "druid_items", "chance": 10, "repeat": [ 0, 4 ] },
+              { "item": "novels", "chance": 60, "repeat": [ 1, 8 ] },
+              { "item": "religious_books", "chance": 60, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 30 }
+            ],
+            "X": [
+              { "item": "earthshaper_items", "chance": 30 },
+              { "item": "technomancer_items", "chance": 30 },
+              { "item": "stash_food", "chance": 50 }
+            ]
+          },
+          "monster": {
+            "T": { "monster": "PSY_magi_rnd_mon_statue_horn", "chance": 100 }
+          }
         }
       },
 
