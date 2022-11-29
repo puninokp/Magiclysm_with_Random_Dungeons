@@ -109,7 +109,7 @@
         "species": [ "PSY_MAGI_SUMMONED_MONS" ],
         "volume": "1500 ml",
         "weight": "136 g",
-        "hp": 60,
+        "hp": 90,
         "speed": 100,
         "material": [ "powder" ],
         "symbol": "o",
@@ -127,9 +127,9 @@
         "special_attacks": [
           {
             "type": "gun",
-            "cooldown": 3,
+            "cooldown": 2,
             "move_cost": 200,
-            "gun_type": "PSY_magi_fake_seed_bio_gun",
+            "gun_type": "PSY_magi_fake_seed_bio_gun_good",
             "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
             "fake_dex": 8,
             "fake_per": 8,
