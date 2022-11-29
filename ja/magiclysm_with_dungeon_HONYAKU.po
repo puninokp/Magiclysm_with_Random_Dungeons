@@ -3106,4 +3106,18 @@ msgstr[0] "【瞬獄殺】の巻物"
 msgid "You can read this scroll to learn [blitzkrieg].\n A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
 msgstr "この巻物を読むと[瞬獄殺]を習得できる。一定時間の間、ランダムに瞬間移動しながら周囲10マスの範囲の敵を攻撃する魔法。一回の攻撃につき、100の打撃ダメージを与えることができる。"
 
+msgid "short blink"
+msgstr "瞬歩"
+
+msgid "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+msgstr "対象地点まで瞬時に移動する魔法。通り道にいる敵を短い間混乱させることができる"
+
+msgid "Scroll of [short blink]"
+msgid_plural "Scrolls of [short blink]"
+msgstr[0] "【瞬歩】の巻物"
+
+msgid "You can read this scroll to learn [short blink].\n Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+msgstr "この巻物を読むと[瞬歩]を習得できる。対象地点まで瞬時に移動する魔法。通り道にいる敵を短い間混乱させることができる"
+
+
 

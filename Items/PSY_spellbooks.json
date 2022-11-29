@@ -640,6 +640,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [blitzkrieg]", "str_pl": "Scrolls of [blitzkrieg]" },
         "description": "You can read this scroll to learn [blitzkrieg].\n A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_short_blink_base",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_short_blink_base" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [short blink]", "str_pl": "Scrolls of [short blink]" },
+        "description": "You can read this scroll to learn [short blink].\n Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
     }
 
 ]

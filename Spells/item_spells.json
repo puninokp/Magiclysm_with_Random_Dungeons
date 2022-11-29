@@ -1698,7 +1698,7 @@
     "name": "penetrating thrust",
     "description": "Moves instantly to the target point, piercing and damaging enemies in its path.",
     "valid_targets": [ "hostile", "ally" ,"ground"],
-    "flags": [ "NO_PROJECTILE","LOUD" ],
+    "flags": [ "NO_PROJECTILE","LOUD","IGNORE_WALLS" ],
     "effect": "attack",
     "shape": "line",
     "spell_class": "NONE",

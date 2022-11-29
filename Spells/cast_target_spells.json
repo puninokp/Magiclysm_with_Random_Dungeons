@@ -262,6 +262,88 @@
         "min_duration": 3000,
         "max_duration": 9000,
         "duration_increment": 30
+    },
+
+    {
+      "id": "PSY_magi_short_blink_base",
+      "type": "SPELL",
+      "name": "short blink",
+      "description": "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time.",
+      "valid_targets": ["ground"],
+      "flags": ["NO_LEGS", "NO_HANDS" , "NO_PROJECTILE","SILENT" ],
+      "effect": "attack",
+      "shape": "line",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 1,
+      "max_level": 10,
+      "base_casting_time": 0,
+      "base_energy_cost": 250,
+      "energy_increment": -4,
+      "final_energy_cost": 210,
+      "min_damage": 0,
+      "max_damage": 0,
+      "damage_type": "pure",
+      "min_range": 3,
+      "max_range": 5,
+      "range_increment": 0.4,
+      "extra_effects": [
+        { "id": "PSY_magi_short_blink_line" }
+      ]
+    },
+  
+    {
+      "id": "PSY_magi_short_blink_line",
+      "type": "SPELL",
+      "name": "short blink",
+      "description": "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time.",
+      "valid_targets": [ "hostile", "ally" ,"ground"],
+      "flags": [ "NO_PROJECTILE","LOUD" ,"IGNORE_WALLS"],
+      "effect": "attack",
+      "effect_str": "stunned",
+      "shape": "line",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 1,
+      "max_level": 20,
+      "base_casting_time": 170,
+      "base_energy_cost": 300,
+      "final_energy_cost": 300,
+      "min_duration": 800,
+      "max_duration": 800,
+      "min_damage": 0,
+      "max_damage": 0,
+      "damage_type": "pure",
+      "field_id": "PSY_fd_blitzkrieg",
+      "min_field_intensity": 1,
+      "max_field_intensity": 1,
+      "min_range": 5,
+      "max_range": 5,
+      "range_increment": 1.0,
+      "extra_effects": [
+        { "id": "PSY_magi_short_blink_teleport" }
+      ]
+    },
+  
+    {
+      "id": "PSY_magi_short_blink_teleport",
+      "type": "SPELL",
+      "name": "short blink",
+      "description": "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time.",
+      "effect": "short_range_teleport",
+      "shape": "blast",
+      "valid_targets": [ "ground" ],
+      "flags": [ "SOMATIC", "SILENT", "NO_LEGS", "TARGET_TELEPORT" ],
+      "min_range": 20,
+      "max_range": 20,
+      "range_increment": 1,
+      "max_level": 30,
+      "difficulty": 1,
+      "base_casting_time": 10,
+      "energy_source": "MANA",
+      "base_energy_cost": 600,
+      "energy_increment": -10,
+      "final_energy_cost": 350
     }
 
 
