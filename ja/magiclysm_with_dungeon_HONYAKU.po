@@ -3092,3 +3092,18 @@ msgstr "この巻物を読むと[召喚：マジックタワー]を習得でき�
 
 msgid "PSY_MAGI"
 msgstr "ダンジョン"
+
+msgid "blitzkrieg"
+msgstr "瞬獄殺"
+
+msgid "A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+msgstr "一定時間の間、ランダムに瞬間移動しながら周囲10マスの範囲の敵を攻撃する魔法。一回の攻撃につき、100の打撃ダメージを与えることができる。"
+
+msgid "Scroll of [blitzkrieg]"
+msgid_plural "Scrolls of [blitzkrieg]"
+msgstr[0] "【瞬獄殺】の巻物"
+
+msgid "You can read this scroll to learn [blitzkrieg].\n A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+msgstr "この巻物を読むと[瞬獄殺]を習得できる。一定時間の間、ランダムに瞬間移動しながら周囲10マスの範囲の敵を攻撃する魔法。一回の攻撃につき、100の打撃ダメージを与えることができる。"
+
+

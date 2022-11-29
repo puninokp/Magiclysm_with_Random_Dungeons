@@ -1117,6 +1117,18 @@
         "half_life": "20 seconds",
         "display_items": false,
         "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_blitzkrieg",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "shadow" } ],
+        "half_life": "2 seconds",
+        "looks_like": "fd_shadow",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": false,
+        "display_field": true
       }
 
 ]

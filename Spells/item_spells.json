@@ -1866,6 +1866,91 @@
     "min_range": 18,
     "max_range": 18,
     "base_casting_time": 100
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_blitzkrieg_base",
+    "name": "blitzkrieg",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": ["hostile","self"],
+    "effect": "none",
+    "shape": "blast",
+    "min_damage": 1,
+    "max_damage": 1,
+    "base_casting_time": 100,
+    "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+    "min_range": 10,
+    "max_range": 10,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magic_item_spell_blitzkrieg_line" }
+    ]
+  },
+
+  {
+    "id": "PSY_magic_item_spell_blitzkrieg_line",
+    "type": "SPELL",
+    "name": "blitzkrieg",
+    "description": "A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage.",
+    "effect": "attack",
+    "shape": "line",
+    "valid_targets": [ "hostile"],
+    "flags": ["RANDOM_TARGET","NO_LEGS", "NO_HANDS","RANDOM_DAMAGE"],
+    "max_level": 20,
+    "min_damage": 50,
+    "max_damage": 50,
+    "min_range": 10,
+    "max_range": 10,
+    "range_increment": 1.0,
+    "base_casting_time": 200,
+    "field_id": "PSY_fd_blitzkrieg",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "damage_type": "bash",
+    "extra_effects": [
+      { "id": "PSY_magic_item_spell_blitzkrieg_line2"},
+      { "id": "PSY_magi_item_spell_blitzkrieg_teleport"}
+    ]
+  },
+
+  {
+    "id": "PSY_magic_item_spell_blitzkrieg_line2",
+    "type": "SPELL",
+    "name": "blitzkrieg",
+    "description": "The goto spell for many Stormshapers, this iconic spell does just what you expect: you shoot lightning from your fingertips.  However, this lightning is more directed than most lightning, and travels in a line through most non-solid targets.",
+    "effect": "attack",
+    "shape": "line",
+    "valid_targets": [ "ground","hostile"],
+    "flags": ["NO_LEGS", "NO_HANDS","RANDOM_DAMAGE"],
+    "max_level": 20,
+    "min_damage": 50,
+    "max_damage": 50,
+    "min_range": 10,
+    "max_range": 10,
+    "range_increment": 1.0,
+    "base_casting_time": 200,
+    "field_id": "PSY_fd_blitzkrieg",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "damage_type": "pure",
+    "extra_effects": [
+      { "id": "PSY_magi_item_spell_blitzkrieg_teleport"}
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_blitzkrieg_teleport",
+    "name": { "str": "blitzkrieg" },
+    "description": "A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage.",
+    "effect": "short_range_teleport",
+    "shape": "blast",
+    "valid_targets": [ "ground" ],
+    "flags": ["NO_EXPLOSION_SFX", "SOMATIC", "SILENT", "NO_LEGS", "TARGET_TELEPORT" ],
+    "min_aoe": 2,
+    "max_aoe": 2,
+    "base_casting_time": 100
   }
 
 ]

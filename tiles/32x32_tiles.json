@@ -303,6 +303,15 @@
             {"weight": 10, "sprite":473}
             ]
             },
+            { "id": "PSY_fd_blitzkrieg", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":474},
+            {"weight": 10, "sprite":475},
+            {"weight": 10, "sprite":476},
+            {"weight": 10, "sprite":477},
+            {"weight": 40, "sprite":478}
+            ]
+            },
             { "id": "PSY_magi_weapon_thrust_dagger_mana" ,"fg": 481},
             { "id": "overlay_wielded_PSY_magi_weapon_thrust_dagger_mana" ,"fg": 483},
             { "id": "PSY_magi_weapon_charm_spear" ,"fg": 484},

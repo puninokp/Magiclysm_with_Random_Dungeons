@@ -386,6 +386,32 @@
         "base_casting_time": 500,
         "casting_time_increment": -10.0,
         "final_casting_time": 300
+      },
+
+      {
+        "id": "PSY_magi_conj_blitzkrieg_aura",
+        "type": "SPELL",
+        "name": "blitzkrieg",
+        "description": "A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage.",
+        "valid_targets": [ "self" ],
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_blitzkrieg_aura",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 7,
+        "max_level": 20,
+        "min_damage": 1,
+        "max_damage": 1,
+        "base_energy_cost": 1050,
+        "energy_increment": -10.0,
+        "final_energy_cost": 850,
+        "min_duration": 1100,
+        "max_duration": 1600,
+        "duration_increment": 25,
+        "base_casting_time": 300,
+        "casting_time_increment": -10.0,
+        "final_casting_time": 100
       }
 
 ]
