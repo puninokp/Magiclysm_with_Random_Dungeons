@@ -3089,3 +3089,6 @@ msgstr[0] "【召喚：マジックタワー】の巻物"
 
 msgid "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
 msgstr "この巻物を読むと[召喚：マジックタワー]を習得できる。対象の敵にレーザーを照射し続ける魔法の塔を召喚します。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "PSY_MAGI"
+msgstr "ダンジョン"
