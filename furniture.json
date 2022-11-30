@@ -245,7 +245,7 @@
       "sound":"basssh!",
       "sound_fail":"shh!",
       "items":[
-        {"group":"PSY_magi_tresure_box_drops"}
+        {"group":"PSY_magi_big_tresure_box_drops"}
         ]
       }
 	},

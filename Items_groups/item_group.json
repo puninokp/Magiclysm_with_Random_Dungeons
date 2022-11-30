@@ -189,10 +189,29 @@
         "id": "PSY_magi_tresure_box_drops",
         "entries": [
           { "group": "potions_common", "count-min": 3, "count-max": 5 },
+          { "group": "PSY_magi_forest_rare_drop_all", "count-min": 1, "count-max": 2 },
           { "group": "potions_common", "prob": 20, "count-min": 2, "count-max": 5 },
           { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 2 },
+          { "group": "PSY_magi_magic_ring_drops", "prob": 100 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 100 },
+          { "group": "alchemy_items", "count-min": 3, "count-max": 6 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 10 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_big_tresure_box_drops",
+        "entries": [
+          { "group": "potions_common", "count-min": 3, "count-max": 5 },
+          { "group": "PSY_magi_forest_rare_drop_all", "count-min": 2, "count-max": 3 },
+          { "group": "potions_common", "prob": 100, "count-min": 2, "count-max": 5 },
+          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 2 },
+          { "group": "PSY_magi_magic_ring_drops", "count-min": 1, "count-max": 2 },
+          { "group": "alchemy_items", "count-min": 6, "count-max": 12 },
+          { "group": "PSY_magi_weapon_shield_drops", "count-min": 1, "count-max": 2 },
+          { "group": "PSY_magi_weapon_shield_drops", "prob": 100 }
         ]
       }
 
