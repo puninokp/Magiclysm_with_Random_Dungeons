@@ -679,19 +679,19 @@
         "type": "mapgen",
         "method": "json",
         "//": "a nested map for basements",
-        "nested_mapgen_id": "PSY_magi_nested_room_8x8_null",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_bookcase",
         "weight": 1000,
         "object": {
           "mapgensize": [ 8, 8 ],
           "rotation": [ 0, 3 ],
           "rows": [
             "||||||||",
-            "||||||||",
-            "||||||||",
-            "||||||||",
-            "||||||||",
-            "||||||||",
-            "||||||||",
+            "|t|Pt|t|",
+            "|X|tt|t|",
+            "|t|tt|X|",
+            "|t|tX|t|",
+            "|X|tt|t|",
+            "|t|tt|t|",
             "||||||||"
           ],
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
@@ -705,9 +705,63 @@
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",
             "Y": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
             "h": "PSY_magi_t_dirt",
             "P": "PSY_magi_t_dirt",
             "!": "PSY_magi_t_dirt"
+          },
+
+          "furniture": {
+            "h": "f_chair",
+            "@": "f_bed",
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "s": "f_sink",
+            "o": "f_oven",
+            "f": "f_fridge",
+            "n": "f_counter",
+            "m": "f_cupboard",
+            "d": "f_dresser",
+            "R": "f_trashcan",
+            "D": "f_wardrobe",
+            "7": "f_bench",
+            "C": "f_armchair",
+            "t": "f_bookcase",
+            "X": "f_bookcase",
+            "P": "f_bookcase",
+            "B": "f_birdbath",
+            "a": "f_rack_coat",
+            "g": "f_floor_lamp",
+            "W": "f_fireplace",
+            "i": "f_beaded_door",
+            "x": "f_rotary_clothesline",
+            "S": "f_shower",
+            "l": "f_water_heater",
+            "k": "f_water_purifier"
+          },
+          "items": {
+            "h": { "item": "livingroom", "chance": 20 },
+            "t": [
+              { "item": "dragon_books", "chance": 1, "repeat": [ 1, 2 ] },
+              { "item": "druid_items", "chance": 2, "repeat": [ 1, 2 ] },
+              { "item": "novels", "chance": 100, "repeat": [ 1, 2 ] },
+              { "item": "novels", "chance": 10, "repeat": [ 1, 3 ] },
+              { "item": "religious_books", "chance": 20, "repeat": [ 0, 3 ] },
+              { "item": "manuals", "chance": 10 },
+              { "item": "mansion_books", "chance": 5 },
+              { "item": "exotic_books", "chance": 1 }
+            ],
+            "X": [
+              { "item": "earthshaper_items", "chance": 30 },
+              { "item": "technomancer_items", "chance": 30 },
+              { "item": "novels", "chance": 100, "repeat": [ 1, 2 ] },
+              { "item": "homebooks", "chance": 100, "repeat": [ 1, 2 ] },
+              { "item": "novels", "chance": 10, "repeat": [ 1, 8 ] },
+              { "item": "lab_bookshelves", "chance": 3 }
+            ],
+            "P": [
+              { "item": "magic_shop_books", "chance": 100, "repeat": [ 1, 2 ] }
+            ]
           }
         }
       }

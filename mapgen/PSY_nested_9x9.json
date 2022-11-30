@@ -392,6 +392,98 @@
             { "monster": "GROUP_PSY_magi_RND_FOREST_MON_IMMOBILE", "x": 6, "y": 2 , "density": 0.05} 
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_fish",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "||===||||",
+            "|||====||",
+            "|||====||",
+            "||====|||",
+            "||||===||",
+            "|||===|||",
+            "||||===||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "items": { "|": { "item": "alchemy_items", "chance": 2 } },
+          "terrain": {
+            "|": "t_water_sh",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "t_water_dp",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_FISH", "x": 2, "y": 2 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 6, "y": 6 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 2, "y": 6 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 6, "y": 2 , "density": 0.05} 
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_fish",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|=======|",
+            "||=====||",
+            "|||===|||",
+            "||||=||||",
+            "|||===|||",
+            "||=====||",
+            "|=======|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "items": { "|": { "item": "potions_common", "chance": 2 } },
+          "terrain": {
+            "|": "t_water_sh",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "t_water_dp",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_FISH", "x": 2, "y": 2 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 6, "y": 6 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 2, "y": 6 , "density": 0.05},
+            { "monster": "GROUP_FISH", "x": 6, "y": 2 , "density": 0.05} 
+          ]
+        }
       }
 
 

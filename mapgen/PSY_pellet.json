@@ -447,6 +447,7 @@
             [ "PSY_magi_nested_room_8x8_monsters_4", 10 ],
             [ "PSY_magi_nested_room_8x8_monsters_5", 10 ],
             [ "PSY_magi_nested_room_8x8_monsters_6", 10 ],
+            [ "PSY_magi_nested_room_8x8_bookcase", 12 ],
             [ "PSY_magi_nested_room_8x8_farm_1", 12 ],
             [ "PSY_magi_nested_room_8x8_farm_2", 12 ],
             [ "PSY_magi_nested_room_8x8_farm_3", 12 ],
@@ -459,13 +460,14 @@
           "//3":"nested_9x9",
           "chunks": [
             [ "PSY_magi_nested_room_9x9_null", 1 ],
-            [ "PSY_magi_nested_room_9x9_spider_1", 30 ],
-            [ "PSY_magi_nested_room_9x9_wasp_1", 30 ],
+            [ "PSY_magi_nested_room_9x9_spider_1", 23 ],
+            [ "PSY_magi_nested_room_9x9_fish", 12 ],
+            [ "PSY_magi_nested_room_9x9_wasp_1", 23 ],
             [ "PSY_magi_nested_room_9x9_treasure_1", 3 ],
             [ "PSY_magi_nested_room_9x9_treasure_2", 3 ],
             [ "PSY_magi_nested_room_9x9_treasure_3", 3 ],
             [ "PSY_magi_nested_room_9x9_monsters_1", 10 ],         
-            [ "PSY_magi_nested_room_9x9_monsters_2", 100 ]
+            [ "PSY_magi_nested_room_9x9_monsters_2", 50 ]
           ]
         }
 
