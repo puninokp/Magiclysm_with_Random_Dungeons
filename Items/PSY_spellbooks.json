@@ -656,6 +656,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [short blink]", "str_pl": "Scrolls of [short blink]" },
         "description": "You can read this scroll to learn [short blink].\n Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_conj_thread_cone",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_conj_thread_cone" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [thread beam]", "str_pl": "Scrolls of [thread beam]" },
+        "description": "You can read this scroll to learn [thread beam].\n Magic that scatters threads to the target point.It does no damage and requires 10 threads to use."
     }
 
 ]

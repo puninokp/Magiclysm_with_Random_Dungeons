@@ -15,6 +15,13 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_thread10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "thread", 10 ] ] ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_slime_scrap10",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",

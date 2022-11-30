@@ -73,6 +73,59 @@
         "min_range": 50,
         "max_range": 50,
         "message": ""
+    },
+
+    {
+      "id": "PSY_magi_conj_thread_cone",
+      "type": "SPELL",
+      "name": "thread beam",
+      "description": "A magic that scatters threads to the target point. It cannot cause damage and requires 10 threads to use. Threads are not produced where furniture is placed.",
+      "valid_targets": ["ground" ],
+      "components": "PSY_magi_spell_components_thread10",
+      "effect": "ter_transform",
+      "effect_str": "PSY_magi_thread_transform",
+      "shape": "line",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "flags": [ "PERMANENT","SILENT", "NO_LEGS","NO_EXPLOSION_SFX" ],
+      "difficulty": 0,
+      "max_level": 0,
+      "min_range": 10,
+      "max_range": 10,
+      "base_energy_cost": 20,
+      "energy_increment": -1.0,
+      "final_energy_cost": 10,
+      "min_duration": 100,
+      "max_duration": 100,
+      "base_casting_time": 100,
+      "casting_time_increment": -6.0,
+      "final_casting_time": 40,
+      "extra_effects": [
+        { "id": "PSY_magi_conj_thread_cone_terrain_bashes_sub_line"}
+      ]
+    },
+
+    {
+      "id": "PSY_magi_conj_thread_cone_terrain_bashes_sub_line",
+      "type": "SPELL",
+      "name": "thread beam",
+      "description": "Magic that scatters threads to the target point.It does no damage and requires 10 threads to use.",
+      "valid_targets": [ "ground" ],
+      "flags": [ "PERMANENT","SILENT", "NO_LEGS" ],
+      "effect": "bash",
+      "shape": "line",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 1,
+      "base_casting_time": 10,
+      "final_casting_time": 10,
+      "base_energy_cost": 10,
+      "final_energy_cost": 10,
+      "min_damage": 5,
+      "max_damage": 5,
+      "max_level": 0,
+      "min_range": 10,
+      "max_range": 10
     }
 
 ]

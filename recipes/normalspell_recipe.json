@@ -103,6 +103,21 @@
     "components": [
        [ [ "PSY_magi_magical_spell_token", 1 ] ]
      ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "spell_scroll_PSY_magi_conj_thread_cone",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MAGI",
+    "subcategory": "CSC_PSY_MAGI_NORMALSPELLS",
+    "skill_used": "chemistry",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+       [ [ "PSY_magi_magical_spell_token", 1 ] ]
+     ]
   }
 
 
