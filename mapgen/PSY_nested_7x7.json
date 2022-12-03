@@ -1665,6 +1665,47 @@
             "k": { "monster": "PSY_magi_rnd_mon_chess_king", "chance": 100 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_boss",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||",
+            "|RRRRR|",
+            "|R|||R|",
+            "|R|S|R|",
+            "|R|||R|",
+            "|RRRRR|",
+            "|||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "R": "t_wall_glassteel_alarm",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "S": { "monster": "PSY_magi_rnd_mon_statue_bosses_EX"}
+          }
+        }
       }
 
 

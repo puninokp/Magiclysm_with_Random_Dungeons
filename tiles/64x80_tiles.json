@@ -21,8 +21,18 @@
             { "id": "PSY_magi_rnd_mon_golem_turret" ,"fg": 8},
             { "id": "PSY_magi_rnd_mon_statue_bosses", "rotates": false,"animated": true,"fg":
             [
-            {"weight": 50, "sprite":9},
-            {"weight": 50, "sprite":10}
+            {"weight": 25, "sprite":9},
+            {"weight": 25, "sprite":10},
+            {"weight": 25, "sprite":11},
+            {"weight": 25, "sprite":10}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_statue_bosses_EX", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":12},
+            {"weight": 20, "sprite":13},
+            {"weight": 20, "sprite":14},
+            {"weight": 20, "sprite":13}
             ]
             }
           ]

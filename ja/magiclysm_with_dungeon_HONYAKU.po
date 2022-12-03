@@ -3135,5 +3135,11 @@ msgstr "この巻物を読むと[糸ビーム]を習得できる。対象の地�
 msgid "A magic that scatters threads to the target point. It cannot cause damage and requires 10 threads to use. Threads are not produced where furniture is placed."
 msgstr "対象の地点まで糸をばら撒く魔法。ダメージを与えることはできず、使用には糸が10個必要。家具が置いてある場所には糸は生産されない。"
 
+msgid "Evil stone statue"
+msgstr "邪悪な石像"
+
+msgid "This stone statue has an evil atmosphere. It is better for your own safety not to destroy it."
+msgstr "この石像には邪悪な雰囲気が漂っています。破壊しない方が身のためです。"
+
 
 
