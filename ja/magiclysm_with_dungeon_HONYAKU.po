@@ -3141,5 +3141,8 @@ msgstr "邪悪な石像"
 msgid "This stone statue has an evil atmosphere. It is better for your own safety not to destroy it."
 msgstr "この石像には邪悪な雰囲気が漂っています。破壊しない方が身のためです。"
 
+msgid "It is the one and only artifact.Equipping it will have beneficial effects for you. Random effects are triggered by activating it."
+msgstr "唯一無二のアーティファクトです。装備することによってあなたにとって有益な効果を得ることができ、使用することによってランダムなエフェクトが発動します"
+
 
 

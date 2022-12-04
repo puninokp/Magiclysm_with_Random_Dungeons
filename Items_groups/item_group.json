@@ -82,11 +82,12 @@
         "type": "item_group",
         "id": "PSY_magi_forest_rare_drop_all",
         "items": [
-          { "item": "PSY_magi_magical_coin_box", "prob": 3 },
-          { "item": "PSY_magi_magical_coin_forest_core", "prob": 3 },
-          { "item": "PSY_magi_turret_generator_box", "prob": 3 },
-          { "item": "PSY_magi_wand_of_create_stunning_field", "prob": 3 },
-          { "item": "PSY_magi_wand_of_create_darkness_field", "prob": 3 },
+          { "item": "PSY_magi_magical_coin_box", "prob": 1 },
+          { "item": "PSY_magi_magical_coin_forest_core", "prob": 2 },
+          { "group": "PSY_magi_random_dungeon_artifacts", "prob": 5},
+          { "item": "PSY_magi_turret_generator_box", "prob": 1 },
+          { "item": "PSY_magi_wand_of_create_stunning_field", "prob": 2 },
+          { "item": "PSY_magi_wand_of_create_darkness_field", "prob": 2 },
           { "group": "PSY_magi_magic_ring_drops", "prob": 3 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 1 }
         ]
@@ -175,6 +176,19 @@
 
       {
         "type": "item_group",
+        "id": "PSY_magi_artifact_drop_collection",
+        "items": [
+          { "item": "PSY_art_wristwatch", "prob": 1 },
+          { "item": "PSY_art_gold_locket", "prob": 1 },
+          { "item": "PSY_art_copper_necklace", "prob": 1 },
+          { "item": "PSY_art_pearl_collar", "prob": 1 },
+          { "item": "PSY_art_mask_rioter", "prob": 1 },
+          { "item": "PSY_art_necktie", "prob": 1 }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "subtype": "collection",
         "id": "PSY_magi_weapon_shield_drops",
         "entries": [
@@ -193,6 +207,7 @@
           { "group": "potions_common", "prob": 20, "count-min": 2, "count-max": 5 },
           { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 2 },
           { "group": "PSY_magi_magic_ring_drops", "prob": 100 },
+          { "group": "PSY_magi_random_dungeon_artifacts", "prob": 100 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 100 },
           { "group": "alchemy_items", "count-min": 3, "count-max": 6 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 10 }
@@ -209,9 +224,26 @@
           { "group": "potions_common", "prob": 100, "count-min": 2, "count-max": 5 },
           { "group": "PSY_magi_mon_ninja_drop_scrolls", "count-min": 1, "count-max": 2 },
           { "group": "PSY_magi_magic_ring_drops", "count-min": 1, "count-max": 2 },
+          { "group": "PSY_magi_random_dungeon_artifacts", "count-min": 1, "count-max": 2 },
           { "group": "alchemy_items", "count-min": 6, "count-max": 12 },
           { "group": "PSY_magi_weapon_shield_drops", "count-min": 1, "count-max": 2 },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magi_random_dungeon_artifacts",
+        "subtype": "distribution",
+        "entries": [
+          {
+            "group": "PSY_magi_artifact_drop_collection",
+            "artifact": {
+              "procgen_id": "PSY_dungeon_artifact",
+              "rules": { "power_level": 750, "max_attributes": 3, "max_negative_power": 0, "resonant": true }
+            },
+            "prob": 100
+          }
         ]
       }
 
