@@ -230,6 +230,7 @@
         "entries": [ 
             { "item": "PSY_magi_magical_coin_bronze", "count": [ 1, 3 ]},
             { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 1 },
+            { "group": "PSY_magi_random_dungeon_artifacts", "prob": 1 },
             { "group": "PSY_magi_magic_ring_drops", "prob": 1 },
             { "group": "potions_common", "prob": 2 }  
         ]
@@ -241,7 +242,8 @@
         "subtype": "collection",
         "entries": [ 
             { "item": "PSY_magi_magical_coin_bronze", "count": [ 3, 6 ] } ,
-            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 3 },
+            { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 2 },
+            { "group": "PSY_magi_random_dungeon_artifacts", "prob": 3 },
             { "group": "PSY_magi_magic_ring_drops", "prob": 2 },
             { "group": "PSY_magi_weapon_shield_drops", "prob": 1 },
             { "group": "potions_common", "prob": 4 }    
