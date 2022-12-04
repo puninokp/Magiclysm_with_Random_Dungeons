@@ -2570,67 +2570,70 @@ msgid "You don't have enough currency."
 msgstr "通貨が足りません。"
 
 msgid "Magical Forest Core"
-msgstr "魔法のフォレストコア"
+msgstr "魔法コア：森"
 
 msgid "Magical Forest Coin"
-msgstr "魔法のフォレストコイン"
+msgstr "魔法硬貨：森"
+
+msgid "These coins are used in the crafting menu to enhance your body and acquire magic."
+msgstr "これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
 
 msgid "a rare item that can be obtained from monsters in the forest dungeon by chance.These coins are used in the crafting menu to enhance your body and acquire magic."
-msgstr "森のダンジョンでモンスターから偶に入手できるレアアイテム。このコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
+msgstr "森のダンジョンでモンスターから偶に入手できるレアアイテム。これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
 
 msgid "[30 Magical Forest Coin] a longsword +2"
-msgstr "[魔法のフォレストコイン30枚]ロングソード+2"
+msgstr "[魔法硬貨：森30枚]ロングソード+2"
 
 msgid "[35 Magical Forest Coin] a sledge hammer +2"
-msgstr "[魔法のフォレストコイン35枚]スレッジハンマー+2"
+msgstr "[魔法硬貨：森35枚]スレッジハンマー+2"
 
 msgid "[40 Magical Forest Coin] a halberd +2"
-msgstr "[魔法のフォレストコイン40枚]ハルバード+2"
+msgstr "[魔法硬貨：森40枚]ハルバード+2"
 
 msgid "[30 Magical Forest Coin] a morningstar +2"
-msgstr "[魔法のフォレストコイン30枚]モーニングスター+2"
+msgstr "[魔法硬貨：森30枚]モーニングスター+2"
 
 msgid "[40 Magical Forest Coin] a rapier +2"
-msgstr "[魔法のフォレストコイン40枚]レイピア+2"
+msgstr "[魔法硬貨：森40枚]レイピア+2"
 
 msgid "[1 Magical Forest Core] a Magus battle staff"
-msgstr "[魔法のフォレストコア1個]メイガスバトルスタッフ"
+msgstr "[魔法コア：森1個]メイガスバトルスタッフ"
 
 msgid "[1 Magical Forest Core] a ring of mana recovery"
-msgstr "[魔法のフォレストコア1個]魔法使いの指輪"
+msgstr "[魔法コア：森1個]魔法使いの指輪"
 
 msgid "[1 Magical Forest Core] an eel ring"
-msgstr "[魔法のフォレストコア1個]ウナギの指輪"
+msgstr "[魔法コア：森1個]ウナギの指輪"
 
 msgid "[1 Magical Forest Core] a lesser storage ring"
-msgstr "[魔法のフォレストコア1個]小収納リング"
+msgstr "[魔法コア：森1個]小収納リング"
 
 msgid "[1 Magical Forest Core] a Scroll of [Blade Dance]"
-msgstr "[魔法のフォレストコア1個]【剣の舞】の巻物"
+msgstr "[魔法コア：森1個]【剣の舞】の巻物"
 
 msgid "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
 msgstr "この巻物を読むと[剣の舞]を習得できる。周囲の敵をタイミングよく斬るダガーを多数ばら撒く。"
 
 msgid "[1 Magical Forest Core] a Scroll of [Blade of Air]"
-msgstr "[魔法のフォレストコア1個]【エアブレード】の巻物"
+msgstr "[魔法コア：森1個]【エアブレード】の巻物"
 
 msgid "Scroll of [Throw Boomerang]"
 msgstr "【投擲：ブーメラン】の巻物"
 
 msgid "[1 Magical Forest Core] a Scroll of [Throw Boomerang]"
-msgstr "[魔法のフォレストコア1個]【投擲：ブーメラン】の巻物"
+msgstr "[魔法コア：森1個]【投擲：ブーメラン】の巻物"
 
 msgid "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
 msgstr "この巻物を読むと[投擲：ブーメラン]を習得できる。自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
 
 msgid "[50 Magical Forest Coin] a Magical Forest Core"
-msgstr "[魔法のフォレストコイン50枚]魔法のフォレストコア1個"
+msgstr "[魔法硬貨：森50枚]魔法コア：森1個"
 
 msgid "[10 Magical Coin] 15 Magical Forest Coin"
-msgstr "[魔法のコイン10枚】魔法のフォレストコイン15個"
+msgstr "[魔法のコイン10枚】魔法硬貨：森15個"
 
 msgid "[1 Magical Forest Core] a ring of wizardry"
-msgstr "[魔法のフォレストコア1個】魔力の指輪Lv3"
+msgstr "[魔法コア：森1個】魔力の指輪Lv3"
 
 msgid "conjures a bomb that disperse fire extinguishers"
 msgstr "消火剤をまき散らす爆弾を作る"
@@ -2909,7 +2912,7 @@ msgid "You can read this scroll to learn [Summon a flying eye].\n Throw a boomer
 msgstr "この巻物を読むと[サモン　フライングアイ]を習得できる。対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
 
 msgid "[1 Magical Forest Core] a Spell Token"
-msgstr "[魔法のフォレストコア1個]スペルトークン1個"
+msgstr "[魔法コア：森1個]スペルトークン1個"
 
 msgid "[30 Magical Coin] a Spell Token"
 msgstr "[魔法のコイン30枚]スペルトークン1個"
@@ -3172,7 +3175,7 @@ msgid "This is a scroll of create pistol\n When you read it, Creates a random ri
 msgstr "これはライフル作成の巻物です。これを読むと、目標地点にランダムなライフルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
 
 msgid "[30 Magical Forest Coin] a random pistol with its ammo"
-msgstr "[魔法のフォレストコイン30枚]ガチャ：弾薬付きピストル"
+msgstr "[魔法硬貨：森30枚]ガチャ：弾薬付きピストル"
 
 msgid "[40 Magical Forest Coin] a random rifle with its ammo"
-msgstr "[魔法のフォレストコイン40枚]ガチャ：弾薬付きライフル"
+msgstr "[魔法硬貨：森40枚]ガチャ：弾薬付きライフル"
