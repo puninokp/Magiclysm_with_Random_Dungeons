@@ -3142,7 +3142,37 @@ msgid "This stone statue has an evil atmosphere. It is better for your own safet
 msgstr "この石像には邪悪な雰囲気が漂っています。破壊しない方が身のためです。"
 
 msgid "It is the one and only artifact.Equipping it will have beneficial effects for you. Random effects are triggered by activating it."
-msgstr "唯一無二のアーティファクトです。装備することによってあなたにとって有益な効果を得ることができ、使用することによってランダムなエフェクトが発動します"
+msgstr "唯一無二のアーティファクトです。装備することによってあなたにとって有益な効果を得ることができ、使用することによってランダムな有益エフェクトが発動します"
 
+msgid "Create pistol"
+msgstr "作成：ピストル"
 
+msgid "Creates a random pistol at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなピストルを作成します。家具がある場所に作ると失敗します。"
 
+msgid "Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなピストルとその弾丸を作成します。家具がある場所に作ると失敗します。"
+
+msgid "Create rifle"
+msgstr "作成：ライフル"
+
+msgid "Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなライフルとその弾丸を作成します。家具がある場所に作ると失敗します。"
+
+msgid "Scroll of Create pistol"
+msgstr "作成：ピストルの巻物"
+
+msgid "This is a scroll of create pistol\n When you read it, Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "これはピストル作成の巻物です。これを読むと、目標地点にランダムなピストルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
+
+msgid "Scroll of Create rifle"
+msgstr "作成：ライフルの巻物"
+
+msgid "This is a scroll of create pistol\n When you read it, Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "これはライフル作成の巻物です。これを読むと、目標地点にランダムなライフルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
+
+msgid "[30 Magical Forest Coin] a random pistol with its ammo"
+msgstr "[魔法のフォレストコイン30枚]ガチャ：弾薬付きピストル"
+
+msgid "[40 Magical Forest Coin] a random rifle with its ammo"
+msgstr "[魔法のフォレストコイン40枚]ガチャ：弾薬付きライフル"

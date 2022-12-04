@@ -240,8 +240,32 @@
     "dynamic_line": "Please select the item you want.",
     "responses": [
 
-
+      {
+        "text": "[30 Magical Forest Coin] a random pistol with its ammo",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_scroll_of_create_pistol", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
       
+      {
+        "text": "[40 Magical Forest Coin] a random rifle with its ammo",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 40 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_scroll_of_create_rifle", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 40 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
       { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
       { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
       { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },

@@ -415,10 +415,23 @@
 
       {
         "type":"ter_furn_transform",
-        "id":"PSY_magi_thread_transform",
+        "id":"PSY_magi_gun_random_transform",
         "furniture":[
           {
-            "result": "PSY_magi_f_thread",
+            "result": "PSY_magi_f_gun_random",
+            "valid_furniture": [ "f_null" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_rifle_random_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_rifle_random",
             "valid_furniture": [ "f_null" ],
             "message": "",
             "message_good": true

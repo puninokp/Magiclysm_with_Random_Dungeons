@@ -111,7 +111,7 @@
       "name": "thread beam",
       "description": "Magic that scatters threads to the target point.It does no damage and requires 10 threads to use.",
       "valid_targets": [ "ground" ],
-      "flags": [ "PERMANENT","SILENT", "NO_LEGS" ],
+      "flags": [ "SILENT", "NO_LEGS" ],
       "effect": "bash",
       "shape": "line",
       "spell_class": "NONE",
@@ -126,6 +126,87 @@
       "max_level": 0,
       "min_range": 10,
       "max_range": 10
+    },
+
+    {
+      "id": "PSY_magi_conj_pistle_single",
+      "type": "SPELL",
+      "name": "Create pistol",
+      "description": "Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail.",
+      "valid_targets": ["ground" ],
+      "effect": "ter_transform",
+      "effect_str": "PSY_magi_gun_random_transform",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "flags": [ "PERMANENT","SILENT", "NO_LEGS","NO_EXPLOSION_SFX" ],
+      "difficulty": 0,
+      "max_level": 0,
+      "min_range": 10,
+      "max_range": 10,
+      "base_energy_cost": 20,
+      "energy_increment": -1.0,
+      "final_energy_cost": 10,
+      "min_duration": 100,
+      "max_duration": 100,
+      "base_casting_time": 100,
+      "casting_time_increment": -6.0,
+      "final_casting_time": 40,
+      "extra_effects": [
+        { "id": "PSY_magi_conj_item_terrain_bashes_sub_single"}
+      ]
+    },
+
+    {
+      "id": "PSY_magi_conj_item_terrain_bashes_sub_single",
+      "type": "SPELL",
+      "name": "bash",
+      "description": "Magic that scatters threads to the target point.It does no damage and requires 10 threads to use.",
+      "valid_targets": [ "ground" ],
+      "flags": ["SILENT", "NO_LEGS" ],
+      "effect": "bash",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 1,
+      "base_casting_time": 10,
+      "final_casting_time": 10,
+      "base_energy_cost": 10,
+      "final_energy_cost": 10,
+      "min_damage": 5,
+      "max_damage": 5,
+      "max_level": 0,
+      "min_range": 50,
+      "max_range": 50
+    },
+
+    {
+      "id": "PSY_magi_conj_rifle_single",
+      "type": "SPELL",
+      "name": "Create rifle",
+      "description": "Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail.",
+      "valid_targets": ["ground" ],
+      "effect": "ter_transform",
+      "effect_str": "PSY_magi_rifle_random_transform",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "flags": [ "PERMANENT","SILENT", "NO_LEGS","NO_EXPLOSION_SFX" ],
+      "difficulty": 0,
+      "max_level": 0,
+      "min_range": 10,
+      "max_range": 10,
+      "base_energy_cost": 20,
+      "energy_increment": -1.0,
+      "final_energy_cost": 10,
+      "min_duration": 100,
+      "max_duration": 100,
+      "base_casting_time": 100,
+      "casting_time_increment": -6.0,
+      "final_casting_time": 40,
+      "extra_effects": [
+        { "id": "PSY_magi_conj_item_terrain_bashes_sub_single"}
+      ]
     }
 
 ]

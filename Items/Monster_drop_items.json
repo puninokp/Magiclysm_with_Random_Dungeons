@@ -1810,6 +1810,45 @@
         "relic_data": {
           "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_Tangled_vine_whip" } ] } ]
         }
-      }
+      },
+
+      {
+        "id": "PSY_magi_scroll_of_create_pistol",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "name": { "str_sp": "Scroll of Create pistol" },
+        "description": "This is a scroll of create pistol\n When you read it, Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail.",
+        "material": [ "paper" ],
+        "looks_like": "PSY_magi_scroll_of_Light",
+        "volume": "300 ml",
+        "weight": "300 g",
+        "price": 12000,
+        "price_postapoc": 21025,
+        "symbol": ".",
+        "color": "brown",
+        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_pistle_single", "no_fail": true, "level": 0 }
+      },
+
+      {
+        "id": "PSY_magi_scroll_of_create_rifle",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "name": { "str_sp": "Scroll of Create rifle" },
+        "description": "This is a scroll of create pistol\n When you read it, Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail.",
+        "material": [ "paper" ],
+        "looks_like": "PSY_magi_scroll_of_Light",
+        "volume": "300 ml",
+        "weight": "300 g",
+        "price": 12000,
+        "price_postapoc": 21025,
+        "symbol": ".",
+        "color": "brown",
+        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_rifle_single", "no_fail": true, "level": 0 }
+     }
+     
 
 ]

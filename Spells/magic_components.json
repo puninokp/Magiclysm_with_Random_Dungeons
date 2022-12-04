@@ -22,6 +22,41 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_magical_coin_forest30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 30 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest40",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 40 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest50",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 50 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest20",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 20 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 10 ] ] ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_slime_scrap10",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",
