@@ -1,0 +1,20 @@
+[
+
+    {
+        "id": "PSY_magi_Vehicle_CANNON",
+        "type": "vehicle",
+        "name": "Cannon",
+        "parts": [
+          { "x": 0, "y": 0, "parts": [ "frame_cross", "reclining_seat", "seatbelt", "PSY_magi_UFO_controls","PSY_magi_UFO_controls_electronic" ] },
+          { "x": 0, "y": 0, "parts": [ "dashboard", "roof" ] },
+          { "x": 1, "y": 0, "parts": [ "frame_cross", "PSY_magi_cannon_xlhalfboard", "PSY_magi_cannon_roof" ] },
+          { "x": 1, "y": 0, "part": "turret_mount" },
+          {
+            "x": 1,
+            "y": 0,
+            "part": "PSY_magi_mounted_fake_cannon_gun"
+          }
+        ]
+    }
+
+]

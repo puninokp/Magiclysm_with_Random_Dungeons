@@ -25,7 +25,29 @@
             { "id": "PSY_magi_mon_water_element" ,"fg": 26 },
             { "id": "PSY_magi_mon_earth_element" ,"fg": 27 },
             { "id": "PSY_magi_mon_air_element" ,"fg": 28 },
-            { "id": "PSY_magi_mon_magic_tower" ,"fg": 31 }
+            { "id": "PSY_magi_mon_magic_tower" ,"fg": 31 },
+            {
+              "id": "vp_PSY_magi_mounted_fake_cannon_gun", 
+              "fg": 70,
+              "rotates": false, 
+              "multitile": true,
+              "additional_tiles": [
+                {"id": "broken", "fg": 70},
+                {
+                  "id": "center",
+                  "fg": [
+                    71, 71,70, 70
+                  ]
+                },
+                {
+                  "id": "corner",
+                  "fg": [
+                    70, 71,71, 70
+                  ]
+                }
+
+              ]
+            }
           ]
         }
       ]
