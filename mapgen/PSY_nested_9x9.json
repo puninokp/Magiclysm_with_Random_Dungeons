@@ -484,6 +484,51 @@
             { "monster": "GROUP_FISH", "x": 6, "y": 2 , "density": 0.05} 
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_beehive_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||WWW|||",
+            "||WW|WW||",
+            "|WW|||WW|",
+            "|W|||||W|",
+            "|W|||||W|",
+            "|W|||||||",
+            "|WW|||WW|",
+            "||WW|WW||",
+            "|||WWW|||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "items": { "|": { "item": "potions_common", "chance": 2 } },
+          "terrain": {
+            "|": "t_floor_wax",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "t_wax",
+            "W": "t_wax",
+            "$": "PSY_magi_t_dirt",
+            "=": "t_water_dp",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_BEE", "x": 2, "y": 2 , "density": 0.05},
+            { "monster": "GROUP_BEE", "x": 6, "y": 6 , "density": 0.05}
+          ]
+        }
       }
 
 

@@ -285,15 +285,15 @@
         "/": "t_wall_log",
         "#": "t_wall_log",
         ".": "t_wall_log",
-        "1": "t_tree",
-        "2": "t_tree",
-        "3": "t_tree",
-        "4": "t_tree",
-        "5": "t_tree",
-        "6": "t_tree",
-        "7": "t_tree",
-        "8": "t_tree",
-        "9": "t_tree",
+        "1": "t_wall_log",
+        "2": "t_wall_log",
+        "3": "t_wall_log",
+        "4": "t_wall_log",
+        "5": "t_wall_log",
+        "6": "t_wall_log",
+        "7": "t_wall_log",
+        "8": "t_wall_log",
+        "9": "t_wall_log",
         "+": "t_door_c",
         "<": "t_slope_up",
         ">": "t_slope_down",
@@ -313,6 +313,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 1 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -326,6 +327,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 1 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -339,6 +341,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 1 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -352,6 +355,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 1 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -365,6 +369,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 100 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -378,6 +383,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
+            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 1 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         }
@@ -474,15 +480,15 @@
       },
       "terrain": {
         "|": "t_tree",
-        "1": "t_tree",
-        "2": "t_tree",
-        "3": "t_tree",
-        "4": "t_tree",
-        "5": "t_tree",
-        "6": "t_tree",
-        "7": "t_tree",
-        "8": "t_tree",
-        "9": "t_tree",
+        "1": "t_wall_log",
+        "2": "t_wall_log",
+        "3": "t_wall_log",
+        "4": "t_wall_log",
+        "5": "t_wall_log",
+        "6": "t_wall_log",
+        "7": "t_wall_log",
+        "8": "t_wall_log",
+        "9": "t_wall_log",
         ".": "t_null",
         "D": "t_door_c",
         " ": "t_dirt",
@@ -498,6 +504,47 @@
         "P": "t_carpet_red",
         "!": "t_carpet_red"
       }
-  }
+   },
+
+   {
+    "type": "palette",
+    "id": "PSY_magi_nested_dungeon_forest_beehive_pelette",
+    "nested": {
+      "5": {
+        "//4":"nested_5x5",
+        "chunks": [
+          [ "PSY_magi_nested_room_5x5_beehive", 3 ]
+        ]
+      }
+
+    },
+    "terrain": {
+      "|": "t_wax",
+      "1": "t_wall_log",
+      "2": "t_wall_log",
+      "3": "t_wall_log",
+      "4": "t_wall_log",
+      "5": "t_wax",
+      "6": "t_wax",
+      "7": "t_wax",
+      "8": "t_wax",
+      "9": "t_wax",
+      ".": "t_floor_wax",
+      "D": "t_door_c",
+      " ": "t_dirt",
+      "@": "t_dirt",
+      "+": "t_sand",
+      "W": "t_wax",
+      "%": "t_carpet_red",
+      "$": "t_carpet_red",
+      "=": "t_carpet_red",
+      ",": "t_carpet_red",
+      "~": "t_carpet_red",
+      "Y": "t_carpet_red",
+      "h": "t_carpet_red",
+      "P": "t_carpet_red",
+      "!": "t_wax"
+    }
+}
 
 ]

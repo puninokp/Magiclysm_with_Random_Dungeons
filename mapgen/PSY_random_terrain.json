@@ -251,6 +251,29 @@
       "connect_groups": "WATER",
       "connects_to": "WATER",
       "examine_action": "water_source"
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_t_wax",
+      "name": "wax wall",
+      "looks_like": "t_wax",
+      "description": "A wall made entirely out of wax.",
+      "symbol": "#",
+      "color": "yellow",
+      "light_emitted": 200,
+      "move_cost": 0,
+      "coverage": 100,
+      "roof": "t_floor_wax",
+      "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "PLACE_ITEM", "WALL", "NO_SCENT" ],
+      "bash": {
+        "str_min": 12,
+        "str_max": 150,
+        "sound": "crunch!",
+        "sound_fail": "whump!",
+        "ter_set": "t_floor_wax",
+        "items": [ { "item": "wax", "count": [ 3, 5 ] } ]
+      }
     }
 
 ]

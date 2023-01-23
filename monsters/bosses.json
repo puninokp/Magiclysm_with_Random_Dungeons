@@ -368,6 +368,83 @@
       "NOGIB",
       "NO_BREATHE"
     ]
+  },
+
+  {
+    "id": "PSY_magi_mon_beehive_normal",
+    "type": "MONSTER",
+    "name": "Giant Beehive",
+    "description": "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises.",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "bodytype": "blob",
+    "looks_like": "PSY_magi_mon_plant_shooter",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "volume": "300000 ml",
+    "weight": "270360 g",
+    "hp": 100,
+    "speed": 90,
+    "material": [ "veggy" ],
+    "symbol": "H",
+    "color": "yellow",
+    "aggression": 0,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 1,
+    "vision_day": 0,
+    "vision_night": 0,
+    "harvest": "exempt",
+    "death_drops": "",
+    "death_function": {
+      "message": "The %s has broken!",
+      "effect": { "id": "PSY_magi_spell_death_beehive_base", "hit_self": true },
+      "corpse_type": "NO_CORPSE"
+    },
+    "flags": [
+      "NOGIB",
+      "NO_BREATHE",
+      "IMMOBILE"
+    ]
+  },
+
+  {
+    "id": "PSY_magi_mon_beehive_portal",
+    "type": "MONSTER",
+    "name": "Giant Beehive",
+    "description": "A giant honeybee hive mutated into a It has been destroyed and turned into a machine that produces large numbers of mutated bees.",
+    "default_faction": "PSY_magi_random_dungeon_monsters",
+    "bodytype": "blob",
+    "looks_like": "PSY_magi_mon_plant_shooter",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "volume": "300000 ml",
+    "weight": "270360 g",
+    "hp": 750,
+    "speed": 90,
+    "material": [ "veggy" ],
+    "luminance": 300,
+    "symbol": "o",
+    "color": "yellow",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 1,
+    "vision_day": 20,
+    "vision_night": 5,
+    "harvest": "exempt",
+    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "special_attacks": [
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_beehive_base" }, "cooldown": 12 }
+    ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "flags": [
+      "SEES",
+      "NOGIB",
+      "NO_BREATHE",
+      "IMMOBILE"
+    ]
   }
 
 ]

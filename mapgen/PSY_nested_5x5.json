@@ -1901,6 +1901,88 @@
             "s": { "monster": "PSY_magi_rnd_mon_chess_bishop", "chance": 100 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_beehive",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "W|||W",
+            "|||||",
+            "|||||",
+            "|||||",
+            "W|||W"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_floor_wax",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "W": "PSY_t_wax",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "mon_bee_small", "chance": 10 }
+          },
+          "items": { 
+            "|": { "item": "hive", "chance": 10 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_5x5_beehive",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "W|||W",
+            "|||||",
+            "|||||",
+            "|||||",
+            "W|||W"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_floor_wax",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "W": "PSY_t_wax",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "|": { "monster": "mon_bee_small", "chance": 15 }
+          },
+          "items": { 
+            "|": { "item": "PSY_honey_food", "chance": 20 }
+          }
+        }
       }
 
 ]

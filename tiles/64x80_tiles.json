@@ -34,6 +34,14 @@
             {"weight": 20, "sprite":14},
             {"weight": 20, "sprite":13}
             ]
+            },
+            { "id": "PSY_magi_mon_beehive_portal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 30, "sprite":30},
+            {"weight": 30, "sprite":31},
+            {"weight": 30, "sprite":32},
+            {"weight": 30, "sprite":31}
+            ]
             }
           ]
         }

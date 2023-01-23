@@ -177,6 +177,28 @@
       },
 
       {
+        "id": "fd_PSY_magi_summon_gate_strong",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "Summon Gate",
+            "color": "magenta",
+            "monster_spawn_chance": 3,
+            "monster_spawn_count": 1,
+            "monster_spawn_radius": 2,
+            "monster_spawn_group": "GROUP_PSY_magi_TRANSFORM",
+            "light_emitted": 160
+          }
+        ],
+        "priority": 13,
+        "half_life": "15 turns",
+        "accelerated_decay": false,
+        "phase": "solid",
+        "display_field": true,
+        "looks_like": "fd_PSY_magi_summon_gate"
+      },
+
+      {
         "id": "fd_PSY_magi_tangled_vine",
         "type": "field_type",
         "intensity_levels": [

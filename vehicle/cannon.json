@@ -15,6 +15,16 @@
             "part": "PSY_magi_mounted_fake_cannon_gun"
           }
         ]
-    }
+    },
+
+    {
+      "id": "PSY_magi_Vehicle_CANNON_SINGLE",
+      "type": "vehicle",
+      "name": "Cannon",
+      "blueprint": [ "C" ],
+      "parts": [
+        { "x": 0, "y": 0, "parts": [ "frame_cross", "turret_mount", "PSY_magi_mounted_fake_cannon_gun" ] }
+      ]
+  }
 
 ]

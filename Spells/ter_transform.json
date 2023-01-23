@@ -437,6 +437,43 @@
             "message_good": true
           }
         ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_beehive_wax_form",
+        "terrain": [
+          {
+            "result": "t_floor_wax",
+            "valid_terrain": [ 
+              "t_null",
+              "t_wax"
+            ],
+            "message": ""
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_flower_transform",
+        "furniture":[
+          {
+            "result": [ [ "PSY_magi_f_honey_random", 1 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
+            "valid_furniture": [ 
+              "f_mutpoppy",
+              "f_dandelion",
+              "f_flower_tulip",
+              "f_flower_spurge",
+              "f_sunflower",
+              "f_datura"
+           ]    
+          },
+          {
+            "result": [ [ "f_null", 300 ],[ "f_mutpoppy", 3 ],[ "f_dandelion", 3 ],[ "f_flower_tulip", 3 ],[ "f_flower_spurge", 3 ],[ "f_sunflower", 3 ],[ "f_datura", 3 ] ],
+            "valid_furniture": [ "f_null" ]    
+          }
+        ]
       }
 
 ]

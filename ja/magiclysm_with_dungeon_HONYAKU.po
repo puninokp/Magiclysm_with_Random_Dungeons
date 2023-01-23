@@ -3179,3 +3179,33 @@ msgstr "[魔法硬貨：森30枚]ガチャ：弾薬付きピストル"
 
 msgid "[40 Magical Forest Coin] a random rifle with its ammo"
 msgstr "[魔法硬貨：森40枚]ガチャ：弾薬付きライフル"
+
+msgid "Cannon"
+msgstr "大砲"
+
+msgid "Magic Cannonballs"
+msgstr "魔法の大砲の弾"
+
+msgid "Mutant bee"
+msgstr "ミュータントハチ"
+
+msgid "A bee whose body is about the same size as a child elephant. You shouldn't get too close."
+msgstr "体が子供の象と同じくらいの大きさのハチです。あまり近づかないほうがよいでしょう。"
+
+msgid "A bee whose body is about the same size as a child elephant. They seem to be wary of us."
+msgstr "体が子供の象と同じくらいの大きさのハチです。こちらに対して警戒しているようです。"
+
+msgid "A bee whose body is as big as a child elephant. As you can see, they are hostile towards you."
+msgstr "体が子供の象と同じくらいの大きさのハチです。見てわかる通り、あなたに対して敵意を向けています。"
+
+msgid "Beehive"
+msgstr "ハチの巣"
+
+msgid "Giant Beehive"
+msgstr "巨大ハチの巣"
+
+msgid "A giant honeybee hive mutated into a It has been destroyed and turned into a machine that produces large numbers of mutated bees."
+msgstr "巨大なミツバチの巣が変異したものです。壊されたことにより大量の変異したハチを生み出す機械と化しています。"
+
+msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises."
+msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。"

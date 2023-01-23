@@ -168,7 +168,7 @@
       "looks_like": "plasma_gun",
       "type": "vehicle_part",
       "name": { "str": "Cannon" },
-      "item": "PSY_magi_fake_laser_bio_gun",
+      "item": "cannon_3in_ordnance",
       "color": "light_blue",
       "broken_color": "light_blue",
       "breaks_into": [ { "item": "scrap", "count": 10 } ],

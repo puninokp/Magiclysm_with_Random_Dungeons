@@ -245,6 +245,18 @@
             "prob": 100
           }
         ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_honey_food",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "honeycomb", "prob": 100 },
+          { "item": "royal_jelly", "prob": 30 },
+          { "item": "honey_ant", "prob": 5 },
+          { "item": "tool_small_primitive_fragmentation_device", "prob": 1 }
+        ]
       }
 
 

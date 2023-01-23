@@ -26,6 +26,7 @@
             { "id": "PSY_magi_mon_earth_element" ,"fg": 27 },
             { "id": "PSY_magi_mon_air_element" ,"fg": 28 },
             { "id": "PSY_magi_mon_magic_tower" ,"fg": 31 },
+            { "id": "PSY_magi_mon_beehive_normal" ,"fg": 63 },
             {
               "id": "vp_PSY_magi_mounted_fake_cannon_gun", 
               "fg": 70,
@@ -47,7 +48,33 @@
                 }
 
               ]
+            },
+            { "id": "PSY_magi_mon_mutant_bee_red", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":64},
+            {"weight": 10, "sprite":73},
+            {"weight": 10, "sprite":76},
+            {"weight": 10, "sprite":73}
+            ]
+            },
+            { "id": "PSY_magi_mon_mutant_bee_yellow", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":65},
+            {"weight": 10, "sprite":74},
+            {"weight": 10, "sprite":77},
+            {"weight": 10, "sprite":74}
+            ]
+            },
+
+            { "id": "PSY_magi_mon_mutant_bee_green", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":66},
+            {"weight": 10, "sprite":75},
+            {"weight": 10, "sprite":78},
+            {"weight": 10, "sprite":75}
+            ]
             }
+
           ]
         }
       ]

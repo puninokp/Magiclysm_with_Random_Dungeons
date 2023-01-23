@@ -444,6 +444,30 @@
         {"group":"guns_rifle_common"}
       ]
     }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_random",
+    "name": "honey",
+    "description": "honey",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": 1,
+    "coverage": 0,
+    "required_str": -1,
+    "looks_like": "f_dandelion",
+    "flags": [ "TRANSPARENT", "TINY","NOCOLLIDE" ],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 0,
+      "str_max": 0,
+      "sound": "",
+      "sound_fail": "",
+      "items": [
+        {"group":"PSY_honey_food"}
+      ]
+    }
   }
 
 ]
