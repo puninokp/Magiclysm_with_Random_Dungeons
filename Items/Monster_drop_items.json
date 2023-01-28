@@ -69,6 +69,25 @@
     },
 
     {
+      "id": "PSY_magi_scroll_search_stairway",
+      "type": "COMESTIBLE",
+      "comestible_type": "MED",
+      "category": "other",
+      "name": { "str_sp": "Scroll of Search Stairway" },
+      "description": "Read this scroll to find the stairs within the range 50 tiles and allows you to see the stairway through wall cyclically. It is not possible to find some stairs or if they are broken.",
+      "material": [ "paper" ],
+      "looks_like": "seed",
+      "volume": "300 ml",
+      "weight": "300 g",
+      "price": 12000,
+      "price_postapoc": 2125,
+      "symbol": ".",
+      "color": "brown",
+      "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+      "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_big_room", "no_fail": true, "level": 0 }
+  },
+
+    {
         "id": "PSY_magi_scroll_of_Light",
         "type": "COMESTIBLE",
         "comestible_type": "MED",
@@ -1848,7 +1867,83 @@
         "color": "brown",
         "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_rifle_single", "no_fail": true, "level": 0 }
-     }
+     },
+
+     {
+      "id": "PSY_honey_crossbow",
+      "looks_like": "crossbow",
+      "type": "GUN",
+      "reload_noise_volume": 10,
+      "symbol": "(",
+      "color": "green",
+      "name": { "str": "Honey crossbow" },
+      "description": "This crossbow smells like sweet honey. It can be loaded with up to 3 bolts!",
+      "price": 32400,
+      "//": "800 lbs, 40in steel limbs, 0.41 Slugs with a 30g bolt, 2.0 slugs with a special 0.5 lb bolt",
+      "material": [ "iron", "wood" ],
+      "flags": [ "FIRE_TWOHAND", "PRIMITIVE_RANGED_WEAPON", "TRADER_AVOID" ],
+      "skill": "rifle",
+      "ammo": [ "bolt" ],
+      "weight": "1203 g",
+      "volume": "1 L",
+      "longest_side": "82 cm",
+      "price_postapoc": 4000,
+      "bashing": 12,
+      "to_hit": -2,
+      "ranged_damage": { "damage_type": "stab", "amount": 6 },
+      "range": 13,
+      "dispersion": 300,
+      "sight_dispersion": 90,
+      "recoil": 30,
+      "durability": 8,
+      "clip_size": 3,
+      "reload": 6000,
+      "valid_mod_locations": [ [ "dampening", 1 ] ],
+      "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "bolt": 3 } } ]
+    },
+
+    {
+      "type": "AMMO",
+      "id": "PSY_bolt_honey",
+      "price": 1200,
+      "name": { "str": "Honey bolt" },
+      "symbol": "=",
+      "color": "green",
+      "description": "These crossbow bolts smell like sweet honey.The target of the shot is covered in honey, which reduces movement speed.",
+      "material": [ "aluminum", "steel" ],
+      "volume": "100 ml",
+      "longest_side": "400 mm",
+      "price_postapoc": 1000,
+      "weight": "20 g",
+      "bashing": 5,
+      "ammo_type": "bolt",
+      "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.0, "armor_penetration": 2 },
+      "range": 2,
+      "dispersion": 70,
+      "loudness": 0,
+      "count": 10,
+      "critical_multiplier": 10,
+      "effects": [ "RECOVER_25" ]
+    },
+
+    {
+      "id": "PSY_magi_scroll_of_escape",
+      "type": "COMESTIBLE",
+      "comestible_type": "MED",
+      "category": "other",
+      "name": { "str_sp": "Scroll of Escape dungeon" },
+      "description": "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched.",
+      "material": [ "paper" ],
+      "looks_like": "PSY_magi_scroll_of_Light",
+      "volume": "300 ml",
+      "weight": "300 g",
+      "price": 12000,
+      "price_postapoc": 21025,
+      "symbol": ".",
+      "color": "brown",
+      "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+      "use_action": { "type": "cast_spell", "spell_id": "PSY_teleport_to_statue", "no_fail": true, "level": 0 }
+    }
      
 
 ]

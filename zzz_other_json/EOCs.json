@@ -1,0 +1,31 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_TELEPORT_TEST",
+    "//": "This is the EOC which actually returns you home.",
+    "effect": [
+      { "u_location_variable": { "u_val": "PSY_teleport_up" }, "z_adjust": 1 },
+      { "u_message": "You have teleported to the upper level.", "popup": true },
+      { "u_teleport": { "u_val": "PSY_teleport_up" } }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_teleport_stone",
+    "//": "This is the EOC which actually returns you the stone.",
+    "effect": [
+      { "u_location_variable": { "global_val": "OM_PSY_dungeon_z0" } },
+      { "u_message": "You can come back here with items you earn after defeating the boss.", "popup": true }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_teleport_to_stone",
+    "//": "This is the EOC which actually returns you the stone.",
+    "effect": [
+      { "u_teleport": { "global_val": "OM_PSY_dungeon_z0" }, "force": true }
+    ]
+  }
+]

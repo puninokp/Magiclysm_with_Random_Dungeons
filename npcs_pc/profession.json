@@ -7,6 +7,10 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_teleport_to_statue", "level": 0 },
+          { "id": "PSY_teleport_up", "level": 0 },
+          { "id": "PSY_magi_item_spell_search_stairway", "level": 0 },
+          { "id": "PSY_magi_item_spell_search_items", "level": 0 },
           { "id": "PSY_magi_conj_thread_cone", "level": 0 },
           { "id": "PSY_magi_conj_pistle_single", "level": 0 },
           { "id": "PSY_magi_short_blink_base", "level": 0 },

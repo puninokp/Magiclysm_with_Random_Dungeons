@@ -455,6 +455,33 @@
       },
 
       {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_found_stairs_form",
+        "terrain": [
+          {
+            "result": "PSY_t_stairs_down",
+            "valid_terrain": [ 
+              "t_wood_stairs_down",
+              "t_stairs_down",
+              "t_slope_down"
+           ],    
+           
+            "message": ""
+          },
+          {
+            "result": "PSY_t_stairs_up",
+            "valid_terrain": [ 
+              "t_wood_stairs_up",
+              "t_stairs_up",
+              "t_slope_up"
+           ],    
+           
+            "message": ""
+          }
+        ]
+      },
+
+      {
         "type":"ter_furn_transform",
         "id":"PSY_magi_flower_transform",
         "furniture":[

@@ -106,6 +106,16 @@
       "field": "fd_PSY_magi_tiamat_cold_mist",
       "intensity": 3,
       "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_clairvoyance_one",
+      "type": "emit",
+      "//": "clairvoyant for stairs",
+      "field": "fd_clairvoyant",
+      "intensity": 1,
+      "qty": 9,
+      "chance": 100
     }
 
 

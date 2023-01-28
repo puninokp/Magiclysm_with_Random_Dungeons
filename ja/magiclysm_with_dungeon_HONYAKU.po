@@ -3209,3 +3209,55 @@ msgstr "巨大なミツバチの巣が変異したものです。壊されたこ
 
 msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises."
 msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。"
+
+msgid "Search Stairway"
+msgstr "階段探知"
+
+msgid "The magic is to find the stairs within the range 50 tiles. It is not possible to find some stairs or if they are broken."
+msgstr "範囲50タイル内の階段を見つける魔法です。これを使うことによって階段を周期的に透視できるようになります。一部の階段や、壊されている場合は見つけることが出来ません。"
+
+msgid "Scroll of Search Stairway"
+msgstr "階段探知の巻物"
+
+msgid "Read this scroll to find the stairs within the range 50 tiles. It is not possible to find some stairs or if they are broken."
+msgstr "この巻物を読むと、50タイル内にある階段を見つけることができます。これを使うことによって階段を周期的に透視できるようになります。一部の階段や、階段が壊れている場合は、見つけることができないことがあります。"
+
+msgid "This magic is to find the stairs within the range 50 tiles.This allows you to see the stairway through wall cyclically. It is not possible to find some stairs or if they are broken."
+msgstr "範囲50タイル内の階段を見つける魔法です。これにより、壁を通して階段を周期的に透視することができます。一部の階段や、壊されている場合は見つけることが出来ません。"
+
+msgid "Read this scroll to find the stairs within the range 50 tiles and allows you to see the stairway through wall cyclically. It is not possible to find some stairs or if they are broken."
+msgstr "この巻物を読むと、50タイル内にある階段を見つけることができ、これにより、壁を通して階段を周期的に透視することができます。一部の階段や、階段が壊れている場合は、見つけることができないことがあります。"
+
+msgid "Honey crossbow"
+msgstr "ハニークロスボウ"
+
+msgid "This crossbow smells like sweet honey. It can be loaded with up to 3 bolts!"
+msgstr "甘いはちみつの匂いがするクロスボウです。最大3本のボルトを装填することが可能です"
+
+msgid "Honey bolt"
+msgstr "ハニーボルト"
+
+msgid "These crossbow bolts smell like sweet honey.The target of the shot is covered in honey, which reduces movement speed."
+msgstr "甘いはちみつの匂いがするクロスボウ用のボルトです。撃った対象がハチミツに覆われ、移動速度が低下します。"
+
+msgid "You can come back here with items you earn after defeating the boss."
+msgstr "ボスを倒した後に獲得したアイテムを使って、ここに戻ってくることができる。"
+
+msgid "Teleport stone statue"
+msgstr "テレポート石像"
+
+msgid "It is an unusual looking stone statue. Once activated, it is possible to return to the vicinity of the stone statue with an item obtained from defeating a boss."
+msgstr "変わった見た目の石像です。起動すると、ボスを倒したときに獲得できるアイテムで石像の近くに戻ってくることが可能です。"
+
+msgid "Escape Spell"
+msgstr "脱出の呪文"
+
+msgid "It is a magic to escape from the dungeon.It teleports you to the last stone statue you touched."
+msgstr "ダンジョンから脱出する魔法です。最後に触れた石像にテレポートします。"
+
+msgid "Scroll of Escape dungeon"
+msgstr "脱出の巻物"
+
+msgid "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched."
+msgstr "脱出の巻物です。これを読むことにより最後に触れた石像にテレポートし、ダンジョンから脱出することが出来ます。"
+

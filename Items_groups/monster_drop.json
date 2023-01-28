@@ -289,6 +289,7 @@
             { "group": "PSY_magi_mon_chimera_drop_guns", "prob": 100 },
             { "item": "PSY_magi_magical_coin_forest_core", "prob": 100 },
             { "item": "spell_scroll_PSY_magi_spell_ultimate_random_breath", "prob": 50 },
+            { "item": "PSY_magi_scroll_of_escape", "prob": 100 },
             { "group": "potions_common", "count": [ 3, 6 ] }    
         ]
     },
@@ -301,6 +302,7 @@
             { "item": "PSY_magi_weapon_mystical_bird_knife", "prob": 100 },
             { "item": "PSY_magi_magical_coin_forest_core", "prob": 100 },
             { "item": "spell_scroll_PSY_magi_spell_summon_ultimate_flame_feather", "prob": 50 },
+            { "item": "PSY_magi_scroll_of_escape", "prob": 100 },
             { "group": "potions_common", "count": [ 3, 6 ] }    
         ]
     },
@@ -314,6 +316,7 @@
             { "group": "PSY_magi_weapon_drop_collection", "prob": 100  },    
             { "item": "PSY_magi_magical_coin_forest_core", "count": [ 1, 2 ] },
             { "item": "spell_scroll_PSY_magi_spell_summon_ultimate_apple_tree", "prob": 50 },
+            { "item": "PSY_magi_scroll_of_escape", "prob": 100 },
             { "group": "PSY_magi_magic_ring_drops", "prob": 100 },
             { "group": "PSY_magi_forest_rare_drop_all", "count": [ 1, 2 ] }    
         ]

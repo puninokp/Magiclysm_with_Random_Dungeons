@@ -468,6 +468,92 @@
         {"group":"PSY_honey_food"}
       ]
     }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_dungeon_exit_teleport",
+    "name": "Teleport stone statue",
+    "description": "It is an unusual looking stone statue. Once activated, it is possible to return to the vicinity of the stone statue with an item obtained from defeating a boss.",
+	  "//": "On examine, activates the EOC chain which lets you teleport away. I made it light and easy to push around so you could reorganize your base easily.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+    "crafting_pseudo_item": "fakeitem_statue",
+    "flags": [ "NOCOLLIDE", "NO_PICKUP_ON_EXAMINE", "TRANSPARENT" ],
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
+  },
+
+  {
+    "type": "terrain",
+    "id": "PSY_t_door_metal_c",
+    "name": "closed metal door",
+    "description": "An extremely resilient door made of assorted steel, carved and pounded into shape.",
+    "symbol": "+",
+    "looks_like": "t_door_metal_c",
+    "color": "cyan",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_metal_roof",
+    "flags": [ "NOITEM", "DOOR", "CONNECT_WITH_WALL", "BLOCK_WIND", "SUPPORTS_ROOF" ],
+    "open": "PSY_t_door_metal_o",
+    "oxytorch": {
+      "result": "t_mdoor_frame",
+      "duration": "14 seconds",
+      "byproducts": [ { "item": "steel_plate", "count": [ 0, 1 ] }, { "item": "steel_chunk", "count": [ 3, 8 ] } ]
+    },
+    "bash": {
+      "str_min": 240,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 12, 24 ] },
+        { "item": "steel_plate", "prob": 75 },
+        { "item": "hinge", "count": [ 1, 3 ] }
+      ]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
+  },
+
+  {
+    "type": "terrain",
+    "id": "PSY_t_door_metal_o",
+    "name": "open metal door",
+    "description": "An extremely resilient door made of assorted steel, carved and pounded into shape.  It's open, so no tools are needed to break in.",
+    "symbol": "'",
+    "looks_like": "t_door_metal_o",
+    "color": "cyan",
+    "move_cost": 2,
+    "roof": "t_metal_roof",
+    "flags": [ "TRANSPARENT", "FLAT", "CONNECT_WITH_WALL", "ROAD", "SUPPORTS_ROOF" ],
+    "close": "PSY_t_door_metal_c",
+    "bash": {
+      "str_min": 240,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 12, 24 ] },
+        { "item": "steel_plate", "prob": 75 },
+        { "item": "hinge", "count": [ 1, 3 ] }
+      ]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
   }
 
 ]

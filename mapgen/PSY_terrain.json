@@ -274,6 +274,34 @@
         "ter_set": "t_floor_wax",
         "items": [ { "item": "wax", "count": [ 3, 5 ] } ]
       }
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_t_stairs_down",
+      "looks_like": "t_stairs_down",
+      "name": "stairs",
+      "description": "A flight of stairs leading down.",
+      "symbol": ">",
+      "color": "yellow",
+      "emissions": [ "PSY_magi_emit_clairvoyance_one" ],
+      "move_cost": 2,
+      "light_emitted": 1,
+      "roof": "t_flat_roof",
+      "flags": [ "TRANSPARENT", "GOES_DOWN", "INDOORS", "PLACE_ITEM", "SUPPORTS_ROOF" ]
+    },
+    {
+      "type": "terrain",
+      "id": "PSY_t_stairs_up",
+      "looks_like": "t_stairs_up",
+      "name": "stairs",
+      "description": "A flight of stairs leading up.",
+      "symbol": "<",
+      "color": "yellow",
+      "emissions": [ "PSY_magi_emit_clairvoyance_one" ],
+      "move_cost": 2,
+      "light_emitted": 1,
+      "flags": [ "SUPPORTS_ROOF", "TRANSPARENT", "GOES_UP", "INDOORS", "PLACE_ITEM" ]
     }
 
 ]
