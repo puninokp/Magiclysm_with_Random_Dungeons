@@ -2,7 +2,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_PSY_TELEPORT_TEST",
-    "//": "This is the EOC which actually returns you home.",
+    "//": "This is the EOC which actually teleports you up.",
     "effect": [
       { "u_location_variable": { "u_val": "PSY_teleport_up" }, "z_adjust": 1 },
       { "u_message": "You have teleported to the upper level.", "popup": true },
@@ -27,5 +27,109 @@
     "effect": [
       { "u_teleport": { "global_val": "OM_PSY_dungeon_z0" }, "force": true }
     ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ARTIFACT_SPAWN",
+    "effect": [
+      { "mapgen_update": "spawn_minor_spark_artifact" },
+      {
+        "u_message": "As you leave the fugue state, you realize you have managed to create a thing.  Now to figure out what it does.",
+        "type": "info"
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_lightning",
+    "recurrence": 1,
+    "global": true,
+    "condition": {
+      "and": [
+        { "is_weather": "lightning" },
+        { "one_in_chance": 600 },
+        { "compare_int": [ { "u_val": "pos_z" }, ">=", { "const": 0 } ] }
+      ]
+    },
+    "deactivate_condition": { "not": { "is_weather": "lightning" } },
+    "effect": [
+      { "u_message": "A flash of lightning illuminates your surroundings!" },
+      { "sound_effect": "thunder_near", "id": "environment" },
+      "lightning",
+      { "custom_light_level": 100, "length": [ "1 seconds", "1 seconds" ] }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_magi_slow_dammy",
+    "recurrence": [ "25 minutes", "1 hours 15 minutes" ],
+    "condition": { "and": [ { "u_has_effect": "PSY_magi_slow_dammy" }, { "not": { "u_has_effect": "PSY_magi_weak_slow" } } ] },
+    "deactivate_condition": { "not": { "or": [ { "u_has_effect": "PSY_magi_slow_dammy" }, { "u_has_effect": "stim_overdose" } ] } },
+    "effect": [
+      { "u_message": "The spiders in your veins itch!", "type": "bad" },
+      { "u_add_effect": "PSY_magi_slow_dammy", "duration": "10 minutes", "target_part": "RANDOM" }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_lab_cyan_mutagen_check",
+    "recurrence": [ 15, 30 ],
+    "condition": { "and": [ { "u_at_om_location": "lab_2x2_MUT_tier_2_NE" }, { "not": { "u_has_item": "id_science_mutagen_cyan" } } ] },
+    "effect": [ { "mapgen_update": "release_bots_5", "om_terrain": "lab_2x2_MUT_tier_2_NE" } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_PORTAL_STORM_DUNGEON_REFLECTION_SPAWN",
+    "global": true,
+    "effect": {
+      "switch": { "global_val": "var", "var_name": "portal_dungeon_reflect_strength" },
+      "cases": [
+        {
+          "case": 0,
+          "effect": {
+            "u_spawn_monster": "mon_pale_reflection",
+            "real_count": 1,
+            "min_radius": 8,
+            "max_radius": 12,
+            "spawn_message": "Something your mind can't fully parse appears, despite the distance and obstacles you know where it is.  You can feel its presence as if it was a part of you."
+          }
+        },
+        {
+          "case": 5,
+          "effect": {
+            "u_spawn_monster": "mon_twisted_reflection",
+            "real_count": 1,
+            "min_radius": 8,
+            "max_radius": 12,
+            "spawn_message": "Something your mind can't fully parse appears, despite the distance and obstacles you know where it is.  You can feel its presence as if it was a part of you."
+          }
+        },
+        {
+          "case": 10,
+          "effect": {
+            "u_spawn_monster": "mon_dark_reflection",
+            "real_count": 1,
+            "min_radius": 8,
+            "max_radius": 12,
+            "spawn_message": "Something your mind can't fully parse appears, despite the distance and obstacles you know where it is.  You can feel its presence as if it was a part of you."
+          }
+        },
+        {
+          "case": 15,
+          "effect": {
+            "u_spawn_monster": "mon_better_half",
+            "real_count": 1,
+            "min_radius": 8,
+            "max_radius": 12,
+            "spawn_message": "Something your mind can't fully parse appears, despite the distance and obstacles you know where it is.  You can feel its presence as if it was a part of you."
+          }
+        }
+      ]
+    }
   }
 ]

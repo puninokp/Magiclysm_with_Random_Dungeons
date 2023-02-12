@@ -298,6 +298,21 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ]
+    },
+
+    {
+        "type": "SPELL",
+        "id": "PSY_magi_spell_mutate_PSY_HONEY_AURA_OFF",
+        "name": { "str": "Honey in a jar: Honicky Body" },
+        "valid_targets": [ "self" ],
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "PSY_HONEY_AURA_OFF",
+        "description": "This mutates your body.",
+        "message": "You seemed stronger.",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ]
     }
 
 ]

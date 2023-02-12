@@ -1,5 +1,27 @@
 [
 
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_slow_dammy",
+    "name": [ 
+      "Slow", 
+      "Slow[2]",
+      "Slow[3](max)"
+    
+    ],
+    "desc": [ "Decreased your movement for a short period." ],
+    "apply_message": "slowed.",
+    "remove_message": "No more slowed.",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ -100 ], "dex_mod": [ -1 ] },
+    "scaling_mods": { 
+      "speed_mod": [ -50 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
     {
         "type": "effect_type",
         "id": "PSY_magi_slow",
@@ -678,6 +700,30 @@
     "int_add_val": 5,
     "base_mods": { "speed_mod": [ -1 ] ,"hurt_min": [ 1 ]},
     "scaling_mods": { "speed_mod": [ -0.5 ],"hurt_min": [ 1 ]  },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_honey_effect",
+    "name": [ 
+      "Honey", 
+      "Honey[2]",
+      "Honey[3](max)"
+    
+    ],
+    "desc": [ "The movement speed is reduced for a short period of time, but recovery from injuries is faster." ],
+    "apply_message": "slowed.",
+    "remove_message": "No more slowed.",
+    "max_duration": "10 seconds",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ -45 ], "dex_mod": [ -1 ], "healing_rate": [ 3 ] },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -0.5 ],
+      "healing_rate": [ 2 ]
+    },
     "show_in_info": true
   }
 

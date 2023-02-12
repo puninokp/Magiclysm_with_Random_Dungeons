@@ -465,7 +465,7 @@
       "sound": "",
       "sound_fail": "",
       "items": [
-        {"group":"PSY_honey_food"}
+        {"group":"PSY_honey_terrain_flower_drops"}
       ]
     }
   },

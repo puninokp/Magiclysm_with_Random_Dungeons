@@ -628,7 +628,7 @@
         "name": "Force Daze",
         "description": "Force Daze.",
         "valid_targets": [ "hostile" ],
-        "flags": ["NO_LEGS","RANDOM_TARGET","IGNORE_WALLS" ],
+        "flags": ["NO_LEGS","RANDOM_TARGET" ],
         "effect": "attack",
         "effect_str": "blind",
         "shape": "blast",
@@ -3990,6 +3990,26 @@
     "max_level": 20,
     "min_aoe": 10,
     "max_aoe": 10,
+    "extra_effects": [
+      { "id": "PSY_magi_beehive_bash_death", "hit_self": true}
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_transform_flower_weak",
+    "type": "SPELL",
+    "name": { "str": "Open Chest" },
+    "description": "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil.",
+    "valid_targets": [ "ground","self" ],
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_flower_transform",
+    "shape": "blast",
+    "energy_source": "MANA",
+    "flags": ["NO_EXPLOSION_SFX","NO_LEGS","NO_PROJECTILE" ],
+    "base_casting_time": 100,
+    "max_level": 20,
+    "min_aoe": 3,
+    "max_aoe": 3,
     "extra_effects": [
       { "id": "PSY_magi_beehive_bash_death", "hit_self": true}
     ]

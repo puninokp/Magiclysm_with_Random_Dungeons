@@ -256,6 +256,58 @@
             "bash": 1
           }
         ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_HONEY_AURA_OFF",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "name": { "str": "Honicky Body" },
+        "points": 0,
+        "active": true,
+        "description": "Your attendance is very dangerous and can make everything around you sticky with honey. You are now suppressing this power.",
+        "transform": { "target": "PSY_HONEY_AURA_ON", "msg_transform": "Everything around you covers in honey!", "active": true, "moves": 10 }
+      },
+      {
+        "type": "mutation",
+        "id": "PSY_HONEY_AURA_ON",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "active": true,
+        "name": { "str": "Honicky Body (on)" },
+        "flags": [ "SLUDGE_IMMUNE" ],
+        "points": -1,
+        "description": "Your attendance is very dangerous and can make everything around you sticky with honey. Each time this effect activates, you take 1 pure damage.",
+        "enchantments": [ "PSY_ENC_HONEY_SPLASH_AURA" ],
+        "transform": { "target": "PSY_HONEY_AURA_OFF", "msg_transform": "You suppress your honey powers.", "active": false, "moves": 10 }
+      },
+      {
+        "id": "PSY_honey_splash_pure_damage",
+        "type": "SPELL",
+        "name": "Honey Splash Damage",
+        "description": "AoE pure attack around the player.  If you are seeing this spell, you have debugged it in.",
+        "valid_targets": [ "hostile","ground","self" ],
+        "flags": [ "SILENT", "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
+        "affected_body_parts": [ "foot_l" ],
+        "effect": "attack",
+        "shape": "blast",
+        "min_damage": 1,
+        "max_damage": 1,
+        "min_aoe": 1,
+        "max_aoe": 1,
+        "field_id": "PSY_fd_honey",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "damage_type": "pure"
+      },
+      {
+        "type": "enchantment",
+        "id": "PSY_ENC_HONEY_SPLASH_AURA",
+        "condition": "ALWAYS",
+        "intermittent_activation": { "effects": [ { "frequency": "3 seconds", "spell_effects": [ { "id": "PSY_honey_splash_pure_damage" } ] } ] }
       }
 
 

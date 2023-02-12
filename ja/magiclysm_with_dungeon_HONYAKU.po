@@ -3241,7 +3241,7 @@ msgid "These crossbow bolts smell like sweet honey.The target of the shot is cov
 msgstr "甘いはちみつの匂いがするクロスボウ用のボルトです。撃った対象がハチミツに覆われ、移動速度が低下します。"
 
 msgid "You can come back here with items you earn after defeating the boss."
-msgstr "ボスを倒した後に獲得したアイテムを使って、ここに戻ってくることができる。"
+msgstr "石像を起動しました。ボスを倒した後に獲得した脱出の巻物を使って、ここにテレポートすることができます。"
 
 msgid "Teleport stone statue"
 msgstr "テレポート石像"
@@ -3261,3 +3261,113 @@ msgstr "脱出の巻物"
 msgid "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched."
 msgstr "脱出の巻物です。これを読むことにより最後に触れた石像にテレポートし、ダンジョンから脱出することが出来ます。"
 
+msgid "Portal Storm Caller"
+msgstr "ポータル嵐発生器"
+
+msgid "magic that generates portal storms. There is no need to use it at all."
+msgstr "ポータル嵐を発生させる魔法です。使う必要はこれっぽっちもないでしょう。"
+
+msgid "thin sticky honey"
+msgstr "薄いねばねばのはちみつ"
+
+msgid "sticky honey"
+msgstr "ねばねばのはちみつ"
+
+msgid "thick sticky honey"
+msgstr "厚いねばねばのはちみつ"
+
+msgid "Honey"
+msgstr "はちみつ状態"
+
+msgid "Honey[2]"
+msgstr "はちみつ状態[2]"
+
+msgid "Honey[3](max)"
+msgstr "はちみつ状態[3](max)"
+
+msgid "The movement speed is reduced for a short period of time, but recovery from injuries is faster."
+msgstr "移動速度が短時間低下しますが、その間、ケガの回復が早くなります。"
+
+msgid "Honey Assault Rifle"
+msgstr "ハニーアサルトライフル"
+
+msgid "This assault rifle is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたアサルトライフルです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Honey Burst Rifle"
+msgstr "ハニーバーストライフル"
+
+msgid "This burst rifle is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたバーストライフルです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Honey Beam Rifle"
+msgstr "ハニービームライフル"
+
+msgid "This beam rifle is made from crystallized honey. Shoots a beam of sticky honey at the target enemy."
+msgstr "はちみつが結晶化して作られたビームライフルです。対象の敵にねばねばのはちみつのビームを放つことが出来ます。"
+
+msgid "Hot Honey Shotgun"
+msgstr "ホットハニーショットガン"
+
+msgid "This Shotgun is made from crystallized honey. Shoots hot honey at the target enemy. Each shot consumes 5 bullets."
+msgstr "はちみつが結晶化して作られたショットガンです。対象の敵に熱々のはちみつを撃ちます。一回のショットにつき、5つの弾を消費します。"
+
+msgid "Crystallized honey"
+msgstr "結晶化したはちみつ"
+
+msgid "Crystallized honey. It cannot be eaten as is, but can be used in some recipes or as ammunition."
+msgstr "結晶化したはちみつです。そのままでは食べることはできませんが、いくつかのレシピ、または弾薬として使用できます。"
+
+msgid "Honey Hand Cannon"
+msgstr "ハニーハンドキャノン"
+
+msgid "This Hand Cannon is made from crystallized honey. Shoots a lump of exploding honey at the target point. Each shot consumes 20 bullets."
+msgstr "はちみつが結晶化して作られたハンドキャノンです。爆発するハチミツの塊を対象の場所に撃ちます。一回のショットにつき、20つの弾を消費します。"
+
+msgid "Honey Sub Machine Gun"
+msgstr "ハニーサブマシンガン"
+
+msgid "This sub machine gun is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたサブマシンガンです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Healing Honey Syrup"
+msgstr "回復のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking it restores HP."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとHPが回復します。"
+
+msgid "Honey Aura"
+msgstr "ハニーオーラ"
+
+msgid "Honey Aura (on)"
+msgstr "ハニーオーラ(オン)"
+
+msgid "Honicky Body"
+msgstr "ハニッキーボディ"
+
+msgid "Honicky Body (on)"
+msgstr "ハニッキーボディ(オン)"
+
+msgid "Honey Splash Damage"
+msgstr "ハニースプラッシュダメージ"
+
+msgid "Everything around you covers in honey!"
+msgstr "周囲の敵ははちみつでべたべただ!"
+
+msgid "You suppress your honey powers."
+msgstr "ハチミツパワーを抑えた!"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey. You are now suppressing this power."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。あなたは今、この力を抑えています。"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey. Each time this effect activates, you take 1 pure damage."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。この効果が発動するごとにあなたは１のピュアダメージを受けます。"
+
+msgid "Honey in a jar: Honicky Body"
+msgstr "ハチミツ瓶：ハニッキーボディ"
+
+msgid "Drinking this will permanently mutates you."
+msgstr "これを飲むと永久に変異してしまいます。"

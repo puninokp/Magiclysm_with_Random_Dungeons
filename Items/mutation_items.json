@@ -210,6 +210,16 @@
         "copy-from": "PSY_magi_potion_ManaUP500",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_HARDENSKIN1", "no_fail": true, "level": 0 },
         "price": 50000
+    },
+
+    {
+        "id": "PSY_magi_potion_PSY_HONEY_AURA_OFF",
+        "type": "COMESTIBLE",
+        "name": { "str": "Honey in a jar: Honicky Body" },
+        "description": "Drinking this will permanently mutates you.",
+        "copy-from": "PSY_magi_potion_ManaUP500",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_mutate_PSY_HONEY_AURA_OFF", "no_fail": true, "level": 0 },
+        "price": 50000
     }
 
 ]

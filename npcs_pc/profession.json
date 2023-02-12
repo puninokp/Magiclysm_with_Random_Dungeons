@@ -7,6 +7,9 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_anomaly_monster_caller", "level": 0 },
+          { "id": "PSY_portal_storm_dungeon_caller", "level": 0 },
+          { "id": "PSY_biolum_magic", "level": 0 },
           { "id": "PSY_teleport_to_statue", "level": 0 },
           { "id": "PSY_teleport_up", "level": 0 },
           { "id": "PSY_magi_item_spell_search_stairway", "level": 0 },

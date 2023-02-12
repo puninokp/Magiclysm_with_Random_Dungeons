@@ -324,7 +324,43 @@
             { "id": "PSY_mring_stamina" ,"fg": 492},
             { "id": "PSY_mring_bionic_power" ,"fg": 491},
             { "id": "PSY_mring_restore_stamina" ,"fg": 493},
-            { "id": "PSY_mring_PSY_magi_summon_boomerang" ,"fg": 425}
+            { "id": "PSY_mring_PSY_magi_summon_boomerang" ,"fg": 425},
+            { "id": "PSY_fd_honey", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":550},
+            {"weight": 10, "sprite":551},
+            {"weight": 10, "sprite":552},
+            {"weight": 10, "sprite":553},
+            {"weight": 10, "sprite":554}
+            ]
+            },
+            { "id": "PSY_honey_crossbow" ,"fg": 562},
+            { "id": "overlay_wielded_PSY_honey_crossbow" ,"fg": 563},
+            { "id": "PSY_magi_honey_gun_assault" ,"fg": 564},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_assault" ,"fg": 565},
+            { "id": "PSY_magi_honey_gun_burst" ,"fg": 566},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_burst" ,"fg": 567},
+            { "id": "PSY_magi_honey_gun_beam" ,"fg": 568},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_beam" ,"fg": 569},
+            { "id": "PSY_magi_honey_gun_shotgun" ,"fg": 572},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_shotgun" ,"fg": 573},
+            { "id": "PSY_magi_honey_gun_smg" ,"fg": 574},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_smg" ,"fg": 575},
+            { "id": "PSY_magi_magical_coin_crystallized_honey", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":585},
+            {"weight": 10, "sprite":582},
+            {"weight": 10, "sprite":583},
+            {"weight": 10, "sprite":584}
+            ]
+            },
+            { "id": "PSY_magi_healing_honey_bottle" ,"fg": 570},
+            { "id": "overlay_wielded_PSY_magi_healing_honey_bottle" ,"fg": 571},
+            { "id": "PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 570},
+            { "id": "overlay_wielded_PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 571},
+            { "id": "PSY_bolt_honey" ,"fg": 586},
+            { "id": "PSY_magi_honey_gun_hand_cannon" ,"fg": 587},
+            { "id": "overlay_wielded_PSY_magi_honey_gun_hand_cannon" ,"fg": 588}
             
             
           ]

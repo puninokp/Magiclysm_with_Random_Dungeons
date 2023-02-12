@@ -79,7 +79,7 @@
   {
     "id": "PSY_SLUDGE_AOE",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2, "size": 2 }
+    "aoe": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2,"radius": 2, "size": 2 }
   },
 
   {
@@ -91,7 +91,7 @@
   {
     "id": "PSY_EXTINGUISHER_AOE",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+    "aoe": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
   },
 
 
@@ -104,7 +104,7 @@
   {
     "id": "PSY_SHADOW_AOE",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+    "aoe": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
   },
 
   {
@@ -116,7 +116,7 @@
   {
     "id": "PSY_DAZZLING_AOE",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 2, "size": 3 }
+    "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
   },
 
   {
@@ -128,6 +128,36 @@
   {
     "id": "PSY_CLAIRVOYANT_AOE",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 2, "size": 6 }
+    "aoe": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 2,"radius": 6, "size": 6 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_1",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 1, "intensity_max": 2, "size": 1 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_2",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 2, "intensity_max": 3,"radius": 2, "size": 2 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_5",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 2, "intensity_max": 3,"radius": 5, "size": 5 }
+  },
+
+  {
+    "id": "PSY_HONEY_TRAIL_WEAK",
+    "type": "ammo_effect",
+    "trail": { "field_type": "PSY_fd_honey_weak", "intensity_min": 1, "intensity_max": 2, "chance": 50 }
+  },
+
+  {
+    "id": "PSY_EXPLOSIVE_HONEY",
+    "type": "ammo_effect",
+    "explosion": { "power": 160 }
   }
 ]

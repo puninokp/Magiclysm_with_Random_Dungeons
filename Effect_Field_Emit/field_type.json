@@ -1151,6 +1151,74 @@
         "percent_spread": 0,
         "display_items": false,
         "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_honey",
+        "type": "field_type",
+        "legacy_enum_id": 9,
+        "mopsafe": true,
+        "intensity_levels": [
+          {
+            "name": "thin sticky honey",
+            "sym": "5",
+            "color": "light_gray",
+            "dangerous": true,
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 1, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "sticky honey",
+            "color": "dark_gray",
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 2, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "thick sticky honey",
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 3, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "is_splattering": true,
+        "priority": 2,
+        "underwater_age_speedup": "30 seconds",
+        "half_life": "120 seconds",
+        "phase": "liquid",
+        "display_field": true,
+        "immunity_data": { "flags": [ "SLUDGE_IMMUNE" ] },
+        "looks_like": "fd_sludge"
+      },
+
+      {
+        "id": "PSY_fd_honey_weak",
+        "type": "field_type",
+        "legacy_enum_id": 9,
+        "mopsafe": true,
+        "intensity_levels": [
+          {
+            "name": "thin sticky honey",
+            "sym": "5",
+            "color": "light_gray",
+            "dangerous": true,
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 1, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "sticky honey",
+            "color": "dark_gray",
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 2, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          },
+          {
+            "name": "thick sticky honey",
+            "effects": [ { "effect_id": "PSY_magi_honey_effect", "intensity": 3, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false } ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "is_splattering": true,
+        "priority": 2,
+        "underwater_age_speedup": "3 seconds",
+        "half_life": "5 seconds",
+        "phase": "liquid",
+        "display_field": true,
+        "immunity_data": { "flags": [ "SLUDGE_IMMUNE" ] },
+        "looks_like": "PSY_fd_honey"
       }
 
 ]
