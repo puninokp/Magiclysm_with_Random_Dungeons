@@ -338,6 +338,19 @@
 
     {
         "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mutant_bee_boss_mon_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_magical_coin_crystallized_honey", "count": [ 60, 120 ] } ,
+            { "item": "PSY_bolt_honey", "prob": 100, "count": [ 10, 20 ] } ,
+            { "group": "PSY_honey_weapon", "prob": 100, "count": [ 1, 2 ] },
+            { "group": "PSY_magi_magic_ring_drops", "prob": 100, "count": [ 1, 3 ] },
+            { "group": "PSY_honey_food", "prob": 100, "count": [ 10, 20 ] }    
+        ]
+    },
+
+    {
+        "type": "item_group",
         "id": "PSY_magi_mon_rnd_mutant_bee_2_mon_drops",
         "subtype": "collection",
         "entries": [ 

@@ -434,9 +434,9 @@
     "vision_day": 20,
     "vision_night": 5,
     "harvest": "exempt",
-    "death_drops": "PSY_magi_mon_rnd_coin_2_mon_drops",
+    "death_drops": "PSY_magi_mon_rnd_mutant_bee_boss_mon_drops",
     "special_attacks": [
-      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_beehive_base" }, "cooldown": 12 }
+      { "type": "spell", "spell_data": { "id": "PSY_magi_spell_beehive_base" }, "cooldown": 10 }
     ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [
