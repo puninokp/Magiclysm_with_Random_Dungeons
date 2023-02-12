@@ -374,7 +374,7 @@
     "id": "PSY_magi_mon_beehive_normal",
     "type": "MONSTER",
     "name": "Giant Beehive",
-    "description": "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises.",
+    "description": "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises.It seems quite dangerous to destroy them, so attack from a distance or use good equipment.",
     "default_faction": "PSY_magi_random_dungeon_monsters",
     "bodytype": "blob",
     "looks_like": "PSY_magi_mon_plant_shooter",

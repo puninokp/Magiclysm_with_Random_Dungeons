@@ -3210,6 +3210,9 @@ msgstr "巨大なミツバチの巣が変異したものです。壊されたこ
 msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises."
 msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。"
 
+msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises.It seems quite dangerous to destroy them, so attack from a distance or use good equipment."
+msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。壊すのは相当危険に思われますので遠距離から攻撃するか良い装備で挑みましょう。"
+
 msgid "Search Stairway"
 msgstr "階段探知"
 
