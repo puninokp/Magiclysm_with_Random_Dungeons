@@ -1161,7 +1161,7 @@
         "type": "mapgen",
         "method": "json",
         "//": "a nested map for forest dungeons",
-        "nested_mapgen_id": "PSY_magi_room_forest_24x24_beehive_2_NSWE",
+        "nested_mapgen_id": "PSY_magi_room_forest_24x24_beehive_2_NSWE_base",
         "weight": 1000,
         "object": {
           "mapgensize": [ 24, 24 ],
@@ -1178,7 +1178,7 @@
             "!WW.WW.WW.WW.WW.WW.WW.W!",
             "!.WW5...WWW...WW5...WWW!",
             "!..W.....W.....W.....W.!",
-            "+..W.....W.....W.....W.+",
+            "+..W.....W..B..W.....W.+",
             "!..W.....W.....W.....W.!",
             "!.WWW...WWW...WWW...WWW!",
             "!WW.WW.WW.WW.WW.WW.WW.W!",
@@ -1194,7 +1194,100 @@
           ],
           "palettes": [ "PSY_magi_nested_dungeon_forest_beehive_pelette" ],
           "terrain": {
-            ".": "t_floor_wax"
+            ".": "t_floor_wax",
+            "B": "t_floor_wax"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for forest dungeons",
+        "nested_mapgen_id": "PSY_magi_room_forest_24x24_beehive_2_NSWE",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "!!!!!!!!!!!+!!!!!!!!!!!!",
+            "!.WWW...W.....WWW...WWW!",
+            "!WW.WW.WW.WW....WW.WW.W!",
+            "!5...WW5...WW5...WWW...!",
+            "!.....W.....W.....W....!",
+            "!.....W.....W..........!",
+            "!...........W.....W....!",
+            "!W...W.W...WWW...WWW...!",
+            "!WW.WW.WW.WW.WW.WW.WW.W!",
+            "!.WW5...WWW...WW5...W.W!",
+            "!..W.....W.....W.......!",
+            "+..W.....W..B..W.....W.+",
+            "!..W.....W.....W.....W.!",
+            "!.WWW...WWW...WWW...WWW!",
+            "!......WW....WW.WW....W!",
+            "!5...WW5...WW5...WWW...!",
+            "!.....W.....W.....W....!",
+            "!.....W.....W..........!",
+            "!.....W.....W.....W....!",
+            "!W...WWW...WWW...WWW...!",
+            "!WW.WW.WW.......WW.WW.W!",
+            "!.WWW...WWW...WWW...WWW!",
+            "!..W.....W.....W.....W.!",
+            "!!!!!!!!!!!+!!!!!!!!!!!!"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_forest_beehive_pelette" ],
+          "terrain": {
+            ".": "t_floor_wax",
+            "B": "t_floor_wax"
+          },
+          "monster": {
+            "B": { "monster": "PSY_magi_mon_beehive_normal", "chance": 100 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for forest dungeons",
+        "nested_mapgen_id": "PSY_magi_room_forest_24x24_beehive_2_NSWE",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "!!!!!!!!!!!+!!!!!!!!!!!!",
+            "!.WWW...WWW...WWW...WWW!",
+            "!WW.WW.WW....WW.WW.WW.W!",
+            "!5...WW5...WW5...WWW...!",
+            "!.....W.....W..........!",
+            "!.....W.....W.....W....!",
+            "!.....W...........W....!",
+            "!W...WWW...WWW...WWW...!",
+            "!...WW....WW.WW.WW.WW.W!",
+            "!.WW5...WWW...WW5......!",
+            "!..W.....W.....W.....W.!",
+            "+..W........B..W.....W.+",
+            "!..W.....W.....W.....W.!",
+            "!.......WWW...WWW...WWW!",
+            "!WW.WW.WW.WW.WW.WW....W!",
+            "!5...WW5...WW5...WWW...!",
+            "!.....W.....W.....W....!",
+            "!.....W.....W..........!",
+            "!.....W.....W.....W....!",
+            "!W...WWW.........WWW...!",
+            "!WW.WW.WW.WW.WW.WW.WW.W!",
+            "!.WWW...WWW...WWW...WWW!",
+            "!..W.....W.....W.....W.!",
+            "!!!!!!!!!!!+!!!!!!!!!!!!"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_forest_beehive_pelette" ],
+          "terrain": {
+            ".": "t_floor_wax",
+            "B": "t_floor_wax"
+          },
+          "monster": {
+            "B": { "monster": "PSY_magi_mon_beehive_normal", "chance": 100 }
           }
         }
       }

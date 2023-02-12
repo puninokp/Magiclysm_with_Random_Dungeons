@@ -369,7 +369,7 @@
             [ "PSY_magi_room_forest_24x24_2room_1_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_2room_2_NSWE", 5 ],
             [ "PSY_magi_room_forest_24x24_4room_1_NSWE", 5 ],
-            [ "PSY_magi_room_forest_24x24_beehive_1_NSWE", 100 ],
+            [ "PSY_magi_room_forest_24x24_beehive_2_NSWE", 30 ],
             [ "PSY_magi_room_forest_24x24_4room_2_NSWE", 5 ]
           ]
         },
@@ -511,7 +511,7 @@
     "id": "PSY_magi_nested_dungeon_forest_beehive_pelette",
     "nested": {
       "5": {
-        "//4":"nested_5x5",
+        "//4":"nested_24x24",
         "chunks": [
           [ "PSY_magi_nested_room_5x5_beehive", 3 ]
         ]
