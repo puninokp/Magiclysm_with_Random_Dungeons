@@ -1977,7 +1977,7 @@
             "!": "PSY_magi_t_dirt"
           },
           "monster": {
-            "|": { "monster": "mon_bee_small", "chance": 15 }
+            "|": { "monster": "PSY_magi_mon_bee", "chance": 15 }
           },
           "items": { 
             "|": { "item": "PSY_honey_food", "chance": 20 }
