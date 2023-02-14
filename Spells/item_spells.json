@@ -231,9 +231,31 @@
       "id": "PSY_magi_onigiri_recover_HP",
       "type": "SPELL",
       "name": "Onigiri heal",
-      "description": "You recover hp.",
+      "description": "You recover some hp.",
       "valid_targets": [ "self" ],
       "min_damage": -10,
+      "damage_increment": -2.0,
+      "max_damage": -30,
+      "max_level": 10,
+      "effect": "attack",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "message": "You are full of energy after eating a grilled rice ball.",
+      "energy_source": "MANA",
+      "base_energy_cost": 0,
+      "energy_increment": 0,
+      "final_energy_cost": 0,
+      "flags": [ "SILENT", "NO_LEGS" ],
+      "difficulty": 3
+    },
+
+    {
+      "id": "PSY_magi_honey_recover_HP",
+      "type": "SPELL",
+      "name": "Honey heal",
+      "description": "The healing honey restores a small amount of HP to you.",
+      "valid_targets": [ "self" ],
+      "min_damage": -12,
       "damage_increment": -2.0,
       "max_damage": -30,
       "max_level": 10,
@@ -2131,6 +2153,28 @@
     "final_energy_cost": 0,
     "base_casting_time": 6000,
     "final_casting_time": 6000
+  },
+
+  {
+    "id": "PSY_magi_item_spell_freeze_water",
+    "type": "SPELL",
+    "name": "Freezing Honey Syrup",
+    "description": "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles.",
+    "valid_targets": ["hostile", "ground" ,"self", "ground"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE" ,"IGNORE_WALLS"],
+    "range_increment": 1.0,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "aoe_increment": 0.125,
+    "base_energy_cost": 0,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "max_level": 0,
+    "base_casting_time": 10,
+    "energy_source": "MANA",
+    "shape": "blast",
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_freeze_water_form"
   }
 
 ]

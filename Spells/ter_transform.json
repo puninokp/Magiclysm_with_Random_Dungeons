@@ -501,6 +501,43 @@
             "valid_furniture": [ "f_null" ]    
           }
         ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_freeze_water_form",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_ice_tile",
+            "valid_terrain": [ 
+              "t_water_sh",
+              "t_water_dp",
+              "t_water_murky",
+              "t_water_moving_sh",
+              "t_water_moving_dp", 
+              "t_swater_sh",
+              "t_swater_dp",
+              "t_sewage",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors"
+            ]
+          },
+
+          {
+            "result": "PSY_magi_t_ice_tile_underground",
+            "valid_terrain": [ 
+              "t_water_pool_shallow",
+              "t_water_sh_underground",
+              "t_water_dp_underground",
+              "t_water_murky_sh_murky_underground",
+              "t_water_moving_sh_underground",
+              "t_water_moving_dp_underground",
+              "t_swater_sh_underground",
+              "t_swater_dp_underground",
+              "t_water_pool"
+            ]
+          }
+        ]
       }
 
 ]

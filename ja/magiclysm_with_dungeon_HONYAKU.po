@@ -3374,3 +3374,57 @@ msgstr "ハチミツ瓶：ハニッキーボディ"
 
 msgid "Drinking this will permanently mutates you."
 msgstr "これを飲むと永久に変異してしまいます。"
+
+msgid "Honey heal"
+msgstr "はちみつヒール"
+
+msgid "The healing honey restores a small amount of HP to you."
+msgstr "治癒効果のあるはちみつによってあなたは少量のHPを回復します。"
+
+msgid "Attracting Honey Syrup"
+msgstr "呼び寄せのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Aggressive mutant bees appear out of nowhere when you drink."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとどこからともなく攻撃的な変異バチが現れます。"
+
+msgid "Freezing Honey Syrup"
+msgstr "凍結のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. When you drink it, you release such a cold air that you freeze the water around you for a period of time."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとあなたは一定期間の間、周囲の水を凍らすほどの冷気を放ち続けます。"
+
+msgid "Charming Honey Syrup"
+msgstr "魅惑のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 100 HP in the surrounding area become friends for a certain period of time."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むと、周囲のHP100以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
+
+msgid "Terraforming Honey Syrup"
+msgstr "地形変化のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this transforms the surrounding ground and walls into wax."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、周囲の地面や壁をワックスに変形させます。"
+
+msgid "Treasure hunting Honey Syrup"
+msgstr "トレジャーハントのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. When this is drunk, the location of the treasure is marked on a map."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、お宝のありかが地図に記されます。"
+
+msgid "Boss hunting Honey Syrup"
+msgstr "ボスハントのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this will reveal the boss's lair on the map."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、ボスの巣窟が地図に記されます。"
+
+msgid "Freezing Aura"
+msgstr "凍結のオーラ"
+
+msgid "Ice floor"
+msgstr "氷の床"
+
+msgid "It's an ice floor created by magic."
+msgstr "魔法によって作られた氷の床です"
+
+msgid "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles."
+msgstr "周囲3タイルの水面を凍らせるオーラを放つ魔法です。"

@@ -356,11 +356,34 @@
             },
             { "id": "PSY_magi_healing_honey_bottle" ,"fg": 570},
             { "id": "overlay_wielded_PSY_magi_healing_honey_bottle" ,"fg": 571},
-            { "id": "PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 570},
-            { "id": "overlay_wielded_PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 571},
             { "id": "PSY_bolt_honey" ,"fg": 586},
             { "id": "PSY_magi_honey_gun_hand_cannon" ,"fg": 587},
-            { "id": "overlay_wielded_PSY_magi_honey_gun_hand_cannon" ,"fg": 588}
+            { "id": "overlay_wielded_PSY_magi_honey_gun_hand_cannon" ,"fg": 588},
+            { "id": "PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 590},
+            { "id": "overlay_wielded_PSY_magi_potion_PSY_HONEY_AURA_OFF" ,"fg": 591},
+            { "id": "PSY_magi_attracting_honey_bottle" ,"fg": 592},
+            { "id": "overlay_wielded_PSY_magi_attracting_honey_bottle" ,"fg": 593},
+            { "id": "PSY_magi_treasure_honey_bottle" ,"fg": 598},
+            { "id": "overlay_wielded_PSY_magi_treasure_honey_bottle" ,"fg": 599},
+            { "id": "PSY_magi_terraforming_honey_bottle" ,"fg": 600},
+            { "id": "overlay_wielded_PSY_magi_terraforming_honey_bottle" ,"fg": 601},
+            { "id": "PSY_magi_boss_honey_bottle" ,"fg": 602},
+            { "id": "overlay_wielded_PSY_magi_boss_honey_bottle" ,"fg": 603},
+            { "id": "PSY_magi_freezing_honey_bottle" ,"fg": 604},
+            { "id": "overlay_wielded_PSY_magi_freezing_honey_bottle" ,"fg": 605},
+            { "id": "PSY_magi_charming_honey_bottle" ,"fg": 608},
+            { "id": "overlay_wielded_PSY_magi_charming_honey_bottle" ,"fg": 609},
+            { "id": "PSY_magi_t_ice_tile", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":610},
+            {"weight": 10, "sprite":611},            
+            {"weight": 10, "sprite":612},
+            {"weight": 10, "sprite":613},
+            {"weight": 10, "sprite":614},
+            {"weight": 10, "sprite":615},
+            {"weight": 10, "sprite":616}
+            ]
+            }
             
             
           ]

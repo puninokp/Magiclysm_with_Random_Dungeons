@@ -252,15 +252,17 @@
         "id": "PSY_honey_food",
         "subtype": "distribution",
         "entries": [
-          { "item": "honeycomb", "prob": 30 },
-          { "item": "honeydew", "prob": 3 },
-          { "item": "honey_glassed", "prob": 3 },
-          { "item": "honey_gold", "prob": 1 },
-          { "item": "royal_beef", "prob": 1 },
-          { "item": "brew_mead", "prob": 1 },
-          { "item": "mead", "prob": 1 },
-          { "item": "royal_jelly", "prob": 5 },
-          { "item": "honey_ant", "prob": 5 }
+          { "item": "honeycomb", "prob": 60 },
+          { "item": "honeydew", "prob": 6 },
+          { "item": "honey_glassed", "prob": 6 },
+          { "item": "honey_gold", "prob": 2 },
+          { "item": "royal_beef", "prob": 2 },
+          { "item": "brew_mead", "prob": 2 },
+          { "item": "mead", "prob": 2 },
+          { "item": "royal_jelly", "prob": 10 },
+          { "item": "honey_ant", "prob": 10 },
+          { "item": "PSY_magi_healing_honey_bottle", "prob": 10 },
+          { "item": "PSY_magi_potion_PSY_HONEY_AURA_OFF", "prob": 3 }
         ]
       },
 

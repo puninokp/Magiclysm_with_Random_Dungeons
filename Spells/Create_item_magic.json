@@ -412,6 +412,32 @@
         "base_casting_time": 300,
         "casting_time_increment": -10.0,
         "final_casting_time": 100
+      },
+
+      {
+        "id": "PSY_magi_conj_freezing_aura",
+        "type": "SPELL",
+        "name": "Freezing Aura",
+        "description": "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles.",
+        "valid_targets": [ "self" ],
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_freezing_aura",
+        "shape": "blast",
+        "spell_class": "NONE",
+        "energy_source": "MANA",
+        "difficulty": 7,
+        "max_level": 20,
+        "min_damage": 1,
+        "max_damage": 1,
+        "base_energy_cost": 1050,
+        "energy_increment": -10.0,
+        "final_energy_cost": 850,
+        "min_duration": 6000,
+        "max_duration": 6000,
+        "duration_increment": 25,
+        "base_casting_time": 300,
+        "casting_time_increment": -10.0,
+        "final_casting_time": 100
       }
 
 ]
