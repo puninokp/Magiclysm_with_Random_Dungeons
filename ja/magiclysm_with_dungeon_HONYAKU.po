@@ -3399,6 +3399,12 @@ msgstr "魅惑のはちみつシロップ"
 msgid "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 100 HP in the surrounding area become friends for a certain period of time."
 msgstr "とろけるような甘さのはちみつのシロップです。飲むと、周囲のHP100以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
 
+msgid "Charming Aura"
+msgstr "誘惑のオーラ"
+
+msgid "You continue to emit an aura that temporarily joins monsters with less than 80 HP around you."
+msgstr "あなたは周囲のHP80以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
+
 msgid "Terraforming Honey Syrup"
 msgstr "地形変化のはちみつシロップ"
 
@@ -3428,3 +3434,15 @@ msgstr "魔法によって作られた氷の床です"
 
 msgid "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles."
 msgstr "周囲3タイルの水面を凍らせるオーラを放つ魔法です。"
+
+msgid "Magic that Summons many hostile mutant bees a little far from you."
+msgstr "自分の少し遠い場所に沢山の敵対する変異ハチを召喚する魔法。"
+
+msgid "Flower Gardening Honey Syrup"
+msgstr "花園のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this makes flowers bloom on the ground around you!"
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、周囲の地面に花を咲かせます。"
+
+msgid "magic that makes the surrounding ground bloom."
+msgstr "周囲の地面に花を咲かせる魔法です。"

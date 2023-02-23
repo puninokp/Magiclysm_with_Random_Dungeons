@@ -383,6 +383,14 @@
             {"weight": 10, "sprite":615},
             {"weight": 10, "sprite":616}
             ]
+            },
+            { "id": "PSY_fd_charming_heart", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":617},
+            {"weight": 50, "sprite":618},
+            {"weight": 50, "sprite":617},
+            {"weight": 50, "sprite":619}
+            ]
             }
             
             

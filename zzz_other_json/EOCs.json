@@ -131,5 +131,17 @@
         }
       ]
     }
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_summon_mutant_bee_hostile",
+    "global": true,
+    "effect": [
+      { "u_spawn_monster": "PSY_magi_mon_bee", "real_count": 12, "min_radius": 16, "max_radius": 20 },
+      { "u_spawn_monster": "PSY_magi_mon_mutant_bee_green_passive", "real_count": 4, "min_radius": 12, "max_radius": 18},
+      { "u_spawn_monster": "PSY_magi_mon_mutant_bee_yellow_passive", "real_count": 4, "min_radius": 10, "max_radius": 16 },
+      { "u_spawn_monster": "PSY_magi_mon_mutant_bee_red_passive", "real_count": 4, "min_radius": 8, "max_radius": 14}
+    ]
   }
 ]

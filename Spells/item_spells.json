@@ -2160,7 +2160,7 @@
     "type": "SPELL",
     "name": "Freezing Honey Syrup",
     "description": "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles.",
-    "valid_targets": ["hostile", "ground" ,"self", "ground"],
+    "valid_targets": ["hostile", "ground" ,"self","ally"],
     "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE" ,"IGNORE_WALLS"],
     "range_increment": 1.0,
     "min_aoe": 3,
@@ -2175,6 +2175,93 @@
     "shape": "blast",
     "effect": "ter_transform",
     "effect_str": "PSY_magi_freeze_water_form"
+  },
+
+  {
+    "id": "PSY_magi_item_spell_summon_mutant_bee_hostile",
+    "type": "SPELL",
+    "name": "Attracting Honey Syrup",
+    "description": "Magic that Summons many hostile mutant bees a little far from you.",
+    "valid_targets": [ "self" ],
+    "spell_class": "NONE",
+    "flags": [ "NO_EXPLOSION_SFX", "NO_FAIL", "NO_LEGS", "NO_HANDS", "VERBAL" ],
+    "difficulty": 0,
+    "min_damage": 1,
+    "max_damage": 1,
+    "duration_increment": 1,
+    "effect": "effect_on_condition",
+    "effect_str": "PSY_EOC_summon_mutant_bee_hostile",
+    "shape": "blast",
+    "energy_source": "NONE",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "base_casting_time": 6000,
+    "final_casting_time": 6000
+  },
+
+  {
+    "id": "PSY_magi_item_spell_flower_gardening",
+    "type": "SPELL",
+    "name": "Flower Gardening Honey Syrup",
+    "description": "magic that makes the surrounding ground bloom.",
+    "valid_targets": ["hostile","self", "ground","ally"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE" ],
+    "range_increment": 1.0,
+    "min_aoe": 12,
+    "max_aoe": 12,
+    "aoe_increment": 0.125,
+    "base_energy_cost": 200,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "max_level": 20,
+    "base_casting_time": 300,
+    "energy_source": "MANA",
+    "shape": "blast",
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_flower_garden_transform"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_charm_honey_syrup",
+    "name": "Charming Aura",
+    "description": "You continue to emit an aura that temporarily joins monsters with less than 80 HP around you.",
+    "valid_targets": [ "ground","hostile" ],
+    "effect": "charm_monster",
+    "message": "",
+    "min_damage": 80,
+    "max_damage": 80,
+    "max_level": 0,
+    "shape": "blast",
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 300,
+    "max_duration": 300,
+    "flags": ["NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS" ],
+    "extra_effects": [
+      { "id": "PSY_magi_spell_charm_honey_syrup_sub"}
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_charm_honey_syrup_sub",
+    "type": "SPELL",
+    "name": "Charming Aura",
+    "description": "You continue to emit an aura that temporarily joins monsters with less than 100 HP around you.",
+    "valid_targets": ["hostile", "ally" , "ground" ],
+    "flags": ["NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS" ],
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "field_id": "PSY_fd_charming_heart",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "shape": "blast",
+    "effect": "attack",
+    "max_level": 0,
+    "base_casting_time": 0,
+    "energy_source": "MANA"
   }
 
 ]

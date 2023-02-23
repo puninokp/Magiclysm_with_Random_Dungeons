@@ -67,7 +67,7 @@
         "priority": 4,
         "half_life": "10 seconds",
         "phase": "gas",
-        "display_items": false,
+        "display_items": true,
         "display_field": true,
         "looks_like": "fd_fog",
         "gas_absorption_factor": 15,
@@ -145,7 +145,7 @@
         "priority": 4,
         "half_life": "60 seconds",
         "phase": "gas",
-        "display_items": false,
+        "display_items": true,
         "display_field": true,
         "looks_like": "fd_fog",
         "gas_absorption_factor": 15,
@@ -757,7 +757,7 @@
         "decrease_intensity_on_contact": true,
         "priority": 2,
         "phase": "solid",
-        "display_items": false,
+        "display_items": true,
         "bash": {
           "str_min": 1,
           "str_max": 3,
@@ -800,7 +800,7 @@
         "decrease_intensity_on_contact": true,
         "priority": 2,
         "phase": "solid",
-        "display_items": false,
+        "display_items": true,
         "bash": {
           "str_min": 6,
           "str_max": 12,
@@ -843,7 +843,7 @@
         "priority": 2,
         "phase": "solid",
         "half_life": "60 seconds",
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -878,7 +878,7 @@
         "priority": 2,
         "phase": "solid",
         "half_life": "30 seconds",
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -915,7 +915,7 @@
         "half_life": "90 seconds",
         "phase": "gas",
         "accelerated_decay": true,
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -1033,7 +1033,7 @@
         "priority": 4,
         "half_life": "1 turns",
         "phase": "plasma",
-        "display_items": false,
+        "display_items": true,
         "display_field": true,
         "looks_like": "fd_dazzling"
       },
@@ -1055,7 +1055,7 @@
         "priority": 8,
         "half_life": "3 seconds",
         "phase": "gas",
-        "display_items": false,
+        "display_items": true,
         "display_field": true,
         "looks_like": "fd_fog"
       },
@@ -1082,7 +1082,7 @@
         "priority": 2,
         "phase": "solid",
         "half_life": "1 seconds",
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -1108,7 +1108,7 @@
         "priority": 2,
         "phase": "solid",
         "half_life": "1 seconds",
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -1137,7 +1137,7 @@
         "priority": 2,
         "phase": "solid",
         "half_life": "20 seconds",
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -1149,7 +1149,7 @@
         "looks_like": "fd_shadow",
         "phase": "solid",
         "percent_spread": 0,
-        "display_items": false,
+        "display_items": true,
         "display_field": true
       },
 
@@ -1219,6 +1219,18 @@
         "display_field": true,
         "immunity_data": { "flags": [ "SLUDGE_IMMUNE" ] },
         "looks_like": "PSY_fd_honey"
+      },
+
+      {
+        "id": "PSY_fd_charming_heart",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "Charming Aura" } ],
+        "half_life": "1 turns",
+        "looks_like": "fd_shadow",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
       }
 
 ]

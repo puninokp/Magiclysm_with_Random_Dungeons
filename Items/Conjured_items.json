@@ -645,6 +645,35 @@
             }
           ]
         }
+      },
+
+      {
+        "id": "PSY_magi_charming_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": { "str": "Charming Aura" },
+        "description": "You continue to emit an aura that temporarily joins monsters with less than 80 HP around you.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "ONLY_ONE", "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "intermittent_activation": { "effects": [ { "frequency": "1 turns", "spell_effects": [ { "id": "PSY_magi_spell_charm_honey_syrup", "hit_self": true } ] } ] }
+            }
+          ]
+        }
       }
 
 ]
