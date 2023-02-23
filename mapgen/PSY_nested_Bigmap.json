@@ -1290,6 +1290,47 @@
             "B": { "monster": "PSY_magi_mon_beehive_normal", "chance": 100 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "update_mapgen_id": "PSY_honey_treasure_map",
+        "object": {
+          "rows": [
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaa001100aaaaaaaaa",
+            "aaaaaaaaa000000aaaaaaaaa",
+            "aaaaaaaaa100001aaaaaaaaa",
+            "aaaaaaaaa000000aaaaaaaaa",
+            "aaaaaaaaa001100aaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "aaaaaaaaaaaaaaaaaaaaaaaa"
+          ],
+          "palettes": [ "portal_storm_palette" ],
+          "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN", "NO_UNDERLYING_ROTATE" ],
+          "set": [
+            { "square": "furniture", "id": "f_null", "x": 0, "x2": 23, "y": 0, "y2": 23 },
+            { "point": "trap", "id": "tr_portal_dungeon_entrance", "x": 11, "y": 11 },
+            { "point": "variable", "id": "portal_dungeon_exit", "x": 12, "y": 11 }
+          ]
+        }
       }
 
 ]

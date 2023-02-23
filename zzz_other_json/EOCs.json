@@ -143,5 +143,25 @@
       { "u_spawn_monster": "PSY_magi_mon_mutant_bee_yellow_passive", "real_count": 4, "min_radius": 10, "max_radius": 16 },
       { "u_spawn_monster": "PSY_magi_mon_mutant_bee_red_passive", "real_count": 4, "min_radius": 8, "max_radius": 14}
     ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_TREASURE_MAPGEN",
+    "effect": [
+      {
+        "u_location_variable": { "global_val": "PSY_treasure_map" },
+        "target_params": { "om_terrain": "field", "search_range": 200, "min_distance": 3, "z": 0 }
+      },
+      {
+        "u_message": "You can feel the presence of something nearby, cracked in a way you can't put into words(check mission log for details)."
+      },
+      {
+        "revert_location": { "global_val": "PSY_treasure_map" },
+        "time_in_future": "infinite",
+        "key": "PSY_honey_treasure_map"
+      },
+      { "mapgen_update": "PSY_honey_treasure_map", "target_var": { "global_val": "PSY_treasure_map" } }
+    ]
   }
 ]
