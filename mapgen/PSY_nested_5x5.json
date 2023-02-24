@@ -1936,7 +1936,7 @@
             "!": "PSY_magi_t_dirt"
           },
           "monster": {
-            "|": { "monster": "mon_bee_small", "chance": 10 }
+            "|": { "monster": "PSY_magi_mon_bee", "chance": 10 }
           },
           "items": { 
             "|": { "item": "hive", "chance": 10 }
