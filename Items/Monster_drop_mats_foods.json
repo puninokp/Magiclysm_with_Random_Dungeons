@@ -171,7 +171,7 @@
         "material": [ "wheat" ],
         "volume": "250 ml",
         "charges": 1,
-        "flags": [ "EATEN_HOT" ],
+        "flags": [ "EATEN_HOT","SINGLE_USE" ],
         "fun": 5,
         "vitamins": [ [ "vitA", 7 ],[ "vitC", 7 ], [ "calcium", 13 ], [ "iron", 6 ] ]
     },
@@ -284,7 +284,7 @@
         "primary_material": "dried_vegetable",
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spawn_vine_tentacle_permanent", "no_fail": true, "level": 0 }
     },
 
@@ -305,7 +305,7 @@
         "primary_material": "dried_vegetable",
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spawn_plant_shooter_permanent", "no_fail": true, "level": 0 }
     },
 
@@ -325,7 +325,7 @@
         "stack_size": 1,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_res_aura_heat", "no_fail": true, "level": 0 }
     },
 
@@ -345,7 +345,7 @@
         "stack_size": 1,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_res_aura_electro", "no_fail": true, "level": 0 }
     },
 
@@ -389,7 +389,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -409,7 +409,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -429,7 +429,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -450,7 +450,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -470,7 +470,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -478,7 +478,7 @@
         "id": "PSY_magi_treasure_honey_bottle",
         "name": { "str": "Treasure hunting Honey Syrup" },
         "description": "It is a honey syrup with melting sweetness. When this is drunk, the location of the treasure is marked on a map.",
-        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_honey_recover_HP", "no_fail": true, "level": 0 },
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_honey_treasure_hunt", "no_fail": true, "level": 0 },
         "type": "COMESTIBLE",
         "weight": "125 g",
         "quench": 7,
@@ -490,7 +490,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -510,7 +510,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE" ],
+        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     }
 

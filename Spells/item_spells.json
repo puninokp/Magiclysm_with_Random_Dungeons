@@ -2262,6 +2262,71 @@
     "max_level": 0,
     "base_casting_time": 0,
     "energy_source": "MANA"
+  },
+
+  {
+    "id": "PSY_magi_item_spell_honey_treasure_hunt",
+    "type": "SPELL",
+    "name": "Treasure Hunt",
+    "description": "Come on!　Let's get the treasure!",
+    "valid_targets": [ "self" ],
+    "spell_class": "NONE",
+    "flags": [ "NO_EXPLOSION_SFX", "NO_FAIL", "NO_LEGS", "NO_HANDS", "VERBAL" ],
+    "difficulty": 0,
+    "min_damage": 1,
+    "max_damage": 1,
+    "duration_increment": 1,
+    "effect": "effect_on_condition",
+    "effect_str": "PSY_EOC_TREASURE_MAPGEN",
+    "shape": "blast",
+    "energy_source": "NONE",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "base_casting_time": 600,
+    "final_casting_time": 600
+  },
+
+  {
+    "id": "PSY_magi_item_spell_open_big_treasure_chest",
+    "type": "SPELL",
+    "name": "Treasure Hunt",
+    "description": "Come on!　Let's get the treasure!",
+    "valid_targets": ["hostile","self","ground","ally"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE","IGNORE_WALLS" ],
+    "range_increment": 1.0,
+    "min_aoe": 1,
+    "max_aoe": 1,
+    "aoe_increment": 0.125,
+    "base_energy_cost": 200,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "max_level": 20,
+    "base_casting_time": 100,
+    "energy_source": "MANA",
+    "shape": "blast",
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_honey_treasure_transform"
+  },
+
+  {
+    "id": "PSY_magi_item_spell_open_chest_terrain_bashes",
+    "type": "SPELL",
+    "name": "Bash ground",
+    "description": "Bashes the terrain at the target area and destroy fragile furnitures and plants.",
+    "valid_targets": ["hostile","self","ground","ally"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE","IGNORE_WALLS" ],
+    "effect": "bash",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "base_energy_cost": 0,
+    "min_damage": 1,
+    "max_damage": 1,
+    "max_level": 20,
+    "min_aoe": 1,
+    "max_aoe": 1
   }
 
 ]

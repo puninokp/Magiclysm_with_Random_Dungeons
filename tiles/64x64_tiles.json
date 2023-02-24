@@ -73,7 +73,13 @@
             {"weight": 10, "sprite":78},
             {"weight": 10, "sprite":75}
             ]
-            }
+            },
+            { "id": "PSY_magi_f_honey_treasure_chest_closed" ,"fg": 80 },
+            { "id": "PSY_magi_f_honey_treasure_chest_opened" ,"fg": 81 },
+            { "id": "PSY_magi_f_honey_treasure_chest_event_closed" ,"fg": 82 },
+            { "id": "PSY_magi_f_honey_treasure_chest_event_opened" ,"fg": 83 },
+            { "id": "PSY_magi_f_honey_treasure_chest_potion_closed" ,"fg": 84 },
+            { "id": "PSY_magi_f_honey_treasure_chest_potion_opened" ,"fg": 85 }
 
           ]
         }

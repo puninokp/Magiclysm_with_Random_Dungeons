@@ -98,6 +98,7 @@
         "id": "PSY_magi_mon_ninja_drop_scrolls",
         "items": [
           { "item": "PSY_magi_scroll_big_room", "prob": 1 },
+          { "item": "PSY_magi_scroll_search_stairway", "prob": 2 },
           { "item": "PSY_magi_scroll_of_Nothing_Written", "prob": 1 },
           { "item": "PSY_magi_scroll_of_Light", "prob": 3 },
           { "item": "PSY_magi_scroll_of_Frighten", "prob": 3 },
@@ -259,10 +260,15 @@
           { "item": "royal_beef", "prob": 2 },
           { "item": "brew_mead", "prob": 2 },
           { "item": "mead", "prob": 2 },
-          { "item": "royal_jelly", "prob": 10 },
-          { "item": "honey_ant", "prob": 10 },
+          { "item": "royal_jelly", "prob": 5 },
+          { "item": "honey_ant", "prob": 5 },
+          { "item": "PSY_magi_attracting_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_freezing_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_charming_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_terraforming_honey_bottle", "prob": 4 },
+          { "item": "PSY_magi_treasure_honey_bottle", "prob": 3 },
           { "item": "PSY_magi_healing_honey_bottle", "prob": 10 },
-          { "item": "PSY_magi_potion_PSY_HONEY_AURA_OFF", "prob": 3 }
+          { "item": "PSY_magi_potion_PSY_HONEY_AURA_OFF", "prob": 1 }
         ]
       },
 
@@ -271,7 +277,7 @@
         "id": "PSY_honey_terrain_flower_drops",
         "subtype": "distribution",
         "entries": [
-          { "group": "PSY_honey_food", "prob": 60 },
+          { "group": "PSY_honey_food", "prob": 80 },
           { "item": "PSY_bolt_honey", "prob": 5, "count": [ 1, 2 ] } ,
           { "item": "PSY_magi_magical_coin_crystallized_honey", "prob": 10, "count": [ 5, 10 ] } ,
           { "group": "PSY_honey_weapon", "prob": 5 },

@@ -1,0 +1,16 @@
+[
+
+    {
+        "id": "PSY_MISSION_INVESTIGATE_TREASURE_HUNT",
+        "type": "mission_definition",
+        "name": { "str": "Investigate Treasure Location" },
+        "goal": "MGOAL_GO_TO",
+        "description": "Come on!　Let's get the treasure!",
+        "difficulty": 0,
+        "value": 0,
+        "invisible_on_complete": true,
+        "start": { "assign_mission_target": { "var": { "global_val": "PSY_treasure_map" } } }
+    }
+
+
+]

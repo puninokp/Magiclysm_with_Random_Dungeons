@@ -486,7 +486,7 @@
         "id":"PSY_magi_flower_transform",
         "furniture":[
           {
-            "result": [ [ "PSY_magi_f_honey_random", 1 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
+            "result": [ [ "PSY_magi_f_honey_random", 2 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
             "valid_furniture": [ 
               "f_mutpoppy",
               "f_dandelion",
@@ -558,6 +558,31 @@
               "t_swater_dp_underground",
               "t_water_pool"
             ]
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_honey_treasure_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_closed" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_event_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_event_closed" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_potion_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_potion_closed" ],
+            "message": "",
+            "message_good": true
           }
         ]
       }

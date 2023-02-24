@@ -3446,3 +3446,24 @@ msgstr "とろけるような甘さのはちみつのシロップです。これ
 
 msgid "magic that makes the surrounding ground bloom."
 msgstr "周囲の地面に花を咲かせる魔法です。"
+
+msgid "Investigate Treasure Location"
+msgstr "宝の在処を調査する"
+
+msgid "Come on!　Let's get the treasure!"
+msgstr "さあ!　宝物を手に入れよう!"
+
+msgid "You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest."
+msgstr "あなたは宝箱を開けた！　殴ると宝箱の中身を獲得することが出来ます。"
+
+msgid "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest."
+msgstr "とても大きくて豪華な宝箱です。`E`ボタンを押して開けることが出来ます。開けた後にその宝箱を壊す必要があります。"
+
+msgid "Treasure Hunt"
+msgstr "トレジャーハント"
+
+msgid "Gorgeous big treasure chest"
+msgstr "豪華な大きな宝箱"
+
+msgid "Opened Treasure chest"
+msgstr "開いた宝箱"

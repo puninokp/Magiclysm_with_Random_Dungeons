@@ -156,12 +156,43 @@
       {
         "u_message": "You can feel the presence of something nearby, cracked in a way you can't put into words(check mission log for details)."
       },
+      { "assign_mission": "PSY_MISSION_INVESTIGATE_TREASURE_HUNT" },
       {
         "revert_location": { "global_val": "PSY_treasure_map" },
         "time_in_future": "infinite",
         "key": "PSY_honey_treasure_map"
       },
       { "mapgen_update": "PSY_honey_treasure_map", "target_var": { "global_val": "PSY_treasure_map" } }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_treasure_open",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_big_treasure_chest",
+          "message": "You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest."
+        },
+        "targeted": false
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_treasure_bash",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_chest_terrain_bashes",
+          "message": ""
+        },
+        "targeted": false
+      }
     ]
   }
 ]

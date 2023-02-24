@@ -475,7 +475,6 @@
     "id": "PSY_magi_f_dungeon_exit_teleport",
     "name": "Teleport stone statue",
     "description": "It is an unusual looking stone statue. Once activated, it is possible to return to the vicinity of the stone statue with an item obtained from defeating a boss.",
-	  "//": "On examine, activates the EOC chain which lets you teleport away. I made it light and easy to push around so you could reorganize your base easily.",
     "symbol": "S",
     "color": "dark_gray",
 	  "looks_like": "f_statue",
@@ -554,6 +553,166 @@
       "type": "effect_on_condition",
       "effect_on_conditions": ["EOC_PSY_teleport_stone"]
     }
-  }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_event_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_potion_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+    
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_event_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_potion_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	}
 
 ]
