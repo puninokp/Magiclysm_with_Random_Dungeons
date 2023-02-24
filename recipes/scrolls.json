@@ -17,6 +17,22 @@
     },
 
     {
+      "type": "recipe",
+      "result": "PSY_magi_scroll_search_stairway",
+      "id_suffix": "using_mwmi",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_SCROLL",
+      "skill_used": "chemistry",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "components": [
+         [ [ "PSY_magi_magical_coin_bronze", 20 ] ],
+         [ [ "PSY_magi_scroll_of_Nothing_Written", 1 ] ]
+       ]
+    },
+
+    {
         "type": "recipe",
         "result": "PSY_magi_scroll_of_Light",
         "id_suffix": "using_mwmi",
