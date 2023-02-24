@@ -262,7 +262,7 @@
       "effect": "attack",
       "shape": "blast",
       "spell_class": "NONE",
-      "message": "You are full of energy after eating a grilled rice ball.",
+      "message": "You drank melted sweet honey and your HP is restored.",
       "energy_source": "MANA",
       "base_energy_cost": 0,
       "energy_increment": 0,

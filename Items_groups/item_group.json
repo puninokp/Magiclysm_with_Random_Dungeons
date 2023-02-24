@@ -279,7 +279,7 @@
         "entries": [
           { "group": "PSY_honey_food", "prob": 80 },
           { "item": "PSY_bolt_honey", "prob": 5, "count": [ 1, 2 ] } ,
-          { "item": "PSY_magi_magical_coin_crystallized_honey", "prob": 10, "count": [ 5, 10 ] } ,
+          { "item": "PSY_magi_magical_coin_crystallized_honey", "prob": 40, "count": [ 5, 10 ] } ,
           { "group": "PSY_honey_weapon", "prob": 5 },
           { "item": "tool_small_primitive_fragmentation_device", "prob": 1 }
         ]

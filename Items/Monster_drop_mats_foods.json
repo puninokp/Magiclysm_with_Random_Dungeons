@@ -436,7 +436,7 @@
     {
         "id": "PSY_magi_charming_honey_bottle",
         "name": { "str": "Charming Honey Syrup" },
-        "description": "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 100 HP in the surrounding area become friends for a certain period of time.",
+        "description": "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 80 HP in the surrounding area become friends for a certain period of time.",
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_charming_aura", "no_fail": true, "level": 0 },
         "type": "COMESTIBLE",
         "weight": "125 g",

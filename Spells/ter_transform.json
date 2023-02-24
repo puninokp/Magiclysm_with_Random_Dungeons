@@ -486,7 +486,7 @@
         "id":"PSY_magi_flower_transform",
         "furniture":[
           {
-            "result": [ [ "PSY_magi_f_honey_random", 2 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
+            "result": [ [ "PSY_magi_f_honey_random", 3 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
             "valid_furniture": [ 
               "f_mutpoppy",
               "f_dandelion",

@@ -1143,6 +1143,9 @@ msgstr "月光の力を凝縮し、それをレーザーとして放つ魔法。
 msgid "Onigiri heal"
 msgstr "おにぎりヒール"
 
+msgid "You are full of energy after eating a grilled rice ball."
+msgstr "焼きおにぎりを食べて元気いっぱいです。"
+
 msgid "You recover some hp."
 msgstr "いくつかのHPを回復します。"
 
@@ -2956,6 +2959,9 @@ msgstr "究極魔法"
 msgid "SCROLL"
 msgstr "巻物"
 
+msgid "HONEY"
+msgstr "はちみつ"
+
 msgid "Scroll of [Blade Dance]"
 msgstr "【剣の舞】の巻物"
 
@@ -3396,8 +3402,8 @@ msgstr "とろけるような甘さのはちみつのシロップです。飲む
 msgid "Charming Honey Syrup"
 msgstr "魅惑のはちみつシロップ"
 
-msgid "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 100 HP in the surrounding area become friends for a certain period of time."
-msgstr "とろけるような甘さのはちみつのシロップです。飲むと、周囲のHP100以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
+msgid "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 80 HP in the surrounding area become friends for a certain period of time."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むと、周囲のHP80以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
 
 msgid "Charming Aura"
 msgstr "誘惑のオーラ"
@@ -3467,3 +3473,9 @@ msgstr "豪華な大きな宝箱"
 
 msgid "Opened Treasure chest"
 msgstr "開いた宝箱"
+
+msgid "You drank melted sweet honey and your HP was restored."
+msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
+
+msgid "You drank melted sweet honey and your HP is restored."
+msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
