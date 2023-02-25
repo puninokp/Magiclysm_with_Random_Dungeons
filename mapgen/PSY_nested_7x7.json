@@ -50,11 +50,11 @@
           ],
           "rows": [
             "|||||||",
-            "|||||||",
+            "|X|||X|",
+            "t|%%%|t",
             "||%%%||",
-            "||%%%||",
-            "||%%%||",
-            "|||||||",
+            "t|%%%|t",
+            "|!|||!|",
             "|||||||"
           ],
           "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
@@ -203,13 +203,13 @@
             { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
           ],
           "rows": [
-            "Xwh|||X",
-            "|||||||",
-            "~|%%%|~",
-            "||%%%||",
-            "~|%%%|~",
-            "|~|||~|",
-            "@@~~~Zz"
+            "|X|||||",
+            "|~~~~~|",
+            "|~%%%~|",
+            "|&%%%~|",
+            "|~%%%~|",
+            "|~~~~~|",
+            "|||||X|"
           ],
           "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
@@ -234,8 +234,8 @@
             "|": "PSY_magi_t_strconc_floor",
             "h": "PSY_magi_t_strconc_floor",
             "!": "PSY_magi_t_strconc_floor",
-            "~": "PSY_magi_t_strconc_floor",
             "1": "PSY_magi_t_strconc_floor",
+            "~": "t_wall_glassteel_alarm",
             "c": "PSY_magi_t_strconc_floor",
             "z": "PSY_magi_t_strconc_floor",
             "Z": "PSY_magi_t_strconc_floor",
