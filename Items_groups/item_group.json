@@ -253,7 +253,7 @@
         "id": "PSY_honey_food",
         "subtype": "distribution",
         "entries": [
-          { "item": "honeycomb", "prob": 60 },
+          { "item": "honeycomb", "prob": 80 },
           { "item": "honeydew", "prob": 6 },
           { "item": "honey_glassed", "prob": 6 },
           { "item": "honey_gold", "prob": 2 },
@@ -266,9 +266,23 @@
           { "item": "PSY_magi_freezing_honey_bottle", "prob": 5 },
           { "item": "PSY_magi_charming_honey_bottle", "prob": 5 },
           { "item": "PSY_magi_terraforming_honey_bottle", "prob": 4 },
-          { "item": "PSY_magi_treasure_honey_bottle", "prob": 3 },
+          { "item": "PSY_magi_treasure_honey_bottle", "prob": 2 },
           { "item": "PSY_magi_healing_honey_bottle", "prob": 10 },
           { "item": "PSY_magi_potion_PSY_HONEY_AURA_OFF", "prob": 1 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_honey_potion_shop",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_attracting_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_freezing_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_charming_honey_bottle", "prob": 5 },
+          { "item": "PSY_magi_terraforming_honey_bottle", "prob": 4 },
+          { "item": "PSY_magi_treasure_honey_bottle", "prob": 1 },
+          { "item": "PSY_magi_healing_honey_bottle", "prob": 10 }
         ]
       },
 
@@ -279,8 +293,8 @@
         "entries": [
           { "group": "PSY_honey_food", "prob": 80 },
           { "item": "PSY_bolt_honey", "prob": 5, "count": [ 1, 2 ] } ,
-          { "item": "PSY_magi_magical_coin_crystallized_honey", "prob": 40, "count": [ 5, 10 ] } ,
-          { "group": "PSY_honey_weapon", "prob": 5 },
+          { "item": "PSY_magi_magical_coin_crystallized_honey", "prob": 60, "count": [ 3, 7 ] } ,
+          { "group": "PSY_honey_weapon", "prob": 4 },
           { "item": "tool_small_primitive_fragmentation_device", "prob": 1 }
         ]
       },
@@ -298,6 +312,37 @@
           { "item": "PSY_magi_honey_gun_beam", "prob": 10 },
           { "item": "PSY_honey_crossbow", "prob": 10 }
         ]
+      },
+
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_NC_FORGE_LORD_STORE",
+        "items": [
+          { "group": "enchanted_combat_items", "count": [ 4, 6 ], "prob": 100 },
+          { "group": "potions_common", "count": [ 4, 6 ], "prob": 100 },
+          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count": [ 2, 4 ], "prob": 100 },
+          { "group": "enchanted_misc", "count": [ 3, 4 ],"prob": 100 },
+          { "group": "PSY_honey_potion_shop", "count": [ 2, 3 ],"prob": 100 },
+          { "group": "enchanted_rings_unusual","prob": 20 },
+          { "group": "enchanted_rings_rare","prob": 40 },
+          { "group": "enchanted_wands_greater","prob": 60 },
+          { "group": "enchanted_wands_lesser", "count": [ 1, 2 ],"prob": 100 },
+          { "group": "enchanted_rings_common", "prob": 80 },
+          { "group": "enchanted_rings_uncommon", "prob": 50 },
+          { "group": "enchanted_bracelets", "prob": 32 },
+          { "group": "enchanted_belts", "prob": 15 },
+          { "group": "PSY_magi_weapon_shield_drops", "prob": 100 },
+          { "group": "spellbook_loot_1", "prob": 100}
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_NC_FORGE_LORD_SHOP",
+        "items": [ { "group": "PSY_NC_FORGE_LORD_STORE", "count": [ 2, 3 ], "prob": 100 } ]
       }
 
 

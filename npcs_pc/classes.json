@@ -48,6 +48,32 @@
     "id": "PSY_magi_clone_wield",
     "subtype": "collection",
     "entries": [ { "item": "null" } ]
+  },
+
+  {
+    "type": "npc_class",
+    "id": "PSY_NC_FORGE_LORD",
+    "name": { "str": "Wondrous Dreamer" },
+    "job_description": "I created this place from dreams and magic.",
+    "traits": [ { "trait": "PSY_VAULT_SUMMONER" },{ "trait": "PSY_VAULT_DEFENDER" }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "//": "This is a unique NPC who doesn't get randomly selected background traits",
+    "common": false,
+    "bonus_dex": { "rng": [ 20, 25 ] },
+    "bonus_str": { "rng": [ 20, 25 ] },
+    "bonus_int": { "rng": [ 20, 25 ] },
+    "bonus_per": { "rng": [ 20, 25 ] },
+    "shopkeeper_item_group": [ { "group": "PSY_NC_FORGE_LORD_SHOP", "rigid": true } ],
+    "worn_override": "NC_FORGE_LORD_clothes",
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "constant": -2 }, { "one_in": 4 } ] } ] }
+      },
+      { "skill": "mechanics", "bonus": { "one_in": 2 } },
+      { "skill": "computer", "bonus": { "one_in": 2 } },
+      { "skill": "electronics", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "speech", "bonus": { "rng": [ 10, 20 ] } }
+    ]
   }
 
 ]

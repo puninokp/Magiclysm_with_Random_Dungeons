@@ -389,7 +389,7 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 2500
     },
 
@@ -409,8 +409,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 22500
     },
 
     {
@@ -429,8 +429,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 12500
     },
 
     {
@@ -450,8 +450,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 22500
     },
 
     {
@@ -470,8 +470,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 16500
     },
 
     {
@@ -490,8 +490,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 120000
     },
 
     {
@@ -510,8 +510,8 @@
         "symbol": "~",
         "color": "light_blue",
         "comestible_type": "DRINK",
-        "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-        "price": 2500
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "price": 250000
     }
 
 

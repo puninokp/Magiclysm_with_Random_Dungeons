@@ -50,96 +50,18 @@
           ],
           "rows": [
             "|||||||",
-            "|X|||X|",
-            "t|%%%|t",
+            "|||||||",
             "||%%%||",
-            "t|%%%|t",
-            "|!|||!|",
+            "||%%%||",
+            "||%%%||",
+            "|||||||",
             "|||||||"
           ],
-          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
+          "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": true },
-            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
-          },
-          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
-          "terrain": {
-            "w": "t_water_sh",
-            "l": "t_lava",
-            "#": "t_strconc_wall",
-            "t": "t_ov_reb_cage",
-            "%": "PSY_magi_t_carpet_red",
-            "W": "t_water_dp",
-            "3": "t_water_moving_sh_underground",
-            " ": "t_region_groundcover_forest",
-            "T": "t_trunk",
-            "&": "t_ballistic_door_glass_c",
-            ".": "t_window_stained_green",
-            "X": "PSY_magi_t_strconc_floor",
-            "|": "PSY_magi_t_strconc_floor",
-            "h": "PSY_magi_t_strconc_floor",
-            "!": "PSY_magi_t_strconc_floor",
-            "~": "PSY_magi_t_strconc_floor",
-            "1": "PSY_magi_t_strconc_floor",
-            "z": "PSY_magi_t_strconc_floor",
-            "Z": "PSY_magi_t_strconc_floor",
-            "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
-            "f": "PSY_magi_t_strconc_floor",
-            "F": "PSY_magi_t_strconc_floor",
-            "8": "PSY_magi_t_strconc_floor",
-            "9": "t_vault_vent",
-            "2": "PSY_magi_t_strconc_floor",
-            "4": "PSY_magi_t_thconc_floor",
-            "+": "t_railroad_rubble"
-          },
-          "furniture": {
-            "h": "f_demon_forge",
-            "@": "f_logstool",
-            "c": "f_orrery",
-            "Y": [ [ "f_boulder_small", 5 ], "f_boulder_medium", "f_boulder_large", "f_glow_boulder" ],
-            "=": "f_huge_mana_crystal",
-            "z": "f_alembic",
-            "Z": "f_magic_bench",
-            "!": "f_anvil",
-            "f": "f_table",
-            "2": "f_everburning_candelabra"
-          },
-          "items": {
-            "%": [
-              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
-              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
-              { "item": "magic_smith", "chance": 15 }
-            ]
-          }
-        }
-      },
-
-      {
-        "type": "mapgen",
-        "method": "json",
-        "//": "a nested map for basements",
-        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_2",
-        "weight": 1000,
-        "object": {
-          "mapgensize": [ 7, 7 ],
-          "rotation": [ 0, 3 ],
-          "faction_owner": [
-            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
-          ],
-          "rows": [
-            "Xwh|||X",
-            "|||||||",
-            "~|%%%|~",
-            "||%%%||",
-            "~|%%%|~",
-            "|~|||~|",
-            "@@~~~Zz"
-          ],
-          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
-          "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": true },
-            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3},  
-            "~": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
+            "X": { "monster": "mon_forgeborn", "friendly": false },
+            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
+            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
           },
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
@@ -185,13 +107,9 @@
             "f": "f_table",
             "2": "f_everburning_candelabra"
           },
-          "items": {
-            "%": [
-              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
-              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
-              { "item": "magic_smith", "chance": 15 }
-            ]
-          }
+          "place_zones": [
+            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+          ]
         }
       },
 
@@ -199,7 +117,7 @@
         "type": "mapgen",
         "method": "json",
         "//": "a nested map for basements",
-        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_3",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_2",
         "weight": 1000,
         "object": {
           "mapgensize": [ 7, 7 ],
@@ -208,18 +126,19 @@
             { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
           ],
           "rows": [
-            "|X|||||",
-            "|~~~~~|",
-            "|~%%%~|",
-            "|&%%%~|",
-            "|~%%%~|",
-            "|~~~~~|",
-            "|||||X|"
+            "Xwh|||X",
+            "|||||||",
+            "~|%%%|~",
+            "||%%%||",
+            "~|%%%|~",
+            "|~|||~|",
+            "@@~~~Zz"
           ],
-          "place_npcs": [ { "class": "forge_lord_merchant", "x": 3, "y": 3 } ],
+          "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": true },
-            "|": { "monster": "mon_forgedwarves", "friendly": true , "chance": 3}  
+            "X": { "monster": "mon_forgeborn", "friendly": false },
+            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
+            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
           },
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
@@ -238,10 +157,12 @@
             "|": "PSY_magi_t_strconc_floor",
             "h": "PSY_magi_t_strconc_floor",
             "!": "PSY_magi_t_strconc_floor",
-            "~": "t_wall_glassteel_alarm",
+            "~": "PSY_magi_t_strconc_floor",
             "1": "PSY_magi_t_strconc_floor",
+            "c": "PSY_magi_t_strconc_floor",
             "z": "PSY_magi_t_strconc_floor",
             "Z": "PSY_magi_t_strconc_floor",
+            "@": "PSY_magi_t_strconc_floor",
             "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
             "f": "PSY_magi_t_strconc_floor",
             "F": "PSY_magi_t_strconc_floor",
@@ -263,13 +184,86 @@
             "f": "f_table",
             "2": "f_everburning_candelabra"
           },
-          "items": {
-            "%": [
-              { "item": "NC_FORGE_LORD_STORE", "chance": 100 },
-              { "item": "forge_vault_items", "chance": 10, "repeat": [ 1, 2 ] },
-              { "item": "magic_smith", "chance": 15 }
-            ]
-          }
+          "place_zones": [
+            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_7x7_forge_3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 7, 7 ],
+          "rotation": [ 0, 3 ],
+          "faction_owner": [
+            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+          ],
+          "rows": [
+            "Xwh|||X",
+            "|||||||",
+            "~|%%%|~",
+            "||%%%||",
+            "~|%%%|~",
+            "|~|||~|",
+            "@@~~~Zz"
+          ],
+          "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
+          "monster": { 
+            "X": { "monster": "mon_forgeborn", "friendly": false },
+            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
+            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
+          },
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "w": "t_water_sh",
+            "l": "t_lava",
+            "#": "t_strconc_wall",
+            "t": "t_ov_reb_cage",
+            "%": "PSY_magi_t_carpet_red",
+            "W": "t_water_dp",
+            "3": "t_water_moving_sh_underground",
+            " ": "t_region_groundcover_forest",
+            "T": "t_trunk",
+            "&": "t_ballistic_door_glass_c",
+            ".": "t_window_stained_green",
+            "X": "PSY_magi_t_strconc_floor",
+            "|": "PSY_magi_t_strconc_floor",
+            "h": "PSY_magi_t_strconc_floor",
+            "!": "PSY_magi_t_strconc_floor",
+            "~": "PSY_magi_t_strconc_floor",
+            "1": "PSY_magi_t_strconc_floor",
+            "c": "PSY_magi_t_strconc_floor",
+            "z": "PSY_magi_t_strconc_floor",
+            "Z": "PSY_magi_t_strconc_floor",
+            "@": "PSY_magi_t_strconc_floor",
+            "$": [ "PSY_magi_t_strconc_floor", "t_vault_vent" ],
+            "f": "PSY_magi_t_strconc_floor",
+            "F": "PSY_magi_t_strconc_floor",
+            "8": "PSY_magi_t_strconc_floor",
+            "9": "t_vault_vent",
+            "2": "PSY_magi_t_strconc_floor",
+            "4": "PSY_magi_t_thconc_floor",
+            "+": "t_railroad_rubble"
+          },
+          "furniture": {
+            "h": "f_demon_forge",
+            "@": "f_logstool",
+            "c": "f_orrery",
+            "Y": [ [ "f_boulder_small", 5 ], "f_boulder_medium", "f_boulder_large", "f_glow_boulder" ],
+            "=": "f_huge_mana_crystal",
+            "z": "f_alembic",
+            "Z": "f_magic_bench",
+            "!": "f_anvil",
+            "f": "f_table",
+            "2": "f_everburning_candelabra"
+          },
+          "place_zones": [
+            { "type": "LOOT_ITEM_GROUP", "filter": "NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+          ]
         }
       },
 
