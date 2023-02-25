@@ -12,7 +12,7 @@
         "volume": "1500 ml",
         "weight": "136 g",
         "hp": 40,
-        "speed": 999,
+        "speed": 300,
         "luminance": 5,
         "material": [ "powder" ],
         "symbol": "o",
@@ -31,6 +31,7 @@
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
           "FLIES",
+          "SEES",
           "PATH_AVOID_DANGER_1",
           "HARDTOSHOOT",
           "NOGIB",
@@ -39,8 +40,7 @@
           "COLDPROOF", 
           "FIREPROOF",
           "ACIDPROOF",
-          "PACIFIST",
-          "IMMOBILE"
+          "PACIFIST"
         ]
       },
 
@@ -1272,9 +1272,9 @@
       },
 
       {
-        "id": "mon_forgeborn_armored_dog",
+        "id": "PSY_mon_forgeborn_armored_dog",
         "type": "MONSTER",
-        "name": { "str": "forge born" },
+        "name": { "str": "Forgeborn Watchdog." },
         "description": "The most elaborate, gaudy and overwrought clockwork creature that you've ever seen.  Each one has its face designed in a mask displaying a single emotion.  Blades extend from the wrists in combat.",
         "default_faction": "wonder_forge",
         "looks_like": "mon_dog",

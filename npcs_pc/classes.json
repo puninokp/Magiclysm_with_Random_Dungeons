@@ -73,7 +73,8 @@
       { "skill": "computer", "bonus": { "one_in": 2 } },
       { "skill": "electronics", "bonus": { "rng": [ 0, 2 ] } },
       { "skill": "speech", "bonus": { "rng": [ 10, 20 ] } }
-    ]
+    ],
+    "spells": [  { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG", "level": 0 } ]
   }
 
 ]

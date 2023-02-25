@@ -13,7 +13,8 @@
             { "id": "PSY_magi_rnd_mon_blaze_bird","fg": 0 },
             { "id": "PSY_magi_rnd_mon_thunder_bird" ,"fg": 1 },
             { "id": "PSY_magi_rnd_mon_eye_turret" ,"fg": 2},
-            { "id": "PSY_magi_mon_skeleton_snake" ,"fg": 3}
+            { "id": "PSY_magi_mon_skeleton_snake" ,"fg": 3},
+            { "id": "PSY_mon_forgeborn_armored_dog" ,"fg": 22}
           ]
         },
         {

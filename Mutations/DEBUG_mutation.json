@@ -64,27 +64,7 @@
         ]
       },
 
-      {
-        "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG",
-        "type": "SPELL",
-        "name": "Soul Pressure",
-        "description": "This is a spell that represents the Soulfire putting a burning pressure on nearby opponents.  If you are seeing this spell, you have debugged it in.",
-        "flags": ["HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION" ],
-        "valid_targets": [ "ground" ],
-        "base_casting_time": 100,
-        "min_damage": 1,
-        "max_damage": 1,
-        "min_aoe": 6,
-        "max_aoe": 6,
-        "min_range": 30,
-        "max_range": 30,
-        "min_duration": 1000,
-        "max_duration": 3000,
-        "message": "",
-        "shape": "blast",
-        "effect": "summon",
-        "effect_str": "mon_forgeborn_armored_dog"
-      },
+
       {
         "type": "mutation",
         "id": "PSY_VAULT_SUMMONER",
@@ -97,8 +77,7 @@
         "enchantments": [
           {
             "condition": "ALWAYS",
-            "values": [ { "value": "PERCEPTION", "add": 5 } ],
-            "hit_me_effect": [ { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG", "hit_self": false } ]
+            "values": [ { "value": "PERCEPTION", "add": 5 } ]
           }
         ]
       }

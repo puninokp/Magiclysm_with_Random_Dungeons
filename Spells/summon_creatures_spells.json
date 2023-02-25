@@ -349,6 +349,73 @@
       "min_duration": 36000,
       "max_duration": 108000,
       "duration_increment": 3600
+    },
+
+    {
+      "type": "SPELL",
+      "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG",
+      "name": "knight charge",
+      "description": "Causes one of the summon spells to be cast.",
+      "valid_targets": ["hostile","self","ground"],
+      "effect": "none",
+      "shape": "blast",
+      "min_damage": 1,
+      "max_damage": 1,
+      "base_casting_time": 100,
+      "base_energy_cost": 500,
+      "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+      "min_range": 15,
+      "max_range": 15,
+      "message": "",
+      "extra_effects": [
+        { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG_sub", "hit_self": true },
+        { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG_sub2", "hit_self": true }
+      ]
+    },
+
+    {
+      "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG_sub",
+      "type": "SPELL",
+      "name": "Soul Pressure",
+      "description": "This is a spell that represents the Soulfire putting a burning pressure on nearby opponents.  If you are seeing this spell, you have debugged it in.",
+      "flags": ["HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET" ],
+      "valid_targets": [ "ground" ],
+      "base_casting_time": 100,
+      "min_damage": 1,
+      "max_damage": 1,
+      "min_range": 6,
+      "max_range": 6,
+      "base_energy_cost": 50,
+      "min_duration": 3000,
+      "max_duration": 3000,
+      "message": "",
+      "shape": "blast",
+      "effect": "summon",
+      "effect_str": "PSY_mon_forgeborn_armored_dog",
+      "extra_effects": [
+        { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG_sub2", "hit_self": true }
+      ]
+    },
+
+    {
+      "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG_sub2",
+      "type": "SPELL",
+      "name": "Scroll of Freese",
+      "description": "A spell scroll that affects a slightly wide area. It freezes all affected enemy units to unable to action for a short while.",
+      "valid_targets": ["self" ],
+      "flags": [ "NO_EXPLOSION_SFX","NO_LEGS", "NO_HANDS","SOMATIC", "LOUD", "NO_PROJECTILE" ,"IGNORE_WALLS"],
+      "base_energy_cost": 200,
+      "effect": "attack",
+      "effect_str": "dazed",
+      "min_duration": 300,
+      "max_duration": 300,
+      "shape": "blast",
+      "difficulty": 4,
+      "min_damage": -5,
+      "max_damage": -5,
+      "max_level": 0,
+      "base_casting_time": 100,
+      "energy_source": "MANA"
     }
 
 

@@ -3479,3 +3479,6 @@ msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
 
 msgid "You drank melted sweet honey and your HP is restored."
 msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
+
+msgid "Forgeborn Watchdog."
+msgstr "フォージボーンの番犬"
