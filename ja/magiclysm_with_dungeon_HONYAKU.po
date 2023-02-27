@@ -3534,23 +3534,23 @@ msgstr "DEXキャンディー[2]"
 msgid "DEX Candy[3](max)"
 msgstr "DEXキャンディー[3](max)"
 
-msgid "PER Candy Candy"
-msgstr "PER Candyキャンディー"
+msgid "PER Candy"
+msgstr "PER キャンディー"
 
-msgid "PER Candy Candy[2]"
-msgstr "PER Candyキャンディー[2]"
+msgid "PER Candy[2]"
+msgstr "PER キャンディー[2]"
 
-msgid "PER Candy Candy[3](max)"
-msgstr "PER Candyキャンディー[3](max)"
+msgid "PER Candy[3](max)"
+msgstr "PER キャンディー[3](max)"
 
-msgid "INT Candy Candy"
-msgstr "INT Candyキャンディー"
+msgid "INT Candy"
+msgstr "INT キャンディー"
 
-msgid "INT Candy Candy[2]"
-msgstr "INT Candyキャンディー[2]"
+msgid "INT Candy[2]"
+msgstr "INT キャンディー[2]"
 
-msgid "INT Candy Candy[3](max)"
-msgstr "INT Candyキャンディー[3](max)"
+msgid "INT Candy[3](max)"
+msgstr "INT キャンディー[3](max)"
 
 msgid "Candy of Life"
 msgstr "命のキャンディー"
