@@ -3482,3 +3482,111 @@ msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
 
 msgid "Forgeborn Watchdog."
 msgstr "フォージボーンの番犬"
+
+msgid "STR increases for a certain time by eating candy"
+msgstr "飴を食べてSTRが一定時間上昇します"
+
+msgid "PER increases for a certain time by eating candy"
+msgstr "飴を食べてPERが一定時間上昇します"
+
+msgid "INT increases for a certain time by eating candy"
+msgstr "飴を食べてINTが一定時間上昇します"
+
+msgid "DEX increases for a certain time by eating candy"
+msgstr "飴を食べてDEXが一定時間上昇します"
+
+msgid "MAX HP increases for a certain time by eating candy"
+msgstr "飴を食べてHPの最大値が一定時間上昇します"
+
+msgid "MAX MANA increases for a certain time by eating candy"
+msgstr "飴を食べてマナの最大値が一定時間上昇します"
+
+msgid "SPEED increases for a certain time by eating candy"
+msgstr "飴を食べて移動速度が一定時間上昇します"
+
+msgid "MAX STAMINA increases for a certain time by eating candy"
+msgstr "飴を食べてスタミナの最大値が一定時間上昇します"
+
+msgid "Speed Candy"
+msgstr "スピードキャンディー"
+
+msgid "Speed Candy[2]"
+msgstr "スピードキャンディー[2]"
+
+msgid "Speed Candy[3](max)"
+msgstr "スピードキャンディー[3](max)"
+
+msgid "STR Candy"
+msgstr "STRキャンディー"
+
+msgid "STR Candy[2]"
+msgstr "STRキャンディー[2]"
+
+msgid "STR Candy[3](max)"
+msgstr "STRキャンディー[3](max)"
+
+msgid "DEX Candy"
+msgstr "DEXキャンディー"
+
+msgid "DEX Candy[2]"
+msgstr "DEXキャンディー[2]"
+
+msgid "DEX Candy[3](max)"
+msgstr "DEXキャンディー[3](max)"
+
+msgid "PER Candy Candy"
+msgstr "PER Candyキャンディー"
+
+msgid "PER Candy Candy[2]"
+msgstr "PER Candyキャンディー[2]"
+
+msgid "PER Candy Candy[3](max)"
+msgstr "PER Candyキャンディー[3](max)"
+
+msgid "INT Candy Candy"
+msgstr "INT Candyキャンディー"
+
+msgid "INT Candy Candy[2]"
+msgstr "INT Candyキャンディー[2]"
+
+msgid "INT Candy Candy[3](max)"
+msgstr "INT Candyキャンディー[3](max)"
+
+msgid "Candy of Life"
+msgstr "命のキャンディー"
+
+msgid "Candy of Mana"
+msgstr "マナのキャンディー"
+
+msgid "Candy of Stamina"
+msgstr "スタミナのキャンディー"
+
+msgid "Candy of Power"
+msgstr "力のキャンディー"
+
+msgid "Melee damage increases for a certain time by eating candy"
+msgstr "飴を食べて近接攻撃の威力が一定時間上昇します"
+
+msgid "Candy of Diligent"
+msgstr "努力家のキャンディー"
+
+msgid "Reading EXP increases for a certain time by eating candy"
+msgstr "飴を食べて本の読むことで得られる経験値が一定時間上昇します"
+
+msgid "Candy of Focus"
+msgstr "集中力のキャンディー"
+
+msgid "MAX Focus increases for a certain time by eating candy"
+msgstr "飴を食べて集中力の最大値が一定時間上昇します"
+
+msgid "Magic Candy"
+msgstr "魔法の飴"
+
+msgid "A sweet magic candy. When you eat it, you get a random buff that lasts one day. The same buff stacks for up to 3 days."
+msgstr "甘ったるい魔法の飴です。食べると一日続くランダムなバフを獲得します。同じバフは最大3日までスタックします。"
+
+msgid "Eat Magic Candy"
+msgstr "魔法の飴を食べる"
+
+msgid "Eat the magic candy and get a random buff that lasts a day. The same buff stacks for up to 3 days."
+msgstr "魔法の飴を食べて、一日続くランダムなバフを獲得します。同じバフは最大3日までスタックします。"

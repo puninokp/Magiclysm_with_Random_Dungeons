@@ -725,8 +725,198 @@
       "healing_rate": [ 2 ]
     },
     "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_speed_effect",
+    "name":  [ 
+      "Speed Candy",   
+      "Speed Candy[2]",
+      "Speed Candy[3](max)"   
+    ],
+    "desc": [ "SPEED increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ 20 ] },
+    "scaling_mods": { 
+      "speed_mod": [ 10 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_str_effect",
+    "name":  [ 
+      "STR Candy",   
+      "STR Candy[2]",
+      "STR Candy[3](max)"   
+    ],
+    "desc": [ "STR increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ 2 ] },
+    "scaling_mods": { 
+      "str_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_dex_effect",
+    "name":  [ 
+      "DEX Candy",   
+      "DEX Candy[2]",
+      "DEX Candy[3](max)"   
+    ],
+    "desc": [ "DEX increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "dex_mod": [ 2 ] },
+    "scaling_mods": { 
+      "dex_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_per_effect",
+    "name":  [ 
+      "PER Candy",   
+      "PER Candy[2]",
+      "PER Candy[3](max)"   
+    ],
+    "desc": [ "PER increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "per_mod": [ 2 ] },
+    "scaling_mods": { 
+      "per_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_int_effect",
+    "name":  [ 
+      "INT Candy",   
+      "INT Candy[2]",
+      "INT Candy[3](max)"   
+    ],
+    "desc": [ "INT increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "int_mod": [ 2 ] },
+    "scaling_mods": { 
+      "int_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_hp_effect",
+    "name":  [ 
+      "Candy of Life"
+    ],
+    "desc": [ "MAX HP increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_mana_effect",
+    "name":  [ 
+      "Candy of Mana"
+    ],
+    "desc": [ "MAX MANA increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_MANA", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_stamina_effect",
+    "name":  [ 
+      "Candy of Stamina"
+    ],
+    "desc": [ "MAX STAMINA increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_MANA", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_power_effect",
+    "name":  [ 
+      "Candy of Power"
+    ],
+    "desc": [ "Melee damage increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MELEE_DAMAGE", "multiply": 0.2 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_diligent_effect",
+    "name":  [ 
+      "Candy of Diligent"
+    ],
+    "desc": [ "Reading EXP increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "READING_EXP", "add": 3 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_focus_effect",
+    "name":  [ 
+      "Candy of Focus"
+    ],
+    "desc": [ "MAX Focus increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "LEARNING_FOCUS", "multiply": 0.5 } ] } ]
   }
-
-
 
 ]

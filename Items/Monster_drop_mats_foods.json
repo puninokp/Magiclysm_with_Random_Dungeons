@@ -512,6 +512,30 @@
         "comestible_type": "DRINK",
         "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "price": 250000
+    },
+
+    {
+        "type": "COMESTIBLE",
+        "id": "PSY_magi_magic_honey_candy",
+        "name": { "str": "Magic Candy" },
+        "weight": "4 g",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_eat_candy_base", "no_fail": true, "level": 0 },
+        "color": "brown",
+        "spoils_in": "1080 days",
+        "comestible_type": "FOOD",
+        "symbol": "o",
+        "healthy": 1,
+        "calories": 16,
+        "description": "These grilled rice balls have a savory soy sauce flavor. It also recovers HP mysteriously.",
+        "price": 1000,
+        "price_postapoc": 500,
+        "stack_size": 1,
+        "material": [ "wheat" ],
+        "volume": "6 ml",
+        "charges": 1,
+        "flags": [ "EATEN_HOT","SINGLE_USE" ],
+        "fun": 5,
+        "vitamins": [ [ "vitA", 1 ],[ "vitC", 2 ],[ "iron", 1 ] ]
     }
 
 

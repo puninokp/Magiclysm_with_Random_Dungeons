@@ -334,6 +334,14 @@
             {"weight": 10, "sprite":554}
             ]
             },
+            { "id": "PSY_magi_magic_honey_candy", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":556},
+            {"weight": 10, "sprite":557},
+            {"weight": 10, "sprite":558},
+            {"weight": 10, "sprite":559}
+            ]
+            },
             { "id": "PSY_honey_crossbow" ,"fg": 562},
             { "id": "overlay_wielded_PSY_honey_crossbow" ,"fg": 563},
             { "id": "PSY_magi_honey_gun_assault" ,"fg": 564},

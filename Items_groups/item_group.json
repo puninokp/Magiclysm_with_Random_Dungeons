@@ -254,6 +254,7 @@
         "subtype": "distribution",
         "entries": [
           { "item": "honeycomb", "prob": 80 },
+          { "item": "PSY_magi_magic_honey_candy", "prob": 10 },
           { "item": "honeydew", "prob": 6 },
           { "item": "honey_glassed", "prob": 6 },
           { "item": "honey_gold", "prob": 2 },
