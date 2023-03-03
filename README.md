@@ -1,7 +1,7 @@
 # Magiclysm_with_Random_Dungeons Mod for Cataclysm: Dark Days Ahead
 マジクリズム with ランダムダンジョン 非公式のcataclysm:ddaのマジクリズムmodの拡張modです。
 
-対応バージョン： 0F-3以降の experiment version(最新版から2か月以内が好ましい)
+対応バージョン： 安定版　0G　Gaiman
 
 ------------このmodとは？---------- 
 
