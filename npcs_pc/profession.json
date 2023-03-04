@@ -8,6 +8,7 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_anomaly_monster_caller", "level": 0 },
+          { "id": "PSY_magi_summon_golem_ice", "level": 0 },
           { "id": "PSY_portal_storm_dungeon_caller", "level": 0 },
           { "id": "PSY_biolum_magic", "level": 0 },
           { "id": "PSY_teleport_to_statue", "level": 0 },

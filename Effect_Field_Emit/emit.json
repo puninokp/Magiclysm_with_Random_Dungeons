@@ -125,6 +125,15 @@
       "intensity": 1,
       "qty": 240,
       "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_icy_air_mage",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air1",
+      "intensity": 1,
+      "qty": 9,
+      "chance": 100
     }
 
 

@@ -1,0 +1,37 @@
+[
+
+    {
+        "id": "PSY_magi_summon_golem_ice",
+        "type": "SPELL",
+        "spell_class": "NONE",
+        "name": "Creation of Ice Golems",
+        "description": "Using large amounts of atmospheric moisture and water in your inventory, you create multiple golems made of ice around you. The number of golems summoned increases with the level of magic.",
+        "valid_targets": [ "ground" ],
+        "effect": "summon",
+        "effect_str": "GROUP_PSY_magi_ICE_GOLEMS",
+        "shape": "blast",
+        "base_casting_time": 60000,
+        "casting_time_increment": -1000,
+        "final_casting_time": 30000,
+        "base_energy_cost": 1300,
+        "energy_increment": -10.0,
+        "final_energy_cost": 1000,
+        "energy_source": "MANA",
+        "difficulty": 6,
+        "max_level": 30,
+        "min_damage": 3,
+        "max_damage": 6,
+        "damage_increment": 0.1,
+        "field_id": "fd_PSY_magi_icy_air1",
+        "min_field_intensity": 1,
+        "max_field_intensity": 1,
+        "min_duration": 180000,
+        "max_duration": 360000,
+        "duration_increment": 6000,
+        "min_aoe": 5,
+        "max_aoe": 5,
+        "components": "PSY_magi_spell_components_ice_golem_water15",
+        "flags": [ "SOMATIC", "VERBAL", "CONCENTRATE","SPAWN_GROUP" ]
+    }
+
+]

@@ -247,7 +247,26 @@
         "recoil": 500,
         "modes": [ [ "DEFAULT", "semi-auto", 4 ], [ "AUTO", "auto",3 ] ],
         "ranged_damage": { "damage_type": "pure", "amount": 6, "armor_penetration": 1 }
+      },
+
+      {
+        "id": "PSY_magi_fake_ice_golem_gun",
+        "type": "GUN",
+        "copy-from": "fake_item",
+        "name": { "str": "Golem Gun" },
+        "description": "Fake gun that fires some sort of solidified organic matter at very high speed by unknown means of propulsion.",
+        "flags": [ "NEVER_JAMS" ],
+        "ammo_effects": [ "NEVER_MISFIRES", "NO_PENETRATE_OBSTACLES","NO_ITEM_DAMAGE","WIDE","PLASMA" ],
+        "skill": "rifle",
+        "durability": 10,
+        "range": 50,
+        "dispersion": 500,
+        "loudness": 14,
+        "recoil": 100,
+        "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto",2 ] ],
+        "ranged_damage": { "damage_type": "bullet", "amount": 10, "armor_penetration": 3 }
       }
+
 
 
 ]

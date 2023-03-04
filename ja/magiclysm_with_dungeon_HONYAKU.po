@@ -3618,6 +3618,39 @@ msgstr "一定時間の間、周囲に沢山の氷の棘を召喚し続けます
 msgid "Ice Creation"
 msgstr "氷の創造"
 
+msgid "Ice Magic"
+msgstr "アイスマジック"
+
+msgid "Ice Golem"
+msgstr "アイスゴーレム"
+
+msgid "Ice Golem:Big Body"
+msgstr "アイスゴーレム：巨体"
+
+msgid "Ice Golem:Swift Body"
+msgstr "アイスゴーレム：迅速"
+
+msgid "Ice Golem:Mage"
+msgstr "アイスゴーレム：魔法使い"
+
+msgid "Ice Golem:Hammer"
+msgstr "アイスゴーレム：ハンマー"
+
+msgid "Ice Golem:Shooter"
+msgstr "アイスゴーレム：シューター"
+
+msgid "Ice Golem:Healer"
+msgstr "アイスゴーレム：ヒーラー"
+
+msgid "Ice Golem:Heavily Armored"
+msgstr "アイスゴーレム：重装甲"
+
+msgid "Golem Gun"
+msgstr "ゴーレムガン"
+
+msgid "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic."
+msgstr "氷でできた大型の人型ゴーレムです。 個体によっては遠距離攻撃をしたり、魔法を使うことが出来ます。"
+
 msgid "Eisbahn"
 msgstr "アイスバーン"
 
@@ -3627,5 +3660,8 @@ msgstr "クリエイト・アイスゴーレム"
 msgid "Randomly summon monsters created with ice around you. The number of monsters summoned increases as the level of this magic increases."
 msgstr "あなたの周囲に氷で創られたモンスターをランダムで召喚します。この魔法のレベルが上がると召喚されるモンスターの数が増えていきます。"
 
-msgid "It creates several golems made of ice around you. The number of golems summoned increases with the level of magic."
+msgid "Creates several golems made of ice around you. The number of golems summoned increases with the level of magic."
 msgstr "自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"
+
+msgid "Using large amounts of atmospheric moisture and water in your inventory, you create multiple golems made of ice around you. The number of golems summoned increases with the level of magic."
+msgstr "大量の大気中の水分とインベントリの中にある水を使って、自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"

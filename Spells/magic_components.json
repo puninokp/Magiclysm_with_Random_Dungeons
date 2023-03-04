@@ -78,6 +78,34 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_ice_golem_water15",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 15 ],
+                [ "water_clean", 15 ],
+                [ "water_mineral", 15 ]  
+              ] 
+            
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ice_golem_water20",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 20 ],
+                [ "water_clean", 10 ],
+                [ "water_mineral", 10 ]  
+              ] 
+            
+            ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_steel_utensil",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",

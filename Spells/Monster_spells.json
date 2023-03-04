@@ -4096,5 +4096,93 @@
     "extra_effects": [
       { "id": "PSY_magi_spell_transform_flower", "hit_self": true}
     ]
+  },
+
+  {
+    "id": "PSY_magi_spell_ice_golem_cold_magic_line_base",
+    "type": "SPELL",
+    "name": "Ice Magic",
+    "description": "Ice Magic",
+    "valid_targets": [ "hostile"],
+    "flags": ["CONCENTRATE", "SOMATIC","NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 3,
+    "max_level": 20,
+    "base_casting_time": 300,
+    "casting_time_increment": -5.0,
+    "final_casting_time": 200,
+    "base_energy_cost": 360,
+    "energy_increment": -5.0,
+    "final_energy_cost": 260,
+    "min_damage": 10,
+    "max_damage": 10,
+    "damage_increment": 2.0,
+    "field_id": "fd_PSY_magi_icy_air1",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "damage_type": "cold",
+    "min_range": 12,
+    "max_range": 12,
+    "range_increment": 0.5,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_ice_golem_cold_magic_line" }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_spell_ice_golem_cold_magic_line",
+    "type": "SPELL",
+    "name": "Ice Magic",
+    "description": "Ice Magic",
+    "valid_targets": [ "hostile","ground"],
+    "flags": ["CONCENTRATE", "SOMATIC","NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "line",
+    "spell_class": "NONE",
+    "difficulty": 3,
+    "max_level": 20,
+    "base_casting_time": 300,
+    "casting_time_increment": -5.0,
+    "final_casting_time": 200,
+    "min_damage": 10,
+    "max_damage": 10,
+    "damage_increment": 2.0,
+    "damage_type": "cold",
+    "field_id": "fd_PSY_magi_icy_air1",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "min_range": 12,
+    "max_range": 12,
+    "range_increment": 0.5
+  },
+
+  {
+    "id": "PSY_magi_spell_ice_golem_heal",
+    "type": "SPELL",
+    "name": { "str": "Heal" },
+    "description": "Heal",
+    "valid_targets": [ "ally" ],
+    "targeted_monster_species": [
+      "GOLEM"
+    ],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "min_range": 15,
+    "max_range": 15,
+    "base_casting_time": 200,
+    "min_aoe": 5,
+    "max_aoe": 5,
+    "field_id": "PSY_fd_charming_heart",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "shape": "blast",
+    "effect": "attack",
+    "min_damage": -10,
+    "max_damage": -10,
+    "extra_effects": [
+      { "id": "PSY_magi_spell_ice_golem_cold_magic_line" }
+    ]
   }
 ]

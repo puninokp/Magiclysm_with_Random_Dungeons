@@ -19,7 +19,15 @@
             {"weight": 10, "sprite":21},
             {"weight": 10, "sprite":22}
             ]
-            }
+            },
+            { "id": "PSY_mon_ice_golem" ,"fg": 37},
+            { "id": "PSY_mon_ice_golem_big_body" ,"fg": 33},
+            { "id": "PSY_mon_ice_golem_swift_body" ,"fg": 34},
+            { "id": "PSY_mon_ice_golem_mage" ,"fg": 35},
+            { "id": "PSY_mon_ice_golem_hammer" ,"fg": 36},
+            { "id": "PSY_mon_ice_golem_shooter" ,"fg": 32},
+            { "id": "PSY_mon_ice_golem_healer" ,"fg": 38},
+            { "id": "PSY_mon_ice_golem_armor" ,"fg": 39}
           ]
         },
         {

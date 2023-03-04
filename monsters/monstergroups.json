@@ -395,6 +395,23 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_ICE_GOLEMS",
+        "default": "PSY_mon_ice_golem",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_mon_ice_golem", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_big_body", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_swift_body", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_mage", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_hammer", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_shooter", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_healer", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_mon_ice_golem_armor", "freq": 50, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_MONSTERS_ALL1",
         "default": "PSY_magi_rnd_mon_spork",
         "//": "Cheap golems used to defend the average wizard's tower.",
