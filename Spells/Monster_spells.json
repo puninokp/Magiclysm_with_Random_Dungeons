@@ -4184,5 +4184,26 @@
     "extra_effects": [
       { "id": "PSY_magi_spell_ice_golem_cold_magic_line" }
     ]
+  },
+
+  {
+    "id": "PSY_magi_spell__kaze_ice_barrage_strike",
+    "type": "SPELL",
+    "name": "Ice Thorn",
+    "description": "Ice Thorn",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "flags": ["SOMATIC", "VERBAL", "NO_LEGS","RANDOM_DAMAGE" ],
+    "min_damage": 2,
+    "max_damage": 4,
+    "min_range": 1,
+    "max_range": 1,
+    "spell_class": "NONE",
+    "base_casting_time": 20,
+    "damage_type": "stab",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_boomerang_self_death_base" , "hit_self": true }
+    ]
   }
 ]

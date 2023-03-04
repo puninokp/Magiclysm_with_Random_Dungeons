@@ -392,6 +392,17 @@
             {"weight": 10, "sprite":616}
             ]
             },
+            { "id": "PSY_fd_ice_field_no_effect", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":610},
+            {"weight": 10, "sprite":611},            
+            {"weight": 10, "sprite":612},
+            {"weight": 10, "sprite":613},
+            {"weight": 10, "sprite":614},
+            {"weight": 10, "sprite":615},
+            {"weight": 10, "sprite":616}
+            ]
+            },
             { "id": "PSY_fd_charming_heart", "rotates": false,"animated": true,"fg":
             [
             {"weight": 50, "sprite":617},
@@ -400,7 +411,20 @@
             {"weight": 50, "sprite":619}
             ]
             },
-            { "id": "fd_PSY_magi_icy_air1" ,"fg": 620}
+            { "id": "fd_PSY_magi_icy_air1" ,"fg": 620},
+            { "id": "PSY_magi_ice_mage_book" ,"fg": 638},
+            { "id": "PSY_magi_mon_ice_barrage", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":640},
+            {"weight": 10, "sprite":641},            
+            {"weight": 10, "sprite":642},
+            {"weight": 10, "sprite":643},
+            {"weight": 10, "sprite":644},
+            {"weight": 10, "sprite":645},
+            {"weight": 10, "sprite":646},
+            {"weight": 10, "sprite":647}
+            ]
+            }
             
             
           ]

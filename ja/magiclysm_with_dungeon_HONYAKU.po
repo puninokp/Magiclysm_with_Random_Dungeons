@@ -3665,3 +3665,45 @@ msgstr "自分の周りに氷でできたゴーレムを複数作成します。
 
 msgid "Using large amounts of atmospheric moisture and water in your inventory, you create multiple golems made of ice around you. The number of golems summoned increases with the level of magic."
 msgstr "大量の大気中の水分とインベントリの中にある水を使って、自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"
+
+msgid "Ice Thorn"
+msgstr "氷棘"
+
+msgid "A thorn made of flying sharp ice."
+msgstr "空飛ぶ鋭い氷で出来た棘です。"
+
+msgctxt "profession_male"
+msgid "[PSY] Ice Mage"
+msgstr "[PSY]アイスメイジ"
+
+msgctxt "profession_female"
+msgid "[PSY] Ice Mage"
+msgstr "[PSY]アイスメイジ"
+
+msgctxt "prof_desc_male"
+msgid "You are a mage who excels in ice magic and can release cold air around you to weaken monsters, freeze the surface of water, summon ice golems, and create cooling crystals."
+msgstr "あなたは氷魔法に秀でた魔術師で、周囲に冷気を放ってモンスターの動きを弱めて、水面を凍らせたり、アイスゴーレムの召喚、冷房クリスタルを創造したりできる。"
+
+msgctxt "prof_desc_female"
+msgid "You are a mage who excels in ice magic and can release cold air around you to weaken monsters, freeze the surface of water, summon ice golems, and create cooling crystals."
+msgstr "あなたは氷魔法に秀でた魔術師で、周囲に冷気を放ってモンスターの動きを弱めて、水面を凍らせたり、アイスゴーレムの召喚、冷房クリスタルを創造したりできる。"
+
+msgid "Cold Tolerance -30℃"
+msgstr "耐寒性 -30℃"
+
+msgid "Bug Swarm"
+msgstr "バグスウォーム"
+
+msgid "Grave Fall"
+msgstr "墓落とし"
+
+msgid "Thanks to years of researching ice magic, you are very resistant to cold and can move well in extremely cold temperatures."
+msgstr "長年の間、氷の魔法の研究をしていたおかげで、あなたは寒さに強く、気温が極度に低い環境でも元気に動けます。"
+
+msgid "The Glacier Magic Book"
+msgid_plural "copies of The Glacier Magic Book"
+msgstr[0] "氷河の魔術本"
+
+msgid "This is a magic book describing ice magic that has been studied for many years. Touch it with your bare hands and you will get frostbite, okay?"
+msgstr "長年研究されてきた氷の魔法が描かれた魔法の本です。素手で触ると凍傷を負いますよ？"
+

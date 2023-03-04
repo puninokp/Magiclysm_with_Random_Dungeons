@@ -378,7 +378,7 @@
         "armor_cut": 6,
         "armor_bullet": 16,
         "special_attacks": [
-          { "type": "spell", "spell_data": { "id": "PSY_magi_spell__kaze_blade_of_air_strike" }, "cooldown": 0 }
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell__kaze_ice_barrage_strike" }, "cooldown": 0 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [
@@ -656,6 +656,50 @@
           "NOHEAD",
           "NO_BREATHE",
           "FIREPROOF",
+          "COLDPROOF",
+          "PACIFIST" 
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_ice_barrage",
+        "type": "MONSTER",
+        "name": "Ice Thorn",
+        "description": "A thorn made of flying sharp ice.",
+        "default_faction": "player",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "100 ml",
+        "weight": "1 g",
+        "looks_like": "spoon",
+        "hp": 1,
+        "speed": 520,
+        "material": [ "powder" ],
+        "symbol": "V",
+        "color": "white",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 4,
+        "melee_dice": 1,
+        "melee_dice_sides": 4,
+        "dodge": 3,
+        "vision_day": 50,
+        "vision_night": 50,
+        "armor_bash": 3,
+        "armor_stab": 3,
+        "armor_acid": 5,
+        "armor_cut": 6,
+        "armor_bullet": 16,
+        "special_attacks": [
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell__kaze_ice_barrage_strike" }, "cooldown": 0 }
+        ],
+        "death_function": { "message": "", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "FLIES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
           "COLDPROOF",
           "PACIFIST" 
         ]

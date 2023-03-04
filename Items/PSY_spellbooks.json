@@ -672,6 +672,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [thread beam]", "str_pl": "Scrolls of [thread beam]" },
         "description": "You can read this scroll to learn [thread beam].\n Magic that scatters threads to the target point.It does no damage and requires 10 threads to use."
+    },
+
+    {
+        "id": "PSY_magi_ice_mage_book",
+        "type": "BOOK",
+        "name": { "str": "The Glacier Magic Book", "str_pl": "copies of The Glacier Magic Book" },
+        "//": "3 classless spell",
+        "looks_like": "wizard_beginner",
+        "description": "This is a magic book describing ice magic that has been studied for many years. Touch it with your bare hands and you will get frostbite, okay?",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_Eisbahn_main", "PSY_magi_conj_ice_barrage","PSY_magi_summon_golem_ice","PSY_magi_item_spell_summon_ice_crystal" ] }
     }
 
 ]

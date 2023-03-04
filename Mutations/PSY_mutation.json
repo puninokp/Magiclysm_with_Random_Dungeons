@@ -308,6 +308,18 @@
         "id": "PSY_ENC_HONEY_SPLASH_AURA",
         "condition": "ALWAYS",
         "intermittent_activation": { "effects": [ { "frequency": "3 seconds", "spell_effects": [ { "id": "PSY_honey_splash_pure_damage" } ] } ] }
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_RESISTCOLD",
+        "name": { "str": "Cold Tolerance -30℃" },
+        "points": 3,
+        "description": "Thanks to years of researching ice magic, you are very resistant to cold and can move well in extremely cold temperatures.",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "CLIMATE_CONTROL_HEAT", "add": 30 } ] } ]
       }
 
 

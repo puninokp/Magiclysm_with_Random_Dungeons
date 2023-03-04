@@ -1234,6 +1234,18 @@
       },
 
       {
+        "id": "PSY_fd_ice_field_no_effect",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "ice field" } ],
+        "half_life": "3 turns",
+        "looks_like": "PSY_magi_t_ice_tile",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
         "id": "fd_PSY_magi_icy_air1",
         "type": "field_type",
         "intensity_levels": [
