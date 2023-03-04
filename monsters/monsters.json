@@ -1304,7 +1304,7 @@
         "vision_night": 40,
         "path_settings": { "avoid_traps": true, "avoid_sharp": true },
         "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
-        "death_function": { "corpse_type": "BROKEN" },
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NO_BREATHE", "PATH_AVOID_DANGER_1", "LOUDMOVES" ]
       }
 
