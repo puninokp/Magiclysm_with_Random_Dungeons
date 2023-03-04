@@ -1231,6 +1231,27 @@
         "percent_spread": 0,
         "display_items": true,
         "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_icy_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+             "name": "icy air", 
+            "sym": "&", 
+            "color": "blue",
+            "convection_temperature_mod": -10  
+          }
+        ],
+        "percent_spread": 0,
+        "outdoor_age_speedup": "10 minutes",
+        "priority": -1,
+        "half_life": "5 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog",
+        "display_items": true,
+        "display_field": true
       }
 
 ]

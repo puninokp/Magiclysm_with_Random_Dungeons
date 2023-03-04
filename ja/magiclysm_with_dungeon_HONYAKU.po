@@ -3592,7 +3592,19 @@ msgid "Eat the magic candy and get a random buff that lasts a day. The same buff
 msgstr "魔法の飴を食べて、一日続くランダムなバフを獲得します。同じバフは最大3日までスタックします。"
 
 msgid "Magic that releases cold air all around. It damages surrounding enemies with cold air, immobilizes them for a certain period of time, and freezes the surface of the water."
-msgstr "辺り一面に冷気を放つ魔法です。周囲の敵に冷気ダメージを与え一定時間動けなくなり、水面を凍らせることが出来ます。"
+msgstr "辺り一面に冷気を放つ魔法です。範囲内の敵に冷気ダメージを与え一定時間動けなくし、周囲の水面を凍らせることが出来ます"
+
+msgid "Create Ice Crystal"
+msgstr "クリエイト・アイスクリスタル"
+
+msgid "Ice Crystal"
+msgstr "アイスクリスタル"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C."
+msgstr "範囲5タイル内にいるすべてのものの体温が10℃下げる魔法のクリスタルです。"
+
+msgid "icy air"
+msgstr "冷たい空気"
 
 msgid "Summons a magic crystal that substitutes for air conditioning at the target point. It lowers the body temperature of everything within 5 tiles of the crystal's range by 10 degrees Celsius.If furniture is placed at the target location, summoning is impossible."
 msgstr "対象の地点に冷房代わりになる魔法のクリスタルを召喚します。そのクリスタルの範囲5タイル内にいるすべてのものの体温が10℃下がります。対象地点に家具が置いてあると召喚が不可能です。"
@@ -3601,10 +3613,19 @@ msgid "Icicle Barrage"
 msgstr "アイス・バレッジ"
 
 msgid "Continues to summon many ice thorns around it for a certain period of time. These ice thorns fly toward the surrounding enemies and deal piercing damage damage."
-msgstr "一定時間の間、周囲に沢山の氷の棘を召喚し続けます。それらの氷の棘は周囲の敵に向かって勢いよく飛んでいき,刺突ダメージを与えます。"
+msgstr "一定時間の間、周囲に沢山の氷の棘を召喚し続けます。それらの氷の棘は近く敵に向かって勢いよく飛んでいき,刺突ダメージを与えます。"
 
 msgid "Ice Creation"
 msgstr "氷の創造"
 
+msgid "Eisbahn"
+msgstr "アイスバーン"
+
+msgid "Creation of Ice Golems"
+msgstr "クリエイト・アイスゴーレム"
+
 msgid "Randomly summon monsters created with ice around you. The number of monsters summoned increases as the level of this magic increases."
 msgstr "あなたの周囲に氷で創られたモンスターをランダムで召喚します。この魔法のレベルが上がると召喚されるモンスターの数が増えていきます。"
+
+msgid "It creates several golems made of ice around you. The number of golems summoned increases with the level of magic."
+msgstr "自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"

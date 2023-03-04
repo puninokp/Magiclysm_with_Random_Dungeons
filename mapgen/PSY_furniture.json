@@ -713,6 +713,32 @@
       "type": "effect_on_condition",
       "effect_on_conditions": ["EOC_PSY_treasure_bash"]
     }
-	}
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 6,
+      "str_max": 12,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  }
 
 ]

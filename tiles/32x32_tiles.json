@@ -399,7 +399,8 @@
             {"weight": 50, "sprite":617},
             {"weight": 50, "sprite":619}
             ]
-            }
+            },
+            { "id": "fd_PSY_magi_icy_air1" ,"fg": 620}
             
             
           ]
