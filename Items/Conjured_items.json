@@ -703,6 +703,30 @@
             }
           ]
         }
+      },
+
+      {
+        "id": "PSY_magi_item_crystal_bomb_act",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": "Ice Crystal(Bomb)",
+        "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "looks_like": "PSY_magi_f_ice_magic_crystal",
+        "price": 0,
+        "price_postapoc": 0,
+        "to_hit": -3,
+        "bashing": 4,
+        "material": [ "paper", "powder" ],
+        "symbol": "*",
+        "color": "red",
+        "turns_per_charge": 1,
+        "initial_charges": 1,
+        "max_charges": 1,
+        "explode_in_fire": true,
+        "explosion": { "power": 128 ,"shrapnel": { "casing_mass": 50, "fragment_mass": 0.4 }},
+        "flags": [ "TRADER_AVOID", "BOMB" ]
       }
 
 ]

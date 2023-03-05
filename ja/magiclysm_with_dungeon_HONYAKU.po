@@ -3709,3 +3709,15 @@ msgstr "長年研究されてきた氷の魔法が描かれた魔法の本です
 
 msgid "Aura of healing"
 msgstr "回復のオーラ"
+
+msgid "Detonate Ice Crystal"
+msgstr "デトネート・アイスクリスタル"
+
+msgid "It instantly transforms the target ice crystal into a bomb and detonates it."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、爆発させます。"
+
+msgid "Magic that instantly transforms the target ice crystal into a bomb and detonates it."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、爆発させる魔法です。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. It can also be used as a long-range ignition spell."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。遠距離の発火魔法としても使用できます。"

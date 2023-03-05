@@ -739,6 +739,31 @@
         { "item": "glass_shard", "count": [ 8, 12 ] }
       ]
     }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act", "prob": 100 }
+      ]
+    }
   }
 
 ]

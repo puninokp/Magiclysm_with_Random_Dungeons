@@ -7,6 +7,7 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_magi_item_spell_detonate_ice_crystal", "level": 0 },
           { "id": "PSY_anomaly_monster_caller", "level": 0 },
           { "id": "PSY_magi_spell_Eisbahn_main", "level": 5 },
           { "id": "PSY_magi_conj_ice_barrage", "level": 5 },
@@ -406,7 +407,8 @@
           { "id": "PSY_magi_spell_Eisbahn_main", "level": 5 },
           { "id": "PSY_magi_conj_ice_barrage", "level": 5 },
           { "id": "PSY_magi_summon_golem_ice", "level": 5 },
-          { "id": "PSY_magi_item_spell_summon_ice_crystal", "level": 1 }
+          { "id": "PSY_magi_item_spell_summon_ice_crystal", "level": 1 },
+          { "id": "PSY_magi_item_spell_detonate_ice_crystal", "level": 0 }
         ],
         "traits": [ "PSY_RESISTCOLD"],
         "items": {

@@ -598,6 +598,19 @@
             "message_good": true
           }
         ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_ice_crystal_bomb_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_bomb",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
       }
 
 ]

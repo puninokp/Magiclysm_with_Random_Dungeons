@@ -687,7 +687,7 @@
         "material": [ "paper" ],
         "symbol": "?",
         "color": "light_red",
-        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_Eisbahn_main", "PSY_magi_conj_ice_barrage","PSY_magi_summon_golem_ice","PSY_magi_item_spell_summon_ice_crystal" ] }
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_Eisbahn_main", "PSY_magi_conj_ice_barrage","PSY_magi_summon_golem_ice","PSY_magi_item_spell_summon_ice_crystal" ,"PSY_magi_item_spell_detonate_ice_crystal" ] }
     }
 
 ]
