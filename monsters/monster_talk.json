@@ -293,12 +293,12 @@
 
       {
         "text": "[10 Magical Coin] 15 Magical Forest Coin",
-        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 15 } } },
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
         "success": {
           "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
           "effect": [
-            { "u_spawn_item": "PSY_magi_magical_coin_forest", "count": 10 },
-            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 15 }
+            { "u_spawn_item": "PSY_magi_magical_coin_forest", "count": 15 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 10 }
           ]
         },
         "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
