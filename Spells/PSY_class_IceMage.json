@@ -73,6 +73,7 @@
         "difficulty": 2,
         "max_level": 10,
         "base_casting_time": 300,
+        "base_energy_cost": 300,
         "energy_increment": -10,
         "final_energy_cost": 200,
         "energy_source": "MANA",
