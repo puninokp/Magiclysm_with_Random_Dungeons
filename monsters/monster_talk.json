@@ -293,7 +293,7 @@
 
       {
         "text": "[10 Magical Coin] 15 Magical Forest Coin",
-        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 15 } } },
         "success": {
           "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
           "effect": [
