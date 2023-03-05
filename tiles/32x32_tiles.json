@@ -325,6 +325,14 @@
             { "id": "PSY_mring_bionic_power" ,"fg": 491},
             { "id": "PSY_mring_restore_stamina" ,"fg": 493},
             { "id": "PSY_mring_PSY_magi_summon_boomerang" ,"fg": 425},
+            { "id": "PSY_fd_healing_heart", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":507},
+            {"weight": 50, "sprite":508},
+            {"weight": 50, "sprite":507},
+            {"weight": 50, "sprite":509}
+            ]
+            },
             { "id": "PSY_fd_honey", "rotates": false,"fg":
             [
             {"weight": 10, "sprite":550},

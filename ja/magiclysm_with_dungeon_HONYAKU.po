@@ -3707,3 +3707,5 @@ msgstr[0] "氷河の魔術本"
 msgid "This is a magic book describing ice magic that has been studied for many years. Touch it with your bare hands and you will get frostbite, okay?"
 msgstr "長年研究されてきた氷の魔法が描かれた魔法の本です。素手で触ると凍傷を負いますよ？"
 
+msgid "Aura of healing"
+msgstr "回復のオーラ"
