@@ -417,7 +417,7 @@
       "sound": "",
       "sound_fail": "",
       "items": [
-        {"group":"guns_pistol_common"}
+        {"group":"PSY_guns_pistol_common"}
       ]
     }
   },
@@ -441,7 +441,7 @@
       "sound": "",
       "sound_fail": "",
       "items": [
-        {"group":"guns_rifle_common"}
+        {"group":"PSY_guns_rifle_common"}
       ]
     }
   },
