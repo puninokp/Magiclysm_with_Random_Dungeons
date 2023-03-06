@@ -43,12 +43,24 @@
             { "id": "PSY_magi_f_treasure_chest_opened_mid" ,"fg": 7},
             { "id": "PSY_magi_f_treasure_chest_opened_big" ,"fg": 8},
             { "id": "PSY_magi_f_treasure_chest_opened" ,"fg": 9},
-            { "id": "PSY_magi_f_ice_magic_crystal", "rotates": false,"animated": true,"fg":
+            { "id": "PSY_magi_f_ice_magic_crystal_medium", "rotates": false,"animated": true,"fg":
             [
             {"weight": 50, "sprite":23},
             {"weight": 50, "sprite":24},
             {"weight": 50, "sprite":25},
             {"weight": 50, "sprite":24}
+            ]
+            },
+            { "id": "PSY_magi_f_ice_magic_crystal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":43},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":42},
+            {"weight": 25, "sprite":44},
+            {"weight": 25, "sprite":42}
             ]
             }
           ]

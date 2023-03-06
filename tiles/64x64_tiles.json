@@ -79,7 +79,13 @@
             { "id": "PSY_magi_f_honey_treasure_chest_event_closed" ,"fg": 82 },
             { "id": "PSY_magi_f_honey_treasure_chest_event_opened" ,"fg": 83 },
             { "id": "PSY_magi_f_honey_treasure_chest_potion_closed" ,"fg": 84 },
-            { "id": "PSY_magi_f_honey_treasure_chest_potion_opened" ,"fg": 85 }
+            { "id": "PSY_magi_f_honey_treasure_chest_potion_opened" ,"fg": 85 },
+            { "id": "PSY_magi_f_ice_magic_crystal_large", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 100, "sprite":87},
+            {"weight": 100, "sprite":88}
+            ]
+            }
 
           ]
         }

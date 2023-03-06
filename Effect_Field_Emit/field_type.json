@@ -1257,11 +1257,53 @@
           }
         ],
         "percent_spread": 0,
-        "outdoor_age_speedup": "10 minutes",
+        "outdoor_age_speedup": "2 minutes",
         "priority": -1,
         "half_life": "5 minutes",
         "phase": "gas",
         "looks_like": "fd_fog",
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_icy_air2",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+             "name": "freezing wind", 
+            "sym": "&", 
+            "color": "blue",
+            "convection_temperature_mod": -20  
+          }
+        ],
+        "percent_spread": 0,
+        "outdoor_age_speedup": "2 minutes",
+        "priority": -1,
+        "half_life": "5 minutes",
+        "phase": "gas",
+        "looks_like": "fd_PSY_magi_icy_air1",
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_icy_air3",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+             "name": "Extreme cold air", 
+            "sym": "&", 
+            "color": "blue",
+            "convection_temperature_mod": -30  
+          }
+        ],
+        "percent_spread": 0,
+        "outdoor_age_speedup": "2 minutes",
+        "priority": -1,
+        "half_life": "5 minutes",
+        "phase": "gas",
+        "looks_like": "fd_PSY_magi_icy_air1",
         "display_items": true,
         "display_field": true
       },

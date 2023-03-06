@@ -128,6 +128,25 @@
     },
 
     {
+      "id": "PSY_magi_emit_icy_air2",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air2",
+      "intensity": 1,
+      "qty": 420,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_icy_air3",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air3",
+      "intensity": 1,
+      "qty": 600,
+      "chance": 100
+    },
+
+
+    {
       "id": "PSY_magi_emit_icy_air_mage",
       "type": "emit",
       "field": "fd_PSY_magi_icy_air1",

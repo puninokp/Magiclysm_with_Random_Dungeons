@@ -743,6 +743,59 @@
 
   {
     "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_medium",
+    "name": "Medium Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 7 tiles by 20°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air2" ],
+    "light_emitted": 16,
+    "bash": {
+      "str_min": 18,
+      "str_max": 36,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 2 ] },
+        { "item": "glass_shard", "count": [ 16, 24 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_large",
+    "name": "Large Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 9 tiles by 30°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air3" ],
+    "light_emitted": 24,
+    "bash": {
+      "str_min": 60,
+      "str_max": 120,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 1, 3 ] },
+        { "item": "glass_shard", "count": [ 32, 48 ] }
+      ]
+    }
+  },
+
+
+  {
+    "type": "furniture",
     "id": "PSY_magi_f_ice_magic_crystal_bomb",
     "name": "Ice Crystal",
     "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
@@ -762,6 +815,56 @@
       "sound_fail": "mana crackling!",
       "items": [
         { "item": "PSY_magi_item_crystal_bomb_act", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb2",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act2", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb3",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act3", "prob": 100 }
       ]
     }
   }

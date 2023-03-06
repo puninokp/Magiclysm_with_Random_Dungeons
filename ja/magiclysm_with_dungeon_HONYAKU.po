@@ -3600,14 +3600,41 @@ msgstr "クリエイト・アイスクリスタル"
 msgid "Ice Crystal"
 msgstr "アイスクリスタル"
 
+msgid "Ice Crystal Medium"
+msgstr "アイスクリスタル中"
+
+msgid "Ice Crystal Large"
+msgstr "アイスクリスタル大"
+
+msgid "Medium Ice Crystal"
+msgstr "中アイスクリスタル"
+
+msgid "Large Ice Crystal"
+msgstr "大アイスクリスタル"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 9 tiles by 30°C."
+msgstr "範囲9タイル内にいるすべてのものの体温を30℃下げる魔法のクリスタルです。"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 7 tiles by 20°C."
+msgstr "範囲7タイル内にいるすべてのものの体温を20℃下げる魔法のクリスタルです。"
+
 msgid "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C."
-msgstr "範囲5タイル内にいるすべてのものの体温が10℃下げる魔法のクリスタルです。"
+msgstr "範囲5タイル内にいるすべてのものの体温を10℃下げる魔法のクリスタルです。"
 
 msgid "icy air"
-msgstr "冷たい空気"
+msgstr "ひんやり空気"
+
+msgid "freezing wind"
+msgstr "凍える風"
+
+msgid "Extreme cold air"
+msgstr "極寒の空気"
 
 msgid "Summons a magic crystal that substitutes for air conditioning at the target point. It lowers the body temperature of everything within 5 tiles of the crystal's range by 10 degrees Celsius.If furniture is placed at the target location, summoning is impossible."
 msgstr "対象の地点に冷房代わりになる魔法のクリスタルを召喚します。そのクリスタルの範囲5タイル内にいるすべてのものの体温が10℃下がります。対象地点に家具が置いてあると召喚が不可能です。"
+
+msgid "Summons a magic crystal that substitutes for air conditioning at the target point. It lowers the body temperature of everything within 5 tiles of the crystal's range by 10 degrees Celsius.If furniture is placed at the target location, summoning is impossible. It can be enhanced up to twice when used on a location where a crystal has already been placed."
+msgstr "対象の地点に冷房代わりになる魔法のクリスタルを召喚します。そのクリスタルの範囲5タイル内にいるすべてのものの体温が10℃下がります。対象地点に家具が置いてあると召喚が不可能です。クリスタルがすでに置かれている場所に使用すると最大2回強化することが可能です。"
 
 msgid "Icicle Barrage"
 msgstr "アイス・バレッジ"
@@ -3721,3 +3748,9 @@ msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、
 
 msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. It can also be used as a long-range ignition spell."
 msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。遠距離の発火魔法としても使用できます。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. It can also be used as a long-range ignition magic. The power and explosion range depend on the size of the crystal."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。遠距離の発火魔法としても使用できます。クリスタルの大きさによって、威力と爆発範囲が変わります。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. The power and explosion range depend on the size of the crystal. It can also be used as a long-range ignition magic."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。クリスタルの大きさによって、威力と爆発範囲が変わります。遠距離の発火魔法としても使用できます。"
