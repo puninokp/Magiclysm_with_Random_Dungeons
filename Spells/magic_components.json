@@ -57,6 +57,13 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_magical_coin_forest1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 1 ] ] ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_slime_scrap10",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",
@@ -75,6 +82,21 @@
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",
         "components": [ [ [ "slime_scrap", 30 ] ] ]
+      },
+
+
+      {
+        "id": "PSY_magi_spell_components_ice_golem_water1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 1 ],
+                [ "water_clean", 1 ],
+                [ "water_mineral", 1 ]  
+              ] 
+            
+            ]
       },
 
       {

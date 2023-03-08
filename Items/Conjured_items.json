@@ -132,7 +132,7 @@
         "description": "It is a clone of you. Use this to make a clone that will follow you and support you in your life.",
         "symbol": "|",
         "color": "brown",
-        "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+        "flags": [ "SINGLE_USE","BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
         "use_action": {
           "type": "place_npc",
           "npc_class_id": "PSY_magi_yourclone",
@@ -482,7 +482,7 @@
           "difficulty": 0,
           "moves": 60,
           "place_randomly": true,
-          "skills": [ "electronics", "computer" ]
+          "skills": ["SINGLE_USE", "electronics", "computer" ]
         }
       },
 

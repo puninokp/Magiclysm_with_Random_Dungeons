@@ -572,6 +572,16 @@
           { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 5, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
         ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_TURRET_MANA",
+        "default": "PSY_mon_turret_normal",
+        "//": "Cheap golems used to defend the average wizard's tower.",
+        "monsters": [
+          { "monster": "PSY_mon_turret_normal", "freq": 1000, "cost_multiplier": 1 }
+        ]
       }
 
 

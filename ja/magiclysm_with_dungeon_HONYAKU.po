@@ -3754,3 +3754,15 @@ msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、
 
 msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. The power and explosion range depend on the size of the crystal. It can also be used as a long-range ignition magic."
 msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。クリスタルの大きさによって、威力と爆発範囲が変わります。遠距離の発火魔法としても使用できます。"
+
+msgid "Mana Turret"
+msgstr "マナタレット"
+
+msgid "A turret of mana created by magic power. It automatically detects enemies around it and continues to fire bullets at its target."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾丸を撃ち続けます。"
+
+msgid "Mana Bullet"
+msgstr "マナの弾丸"
+
+msgid "Create Mana Turret"
+msgstr "クリエイト・マナタレット"
