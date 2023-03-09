@@ -23,7 +23,13 @@
         "energy_source": "MANA",
         "flags": ["NO_PROJECTILE","SOMATIC","SILENT", "NO_LEGS","WONDER" ],
         "extra_effects": [
-            { "id": "PSY_magi_create_mana_turret_random_sub1" }
+            { "id": "PSY_magi_create_mana_turret_random_sub1" },
+            { "id": "PSY_magi_create_mana_turret_random_sub2" },
+            { "id": "PSY_magi_create_mana_turret_random_sub3" },
+            { "id": "PSY_magi_create_mana_turret_random_sub4" },
+            { "id": "PSY_magi_create_mana_turret_random_sub5" },
+            { "id": "PSY_magi_create_mana_turret_random_sub6" },
+            { "id": "PSY_magi_create_mana_turret_random_sub6" }
           ]
     },
 
@@ -37,6 +43,102 @@
         "max_damage": 1,
         "effect": "spawn_item",
         "effect_str": "PSY_bot_turret_normal",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub2",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_shotgun",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub3",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_tazer",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub4",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_gatling",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub5",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_flamethrower",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub6",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_rocket_launcher",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub7",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_railgun",
         "shape": "blast",
         "min_duration": 1,
         "max_duration": 1,

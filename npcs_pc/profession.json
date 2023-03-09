@@ -141,6 +141,7 @@
           "both": {
             "items": [
               "winter_pants_army",
+              "PSY_bot_turret_normal",
               "army_top",
               "winter_jacket_army",
               "gloves_tactical",
@@ -161,6 +162,7 @@
               { "item": "water_clean", "charges": 6, "container-item": "canteen" },
               { "item": "knife_combat", "container-item": "sheath" },
               { "item": "crystallized_mana", "charges": 50 },
+              { "item": "PSY_magi_mana_bullet", "charges": 1000 },
               { "group": "charged_cell_phone" }
             ]
           },

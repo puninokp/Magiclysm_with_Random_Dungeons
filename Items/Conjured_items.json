@@ -1,4 +1,31 @@
 [
+    {
+        "type": "ammunition_type",
+        "id": "mana_bullet",
+        "name": "Mana Bullet",
+        "default": "PSY_magi_mana_bullet"
+    },
+
+    {
+      "id": "PSY_magi_mana_bullet",
+      "name": { "str": "Mana Bullet" },
+      "type": "AMMO",
+      "description": "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets and mana robots.",
+      "volume": "1 ml",
+      "weight": "1 mg",
+      "price": 150,
+      "price_postapoc": 1000,
+      "flags": [ "IRREPLACEABLE_CONSUMABLE","TRADER_AVOID" ],
+      "material": [ "steel" ],
+      "symbol": "=",
+      "color": "yellow",
+      "ammo_type": "mana_bullet",
+      "range": 50,
+      "damage": { "damage_type": "bullet", "amount": 1 },
+      "dispersion": 60,
+      "recoil": 500,
+      "effects": [  ]
+    },
 
     {
         "id": "PSY_magi_web_bomb",

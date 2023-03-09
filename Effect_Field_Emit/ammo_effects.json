@@ -2,7 +2,7 @@
   {
     "id": "PSY_FLAME",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 3 }
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 2 }
   },
   {
     "id": "PSY_NAPALM",
@@ -159,5 +159,23 @@
     "id": "PSY_EXPLOSIVE_HONEY",
     "type": "ammo_effect",
     "explosion": { "power": 160 }
+  },
+  {
+    "id": "PSY_TURRET_FLAME",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 2 },
+    "trail": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 2, "chance": 80 }
+  },
+
+  {
+    "id": "PSY_TURRET_LIGHTNING",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_electricity", "intensity_min": 1, "intensity_max": 1, "chance": 80 }
+  },
+
+  {
+    "id": "PSY_TURRET_EXPLOSIVE",
+    "type": "ammo_effect",
+    "explosion": { "power": 150 }
   }
 ]

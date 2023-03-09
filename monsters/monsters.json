@@ -1578,58 +1578,7 @@
         "vision_night": 5,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "NOGIB","SEES", "NO_BREATHE", "COLDPROOF", "LOUDMOVES" ]
-      },
-
-      {
-        "id": "PSY_mon_turret_normal",
-        "type": "MONSTER",
-        "name": { "str": "Mana Turret" },
-        "description": "A turret of mana created by magic power. It automatically detects enemies around it and continues to fire bullets at its target.",
-        "default_faction": "defense_bot",
-        "species": [ "ROBOT" ],
-        "looks_like": "mon_turret",
-        "diff": 20,
-        "volume": "30000 ml",
-        "weight": "40750 g",
-        "hp": 30,
-        "speed": 100,
-        "material": [ "steel" ],
-        "symbol": "2",
-        "color": "light_gray",
-        "aggression": 100,
-        "morale": 100,
-        "armor_bash": 14,
-        "armor_cut": 16,
-        "armor_bullet": 13,
-        "vision_night": 3,
-        "revert_to_itype": "PSY_bot_turret_normal",
-        "starting_ammo": { "9mm": 30 },
-        "special_attacks": [
-          {
-            "type": "gun",
-            "cooldown": 1,
-            "move_cost": 150,
-            "gun_type": "hk_mp5",
-            "ammo_type": "9mm",
-            "fake_skills": [ [ "gun", 5 ], [ "smg", 5 ] ],
-            "fake_dex": 12,
-            "ranges": [ [ 0, 14, "DEFAULT" ] ],
-            "require_targeting_npc": true,
-            "require_targeting_monster": true,
-            "laser_lock": false,
-            "targeting_cost": 400,
-            "targeting_timeout_extend": -10,
-            "targeting_sound": "\"Hostile detected.\"",
-            "targeting_volume": 20,
-            "no_ammo_sound": "a chk!"
-          }
-        ],
-        "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
-        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       }
-
 
 
 ]

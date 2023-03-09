@@ -2,12 +2,13 @@
   {
     "id": "PSY_bot_turret_normal",
     "type": "TOOL",
-    "name": { "str": "inactive turret" },
-    "description": "An inactive turret.  Using this item involves loading the unit with the factory-loaded 9x19mm rounds in your inventory (if you wish to divide your ammunition, set aside whatever 9x19mm you do NOT want to give the turret) turning it on, and placing it on the ground.  If reprogrammed and rewired successfully, the turret will then identify you as a friendly, and attack all enemies with its SMG.",
-    "weight": "40750 g",
-    "volume": "30 L",
-    "price": 400000,
-    "price_postapoc": 3000,
+    "name": { "str": "inactive Mana Turret" },
+    "description": "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:30\nMAX-AMMO:50\nRANGE:14\nDAMAGE:18\nTYPE:BULLET",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 50000,
+    "price_postapoc": 5000,
     "to_hit": -3,
     "bashing": 8,
     "material": [ "steel", "plastic" ],
@@ -23,30 +24,155 @@
     "flags": [ "SINGLE_USE" ]
   },
 
-
   {
-    "id": "PSY_bot_secubot_normal",
+    "id": "PSY_bot_mana_turret_shotgun",
     "type": "TOOL",
-    "name": { "str": "inactive TALON UGV" },
-    "description": "An inactive TALON UGV equipped with an M16A4.  Using this item involves loading the unit with the factory-loaded 5.56x45mm rounds in your inventory (if you wish to divide your ammunition, set aside whatever 5.56x45mm you do NOT want to give the robot) turning it on, and placing it on the ground.  If reprogrammed and rewired successfully, the security bot will then identify you as a friendly, roam around or follow you, and attack all enemies with its rifle.",
-    "weight": "40750 g",
-    "volume": "30 L",
-    "price": 750000,
-    "price_postapoc": 4000,
+    "name": { "str": "Mana Turret: Shotgun" },
+    "description": "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:60\nAmmo per fire:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 50000,
+    "price_postapoc": 5000,
     "to_hit": -3,
     "bashing": 8,
-    "material": [ "steel" ],
+    "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "light_green",
     "use_action": {
       "type": "place_monster",
-      "monster_id": "mon_secubot",
-      "friendly_msg": "The security bot beeps affirmatively and begins scanning for hostiles.",
-      "hostile_msg": "You misprogram the security bot and it trains its gun on you.  RUN!",
-      "difficulty": 6,
-      "moves": 150,
+      "monster_id": "PSY_mon_mana_turret_shotgun",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_turret_tazer",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Turret: Taser" },
+    "description": "A Taser turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:35\nMAX-AMMO:30\nAmmo per fire:1\nRANGE:3\nDAMAGE:22\nTYPE:Electrical",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_turret_taser",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_turret_gatling",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Turret: Gatling gun" },
+    "description": "A Gatling gun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:55\nMAX-AMMO:200\nAmmo per fire:5\nRANGE:15\nDAMAGE:12\nTYPE:BULLET",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_turret_gatling",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_turret_flamethrower",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Turret: Flamethrower" },
+    "description": "A Flamethrower turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:5\nRANGE:5\nDAMAGE:8\nTYPE:HEAT",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_turret_flamethrower",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_turret_rocket_launcher",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Rocket launcher" },
+    "description": "A Rocket launcher turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:20\nRANGE:6-18\nDAMAGE:100\nTYPE:BULLET",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_turret_rocket_launcher",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_turret_railgun",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Railgun" },
+    "description": "A Railgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:10\nRANGE:8-26\nDAMAGE:65\nTYPE:BULLET",
+    "weight": "7750 g",
+    "volume": "5 L",
+    "looks_like": "bot_turret",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_turret_railgun",
+      "difficulty": 0,
+      "moves": 100,
       "skills": [ "electronics", "computer" ]
     },
     "flags": [ "SINGLE_USE" ]
   }
+
+  
 ]

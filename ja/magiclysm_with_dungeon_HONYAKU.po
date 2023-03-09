@@ -3758,6 +3758,9 @@ msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、
 msgid "Mana Turret"
 msgstr "マナタレット"
 
+msgid "inactive Mana Turret"
+msgstr "マナタレット(停止中)"
+
 msgid "A turret of mana created by magic power. It automatically detects enemies around it and continues to fire bullets at its target."
 msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾丸を撃ち続けます。"
 
@@ -3766,3 +3769,84 @@ msgstr "マナの弾丸"
 
 msgid "Create Mana Turret"
 msgstr "クリエイト・マナタレット"
+
+msgid "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets and mana robots."
+msgstr "魔力を圧縮して作られたマナの弾丸です。主にマナタレットやマナロボットの為の弾薬です。"
+
+msgid "It is a turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\"HP:30\"MAX-AMMO:50\"RANGE:14\"DAMAGE:18\"TYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\n\nHP:30\nMAX-AMMO:50\nRANGE:14\nDAMAGE:18\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます\n弾薬には[マナの弾丸]が必要です。\n\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "Turret Gun"
+msgstr "タレットガン"
+
+msgid "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\n\nHP:40\nMAX-AMMO:60\nAmmo per fire:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのショットガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n\nHP:40\n最大弾薬:60\n射程距離:8\n威力:32\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Shotgun"
+msgstr "マナタレット:ショットガン"
+
+msgid "inactive Mana Turret: Shotgun"
+msgstr "マナタレット:ショットガン(停止中)"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:30\nMAX-AMMO:50\nRANGE:14\nDAMAGE:18\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます\n弾薬には[マナの弾丸]が必要です。\n\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:60\nAmmo per fire:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのショットガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:40\n最大弾薬:60\n1回あたりの使用弾数:2\n射程距離:8\n威力:32\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Taser"
+msgstr "マナタレット:テーザー"
+
+msgid "inactive Mana Turret: Taser"
+msgstr "マナタレット:テーザー(停止中)"
+
+msgid "A Taser turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:35\nMAX-AMMO:30\nAmmo per fire:1\nRANGE:3\nDAMAGE:22\nTYPE:Electrical"
+msgstr "魔法の力によって作成されたマナのテーザータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:35\n最大弾薬:30\n1回あたりの使用弾数:1\n射程距離:3\n威力:22\nダメージタイプ:電撃"
+
+msgid "Mana Turret: Gatling gun"
+msgstr "マナタレット:ガトリングガン"
+
+msgid "inactive Mana Turret: Gatling gun"
+msgstr "マナタレット:ガトリングガン(停止中)"
+
+msgid "A Gatling gun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:55\nMAX-AMMO:200\nAmmo per fire:5\nRANGE:15\nDAMAGE:12\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのガトリングガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:55\n最大弾薬:200\n1回あたりの使用弾数:5\n射程距離:15\n威力:12\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Flamethrower"
+msgstr "マナタレット:火炎放射器"
+
+msgid "inactive Mana Turret: Flamethrower"
+msgstr "マナタレット:火炎放射器(停止中)"
+
+msgid "A Flamethrower turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:5\nRANGE:5\nDAMAGE:8\nTYPE:HEAT"
+msgstr "魔法の力によって作成されたマナの火炎放射タレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\n1回あたりの使用弾数:5\n射程距離:5\n威力:8\nダメージタイプ:熱"
+
+msgid "Mana Turret: Rocket launcher"
+msgstr "マナタレット:ロケットランチャー"
+
+msgid "inactive Mana Rocket launcher"
+msgstr "マナタレット:ロケットランチャー(停止中)"
+
+msgid "A Rocket launcher turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:20\nRANGE:6-18\nDAMAGE:8\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのロケットランチャータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\n1回あたりの使用弾数:20\n射程距離:6-18\n威力:100\nダメージタイプ:弾丸"
+
+msgid "A Rocket launcher turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:20\nRANGE:6-18\nDAMAGE:100\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのロケットランチャータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\n1回あたりの使用弾数:20\n射程距離:6-18\n威力:100\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Railgun"
+msgstr "マナタレット:超電磁砲"
+
+msgid "inactive Mana Railgun"
+msgstr "マナタレット:超電磁砲(停止中)"
+
+msgid "A Railgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nAmmo per fire:10\nRANGE:8-26\nDAMAGE:65\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナの超電磁砲タレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\n1回あたりの使用弾数:10\n射程距離:8-26\n威力:65\nダメージタイプ:弾丸"

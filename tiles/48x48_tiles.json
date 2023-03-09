@@ -62,6 +62,48 @@
             {"weight": 25, "sprite":44},
             {"weight": 25, "sprite":42}
             ]
+            },
+            { "id": "PSY_mon_mana_turret_taser", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":45},
+            {"weight": 75, "sprite":50}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_gatling", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":46},
+            {"weight": 75, "sprite":51}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_shotgun", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":47},
+            {"weight": 75, "sprite":52}
+            ]
+            },
+            { "id": "PSY_mon_turret_normal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":48},
+            {"weight": 75, "sprite":53}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_flamethrower", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":49},
+            {"weight": 75, "sprite":54}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_rocket_launcher", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":55},
+            {"weight": 75, "sprite":60}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_railgun", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":56},
+            {"weight": 75, "sprite":61}
+            ]
             }
           ]
         }
