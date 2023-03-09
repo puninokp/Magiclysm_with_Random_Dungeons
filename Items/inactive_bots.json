@@ -27,7 +27,7 @@
   {
     "id": "PSY_bot_mana_turret_shotgun",
     "type": "TOOL",
-    "name": { "str": "Mana Turret: Shotgun" },
+    "name": { "str": "inactive Mana Turret: Shotgun" },
     "description": "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:60\nAmmo per fire:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET",
     "weight": "7750 g",
     "volume": "5 L",
