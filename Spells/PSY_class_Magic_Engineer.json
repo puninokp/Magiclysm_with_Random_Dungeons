@@ -29,7 +29,10 @@
             { "id": "PSY_magi_create_mana_turret_random_sub4" },
             { "id": "PSY_magi_create_mana_turret_random_sub5" },
             { "id": "PSY_magi_create_mana_turret_random_sub6" },
-            { "id": "PSY_magi_create_mana_turret_random_sub6" }
+            { "id": "PSY_magi_create_mana_turret_random_sub7" },
+            { "id": "PSY_magi_create_mana_turret_random_sub8" },
+            { "id": "PSY_magi_create_mana_turret_random_sub9" },
+            { "id": "PSY_magi_create_mana_turret_random_sub10" }
           ]
     },
 
@@ -139,6 +142,54 @@
         "max_damage": 1,
         "effect": "spawn_item",
         "effect_str": "PSY_bot_mana_turret_railgun",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub8",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_shadowfang",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub9",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_frostbeam",
+        "shape": "blast",
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT","SILENT", "NO_LEGS", "NO_HANDS" ]
+    },
+
+    {
+        "id": "PSY_magi_create_mana_turret_random_sub10",
+        "type": "SPELL",
+        "name": "Create robots",
+        "description": "This ritual create ammo.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "effect": "spawn_item",
+        "effect_str": "PSY_bot_mana_turret_acidsplatter",
         "shape": "blast",
         "min_duration": 1,
         "max_duration": 1,

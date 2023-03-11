@@ -1246,6 +1246,33 @@
       },
 
       {
+        "id": "PSY_fd_ice_field_has_effect",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "ice field" } ],
+        "half_life": "1 turns",
+        "looks_like": "fd_PSY_magi_ice_field",
+        "dangerous": true,
+        "translucency": 0.1,
+        "convection_temperature_mod": -50,
+        "effects": [
+          {
+            "effect_id": "PSY_magi_slow",
+            "intensity": 1,
+            "min_duration": "1 seconds",
+            "max_duration": "3 seconds",
+            "immune_inside_vehicle": true,
+            "is_environmental": false,
+            "message": "You feel cold from inhaling the mist.",
+            "message_type": "bad"
+          }
+        ],
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
         "id": "fd_PSY_magi_icy_air1",
         "type": "field_type",
         "intensity_levels": [

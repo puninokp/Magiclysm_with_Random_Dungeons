@@ -163,7 +163,7 @@
   {
     "id": "PSY_TURRET_FLAME",
     "type": "ammo_effect",
-    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 2 },
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1,"radius": 2, "size": 2 },
     "trail": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 2, "chance": 80 }
   },
 
@@ -176,6 +176,20 @@
   {
     "id": "PSY_TURRET_EXPLOSIVE",
     "type": "ammo_effect",
-    "explosion": { "power": 150 }
+    "explosion": { "power": 24 }
+  },
+
+  {
+    "id": "PSY_TURRET_FROST",
+    "type": "ammo_effect",
+    "trail": { "field_type": "PSY_fd_ice_field_no_effect", "intensity_min": 1, "intensity_max": 1, "chance": 50 },
+    "aoe": { "field_type": "PSY_fd_ice_field_has_effect", "intensity_min": 1, "intensity_max": 1,"radius": 1, "size": 1 }
+  },
+
+  {
+    "id": "PSY_TURRET_ACID",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1, "chance": 50 },
+    "aoe": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1,"radius": 1, "size": 1 }
   }
 ]

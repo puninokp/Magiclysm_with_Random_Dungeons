@@ -104,6 +104,24 @@
             {"weight": 75, "sprite":56},
             {"weight": 75, "sprite":61}
             ]
+            },
+            { "id": "PSY_mon_mana_turret_shadowfang", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":58},
+            {"weight": 75, "sprite":63}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_frostbeam", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":59},
+            {"weight": 75, "sprite":64}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_acidsplatter", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":85},
+            {"weight": 75, "sprite":90}
+            ]
             }
           ]
         }
