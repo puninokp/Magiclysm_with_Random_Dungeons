@@ -504,6 +504,37 @@
         "death_drops": {  },
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
+      },
+
+      {
+        "id": "PSY_mon_mana_drone_tazer",
+        "type": "MONSTER",
+        "name": { "str": "manhack" },
+        "description": "An automated anti-personnel drone, a small quadcopter robot surrounded by whirring blades.",
+        "default_faction": "defense_bot",
+        "species": [ "ROBOT" ],
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 25,
+        "material": [ "steel" ],
+        "symbol": "e",
+        "aggression": 100,
+        "morale": 100,
+        "luminance": 3,
+        "diff": 2,
+        "speed": 160,
+        "color": "light_green",
+        "armor_bash": 6,
+        "armor_cut": 10,
+        "armor_bullet": 8,
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "revert_to_itype": "bot_manhack",
+        "melee_skill": 5,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "melee_damage": [ { "damage_type": "electric", "amount": 12 } ],
+        "special_attacks": [ [ "TAZER", 5 ] ],
+        "flags": [ "SEES", "FLIES", "NOHEAD","COLDPROOF", "ELECTRONIC", "NO_BREATHE", "INTERIOR_AMMO", "STUN_IMMUNE","HIT_AND_RUN" ]
       }
 
 

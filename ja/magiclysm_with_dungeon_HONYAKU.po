@@ -3770,6 +3770,18 @@ msgstr "マナの弾丸"
 msgid "Create Mana Turret"
 msgstr "クリエイト・マナタレット"
 
+msgid "Create Mana Drone"
+msgstr "クリエイト・マナドローン"
+
+msgid "Create Mana Drone Mech"
+msgstr "クリエイト・マナドローンメカ"
+
+msgid "Create a random magic turret with magic power and lots of materials. There are a total of 10 different types of turrets."
+msgstr "魔力と沢山の素材を使ってランダムな魔法のタレットを作ります。タレットは全部で10種類存在します。"
+
+msgid "Create a random magic Drone Mechs with magic power and lots of materials. There are a total of 10 different types of Drone Mechs."
+msgstr "魔力と沢山の素材を使ってランダムな魔法のドローンメカを作ります。ドローンメカは全部で10種類存在します。"
+
 msgid "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets and mana robots."
 msgstr "魔力を圧縮して作られたマナの弾丸です。主にマナタレットやマナロボットの為の弾薬です。"
 
