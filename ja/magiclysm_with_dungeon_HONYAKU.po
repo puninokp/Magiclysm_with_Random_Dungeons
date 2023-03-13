@@ -4312,3 +4312,18 @@ msgstr "あなたのマナ回復力はメカによって2倍になった。"
 
 msgid "Temporarily your mana resilience is doubled by the mech."
 msgstr "一時的にあなたのマナ回復力はメカによって2倍になった。"
+
+msgid "CSC_PSY_MAGI_ROBOT"
+msgstr "ロボット"
+
+msgid "ROBOT"
+msgstr "ロボット"
+
+msgid "Mana Mecha Parts"
+msgstr "マナメカパーツ"
+
+msgid "These are parts that drop when mana mechs and mana drones are broken. By collecting them, new mechas can be created."
+msgstr "マナメカとマナドローンが壊れたときにドロップする部品です。集めることにより、新たなメカを作成することが出来ます。"
+
+msgid "These are parts that drop when mana mechs and mana drones are broken. By collecting them, new mechas can be created.\n\nIt can also be created from scrap metal, although this is inefficient."
+msgstr "マナメカとマナドローンが壊れたときにドロップする部品です。集めることにより、新たなメカを作成することが出来ます。\n\nまた、非効率ですが金属屑から作成することも可能です。"

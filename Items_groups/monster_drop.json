@@ -372,6 +372,35 @@
             { "group": "PSY_honey_weapon", "prob": 1 },
             { "group": "PSY_honey_food", "prob": 15 }    
         ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "ai_module", "prob": 10 },
+            { "item": "PSY_magi_magical_mana_mech_parts", "prob": 100 },
+            { "item": "scrap", "count": [ 1, 3 ] } ]
+    },
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "ai_module", "prob": 20 },
+            { "item": "PSY_magi_magical_mana_mech_parts", "count": [ 2, 3 ] },
+            { "item": "scrap", "count": [ 3, 5 ] } ]
+    },
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "ai_module", "prob": 50 },
+            { "item": "PSY_magi_magical_mana_mech_parts", "count": [ 5, 10 ] },
+            { "item": "scrap", "count": [ 5, 10 ] } ]
     }
+
 
 ]

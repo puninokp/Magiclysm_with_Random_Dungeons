@@ -1,0 +1,482 @@
+[
+
+    {
+        "type": "recipe",
+        "result": "PSY_magi_mana_bullet",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "charges": 10,
+        "time": "5 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 1 ] ]
+         ]
+    },
+
+    {
+      "type": "recipe",
+      "result": "PSY_magi_magical_mana_mech_parts",
+      "id_suffix": "using_mwmi",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_ROBOT",
+      "skill_used": "electronics",
+      "difficulty": 0,
+      "charges": 1,
+      "time": "5 m",
+      "autolearn": true,
+      "components": [
+         [ [ "scrap", 50 ] ]
+       ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_turret_normal",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 5 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_shotgun",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 5 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_tazer",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 5 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_gatling",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 15 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_flamethrower",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 15 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_rocket_launcher",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 25 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+    
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_railgun",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 20 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_shadowfang",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 10 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_frostbeam",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 20 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_turret_acidsplatter",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 20 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_electro_bat",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 3 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_magic_eye",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 20 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_skylock",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 10 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_overload_cube",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 30 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_blaze_ant",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 12 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_icicle_ant",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 12 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_light_bringer",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 10 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_energy_cube",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 35 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_life_generator",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 50 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_acid_arachnid",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 25 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_venom_stinger",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 25 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_power_arms",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 100 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_iron_fist",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 100 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+    
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_demolisher",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 100 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_night_stalker",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 35 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_blood_storm",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 45 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_magic_sphere",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 75 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    },
+
+    {
+        "type": "recipe",
+        "result": "PSY_bot_mana_mech_mind_breaker",
+        "id_suffix": "using_mwmi",
+        "category": "CC_PSY_MAGI",
+        "subcategory": "CSC_PSY_MAGI_ROBOT",
+        "skill_used": "electronics",
+        "difficulty": 0,
+        "time": "60 m",
+        "autolearn": true,
+        "components": [
+           [ [ "PSY_magi_magical_mana_mech_parts", 85 ] ],
+           [ [ "ai_module", 1 ] ] 
+         ]
+    }
+]

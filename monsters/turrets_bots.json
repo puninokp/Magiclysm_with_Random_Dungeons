@@ -46,7 +46,7 @@
           }
         ],
         "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -97,7 +97,7 @@
           }
         ],
         "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -148,7 +148,7 @@
           }
         ],
         "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -199,7 +199,7 @@
           }
         ],
         "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -250,7 +250,7 @@
           }
         ],
         "special_when_hit": [ "RETURN_FIRE", 100 ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC","FIREPROOF", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -300,7 +300,7 @@
             "no_ammo_sound": "a chk!"
           }
         ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -351,7 +351,7 @@
             "no_ammo_sound": "a chk!"
           }
         ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -401,7 +401,7 @@
             "no_ammo_sound": "a chk!"
           }
         ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -451,7 +451,7 @@
             "no_ammo_sound": "a chk!"
           }
         ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -501,7 +501,7 @@
             "no_ammo_sound": "a chk!"
           }
         ],
-        "death_drops": {  },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
@@ -537,6 +537,7 @@
         "revert_to_itype": "PSY_bot_mana_mech_electro_bat",
         "melee_damage": [ { "damage_type": "electric", "amount": 12 } ],
         "special_attacks": [ [ "TAZER", 5 ] ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "flags": [ "SEES", "FLIES", "NOHEAD","COLDPROOF", "ELECTRONIC", "NO_BREATHE","STUN_IMMUNE","HIT_AND_RUN", "ALWAYS_SEES_YOU" ]
       },
 
@@ -569,6 +570,7 @@
         "vision_day": 50,
         "vision_night": 7,
         "revert_to_itype": "PSY_bot_mana_mech_magic_eye",
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "melee_damage": [ { "damage_type": "bash", "amount": 3 } ],
         "special_attacks": 
           [ 
@@ -606,6 +608,7 @@
         "vision_day": 50,
         "vision_night": 7,
         "revert_to_itype": "PSY_bot_mana_mech_skylock",
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "melee_damage": [ { "damage_type": "bash", "amount": 3 } ],
         "special_attacks": 
           [ 
@@ -643,6 +646,7 @@
         "vision_day": 50,
         "vision_night": 7,
         "revert_to_itype": "PSY_bot_mana_mech_overload_cube",
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "melee_damage": [ { "damage_type": "bash", "amount": 3 } ],
         "special_attacks": 
           [ 
@@ -686,7 +690,7 @@
           [ 
             { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_blaze_ant_fire_cone" }, "cooldown": 6 }
           ],
-        "death_drops": {},
+          "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "FIREPROOF", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -724,7 +728,7 @@
           [ 
             { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_icicle_ant_base" }, "cooldown": 12 }
           ],
-        "death_drops": {},
+          "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -762,7 +766,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_light_bringer_laser" }, "cooldown": 4 }
         ],
-        "death_drops": {},
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -800,7 +804,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_energy_cube_base" }, "cooldown": 30 }
         ],
-        "death_drops": {},
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -838,7 +842,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_life_generator_base" }, "cooldown": 90 }
         ],
-        "death_drops": {},
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -876,7 +880,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_acid_arachnid_cone" }, "cooldown": 50 }
         ],
-        "death_drops": {},
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "NO_BREATHE","STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -915,7 +919,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_venom_stinger_spit_venom" }, "cooldown": 12 }
         ],
-        "death_drops": {},
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "POISON","SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
@@ -958,7 +962,7 @@
           { "type": "leap", "cooldown": 10, "max_range": 6 },
           [ "GRAB", 8 ] 
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -998,7 +1002,7 @@
           { "id": "smash", "throw_strength": 26, "cooldown": 6 },
           { "id": "slam" }
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "PUSH_MON","DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -1039,7 +1043,7 @@
           { "id": "slam" },
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_demolisher_bash" }, "cooldown": 50 }
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -1077,7 +1081,7 @@
         "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "3 s" } ],
         "revert_to_itype": "PSY_bot_mana_mech_night_stalker",
         "special_attacks": [],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -1118,7 +1122,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_blood_storm_base" }, "cooldown": 10 }
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -1159,7 +1163,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_magic_sphere_random_beam" }, "cooldown": 10 }
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
@@ -1200,7 +1204,7 @@
         [ 
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_mind_breaker_mind_beam" }, "cooldown": 10 }
         ],
-        "death_drops": { },
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       }

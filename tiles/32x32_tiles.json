@@ -464,7 +464,8 @@
             {"weight": 10, "sprite":694}
             ]
             },
-            { "id": "PSY_magi_magic_cannon_shot" ,"fg": 695}
+            { "id": "PSY_magi_magic_cannon_shot" ,"fg": 695},
+            { "id": "PSY_magi_magical_mana_mech_parts" ,"fg": 696}
             
             
           ]
