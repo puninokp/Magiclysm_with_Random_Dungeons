@@ -191,5 +191,11 @@
     "type": "ammo_effect",
     "trail": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1, "chance": 50 },
     "aoe": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1,"radius": 1, "size": 1 }
+  },
+
+  {
+    "id": "PSY_MAGIC_CANNON",
+    "type": "ammo_effect",
+    "explosion": { "power": 498, "shrapnel": { "casing_mass": 1000, "fragment_mass": 0.15 } }
   }
 ]

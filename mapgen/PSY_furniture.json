@@ -867,6 +867,81 @@
         { "item": "PSY_magi_item_crystal_bomb_act3", "prob": 100 }
       ]
     }
-  }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv1",
+		"name":"Mana Mecha Pod LV1",
+		"description":"It is a huge pod LV1 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 18 different types, and very rarely, it may contain a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv1"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv2",
+		"name":"Mana Mecha Pod LV2",
+		"description":"It is a huge pod LV2 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 13 different types, and may even, it may contain a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":20,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv2"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv3",
+		"name":"Mana Mecha Pod LV3",
+		"description":"It is a huge pod LV3 that contains one mana mecha. You can open it by pressing the `E` button\n it is randomly selected from 9 different types and always contains a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":20,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv3"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	}
 
 ]

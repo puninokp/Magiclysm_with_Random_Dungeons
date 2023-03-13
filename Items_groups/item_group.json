@@ -131,6 +131,7 @@
           { "item": "PSY_magi_weapon_enchanted_dragon_hunter_sword", "prob": 3 },
           { "item": "PSY_magi_weapon_thrust_dagger_mana", "prob": 3 },
           { "item": "PSY_magi_weapon_charm_spear", "prob": 3 },
+          { "item": "PSY_magic_wrench", "prob": 3 },
           { "item": "metal_vine_whip", "prob": 3 },
           { "item": "cudgel_plus_two", "prob": 3 },
           { "item": "q_staff_plus_two", "prob": 3 },
@@ -429,6 +430,96 @@
           { "group": "nested_walther_ccp", "prob": 8 },
           { "group": "nested_walther_p22", "prob": 13 },
           { "group": "nested_ruger_lcr_22", "prob": 13 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_all_mana_mech",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_bot_mana_mech_electro_bat", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_magic_eye", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_skylock", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_overload_cube", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_blaze_ant", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_icicle_ant", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_light_bringer", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_energy_cube", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_life_generator", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_acid_arachnid", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_venom_stinger", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_power_arms", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_iron_fist", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_demolisher", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_night_stalker", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_blood_storm", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_magic_sphere", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_mind_breaker", "prob": 10 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_all_mana_mech_lv1",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_bot_mana_mech_electro_bat", "prob": 15 },
+          { "item": "PSY_bot_mana_mech_magic_eye", "prob": 15 },
+          { "item": "PSY_bot_mana_mech_skylock", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_overload_cube", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_blaze_ant", "prob": 15 },
+          { "item": "PSY_bot_mana_mech_icicle_ant", "prob": 15 },
+          { "item": "PSY_bot_mana_mech_light_bringer", "prob": 15 },
+          { "item": "PSY_bot_mana_mech_energy_cube", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_life_generator", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_acid_arachnid", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_venom_stinger", "prob": 10 },
+          { "item": "PSY_bot_mana_mech_power_arms", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_iron_fist", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_demolisher", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_night_stalker", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_blood_storm", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_magic_sphere", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_mind_breaker", "prob": 1 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_all_mana_mech_lv2",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_bot_mana_mech_skylock", "prob": 5 },
+          { "item": "PSY_bot_mana_mech_overload_cube", "prob": 5 },
+          { "item": "PSY_bot_mana_mech_energy_cube", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_life_generator", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_acid_arachnid", "prob": 5 },
+          { "item": "PSY_bot_mana_mech_venom_stinger", "prob": 5 },
+          { "item": "PSY_bot_mana_mech_power_arms", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_iron_fist", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_demolisher", "prob": 1 },
+          { "item": "PSY_bot_mana_mech_night_stalker", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_blood_storm", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_magic_sphere", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_mind_breaker", "prob": 2 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_all_mana_mech_lv3",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_bot_mana_mech_energy_cube", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_life_generator", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_power_arms", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_iron_fist", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_demolisher", "prob": 2 },
+          { "item": "PSY_bot_mana_mech_night_stalker", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_blood_storm", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_magic_sphere", "prob": 3 },
+          { "item": "PSY_bot_mana_mech_mind_breaker", "prob": 3 }
         ]
       }
 

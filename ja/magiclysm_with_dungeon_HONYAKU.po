@@ -1841,8 +1841,16 @@ msgid ""
 "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\n"
 "Upgrades will decrease casting cost."
 msgstr ""
-"復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。/n そのゾンビは24時間後に再び敵として寝返る。\n"
+"復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。\n そのゾンビは24時間後に再び敵として寝返る。\n"
 "アップグレードすることにより消費コストが下がる。"
+
+msgid ""
+"A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side.\n That zombie will turn again as an enemy in 24 hours.\n"
+"Upgrades will decrease casting cost."
+msgstr ""
+"復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。\n そのゾンビは24時間後に再び敵として寝返る。\n"
+"アップグレードすることにより消費コストが下がる。"
+
 
 msgid "wand of pulling"
 msgid_plural "wands of pulling"
@@ -3189,8 +3197,23 @@ msgstr "[魔法硬貨：森40枚]ガチャ：弾薬付きライフル"
 msgid "Cannon"
 msgstr "大砲"
 
+msgid "Summon Cannon"
+msgstr "召喚：大砲"
+
+msgid "Summon a huge cannon at the target point.With this, you can crush any enemy by the balls, right?\n\nTo fire, the cannon must be loaded with cannonballs."
+msgstr "対象地点に巨大な大砲を召喚します。これを使えばどんな敵も玉砕できますね？\n\n発射するには大砲の弾を装填する必要があります。"
+
 msgid "Magic Cannonballs"
 msgstr "魔法の大砲の弾"
+
+msgid "Create Magic Cannonballs"
+msgstr "クリエイト・魔法の大砲の弾"
+
+msgid "These are magically created cannonballs to be loaded into a cannon. Cause a large explosion at the point where the bullet hits."
+msgstr "大砲に装填するための魔法で作られた大砲の弾です。弾が当たった地点に大きな爆発を起こします。"
+
+msgid "Use magic power to create cannonballs to load into the cannon. These bullets can cause a large explosion at the point where they hit."
+msgstr "マナを使用して、大砲に装填するための大砲の弾を作成します。この弾は当たった地点に大きな爆発を引き起こす事が可能です。"
 
 msgid "Mutant bee"
 msgstr "ミュータントハチ"
@@ -3718,6 +3741,15 @@ msgstr "あなたは氷魔法に秀でた魔術師で、周囲に冷気を放っ
 msgid "Cold Tolerance -30℃"
 msgstr "耐寒性 -30℃"
 
+msgid "Heat Tolerance +30℃"
+msgstr "耐暑性 +30℃"
+
+msgid "Heat Tolerance +20℃"
+msgstr "耐暑性 +20℃"
+
+msgid "Thanks to your years as an engineer building robots in a small, steamy workshop, you are heat tolerant and can work well in extreme temperatures."
+msgstr "長年の間、エンジニアとして、こじんまりとした蒸し暑い作業場でロボットを作っていたおかげで、あなたは暑さに強く、気温が極度に高い環境でも元気に動けます。"
+
 msgid "Bug Swarm"
 msgstr "バグスウォーム"
 
@@ -3976,3 +4008,307 @@ msgstr "マナタレット:アシッドスプラッター(停止中)"
 
 msgid "An Acid splatter turret of mana created by magical power. It automatically detects surrounding enemies and continues to release a powerful acid liquid until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:120\nrounds per minute:90\nRANGE:0-6\nDAMAGE:3x3\nTYPE:ACID"
 msgstr "魔法の力によって作成されたマナのアシッドスプラッタータレットです。自動で周囲の敵を検知し、強力な酸の液体を弾薬が無くなるまで放出続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:120\nRPM:90\n射程距離:0-6\n威力:3x3\nダメージタイプ:酸"
+
+msgid "Mana Mech: Tazer"
+msgstr "マナメカ:テーザー"
+
+msgid "inactive Mana Mech: Tazer"
+msgstr "マナメカ:テーザー(停止中)"
+
+msgid "Mana Drone: Tazer"
+msgstr "マナドローン:テーザー"
+
+msgid "inactive Mana Drone: Tazer"
+msgstr "マナドローン:テーザー(停止中)"
+
+msgid "Mana Mech: Archangel"
+msgstr "マナメカ:アークエンジェル"
+
+msgid "inactive Mana Mech: Archangel"
+msgstr "マナメカ:アークエンジェル(停止中)"
+
+msgid "Mana Drone: Electro Bat"
+msgstr "マナドローン:エレクトロバット"
+
+msgid "inactive Mana Drone: Electro Bat"
+msgstr "マナドローン:エレクトロバット(停止中)"
+
+msgid "A magic drone that manipulates electric blasts. It can fly at high speed and attack enemies with electric blasts."
+msgstr "電撃を操る魔法ドローン。高速で飛行し、敵を電撃で攻撃することができます。"
+
+msgid "Mana Drone: Magic Eye"
+msgstr "マナドローン:マジックアイ"
+
+msgid "inactive Mana Drone: Magic Eye"
+msgstr "マナドローン:マジックアイ(停止中)"
+
+msgid "A magic drone that can manipulates illusions. It can confuse the enemy or hide its companions. They can also use their magical powers to see remotely and assess their surroundings. Strategic combat is developed through the use of hallucinations."
+msgstr "幻覚を操ることができる魔法ドローン。敵を混乱させたり、仲間を隠すことができます。また、魔法の力で遠隔視や周囲の状況を把握することができます。幻覚を使った戦略的な戦闘を展開します。"
+
+msgid "Mana Drone: Skylock"
+msgstr "マナドローン:スカイロック"
+
+msgid "inactive Mana Drone: Skylock"
+msgstr "マナドローン:スカイロック(停止中)"
+
+msgid "This magic drone has a square metal body with wing-like protrusions. While floating in the air, it can detect enemies and shoot weak lasers from a distance. It features a cool, sophisticated appearance with a silver and green color scheme."
+msgstr "金属製の四角い本体に、翼のような突起物を備えた魔法ドローン。空中で浮遊しながら、敵を探知し、遠距離から弱いレーザーを放つことが出来ます。銀色と緑を基調とした、クールで洗練された外観が特徴です。"
+
+msgid "Mana Drone: Overload Cube"
+msgstr "マナドローン:オーバーロードキューブ"
+
+msgid "inactive Mana Drone: Overload Cube"
+msgstr "マナドローン:オーバーロードキューブ(停止中)"
+
+msgid "A square cube-shaped drone. While levitating, it can cast auxiliary magic that increases the attack power of allies or gives them a small amount of MP. The cube's design features motifs of lightning and thunder, symbolizing its intense attack power.\n\nMagic is only activated when there are enemies around."
+msgstr "四角形のキューブ型のドローン。浮遊しながら、味方の攻撃力を上昇させたり、少量のMPを与えたりする補助魔法をかけることができます。キューブのデザインには、稲妻や雷のモチーフが描かれ、強烈な攻撃力を象徴しています。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Power Arms"
+msgstr "マナメカ:パワーアームズ"
+
+msgid "inactive Mana Mecha: Power Arms"
+msgstr "マナメカ:パワーアームズ(停止中)"
+
+msgid "A mecha that has gained powerful powers through magic. It has huge arms and can grab and throw things. It can also jump lightly and reach high places with its magical power. It is mainly used for repairing and dismantling buildings and equipment."
+msgstr "魔法で強力な力を得たメカ。腕部に巨大なアームを持ち、物をつかんだり投げたりすることができます。また、魔法の力で軽々とジャンプし、高い場所にも到達することができます。主に建物や装置の修理や解体に使われます。"
+
+msgid "Mana Mecha: Demolisher"
+msgstr "マナメカ:デモリッシャー"
+
+msgid "inactive Mana Mecha: Demolisher"
+msgstr "マナメカ:デモリッシャー(停止中)"
+
+msgid "A mecha that can magically destroy matter. It can generate blasts and disintegrate objects. They also have armor that has been hardened by magic and can withstand enemy attacks. It is mainly used to attack enemy bases and fortresses."
+msgstr "魔法で物質を破壊することができるメカ。爆風を発生させたり、物体を崩壊させたりすることができます。また、魔法の力で硬度を増した装甲を持ち、敵の攻撃にも耐えることができます。主に敵の拠点や要塞の攻撃に使われます。"
+
+msgid "Mana Mecha: Night Stalker"
+msgstr "マナメカ:ナイトストーカー"
+
+msgid "inactive Mana Mecha: Night Stalker"
+msgstr "マナメカ:ナイトストーカー(停止中)"
+
+msgid "A mecha that can magically manipulate darkness. It can see in the dark and attack enemies. It also has sharp claws and can cut through objects. It is specialized for nighttime operations and can surprise the enemy."
+msgstr "魔法で暗闇を操ることができるメカ。暗闇でも視界を確保し、敵を攻撃することができます。また、鋭い爪を持ち、物を切り裂くことができます。夜間の作戦に特化しており、敵を驚かせることができます。"
+
+msgid "Mana Mecha: Blood Storm"
+msgstr "マナメカ:ブラッドストーム"
+
+msgid "inactive Mana Mecha: Blood Storm"
+msgstr "マナメカ:ブラッドストーム(停止中)"
+
+msgid "A mecha that can magically manipulate blood. It can attack enemies and then magically manipulate their blood to heal its allies. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies."
+msgstr "魔法で血液を操ることができるメカ。敵に攻撃を加え、その血液を魔法の力で操り、味方を回復することができます。また、魔法の力で自分自身の傷を癒すこともできます。赤と白を基調とした凶暴なデザインで、敵を蹂躙する力を持ちます。"
+
+msgid "A mecha that can magically manipulate blood. It can attack enemies, manipulate their blood with its magical power, and summon orbs of recovery around it. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies."
+msgstr "魔法で血液を操ることができるメカ。敵に攻撃を加え、その血液を魔法の力で操り、周囲に回復のオーブを召喚することができます。また、魔法の力で自分自身の傷を癒すこともできます。赤と白を基調とした凶暴なデザインで、敵を蹂躙する力を持ちます。"
+
+msgid "Mana Mecha: Light Bringer"
+msgstr "マナメカ:ライトブリンガー"
+
+msgid "inactive Mana Mecha: Light Bringer"
+msgstr "マナメカ:ライトブリンガー(停止中)"
+
+msgid "A mecha that is magically imbued with the power of light. It can fire rays of light to attack enemies. It can also use its magical power to illuminate its surroundings, making it useful for nighttime operations. With its clean, white-based appearance, it can boost the morale of allies."
+msgstr "魔法で光の力を宿したメカ。光線を発射して敵を攻撃することができます。また、魔法の力で周囲を明るく照らすことができるため、夜間の作戦にも活躍します。白を基調とした清潔感のある外見で、味方の士気を高めることができます。"
+
+msgid "Mana Mecha: Blaze Ant"
+msgstr "マナメカ:ブレイズアント"
+
+msgid "inactive Mana Mecha: Blaze Ant"
+msgstr "マナメカ:ブレイズアント(停止中)"
+
+msgid "An ant-shaped mecha created by magic. As its name suggests, it excels at flame attacks. It can release the heat stored in its body to burn its enemies and melt the ice around it. They can also withstand hot environments, making them suitable for missions in volcanic regions and deserts."
+msgstr "魔法で作られた蟻型メカ。その名の通り、火炎攻撃が得意です。体内に蓄えた熱を放出して敵を焼き尽くし、周囲の氷を溶かすこともできます。また、熱い環境にも耐えることができるため、火山地帯や砂漠での任務に適しています。"
+
+msgid "Mana Mecha: Icicle Ant"
+msgstr "マナメカ:アイシクルアント"
+
+msgid "inactive Mana Mecha: Icicle Ant"
+msgstr "マナメカ:アイシクルアント(停止中)"
+
+msgid "An ant-shaped mecha that can magically manipulate icicles. It can fire icicles to attack enemies. It can also collect icicles to surround and ice its enemies. It has a simple appearance with white and blue as its base color."
+msgstr "魔法で氷柱を操ることができる蟻型メカ。氷柱を発射して、敵を攻撃することができます。また、氷柱を集めて、敵を囲んで氷漬けにすることもできます。白と青を基調としたシンプルな外観をしています。"
+
+msgid "Mana Mecha: Energy Cube"
+msgstr "マナメカ:エナジーキューブ"
+
+msgid "inactive Mana Mecha: Energy Cube"
+msgstr "マナメカ:エナジーキューブ(停止中)"
+
+msgid "A mecha that can restore the stamina of its surroundings with the power of magic. In appearance, the mecha is angular, box-shaped, bipedal, and has a fluorescent green sheen to its body color. In the center of the mecha is a cube for storing energy, which can be released toward surrounding organisms. The cube also has a magical function to replenish stamina, which can be used to affect nearby humans and animals. The Energy Cube is an ideal mecha to support travelers who have been in battle for a long time or are tired.\n\nMagic is only activated when there are enemies around."
+msgstr "魔法の力で周囲のスタミナを回復することができるメカ。見た目は、角ばった箱型で2足歩行し、体色は蛍光緑色の光沢を帯びています。メカの中央部には、エネルギーを貯めるためのキューブが搭載されており、周囲の生物に向けてエネルギーを放出することができます。また、キューブには、魔法の力でスタミナを補充するための機能があり、近くにいる人間や動物にも効果を発揮します。エナジーキューブは、長時間の戦闘や疲れがたまった旅行者のサポートに最適なメカです。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Life Generator"
+msgstr "マナメカ:ライフジェネレーター"
+
+msgid "inactive Mana Mecha: Life Generator"
+msgstr "マナメカ:ライフジェネレーター(停止中)"
+
+msgid "This recovery mecha can magically collect energy in the surrounding air and use it to recover HP. It can also activate the surrounding life force, strengthening the natural healing power of all allies.\n\nMagic is only activated when there are enemies around."
+msgstr "この回復メカは、魔法で周囲の空気中にエネルギーを集め、それを使ってHPを回復することができます。また、周囲の生命力を活性化させることもでき、味方全員の自然治癒力を強化することができます。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Acid Arachnid"
+msgstr "マナメカ:アシッドアラクニッド"
+
+msgid "inactive Mana Mecha: Acid Arachnid"
+msgstr "マナメカ:アシッドアラクニッド(停止中)"
+
+msgid "A mecha has a spider-like appearance and is capable of powerful acid attacks. The acid attack is highly potent and can dissolve all enemies."
+msgstr "蜘蛛のような外見を持ち、強力な酸の攻撃を行うことができるメカ。酸の攻撃力は高く、敵を溶かし尽くすことができます。"
+
+msgid "Mana Mecha: Venom Stinger"
+msgstr "マナメカ:ヴェノムスティンガー"
+
+msgid "inactive Mana Mecha: Venom Stinger"
+msgstr "マナメカ:ヴェノムスティンガー(停止中)"
+
+msgid "A mecha has a spider-like appearance and is armed with numerous poisonous needles. It specializes in poison attacks and can weaken its enemies."
+msgstr "蜘蛛のような外見を持ち、多数の毒針で武装しているメカ。毒の攻撃を得意とし、敵を弱らせることができます。"
+
+msgid "Mana Mecha: Iron Fist"
+msgstr "マナメカ:アイアンフィスト"
+
+msgid "inactive Mana Mecha: Iron Fist"
+msgstr "マナメカ:アイアンフィスト(停止中)"
+
+msgid "A mecha that wields two huge metal fists to strike the enemy. With its strong power, it can push the enemy far away. The powerful design is based on indigo and light blue."
+msgstr "2つの巨大な金属の拳を振るい、敵を殴りつけるメカ。強力なパワーで敵を遠くへ押しやることが出来ます。藍色と水色を基調とした力強いデザインです。"
+
+msgid "Mana Mecha: Chronos Crawler"
+msgstr "マナメカ:クロノス・クロウラー"
+
+msgid "inactive Mana Mecha: Chronos Crawler"
+msgstr "マナメカ:クロノスクロウラー(停止中)"
+
+msgid "This mecha uses time manipulation magic to delay enemy actions and move itself at high speed. It can also quickly locate substances that only appear at certain times of the day. It features a futuristic design based on blue and silver colors."
+msgstr "このメカは時間を操る魔法を使い、敵の行動を遅らせたり、自分自身を高速で動かすことができます。また、特定の時間帯にしか現れない物質を素早く探し出すことができます。青や銀色を基調とした未来的なデザインが特徴です。"
+
+msgid "Mana Mecha: Magic Sphere"
+msgstr "マナメカ:マジックスフィア"
+
+msgid "inactive Mana Mecha: Magic Sphere"
+msgstr "マナメカ:マジックスフィア(停止中)"
+
+msgid "A sphere-shaped, three-legged mecha made of magical energy. The sphere is filled with various kinds of magic and can attack enemies. It features an elegant and mysterious design based on pearl white."
+msgstr "魔法エネルギーで作られた球体型の3足歩行のメカ。球体には様々な魔法が込められ、敵を攻撃することができます。パールホワイトを基調とした、優雅で神秘的なデザインが特徴です。"
+
+msgid "Mana Mecha: Mind Breaker"
+msgstr "マナメカ:マインドブレイカー"
+
+msgid "inactive Mana Mecha: Mind Breaker"
+msgstr "マナメカ:マインドブレイカー(停止中)"
+
+msgid "A mecha that can manipulate mental magic and attack the minds of its enemies. It looks purple and black armored and can confuse or brainwash the consciousness of its enemies."
+msgstr "精神の魔法を操り、敵の心を攻撃することができるメカ。見た目は紫と黒の装甲を持ち、敵の意識を混乱させたり、洗脳したりすることができます。"
+
+msgid "A mecha that can manipulate mental magic and attack the minds of its enemies. It can confuse or brainwash the consciousness of its enemies."
+msgstr "精神の魔法を操り、敵の心を攻撃することができるメカ。敵の意識を混乱させたり、洗脳したりすることができます。"
+
+msgid "Eye Laser"
+msgstr "アイレーザー"
+
+msgid "You are enhanced by the support mech! All statuses are increased."
+msgstr "サポートメカによってあなたは強化されています！全ステータスが上昇しています。"
+
+msgid "hot air"
+msgstr "熱風"
+
+msgid "Summon icicle"
+msgstr "サモン・アイシクル"
+
+msgid "Spit Venom"
+msgstr "ヴェノム吐き"
+
+msgid "Aura of supporting"
+msgstr "補助のオーラ"
+
+msgid "Healing orb"
+msgstr "回復のオーブ"
+
+msgid "Heals the HP of all units within a 3-tile range by 1"
+msgstr "範囲3タイル内にいる全てのユニットのHPを1回復する"
+
+msgid "Heals the HP of all units within a 3-tile range by 2"
+msgstr "範囲3タイル内にいる全てのユニットのHPを2回復する"
+
+msgid "Mana Mecha Pod LV1"
+msgstr "マナメカポッドLV1"
+
+msgid "Mana Mecha Pod LV2"
+msgstr "マナメカポッドLV2"
+
+msgid "Mana Mecha Pod LV3"
+msgstr "マナメカポッドLV3"
+
+msgid "It is a huge pod LV1 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 18 different types, and very rarely, it may contain a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV1です。`E`ボタンを押して開けることが出来ます。\n18種類の中からランダムに選ばれ、極稀に強いメカが入っていることがあります。"
+
+msgid "It is a huge pod LV2 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 13 different types, and may even, it may contain a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV2です。`E`ボタンを押して開けることが出来ます。\n13種類の中からランダムに選ばれ、偶に強いメカが入っていることがあります。"
+
+msgid "It is a huge pod LV3 that contains one mana mecha. You can open it by pressing the `E` button\n it is randomly selected from 9 different types and always contains a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV3です。`E`ボタンを押して開けることが出来ます。\n9種類の中からランダムに選ばれ、必ず強いメカが入っています。"
+
+msgid "Summon a mechapod to the target location using mana and lots of materials. A mechapod can be up to 3LV and can be strengthened with each successive use of this magic.By pressing the 'E' button or destroying the summoned mechapod, a random mana mecha will be obtained.\nThe spell will fail if there is furniture present at the target location."
+msgstr "マナと沢山の素材を使って対象の地点にメカポッドを召喚します。メカポッドは最大3LVまで存在し、この魔法を重ねるごとに強化することが出来ます。召喚したメカポッドを'E'ボタンを押す、または壊すことによってランダムなマナメカを獲得することが出来ます。\n対象地点に家具が存在すると魔法は失敗します"
+
+msgid "Summon Mana Mecha Pod"
+msgstr "召喚:マナメカポッド"
+
+msgid "Create Mana Bullet"
+msgstr "クリエイト・マナの弾丸"
+
+msgid "Creates mana bullets to load into mana turrets. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットに装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgctxt "profession_male"
+msgid "[PSY] Magic Engineer"
+msgstr "[PSY]マジックエンジニア"
+
+msgctxt "profession_female"
+msgid "[PSY] Magic Engineer"
+msgstr "[PSY]マジックエンジニア"
+
+msgctxt "prof_desc_male"
+msgid "You have knowledge of magic and mechanics and can combine magic and technology to create new things. For example, you can develop mechas that use mana to move, cannons that can release the power of magic, and defense systems that use magic."
+msgstr "あなたは魔法と機械の知識を持ち、魔法と技術を組み合わせて新しいものを生み出すことができます。例えば、マナを使用して動くメカや、魔力の力を放つことが出来る大砲、魔法を利用した防衛システムなどを開発することができます。"
+
+msgctxt "prof_desc_female"
+msgid "You have knowledge of magic and mechanics and can combine magic and technology to create new things. For example, you can develop mechas that use mana to move, cannons that can release the power of magic, and defense systems that use magic."
+msgstr "あなたは魔法と機械の知識を持ち、魔法と技術を組み合わせて新しいものを生み出すことができます。例えば、マナを使用して動くメカや、魔力の力を放つことが出来る大砲、魔法を利用した防衛システムなどを開発することができます。"
+
+msgid "Magic Wrench"
+msgstr "マジックレンチ"
+
+msgid "This is a wrench imbued with magical power. In addition to being used as a normal wrench, it can also unleash its magical power to heal the robot."
+msgstr "魔法の力を宿したレンチです。通常のレンチとして使用できるほか、魔力を使用してロボットを癒すことができます。"
+
+msgid "Heal Robot"
+msgstr "ヒールロボット"
+
+msgid "heals the robot's HP by 20."
+msgstr "ロボットのHPを20回復させる."
+
+msgid "Energy cube casts spell!"
+msgstr "エナジーキューブは魔法を唱えた!"
+
+msgid "Life Generator casts spell!"
+msgstr "ライフジェネレーターは魔法を唱えた!"
+
+msgid "The macha casts supporting spell!"
+msgstr "そのメカはサポート魔法を唱えた!"
+
+msgid "recover stamina"
+msgstr "スタミナ回復"
+
+msgid "Your stamina has been restored by the mech."
+msgstr "あなたのスタミナはメカによって回復しました。"
+
+msgid "recover mana x2"
+msgstr "マナ回復2倍"
+
+msgid "Your mana resilience has been doubled by the mech."
+msgstr "あなたのマナ回復力はメカによって2倍になった。"
+
+msgid "Temporarily your mana resilience is doubled by the mech."
+msgstr "一時的にあなたのマナ回復力はメカによって2倍になった。"

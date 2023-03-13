@@ -8,6 +8,55 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_ai_module1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_solder_wire10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "solder_wire", 10 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 1 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap2",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 2 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap3",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ],[ [ "scrap", 3 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap5_wire30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "solder_wire", 30 ] ] ,[ [ "ai_module", 1 ] ],[ [ "scrap", 5 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ],[ [ "scrap", 10 ] ]  ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_slime_scrap1",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",

@@ -176,7 +176,7 @@
         "id": "profession_PSY_magi_alien",
         "name": "[PSY] Alien Pilot",
         "description": "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth.",
-        "points": 9,
+        "points": 8,
         "skills": [ { "level": 2, "name": "firstaid" },{ "level": 4, "name": "driving" }, { "level": 3, "name": "spellcraft" }, { "level": 3, "name": "mechanics" } ],
         "proficiencies": [ "prof_helicopter_pilot" ],
         "spells": [ 
@@ -190,7 +190,7 @@
         "traits": [ "PSY_MANA_STORE1000" ],
         "items": {
           "both": {
-            "items": [ "PSY_magi_weapon_charm_spear","pants_cargo", "PSY_magi_forest_dungeon_map","socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
+            "items": [ "backpack","PSY_magi_weapon_charm_spear","pants_cargo", "PSY_magi_forest_dungeon_map","socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -203,7 +203,7 @@
         "id": "profession_PSY_magi_botanist",
         "name": "[PSY] Magical botanist",
         "description": "You are an advanced botanist and know how to grow plants instantly from the seeding.",
-        "points": 7,
+        "points": 6,
         "skills": [ { "level": 4, "name": "firstaid" },{ "level": 2, "name": "cooking" }, { "level": 3, "name": "spellcraft" }, { "level": 5, "name": "survival" } ],
         "spells": [ 
           { "id": "PSY_magi_spawn_vine_tentacle", "level": 1 },
@@ -216,6 +216,7 @@
         "items": {
           "both": {
             "items": [ 
+              "backpack",
               "pants_cargo",
               "metal_vine_whip", 
               "PSY_magi_forest_dungeon_map", 
@@ -237,7 +238,7 @@
         "id": "profession_PSY_magi_totemancer",
         "name": "[PSY] Totemancer",
         "description": "You are a shaman familiar with totems.",
-        "points": 8,
+        "points": 7,
         "skills": [ { "level": 3, "name": "firstaid" },{ "level": 4, "name": "tailor" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
         "spells": [ 
           { "id": "PSY_magi_spawn_fear_totem", "level": 1 },
@@ -250,6 +251,7 @@
         "items": {
           "both": {
             "items": [ 
+              "backpack",
               "pants_cargo",
               "metal_vine_whip", 
               "PSY_magi_forest_dungeon_map", 
@@ -271,7 +273,7 @@
         "id": "profession_PSY_magi_disaster",
         "name": "[PSY] Disaster bringer",
         "description": "You were drawn to Earth by a natural cataclysm and came to visit.",
-        "points": 12,
+        "points": 10,
         "skills": [  { "level": 7, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_summon_guided_missile", "level": 1 },
@@ -285,6 +287,7 @@
         "items": {
           "both": {
             "items": [ 
+              "backpack",
               "pants_cargo",
               "PSY_magi_weapon_charm_spear",
               "PSY_magi_forest_dungeon_map", 
@@ -306,7 +309,7 @@
         "id": "profession_PSY_magi_unholy_summoner",
         "name": "[PSY] Unholy summoner",
         "description": "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic.",
-        "points": 8,
+        "points": 7,
         "skills": [  { "level": 3, "name": "melee" },{ "level": 2, "name": "speech" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
@@ -319,6 +322,7 @@
         "items": {
           "both": {
             "items": [ 
+              "backpack",
               "pants_cargo",
               "PSY_magi_weapon_charm_spear",
               "PSY_magi_forest_dungeon_map", 
@@ -340,7 +344,7 @@
         "id": "profession_PSY_magi_the_clone",
         "name": "[PSY] All for one",
         "description": "You have the unique property of being able to create clones.\nLet's make this world full of you!",
-        "points": 8,
+        "points": 7,
         "skills": [  { "level": 4, "name": "firstaid" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_create_clone", "level": 5 }
@@ -348,7 +352,7 @@
         "traits": [ "PSY_MANA_REGEN11"],
         "items": {
           "both": {
-            "items": [ "PSY_magi_weapon_thrust_dagger_mana", "pants_cargo","PSY_magi_forest_dungeon_map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
+            "items": [ "backpack","PSY_magi_weapon_thrust_dagger_mana", "pants_cargo","PSY_magi_forest_dungeon_map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
           },
           "male": [ "boxer_shorts" ],
@@ -361,7 +365,7 @@
         "id": "profession_PSY_magi_sword_mancer",
         "name": "[PSY] Sword Mancer",
         "description": "You are a wizard with excellent swordsmanship.",
-        "points": 7,
+        "points": 6,
         "skills": [
           { "level": 4, "name": "melee" },
           { "level": 1, "name": "unarmed" },
@@ -379,6 +383,7 @@
         "items": {
           "both": {
             "items": [
+              "backpack",
               "PSY_magi_weapon_thrust_dagger_mana", 
               "pants_cargo",
               "PSY_magi_forest_dungeon_map", 
@@ -417,6 +422,7 @@
         "items": {
           "both": {
             "items": [
+              "backpack",
               "PSY_magi_weapon_ice_lance", 
               "pants_cargo",
               "PSY_magi_forest_dungeon_map", 
@@ -428,6 +434,58 @@
               "PSY_magi_ice_mage_book" 
             ],
             "entries": [ { "group": "charged_cell_phone" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_magic_engineer",
+        "name": "[PSY] Magic Engineer",
+        "description": "You have knowledge of magic and mechanics and can combine magic and technology to create new things. For example, you can develop mechas that use mana to move, cannons that can release the power of magic, and defense systems that use magic.",
+        "points": 7,
+        "skills": [
+          { "level": 4, "name": "computer" },
+          { "level": 4, "name": "electronics" },
+          { "level": 5, "name": "mechanics" },
+          { "level": 5, "name": "spellcraft" }
+        ],
+        "spells": [ 
+          { "id": "PSY_magi_create_mana_turret_random", "level": 5 },
+          { "id": "PSY_magi_create_mana_mech_pod", "level": 5 },
+          { "id": "PSY_magi_summon_magic_cannon", "level": 5 },
+          { "id": "PSY_magi_create_mana_turret_ammo", "level": 0 },
+          { "id": "PSY_magi_create_mana_cannon_ammo", "level": 0 }
+        ],
+        "traits": [ "PSY_RESISTHEAT"],
+        "items": {
+          "both": {
+            "items": [
+              "backpack",
+              "PSY_magic_wrench",
+              "PSY_bot_turret_normal",
+              "PSY_bot_mana_mech_electro_bat",
+              "pants_cargo",
+              "PSY_magi_forest_dungeon_map", 
+              "socks", 
+              "polo_shirt", 
+              "boots", 
+              "wristwatch", 
+              "fancy_sunglasses",
+              "ai_module",
+              "ai_module",
+              "ai_module"
+            ],
+            "entries": [
+              { "item": "solder_wire", "charges": 200 },
+              { "item": "scrap", "charges": 10 }, 
+              { "item": "PSY_magi_mana_bullet", "charges": 100 }, 
+              { "group": "charged_cell_phone" }, 
+              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
+              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+            ]
           },
           "male": [ "boxer_shorts" ],
           "female": [ "bra", "boy_shorts" ]

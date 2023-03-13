@@ -28,6 +28,30 @@
     },
 
     {
+      "id": "PSY_magi_magic_cannon_shot",
+      "type": "AMMO",
+      "name": { "str_sp": "Magic Cannonballs" },
+      "description": "These are magically created cannonballs to be loaded into a cannon. Cause a large explosion at the point where the bullet hits.",
+      "weight": "550 g",
+      "volume": "500 ml",
+      "price": 1100,
+      "price_postapoc": 1200,
+      "material": [ "steel", "powder" ],
+      "symbol": "=",
+      "color": "white",
+      "count": 1,
+      "ammo_type": "cannon",
+      "range": 50,
+      "damage": { "damage_type": "bullet", "amount": 352 },
+      "//": "4 pound cannonball weighs 28000 grains,shot at 1215 ft/s by a 3in ordnance rifle, equals 124459 joules of muzzle energy according to Shooters Calculator, round down from square root 352.78",
+      "dispersion": 620,
+      "recoil": 26250,
+      "//2": "Recoil currently copied from 50 bmg ball as game_balance.md does not state a method for calculating recoil",
+      "loudness": 900,
+      "effects": [ "PSY_MAGIC_CANNON","COOKOFF", "MUZZLE_SMOKE", "BLACKPOWDER" ]
+    },
+
+    {
         "id": "PSY_magi_web_bomb",
         "looks_like": "gasbomb_makeshift",
         "type": "TOOL",

@@ -1345,6 +1345,72 @@
         "percent_spread": 0,
         "display_items": true,
         "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_supporting_heart",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "Aura of supporting" } ],
+        "half_life": "1 turns",
+        "looks_like": "fd_shadow",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_dazzling_no_effect",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "laser", "sym": "&", "light_emitted": 5 } ],
+        "half_life": "1 turns",
+        "looks_like": "fd_dazzling",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_strong_dazzling_no_effect",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "laser", "sym": "&", "light_emitted": 30 } ],
+        "half_life": "5 turns",
+        "looks_like": "fd_dazzling",
+        "phase": "solid",
+        "percent_spread": 0,
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "fd_PSY_magi_hot_air1",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+             "name": "hot air", 
+            "sym": "&", 
+            "color": "red",
+            "convection_temperature_mod": 20  
+          }
+        ],
+        "percent_spread": 0,
+        "outdoor_age_speedup": "2 minutes",
+        "priority": -1,
+        "half_life": "5 minutes",
+        "phase": "gas",
+        "looks_like": "fd_fog",
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
+        "id": "PSY_fd_darkness",
+        "looks_like": "fd_darkness",
+        "type": "field_type",
+        "intensity_levels": [ { "name": "darkness", "light_override": 0.2 } ],
+        "half_life": "60 seconds",
+        "percent_spread": 50
       }
 
 ]

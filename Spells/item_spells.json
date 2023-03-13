@@ -2555,6 +2555,31 @@
     "effect": "attack",
     "max_level": 0,
     "base_casting_time": 100
+  },
+
+  {
+    "id": "PSY_magi_item_spell_healing_robot",
+    "type": "SPELL",
+    "name": "Heal Robot",
+    "description": "heals the robot's HP by 20.",
+    "valid_targets": ["ally","hostile"],
+    "targeted_monster_species": [
+      "ROBOT"
+    ],
+    "flags": [ "SILENT","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_weak_accelerating",
+    "difficulty": 0,
+    "base_casting_time": 80,
+    "min_duration": 3000,
+    "max_duration": 3000,
+    "max_level": 0,
+    "min_damage": -20,
+    "max_damage": -20,
+    "min_range": 10,
+    "max_range": 10
   }
 
 ]

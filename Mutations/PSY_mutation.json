@@ -320,6 +320,18 @@
         "purifiable": false,
         "valid": false,
         "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "CLIMATE_CONTROL_HEAT", "add": 30 } ] } ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_RESISTHEAT",
+        "name": { "str": "Heat Tolerance +20℃" },
+        "points": 3,
+        "description": "Thanks to your years as an engineer building robots in a small, steamy workshop, you are heat tolerant and can work well in extreme temperatures.",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "CLIMATE_CONTROL_CHILL", "add": 20 } ] } ]
       }
 
 

@@ -122,6 +122,51 @@
             {"weight": 75, "sprite":85},
             {"weight": 75, "sprite":90}
             ]
+            },
+            { "id": "PSY_mon_mana_mech_electro_bat" ,"fg": 105},
+            { "id": "PSY_mon_mana_mech_icicle_ant" ,"fg": 107},
+            { "id": "PSY_mon_mana_mech_acid_arachnid" ,"fg": 110},
+            { "id": "PSY_mon_mana_mech_overload_cube" ,"fg": 111},
+            { "id": "PSY_mon_mana_mech_skylock" ,"fg": 112},
+            { "id": "PSY_mon_mana_mech_blaze_ant" ,"fg": 113},
+            { "id": "PSY_mon_mana_mech_venom_stinger" ,"fg": 116},
+            { "id": "PSY_mon_mana_mech_power_arms" ,"fg": 120},
+            { "id": "PSY_mon_mana_mech_light_bringer" ,"fg": 121},
+            { "id": "PSY_mon_mana_mech_mind_breaker" ,"fg": 122},
+            { "id": "PSY_mon_mana_mech_magic_sphere" ,"fg": 123},
+            { "id": "PSY_mon_mana_mech_demolisher" ,"fg": 124},
+            { "id": "PSY_mon_mana_mech_iron_fist" ,"fg": 125},
+            { "id": "PSY_mon_mana_mech_blood_storm" ,"fg": 126},
+            { "id": "PSY_mon_mana_mech_magic_eye" ,"fg": 128},
+            { "id": "PSY_mon_mana_mech_energy_cube" ,"fg": 129},
+            { "id": "PSY_mon_mana_mech_life_generator" ,"fg": 133},
+            { "id": "PSY_mon_mana_mech_night_stalker" ,"fg": 134},
+            { "id": "PSY_magi_f_mana_mech_pod_lv1", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 200, "sprite":145},
+            {"weight": 20, "sprite":146},
+            {"weight": 20, "sprite":147},
+            {"weight": 20, "sprite":148},
+            {"weight": 20, "sprite":149}
+            ]
+            },
+            { "id": "PSY_magi_f_mana_mech_pod_lv2", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 100, "sprite":155},
+            {"weight": 20, "sprite":156},
+            {"weight": 20, "sprite":157},
+            {"weight": 20, "sprite":158},
+            {"weight": 20, "sprite":159}
+            ]
+            },
+            { "id": "PSY_magi_f_mana_mech_pod_lv3", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":160},
+            {"weight": 20, "sprite":161},
+            {"weight": 20, "sprite":162},
+            {"weight": 20, "sprite":163},
+            {"weight": 20, "sprite":164}
+            ]
             }
           ]
         }

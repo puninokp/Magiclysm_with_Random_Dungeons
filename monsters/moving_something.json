@@ -712,6 +712,51 @@
           "COLDPROOF",
           "PACIFIST" 
         ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_healing_orb",
+        "type": "MONSTER",
+        "name": "Healing orb",
+        "description": "Heals the HP of all units within a 3-tile range by 2",
+        "default_faction": "PSY_magi_random_dungeon_allies",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150 ml",
+        "weight": "106 g",
+        "hp": 1,
+        "speed": 130,
+        "luminance": 16,
+        "material": [ "steel" ],
+        "symbol": "/",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 1,
+        "melee_dice": 1,
+        "melee_dice_sides": 1,
+        "dodge": 15,
+        "vision_day": 10,
+        "vision_night": 10,
+        "special_attacks": [
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_healing_orb_death" }, "cooldown": 0 },
+          [ "DISAPPEAR", 10 ]
+        ],
+        "death_function": {
+          "message": "",
+          "effect": { "id": "PSY_magi_spell_healing_orb_death_heal", "hit_self": true },
+          "corpse_type": "NO_CORPSE"
+        },
+        "flags": [
+          "SEES",
+          "FLIES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "PACIFIST",
+          "FIREPROOF",
+          "COLDPROOF"
+        ]
       }
 
 ]

@@ -1754,7 +1754,33 @@
   "valid_mod_locations": [
   ],
   "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_honey": 36 } } ]
- }
+ },
+
+ {
+  "id": "PSY_magic_wrench",
+  "type": "TOOL",
+  "name": { "str": "Magic Wrench" },
+  "description": "This is a wrench imbued with magical power. In addition to being used as a normal wrench, it can also unleash its magical power to heal the robot.",
+  "weight": "907 g",
+  "volume": "120 ml",
+  "longest_side": "20 cm",
+  "looks_like": "wrench_large",
+  "price": 120000,
+  "price_postapoc": 10000,
+  "bashing": 13,
+  "material": [ "steel" ],
+  "symbol": ";",
+  "color": "light_gray",
+  "qualities": [ [ "WRENCH", 2 ], [ "WRENCH_FINE", 1 ] ],
+  "flags": [ "BELT_CLIP","DURABLE_MELEE", "MAGIC_FOCUS", "NO_UNLOAD", "NO_RELOAD" ],
+  "weapon_category": [ "BATONS" ],
+  "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_robot", "no_fail": true, "level": 0, "need_worn": false },
+  "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ],
+  "relic_data": {
+    "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true }
+  },
+  "charges_per_use": 1
+}
 
      
 

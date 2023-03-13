@@ -247,7 +247,458 @@
       "skills": [ "electronics", "computer" ]
     },
     "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_electro_bat",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Drone: Electro Bat" },
+    "description": "A magic drone that manipulates electric blasts. It can fly at high speed and attack enemies with electric blasts.",
+    "volume": "250 ml",
+    "weight": "200 g",
+    "looks_like": "bot_manhack",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_electro_bat",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_magic_eye",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Drone: Magic Eye" },
+    "description": "A magic drone that can manipulates illusions. It can confuse the enemy or hide its companions. They can also use their magical powers to see remotely and assess their surroundings. Strategic combat is developed through the use of hallucinations.",
+    "volume": "1250 ml",
+    "weight": "2 kg",
+    "looks_like": "bot_eyebot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_magic_eye",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_skylock",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Drone: Skylock" },
+    "description": "This magic drone has a square metal body with wing-like protrusions. While floating in the air, it can detect enemies and shoot weak lasers from a distance. It features a cool, sophisticated appearance with a silver and green color scheme.",
+    "volume": "1250 ml",
+    "weight": "2 kg",
+    "looks_like": "bot_manhack",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_skylock",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_overload_cube",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Drone: Overload Cube" },
+    "description": "A square cube-shaped drone. While levitating, it can cast auxiliary magic that increases the attack power of allies or gives them a small amount of MP. The cube's design features motifs of lightning and thunder, symbolizing its intense attack power.\n\nMagic is only activated when there are enemies around.",
+    "volume": "1250 ml",
+    "weight": "2 kg",
+    "looks_like": "bot_manhack",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_overload_cube",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_blaze_ant",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Blaze Ant" },
+    "description": "An ant-shaped mecha created by magic. As its name suggests, it excels at flame attacks. It can release the heat stored in its body to burn its enemies and melt the ice around it. They can also withstand hot environments, making them suitable for missions in volcanic regions and deserts.",
+    "volume": "6 L",
+    "weight": "8225 g",
+    "looks_like": "bot_skitterbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_blaze_ant",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_icicle_ant",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Icicle Ant" },
+    "description": "An ant-shaped mecha that can magically manipulate icicles. It can fire icicles to attack enemies. It can also collect icicles to surround and ice its enemies. It has a simple appearance with white and blue as its base color.",
+    "volume": "6 L",
+    "weight": "8225 g",
+    "looks_like": "bot_skitterbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_icicle_ant",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_light_bringer",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Light Bringer" },
+    "description": "A mecha that is magically imbued with the power of light. It can fire rays of light to attack enemies. It can also use its magical power to illuminate its surroundings, making it useful for nighttime operations. With its clean, white-based appearance, it can boost the morale of allies.",
+    "volume": "6 L",
+    "weight": "8225 g",
+    "looks_like": "bot_grocerybot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_light_bringer",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_energy_cube",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Energy Cube" },
+    "description": "A mecha that can restore the stamina of its surroundings with the power of magic. In appearance, the mecha is angular, box-shaped, bipedal, and has a fluorescent green sheen to its body color. In the center of the mecha is a cube for storing energy, which can be released toward surrounding organisms. The cube also has a magical function to replenish stamina, which can be used to affect nearby humans and animals. The Energy Cube is an ideal mecha to support travelers who have been in battle for a long time or are tired.\n\nMagic is only activated when there are enemies around.",
+    "volume": "10 L",
+    "weight": "12130 g",
+    "looks_like": "bot_copbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_energy_cube",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_life_generator",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Life Generator" },
+    "description": "This recovery mecha can magically collect energy in the surrounding air and use it to recover HP. It can also activate the surrounding life force, strengthening the natural healing power of all allies.\n\nMagic is only activated when there are enemies around.",
+    "volume": "10 L",
+    "weight": "12130 g",
+    "looks_like": "bot_copbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_life_generator",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_acid_arachnid",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Acid Arachnid" },
+    "description": "A mecha has a spider-like appearance and is capable of powerful acid attacks. The acid attack is highly potent and can dissolve all enemies.",
+    "volume": "13 L",
+    "weight": "14230 g",
+    "looks_like": "bot_hazmatbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_acid_arachnid",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_venom_stinger",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Venom Stinger" },
+    "description": "A mecha has a spider-like appearance and is armed with numerous poisonous needles. It specializes in poison attacks and can weaken its enemies.",
+    "volume": "13 L",
+    "weight": "14230 g",
+    "looks_like": "bot_hazmatbot",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_venom_stinger",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_power_arms",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Power Arms" },
+    "description": "A mecha that has gained powerful powers through magic. It has huge arms and can grab and throw things. It can also jump lightly and reach high places with its magical power. It is mainly used for repairing and dismantling buildings and equipment.",
+    "volume": "24 L",
+    "weight": "44 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_power_arms",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_iron_fist",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Iron Fist" },
+    "description": "A mecha that wields two huge metal fists to strike the enemy. With its strong power, it can push the enemy far away. The powerful design is based on indigo and light blue.",
+    "volume": "24 L",
+    "weight": "44 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_iron_fist",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_demolisher",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Demolisher" },
+    "description": "A mecha that can magically destroy matter. It can generate blasts and disintegrate objects. They also have armor that has been hardened by magic and can withstand enemy attacks. It is mainly used to attack enemy bases and fortresses.",
+    "volume": "24 L",
+    "weight": "44 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_demolisher",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_night_stalker",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Night Stalker" },
+    "description": "A mecha that can magically manipulate darkness. It can see in the dark and attack enemies. It also has sharp claws and can cut through objects. It is specialized for nighttime operations and can surprise the enemy.",
+    "volume": "12 L",
+    "weight": "19 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_night_stalker",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_blood_storm",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Blood Storm" },
+    "description": "A mecha that can magically manipulate blood. It can attack enemies, manipulate their blood with its magical power, and summon orbs of recovery around it. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies.",
+    "volume": "21 L",
+    "weight": "21 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_blood_storm",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_magic_sphere",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Magic Sphere" },
+    "description": "A sphere-shaped, three-legged mecha made of magical energy. The sphere is filled with various kinds of magic and can attack enemies. It features an elegant and mysterious design based on pearl white.",
+    "volume": "20 L",
+    "weight": "20 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_magic_sphere",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
+  },
+
+  {
+    "id": "PSY_bot_mana_mech_mind_breaker",
+    "type": "TOOL",
+    "name": { "str": "inactive Mana Mecha: Mind Breaker" },
+    "description": "A mecha that can manipulate mental magic and attack the minds of its enemies. It can confuse or brainwash the consciousness of its enemies.",
+    "volume": "14 L",
+    "weight": "10 kg",
+    "looks_like": "bot_prototype_cyborg",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "PSY_mon_mana_mech_mind_breaker",
+      "difficulty": 0,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "SINGLE_USE" ]
   }
+
 
   
 ]
