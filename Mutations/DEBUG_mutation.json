@@ -58,7 +58,9 @@
             { "value": "ARMOR_CUT", "multiply": -0.9 } ,
             { "value": "ARMOR_ELEC", "multiply": -0.9 } ,
             { "value": "ARMOR_HEAT", "multiply": -0.9 } ,
-            { "value": "ARMOR_STAB", "multiply": -0.9 } 
+            { "value": "ARMOR_STAB", "multiply": -0.9 } ,
+            { "value": "CLIMATE_CONTROL_HEAT", "add": 500 }, 
+            { "value": "CLIMATE_CONTROL_CHILL", "add": 500 }
             ] 
           } 
         ]

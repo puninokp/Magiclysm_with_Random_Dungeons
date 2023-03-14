@@ -4327,3 +4327,15 @@ msgstr "マナメカとマナドローンが壊れたときにドロップする
 
 msgid "These are parts that drop when mana mechs and mana drones are broken. By collecting them, new mechas can be created.\n\nIt can also be created from scrap metal, although this is inefficient."
 msgstr "マナメカとマナドローンが壊れたときにドロップする部品です。集めることにより、新たなメカを作成することが出来ます。\n\nまた、非効率ですが金属屑から作成することも可能です。"
+
+msgid "merchant's greater dimensional toolbelt"
+msgstr "商人の大容量ツールベルト"
+
+msgid "merchant's Cloak of Hidden Treasures"
+msgstr "商人の秘宝マント"
+
+msgid "merchant's Cloaks of Hidden Treasures"
+msgstr "商人の秘宝マント"
+
+msgid "merchant's Lifeline"
+msgstr "商人の命綱"

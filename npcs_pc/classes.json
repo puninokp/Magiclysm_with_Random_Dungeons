@@ -63,7 +63,7 @@
     "bonus_int": { "rng": [ 20, 25 ] },
     "bonus_per": { "rng": [ 20, 25 ] },
     "shopkeeper_item_group": [ { "group": "PSY_NC_FORGE_LORD_SHOP", "rigid": true } ],
-    "worn_override": "NC_FORGE_LORD_clothes",
+    "worn_override": "PSY_NC_FORGE_LORD_clothes",
     "skills": [
       {
         "skill": "ALL",
@@ -75,6 +75,17 @@
       { "skill": "speech", "bonus": { "rng": [ 10, 20 ] } }
     ],
     "spells": [  { "id": "PSY_magi_SPELL_SUMMON_ARMORED_DOG", "level": 0 } ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "PSY_NC_FORGE_LORD_clothes",
+    "subtype": "collection",
+    "entries": [
+      { "item": "PSY_mbelt_pockets_merchant", "prob": 100 },
+      { "item": "PSY_cloak_morthylla", "prob": 100 },
+      { "item": "PSY_mboots_escape", "prob": 100 }
+    ]
   }
 
 ]
