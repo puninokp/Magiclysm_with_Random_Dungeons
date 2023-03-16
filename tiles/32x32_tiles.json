@@ -465,7 +465,160 @@
             ]
             },
             { "id": "PSY_magi_magic_cannon_shot" ,"fg": 695},
-            { "id": "PSY_magi_magical_mana_mech_parts" ,"fg": 696}
+            { "id": "PSY_magi_magical_mana_mech_parts" ,"fg": 696},
+            { "id": "explosion_PSY_magi_item_spell_big_room", "rotates": false,"fg":
+            [
+              {"weight": 20, "sprite":701},
+              {"weight": 20, "sprite":702},
+              {"weight": 20, "sprite":703},
+              {"weight": 20, "sprite":704},
+              {"weight": 20, "sprite":705},
+              {"weight": 20, "sprite":706},
+              {"weight": 20, "sprite":707},
+              {"weight": 20, "sprite":708},
+              {"weight": 20, "sprite":709},
+              {"weight": 20, "sprite":710},
+              {"weight": 20, "sprite":711},
+              {"weight": 20, "sprite":712},
+              {"weight": 20, "sprite":713},
+              {"weight": 20, "sprite":714},
+              {"weight": 20, "sprite":715},
+              {"weight": 20, "sprite":716},
+              {"weight": 20, "sprite":717},
+              {"weight": 20, "sprite":718},
+              {"weight": 20, "sprite":719},
+              {"weight": 20, "sprite":720},
+              {"weight": 20, "sprite":721},
+              {"weight": 20, "sprite":722}
+            ]
+            },
+            { "id": "explosion_PSY_magi_item_spell_scroll_of_Haste", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":701},
+            {"weight": 20, "sprite":702},
+            {"weight": 20, "sprite":703},
+            {"weight": 20, "sprite":704},
+            {"weight": 20, "sprite":705},
+            {"weight": 20, "sprite":706},
+            {"weight": 20, "sprite":707},
+            {"weight": 20, "sprite":708},
+            {"weight": 20, "sprite":709},
+            {"weight": 20, "sprite":710}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_item_spell_scroll_of_Frighten", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":701},
+            {"weight": 20, "sprite":702},
+            {"weight": 20, "sprite":703},
+            {"weight": 20, "sprite":704},
+            {"weight": 20, "sprite":705},
+            {"weight": 20, "sprite":706},
+            {"weight": 20, "sprite":707},
+            {"weight": 20, "sprite":708},
+            {"weight": 20, "sprite":709},
+            {"weight": 20, "sprite":710}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_item_spell_scroll_of_Freese", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":701},
+            {"weight": 20, "sprite":702},
+            {"weight": 20, "sprite":703},
+            {"weight": 20, "sprite":704},
+            {"weight": 20, "sprite":705},
+            {"weight": 20, "sprite":706},
+            {"weight": 20, "sprite":707},
+            {"weight": 20, "sprite":708},
+            {"weight": 20, "sprite":709},
+            {"weight": 20, "sprite":710}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_item_spell_scroll_of_summon_base", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":701},
+            {"weight": 20, "sprite":702},
+            {"weight": 20, "sprite":703},
+            {"weight": 20, "sprite":704},
+            {"weight": 20, "sprite":705},
+            {"weight": 20, "sprite":706},
+            {"weight": 20, "sprite":707},
+            {"weight": 20, "sprite":708},
+            {"weight": 20, "sprite":709},
+            {"weight": 20, "sprite":710}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_spell_Create_Sanctuary", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 20, "sprite":711},
+              {"weight": 20, "sprite":712},
+              {"weight": 20, "sprite":713},
+              {"weight": 20, "sprite":714},
+              {"weight": 20, "sprite":715},
+              {"weight": 20, "sprite":716},
+              {"weight": 20, "sprite":717},
+              {"weight": 20, "sprite":718},
+              {"weight": 20, "sprite":719},
+              {"weight": 20, "sprite":720},
+              {"weight": 20, "sprite":721},
+              {"weight": 20, "sprite":722}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_open_summon_gate", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 20, "sprite":711},
+              {"weight": 20, "sprite":712},
+              {"weight": 20, "sprite":713},
+              {"weight": 20, "sprite":714},
+              {"weight": 20, "sprite":715},
+              {"weight": 20, "sprite":716},
+              {"weight": 20, "sprite":717},
+              {"weight": 20, "sprite":718},
+              {"weight": 20, "sprite":719},
+              {"weight": 20, "sprite":720},
+              {"weight": 20, "sprite":721},
+              {"weight": 20, "sprite":722}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_spell_scroll_of_upgrade", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 20, "sprite":711},
+              {"weight": 20, "sprite":712},
+              {"weight": 20, "sprite":713},
+              {"weight": 20, "sprite":714},
+              {"weight": 20, "sprite":715},
+              {"weight": 20, "sprite":716},
+              {"weight": 20, "sprite":717},
+              {"weight": 20, "sprite":718},
+              {"weight": 20, "sprite":719},
+              {"weight": 20, "sprite":720},
+              {"weight": 20, "sprite":721},
+              {"weight": 20, "sprite":722}
+            ]
+            },
+
+            { "id": "explosion_PSY_magi_item_spell_scroll_of_monster_house", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 20, "sprite":711},
+              {"weight": 20, "sprite":712},
+              {"weight": 20, "sprite":713},
+              {"weight": 20, "sprite":714},
+              {"weight": 20, "sprite":715},
+              {"weight": 20, "sprite":716},
+              {"weight": 20, "sprite":717},
+              {"weight": 20, "sprite":718},
+              {"weight": 20, "sprite":719},
+              {"weight": 20, "sprite":720},
+              {"weight": 20, "sprite":721},
+              {"weight": 20, "sprite":722}
+            ]
+            }
             
             
           ]
