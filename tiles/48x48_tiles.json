@@ -143,29 +143,48 @@
             { "id": "PSY_mon_mana_mech_night_stalker" ,"fg": 134},
             { "id": "PSY_magi_f_mana_mech_pod_lv1", "rotates": false,"animated": true,"fg":
             [
-            {"weight": 200, "sprite":145},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":151},
             {"weight": 20, "sprite":146},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":152},
             {"weight": 20, "sprite":147},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":153},
             {"weight": 20, "sprite":148},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":154},
             {"weight": 20, "sprite":149}
             ]
             },
             { "id": "PSY_magi_f_mana_mech_pod_lv2", "rotates": false,"animated": true,"fg":
             [
-            {"weight": 100, "sprite":155},
-            {"weight": 20, "sprite":156},
-            {"weight": 20, "sprite":157},
-            {"weight": 20, "sprite":158},
-            {"weight": 20, "sprite":159}
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":161},
+            {"weight": 10, "sprite":156},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":162},
+            {"weight": 10, "sprite":157},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":163},
+            {"weight": 10, "sprite":158},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":164},
+            {"weight": 10, "sprite":159}
             ]
             },
             { "id": "PSY_magi_f_mana_mech_pod_lv3", "rotates": false,"animated": true,"fg":
             [
-            {"weight": 20, "sprite":160},
-            {"weight": 20, "sprite":161},
-            {"weight": 20, "sprite":162},
-            {"weight": 20, "sprite":163},
-            {"weight": 20, "sprite":164}
+            {"weight": 10, "sprite":170},
+            {"weight": 10, "sprite":165},
+            {"weight": 10, "sprite":171},
+            {"weight": 10, "sprite":166},
+            {"weight": 10, "sprite":172},
+            {"weight": 10, "sprite":167},
+            {"weight": 10, "sprite":173},
+            {"weight": 10, "sprite":168},
+            {"weight": 10, "sprite":174},
+            {"weight": 10, "sprite":169}
             ]
             }
           ]
