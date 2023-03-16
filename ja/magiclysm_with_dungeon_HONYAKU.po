@@ -4339,3 +4339,6 @@ msgstr "商人の秘宝マント"
 
 msgid "merchant's Lifeline"
 msgstr "商人の命綱"
+
+msgid "ice field"
+msgstr "アイスフィールド"

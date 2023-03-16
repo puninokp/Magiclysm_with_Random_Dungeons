@@ -826,6 +826,73 @@
         "explode_in_fire": true,
         "explosion": { "power": 412 ,"shrapnel": { "casing_mass": 155, "fragment_mass": 0.4 }},
         "flags": [ "TRADER_AVOID", "BOMB" ]
+      },
+
+      {
+        "id": "PSY_magi_item_crystal_bomb_act_EX1",
+        "type": "GENERIC",
+        "name": "Ice Crystal(Bomb)",
+        "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "countdown_interval": 0,
+        "countdown_destroy": true,
+        "countdown_action": {
+          "type": "explosion",
+          "explosion": { "power": 98 ,"shrapnel": { "casing_mass": 50, "fragment_mass": 0.4 }},
+          "fields_type": "fd_PSY_magi_ice_field_bomb",
+          "fields_radius": 4,
+          "fields_min_intensity": 1,
+          "fields_max_intensity": 1
+        },
+        "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+      },
+
+      {
+        "id": "PSY_magi_item_crystal_bomb_act_EX2",
+        "type": "GENERIC",
+        "name": "Ice Crystal(Bomb)",
+        "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "countdown_interval": 0,
+        "countdown_destroy": true,
+        "countdown_action": {
+          "type": "explosion",
+          "explosion": { "power": 178 ,"shrapnel": { "casing_mass": 75, "fragment_mass": 0.4 }},
+          "fields_type": "fd_PSY_magi_ice_field_bomb",
+          "fields_radius": 7,
+          "fields_min_intensity": 1,
+          "fields_max_intensity": 1
+        },
+        "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+      },
+
+      {
+        "id": "PSY_magi_item_crystal_bomb_act_EX3",
+        "type": "GENERIC",
+        "name": "Ice Crystal(Bomb)",
+        "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "countdown_interval": 0,
+        "countdown_destroy": true,
+        "countdown_action": {
+          "type": "explosion",
+          "explosion": { "power": 412 ,"shrapnel": { "casing_mass": 155, "fragment_mass": 0.4 }},
+          "fields_type": "fd_PSY_magi_ice_field_bomb",
+          "fields_radius": 10,
+          "fields_min_intensity": 1,
+          "fields_max_intensity": 1
+        },
+        "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
       }
+
+
+      
+
 
 ]

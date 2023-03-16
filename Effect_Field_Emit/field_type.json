@@ -813,6 +813,42 @@
       },
 
       {
+        "id": "fd_PSY_magi_ice_field_bomb",
+        "type": "field_type",
+        "looks_like": "fd_PSY_magi_ice_field",
+        "intensity_levels": [
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -40,"intensity": 2, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          },
+          {
+            "name": "ice field",
+            "sym": "}",
+            "effects": [
+              { "effect_id": "downed","convection_temperature_mod": -60,"intensity": 3, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+            ]
+          }
+        ],
+        "description_affix": "covered_in",
+        "decrease_intensity_on_contact": true,
+        "priority": 2,
+        "phase": "solid",
+        "half_life": "180 seconds",
+        "display_items": true,
+        "display_field": true
+      },
+
+      {
         "id": "fd_PSY_magi_stunning_field",
         "type": "field_type",
         "looks_like": "fd_web",

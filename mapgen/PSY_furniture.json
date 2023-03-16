@@ -814,7 +814,7 @@
       "sound": "glass shattering!",
       "sound_fail": "mana crackling!",
       "items": [
-        { "item": "PSY_magi_item_crystal_bomb_act", "prob": 100 }
+        { "item": "PSY_magi_item_crystal_bomb_act_EX1", "prob": 100 }
       ]
     }
   },
@@ -839,7 +839,7 @@
       "sound": "glass shattering!",
       "sound_fail": "mana crackling!",
       "items": [
-        { "item": "PSY_magi_item_crystal_bomb_act2", "prob": 100 }
+        { "item": "PSY_magi_item_crystal_bomb_act_EX2", "prob": 100 }
       ]
     }
   },
@@ -864,7 +864,7 @@
       "sound": "glass shattering!",
       "sound_fail": "mana crackling!",
       "items": [
-        { "item": "PSY_magi_item_crystal_bomb_act3", "prob": 100 }
+        { "item": "PSY_magi_item_crystal_bomb_act_EX3", "prob": 100 }
       ]
     }
   },
