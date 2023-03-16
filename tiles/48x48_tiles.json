@@ -145,16 +145,20 @@
             [
             {"weight": 40, "sprite":145},
             {"weight": 10, "sprite":151},
-            {"weight": 20, "sprite":146},
+            {"weight": 10, "sprite":146},
+            {"weight": 10, "sprite":151},
             {"weight": 40, "sprite":145},
             {"weight": 10, "sprite":152},
-            {"weight": 20, "sprite":147},
+            {"weight": 10, "sprite":147},
+            {"weight": 10, "sprite":152},
             {"weight": 40, "sprite":145},
             {"weight": 10, "sprite":153},
-            {"weight": 20, "sprite":148},
+            {"weight": 10, "sprite":148},
+            {"weight": 10, "sprite":153},
             {"weight": 40, "sprite":145},
             {"weight": 10, "sprite":154},
-            {"weight": 20, "sprite":149}
+            {"weight": 10, "sprite":149},
+            {"weight": 10, "sprite":154}
             ]
             },
             { "id": "PSY_magi_f_mana_mech_pod_lv2", "rotates": false,"animated": true,"fg":
@@ -162,31 +166,58 @@
             {"weight": 20, "sprite":155},
             {"weight": 10, "sprite":161},
             {"weight": 10, "sprite":156},
+            {"weight": 10, "sprite":161},
             {"weight": 20, "sprite":155},
             {"weight": 10, "sprite":162},
             {"weight": 10, "sprite":157},
+            {"weight": 10, "sprite":162},
             {"weight": 20, "sprite":155},
             {"weight": 10, "sprite":163},
             {"weight": 10, "sprite":158},
+            {"weight": 10, "sprite":163},
             {"weight": 20, "sprite":155},
             {"weight": 10, "sprite":164},
-            {"weight": 10, "sprite":159}
+            {"weight": 10, "sprite":159},
+            {"weight": 10, "sprite":164}
             ]
             },
             { "id": "PSY_magi_f_mana_mech_pod_lv3", "rotates": false,"animated": true,"fg":
             [
             {"weight": 10, "sprite":170},
             {"weight": 10, "sprite":165},
+            {"weight": 10, "sprite":170},
             {"weight": 10, "sprite":171},
             {"weight": 10, "sprite":166},
+            {"weight": 10, "sprite":171},
             {"weight": 10, "sprite":172},
             {"weight": 10, "sprite":167},
+            {"weight": 10, "sprite":172},
             {"weight": 10, "sprite":173},
             {"weight": 10, "sprite":168},
+            {"weight": 10, "sprite":173},
             {"weight": 10, "sprite":174},
-            {"weight": 10, "sprite":169}
+            {"weight": 10, "sprite":169},
+            {"weight": 10, "sprite":174}
             ]
-            }
+            },
+            { "id": "PSY_bot_mana_mech_electro_bat" ,"fg": 185},
+            { "id": "PSY_bot_mana_mech_icicle_ant" ,"fg": 187},
+            { "id": "PSY_bot_mana_mech_acid_arachnid" ,"fg": 190},
+            { "id": "PSY_bot_mana_mech_overload_cube" ,"fg": 191},
+            { "id": "PSY_bot_mana_mech_skylock" ,"fg": 192},
+            { "id": "PSY_bot_mana_mech_blaze_ant" ,"fg": 193},
+            { "id": "PSY_bot_mana_mech_venom_stinger" ,"fg": 196},
+            { "id": "PSY_bot_mana_mech_power_arms" ,"fg": 200},
+            { "id": "PSY_bot_mana_mech_light_bringer" ,"fg": 201},
+            { "id": "PSY_bot_mana_mech_mind_breaker" ,"fg": 202},
+            { "id": "PSY_bot_mana_mech_magic_sphere" ,"fg": 203},
+            { "id": "PSY_bot_mana_mech_demolisher" ,"fg": 204},
+            { "id": "PSY_bot_mana_mech_iron_fist" ,"fg": 205},
+            { "id": "PSY_bot_mana_mech_blood_storm" ,"fg": 206},
+            { "id": "PSY_bot_mana_mech_magic_eye" ,"fg": 208},
+            { "id": "PSY_bot_mana_mech_energy_cube" ,"fg": 209},
+            { "id": "PSY_bot_mana_mech_life_generator" ,"fg": 213},
+            { "id": "PSY_bot_mana_mech_night_stalker" ,"fg": 214}
           ]
         }
       ]

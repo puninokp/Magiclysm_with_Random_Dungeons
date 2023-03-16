@@ -442,6 +442,16 @@
             {"weight": 10, "sprite":647}
             ]
             },
+            { "id": "PSY_bot_mana_turret_tazer" ,"rotates": false,"fg": 650},
+            { "id": "PSY_bot_mana_turret_gatling" ,"rotates": false,"fg": 651},
+            { "id": "PSY_bot_mana_turret_shotgun" ,"rotates": false,"fg": 652},
+            { "id": "PSY_bot_turret_normal" ,"rotates": false,"fg": 653},
+            { "id": "PSY_bot_mana_turret_flamethrower" ,"rotates": false,"fg": 654},
+            { "id": "PSY_bot_mana_turret_rocket_launcher" ,"rotates": false,"fg": 660},
+            { "id": "PSY_bot_mana_turret_railgun" ,"rotates": false,"fg": 661},
+            { "id": "PSY_bot_mana_turret_shadowfang" ,"rotates": false,"fg": 663},
+            { "id": "PSY_bot_mana_turret_frostbeam" ,"rotates": false,"fg": 664},
+            { "id": "PSY_bot_mana_turret_acidsplatter" ,"rotates": false,"fg": 679},
             { "id": "PSY_magi_rnd_mon_healing_orb", "rotates": false,"animated": true,"fg":
             [
             {"weight": 50, "sprite":682},
