@@ -621,7 +621,7 @@
         "ranged_damage": { "damage_type": "bullet", "amount": 18, "armor_penetration": 3 },
         "valid_mod_locations": [],
         "ammo_effects": [  ],
-        "flags": [ "NEVER_JAMS" ,"TRADER_AVOID"],
+        "flags": [ "MAGIC_FOCUS","NEVER_JAMS" ,"TRADER_AVOID"],
         "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mana_bullet": 12 } } ],
         "ammo_to_fire": 1
       },
@@ -651,7 +651,7 @@
         "ranged_damage": { "damage_type": "bullet", "amount": 22, "armor_penetration": 5 },
         "valid_mod_locations": [],
         "ammo_effects": [  ],
-        "flags": [ "NEVER_JAMS" ,"TRADER_AVOID"],
+        "flags": [ "MAGIC_FOCUS","NEVER_JAMS" ,"TRADER_AVOID"],
         "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mana_bullet": 30 } } ],
         "ammo_to_fire": 1
       },
@@ -682,7 +682,7 @@
         "ranged_damage": { "damage_type": "bullet", "amount": 52, "armor_penetration": 25 },
         "valid_mod_locations": [],
         "ammo_effects": [  ],
-        "flags": [ "NEVER_JAMS" ,"TRADER_AVOID"],
+        "flags": [ "MAGIC_FOCUS","NEVER_JAMS" ,"TRADER_AVOID"],
         "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mana_bullet": 15 } } ],
         "ammo_to_fire": 3
       },
@@ -712,7 +712,7 @@
         "ranged_damage": { "damage_type": "stab", "amount": 500, "armor_penetration": 125 },
         "valid_mod_locations": [],
         "ammo_effects": [ "COOKOFF", "TRAIL", "EXPLOSIVE" ],
-        "flags": [ "NEVER_JAMS" ,"TRADER_AVOID"],
+        "flags": [ "MAGIC_FOCUS","NEVER_JAMS" ,"TRADER_AVOID"],
         "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mana_bullet": 20 } } ],
         "ammo_to_fire": 20
       }
