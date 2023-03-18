@@ -4448,3 +4448,10 @@ msgstr "[大量]クリエイト・マナの弾丸"
 
 msgid "Large amounts of mana and materials are used to create mana bullets to be loaded into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
 msgstr "マナタレットやマナ銃に装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgid "The Magic Gun Book"
+msgid_plural "copies of The Magic Gun Book"
+msgstr[0] "魔法銃の魔術本"
+
+msgid "A spell book that describes this and that about magic guns. By reading it, you will be able to create a gun using magic power."
+msgstr "魔法銃に関してあれこれ書かれた呪文書です。これを読むことにより、魔力を利用して銃を作れるようになります。"

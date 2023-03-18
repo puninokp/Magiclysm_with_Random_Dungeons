@@ -688,6 +688,22 @@
         "symbol": "?",
         "color": "light_red",
         "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_Eisbahn_main", "PSY_magi_conj_ice_barrage","PSY_magi_summon_golem_ice","PSY_magi_item_spell_summon_ice_crystal" ,"PSY_magi_item_spell_detonate_ice_crystal" ] }
+    },
+
+    {
+        "id": "PSY_magi_magic_gunner_book",
+        "type": "BOOK",
+        "name": { "str": "The Magic Gun Book", "str_pl": "copies of The Magic Gun Book" },
+        "//": "3 classless spell",
+        "looks_like": "PSY_magi_ice_mage_book",
+        "description": "A spell book that describes this and that about magic guns. By reading it, you will be able to create a gun using magic power.",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_create_mana_bullet_fast", "PSY_magi_create_mana_pistol"] }
     }
 
 ]
