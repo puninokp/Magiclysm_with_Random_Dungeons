@@ -20,7 +20,6 @@
       "symbol": "=",
       "color": "yellow",
       "ammo_type": "mana_bullet",
-      "range": 50,
       "damage": { "damage_type": "bullet", "amount": 1 },
       "dispersion": 60,
       "recoil": 500,
