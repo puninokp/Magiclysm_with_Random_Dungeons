@@ -254,7 +254,7 @@
         "type": "SPELL",
         "name": "Create Mana Bullet",
         "components": "PSY_magi_spell_components_scrap1",
-        "description": "Creates mana bullets to load into mana turrets. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases.",
+        "description": "Creates mana bullets to load into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases.",
         "valid_targets": [ "self" ],
         "min_damage": 50,
         "max_damage": 70,
@@ -274,7 +274,8 @@
         "difficulty": 4,
         "min_duration": 1,
         "max_duration": 1,
-        "flags": [ "NO_PROJECTILE","PERMANENT_ALL_LEVELS","SILENT", "NO_LEGS" ]
+        "flags": [ "NO_PROJECTILE","PERMANENT_ALL_LEVELS","SILENT", "NO_LEGS" ],
+        "learn_spells": { "PSY_magi_create_mana_bullet_more": 10 }
     },
 
     {

@@ -4342,3 +4342,109 @@ msgstr "商人の命綱"
 
 msgid "ice field"
 msgstr "アイスフィールド"
+
+msgid "Mana Pistol"
+msgstr "マナピストル"
+
+msgid "a pistol made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたピストルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Rifle"
+msgstr "マナライフル"
+
+msgid "a rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Sniper Rifle"
+msgstr "マナスナイパーライフル"
+
+msgid "a sniper rifle made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 3 mana bullets."
+msgstr "魔法で作られたスナイパーライフルです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で3発のマナの弾丸が必要です。"
+
+msgid "Mana Rocket Launcher"
+msgstr "マナロケットランチャー"
+
+msgid "a rocket launcher made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 20 mana bullets."
+msgstr "魔法で作られたロケットランチャーです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で20発のマナの弾丸が必要です。"
+
+msgid "Fire Element"
+msgstr "ファイアーエレメント"
+
+msgid "A fire element that looks like a mass of burning flames. It is able to control the power of flames and release powerful flames at will. The flames within its body are always ablaze, burning opponents hot just by touching them, and it can protect itself with a shield of flames."
+msgstr "燃え盛る炎の塊のような姿をしたファイアーエレメント。炎の力を自在に操り、強力な炎を放つことができる。体内の炎は常に燃え盛り、触れるだけで相手を熱く燃やし、炎のシールドで自身を守ることができる。"
+
+msgid "Water Element"
+msgstr "ウォーターエレメント"
+
+msgid "The water element has the appearance of clear blue water. It has arm- and leg-like parts and can swim with fluid-like supple movements. It can spew water from its mouth, which can also be used for attacks."
+msgstr "ウォーターエレメントは、青く澄んだ水の姿をしている。腕や足のような部位があり、流体のようなしなやかな動きで泳ぐことができる。口から水を噴き出すことができるため、攻撃にも使える。"
+
+msgid "Earth Element"
+msgstr "アースエレメント"
+
+msgid "An element that manipulates the power of the earth. It specializes in earth-shaking attacks and surprise attacks from underground. In appearance, it has a massive appearance that looks like a stone or rock motif."
+msgstr "地の力を操るエレメント。大地を揺るがすような攻撃や、地中からの奇襲を得意とする。外見は、石や岩をモチーフにしたような重厚感のある姿をしている。"
+
+msgid "Air Element"
+msgstr "エアーエレメント"
+
+msgid "An air element that looks like a typhoon. It constantly manipulates the wind around it and flies through the air. The force of its wind is said to be so strong that it can easily blow away buildings. It has an aggressive character and is a natural disaster, so it must be handled with care."
+msgstr "台風のような姿をしたエアーエレメント。常に周囲の風を操り、空中を舞う。その風の力は強く、建物をも簡単に吹き飛ばすことができるという。攻撃的な性格を持ち、自然災害としての一面もあるため、扱いには注意が必要である。"
+
+msgid "[Fast] Create Mana Bullet"
+msgstr "[早]クリエイト・マナの弾丸"
+
+msgid "Creates mana bullets to load into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットやマナ銃に装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgid "Create Mana Pistol"
+msgstr "クリエイト・マナピストル"
+
+msgid "Create a mana pistol using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナピストルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Rifle"
+msgstr "クリエイト・マナライフル"
+
+msgid "Create a mana rifle using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナライフルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create a mana rifle using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 7, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナライフルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル7に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Sniper Rifle"
+msgstr "クリエイト・マナライフル"
+
+msgid "Create a mana sniper rifle using magic power.\n\nEach shot requires 3 mana bullets.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナスナイパーライフルを作成します。\n\n一回の射撃ごとに3つのマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create a mana sniper rifle using magic power.\n\nEach shot requires 3 mana bullets.\nWhen this spell reaches level 5, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナスナイパーライフルを作成します。\n\n一回の射撃ごとに3つのマナの弾丸が必要です。\nこの呪文がレベル5に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Rocket Launcher"
+msgstr "クリエイト・マナロケットランチャー"
+
+msgid "Create a mana rocket launcher using magic power.\n\nEach shot requires 20 mana bullets."
+msgstr "魔力を使用してマナロケットランチャーを作成します。\n\n一回の射撃ごとに20つのマナの弾丸が必要です。"
+
+msgctxt "profession_male"
+msgid "[PSY] Magic Gunner"
+msgstr "[PSY]マジックガンナー"
+
+msgctxt "profession_female"
+msgid "[PSY] Magic Gunner"
+msgstr "[PSY]マジックガンナー"
+
+msgctxt "prof_desc_male"
+msgid "Magic gunners are professionals who use their magical powers to manufacture guns and use them in combat. They combine ancient magic with the latest technology to create powerful guns."
+msgstr "マジックガンナーは、魔力を利用して銃を製造し、戦闘に使用する職業です。彼らは、古代の魔法と最新の技術を組み合わせて、強力な銃を作り出すことができます。"
+
+msgctxt "prof_desc_female"
+msgid "Magic gunners are professionals who use their magical powers to manufacture guns and use them in combat. They combine ancient magic with the latest technology to create powerful guns."
+msgstr "マジックガンナーは、魔力を利用して銃を製造し、戦闘に使用する職業です。彼らは、古代の魔法と最新の技術を組み合わせて、強力な銃を作り出すことができます。"
+
+msgid "Create More Mana Bullet"
+msgstr "[大量]クリエイト・マナの弾丸"
+
+msgid "Large amounts of mana and materials are used to create mana bullets to be loaded into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットやマナ銃に装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"

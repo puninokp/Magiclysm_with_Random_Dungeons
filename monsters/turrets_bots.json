@@ -999,7 +999,7 @@
         "melee_damage": [ { "damage_type": "bash", "amount": 22 } ],
         "revert_to_itype": "PSY_bot_mana_mech_iron_fist",
         "special_attacks": [ 
-          { "id": "smash", "throw_strength": 26, "cooldown": 6 },
+          { "id": "smash", "throw_strength": 72, "cooldown": 12 },
           { "id": "slam" }
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",

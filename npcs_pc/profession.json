@@ -490,6 +490,47 @@
           "male": [ "boxer_shorts" ],
           "female": [ "bra", "boy_shorts" ]
         }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_magic_gunner",
+        "name": "[PSY] Magic Gunner",
+        "description": "Magic gunners are professionals who use their magical powers to manufacture guns and use them in combat. They combine ancient magic with the latest technology to create powerful guns.",
+        "points": 5,
+        "skills": [
+          { "level": 3, "name": "gun" },
+          { "level": 3, "name": "rifle" },
+          { "level": 3, "name": "pistol" },
+          { "level": 3, "name": "spellcraft" }
+        ],
+        "spells": [ 
+          { "id": "PSY_magi_create_mana_bullet_fast", "level": 5 },
+          { "id": "PSY_magi_create_mana_pistol", "level": 5 }
+        ],
+        "traits": [ ],
+        "items": {
+          "both": {
+            "items": [
+              "backpack",
+              "pants_cargo",
+              "PSY_magi_forest_dungeon_map", 
+              "socks", 
+              "polo_shirt", 
+              "boots", 
+              "wristwatch", 
+              "fancy_sunglasses"
+            ],
+            "entries": [
+              { "item": "PSY_magi_mana_bullet", "charges": 300 }, 
+              { "group": "charged_cell_phone" }, 
+              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
+              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+            ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
       }
 
 ]

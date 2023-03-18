@@ -36,6 +36,34 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_scrap5",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 5 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 10 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap50",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 50 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap100",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 100 ] ]  ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_ai1_scrap3",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",

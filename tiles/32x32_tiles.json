@@ -628,7 +628,19 @@
               {"weight": 20, "sprite":721},
               {"weight": 20, "sprite":722}
             ]
-            }
+            },
+            { "id": "explosion_PSY_magi_create_mana_pistol" ,"fg": 740},
+            { "id": "explosion_PSY_magi_create_mana_rifle" ,"fg": 741},
+            { "id": "explosion_PSY_magi_create_mana_sniper_rifle" ,"fg": 742},
+            { "id": "explosion_PSY_magi_create_mana_rocket_launcher" ,"fg": 743},
+            { "id": "PSY_magi_fake_mana_gun_pistol" ,"fg": 756},
+            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_pistol" ,"fg": 766},
+            { "id": "PSY_magi_fake_mana_gun_rifle" ,"fg": 757},
+            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_rifle" ,"fg": 767},
+            { "id": "PSY_magi_fake_mana_gun_sniper_rifle" ,"fg": 753},
+            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_sniper_rifle" ,"fg": 763},
+            { "id": "PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 758},
+            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 768}
             
             
           ]
