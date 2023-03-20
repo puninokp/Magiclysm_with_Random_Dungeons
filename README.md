@@ -1,4 +1,4 @@
-# ランダムダンジョンmod
+# CDDA:ランダムダンジョンmod
 
 Mod for Cataclysm: Dark Days Ahead
 
@@ -6,6 +6,9 @@ Mod for Cataclysm: Dark Days Ahead
 ランダムダンジョン 非公式のcataclysm:ddaのマジクリズムmodの拡張modです。
 
 対応バージョン： 安定版　0G　Gaiman
+
+対応言語（Supported Languages）：　日本語, English
+
 
 ------------このmodとは？---------- 
 
