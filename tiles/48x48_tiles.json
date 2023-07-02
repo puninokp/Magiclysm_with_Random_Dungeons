@@ -1,7 +1,7 @@
 [
     {
       "type": "mod_tileset",
-      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "compatibility": [ "MshockXottoplus","Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
       "tiles-new": [
         {
           "file": "./tiles/48x48_pictures.png",
@@ -52,6 +52,26 @@
             ]
             },
             { "id": "PSY_magi_f_ice_magic_crystal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":43},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":42},
+            {"weight": 25, "sprite":44},
+            {"weight": 25, "sprite":42}
+            ]
+            },
+            { "id": "PSY_magi_f_ice_magic_crystal_medium_D", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":23},
+            {"weight": 50, "sprite":24},
+            {"weight": 50, "sprite":25},
+            {"weight": 50, "sprite":24}
+            ]
+            },
+            { "id": "PSY_magi_f_ice_magic_crystal_D", "rotates": false,"animated": true,"fg":
             [
             {"weight": 25, "sprite":40},
             {"weight": 25, "sprite":41},
@@ -217,7 +237,74 @@
             { "id": "PSY_bot_mana_mech_magic_eye" ,"fg": 208},
             { "id": "PSY_bot_mana_mech_energy_cube" ,"fg": 209},
             { "id": "PSY_bot_mana_mech_life_generator" ,"fg": 213},
-            { "id": "PSY_bot_mana_mech_night_stalker" ,"fg": 214}
+            { "id": "PSY_bot_mana_mech_night_stalker" ,"fg": 214},
+            { "id": "PSY_magi_rnd_mon_upgradeable_treasure_gazer","fg":
+            [
+            {"weight": 10, "sprite":257},
+            {"weight": 10, "sprite":258},
+            {"weight": 10, "sprite":259},
+            {"weight": 10, "sprite":260},
+            {"weight": 10, "sprite":261},
+            {"weight": 10, "sprite":262},
+            {"weight": 10, "sprite":263},
+            {"weight": 10, "sprite":264},
+            {"weight": 10, "sprite":265},
+            {"weight": 10, "sprite":266}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_myconid","fg":
+            [
+            {"weight": 10, "sprite":269},
+            {"weight": 10, "sprite":270},
+            {"weight": 10, "sprite":271},
+            {"weight": 10, "sprite":272}
+            ]
+            },
+            { "id": "PSY_magi_f_mushroom_red" ,"fg": 274,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_purple" ,"fg": 275,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_red_big" ,"fg": 276,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_orange_big" ,"fg": 277,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_red_cap" ,"fg": 278,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_blue_cap" ,"fg": 279,"rotates": false},
+            { "id": "PSY_magi_rnd_mon_unicorn" ,"fg": 280},
+            { "id": "PSY_magi_f_mushroom_red_mario" ,"fg": 287,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_green_mario" ,"fg": 288,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_white_alien" ,"fg": 289,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_blue_alien" ,"fg": 290,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_orange_old" ,"fg": 291,"rotates": false},
+            { "id": "PSY_magi_f_mushroom_pink_old" ,"fg": 292,"rotates": false},
+            { "id": "PSY_magi_rnd_mon_slime_snail","fg":
+            [
+            {"weight": 10, "sprite":281},
+            {"weight": 10, "sprite":295}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_slime","fg":
+            [
+            {"weight": 10, "sprite":282},
+            {"weight": 10, "sprite":283},
+            {"weight": 10, "sprite":296},
+            {"weight": 10, "sprite":297}
+            ]
+            },
+            { "id": "PSY_magi_f_sword_rocked","fg":
+            [
+            {"weight": 10, "sprite":293},
+            {"weight": 10, "sprite":294},
+            {"weight": 10, "sprite":298},
+            {"weight": 10, "sprite":299},
+            {"weight": 10, "sprite":303},
+            {"weight": 10, "sprite":304}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_angry_myconid","fg":
+            [
+            {"weight": 10, "sprite":305},
+            {"weight": 10, "sprite":306},
+            {"weight": 10, "sprite":307},
+            {"weight": 10, "sprite":308}
+            ]
+            }
           ]
         }
       ]

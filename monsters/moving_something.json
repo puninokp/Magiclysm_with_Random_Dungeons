@@ -757,6 +757,83 @@
           "FIREPROOF",
           "COLDPROOF"
         ]
+      },
+
+      {
+        "id": "PSY_magi_mon_gale-force_air_slash_player",
+        "type": "MONSTER",
+        "name": "gale-force air slash",
+        "description": "A magical wind created by gathering the energy of the surrounding wind and releasing it with the mana and power of a wizard, violently disrupting the surrounding air.",
+        "default_faction": "player",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_gale-force_air_slash",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "15000 ml",
+        "weight": "1 g",
+        "hp": 1,
+        "speed": 200,
+        "luminance": 3,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 0,
+        "melee_dice_sides": 0,
+        "dodge": 7,
+        "vision_day": 50,
+        "vision_night": 50,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "special_attacks": [
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_kaze_cutdamage20" }, "cooldown": 0 }
+        ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "FLIES",
+          "SEES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "FIREPROOF",
+          "ACIDPROOF",
+          "PACIFIST"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_animated_blade_player",
+        "type": "MONSTER",
+        "name": "animated blade",
+        "description": "A conjured glowing longsword that darts and dodges around, slicing and cutting your foes into small pieces.",
+        "looks_like": "mon_animated_blade",
+        "default_faction": "player",
+        "volume": "62500 ml",
+        "weight": "81500 g",
+        "hp": 20,
+        "speed": 120,
+        "symbol": "/",
+        "color": "white",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 5,
+        "melee_dice": 1,
+        "melee_dice_sides": 8,
+        "melee_damage": [ { "damage_type": "cut", "amount": 8 } ],
+        "dodge": 6,
+        "luminance": 16,
+        "armor_bash": 15,
+        "armor_cut": 15,
+        "armor_bullet": 15,
+        "vision_day": 30,
+        "vision_night": 30,
+        "material": [ "steel" ],
+        "harvest": "exempt",
+        "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
+        "flags": [ "SEES", "HEARS", "NOHEAD", "HARDTOSHOOT", "FLIES", "PRIORITIZE_TARGETS", "NO_BREATHE", "NOGIB" ]
       }
 
 ]

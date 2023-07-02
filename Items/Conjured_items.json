@@ -832,6 +832,7 @@
         "type": "GENERIC",
         "name": "Ice Crystal(Bomb)",
         "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "looks_like": "PSY_magi_f_ice_magic_crystal",
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
@@ -853,6 +854,7 @@
         "type": "GENERIC",
         "name": "Ice Crystal(Bomb)",
         "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "looks_like": "PSY_magi_f_ice_magic_crystal",
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
@@ -874,6 +876,7 @@
         "type": "GENERIC",
         "name": "Ice Crystal(Bomb)",
         "description": "The fuse on this dynamite is lit and hissing.  It'll explode any moment now.",
+        "looks_like": "PSY_magi_f_ice_magic_crystal",
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
@@ -886,6 +889,23 @@
           "fields_radius": 10,
           "fields_min_intensity": 1,
           "fields_max_intensity": 1
+        },
+        "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+      },
+
+      {
+        "id": "PSY_magi_item_gargoyle_awaken_act_EX3",
+        "type": "GENERIC",
+        "name": { "str_sp": "gargoyle" },
+        "description": "gargoyle with a hard body made of stone and strong wings. It attacks mercilessly anything that approaches its treasure chest or treasury.",
+        "looks_like": "PSY_mon_gargoyle",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "countdown_interval": 0,
+        "countdown_destroy": true,
+        "countdown_action": { 
+          "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
         },
         "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
       }

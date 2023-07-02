@@ -764,6 +764,1433 @@
             ]
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_gnome",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|$$$$$$|",
+            "|$$$$$$|",
+            "|$$$$$$|",
+            "|$$$$$$|",
+            "|$$$$$$|",
+            "|$$$$$$|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_carpet_red",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": {
+            "$": { "item": "PSY_magi_money_little_distribution", "chance": 100 }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_GNOME", "x": [ 1, 7 ], "y": [ 1, 7 ], "density": 0.20}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_null",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_slime",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_SLIME", "x": [ 1, 7 ], "y": [ 1, 7 ], "density": 0.20}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_slime",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|||XX|||",
+            "|||XX|||",
+            "|XXXXXX|",
+            "|XXXXXX|",
+            "|||XX|||",
+            "|||XX|||",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray"
+            ],
+            "X": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_SLIME", "x": [ 1, 7 ], "y": [ 1, 7 ], "density": 0.20}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_slime",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|YYXXYY|",
+            "|YYXXYY|",
+            "|XXXXXX|",
+            "|XXXXXX|",
+            "|YYXXYY|",
+            "|YYXXYY|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray"
+            ],
+            "X": [ 
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray"
+            ],
+            "Y": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_floor"
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_SLIME", "x": [ 1, 7 ], "y": [ 1, 7 ], "density": 0.20}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_car",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "y''''''y",
+            ".''''''.",
+            ".'+''+'.",
+            ".'Á''Á'.",
+            ".'+''+'.",
+            ".''''''.",
+            ".''''''.",
+            "y''''''y"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_floor",
+            "y": "PSY_magi_t_floor",
+            "'": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_thconc_floor",
+            "Á": "PSY_magi_t_thconc_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "d": "f_desk",
+            "h": "f_chair",
+            "S": "f_sofa",
+            "b": "f_bench",
+            "u": "f_birdbath",
+            "n": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "f": "f_filing_cabinet"
+          },
+          "vehicles": { "Á": { "vehicle": "showroom_small_vehicles", "rotation": 270, "chance": 100, "status": 0, "fuel": 0 } }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_car",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "y''''hh'",
+            ".'+''''.",
+            ".'Á''''.",
+            ".'+''''.",
+            ".''''+'.",
+            ".''''Á'.",
+            ".''''+'.",
+            "y''''''y"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_floor",
+            "y": "PSY_magi_t_floor",
+            "'": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_thconc_floor",
+            "Á": "PSY_magi_t_thconc_floor",
+            "h": "PSY_magi_t_thconc_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "d": "f_desk",
+            "h": "f_chair",
+            "S": "f_sofa",
+            "b": "f_bench",
+            "u": "f_birdbath",
+            "n": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "f": "f_filing_cabinet"
+          },
+          "vehicles": { "Á": { "vehicle": "showroom_small_vehicles", "rotation": 270, "chance": 100, "status": 0, "fuel": 0 } }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_car",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "y''''''y",
+            ".''''''.",
+            ".''''''.",
+            ".''Á'''.",
+            ".''''''.",
+            ".''''''.",
+            ".''''''.",
+            "y''''''y"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_floor",
+            "y": "PSY_magi_t_floor",
+            "'": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_thconc_floor",
+            "Á": "PSY_magi_t_thconc_floor",
+            "h": "PSY_magi_t_thconc_floor",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "d": "f_desk",
+            "h": "f_chair",
+            "S": "f_sofa",
+            "b": "f_bench",
+            "u": "f_birdbath",
+            "n": [ "f_indoor_plant_y", "f_indoor_plant" ],
+            "f": "f_filing_cabinet"
+          },
+          "vehicles": { "Á": { "vehicle": "PSY_oa_vg_cs_vehicles", "rotation": 270, "chance": 100, "status": 0, "fuel": 0 } }
+        }
+        
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_barn",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "______RR",
+            "______RR",
+            "_______R",
+            "=-___WW=",
+            "________",
+            "___~~___",
+            "s_______",
+            "hh______"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "_": "PSY_magi_t_dirtfloor",
+            "R": "PSY_magi_t_dirtfloor",
+            "+": "PSY_magi_t_dirt",
+            "-": [ [ "t_wall_wood_chipped", 4 ], "t_wall_wood" ],
+            "W": [ [ "t_wall_wood", 4 ], "t_wall_wood_chipped" ],
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_dirt",
+            "=": "t_wall_wood_chipped",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "~": "f_smoking_rack",
+            "^": "f_rubble",
+            "{": "f_rack",
+            "%": "f_rubble",
+            "a": "f_rubble_rock",
+            "A": "f_straw_bed",
+            "b": "f_brazier",
+            "c": "f_clay_kiln",
+            "C": "f_crate_o",
+            "g": "f_generator_broken",
+            "h": "f_hay",
+            "I": "f_stool",
+            "!": "f_canvas_door_o",
+            "m": "f_machinery_old",
+            "n": "f_canvas_floor",
+            "N": "f_canvas_wall",
+            "r": "f_rubble",
+            "R": "f_rubble_rock",
+            "s": "f_straw_bed",
+            "S": "f_still",
+            "T": "f_table",
+            "u": "f_utility_shelf"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_DOUBUTSU", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_DOUBUTSU", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_barn",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "^h^____^",
+            "^_______",
+            "---__---",
+            "=-___ww=",
+            "^^______",
+            "0R_____c",
+            "-^_____^",
+            "--W__-WW"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "_": "PSY_magi_t_dirtfloor",
+            "^": "PSY_magi_t_dirtfloor",
+            "w": "t_window",
+            "0": "t_window_empty",
+            "R": "PSY_magi_t_dirtfloor",
+            "c": "PSY_magi_t_dirtfloor",
+            "+": "PSY_magi_t_dirt",
+            "-": [ [ "t_wall_wood_chipped", 4 ], "t_wall_wood" ],
+            "W": [ [ "t_wall_wood", 4 ], "t_wall_wood_chipped" ],
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_dirt",
+            "=": "t_wall_wood_chipped",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "~": "f_smoking_rack",
+            "^": "f_rubble",
+            "{": "f_rack",
+            "%": "f_rubble",
+            "a": "f_rubble_rock",
+            "A": "f_straw_bed",
+            "b": "f_brazier",
+            "c": "f_clay_kiln",
+            "C": "f_crate_o",
+            "g": "f_generator_broken",
+            "h": "f_hay",
+            "I": "f_stool",
+            "!": "f_canvas_door_o",
+            "m": "f_machinery_old",
+            "n": "f_canvas_floor",
+            "N": "f_canvas_wall",
+            "r": "f_rubble",
+            "R": "f_rubble_rock",
+            "s": "f_straw_bed",
+            "S": "f_still",
+            "T": "f_table",
+            "u": "f_utility_shelf"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_diner",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|;gG|;G|",
+            "||Ff;|F|",
+            "|;gG|;G|",
+            "||||||||",
+            "|;gG|;G|",
+            "||Ff;|F|",
+            "|;gG|;G|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "%": [ "t_region_shrub_fruit", "t_region_shrub_decorative" ],
+            "[": [ [ "t_region_tree_fruit", 2 ], [ "t_region_tree_nut", 2 ], "t_region_tree_shade" ],
+            "!": "t_region_groundcover_urban",
+            "#": "t_brick_wall",
+            "|": "PSY_magi_t_linoleum_gray",
+            "b": "t_window",
+            "c": "t_door_c",
+            ";": "PSY_magi_t_linoleum_gray",
+            "g": "PSY_magi_t_linoleum_gray",
+            "G": "PSY_magi_t_linoleum_gray",
+            "F": "PSY_magi_t_linoleum_gray",
+            "H": "PSY_magi_t_linoleum_gray",
+            "A": "PSY_magi_t_linoleum_gray",
+            "~": "t_thconc_floor",
+            "s": "t_thconc_floor",
+            "I": "t_thconc_floor",
+            "E": "t_thconc_floor",
+            "e": "t_thconc_floor",
+            ".": "t_region_groundcover_urban",
+            "`": "t_sidewalk",
+            "j": "t_thconc_floor",
+            "k": "t_thconc_floor",
+            "m": "t_thconc_floor",
+            "o": "t_thconc_floor",
+            "p": "t_thconc_floor",
+            "q": "t_thconc_floor",
+            "r": "t_thconc_floor",
+            "t": "t_thconc_floor",
+            "u": "t_sidewalk",
+            "v": "t_sidewalk",
+            "<": "t_stairs_up"
+          },
+          "furniture": {
+            "n": "f_counter",
+            "e": "f_counter",
+            "f": "f_table",
+            "F": "f_table",
+            "@": "f_sofa",
+            "H": "f_sofa",
+            "A": "f_stool",
+            "g": "f_chair",
+            "G": "f_chair",
+            "!": "f_region_flower",
+            "k": "f_sink",
+            "l": "f_trashcan",
+            "m": "f_trashcan",
+            "o": "f_sink",
+            "p": "f_oven",
+            "q": "f_fridge",
+            "r": "f_locker",
+            "I": "f_desk",
+            "E": "f_armchair",
+            "s": "f_locker",
+            "t": "f_rack",
+            "u": "f_table",
+            "v": "f_chair"
+          },
+          "toilets": { "j": {  } },
+          "items": {
+            "p": { "item": "oven", "chance": 80, "repeat": [ 2, 4 ] },
+            "n": { "item": "cash_register_random", "chance": 100 },
+            "F": [
+              { "item": "coffee_dishes", "chance": 20 },
+              { "item": "coffee_condiments", "chance": 20 },
+              { "item": "baked_goods", "chance": 10 },
+              { "item": "prepared_teas", "chance": 20 },
+              { "item": "coffee_counter", "chance": 20 }
+            ],
+            "f": [
+              { "item": "coffee_dishes", "chance": 20 },
+              { "item": "coffee_condiments", "chance": 20 },
+              { "item": "baked_goods", "chance": 10 },
+              { "item": "prepared_teas", "chance": 20 },
+              { "item": "coffee_table", "chance": 20 }
+            ],
+            "m": { "item": "bar_trash", "chance": 50, "repeat": [ 1, 2 ] },
+            "I": { "item": "office", "chance": 30, "repeat": [ 1, 2 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_HUMANOID", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_HUMANOID", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_diner",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|gFG||||",
+            "||||||||",
+            "|eeenee|",
+            "|epuuue|",
+            "|euuuue|",
+            "|eeneee|",
+            "||||||||",
+            "||||gFG|"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "%": [ "t_region_shrub_fruit", "t_region_shrub_decorative" ],
+            "[": [ [ "t_region_tree_fruit", 2 ], [ "t_region_tree_nut", 2 ], "t_region_tree_shade" ],
+            "!": "t_region_groundcover_urban",
+            "#": "t_brick_wall",
+            "|": "PSY_magi_t_linoleum_gray",
+            "b": "t_window",
+            "c": "t_door_c",
+            ";": "PSY_magi_t_linoleum_gray",
+            "g": "PSY_magi_t_linoleum_gray",
+            "G": "PSY_magi_t_linoleum_gray",
+            "F": "PSY_magi_t_linoleum_gray",
+            "H": "PSY_magi_t_linoleum_gray",
+            "A": "PSY_magi_t_linoleum_gray",
+            "~": "t_thconc_floor",
+            "s": "t_thconc_floor",
+            "I": "t_thconc_floor",
+            "E": "t_thconc_floor",
+            "e": "PSY_magi_t_linoleum_gray",            
+            "n": "PSY_magi_t_linoleum_gray",
+            ".": "t_region_groundcover_urban",
+            "`": "t_sidewalk",
+            "j": "t_thconc_floor",
+            "k": "t_thconc_floor",
+            "m": "t_thconc_floor",
+            "o": "t_thconc_floor",
+            "p": "t_thconc_floor",
+            "q": "t_thconc_floor",
+            "r": "t_thconc_floor",
+            "t": "t_thconc_floor",
+            "u": "t_sidewalk",
+            "v": "t_sidewalk",
+            "<": "t_stairs_up"
+          },
+          "furniture": {
+            "n": "f_counter",
+            "e": "f_counter",
+            "f": "f_table",
+            "F": "f_table",
+            "@": "f_sofa",
+            "H": "f_sofa",
+            "A": "f_stool",
+            "g": "f_chair",
+            "G": "f_chair",
+            "!": "f_region_flower",
+            "k": "f_sink",
+            "l": "f_trashcan",
+            "m": "f_trashcan",
+            "o": "f_sink",
+            "p": "f_oven",
+            "q": "f_fridge",
+            "r": "f_locker",
+            "I": "f_desk",
+            "E": "f_armchair",
+            "s": "f_locker",
+            "t": "f_rack",
+            "v": "f_chair"
+          },
+          "toilets": { "j": {  } },
+          "items": {
+            "p": { "item": "oven", "chance": 80, "repeat": [ 2, 4 ] },
+            "n": { "item": "cash_register_random", "chance": 100 },
+            "F": [
+              { "item": "coffee_dishes", "chance": 20 },
+              { "item": "coffee_condiments", "chance": 20 },
+              { "item": "baked_goods", "chance": 10 },
+              { "item": "prepared_teas", "chance": 20 },
+              { "item": "coffee_counter", "chance": 20 }
+            ],
+            "f": [
+              { "item": "coffee_dishes", "chance": 20 },
+              { "item": "coffee_condiments", "chance": 20 },
+              { "item": "baked_goods", "chance": 10 },
+              { "item": "prepared_teas", "chance": 20 },
+              { "item": "coffee_table", "chance": 20 }
+            ],
+            "m": { "item": "bar_trash", "chance": 50, "repeat": [ 1, 2 ] },
+            "I": { "item": "office", "chance": 30, "repeat": [ 1, 2 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_GRAPPERS", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_GRAPPERS", "x": 2, "y": 4 , "density": 0.05}  
+          ]
+        }
+
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_electro",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "||^^^^^|",
+            "||^CCC^|",
+            "||^CCC^|",
+            "||^^^^^|",
+            "||||||||",
+            "|111222|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            " ": "t_region_groundcover_urban",
+            ",": "t_floor",
+            "^": "PSY_magi_t_carpet_yellow",
+            "C": "t_carpet_yellow",
+            "!": "t_concrete",
+            "+": "t_door_c",
+            "-": "t_brick_wall",
+            "=": "t_door_metal_locked",
+            "D": "t_door_locked_interior",
+            "G": "t_door_glass_c",
+            "W": "t_wall_glass",
+            "w": "t_window",
+            "s": "t_sidewalk",
+            "f": "t_chainfence_v",
+            "g": "t_chaingate_c",
+            "<": "t_stairs_up",
+            "|": "PSY_magi_t_thconc_floor",
+            "O": "t_thconc_floor",
+            "(": "t_concrete",
+            "1": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ],
+            "2": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ]
+          },
+          "furniture": {
+            "x": "f_console_broken",
+            "n": "f_displaycase",
+            "1": "f_rack",
+            "2": "f_rack",
+            "3": "f_rack",
+            "4": "f_rack",
+            "m": "f_rack",
+            "C": "f_counter",
+            "t": "f_counter",
+            "d": "f_desk",
+            "S": "f_sink",
+            "}": "f_filing_cabinet",
+            "c": "f_chair",
+            "o": "f_cardboard_box",
+            "O": "f_cardboard_box",
+            "(": "f_dumpster"
+          },
+          "toilets": { "T": {  } },
+          "items": {
+            "1": { "item": "elecsto_books", "chance": 10 },
+            "2": { "item": "elecsto_homapl", "chance": 50 },
+            "3": { "item": "elecsto_lights", "chance": 20 },
+            "4": { "item": "elecsto_diy", "chance": 35 },
+            "C": { "item": "elecsto_displ", "chance": 20 },
+            "n": { "item": "elecsto_persele", "chance": 50 },
+            "o": { "item": "supplies_electronics", "chance": 50, "repeat": [ 2, 5 ] },
+            "O": { "item": "supplies_electronics", "chance": 50, "repeat": [ 3, 5 ] },
+            "d": { "item": "office_mess", "chance": 20, "repeat": [ 1, 2 ] },
+            "f": { "item": "file_room", "chance": 50, "repeat": [ 1, 5 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_BATS_500", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_BATS_500", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_electro",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|4444|4|",
+            "|4444|4|",
+            "||||||4|",
+            "|444444|",
+            "||||||||",
+            "|ooo-dd|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            " ": "t_region_groundcover_urban",
+            ",": "t_floor",
+            "^": "PSY_magi_t_carpet_yellow",
+            "C": "t_carpet_yellow",
+            "!": "t_concrete",
+            "+": "t_door_c",
+            "-": "t_brick_wall",
+            "=": "t_door_metal_locked",
+            "D": "t_door_locked_interior",
+            "G": "t_door_glass_c",
+            "W": "t_wall_glass",
+            "w": "t_window",
+            "s": "t_sidewalk",
+            "f": "t_chainfence_v",
+            "g": "t_chaingate_c",
+            "<": "t_stairs_up",
+            "|": "PSY_magi_t_thconc_floor",
+            "o": "PSY_magi_t_linoleum_white",
+            "O": "t_thconc_floor",
+            "(": "t_concrete",
+            "1": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ],
+            "2": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ],
+            "4": [ 
+              "PSY_magi_t_floor_blue",
+              "PSY_magi_t_linoleum_white",
+              "PSY_magi_t_linoleum_gray",
+              "PSY_magi_t_carpet_red",
+              "PSY_magi_t_carpet_yellow",
+              "PSY_magi_t_strconc_floor",
+              "PSY_magi_t_thconc_floor",
+              "PSY_magi_t_floor"
+            ]
+          },
+          "furniture": {
+            "x": "f_console_broken",
+            "n": "f_displaycase",
+            "1": "f_rack",
+            "2": "f_rack",
+            "3": "f_rack",
+            "4": "f_rack",
+            "m": "f_rack",
+            "C": "f_counter",
+            "t": "f_counter",
+            "d": "f_desk",
+            "S": "f_sink",
+            "}": "f_filing_cabinet",
+            "c": "f_chair",
+            "o": "f_cardboard_box",
+            "O": "f_cardboard_box",
+            "(": "f_dumpster"
+          },
+          "toilets": { "T": {  } },
+          "items": {
+            "1": { "item": "elecsto_books", "chance": 10 },
+            "2": { "item": "elecsto_homapl", "chance": 50 },
+            "3": { "item": "elecsto_lights", "chance": 20 },
+            "4": { "item": "elecsto_diy", "chance": 35 },
+            "C": { "item": "elecsto_displ", "chance": 20 },
+            "n": { "item": "elecsto_persele", "chance": 50 },
+            "o": { "item": "supplies_electronics", "chance": 50, "repeat": [ 2, 5 ] },
+            "O": { "item": "supplies_electronics", "chance": 50, "repeat": [ 3, 5 ] },
+            "d": { "item": "office_mess", "chance": 20, "repeat": [ 1, 2 ] },
+            "f": { "item": "file_room", "chance": 50, "repeat": [ 1, 5 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_gunshop",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "||##||||",
+            "||LL||||",
+            "||LL||||",
+            "||LL||||",
+            "||LL|CdC",
+            "||##|C||",
+            "|||||CX|"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "#": "t_brick_wall",
+            "%": "PSY_magi_t_dirt",
+            "L": "PSY_magi_t_thconc_floor",
+            "X": "PSY_magi_t_thconc_floor",
+            "d": "PSY_magi_t_thconc_floor",
+            "C": "PSY_magi_t_thconc_floor",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "C": "f_counter",
+            "R": "f_counter",
+            "a": "f_stool",
+            "?": "f_console_broken",
+            "d": [ [ "f_displaycase", 65 ], [ "f_displaycase_o", 35 ] ],
+            "p": "f_displaycase_b",
+            "n": "f_table",
+            "E": "f_desk",
+            "^": "f_indoor_plant",
+            "l": "f_locker",
+            "N": "f_locker",
+            "M": "f_locker",
+            "m": "f_rack",
+            "Y": "f_rack",
+            "y": "f_rack",
+            "Q": "f_rack",
+            "K": "f_rack",
+            "L": [ [ "f_rack_l", 65 ], [ "f_rack", 35 ] ],
+            "G": "f_rack",
+            "v": "f_rack",
+            "q": "f_sink",
+            "r": "f_trashcan",
+            "s": [ [ "f_crate_c", 55 ], [ "f_crate_o", 45 ] ],
+            "S": "f_crate_o",
+            "A": "f_chair",
+            "T": "f_target",
+            "w": "f_dumpster",
+            "X": [ [ "f_gunsafe_ml", 90 ], [ "f_gunsafe_o", 10 ] ],
+            "e": "f_gunsafe_o",
+            "O": [ [ "f_gunsafe_ml", 90 ], [ "f_gunsafe_o", 10 ] ],
+            "x": "f_sandbag_wall",
+            "g": "f_sofa",
+            "f": "f_fridge",
+            "/": "f_flagpole"
+          },
+          "items": {
+            "L": {
+              "item": {
+                "//": "locked racks for all common gun type of civilian firearms",
+                "subtype": "collection",
+                "entries": [ { "group": "guns_common_display" } ]
+              },
+              "chance": 15
+            },
+            "C": {
+              "item": {
+                "subtype": "distribution",
+                "//": "low chance of snacks and gun mags on counters",
+                "entries": [
+                  { "group": "vending_food_items", "prob": 33 },
+                  { "group": "vending_drink_items", "prob": 33 },
+                  { "group": "book_gunmags", "prob": 33 }
+                ]
+              },
+              "repeat": 2,
+              "chance": 35
+            },
+            "d": { "item": "cash_register_random", "chance": 95 },
+            "X": { "item": "SUS_gunstore_safe", "chance": 100, "repeat": [ 3, 4 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_gunshop",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|xxxxxx|",
+            "||T||T||",
+            "||||||||",
+            "||||||||",
+            "WRWRWRWW",
+            "==n=n=n=",
+            "========"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "#": "t_brick_wall",
+            "%": "PSY_magi_t_dirt",
+            "L": "PSY_magi_t_thconc_floor",
+            "X": "PSY_magi_t_thconc_floor",
+            "d": "PSY_magi_t_thconc_floor",
+            "R": "PSY_magi_t_thconc_floor",
+            "W": "t_strconc_wall",
+            "C": "PSY_magi_t_thconc_floor",
+            "T": "PSY_magi_t_thconc_floor",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_thconc_floor",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "C": "f_counter",
+            "R": "f_counter",
+            "a": "f_stool",
+            "?": "f_console_broken",
+            "d": [ [ "f_displaycase", 65 ], [ "f_displaycase_o", 35 ] ],
+            "p": "f_displaycase_b",
+            "n": "f_table",
+            "E": "f_desk",
+            "^": "f_indoor_plant",
+            "l": "f_locker",
+            "N": "f_locker",
+            "M": "f_locker",
+            "m": "f_rack",
+            "Y": "f_rack",
+            "y": "f_rack",
+            "Q": "f_rack",
+            "K": "f_rack",
+            "L": [ [ "f_rack_l", 65 ], [ "f_rack", 35 ] ],
+            "G": "f_rack",
+            "v": "f_rack",
+            "q": "f_sink",
+            "r": "f_trashcan",
+            "s": [ [ "f_crate_c", 55 ], [ "f_crate_o", 45 ] ],
+            "S": "f_crate_o",
+            "A": "f_chair",
+            "T": "f_target",
+            "w": "f_dumpster",
+            "X": [ [ "f_gunsafe_ml", 90 ], [ "f_gunsafe_o", 10 ] ],
+            "e": "f_gunsafe_o",
+            "O": [ [ "f_gunsafe_ml", 90 ], [ "f_gunsafe_o", 10 ] ],
+            "x": "f_sandbag_wall",
+            "g": "f_sofa",
+            "f": "f_fridge",
+            "/": "f_flagpole"
+          },
+          "items": {
+            "L": {
+              "item": {
+                "//": "locked racks for all common gun type of civilian firearms",
+                "subtype": "collection",
+                "entries": [ { "group": "guns_common_display" } ]
+              },
+              "chance": 15
+            },
+            "C": {
+              "item": {
+                "subtype": "distribution",
+                "//": "low chance of snacks and gun mags on counters",
+                "entries": [
+                  { "group": "vending_food_items", "prob": 33 },
+                  { "group": "vending_drink_items", "prob": 33 },
+                  { "group": "book_gunmags", "prob": 33 }
+                ]
+              },
+              "repeat": 2,
+              "chance": 35
+            },
+            "R": {
+              "item": {
+                "//": "counters used for shooting at the gun range, chance of spawning any loaded common firearm as well as spent brass",
+                "subtype": "collection",
+                "entries": [ { "group": "guns_common_display", "prob": 25 }, { "group": "casings", "prob": 50 } ]
+              },
+              "repeat": 2,
+              "chance": 60
+            },
+            "=": {
+              "item": {
+                "subtype": "collection",
+                "//": "spent casings scattered around shooting ranges",
+                "entries": [ { "group": "casings" } ]
+              },
+              "repeat": 1,
+              "chance": 50
+            },
+            "d": { "item": "cash_register_random", "chance": 95 },
+            "X": { "item": "SUS_gunstore_safe", "chance": 100, "repeat": [ 3, 4 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MASKS", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MASKS", "x": 4, "y": 4 , "density": 0.05}    
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_hunting",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "rrr||RR|",
+            "###||RR|",
+            "||#||RR|",
+            "||#|||||",
+            "||C||xx|",
+            "###||xx|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "#": "PSY_magi_t_thconc_floor",
+            "%": "PSY_magi_t_dirt",
+            "L": "PSY_magi_t_thconc_floor",
+            "X": "PSY_magi_t_thconc_floor",
+            "x": "PSY_magi_t_thconc_floor",
+            "d": "PSY_magi_t_thconc_floor",
+            "R": "PSY_magi_t_thconc_floor",
+            "W": "t_strconc_wall",
+            "C": "PSY_magi_t_thconc_floor",
+            "r": "PSY_magi_t_thconc_floor",
+            "T": "PSY_magi_t_thconc_floor",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_thconc_floor",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "#": "f_counter",
+            "C": "f_counter_gate_c",
+            "%": "f_sink",
+            "R": "f_rack",
+            "r": "f_warehouse_shelf",
+            "O": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "o": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "X": [ [ "f_gunsafe_ml", 3 ], "f_gunsafe_o", "f_gunsafe_c" ],
+            "x": "f_locker",
+            "B": "f_bulletin",
+            "^": "f_indoor_plant",
+            "F": "f_filing_cabinet",
+            "c": "f_chair",
+            "f": "f_fridge",
+            "I": "f_desk",
+            "Y": "f_trashcan",
+            "L": "f_locker",
+            "m": "f_mannequin"
+          },
+          "items": {
+            "O": { "item": "clothing_hunting", "chance": 50 },
+            "R": { "item": "tools_hunting", "chance": 50 },
+            "r": { "item": "clothing_hunting", "chance": 50 },
+            "f": { "item": "fridgesnacks", "chance": 80, "repeat": [ 2, 3 ] },
+            "F": { "item": "office_supplies", "chance": 80, "repeat": [ 2, 4 ] },
+            "X": { "item": "ammo_hunting", "chance": 80, "repeat": [ 4, 6 ] },
+            "x": { "item": "mags_hunting", "chance": 30, "repeat": [ 1, 3 ] },
+            "Y": { "item": "trash_cart", "chance": 70, "repeat": [ 1, 2 ] },
+            "I": { "item": "office_supplies", "chance": 50 },
+            "m": { "item": "clothing_hunting", "chance": 80, "repeat": [ 2, 3 ] }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 4, "y": 4 , "density": 0.05}    
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_zoo",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|rrrrrB|",
+            "|r====B|",
+            "|r====B|",
+            "|r====B|",
+            "|r====B|",
+            "|BBBBdB|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "d": "t_door_metal_locked",
+            "r": "t_reinforced_glass",
+            "B": "t_brick_wall",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_floor",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": {
+            "=": { "item": "trash", "chance": 30 }
+          },
+          "place_monster": [
+            { "monster": "PSY_mon_dragon_black_wyrmling", "x": 3, "y": 3 },
+            { "monster": "PSY_mon_dragon_black_wyrmling", "x": 4, "y": 4 }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_zoo",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|BrrrrB|",
+            "|B====B|",
+            "|B====B|",
+            "|B====B|",
+            "|d====B|",
+            "|BrrrrB|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "d": "t_door_metal_locked",
+            "r": "t_reinforced_glass",
+            "B": "t_brick_wall",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_floor",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": {
+            "=": { "item": "trash", "chance": 30 }
+          },
+          "place_monster": [
+            { "monster": "PSY_mon_owlbear", "x": 3, "y": 3 },
+            { "monster": "PSY_mon_owlbear", "x": 4, "y": 4 }
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_8x8_zoo",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|rrrBBB|",
+            "|r====B|",
+            "|r====B|",
+            "|B====r|",
+            "|d====r|",
+            "|BBBrrr|",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "d": "t_door_metal_locked",
+            "r": "t_reinforced_glass",
+            "B": "t_brick_wall",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_floor",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": {
+            "=": { "item": "trash", "chance": 30 }
+          },
+          "place_monster": [
+            { "monster": "PSY_mon_yulecat", "x": 3, "y": 3 }
+          ]
+        }
       }
 
 

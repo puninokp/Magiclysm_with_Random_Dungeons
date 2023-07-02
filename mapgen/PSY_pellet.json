@@ -156,6 +156,8 @@
         "6": "t_rock",
         "7": "t_rock",
         "8": "t_rock",
+        "9": "t_rock",
+        "X": "t_rock",
         ".": "t_rock",
         "D": "t_door_c",
         " ": "t_dirt",
@@ -276,6 +278,7 @@
     
 
     {
+      "//4":"------------------------forest_dungeon---------------------------------------",
       "type": "palette",
       "id": "PSY_magi_random_dungeon_forest_pelette",
       "terrain": {
@@ -581,6 +584,396 @@
       "=": "f_rack_wood",
       "H": "f_smoking_rack"
     }
-   }
+   },
+
+
+
+
+
+
+   {
+    "//4":"------------------------big_dungeon---------------------------------------",
+    "type": "palette",
+    "id": "PSY_magi_random_dungeon_big_field_pelette",
+    "terrain": {
+      ",": "t_platform_resin",
+      "/": "t_dirt",
+      "!": "t_dirt",
+      "|": "t_dirt",
+      "#": "t_rock",
+      ".": "t_dirt",
+      "1": "t_rock",
+      "2": "t_rock",
+      "3": "t_rock",
+      "4": "t_rock",
+      "+": "t_door_c",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "p": "t_platform_resin",
+      "v": "t_open_air",
+      "_": "t_tile_flat_roof",
+      "@": "t_null"
+    }
+},
+
+
+   {
+    "type": "palette",
+    "id": "PSY_magi_random_dungeon_big_pelette",
+    "terrain": {
+      ",": "t_platform_resin",
+      "#": "t_wall_w",
+      "/": "t_rock",
+      "!": "t_rock",
+      "|": "t_rock",
+      ".": "t_rock",
+      "1": "t_rock",
+      "2": "t_rock",
+      "3": "t_rock",
+      "4": "t_rock",
+      "5": "t_rock",
+      "6": "t_rock",
+      "7": "t_rock",
+      "8": "t_rock",
+      "9": "t_rock",
+      "U": "t_rock",
+      "D": "t_rock",
+      "+": "t_door_c",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "p": "t_platform_resin",
+      "v": "t_open_air",
+      "_": "t_dirt",
+      "@": "t_null"
+    },
+    "nested": {
+      "1": {
+        "//3":"nested_24x24_NW",
+        "chunks": [          
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "2": {
+        "//3":"nested_24x24_N",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "3": {
+        "//3":"nested_24x24_NW",
+        "chunks": [                 
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "4": {
+        "//3":"nested_24x24_W",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "5": {
+        "//3":"nested_24x24_M",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "6": {
+        "//3":"nested_24x24_E",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "7": {
+        "//3":"nested_24x24_SW",
+        "chunks": [                 
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "8": {
+        "//3":"nested_24x24_S",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      },
+      "9": {
+        "//3":"nested_24x24_SE",
+        "chunks": [
+          [ "PSY_magi_room_big_24x24_4room_3_NSWE", 3 ],
+          [ "PSY_magi_room_big_24x24_4room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_4room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_3_NSWE", 1 ],
+          [ "PSY_magi_room_big_24x24_2room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_2room_1_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_5_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_6_NSWE", 2 ],
+          [ "PSY_magi_room_big_24x24_3room_4_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_3_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_2_NSWE", 5 ],
+          [ "PSY_magi_room_big_24x24_3room_1_NSWE", 5 ]
+        ]
+      }
+    }
+  },
+
+  {
+    "type": "palette",
+    "id": "PSY_magi_nested_dungeon_big_pelette",
+    "nested": {
+      "5": {
+        "//4":"nested_5x5",
+        "chunks": [
+          [ "PSY_magi_nested_room_5x5_gunshop_1", 2 ],
+          [ "PSY_magi_nested_room_5x5_gunshop_2", 3 ],
+          [ "PSY_magi_nested_room_5x5_gunshop_3", 3 ],
+          [ "PSY_magi_nested_room_5x5_fairy_1", 3 ],
+          [ "PSY_magi_nested_room_5x5_fairy_2", 3 ],
+          [ "PSY_magi_nested_room_5x5_crystal_1", 3 ],
+          [ "PSY_magi_nested_room_5x5_crystal_2", 2 ],
+          [ "PSY_magi_nested_room_5x5_frog_1", 3 ],
+          [ "PSY_magi_nested_room_5x5_chess_1", 1 ],
+          [ "PSY_magi_nested_room_5x5_chess_2", 2 ],
+          [ "PSY_magi_nested_room_5x5_chess_3", 2 ],
+          [ "PSY_magi_nested_room_5x5_chess_4", 2 ],
+          [ "PSY_magi_nested_room_5x5_bat_1", 4 ],
+          [ "PSY_magi_nested_room_5x5_wisp_1", 4 ],
+          [ "PSY_magi_nested_room_5x5_d_spider_1", 3 ],
+          [ "PSY_magi_nested_room_5x5_d_spider_2", 3 ],
+          [ "PSY_magi_nested_room_5x5_d_spider_3", 3 ],
+          [ "PSY_magi_nested_room_5x5_ninja_1", 3 ],
+          [ "PSY_magi_nested_room_5x5_ninja_2", 3 ],
+          [ "PSY_magi_nested_room_5x5_ninja_3", 3 ],
+          [ "PSY_magi_nested_room_5x5_magicshop_1", 2 ],
+          [ "PSY_magi_nested_room_5x5_magicshop_2", 2 ],
+          [ "PSY_magi_nested_room_5x5_magicshop_3", 2 ],
+          [ "PSY_magi_nested_room_5x5_magicshop_4", 2 ]
+        ]
+      },
+
+      "6": {
+        "//2":"nested_6x6",
+        "chunks": [
+          [ "PSY_magi_nested_room_6x6_null", 1 ],
+          [ "PSY_magi_nested_room_6x6_shamanlab_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_frogs_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_nature_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_shamanlab_2", 5 ],
+          [ "PSY_magi_nested_room_6x6_arcade_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_arcade_2", 10 ],
+          [ "PSY_magi_nested_room_6x6_foodshop_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_foodshop_2", 10 ],
+          [ "PSY_magi_nested_room_6x6_garden_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_garden_2", 10 ],
+          [ "PSY_magi_nested_room_6x6_tomb_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_chess_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_tomb_2", 10 ],
+          [ "PSY_magi_nested_room_6x6_toruneko_1", 10 ],
+          [ "PSY_magi_nested_room_6x6_toruneko_2", 10 ]
+        ]
+      },
+
+      "7": {
+        "//3":"nested_7x7",
+        "chunks": [
+          [ "PSY_magi_nested_room_7x7_null", 1 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_1", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_2", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_3", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_4", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_5", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_6", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_7", 5 ],
+          [ "PSY_magi_nested_room_7x7_crystalhouse_8", 5 ],
+          [ "PSY_magi_nested_room_7x7_ninja_1", 3 ],
+          [ "PSY_magi_nested_room_7x7_ninja_2", 3 ],
+          [ "PSY_magi_nested_room_7x7_frog_ench_1", 5 ],
+          [ "PSY_magi_nested_room_7x7_insects_1", 3 ],
+          [ "PSY_magi_nested_room_7x7_insects_2", 3 ],
+          [ "PSY_magi_nested_room_7x7_chess_1", 2 ],
+          [ "PSY_magi_nested_room_7x7_forge_1", 2 ],
+          [ "PSY_magi_nested_room_7x7_forge_2", 2 ],
+          [ "PSY_magi_nested_room_7x7_forge_3", 2 ],
+          [ "PSY_magi_nested_room_7x7_big_fish", 4 ],
+          [ "PSY_magi_nested_room_7x7_gargoyle", 2 ],
+          [ "PSY_magi_nested_room_7x7_sword", 2 ],
+          [ "PSY_magi_nested_room_7x7_boxing", 4 ],
+          [ "PSY_magi_nested_room_7x7_bandit", 4 ]
+        ]
+      },
+
+      "8": {
+        "//3":"nested_8x8",
+        "chunks": [
+          [ "PSY_magi_nested_room_8x8_null", 1 ],
+          [ "PSY_magi_nested_room_8x8_gnome", 5 ],
+          [ "PSY_magi_nested_room_8x8_monsters_4", 5 ],
+          [ "PSY_magi_nested_room_8x8_monsters_5", 5 ],
+          [ "PSY_magi_nested_room_8x8_monsters_6", 5 ],
+          [ "PSY_magi_nested_room_8x8_slime", 8 ],
+          [ "PSY_magi_nested_room_8x8_car", 8 ],
+          [ "PSY_magi_nested_room_8x8_barn", 8 ],
+          [ "PSY_magi_nested_room_8x8_diner", 6 ],
+          [ "PSY_magi_nested_room_8x8_electro", 6 ],
+          [ "PSY_magi_nested_room_8x8_gunshop", 4 ],
+          [ "PSY_magi_nested_room_8x8_hunting", 3 ],
+          [ "PSY_magi_nested_room_8x8_zoo", 5 ]
+        ]
+      },
+
+      "9": {
+        "//3":"nested_9x9",
+        "chunks": [
+          [ "PSY_magi_nested_room_9x9_null", 1 ],
+          [ "PSY_magi_nested_room_9x9_ore", 12 ],
+          [ "PSY_magi_nested_room_9x9_fish", 8 ],
+          [ "PSY_magi_nested_room_9x9_glass", 12 ],
+          [ "PSY_magi_nested_room_9x9_slot", 8 ],
+          [ "PSY_magi_nested_room_9x9_shelter", 8 ],
+          [ "PSY_magi_nested_room_9x9_pit", 8 ],
+          [ "PSY_magi_nested_room_9x9_pillar", 12 ]
+        ]
+      },
+      "X": {
+        "//3":"nested_10x10",
+        "chunks": [
+          [ "PSY_magi_nested_room_10x10_null", 1 ],
+          [ "PSY_magi_nested_room_10x10_magic_flower", 10 ],
+          [ "PSY_magi_nested_room_10x10_vat", 10 ],
+          [ "PSY_magi_nested_room_10x10_stone", 10 ]
+        ]
+      },
+      "1": {
+        "//3":"nested_11x11",
+        "chunks": [
+          [ "PSY_magi_nested_room_11x11_null", 1 ],
+          [ "PSY_magi_nested_room_11x11_normal", 9 ],
+          [ "PSY_magi_nested_room_11x11_ice", 20 ]
+        ]
+      },
+      "2": {
+        "//3":"nested_12x12",
+        "chunks": [
+          [ "PSY_magi_nested_room_12x12_null", 1 ],
+          [ "PSY_magi_nested_room_12x12_ore", 10 ],
+          [ "PSY_magi_nested_room_12x12_kinoko", 10 ]
+        ]
+      }
+
+    },
+    "terrain": {
+      "|": "t_rock",
+      "1": "t_rock",
+      "2": "t_rock",
+      "3": "t_rock",
+      "4": "t_rock",
+      "5": "t_rock",
+      "6": "t_rock",
+      "7": "t_rock",
+      "8": "t_rock",
+      "9": "t_rock",
+      "X": "t_rock",
+      ".": "t_null",
+      "D": "t_door_c",
+      " ": "t_dirt",
+      "@": "t_null",
+      "+": "t_dirt",
+      "%": "t_carpet_red",
+      "$": "t_carpet_red",
+      "=": "t_carpet_red",
+      ",": "t_carpet_red",
+      "~": "t_carpet_red",
+      "Y": "t_carpet_red",
+      "h": "t_carpet_red",
+      "P": "t_carpet_red",
+      "!": "t_carpet_red"
+    }
+}
 
 ]

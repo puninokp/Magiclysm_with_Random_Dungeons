@@ -23,9 +23,10 @@
       { "point": [ 1, 1, -3 ], "overmap": "PSY_magi_random_dungeon_3_SE_north" }        
     ],
     "locations": [ "wilderness" ],
+    "flags": [ "UNIQUE" ],
     "city_distance": [ 8, -1 ],
     "city_sizes": [ 0, 20 ],
-    "occurrences": [ 0, 3 ]
+    "occurrences": [ 0, 1 ]
   },
 
   {
@@ -56,6 +57,44 @@
       { "point": [ 0, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_SW_north" },
       { "point": [ 1, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_S_north" },
       { "point": [ 2, 1, -3 ], "overmap": "PSY_magi_random_dungeon_forest_3_SE_north" }     
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 8, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 3 ]
+  },
+
+  {
+    "type": "overmap_special",
+    "id": "PSY_magi_random_dungeon_big_map",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_NW_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_N_north" },
+      { "point": [ 2, 0, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_NE_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_W_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_M_north" },
+      { "point": [ 2, 1, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_E_north" },
+      { "point": [ 0, 2, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_SW_north" },
+      { "point": [ 1, 2, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_S_north" },
+      { "point": [ 2, 2, 0 ], "overmap": "PSY_magi_random_dungeon_big_0_SE_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_NW_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_N_north" },
+      { "point": [ 2, 0, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_NE_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_W_north" },
+      { "point": [ 1, 1, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_M_north" },
+      { "point": [ 2, 1, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_E_north" },
+      { "point": [ 0, 2, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_SW_north" },
+      { "point": [ 1, 2, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_S_north" },
+      { "point": [ 2, 2, -1 ], "overmap": "PSY_magi_random_dungeon_big_1_SE_north" },
+      { "point": [ 0, 0, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_NW_north" },
+      { "point": [ 1, 0, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_N_north" },
+      { "point": [ 2, 0, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_NE_north" },
+      { "point": [ 0, 1, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_W_north" },
+      { "point": [ 1, 1, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_M_north" },
+      { "point": [ 2, 1, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_E_north" },
+      { "point": [ 0, 2, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_SW_north" },
+      { "point": [ 1, 2, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_S_north" },
+      { "point": [ 2, 2, -2 ], "overmap": "PSY_magi_random_dungeon_big_2_SE_north" }
     ],
     "locations": [ "wilderness" ],
     "city_distance": [ 8, -1 ],

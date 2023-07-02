@@ -362,28 +362,601 @@
         "color": "brown",
         "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_rifle_single", "no_fail": true, "level": 0 }
-     },
+      },
+
+      {
+        "id": "PSY_magi_scroll_of_escape",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "name": { "str_sp": "Scroll of Escape dungeon" },
+        "description": "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched.",
+        "material": [ "paper" ],
+        "looks_like": "PSY_magi_scroll_of_Light",
+        "volume": "300 ml",
+        "weight": "300 g",
+        "price": 12000,
+        "price_postapoc": 21025,
+        "symbol": ".",
+        "color": "brown",
+        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_teleport_to_statue", "no_fail": true, "level": 0 }
+      },
 
 
+      {
+        "id": "PSY_magi_item_bomb_cat_act",
+        "type": "GENERIC",
+        "name": "Bomb cat head",
+        "description": "The bomb cat head is on fire and will detonate in less than 5 seconds!",
+        "looks_like": "PSY_magi_f_ice_magic_crystal",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
+        "countdown_interval": 10,
+        "countdown_destroy": true,
+        "countdown_action": {
+          "type": "explosion",
+          "explosion": { "power": 50 }
+        },
+        "flags": [ "LIGHT_8","TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+      },
 
-     {
-      "id": "PSY_magi_scroll_of_escape",
-      "type": "COMESTIBLE",
-      "comestible_type": "MED",
-      "category": "other",
-      "name": { "str_sp": "Scroll of Escape dungeon" },
-      "description": "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched.",
-      "material": [ "paper" ],
-      "looks_like": "PSY_magi_scroll_of_Light",
-      "volume": "300 ml",
-      "weight": "300 g",
-      "price": 12000,
-      "price_postapoc": 21025,
-      "symbol": ".",
-      "color": "brown",
-      "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
-      "use_action": { "type": "cast_spell", "spell_id": "PSY_teleport_to_statue", "no_fail": true, "level": 0 }
-     }
+      {
+        "id": "PSY_magi_item_unicorn_horn",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "name": { "str": "unicorn horn" },
+        "description": "A unicorn horn that can cure most diseases when pricked into the body.\nOnce used, it shatters into pieces.",
+        "weight": "750 g",
+        "volume": "350 ml",
+        "price": 1000000,
+        "price_postapoc": 8000,
+        "stack_size": 1,
+        "material": [ "plastic" ],
+        "symbol": "!",
+        "color": "red",
+        "healthy": 25,
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You feel AMAZING!",
+          "effects": [ { "id": "panacea", "duration": "1 m" }, { "id": "cureall" } ]
+        },
+        "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE", "EDIBLE_FROZEN" ]
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Air",
+        "type": "TOOL",
+        "name": "Orb of Air",
+        "description": "While held in the hand, it summons a gust of wind every 5 seconds that slices enemies around it instead of halving your movement speed.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "5 seconds", "spell_effects": [ { "id": "PSY_magi_summon_Air_slash_single_random", "hit_self": true } ] } ] },
+              "values": [
+                { "value": "SPEED", "multiply": -0.5 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Scroll_of_Air_slash",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "name": { "str_sp": "Scroll of Air slash" },
+        "description": "This is a scroll of air slash. When read, it summons a gust of wind that slices enemies around it.",
+        "material": [ "paper" ],
+        "looks_like": "PSY_magi_scroll_of_Light",
+        "volume": "300 ml",
+        "weight": "300 g",
+        "price": 12000,
+        "price_postapoc": 21025,
+        "symbol": ".",
+        "color": "brown",
+        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_summon_Air_slash_strong", "no_fail": true, "level": 0 }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Water",
+        "type": "TOOL",
+        "name": "Orb of Water",
+        "description": "While held in the hand, it summons a gust of wind every 5 seconds that slices enemies around it instead of halving your movement speed.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "ARMOR_ACID", "add": -5 },
+                { "value": "ARMOR_BULLET", "add": -5 },
+                { "value": "ARMOR_BASH", "add": -5 },
+                { "value": "ARMOR_CUT", "add": -5 },
+                { "value": "ARMOR_STAB", "add": -5 },
+                { "value": "ARMOR_HEAT", "add": -5 },
+                { "value": "ARMOR_COLD", "add": -5 },                
+                { "value": "ARMOR_ELEC", "add": -5 },
+                { "value": "ARMOR_BIO", "add": -5 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Forest",
+        "type": "TOOL",
+        "name": "Orb of Forest",
+        "description": "While held in the hand, it summons a gust of wind every 5 seconds that slices enemies around it instead of halving your movement speed.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "10 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Tangled_vine_orb", "hit_self": true } ] } ] },
+              "values": [
+                { "value": "ARMOR_ACID", "add": 5 },
+                { "value": "ARMOR_BULLET", "add": 5 },
+                { "value": "ARMOR_BASH", "add": 5 },
+                { "value": "ARMOR_CUT", "add": 5 },
+                { "value": "ARMOR_STAB", "add": 5 },
+                { "value": "ARMOR_HEAT", "add": 5 },
+                { "value": "ARMOR_COLD", "add": 5 },                
+                { "value": "ARMOR_ELEC", "add": 5 },
+                { "value": "ARMOR_BIO", "add": 5 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Scroll_of_summon_nature",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "name": { "str_sp": "Scroll of Summon Nature" },
+        "description": "This is a Summon Nature scroll. When read, it summons several friendly plant monsters around you.",
+        "material": [ "paper" ],
+        "looks_like": "PSY_magi_scroll_of_Light",
+        "volume": "300 ml",
+        "weight": "300 g",
+        "price": 12000,
+        "price_postapoc": 21025,
+        "symbol": ".",
+        "color": "brown",
+        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_summon_nature", "no_fail": true, "level": 0 }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Acid",
+        "type": "TOOL",
+        "name": "Orb of Acid",
+        "description": "While in your hand, it sprays acid every 15 seconds on 3 tiles around you. It also affects itself and its allies.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "15 seconds", "spell_effects": [ { "id": "PSY_magi_item_acidblast", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Pollen",
+        "type": "TOOL",
+        "name": "Orb of Pollen",
+        "description": "While in your hand, every 30 seconds, it heals 10 HP of all plant-type monsters in the surrounding 5 tiles.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_healing_pollen", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Bat",
+        "type": "TOOL",
+        "name": "Orb of Bat",
+        "description": "While in your hand, it summons several random bats around you every 5 minutes.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "300 seconds", "spell_effects": [ { "id": "PSY_magi_item_summon_bats", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Light",
+        "type": "TOOL",
+        "name": "Orb of Light",
+        "description": "While held in the hand, it illuminates the surrounding area with light.Every minute it emits a dazzling light.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "60 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_orb_dazzling", "hit_self": true } ] } ] },
+              "values": [
+                { "value": "LUMINATION", "add": 50 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Tentacle",
+        "type": "TOOL",
+        "name": "Orb of Tentacle",
+        "description": "While in your hand, it summons two evil tentacles that are hostile to all monsters around you every 30 seconds.\n The tentacles will be exist for 3 minutes and you will be immobile for 2 seconds after summoning them.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "PSY_magi_item_summon_evil_tentacle", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Pull",
+        "type": "TOOL",
+        "name": "Orb of Pull",
+        "description": "While in your hand, it will draw up to 5 monsters within 15 tiles around you every 10 seconds. Your stamina is reduced by 20% each time the magic is activated.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "10 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Pull", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Explosion",
+        "type": "TOOL",
+        "name": "Orb of Explosion",
+        "description": "While in your hand, it causes an explosion every 15 seconds, dealing 30 HEAT damage to all monsters except yourself within 4 tiles around you. Each time the magic is activated, a random status is lowered by 1 for 1 hour.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "15 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Explosion", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Burst_Explosion",
+        "type": "TOOL",
+        "name": "Orb of Burst Explosion",
+        "description": "While in hand, it causes 5 small explosions of 2 tiles in a range of 5 within 10 tiles around it every 60 seconds. The explosions deal 10 biological damage and may cause damage to themselves as well.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "looks_like":"PSY_magi_Orb_of_Explosion",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "60 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Burst_explosion", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Freeze",
+        "type": "TOOL",
+        "name": "Orb of Freeze",
+        "description": "While held in the hand, it causes 5 stacks of slow debuff to monsters in the surrounding 7 tiles every 5 seconds and 1 stack to yourself.\nThis debuff can gain up to 40 stacks, each stack reduces movement speed by 5 and lasts for 1 minute.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "looks_like":"PSY_magi_Orb_of_Explosion",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "5 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Freeze", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Black_Mist",
+        "type": "TOOL",
+        "name": "Orb of Black Mist",
+        "description": "While held in the hand, it creates a black fog on 3 tiles around it every 10 seconds to block the enemy's line of sight. Each time the magic is activated, there is a 10% chance that a hostile monster will be summoned in the surrounding area.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "looks_like":"PSY_magi_Orb_of_Explosion",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "10 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Black_Mist", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Negligence",
+        "type": "TOOL",
+        "name": "Orb of Negligence",
+        "description": "While held in the hand, STR and INT are increased by 6, but movement speed is reduced by 100.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "SPEED", "add": -100 },
+                { "value": "INTELLIGENCE", "add": 6 },
+                { "value": "STRENGTH", "add": 6 }
+              ]
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Dancing_Wind",
+        "type": "TOOL",
+        "name": "Orb of Dancing Wind",
+        "description": "While held in the hand, it increases the speed of movement by 50, but randomly teleports every 20 seconds.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "SPEED", "add": 50 }
+              ],
+              "intermittent_activation": { "effects": [ { "frequency": "20 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_phase_door", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Melody",
+        "type": "TOOL",
+        "name": "Orb of Melody",
+        "description": "While held in the hand, it plays a melody every 30 seconds and randomly activates magic that affects 6 squares around it.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "looks_like":"PSY_magi_Orb_of_Explosion",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "green",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "intermittent_activation": { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Melody", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Dodge",
+        "type": "TOOL",
+        "name": "Orb of Dodge",
+        "description": "While held in the hand, DEX is greatly increased and the number of times it can be evaded at one time is increased by two.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "BONUS_DODGE", "add": 2 },
+                { "value": "DEXTERITY", "add": 6 }
+              ],
+              "intermittent_activation": { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_Orb_of_Dodge", "hit_self": true } ] } ] }
+            }
+          ]
+        }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Ironclad_Eyes",
+        "type": "TOOL",
+        "name": "Orb of Ironclad Eyes",
+        "description": "While held in the hand, it can detect robots, turrets, and other electricity-powered monsters in the surrounding 7 tiles.But your footsteps will be loud.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "FOOTSTEP_NOISE", "multiply": 2.0 },
+                { "value": "SIGHT_RANGE_ELECTRIC", "add": 7 }
+              ]
+            }
+          ]
+        }
+      }
 
 
      

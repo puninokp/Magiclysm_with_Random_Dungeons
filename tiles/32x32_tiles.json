@@ -1,7 +1,7 @@
 [
     {
       "type": "mod_tileset",
-      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "compatibility": [ "MshockXottoplus","Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
       "tiles-new": [
         {
           "file": "./tiles/32x32_pictures.png",
@@ -45,8 +45,6 @@
             { "id": "PSY_magi_create_totems_spellbook" ,"fg":28, "rotates": false},
             { "id": "PSY_magi_wand_summon_insects" ,"fg": 29},
             { "id": "overlay_wielded_PSY_magi_wand_summon_insects" ,"fg": 30},
-
-            { "id": "PSY_magi_mon_vine_tentacle" ,"fg": 32},
             {
               "id": "vp_PSY_magi_plant_xlhalfboard", 
               "fg": 32,
@@ -211,6 +209,8 @@
             {"weight": 10, "sprite":189}
             ]
             },
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Freeze" ,"fg": 190},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Freeze_sub" ,"fg": 190},
             { "id": "fd_PSY_magi_field_of_fear", "rotates": false,"animated": true,"fg":
             [
             {"weight": 30, "sprite":322},
@@ -408,6 +408,17 @@
             {"weight": 10, "sprite":616}
             ]
             },
+            { "id": "PSY_magi_t_snow_floor_tile", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":610},
+            {"weight": 10, "sprite":611},            
+            {"weight": 10, "sprite":612},
+            {"weight": 10, "sprite":613},
+            {"weight": 10, "sprite":614},
+            {"weight": 10, "sprite":615},
+            {"weight": 10, "sprite":616}
+            ]
+            },
             { "id": "PSY_fd_ice_field_no_effect", "rotates": false,"fg":
             [
             {"weight": 10, "sprite":610},
@@ -430,7 +441,7 @@
             { "id": "fd_PSY_magi_icy_air1" ,"fg": 620},
             { "id": "fd_PSY_magi_hot_air1" ,"fg": 621},
             { "id": "PSY_magi_ice_mage_book" ,"fg": 638},
-            { "id": "PSY_magi_mon_ice_barrage", "rotates": false,"fg":
+            { "id": "PSY_magi_mon_ice_barrage", "rotates": true,"fg":
             [
             {"weight": 10, "sprite":640},
             {"weight": 10, "sprite":641},            
@@ -640,7 +651,179 @@
             { "id": "PSY_magi_fake_mana_gun_sniper_rifle" ,"fg": 753},
             { "id": "overlay_wielded_PSY_magi_fake_mana_gun_sniper_rifle" ,"fg": 763},
             { "id": "PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 758},
-            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 768}
+            { "id": "overlay_wielded_PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 768},
+            { "id": "PSY_mon_ghost", "rotates": true,"fg":
+            [
+            {"weight": 10, "sprite":782},
+            {"weight": 10, "sprite":783},
+            {"weight": 10, "sprite":784}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_slime_small", "rotates": true,"fg":
+            [
+            {"weight": 10, "sprite":796},
+            {"weight": 10, "sprite":797},
+            {"weight": 10, "sprite":798},
+            {"weight": 10, "sprite":799}
+            ]
+            },
+            { "id": "PSY_magi_mon_gale-force_air_slash", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 20, "sprite":861},
+              {"weight": 20, "sprite":862},
+              {"weight": 20, "sprite":863},
+              {"weight": 20, "sprite":864}
+            ]
+            },
+            { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash" ,"fg": 840},
+            { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash_second" ,"fg": 840},
+            { "id": "explosion_PSY_magi_summon_Air_slash" ,"fg": 840},
+            { "id": "explosion_PSY_magi_summon_Air_slash_strong" ,"fg": 840},
+            { "id": "explosion_PSY_magi_item_summon_nature" ,"fg": 840},
+            { "id": "explosion_PSY_magi_summon_Air_slash_single_random_sub1" ,"fg": 840},
+            { "id": "explosion_PSY_magi_spell_tree_shaman_summon_hostile_nature_sub" ,"fg": 840},
+            { "id": "explosion_PSY_magi_spell_kaze_cutdamage5" ,"fg": 841},
+            { "id": "explosion_PSY_magi_spell_kaze_cutdamage20" ,"fg": 841},
+            { "id": "explosion_PSY_magi_spell_summon_hostile_coffin" ,"fg": 842},
+            { "id": "explosion_PSY_magi_item_summon_bats_sub" ,"fg": 842},
+            { "id": "explosion_PSY_magi_item_summon_evil_tentacle_sub" ,"fg": 842},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Black_Mist_summon" ,"fg": 842},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Nocturne_of_Heavy_Feet" ,"fg": 857},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Ballad_of_the_Sword" ,"fg": 858},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Chant_of_Courage" ,"fg": 859},
+            { "id": "explosion_PSY_magi_spell_endelluus_Tangled_vine_line" ,"fg": 865},
+            { "id": "explosion_PSY_magi_spell_endelluus_Tangled_vine_line_sub" ,"fg": 865},
+            { "id": "explosion_PSY_magi_item_spell_Tangled_vine_orb" ,"fg": 865},
+            { "id": "explosion_PSY_dog_line_water_breath" ,"fg": 866},
+            { "id": "explosion_PSY_magi_dragon_breath" ,"fg": 870},
+            { "id": "explosion_PSY_magi_spell_elephant_breath" ,"fg": 871},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Burst_explosion_sub" ,"fg": 872},
+            { "id": "PSY_fd_floravian_pollen", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":873},
+            {"weight": 75, "sprite":874},
+            {"weight": 75, "sprite":875},
+            {"weight": 75, "sprite":876}
+            ]
+            },
+            { "id": "PSY_magi_item_bomb_cat_act", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 35, "sprite":877},
+            {"weight": 35, "sprite":878},
+            {"weight": 35, "sprite":879},
+            {"weight": 35, "sprite":878}
+            ]
+            },
+            { "id": "explosion_PSY_magi_monster_healing_pollen_spell", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 15, "sprite":880},
+            {"weight": 15, "sprite":881},
+            {"weight": 15, "sprite":882},
+            {"weight": 15, "sprite":883}
+            ]
+            },
+            { "id": "PSY_fd_aroma_pollen", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":880},
+            {"weight": 75, "sprite":881},
+            {"weight": 75, "sprite":882},
+            {"weight": 75, "sprite":883}
+            ]
+            },
+            { "id": "explosion_PSY_magi_item_spell_healing_pollen", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 15, "sprite":880},
+            {"weight": 15, "sprite":881},
+            {"weight": 15, "sprite":882},
+            {"weight": 15, "sprite":883}
+            ]
+            },
+            { "id": "explosion_PSY_magi_spell_chill_song" ,"fg": 884},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Serenade_of_Ice" ,"fg": 884},
+            { "id": "explosion_PSY_magi_spell_healing_song" ,"fg": 885},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Rabbit_March_of_Dash" ,"fg": 885},
+            { "id": "explosion_PSY_magi_spell_paralysis_song" ,"fg": 886},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Lullaby_of_Paralysis" ,"fg": 886},
+            { "id": "explosion_PSY_magi_spell_ran_away_blast_lizard" ,"fg": 887},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Explosion" ,"fg": 887},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Mad_of_Opera" ,"fg": 888},
+            { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Symphony_of_Summoning" ,"fg": 889},
+            { "id": "PSY_magi_item_unicorn_horn" ,"fg": 900},
+            { "id": "PSY_magi_item_slime_jelly", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":901},
+            {"weight": 10, "sprite":902},
+            {"weight": 10, "sprite":903},
+            {"weight": 10, "sprite":904},
+            {"weight": 10, "sprite":905},
+            {"weight": 10, "sprite":906},
+            {"weight": 10, "sprite":907}
+            ]
+            },
+            { "id": "PSY_magi_Orb_of_Air" ,"rotates": false,"fg": 908},
+            { "id": "PSY_magi_Orb_of_Water" ,"rotates": false,"fg": 909},
+            { "id": "PSY_magi_Orb_of_Pull" ,"rotates": false,"fg": 910},
+            { "id": "PSY_magi_Orb_of_Bat" ,"rotates": false,"fg": 911},
+            { "id": "PSY_magi_Orb_of_Forest" ,"rotates": false,"fg": 913},
+            { "id": "PSY_magi_Orb_of_Pollen" ,"rotates": false,"fg": 914},
+            { "id": "PSY_magi_Orb_of_Tentacle" ,"rotates": false,"fg": 917},
+            { "id": "PSY_magi_Orb_of_Acid" ,"rotates": false,"fg": 919},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Pollen" ,"fg": 924},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Tentacle" ,"fg": 927},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Water" ,"fg": 929},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Air" ,"fg": 931},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Bat" ,"fg": 932},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Forest" ,"fg": 934},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Pull" ,"fg": 935},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Acid" ,"fg": 937},
+            { "id": "PSY_magi_Orb_of_Light" ,"rotates": false,"fg": 938},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Light" ,"fg": 939},
+            { "id": "PSY_magi_mon_vine_tentacle", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 30, "sprite":940},
+              {"weight": 10, "sprite":941},
+              {"weight": 30, "sprite":942},
+              {"weight": 10, "sprite":943}
+
+            ]
+            },
+            { "id": "PSY_magi_mon_evil_tentacle", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 30, "sprite":944},
+              {"weight": 10, "sprite":945},
+              {"weight": 30, "sprite":946},
+              {"weight": 10, "sprite":947}
+
+            ]
+            },
+            { "id": "PSY_magi_Orb_of_Explosion" ,"rotates": false,"fg": 948},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Explosion" ,"fg": 949},
+            { "id": "PSY_magi_Orb_of_Freeze" ,"rotates": false,"fg": 950},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Freeze" ,"fg": 951},
+            { "id": "PSY_magi_Orb_of_Black_Mist" ,"rotates": false,"fg": 952},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Black_Mist" ,"fg": 953},
+            { "id": "PSY_magi_Orb_of_Dancing_Wind" ,"rotates": false,"fg": 954},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Dancing_Wind" ,"fg": 955},
+            { "id": "PSY_magi_Orb_of_Melody" ,"rotates": false,"fg": 956},
+            { "id": "overlay_wielded_PSY_magi_Orb_of_Melody" ,"fg": 957},
+            { "id": "PSY_magi_mmask_pokerface" ,"fg": 960},
+            { "id": "overlay_worn_PSY_magi_mmask_pokerface" ,"fg": 961},
+            { "id": "PSY_magi_mon_animated_blade_player", "rotates": true,"fg":
+            [          
+            {"weight": 10, "sprite":962},
+            {"weight": 10, "sprite":963},
+            {"weight": 10, "sprite":964},
+            {"weight": 10, "sprite":965},
+            {"weight": 10, "sprite":966},
+            {"weight": 10, "sprite":967},
+            {"weight": 10, "sprite":968},
+            {"weight": 10, "sprite":969}
+            ]
+            },
+            { "id": "PSY_magi_Orb_of_Dodge" ,"fg": 970},
+            { "id": "overlay_worn_PSY_magi_Orb_of_Dodge" ,"fg": 971},
+            { "id": "PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 972},
+            { "id": "overlay_worn_PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 973}
             
             
           ]

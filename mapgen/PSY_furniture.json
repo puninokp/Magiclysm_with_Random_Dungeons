@@ -669,7 +669,7 @@
 		"type":"furniture",
     "id": "PSY_magi_f_honey_treasure_chest_event_opened",
 		"name":"Opened Treasure chest",
-		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"description":"You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest.",
 		"symbol":"n",
 		"color":"cyan",
 		"light_emitted":10,
@@ -694,7 +694,7 @@
 		"type":"furniture",
     "id": "PSY_magi_f_honey_treasure_chest_potion_opened",
 		"name":"Opened Treasure chest",
-		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"description":"You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest.",
 		"symbol":"n",
 		"color":"cyan",
 		"light_emitted":10,
@@ -942,6 +942,767 @@
       "type": "effect_on_condition",
       "effect_on_conditions": ["EOC_PSY_treasure_bash"]
     }
-	}
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_D",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 20,
+      "str_max": 32,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_medium_D",
+    "name": "Medium Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 7 tiles by 20°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air2" ],
+    "light_emitted": 16,
+    "bash": {
+      "str_min": 60,
+      "str_max": 120,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 2 ] },
+        { "item": "glass_shard", "count": [ 16, 24 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_large_D",
+    "name": "Large Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 9 tiles by 30°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air3" ],
+    "light_emitted": 24,
+    "bash": {
+      "str_min": 120,
+      "str_max": 240,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 1, 3 ] },
+        { "item": "glass_shard", "count": [ 32, 48 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_soul_stone",
+    "name": "huge soul stone",
+    "description": "This is a luminous ore that holds mystical energy. Its vivid colors and profound radiance symbolize the soul. Magic using this stone has the power to manipulate the soul and spirit, and can transform people. However, handling its power requires a high level of skill and knowledge, and its use by the inexperienced is fraught with great danger.",
+    "symbol": "S",
+    "color": "pink",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_flame_castle",
+    "name": "huge flame castle",
+    "description": "This ore has the attribute of flame and is capable of releasing high-temperature heat. It is also said to be a powerful source of magical power for wizards who manipulate flames. Its bright red color gives the impression of a burning flame.",
+    "symbol": "F",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_aquamarine_harmony",
+    "name": "huge aquamarine harmony",
+    "description": "This ore has a beautiful blue color like clear water and is said to have the power to manipulate water. It is also believed to calm the mind through its resonance with water and to provide a sense of peace and tranquility. It is one of the minerals often used by wizards who deal with water magic.",
+    "symbol": "F",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_emerald_leaf",
+    "name": "huge emerald leaf",
+    "description": "This ore is shaped like a beautiful green leaf and has strong natural powers. This ore can be used to invoke nature's guardian spirits and cast powerful forest spells.",
+    "symbol": "E",
+    "color": "light_green",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_lightning_quartz",
+    "name": "huge lightning quartz",
+    "description": "A quartz ore that contains lightning-like electrical energy. Often used by magicians who deal with magical energy.",
+    "symbol": "L",
+    "color": "yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_carne_stone",
+    "name": "huge carne stone",
+    "description": "Carnestone is an ore-like mass of flesh with a deep red hue and a distinctive striated pattern. Its name means `stone of flesh` in Latin, and it is believed that when enthusiastic warriors eat carnestone before battle, it improves their physical abilities. However, legend has it that eating too much can lead to insanity, and for this reason carneth stones are not widely used.",
+    "symbol": "C",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_emerald_manite",
+    "name": "huge emerald manite",
+    "description": "This is an ore with a mysterious green color that is imbued with magical powers. Its name is said to come from its beautiful emerald-like color and the name of a gnome wizard named Manite. It is believed to have the effect of strengthening magical powers, enhancing mental powers, and drawing out insight and creativity. It is also believed to heal the wounded spirit and mind and enhance physical resilience, making it one of the most beloved of the green ores.",
+    "symbol": "E",
+    "color": "light_green",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_siren_blue",
+    "name": "huge siren blue",
+    "description": "This is a blue ore that is believed to be the singing voice of the Sirens, beautiful witches who live under the sea. Because of its mysterious brilliance and beauty, it is often used by wizards interested in the mysteries of the sea. It is also said that magic items made from this ore are imbued with the magic that governs the power of water.",
+    "symbol": "S",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_albion_megastone",
+    "name": "huge albion megastone",
+    "description": "Although this stone has the appearance of a white crystal, its value is actually not very high. However, it is loved by many for its beautiful appearance and is widely known as an ornamental stone. The stone has an air of tranquility and peace, and its very presence brings peace of mind. The stone is also said to enhance spiritual energy and is useful for meditation and purification of the mind.",
+    "symbol": "A",
+    "color": "white",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_red",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_purple",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "magenta",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_red_big",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_orange_big",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_red_cap",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_blue_cap",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "light_cyan",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_red_mario",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_green_mario",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "light_green",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_white_alien",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "white",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_blue_alien",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "light_cyan",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_orange_old",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_mushroom_pink_old",
+    "name": "giant mashroom",
+    "description": "These are giant dungeon mushrooms several meters long. You can tell the type of mushroom by its color and shape.",
+    "symbol": "Y",
+    "color": "pink",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 60,
+      "sound": "splorch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "fetid_goop", "count": [ 5, 10 ], "prob": 100 } ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_gargoyle",
+    "name": "statue of gargoyle",
+    "description": "A stone statue of a gargoyle. It looks as if it is about to start moving at any moment.",
+    "symbol": "G",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 48,
+      "str_max": 120,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_gargoyle_fake",
+    "name": "statue of gargoyle",
+    "description": "A stone statue of a gargoyle. It looks as if it is about to start moving at any moment.",
+    "symbol": "G",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_statue_gargoyle",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 48,
+      "str_max": 120,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_gargoyle_awaken",
+    "name": "statue of gargoyle",
+    "description": "A stone statue of a gargoyle. It looks as if it is about to start moving at any moment.",
+    "symbol": "G",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_gargoyle_awaken_act_EX3", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_treasure_chest_gargoyle_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "D",
+    "color": "yellow",
+	  "looks_like": "PSY_magi_f_honey_treasure_chest_event_closed",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open_gargoyle"]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_gargoyle_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"D",
+    "color": "yellow",
+    "looks_like": "PSY_magi_f_honey_treasure_chest_event_opened",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":-1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_sword_rocked",
+    "name": "Sword in Rock",
+    "description": "A sword is stuck in a rock. Press the 'E' button to pull it out!",
+    "symbol": "T",
+    "color": "yellow",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_weapon_drop_collection"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_sword_open"]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_sword_unrocked",
+		"name":"Sword in Rock",
+		"description":"A sword is stuck in a rock. Press the 'E' button to pull it out!",
+		"symbol":"T",
+    "color": "yellow",
+	  "looks_like": "PSY_magi_f_sword_rocked",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":-1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_weapon_drop_collection"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_sword_open"]
+    }
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_sword_rocked_cursed",
+    "name": "Sword in Rock",
+    "description": "A sword is stuck in a rock. Press the 'E' button to pull it out!",
+    "symbol": "T",
+    "color": "dark_gray",
+	  "looks_like": "PSY_magi_f_sword_rocked",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_weapon_drop_collection"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_sword_open"]
+    }
+  }
 
 ]

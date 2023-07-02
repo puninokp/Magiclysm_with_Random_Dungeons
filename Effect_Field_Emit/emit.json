@@ -162,6 +162,24 @@
       "intensity": 1,
       "qty": 24,
       "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_floravian_pollen",
+      "type": "emit",
+      "field": "PSY_fd_floravian_pollen",
+      "intensity": 1,
+      "qty": 24,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_aroma_pollen",
+      "type": "emit",
+      "field": "PSY_fd_aroma_pollen",
+      "intensity": 1,
+      "qty": 9,
+      "chance": 100
     }
 
 

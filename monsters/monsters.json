@@ -32,7 +32,6 @@
         "flags": [
           "FLIES",
           "SEES",
-          "PATH_AVOID_DANGER_1",
           "HARDTOSHOOT",
           "NOGIB",
           "NOHEAD",
@@ -1313,7 +1312,7 @@
         "type": "MONSTER",
         "name": "Ice Golem",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "120 L",
@@ -1344,7 +1343,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Big Body",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "150 L",
@@ -1375,7 +1374,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Swift Body",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "80 L",
@@ -1406,7 +1405,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Mage",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "100 L",
@@ -1441,7 +1440,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Hammer",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "220 L",
@@ -1473,7 +1472,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Shooter",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "120 L",
@@ -1518,7 +1517,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Healer",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "120 L",
@@ -1553,7 +1552,7 @@
         "type": "MONSTER",
         "name": "Ice Golem:Heavily Armored",
         "description": "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic.",
-        "default_faction": "robot",
+        "default_faction": "player",
         "bodytype": "human",
         "species": [ "GOLEM" ],
         "volume": "320 L",
@@ -1578,7 +1577,63 @@
         "vision_night": 5,
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "flags": [ "NOGIB","SEES", "NO_BREATHE", "COLDPROOF", "LOUDMOVES" ]
+      },
+
+      {
+        "id": "PSY_magi_mon_evil_tentacle",
+        "type": "MONSTER",
+        "name": "Evil tentacle",
+        "description": "This fearsome being is imbued with powerful magical powers, corroding anything it touches and possessing a terrifying ability to suck out life force.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_vine_tentacle",
+        "species": [ "PSY_MAGI_SUMMONED_MONS"],
+        "volume": "5500 ml",
+        "weight": "5360 g",
+        "hp": 16,
+        "speed": 100,
+        "material": [ "veggy" ],
+        "symbol": "v",
+        "color": "light_green",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 6,
+        "melee_dice": 8,
+        "melee_dice_sides": 3,
+        "melee_cut": 0,
+        "dodge": 3,
+        "vision_day": 4,
+        "vision_night": 4,
+        "death_drops": "",
+        "harvest": "exempt",
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "special_attacks": 
+            [  
+              {
+                "type": "gun",
+                "cooldown": 3,
+                "move_cost": 100,
+                "gun_type": "PSY_magi_fake_vine_whip",
+                "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
+                "fake_dex": 6,
+                "fake_per": 6,
+                "require_targeting_player": false,
+                "ranges": [ [ 0, 3, "DEFAULT" ] ]
+              }
+            ],
+        "flags": [
+          "SEES",
+          "HEARS",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "ACIDPROOF",
+          "NOHEAD",
+          "NO_BREATHE",
+          "IMMOBILE"
+        ]
       }
+
+
 
 
 ]

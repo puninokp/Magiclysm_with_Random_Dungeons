@@ -1,0 +1,422 @@
+[
+
+    {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_null",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_ore",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXOOXXXX|",
+            "|XXXXOOXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "O": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [
+              [ "f_boulder_small", 3 ],
+              [ "f_boulder_medium", 2 ]
+            ],
+            "X": [
+              [ "f_boulder_small", 70 ],
+              [ "f_boulder_medium", 60 ],
+              [ "PSY_magi_f_huge_albion_megastone", 10 ],
+              "PSY_magi_f_huge_siren_blue",
+              "PSY_magi_f_huge_emerald_manite",
+              "PSY_magi_f_huge_lightning_quartz",
+              "PSY_magi_f_huge_emerald_leaf",
+              "PSY_magi_f_huge_aquamarine_harmony",
+              "PSY_magi_f_huge_flame_castle",
+              "PSY_magi_f_huge_soul_stone"
+            ],
+            "O": [
+              "PSY_magi_f_huge_siren_blue",
+              "PSY_magi_f_huge_emerald_manite",
+              "PSY_magi_f_huge_lightning_quartz",
+              "PSY_magi_f_huge_emerald_leaf",
+              "PSY_magi_f_huge_aquamarine_harmony",
+              "PSY_magi_f_huge_flame_castle",
+              "PSY_magi_f_huge_soul_stone"
+            ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_ore",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXOXXXXOXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|XXOXXXXOXX|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "O": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [
+              [ "f_boulder_small", 3 ],
+              [ "f_boulder_medium", 2 ]
+            ],
+            "X": [
+              [ "f_boulder_small", 70 ],
+              [ "f_boulder_medium", 60 ],
+              [ "PSY_magi_f_huge_albion_megastone", 10 ],
+              "PSY_magi_f_huge_siren_blue",
+              "PSY_magi_f_huge_emerald_manite",
+              "PSY_magi_f_huge_lightning_quartz",
+              "PSY_magi_f_huge_emerald_leaf",
+              "PSY_magi_f_huge_aquamarine_harmony",
+              "PSY_magi_f_huge_flame_castle",
+              "PSY_magi_f_huge_soul_stone"
+            ],
+            "O": [
+              "PSY_magi_f_huge_siren_blue",
+              "PSY_magi_f_huge_emerald_manite",
+              "PSY_magi_f_huge_lightning_quartz",
+              "PSY_magi_f_huge_emerald_leaf",
+              "PSY_magi_f_huge_aquamarine_harmony",
+              "PSY_magi_f_huge_flame_castle",
+              "PSY_magi_f_huge_soul_stone"
+            ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_kinoko",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "|VXXVXXVXXV|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|VXXVXXVXXV|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|VXXVXXVXXV|",
+            "|XXXXXXXXXX|",
+            "|XXXXXXXXXX|",
+            "|VXXVXXVXXV|",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "V": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "X": [
+              [ "f_null", 350 ],
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ],
+            "V": [
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ]
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_KINOKO", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.20}
+          ]
+          
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_kinoko",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "|XXXXXXXXXX|",
+            "|XVVXXXXVVX|",
+            "|XVVXXXXVVX|",
+            "|XXXXXXXXXX|",
+            "|XXXXVVXXXX|",
+            "|XXXXVVXXXX|",
+            "|XXXXXXXXXX|",
+            "|XVVXXXXVVX|",
+            "|XVVXXXXVVX|",
+            "|XXXXXXXXXX|",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "V": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "X": [
+              [ "f_null", 350 ],
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ],
+            "V": [
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ]
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_KINOKO", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.20}
+          ]
+          
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_kinoko",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "|VXXXXXXXXV|",
+            "|XVXXVVXXVX|",
+            "|XXVXXXXVXX|",
+            "|XXXXXXXXXX|",
+            "|XVXXXXXXVX|",
+            "|XVXXXXXXVX|",
+            "|XXXXXXXXXX|",
+            "|XXVXXXXVXX|",
+            "|XVXXVVXXVX|",
+            "|VXXXXXXXXV|",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "V": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "X": [
+              [ "f_null", 350 ],
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ],
+            "V": [
+              "PSY_magi_f_mushroom_red",
+              "PSY_magi_f_mushroom_purple",
+              "PSY_magi_f_mushroom_red_big",
+              "PSY_magi_f_mushroom_orange_big",
+              "PSY_magi_f_mushroom_red_cap",
+              "PSY_magi_f_mushroom_blue_cap",
+              "PSY_magi_f_mushroom_red_mario",
+              "PSY_magi_f_mushroom_green_mario",
+              "PSY_magi_f_mushroom_white_alien",
+              "PSY_magi_f_mushroom_blue_alien",
+              "PSY_magi_f_mushroom_orange_old",
+              "PSY_magi_f_mushroom_pink_old"
+            ]
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_KINOKO", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.20}
+          ]
+          
+        }
+      }
+
+
+]

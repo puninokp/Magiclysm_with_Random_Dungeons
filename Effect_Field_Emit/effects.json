@@ -10,8 +10,8 @@
     
     ],
     "desc": [ "Decreased your movement for a short period." ],
-    "apply_message": "slowed.",
-    "remove_message": "No more slowed.",
+    "apply_message": "You are now moving slower.",
+    "remove_message": "Movement speed has returned to normal.",
     "max_intensity": 3,
     "int_add_val": 1,
     "base_mods": { "speed_mod": [ -100 ], "dex_mod": [ -1 ] },
@@ -32,8 +32,8 @@
         
         ],
         "desc": [ "Decreased your movement for a short period." ],
-        "apply_message": "slowed.",
-        "remove_message": "No more slowed.",
+        "apply_message": "You are now moving slower.",
+        "remove_message": "Movement speed has returned to normal.",
         "max_intensity": 3,
         "int_add_val": 1,
         "base_mods": { "speed_mod": [ -100 ], "dex_mod": [ -1 ] },
@@ -46,6 +46,67 @@
 
     {
       "type": "effect_type",
+      "id": "PSY_magi_slow_50",
+      "name": [ 
+        "Slow", 
+        "Slow[2]",
+        "Slow[3](max)"
+      
+      ],
+      "desc": [ "Decreased your movement for a short period." ],
+      "apply_message": "You are now moving slower.",
+      "remove_message": "Movement speed has returned to normal.",
+      "max_intensity": 3,
+      "int_add_val": 1,
+      "max_duration": "60 seconds",
+      "base_mods": { "speed_mod": [ -50 ], "dex_mod": [ -1 ] },
+      "scaling_mods": { 
+        "speed_mod": [ -10 ],
+        "dex_mod": [ -1 ]
+      },
+      "show_in_info": true
+  },
+
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_slow_orb",
+      "name": [ 
+        "Slow"
+      ],
+      "desc": [ "Decreased your movement for a short period." ],
+      "apply_message": "You are now moving slower.",
+      "remove_message": "Movement speed has returned to normal.",
+      "max_intensity": 40,
+      "int_add_val": 5,
+      "max_duration": "60 seconds",
+      "base_mods": { "speed_mod": [ -5 ] },
+      "scaling_mods": { 
+        "speed_mod": [ -5 ]
+      },
+      "show_in_info": true
+    },
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_slow_orb_self",
+      "name": [ 
+        "Slow"
+      ],
+      "desc": [ "Decreased your movement for a short period." ],
+      "apply_message": "You are now moving slower.",
+      "remove_message": "Movement speed has returned to normal.",
+      "max_intensity": 40,
+      "int_add_val": 2,
+      "max_duration": "60 seconds",
+      "base_mods": { "speed_mod": [ -5 ] },
+      "scaling_mods": { 
+        "speed_mod": [ -5 ]
+      },
+      "show_in_info": true
+    },
+
+    {
+      "type": "effect_type",
       "id": "PSY_magi_weak_slow",
       "name": [ 
         "Slow", 
@@ -54,7 +115,7 @@
       
       ],
       "desc": [ "Decreased your movement for a short period." ],
-      "apply_message": "slowed.",
+      "apply_message": "You are now moving slower.",
       "remove_message": "No more slowed.",
       "max_intensity": 3,
       "int_add_val": 1,
@@ -963,6 +1024,120 @@
     "int_add_val": 1,
     "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": 1.0 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_pollen",
+    "name": [ "annoying pollen" ],
+    "desc": [ "You feel your nose is very irritated from pollen." ],
+    "miss_messages": [ [ "You cough out pollen.", 1 ] ],
+    "rating": "bad",
+    "harmful_cough": true,
+    "main_parts_only": true,
+    "base_mods": {
+      "per_mod": [ -1, -1 ],
+      "dex_mod": [ -1, -1 ],
+      "speed_mod": [ -10 ],
+      "cough_chance": [ 10 ]
+    },
+    "show_in_info": true,
+    "blood_analysis_description": "Unknown Organic Toxin"
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_aroma_pollen",
+    "name": [ "aroma pollen" ],
+    "desc": [ "You are surrounded by pleasantly scented pollen." ],
+    "rating": "good",
+    "main_parts_only": true,
+    "base_mods": {
+      "per_mod": [ 1 ],
+      "dex_mod": [ 1 ],
+      "stamina_min": [ 150 ],
+      "speed_mod": [ 5 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_ORB_STR_DOWN",
+    "name":  [ 
+      "STR DOWN"      
+    ],
+    "desc": [ "The STR is temporarily lowered due to the orb of explosion." ],
+    "rating": "bad",
+    "max_duration": "60 m",
+    "max_intensity": 20,
+    "int_add_val": 1,
+    "int_decay_tick": 3600,
+    "base_mods": { "str_mod": [ -1 ]},
+    "scaling_mods": { "str_mod": [ -1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_ORB_DEX_DOWN",
+    "name":  [ 
+      "DEX DOWN"      
+    ],
+    "desc": [ "The DEX is temporarily lowered due to the orb of explosion." ],
+    "rating": "bad",
+    "max_duration": "60 m",
+    "max_intensity": 20,
+    "int_add_val": 1,
+    "int_decay_tick": 3600,
+    "base_mods": { "dex_mod": [ -1 ]},
+    "scaling_mods": { "dex_mod": [ -1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_ORB_PER_DOWN",
+    "name":  [ 
+      "PER DOWN"      
+    ],
+    "desc": [ "The PER is temporarily lowered due to the orb of explosion." ],
+    "rating": "bad",
+    "max_duration": "60 m",
+    "max_intensity": 20,
+    "int_add_val": 1,
+    "int_decay_tick": 3600,
+    "base_mods": { "per_mod": [ -1 ]},
+    "scaling_mods": { "per_mod": [ -1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_ORB_INT_DOWN",
+    "name":  [ 
+      "INT DOWN"      
+    ],
+    "desc": [ "The INT is temporarily lowered due to the orb of explosion." ],
+    "rating": "bad",
+    "max_duration": "60 m",
+    "max_intensity": 20,
+    "int_add_val": 1,
+    "base_mods": { "int_mod": [ -1 ]},
+    "scaling_mods": { "int_mod": [ -1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_ORB_PAIN",
+    "name": [ "Inner pain"],
+    "desc": [ "The orb causes a slight pain in the nerves." ],
+    "apply_message": "The orb causes a slight pain in the nerves.",
+    "max_intensity": 1,
+    "max_duration": "1 m",
+    "resist_traits": [ "PAINRESIST" ],
+    "base_mods": { "pain_amount": [ 3 ] }
   }
 
 ]

@@ -589,6 +589,39 @@
 
       {
         "type":"ter_furn_transform",
+        "id":"PSY_magi_gargoyle_treasure_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_gargoyle_awaken",
+            "valid_furniture": [ "PSY_magi_f_statue_gargoyle" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_treasure_chest_gargoyle_opened",
+            "valid_furniture": [ "PSY_magi_f_treasure_chest_gargoyle_closed" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_sword_rocked_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_sword_unrocked",
+            "valid_furniture": [ "PSY_magi_f_sword_rocked" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+
+      {
+        "type":"ter_furn_transform",
         "id":"PSY_magi_ice_crystal_transform",
         "furniture":[
           {

@@ -46,11 +46,11 @@
           { "monster": "mon_dog", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_cat", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_blob_brain", "freq": 15, "cost_multiplier": 1 },
-          { "monster": "mon_leech_root_runner", "freq": 15, "cost_multiplier": 1 },
-          { "monster": "mon_leech_blossom", "freq": 10, "cost_multiplier": 1},
-          { "monster": "mon_leech_stalk", "freq": 10, "cost_multiplier": 1 },
-          { "monster": "mon_leech_radio", "freq": 10, "cost_multiplier": 1 },
-          { "monster": "mon_leech_pod_cluster", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "mon_zombie_master", "freq": 15, "cost_multiplier": 1 },
+          { "monster": "mon_zombie_necro", "freq": 10, "cost_multiplier": 1},
+          { "monster": "mon_bee_mega", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "mon_centipede_mega", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "mon_dragonfly_mega", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_cow", "freq": 10, "cost_multiplier": 1},
           { "monster": "mon_horse", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_pig", "freq": 10, "cost_multiplier": 1 },
@@ -111,7 +111,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RANDOM_SLIME_MORPH",
         "default": "mon_crawler",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "mon_zombie_master", "freq": 40, "cost_multiplier": 1 },
           { "monster": "mon_zombie_necro", "freq": 40, "cost_multiplier": 1 },
@@ -141,7 +141,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_BUG_SWARM",
         "default": "mon_fly",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "mon_large_cockroach", "freq": 25, "cost_multiplier": 1 },
           { "monster": "mon_giant_cockroach", "freq": 25, "cost_multiplier": 1 },
@@ -191,7 +191,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_STEEL_UTENSIL",
         "default": "PSY_magi_mon_spork",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_spork", "freq": 150, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_spoon", "freq": 150, "cost_multiplier": 1 },
@@ -205,7 +205,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_STEEL_UTENSIL",
         "default": "PSY_magi_rnd_mon_spork",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_spork", "freq": 150, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_spoon", "freq": 150, "cost_multiplier": 1 },
@@ -219,7 +219,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_SPIDERS",
         "default": "mon_spider_web",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "mon_spider_web_s", "freq": 400, "cost_multiplier": 1 },
           { "monster": "mon_spider_web", "freq": 400, "cost_multiplier": 1 }
@@ -228,9 +228,21 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MASKS",
+        "default": "PSY_magi_rnd_mon_flying_mask",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_flying_mask", "freq": 300, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_serpentiface", "freq": 300, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_flying_mask2", "freq": 300, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_BOOMERANG",
         "default": "PSY_magi_mon_boomerang_hallu",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_boomerang_hallu", "freq": 900, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_boomerang_hallu2", "freq": 100, "cost_multiplier": 1 }
@@ -241,7 +253,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_BLADE_DANCE",
         "default": "PSY_magi_mon_magic_dagger",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_magic_dagger", "freq": 160, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_magic_dagger2", "freq": 160, "cost_multiplier": 1 },
@@ -256,7 +268,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_INSECTS",
         "default": "PSY_magi_rnd_mon_fly",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_fly", "freq": 150, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_dragonfly_giant", "freq": 150, "cost_multiplier": 1 },
@@ -270,7 +282,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_TOTEMS",
         "default": "PSY_magi_rnd_mon_blind_totem",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_blind_totem", "freq": 100, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_Slow_totem", "freq": 200, "cost_multiplier": 1 },
@@ -320,7 +332,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_MONSTER_APPLES",
         "default": "PSY_magi_mon_Sprit_Great_tree_apple",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_Sprit_Great_tree_apple", "freq": 330, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_Sprit_Great_tree_apple_poison", "freq": 330, "cost_multiplier": 1 },
@@ -332,7 +344,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_FOREST_BOSSES",
         "default": "PSY_magi_mon_mystical_bird",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_mystical_bird", "freq": 230, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_chimera", "freq": 230, "cost_multiplier": 1 },
@@ -344,7 +356,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_FOREST_STATUE",
         "default": "PSY_magi_rnd_mon_statue_swamp",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_statue_swamp", "freq": 230, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_statue_horn", "freq": 230, "cost_multiplier": 1 },
@@ -357,7 +369,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_FOUR_ELEMENT",
         "default": "PSY_magi_mon_fire_element",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_mon_fire_element", "freq": 230, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_water_element", "freq": 230, "cost_multiplier": 1 },
@@ -370,7 +382,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_CALL_BABBLE",
         "default": "PSY_magi_rnd_mon_babble",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_babble", "freq": 400, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_green_babble", "freq": 300, "cost_multiplier": 1 },
@@ -382,7 +394,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_CHESS",
         "default": "PSY_magi_rnd_mon_chess_pawn",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_chess_pawn", "freq": 600, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_chess_rook", "freq": 100, "cost_multiplier": 1 },
@@ -397,7 +409,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_ICE_GOLEMS",
         "default": "PSY_mon_ice_golem",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_mon_ice_golem", "freq": 200, "cost_multiplier": 1 },
           { "monster": "PSY_mon_ice_golem_big_body", "freq": 200, "cost_multiplier": 1 },
@@ -414,7 +426,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_MONSTERS_ALL1",
         "default": "PSY_magi_rnd_mon_spork",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_spoon", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_knife_butter", "freq": 25, "cost_multiplier": 1 },
@@ -444,7 +456,6 @@
           { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_heal_enchanter", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_baleful_polymorph_frog", "freq": 25, "cost_multiplier": 1 },
-          { "monster": "PSY_magi_mon_lemure", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_vegitable_botanist", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_ninja_false", "freq": 25, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_ninja2_true", "freq": 25, "cost_multiplier": 1 },
@@ -456,7 +467,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_FROG_POLY",
         "default": "PSY_magi_rnd_mon_zombie_skeltal_minion",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_wandering_spirit", "freq": 90, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_flying_mask", "freq": 90, "cost_multiplier": 1 },
@@ -479,7 +490,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_FOREST_MON",
         "default": "PSY_magi_rnd_mon_mushroom_red",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_swarm_mushroom_red", "freq": 75, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_mushroom_red", "freq": 50, "cost_multiplier": 1 },
@@ -516,7 +527,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_FOREST_MON_IMMOBILE",
         "default": "PSY_magi_rnd_mon_cactus",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_cactus_old", "freq": 100, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_cactus", "freq": 150, "cost_multiplier": 1 },
@@ -532,7 +543,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_FOREST_MON_FRIENDLY",
         "default": "PSY_magi_rnd_mon_turnip",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_turnip", "freq": 100, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 150, "cost_multiplier": 1 },
@@ -547,7 +558,7 @@
         "type": "monstergroup",
         "name": "GROUP_PSY_magi_RND_FOREST_MON_MOBILE",
         "default": "PSY_magi_rnd_mon_mushroom_red",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_magi_rnd_mon_swarm_mushroom_red", "freq": 70, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_mushroom_red", "freq": 50, "cost_multiplier": 1 },
@@ -576,14 +587,437 @@
 
       {
         "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON_MOBILE2",
+        "default": "PSY_magi_rnd_mon_mushroom_red",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_swarm_mushroom_red", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_red", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big_bad", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost_red", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_flower", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_stinger", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes_red", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_green", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_snail_blue", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
         "name": "GROUP_PSY_magi_TURRET_MANA",
         "default": "PSY_mon_turret_normal",
-        "//": "Cheap golems used to defend the average wizard's tower.",
+        "//": "Random Dungeon Monster",
         "monsters": [
           { "monster": "PSY_mon_turret_normal", "freq": 1000, "cost_multiplier": 1 }
         ]
-      }
+      },
 
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_BEE",
+        "default": "PSY_magi_mon_mutant_bee_green_passive",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_mon_mutant_bee_green_passive", "freq": 400, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_mutant_bee_yellow_passive", "freq": 300, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_mutant_bee_red_passive", "freq": 100, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_GNOME",
+        "default": "PSY_magi_rnd_mon_gnome_warrior",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_gnome_warrior", "freq": 900, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_KINOKO",
+        "default": "PSY_magi_rnd_mon_myconid",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_myconid", "freq": 900, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_KINOKO_ANGLY",
+        "default": "PSY_magi_rnd_mon_angry_myconid",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_angry_myconid", "freq": 900, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_SLIME",
+        "default": "PSY_magi_rnd_mon_slime",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_slime_small", "freq": 400, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_slime", "freq": 300, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_slime_big", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_slime_snail", "freq": 100, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_MON_STRONG",
+        "default": "PSY_magi_rnd_mon_slime",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_endelluus", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_frog_bear", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ironavian", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_frog_bear", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_blaster_lizard", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_gracefrost", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_skylipper", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_amskylark", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_sylphidragon", "freq": 100, "cost_multiplier": 1 }
+        ]
+      },
+
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_FOREST_MON_COFFIN",
+        "default": "PSY_magi_rnd_mon_roselisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_roselisk", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_touchrisk", "freq": 70, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cyclops_Viper", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_floravian", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_spinavine", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dracolittle", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_coral_hound", "freq": 75, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_fenristark", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ghost", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ruby_doll", "freq": 60, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_endelluus", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_frog_bear", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dolface", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_bomb_cat", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MON_ALL_WEAK",
+        "default": "PSY_magi_rnd_mon_roselisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_roselisk", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mudro_mole", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_leafback_rat", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_touchrisk", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dolface", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_skyfin", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cyclops_Viper", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_floravian", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_serpentiface", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_emerald_sprout", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_abyssal_mouth", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_spinavine", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dracolittle", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tongue_snatcher", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_coral_hound", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mascara_doll", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_bomb_cat", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT",
+        "default": "PSY_magi_rnd_mon_roselisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_skyfin", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cyclops_Viper", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_serpentiface", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_abyssal_mouth", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dracolittle", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tongue_snatcher", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mascara_doll", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_bomb_cat", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT",
+        "default": "PSY_magi_rnd_mon_roselisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_roselisk", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mudro_mole", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_leafback_rat", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_touchrisk", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_floravian", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_emerald_sprout", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_spinavine", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MON_ALL",
+        "default": "PSY_magi_rnd_mon_roselisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_roselisk", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mudro_mole", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_leafback_rat", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_touchrisk", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dolface", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_skyfin", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cyclops_Viper", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_floravian", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_serpentiface", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_emerald_sprout", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_abyssal_mouth", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_spinavine", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_dracolittle", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tongue_snatcher", "freq": 35, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_coral_hound", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mascara_doll", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_elephant_head", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_fenristark", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ghost", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tailgrapper", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ruby_doll", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_grapplehead", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cactus_mortar", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_green_forest", "freq": 5, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_endelluus", "freq": 2, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ironavian", "freq": 3, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_frog_bear", "freq": 3, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_blaster_lizard", "freq": 2, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_bomb_cat", "freq": 8, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_gracefrost", "freq": 1, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_skylipper", "freq": 1, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_amskylark", "freq": 4, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_sylphidragon", "freq": 1, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_healing_fairy2", "freq": 10, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_treasure_chest", "freq": 1, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_MON_PLANTS",
+        "default": "PSY_magi_rnd_mon_mushroom_red",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_cactus_old", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cactus", "freq": 15, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_carnivorous_plant_aged", "freq": 25, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_vine_tentacle", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_plant_shooter", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_red", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big", "freq": 40, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mushroom_big_bad", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_stump_ghost_red", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling", "freq": 45, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_flower", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_seedling_stinger", "freq": 55, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip", "freq": 65, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_turnip_big", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_nepenthes_red", "freq": 20, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_floravian", "freq": 30, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_spinavine", "freq": 35, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_BATS",
+        "default": "mon_bat",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 49, "cost_multiplier": 1 },
+          { "monster": "mon_bat", "freq": 950, "cost_multiplier": 1 }
+        ]
+      },
+
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_FACES",
+        "default": "mon_bat",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_serpentiface", "freq": 600, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_elephant_head", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ghost", "freq": 205, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_BATS_500",
+        "default": "mon_bat",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 500, "cost_multiplier": 1 },
+          { "monster": "mon_bat", "freq": 550, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_DOUBUTSU",
+        "default": "mon_bat",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_megawing", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "mon_bat", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_roselisk", "freq": 130, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_mudro_mole", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_cyclops_Viper", "freq": 50, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tailgrapper", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_grapplehead", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_amskylark", "freq": 20, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_GRAPPERS",
+        "default": "PSY_magi_rnd_mon_lazy_tail",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_lazy_tail", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_tailgrapper", "freq": 250, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_grapplehead", "freq": 225, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_SKELETON",
+        "default": "PSY_magi_rnd_mon_zombie_skeltal_minion",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_zombie_skeltal_minion", "freq": 990, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_CHAOS",
+        "default": "PSY_magi_rnd_mon_touchrisk",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_touchrisk", "freq": 330, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_abyssal_mouth", "freq": 320, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ruby_doll", "freq": 325, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_MOUTH",
+        "default": "PSY_magi_rnd_mon_abyssal_mouth",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_abyssal_mouth", "freq": 920, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_CAT",
+        "default": "PSY_magi_rnd_mon_bomb_cat",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_bomb_cat", "freq": 920, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_FOREST",
+        "default": "PSY_magi_rnd_mon_green_forest",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_green_forest", "freq": 999, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_CRYSTALL",
+        "default": "PSY_magi_rnd_mon_crystallostep",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_crystallostep", "freq": 999, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_mon_HUMANOID",
+        "default": "PSY_magi_rnd_mon_lazy_tail",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_mascara_doll", "freq": 425, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_ghost", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_gnome_warrior", "freq": 400, "cost_multiplier": 1 }
+        ]
+      }
 
 
 ]

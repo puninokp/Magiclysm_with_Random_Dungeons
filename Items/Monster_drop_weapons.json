@@ -1,7 +1,5 @@
 [
-
-
-
+  
   {
     "type": "TOOL_ARMOR",
     "id": "PSY_magi_mmask_acceleration",
@@ -1780,6 +1778,28 @@
     "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true }
   },
   "charges_per_use": 1
+},
+
+{
+  "type": "TOOL_ARMOR",
+  "id": "PSY_magi_mmask_pokerface",
+  "name": { "str": "mask of pokerface", "str_pl": "masks of pokerface" },
+  "description": "When equipped with this mask, lies are less likely to be discovered.",
+  "copy-from": "mmask",
+  "looks_like": "mask_guy_fawkes",
+  "material": [ "steel", "leather" ],
+  "flags": [  ],
+  "relic_data": {
+    "passive_effects": [ 
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "values": [
+          { "value": "SOCIAL_LIE", "multiply": 1.0  }
+        ]
+      }
+    ]
+  }
 }
 
      

@@ -12,7 +12,12 @@
 
     {
         "type": "overmap_terrain",
-        "id": [ "PSY_magi_random_dungeon_0_NW","PSY_magi_random_dungeon_0_NE","PSY_magi_random_dungeon_0_SW","PSY_magi_random_dungeon_0_SE" ],
+        "id": [ 
+            "PSY_magi_random_dungeon_0_NW","PSY_magi_random_dungeon_0_NE","PSY_magi_random_dungeon_0_SW","PSY_magi_random_dungeon_0_SE",
+            "PSY_magi_random_dungeon_big_0_NW", "PSY_magi_random_dungeon_big_0_N", "PSY_magi_random_dungeon_big_0_NE",
+            "PSY_magi_random_dungeon_big_0_W",  "PSY_magi_random_dungeon_big_0_M", "PSY_magi_random_dungeon_big_0_E",
+            "PSY_magi_random_dungeon_big_0_SW", "PSY_magi_random_dungeon_big_0_S", "PSY_magi_random_dungeon_big_0_SE" 
+        ],
         "name": "Random Dungeon",
         "sym": "D",
         "color": "light_gray",
@@ -22,7 +27,12 @@
 
     {
         "type": "overmap_terrain",
-        "id": [ "PSY_magi_random_dungeon_1_NW","PSY_magi_random_dungeon_1_NE","PSY_magi_random_dungeon_1_SW","PSY_magi_random_dungeon_1_SE" ],
+        "id": [ 
+            "PSY_magi_random_dungeon_1_NW","PSY_magi_random_dungeon_1_NE","PSY_magi_random_dungeon_1_SW","PSY_magi_random_dungeon_1_SE",
+            "PSY_magi_random_dungeon_big_1_NW", "PSY_magi_random_dungeon_big_1_N", "PSY_magi_random_dungeon_big_1_NE",
+            "PSY_magi_random_dungeon_big_1_W",  "PSY_magi_random_dungeon_big_1_M", "PSY_magi_random_dungeon_big_1_E",
+            "PSY_magi_random_dungeon_big_1_SW", "PSY_magi_random_dungeon_big_1_S", "PSY_magi_random_dungeon_big_1_SE"
+        ],
         "name": "Random Dungeon -1F",
         "sym": "D",
         "color": "light_gray",
@@ -32,7 +42,12 @@
 
     {
         "type": "overmap_terrain",
-        "id": [ "PSY_magi_random_dungeon_2_NW","PSY_magi_random_dungeon_2_NE","PSY_magi_random_dungeon_2_SW","PSY_magi_random_dungeon_2_SE" ],
+        "id": [ 
+            "PSY_magi_random_dungeon_2_NW","PSY_magi_random_dungeon_2_NE","PSY_magi_random_dungeon_2_SW","PSY_magi_random_dungeon_2_SE" ,
+            "PSY_magi_random_dungeon_big_2_NW", "PSY_magi_random_dungeon_big_2_N", "PSY_magi_random_dungeon_big_2_NE",
+            "PSY_magi_random_dungeon_big_2_W",  "PSY_magi_random_dungeon_big_2_M", "PSY_magi_random_dungeon_big_2_E",
+            "PSY_magi_random_dungeon_big_2_SW", "PSY_magi_random_dungeon_big_2_S", "PSY_magi_random_dungeon_big_2_SE"
+        ],
         "name": "Random Dungeon -2F",
         "sym": "D",
         "color": "light_gray",

@@ -329,6 +329,20 @@
       "roof": "t_rock_roof",
       "flags": [ "TRANSPARENT", "FLAT", "INDOORS" ],
       "bash": { "sound": "thump", "ter_set": "t_water_sh_underground", "str_min": 3, "str_max": 8, "str_min_supported": 1, "bash_below": true }
+    },
+
+    {
+      "type": "terrain",
+      "id": "PSY_magi_t_snow_floor_tile",
+      "name": "snow floor",
+      "description": "It's an ice floor created by magic.",
+      "symbol": ".",
+      "color": "brown",
+      "looks_like": "t_dirt",
+      "light_emitted": 20,
+      "move_cost": 3,
+      "flags": [ "TRANSPARENT", "FLAT" ],
+      "bash": { "sound": "thump", "ter_set": "t_water_sh_underground", "str_min": 30, "str_max": 60, "str_min_supported": 1, "bash_below": true }
     }
 
 

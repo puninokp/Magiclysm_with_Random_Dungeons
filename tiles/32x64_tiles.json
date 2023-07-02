@@ -1,7 +1,7 @@
 [
     {
       "type": "mod_tileset",
-      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "compatibility": [ "MshockXottoplus","Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
       "tiles-new": [
         {
           "file": "./tiles/32x64_pictures.png",

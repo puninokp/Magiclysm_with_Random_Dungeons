@@ -223,7 +223,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE" ]
   },
 
   {
@@ -267,6 +267,6 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "SEES", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE","PRIORITIZE_TARGETS","FLIES" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE","PRIORITIZE_TARGETS","FLIES" ]
   }
 ]

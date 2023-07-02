@@ -22,7 +22,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_monsters",
-    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_chesses"],
+    "friendly": [ "PSY_magi_random_dungeon_kinoko","PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_chesses"],
     "neutral": ["fish","small_animal", "aquatic_predator" ],
     "hate": [  "player"  ]
   },
@@ -30,7 +30,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_chesses",
-    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_monsters"],
+    "friendly": [ "PSY_magi_random_dungeon_kinoko","PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_monsters"],
     "neutral": ["fish","small_animal", "aquatic_predator" ],
     "hate": [  "player"  ]
   },
@@ -38,9 +38,25 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_allies",
-    "friendly": [ "slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
+    "friendly": [ "PSY_magi_random_dungeon_kinoko","slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
     "neutral": ["human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
     "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_kinoko",
+    "friendly": [ "PSY_magi_random_dungeon_angry_kinoko","PSY_magi_random_dungeon_allies","slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
+    "neutral": ["human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_angry_kinoko",
+    "friendly": [ "PSY_magi_random_dungeon_kinoko"],
+    "neutral": ["fish", "PSY_magi_random_dungeon_allies" ],
+    "hate": [  "human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ,"player"  ]
   },
 
   {

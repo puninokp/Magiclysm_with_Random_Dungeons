@@ -521,7 +521,7 @@
         "symbol": "o",
         "healthy": 1,
         "calories": 16,
-        "description": "These grilled rice balls have a savory soy sauce flavor. It also recovers HP mysteriously.",
+        "description": "A sweet magic candy. When you eat it, you get a random buff that lasts one day. The same buff stacks for up to 3 days.",
         "price": 1000,
         "price_postapoc": 500,
         "stack_size": 1,
@@ -531,7 +531,35 @@
         "flags": ["NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE", "SINGLE_USE" ],
         "fun": 5,
         "vitamins": [ [ "vitA", 1 ],[ "vitC", 2 ],[ "iron", 1 ] ]
-    }
+    },
+
+    {
+        "type": "COMESTIBLE",
+        "id": "PSY_magi_item_slime_jelly",
+        "name": "slime jelly",
+        "color": "light_blue",
+        "description": "Slime jelly is formed when slime secretes a special liquid produced by its own body, which coagulates in certain areas of the dungeon or in the slime's body and forms a jelly. In locations where there are multiple slimes, slime jelly of different colors and flavors may be present.",
+        "fun": 12,
+        "copy-from": "gelatin_dessert_base"
+    },
+
+    {
+        "id": "PSY_magi_item_gargoyle_heart",
+        "type": "TOOL",
+        "name": "Gargoyle's heart",
+        "description": "A pulsating gargoyle heart made of stone. Used in some recipes.",
+        "weight": "2 kg",
+        "volume": "750 ml",
+        "price": 3100,
+        "bashing": 9,
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": ";",
+        "color": "light_gray",
+        "qualities": [ [ "HAMMER", 2 ] ],
+        "use_action": [ "CROWBAR" ],
+        "//": "In terms of alchemy the gastrolith could serve to combie different effects, such as safely mixing together potions, or it could be used as an element of change, such as for shapechanging potions."
+      }
 
 
 

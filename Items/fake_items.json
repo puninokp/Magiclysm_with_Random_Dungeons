@@ -177,7 +177,7 @@
         "loudness": 3,
         "recoil": 3,
         "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto",2 ] ],
-        "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 3 }
+        "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 7 }
       },
 
       {
@@ -715,6 +715,24 @@
         "flags": [ "MAGIC_FOCUS","NEVER_JAMS" ,"TRADER_AVOID"],
         "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mana_bullet": 20 } } ],
         "ammo_to_fire": 20
+      },
+
+      {
+        "id": "PSY_magi_fake_seed_bio_rocket",
+        "type": "GUN",
+        "copy-from": "fake_item",
+        "name": { "str": "seed bio-gun" },
+        "description": "Fake gun that fires some sort of solidified organic matter at very high speed by unknown means of propulsion.",
+        "flags": [ "NEVER_JAMS" ],
+        "skill": "rifle",
+        "durability": 10,
+        "range": 25,
+        "dispersion": 2500,
+        "loudness": 8,
+        "recoil": 300,
+        "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto",1 ] ],
+        "ammo_effects": [ "NEVER_MISFIRES", "NO_PENETRATE_OBSTACLES","WIDE","PSY_TURRET_EXPLOSIVE" ],
+        "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 5 }
       }
 
 

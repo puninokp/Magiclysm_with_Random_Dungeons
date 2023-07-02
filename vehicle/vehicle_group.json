@@ -1,0 +1,16 @@
+[
+
+  {
+    "type": "vehicle_group",
+    "id": "PSY_oa_vg_cs_vehicles",
+    "//": "for cs_car_showroom",
+    "vehicles": [
+      [ "electric_car", 100 ],
+      [ "suv_electric", 70 ],
+      [ "car_sports", 30 ],
+      [ "car_luxury", 40 ],
+      [ "car_sports_electric", 20 ]
+    ]
+  }
+
+]

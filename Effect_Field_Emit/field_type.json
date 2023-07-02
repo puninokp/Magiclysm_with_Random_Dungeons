@@ -1447,6 +1447,76 @@
         "intensity_levels": [ { "name": "darkness", "light_override": 0.2 } ],
         "half_life": "60 seconds",
         "percent_spread": 50
+      },
+
+      {
+        "id": "PSY_fd_floravian_pollen",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "annoying pollen",
+            "sym": "-",
+            "color": "yellow",
+            "dangerous": true,
+            "translucency": 0.1,
+            "convection_temperature_mod": -10,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_pollen",
+                "body_part": "mouth",
+                "intensity": 1,
+                "min_duration": "1 minutes",
+                "max_duration": "1 minutes",
+                "immune_inside_vehicle": true,
+                "message": "You feel your nose is very irritated from pollen.",
+                "message_type": "bad"
+              }
+            ]
+          }
+        ],
+        "description_affix": "on",
+        "priority": 4,
+        "half_life": "10 seconds",
+        "phase": "gas",
+        "display_items": true,
+        "display_field": true,
+        "looks_like": "fd_fog",
+        "immunity_data": { "body_part_env_resistance": [ [ "mouth", 3 ] ] }
+      },
+
+      {
+        "id": "PSY_fd_aroma_pollen",
+        "type": "field_type",
+        "intensity_levels": [
+          {
+            "name": "aroma pollen",
+            "sym": "-",
+            "color": "green",
+            "dangerous": false,
+            "translucency": 0.1,
+            "convection_temperature_mod": -10,
+            "effects": [
+              {
+                "effect_id": "PSY_magi_aroma_pollen",
+                "body_part": "mouth",
+                "intensity": 1,
+                "min_duration": "1 minutes",
+                "max_duration": "1 minutes",
+                "immune_inside_vehicle": true,
+                "message": "You are surrounded by pleasantly scented pollen.",
+                "message_type": "good"
+              }
+            ]
+          }
+        ],
+        "description_affix": "on",
+        "priority": 5,
+        "half_life": "10 seconds",
+        "phase": "gas",
+        "display_items": true,
+        "display_field": true,
+        "looks_like": "fd_fog",
+        "immunity_data": { "body_part_env_resistance": [ [ "mouth", 3 ] ] }
       }
 
 ]

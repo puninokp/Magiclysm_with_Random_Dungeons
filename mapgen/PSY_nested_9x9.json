@@ -529,6 +529,628 @@
             { "monster": "GROUP_BEE", "x": 6, "y": 6 , "density": 0.05}
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_ore",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|XXXXXXX|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            "X": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [
+              [ "f_boulder_small", 3 ],
+              [ "f_boulder_medium", 2 ]
+            ],
+            "X": [
+              [ "f_boulder_small", 70 ],
+              [ "f_boulder_medium", 60 ],
+              [ "PSY_magi_f_huge_albion_megastone", 10 ],
+              "PSY_magi_f_huge_siren_blue",
+              "PSY_magi_f_huge_emerald_manite",
+              "PSY_magi_f_huge_lightning_quartz",
+              "PSY_magi_f_huge_emerald_leaf",
+              "PSY_magi_f_huge_aquamarine_harmony",
+              "PSY_magi_f_huge_flame_castle",
+              "PSY_magi_f_huge_soul_stone"
+            ]
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_CRYSTALL", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_CRYSTALL", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_pillar",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|||||||||",
+            "||P|||P||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "||P|||P||",
+            "|||||||||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "t_pillar",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK", "x": 4, "y": 4 , "density": 0.05}    
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_pillar",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|||||||||",
+            "||c|c|c||",
+            "|||||||||",
+            "||c|||c||",
+            "|||||||||",
+            "||c|c|c||",
+            "|||||||||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "PSY_magi_t_dirt",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_FOREST", "x": 0, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_pillar",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|s||s||s|",
+            "|||||||||",
+            "|s||s||s|",
+            "|||||||||",
+            "|s||s||s|",
+            "|||||||||",
+            "|s||s||s|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_CAT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_CAT", "x": 2, "y": 4 , "density": 0.05} 
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_pit",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "||g|||g||",
+            "|g|||||g|",
+            "|g|||||g|",
+            "|||||||||",
+            "|g|||||g|",
+            "|g|||||g|",
+            "||g|||g||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_MOUTH", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_MOUTH", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_shelter",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|||||S|||",
+            "||S||||||",
+            "||||||S||",
+            "||S||||||",
+            "|||||||||",
+            "|||||S|||",
+            "||S||||S|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              [ "PSY_magi_t_dirt", 10 ], 
+              [ "t_grass_tall", 1 ],
+              [ "t_moss", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_grass_long", 1 ]
+            ],
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": [ 
+              [ "PSY_magi_t_dirt", 2 ], 
+              [ "t_improvised_shelter", 1 ]
+            ],
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_slot",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|SSSSSSS|",
+            "|||||||||",
+            "|||||||||",
+            "|SSSSSSS|",
+            "|||||||||",
+            "|||||||||",
+            "|SSSSSSS|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor_blue",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": [ 
+              [ "PSY_magi_t_dirt", 1 ], 
+              [ "t_slot_machine", 3 ]
+            ],
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_NO_PLANT", "x": 2, "y": 4 , "density": 0.05}  
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_slot",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|SSS||SS|",
+            "|SSS||SS|",
+            "|||||||||",
+            "|SS|SSSS|",
+            "|SS|SSSS|",
+            "|||||||||",
+            "|SSSSSSS|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_linoleum_white",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": [ 
+              [ "PSY_magi_t_dirt", 1 ], 
+              [ "t_slot_machine", 3 ]
+            ],
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_FACES", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_FACES", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_slot",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "||S|||S||",
+            "||||S||||",
+            "||||S||||",
+            "||S|||S||",
+            "|||S|S|||",
+            "||||S||||",
+            "|SS|||SS|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_carpet_red",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": [ 
+              [ "PSY_magi_t_dirt", 1 ], 
+              [ "t_slot_machine", 3 ]
+            ],
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_CHAOS", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_CHAOS", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_CHAOS", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_slot",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|SSSSSSS|",
+            "||S|||S||",
+            "|||||||||",
+            "||S|||S||",
+            "|||||||||",
+            "||S|||S||",
+            "|SSSSSSS|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_carpet_yellow",
+            "t": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            "S": [ 
+              [ "PSY_magi_t_dirt", 1 ], 
+              [ "t_slot_machine", 5 ]
+            ],
+            ",": "PSY_magi_t_dirt",
+            "g": "t_pit_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "s": "t_little_column",
+            "P": "t_pillar",
+            "c": "t_column",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_mon_SKELETON", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_SKELETON", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_SKELETON", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_mon_SKELETON", "x": 4, "y": 4 , "density": 0.05}    
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_glass",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              [ "PSY_magi_t_dirt", 10 ], 
+              [ "t_grass_tall", 1 ],
+              [ "t_moss", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_grass_long", 1 ]
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_glass",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|B|B|B|B|",
+            "||B|B|B||",
+            "|B|B|B|B|",
+            "||B|B|B||",
+            "|B|B|B|B|",
+            "||B|B|B||",
+            "|B|B|B|B|",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ 
+              [ "PSY_magi_t_dirt", 10 ], 
+              [ "t_grass_tall", 1 ],
+              [ "t_moss", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_stump", 1 ],
+              [ "t_grass_long", 1 ]
+            ],
+            "B": [ 
+              [ "PSY_magi_t_dirt", 10 ], 
+              [ "t_shrub_peanut", 1 ],
+              [ "t_shrub_blueberry", 1 ],
+              [ "t_shrub_strawberry", 1 ],
+              [ "t_shrub_blackberry", 1 ],
+              [ "t_shrub_grape", 1 ]
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 0, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05},
+            { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05}
+          ]
+        }
       }
 
 

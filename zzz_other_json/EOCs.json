@@ -174,7 +174,53 @@
       {
         "u_cast_spell": {
           "id": "PSY_magi_item_spell_open_big_treasure_chest",
-          "message": "You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest."
+          "message": "You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest."
+        },
+        "targeted": false
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_treasure_open_gargoyle",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_gargoyle_treasure_chest",
+          "message": "You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest."
+        },
+        "targeted": false
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_sword_open",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_rocked_sword",
+          "message": "You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest."
+        },
+        "targeted": false
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_sword_open_cursed",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      { "u_spawn_monster": "PSY_magi_mon_bee", "real_count": 2, "min_radius": 2, "max_radius": 3 },
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_rocked_sword",
+          "message": "You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest."
         },
         "targeted": false
       }
@@ -193,6 +239,15 @@
         },
         "targeted": false
       }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_summon_gargoyle_hostile",
+    "global": true,
+    "effect": [
+      { "u_spawn_monster": "PSY_mon_gargoyle", "real_count": 1, "min_radius": 2, "max_radius": 2 }
     ]
   }
 ]

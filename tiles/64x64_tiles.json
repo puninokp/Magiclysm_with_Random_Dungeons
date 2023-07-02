@@ -1,8 +1,32 @@
 [
     {
       "type": "mod_tileset",
-      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "compatibility": [ "MshockXottoplus","Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
       "tiles-new": [
+        {
+          "file": "./tiles/64x64_pictures.png",
+          "sprite_width": 64, 
+          "sprite_height": 64,
+          "sprite_offset_x": -16, 
+          "sprite_offset_y": -8,
+          "tiles": [
+            { "id": "PSY_mon_fish_mutant", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":43},
+            {"weight": 10, "sprite":44},
+            {"weight": 10, "sprite":45},
+            {"weight": 10, "sprite":46},
+            {"weight": 10, "sprite":47},
+            {"weight": 10, "sprite":48},
+            {"weight": 10, "sprite":49},
+            {"weight": 10, "sprite":53},
+            {"weight": 10, "sprite":54},
+            {"weight": 10, "sprite":55},
+            {"weight": 10, "sprite":56}
+            ]
+            }
+          ]
+        },
         {
           "file": "./tiles/64x64_pictures.png",
           "sprite_width": 64, 
@@ -27,6 +51,8 @@
             { "id": "PSY_magi_mon_air_element" ,"fg": 28 },
             { "id": "PSY_magi_mon_magic_tower" ,"fg": 31 },
             { "id": "PSY_magi_mon_beehive_normal" ,"fg": 63 },
+            { "id": "PSY_magi_f_statue_gargoyle" ,"rotates": false,"fg": 67 },
+            { "id": "PSY_magi_f_statue_gargoyle_awaken" ,"rotates": false,"fg": 62 },
             {
               "id": "vp_PSY_magi_mounted_fake_cannon_gun", 
               "fg": 70,
@@ -85,7 +111,79 @@
             {"weight": 100, "sprite":87},
             {"weight": 100, "sprite":88}
             ]
-            }
+            },
+            { "id": "PSY_magi_f_ice_magic_crystal_large_D", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 100, "sprite":87},
+            {"weight": 100, "sprite":88}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_cat_flee" ,"fg": 89 },
+            { "id": "PSY_magi_rnd_mon_fenristark" ,"fg": 94 },
+            { "id": "PSY_magi_rnd_mon_coral_hound" ,"fg": 95 },
+            { "id": "PSY_magi_rnd_mon_endelluus" ,"fg": 96 },
+            { "id": "PSY_magi_rnd_mon_dracolittle" ,"fg": 97 },
+            { "id": "PSY_magi_rnd_mon_spinavine" ,"fg": 98 },
+            { "id": "PSY_magi_rnd_mon_floravian" ,"fg": 99 },
+            { "id": "PSY_magi_rnd_mon_megawing" ,"fg": 100 },
+            { "id": "PSY_magi_rnd_mon_cyclops_Viper" ,"fg": 101 },
+            { "id": "PSY_magi_rnd_mon_crystallostep" ,"fg": 102 },
+            { "id": "PSY_magi_rnd_mon_touchrisk" ,"fg": 103 },
+            { "id": "PSY_magi_rnd_mon_roselisk" ,"fg": 104 },
+            { "id": "PSY_magi_rnd_mon_whisper_Coffin" ,"fg": 105 },
+            { "id": "PSY_magi_rnd_mon_ruby_doll", "rotates": true,"fg":
+            [
+            {"weight": 10, "sprite":106},
+            {"weight": 10, "sprite":108}
+            ]
+            },
+            { "id": "PSY_magi_rnd_mon_frog_bear" ,"fg": 107 },
+            { "id": "PSY_magi_rnd_mon_dolface" ,"fg": 109 },
+            { "id": "PSY_magi_rnd_mon_leafwing_totem" ,"fg": 110 },
+            { "id": "PSY_magi_rnd_mon_bomb_cat" ,"fg": 111 },
+            { "id": "PSY_magi_rnd_mon_cactus_mortar" ,"fg": 112 },
+            { "id": "PSY_magi_rnd_mon_green_forest" ,"fg": 113 },
+            { "id": "PSY_magi_rnd_mon_gracefrost" ,"fg": 115 },
+            { "id": "PSY_magi_rnd_mon_abyssal_mouth" ,"fg": 116 },
+            { "id": "PSY_magi_rnd_mon_lazy_tail" ,"fg": 117 },
+            { "id": "PSY_magi_rnd_mon_mascara_doll" ,"fg": 118 },
+            { "id": "PSY_magi_rnd_mon_serpentiface" ,"fg": 119 },
+            { "id": "PSY_magi_rnd_mon_skyfin" ,"fg": 120 },
+            { "id": "PSY_magi_rnd_mon_skylipper" ,"fg": 121 },
+            { "id": "PSY_magi_rnd_mon_amskylark" ,"fg": 122 },
+            { "id": "PSY_magi_rnd_mon_tongue_snatcher" ,"fg": 123 },
+            { "id": "PSY_magi_rnd_mon_elephant_head" ,"fg": 124 },
+            { "id": "PSY_magi_rnd_mon_tailgrapper" ,"fg": 125 },
+            { "id": "PSY_magi_rnd_mon_grapplehead" ,"fg": 126 },
+            { "id": "PSY_magi_rnd_mon_sylphidragon" ,"fg": 127 },
+            { "id": "PSY_magi_rnd_mon_mudro_mole" ,"fg": 128 },
+            { "id": "PSY_magi_rnd_mon_blaster_lizard" ,"fg": 129 },
+            { "id": "PSY_magi_rnd_mon_leafback_rat" ,"fg": 130 },
+            { "id": "PSY_magi_rnd_mon_emerald_sprout" ,"fg": 131 },
+            { "id": "PSY_magi_rnd_mon_ironavian" ,"fg": 132 },
+            { "id": "PSY_magi_rnd_mon_slime_big" ,"fg": 134 },
+            { "id": "PSY_mon_gnome_warrior", "rotates": true,"fg":
+            [
+            {"weight": 10, "sprite":179},
+            {"weight": 10, "sprite":178},            
+            {"weight": 10, "sprite":177},
+            {"weight": 10, "sprite":176}
+            ]
+            },
+            { "id": "PSY_magi_f_huge_albion_megastone" ,"fg": 153 },
+            { "id": "PSY_magi_f_huge_soul_stone", "rotates": false,"fg":
+            [
+            {"weight": 10, "sprite":157},
+            {"weight": 10, "sprite":162}
+            ]
+            },
+            { "id": "PSY_magi_f_huge_flame_castle" ,"fg": 154 },
+            { "id": "PSY_magi_f_huge_aquamarine_harmony" ,"fg": 155 },
+            { "id": "PSY_magi_f_huge_lightning_quartz" ,"fg": 158 },
+            { "id": "PSY_magi_f_huge_carne_stone" ,"fg": 159 },
+            { "id": "PSY_magi_f_huge_emerald_leaf" ,"fg": 160 },
+            { "id": "PSY_magi_f_huge_emerald_manite" ,"fg": 164 },
+            { "id": "PSY_magi_f_huge_siren_blue" ,"fg": 166 }
 
           ]
         }

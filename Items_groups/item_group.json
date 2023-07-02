@@ -521,6 +521,52 @@
           { "item": "PSY_bot_mana_mech_magic_sphere", "prob": 3 },
           { "item": "PSY_bot_mana_mech_mind_breaker", "prob": 3 }
         ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "distribution",
+        "id": "PSY_magi_money_distribution",
+        "entries": [
+          { "item": "RobofacCoin", "prob": 40, "count": [ 1, 2 ] },
+          { "item": "FMCNote", "prob": 50, "count": [ 2, 5 ] },
+          { "item": "signed_chit", "prob": 20, "count": [ 2, 3 ] },
+          { "item": "icon", "prob": 30, "count": [ 1, 2 ] },
+          { "item": "gold_small", "prob": 20, "count": [ 10, 20 ] },
+          { "item": "denarius", "prob": 20, "count": [ 3, 5 ] },
+          { "item": "silver_small", "prob": 5, "count": [ 10, 20 ] }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "distribution",
+        "id": "PSY_magi_money_little_distribution",
+        "entries": [
+          { "item": "RobofacCoin", "prob": 40, "count": [ 1, 2 ] },
+          { "item": "FMCNote", "prob": 50, "count": [ 1, 2 ] },
+          { "item": "signed_chit", "prob": 20, "count": [ 1, 2 ] },
+          { "item": "icon", "prob": 30, "count": [ 1, 2 ] },
+          { "item": "gold_small", "prob": 20, "count": [ 2, 4 ] },
+          { "item": "denarius", "prob": 20, "count": [ 1, 2 ] },
+          { "item": "silver_small", "prob": 5, "count": [ 2, 4 ] }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "distribution",
+        "id": "PSY_magi_common_item_distribution",
+        "entries": [
+          { "group": "enchanted_misc", "prob": 20 },
+          { "group": "enchanted_rings_unusual", "prob": 20 },
+          { "group": "enchanted_wands_greater", "prob": 5 },
+          { "group": "enchanted_wands_lesser", "prob": 20 },
+          { "group": "lair_black_dragon_treasure", "prob": 1 },
+          { "group": "enchanted_melee_weapons_plus2", "prob": 20 },
+          { "group": "enchanted_tools_plus2", "prob": 20 },
+          { "group": "demon_spider_lair_treasure", "prob": 5 }
+        ]
       }
 
 
