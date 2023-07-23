@@ -5223,3 +5223,10 @@ msgstr "オーブ:鉄の心眼"
 
 msgid "While held in the hand, it can detect robots, turrets, and other electricity-powered monsters in the surrounding 7 tiles.But your footsteps will be loud."
 msgstr "手に持っている間、周囲7タイルのロボットやタレットなどの電気で動くモンスターを探知することが出来ます。しかし、あなたの足音がうるさくなります。"
+
+msgid "ring of mana sparkling"
+msgid_plural "rings of mana sparkling"
+msgstr[0] "マナの輝きリング"
+
+msgid "This ring is made of platinum and emits light according to the amount of mana present. The more mana you have, the more intense the glow."
+msgstr "プラチナ製のリングで、現在のマナの量に応じて光を放ちます。マナが多いほど輝きも強くなります。"

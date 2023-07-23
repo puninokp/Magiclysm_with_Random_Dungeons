@@ -675,6 +675,7 @@
               {"weight": 20, "sprite":864}
             ]
             },
+            { "id": "PSY_mring_mana_sparkling" ,"fg": 833},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash" ,"fg": 840},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash_second" ,"fg": 840},
             { "id": "explosion_PSY_magi_summon_Air_slash" ,"fg": 840},

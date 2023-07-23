@@ -332,6 +332,18 @@
         "purifiable": false,
         "valid": false,
         "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "CLIMATE_CONTROL_CHILL", "add": 20 } ] } ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_MANA_LUMINATION_ON",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "name": { "str": "ring of mana sparkling" },
+        "points": -1,
+        "description": "This ring is made of platinum and emits light according to the amount of mana present. The more mana you have, the more intense the glow.",
+        "enchantments": [ "PSY_MANA_LUMINATION" ]
       }
 
 

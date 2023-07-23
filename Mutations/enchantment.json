@@ -1,0 +1,16 @@
+[
+
+  {
+    "type": "enchantment",
+    "id": "PSY_MANA_LUMINATION",
+    "condition": "ALWAYS",
+    "values": [
+      {
+        "value": "LUMINATION",
+        "add": { "arithmetic": [ { "global_val": "monsters_nearby", "radius": 25 }, "*", { "const": 20 } ] }
+      }
+    ]
+  }
+
+
+]

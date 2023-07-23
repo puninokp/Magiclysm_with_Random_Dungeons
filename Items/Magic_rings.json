@@ -241,5 +241,25 @@
         { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 1.0 } ] } ,
         { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "REGEN_MANA", "multiply": 1.0 } ] } 
         ] }
+  },
+
+  {
+    "id": "PSY_mring_mana_sparkling",
+    "type": "TOOL_ARMOR",
+    "copy-from": "PSY_mring_platinum",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of mana sparkling"},
+    "description": "This ring is made of platinum and emits light according to the amount of mana present. The more mana you have, the more intense the glow.",
+    "relic_data": { 
+      "passive_effects": [ 
+        {
+
+          "condition": "ALWAYS",
+          "mutations": [
+            "PSY_MANA_LUMINATION_ON"
+          ]
+        }
+        ] 
+      }
   }
 ]
