@@ -35,7 +35,6 @@
           { "monster": "mon_skitterbot", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_secubot", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_talon_m202a1", "freq": 20, "cost_multiplier": 1 },
-          { "monster": "mon_copbot", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_bat", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_ant_soldier", "freq": 20, "cost_multiplier": 1 },
           { "monster": "mon_ant_acid_larva", "freq": 20, "cost_multiplier": 1 },
@@ -54,7 +53,6 @@
           { "monster": "mon_cow", "freq": 10, "cost_multiplier": 1},
           { "monster": "mon_horse", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_pig", "freq": 10, "cost_multiplier": 1 },
-          { "monster": "mon_eyebot", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_chipmunk", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_crow", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_pigeon", "freq": 10, "cost_multiplier": 1 },
@@ -62,7 +60,6 @@
           { "monster": "mon_duck", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_dog_thing", "freq": 10, "cost_multiplier": 1 },
           { "monster": "mon_human_snail", "freq": 9, "cost_multiplier": 1 },
-          { "monster": "mon_rabbit_dreadful", "freq": 5, "cost_multiplier": 1 },
           { "monster": "mon_twisted_body", "freq": 5, "cost_multiplier": 1 },
           { "monster": "mon_shoggoth", "freq": 1, "cost_multiplier": 1 }
         ]

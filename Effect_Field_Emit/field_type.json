@@ -752,7 +752,7 @@
           }
         ],
         "description_affix": "covered_in",
-        "immunity_data": { "traits": [ "WEB_WALKER" ] },
+        "immunity_data": { "flags": [ "WEBWALK" ] },
         "immune_mtypes": [ "mon_spider_web", "mon_spider_web_s", "mon_mutant_arthropod" ],
         "decrease_intensity_on_contact": true,
         "priority": 2,
@@ -777,22 +777,25 @@
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -20,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -20,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 2, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -20,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 3, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 3, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           }
         ],
@@ -820,22 +823,25 @@
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -20,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -20,"intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 1, "min_duration": "1 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -40,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -40,"intensity": 2, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 2, "min_duration": "2 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "ice field",
             "sym": "}",
+            "convection_temperature_mod": -60,
             "effects": [
-              { "effect_id": "downed","convection_temperature_mod": -60,"intensity": 3, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "downed","intensity": 3, "min_duration": "3 m", "immune_in_vehicle": true, "is_environmental": false }
             ]
           }
         ],
@@ -856,22 +862,25 @@
           {
             "name": "Weak Stunning field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "stunned","intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Stunning field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "stunned","intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Strong Stunning field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "stunned","convection_temperature_mod": 5,"intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "stunned","intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           }
         ],
@@ -891,22 +900,25 @@
           {
             "name": "Weak Darkness field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 1, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "blind","intensity": 1, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Darkness field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 2, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "blind","intensity": 2, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Strong Darkness field",
             "sym": "}",
+            "convection_temperature_mod": 5,
             "effects": [
-              { "effect_id": "blind","convection_temperature_mod": 5,"intensity": 3, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "blind","intensity": 3, "min_duration": "5 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           }
         ],
@@ -927,21 +939,21 @@
             "name": "Weak Bloody cloud",
             "sym": "}",
             "effects": [
-              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "PSY_magi_bloody_cursed","intensity": 1, "min_duration": "1 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Bloody cloud",
             "sym": "}",
             "effects": [
-              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "PSY_magi_bloody_cursed","intensity": 2, "min_duration": "2 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           },
           {
             "name": "Strong Bloody cloud",
             "sym": "}",
             "effects": [
-              { "effect_id": "PSY_magi_bloody_cursed","convection_temperature_mod": 5,"intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
+              { "effect_id": "PSY_magi_bloody_cursed","intensity": 3, "min_duration": "3 seconds", "immune_in_vehicle": true, "is_environmental": false }
             ]
           }
         ],
@@ -1284,23 +1296,27 @@
       {
         "id": "PSY_fd_ice_field_has_effect",
         "type": "field_type",
-        "intensity_levels": [ { "name": "ice field" } ],
         "half_life": "1 turns",
         "looks_like": "fd_PSY_magi_ice_field",
-        "dangerous": true,
-        "translucency": 0.1,
-        "convection_temperature_mod": -50,
-        "effects": [
-          {
-            "effect_id": "PSY_magi_slow",
-            "intensity": 1,
-            "min_duration": "1 seconds",
-            "max_duration": "3 seconds",
-            "immune_inside_vehicle": true,
-            "is_environmental": false,
-            "message": "You feel cold from inhaling the mist.",
-            "message_type": "bad"
-          }
+        "intensity_levels": [ 
+         { 
+          "name": "ice field",
+          "convection_temperature_mod": -50,
+          "dangerous": true, 
+          "translucency": 0.1,
+          "effects": [
+            {
+              "effect_id": "PSY_magi_slow",
+              "intensity": 1,
+              "min_duration": "1 seconds",
+              "max_duration": "3 seconds",
+              "immune_inside_vehicle": true,
+              "is_environmental": false,
+              "message": "You feel cold from inhaling the mist.",
+              "message_type": "bad"
+            }
+          ]
+         } 
         ],
         "phase": "solid",
         "percent_spread": 0,

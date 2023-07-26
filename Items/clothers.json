@@ -8,7 +8,7 @@
     "weight": "102 g",
     "volume": "250 ml",
     "price": 90000,
-    "bashing": 5,
+    "melee_damage": { "bash": 5 },
     "material": [ "concentrated_mana" ],
     "symbol": "[",
     "color": "brown",

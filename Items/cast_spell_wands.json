@@ -7,7 +7,7 @@
         "weight": "230 g",
         "volume": "500 ml",
         "price": "400 USD",
-        "bashing": 3,
+        "melee_damage": { "bash": 5 },
         "to_hit": 1,
         "material": [ "wood" ],
         "looks_like": "spell_wand",

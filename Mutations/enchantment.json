@@ -7,7 +7,7 @@
     "values": [
       {
         "value": "LUMINATION",
-        "add": { "arithmetic": [ { "global_val": "monsters_nearby", "radius": 25 }, "*", { "const": 20 } ] }
+        "add": { "math": [ "u_monsters_nearby('radius': 25) * 20" ] }
       }
     ]
   }

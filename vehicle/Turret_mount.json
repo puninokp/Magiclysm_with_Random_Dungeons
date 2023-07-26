@@ -5,15 +5,15 @@
         "type": "vehicle",
         "name": "Deployed Turret",
         "parts": [
-          { "x": 0, "y": 0, "parts": [ "frame_cross" ] },
-          { "x": 0, "y": 1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": 1, "y": 0, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": 0, "y": -1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": -1, "y": 0, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": 1, "y": 1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": 1, "y": -1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": -1, "y": -1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] },
-          { "x": -1, "y": 1, "parts": [ "frame_cross", "PSY_magi_UFO_xlhalfboard", "roof" ] }
+          { "x": 0, "y": 0, "parts": [ "frame_wood" ] },
+          { "x": 0, "y": 1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": 0, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 0, "y": -1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": 0, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": 1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": 1, "y": -1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": -1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] },
+          { "x": -1, "y": 1, "parts": [ "frame_wood", "PSY_magi_UFO_xlhalfboard", "roof" ] }
         ]
     }
 ]

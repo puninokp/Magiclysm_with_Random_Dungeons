@@ -62,7 +62,7 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -1,
-        "bashing": 6,
+        "melee_damage": { "bash": 6 },
         "material": [ "steel" ],
         "symbol": "*",
         "color": "dark_gray",
@@ -70,7 +70,7 @@
           "need_wielding": true,
           "target": "PSY_magi_web_bomb_act",
           "msg": "You arm the spider web canister.",
-          "target_charges": 10,
+          "target_timer": "10 seconds",
           "active": true,
           "menu_text": "Arm",
           "type": "transform"
@@ -89,22 +89,17 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -1,
-        "bashing": 6,
+        "melee_damage": { "bash": 6 },
         "material": [ "steel" ],
         "symbol": "*",
         "color": "dark_gray",
-        "initial_charges": 10,
-        "max_charges": 10,
-        "turns_per_charge": 1,
-        "use_action": {
+        "use_action": { "type": "message", "message": "You've already armed the %s, try throwing it instead.", "name": "Pull pin" },
+        "countdown_action": {
           "type": "explosion",
           "fields_type": "fd_web",
           "fields_radius": 4,
           "fields_min_intensity": 1,
-          "fields_max_intensity": 3,
-          "sound_volume": 0,
-          "sound_msg": "Hiss.",
-          "no_deactivate_msg": "You've already armed the %s; try throwing it instead."
+          "fields_max_intensity": 3
         },
         "flags": [ "TRADER_AVOID" ]
       },
@@ -121,7 +116,7 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -1,
-        "bashing": 6,
+        "melee_damage": { "bash": 6 },
         "material": [ "steel" ],
         "symbol": "*",
         "color": "dark_gray",
@@ -129,7 +124,7 @@
           "need_wielding": true,
           "target": "PSY_magi_extinguisher_bomb_act",
           "msg": "You arm the extinguisher bomb canister.",
-          "target_charges": 10,
+          "target_timer": "10 seconds",
           "active": true,
           "menu_text": "Arm",
           "type": "transform"
@@ -148,22 +143,17 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -1,
-        "bashing": 6,
+        "melee_damage": { "bash": 6 },
         "material": [ "steel" ],
         "symbol": "*",
         "color": "dark_gray",
-        "initial_charges": 10,
-        "max_charges": 10,
-        "turns_per_charge": 1,
-        "use_action": {
+        "use_action": { "type": "message", "message": "You've already armed the %s, try throwing it instead.", "name": "Pull pin" },
+        "countdown_action": {
           "type": "explosion",
           "fields_type": "fd_extinguisher",
           "fields_radius": 5,
           "fields_min_intensity": 2,
-          "fields_max_intensity": 3,
-          "sound_volume": 0,
-          "sound_msg": "Hiss.",
-          "no_deactivate_msg": "You've already armed the %s; try throwing it instead."
+          "fields_max_intensity": 3
         },
         "flags": [ "TRADER_AVOID" ]
       },
@@ -175,7 +165,7 @@
         "weight": "25000 g",
         "volume": "20000 ml",
         "price": "400 USD",
-        "bashing": 1,
+        "melee_damage": { "bash": 6 },
         "to_hit": 1,
         "material": [ "wood" ],
         "looks_like": "spell_wand",
@@ -203,7 +193,7 @@
         "volume": "3 L",
         "longest_side": "900 mm",
         "to_hit": 1,
-        "bashing": 28,
+        "melee_damage": { "bash": 28 },
         "material": [ "magical_material" ],
         "symbol": "(",
         "color": "yellow",
@@ -239,7 +229,7 @@
         "techniques": [ "WBLOCK_1" ],
         "flags": [ "DURABLE_MELEE" ],
         "volume": "1750 ml",
-        "bashing": 22,
+        "melee_damage": { "bash": 22 },
         "price": 10
       },
 
@@ -519,8 +509,7 @@
         "price": 64500,
         "price_postapoc": 3000,
         "to_hit": -3,
-        "bashing": 6,
-        "cutting": 6,
+        "melee_damage": { "bash": 10 },
         "material": [ "aluminum", "plastic" ],
         "symbol": ",",
         "color": "cyan",
@@ -546,8 +535,7 @@
         "price": 64500,
         "price_postapoc": 3000,
         "to_hit": -3,
-        "bashing": 6,
-        "cutting": 6,
+        "melee_damage": { "bash": 6, "cut": 8  },
         "material": [ "aluminum", "plastic" ],
         "symbol": ",",
         "color": "cyan"
@@ -767,7 +755,6 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -3,
-        "bashing": 4,
         "material": [ "paper", "powder" ],
         "symbol": "*",
         "color": "red",
@@ -791,7 +778,6 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -3,
-        "bashing": 4,
         "material": [ "paper", "powder" ],
         "symbol": "*",
         "color": "red",
@@ -815,7 +801,6 @@
         "price": 0,
         "price_postapoc": 0,
         "to_hit": -3,
-        "bashing": 4,
         "material": [ "paper", "powder" ],
         "symbol": "*",
         "color": "red",
@@ -837,7 +822,6 @@
         "weight": "35133 g",
         "volume": "35750 ml",
         "countdown_interval": 0,
-        "countdown_destroy": true,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 98 ,"shrapnel": { "casing_mass": 50, "fragment_mass": 0.4 }},
@@ -859,7 +843,6 @@
         "weight": "35133 g",
         "volume": "35750 ml",
         "countdown_interval": 0,
-        "countdown_destroy": true,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 178 ,"shrapnel": { "casing_mass": 75, "fragment_mass": 0.4 }},
@@ -881,7 +864,6 @@
         "weight": "35133 g",
         "volume": "35750 ml",
         "countdown_interval": 0,
-        "countdown_destroy": true,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 412 ,"shrapnel": { "casing_mass": 155, "fragment_mass": 0.4 }},
@@ -903,7 +885,6 @@
         "weight": "35133 g",
         "volume": "35750 ml",
         "countdown_interval": 0,
-        "countdown_destroy": true,
         "countdown_action": { 
           "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
         },
