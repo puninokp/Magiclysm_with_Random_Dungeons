@@ -322,7 +322,7 @@
         "ammo": [ "magical_coin" ],
         "charges_per_use": 15,
         "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "magical_coin": 15 } } ],
-        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_bot_turret", "no_fail": true, "level": 0, "need_wielding": false }
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spawn_mon_turret", "no_fail": true, "level": 0, "need_wielding": false }
       },
 
 

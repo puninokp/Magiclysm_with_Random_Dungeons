@@ -761,7 +761,7 @@
         "turns_per_charge": 1,
         "initial_charges": 1,
         "max_charges": 1,
-        "explode_in_fire": true,
+        "explode_in_fire": false,
         "explosion": { "power": 128 ,"shrapnel": { "casing_mass": 50, "fragment_mass": 0.4 }},
         "flags": [ "TRADER_AVOID", "BOMB" ]
       },
@@ -784,7 +784,7 @@
         "turns_per_charge": 1,
         "initial_charges": 1,
         "max_charges": 1,
-        "explode_in_fire": true,
+        "explode_in_fire": false,
         "explosion": { "power": 208 ,"shrapnel": { "casing_mass": 75, "fragment_mass": 0.4 }},
         "flags": [ "TRADER_AVOID", "BOMB" ]
       },
@@ -807,7 +807,7 @@
         "turns_per_charge": 1,
         "initial_charges": 1,
         "max_charges": 1,
-        "explode_in_fire": true,
+        "explode_in_fire": false,
         "explosion": { "power": 412 ,"shrapnel": { "casing_mass": 155, "fragment_mass": 0.4 }},
         "flags": [ "TRADER_AVOID", "BOMB" ]
       },
@@ -821,7 +821,8 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
-        "countdown_interval": 0,
+        "explode_in_fire": false,
+        "countdown_interval": 1,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 98 ,"shrapnel": { "casing_mass": 50, "fragment_mass": 0.4 }},
@@ -842,7 +843,8 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
-        "countdown_interval": 0,
+        "explode_in_fire": false,
+        "countdown_interval": 1,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 178 ,"shrapnel": { "casing_mass": 75, "fragment_mass": 0.4 }},
@@ -863,7 +865,8 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
-        "countdown_interval": 0,
+        "explode_in_fire": false,
+        "countdown_interval": 1,
         "countdown_action": {
           "type": "explosion",
           "explosion": { "power": 412 ,"shrapnel": { "casing_mass": 155, "fragment_mass": 0.4 }},
@@ -884,7 +887,7 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
-        "countdown_interval": 0,
+        "countdown_interval": 1,
         "countdown_action": { 
           "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
         },
