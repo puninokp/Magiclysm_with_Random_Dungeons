@@ -3590,6 +3590,47 @@
     "energy_source": "MANA",
     "difficulty": 0,
     "damage_type": "heat"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_bash_ground",
+    "name": "Orb of Black Mist",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": ["hostile","self","ground"],
+    "effect": "none",
+    "shape": "blast",
+    "min_damage": 1,
+    "max_damage": 1,
+    "base_casting_time": 100,
+    "base_energy_cost": 500,
+    "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+    "min_range": 15,
+    "max_range": 15,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_item_spell_bash_ground_sub", "hit_self": true }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_item_spell_bash_ground_sub",
+    "type": "SPELL",
+    "name": "Bash ground",
+    "description": "Bashes the terrain at the target area and destroy fragile furnitures and plants.",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS","NO_PROJECTILE" ],
+    "effect": "bash",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "min_damage": 150,
+    "max_damage": 150,
+    "max_level": 0,
+    "min_aoe": 3,
+    "max_aoe": 3
   }
 
 ]

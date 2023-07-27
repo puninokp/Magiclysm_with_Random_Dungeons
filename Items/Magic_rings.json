@@ -114,6 +114,8 @@
     "relic_data": { 
       "passive_effects": [ 
         {
+          "has": "WORN", 
+          "condition": "ALWAYS", 
           "intermittent_activation": { "effects": [ { "frequency": "60 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
         }
         
@@ -130,6 +132,8 @@
     "relic_data": { 
       "passive_effects": [ 
         {
+          "has": "WORN", 
+          "condition": "ALWAYS", 
           "intermittent_activation": { "effects": [ { "frequency": "40 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
         }
         
@@ -146,6 +150,8 @@
     "relic_data": { 
       "passive_effects": [ 
         {
+          "has": "WORN", 
+          "condition": "ALWAYS", 
           "intermittent_activation": { "effects": [ { "frequency": "20 minutes", "spell_effects": [ { "id": "PSY_light_healing_mana", "hit_self": true } ] } ] }
         }
         
@@ -244,6 +250,135 @@
   },
 
   {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_nether_world",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of nether world"},
+    "description": "A golden ring that increases stamina recovery when you wear it.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SIGHT_RANGE_NETHER", "add": 7 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_gunslinger",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of gunslinger"},
+    "description": "When equipped, this ring increases the damage of long-range attacks such as bows and guns by 20%.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "RANGED_DAMAGE", "multiply": 0.2 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_gladiator",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of gladiator"},
+    "description": "When equipped, this ring increases the damage of melee attacks by 20%.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MELEE_DAMAGE", "multiply": 0.2 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_forcefield",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of forcefield"},
+    "description": "When equipped, this ring has a 20% chance of nullifying damage taken.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "FORCEFIELD", "add": 0.2 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_brace",
+    "price_postapoc": "1000 USD",
+    "name": { "str": "ring of brace"},
+    "description": "When equipped, this ring increases the total weight of items you can carry by 1 kg!",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "CARRY_WEIGHT", "add": 1000 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_brace+1",
+    "price_postapoc": "3000 USD",
+    "name": { "str": "ring of brace+1"},
+    "description": "When equipped, this ring increases the total weight of items you can carry by 3 kg!",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "CARRY_WEIGHT", "add": 3000 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_brace+2",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of brace+2"},
+    "description": "When equipped, this ring increases the total weight of items you can carry by 10 kg!",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "CARRY_WEIGHT", "add": 10000 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_brace+3",
+    "price_postapoc": "10000 USD",
+    "name": { "str": "ring of brace+3"},
+    "description": "When equipped, this ring increases the total weight of items you can carry by 20 kg!",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "CARRY_WEIGHT", "add": 20000 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_detection",
+    "price_postapoc": "10000 USD",
+    "name": { "str": "ring of detection"},
+    "description": "When equipped, this ring displays the monsters present in the 3 surrounding tiles as red of ?.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOTION_VISION_RANGE", "add": 3 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_sniper",
+    "price_postapoc": "10000 USD",
+    "name": { "str": "ring of sniper"},
+    "description": "When equipped, this ring reduces the dispersion rate of guns and bows by 30%.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "RECOIL_MODIFIER", "multiply": -0.3 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_noise",
+    "price_postapoc": "100 USD",
+    "name": { "str": "ring of noise"},
+    "description": "When equipped, this ring triples the sound generated when making melee attacks.",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_NOISE", "multiply": 2.0 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_subterranean_rumbling",
+    "price_postapoc": "30000 USD",
+    "name": { "str": "ring of subterranean rumbling"},
+    "description": "When equipped, the ring increases footsteps by a factor of 5, but every minute it causes the ground to shake in 3 squares around it, damaging the terrain.",
+    "relic_data": { 
+      "passive_effects": [ 
+          { 
+            "has": "WORN", 
+            "condition": "ALWAYS", 
+            "values": [ { "value": "FOOTSTEP_NOISE", "multiply": 4.0 } ] ,
+            "intermittent_activation": { "effects": [ { "frequency": "60 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_bash_ground" } ] } ] }
+          } 
+        ] 
+      }
+  },
+
+  {
     "id": "PSY_mring_mana_sparkling",
     "type": "TOOL_ARMOR",
     "copy-from": "PSY_mring_platinum",
@@ -253,7 +388,7 @@
     "relic_data": { 
       "passive_effects": [ 
         {
-
+          "has": "WORN", 
           "condition": "ALWAYS",
           "mutations": [
             "PSY_MANA_LUMINATION_ON"

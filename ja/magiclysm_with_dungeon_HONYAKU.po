@@ -5230,3 +5230,93 @@ msgstr[0] "マナの輝きリング"
 
 msgid "This ring is made of platinum and emits light according to the amount of mana present. The more mana you have, the more intense the glow."
 msgstr "プラチナ製のリングで、現在のマナの量に応じて光を放ちます。マナが多いほど輝きも強くなります。"
+
+msgid "delusionian eye"
+msgstr "幻覚を見せるもの"
+
+msgid "It is an eerie monster with huge eyeballs. The eyeballs at its center have the power to induce hallucinations, allowing it to create illusions in response to its surroundings and human thoughts. The monster is said to usually appear in mysterious places such as ancient ruins, forgotten places, and dungeons."
+msgstr "巨大な目玉を持つ不気味なモンスターです。中心にある目玉には幻覚を誘発する力があり、周囲の環境や人間の思考に合わせて幻覚を作り出すことができます。このモンスターは通常、古代の遺跡や忘れ去られた場所、ダンジョンなど、不思議な場所に現れるとされています。"
+
+msgid "Strong Monster"
+msgstr "手ごわいモンスター"
+
+msgid "A moderately formidable monster."
+msgstr "中々に手ごわいモンスターです。"
+
+msgid "the eye summons monsters!"
+msgstr "その目はモンスターを召喚した!"
+
+msgid "ring of nether world"
+msgstr "冥界の指輪"
+
+msgid "When equipped, this ring allows you to see nether-type monsters in the surrounding 7 tiles through the wall!"
+msgstr "装備すると、周囲7タイルに存在するネザータイプのモンスターを壁越しで視認することが出来るようになる指輪です。"
+
+msgid "ring of gunslinger"
+msgstr "ガンスリンガーの指輪"
+
+msgid "When equipped, this ring increases the damage of long-range attacks such as bows and guns by 20%."
+msgstr "装備すると、弓や銃など遠距離攻撃のダメージが20%上昇する指輪です。"
+
+msgid "ring of gladiator"
+msgstr "剣闘士の指輪"
+
+msgid "When equipped, this ring increases the damage of melee attacks by 20%."
+msgstr "装備すると、近接攻撃のダメージが20%上昇する指輪です。"
+
+msgid "ring of forcefield"
+msgstr "フォースフィールドの指輪"
+
+msgid "When equipped, this ring has a 20% chance of nullifying damage taken."
+msgstr "装備すると、20%の確率で受けるダメージを無効化する指輪です。"
+
+msgid "ring of brace"
+msgstr "力こぶの指輪"
+
+msgid "When equipped, this ring increases the total weight of items you can carry by 1 kg!"
+msgstr "装備すると、持てるアイテムの総重量が1キロ増加する指輪です。"
+
+msgid "ring of brace+1"
+msgstr "力こぶの指輪+1"
+
+msgid "When equipped, this ring increases the total weight of items you can carry by 3 kg!"
+msgstr "装備すると、持てるアイテムの総重量が3キロ増加する指輪です。"
+
+msgid "ring of brace+2"
+msgstr "力こぶの指輪+2"
+
+msgid "When equipped, this ring increases the total weight of items you can carry by 10 kg!"
+msgstr "装備すると、持てるアイテムの総重量が10キロ増加する指輪です。"
+
+msgid "ring of brace+3"
+msgstr "力こぶの指輪+3"
+
+msgid "When equipped, this ring increases the total weight of items you can carry by 20 kg!"
+msgstr "装備すると、持てるアイテムの総重量が20キロ増加する指輪です。"
+
+msgid "ring of detection"
+msgstr "探知の指輪"
+
+msgid "When equipped, this ring displays the monsters present in the 3 surrounding tiles as red of ?."
+msgstr "このリングを装備すると、周囲3タイルに存在するモンスターが赤色の「?」で表示される。"
+
+msgid "ring of sniper"
+msgstr "スナイパーの指輪"
+
+msgid "When equipped, this ring reduces the dispersion rate of guns and bows by 30%."
+msgstr "装備すると、銃や弓の分散率が30%軽減される指輪です。"
+
+msgid "ring of noise"
+msgstr "騒音の指輪"
+
+msgid "When equipped, this ring triples the sound generated when making melee attacks."
+msgstr "装備すると、近接攻撃をする際に発生する音が3倍になる指輪です。"
+
+msgid "ring of subterranean rumbling"
+msgstr "地響きの指輪"
+
+msgid "When equipped, the footsteps are multiplied by 5, but every minute they cause the ground to shake in 3 squares around them, damaging the terrain."
+msgstr "装備すると、足音が5倍になりますが、1分ごとに周囲3マスに地響きを起こし地形にダメージを与えます。"
+
+msgid "When equipped, the ring increases footsteps by a factor of 5, but every minute it causes the ground to shake in 3 squares around it, damaging the terrain."
+msgstr "装備すると、足音が5倍になりますが、1分ごとに周囲3マスに地響きを起こし地形にダメージを与える指輪です。"

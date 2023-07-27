@@ -6305,6 +6305,92 @@
           "ACIDPROOF",
           "PACIFIST"
         ]
+      },
+
+      {
+        "id": "PSY_magi_rnd_mon_delusionian_eye",
+        "type": "MONSTER",
+        "name": "delusionian eye",
+        "description": "It is an eerie monster with huge eyeballs. The eyeballs at its center have the power to induce hallucinations, allowing it to create illusions in response to its surroundings and human thoughts. The monster is said to usually appear in mysterious places such as ancient ruins, forgotten places, and dungeons.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "bodytype": "blob",
+        "looks_like": "PSY_magi_mon_skeleton_grave",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "150000 ml",
+        "weight": "136000 g",
+        "hp": 300,
+        "speed": 100,
+        "luminance": 55,
+        "material": [ "stone" ],
+        "symbol": "s",
+        "color": "dark_gray",
+        "aggression": 0,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 10,
+        "melee_dice_sides": 3,
+        "vision_day": 25,
+        "vision_night": 25,
+        "armor": { "bash": 3,"stab": 13, "cut": 13, "bullet": 3, "electric": 8,"acid": 10, "heat":10},
+        "harvest": "exempt",
+        "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
+        "death_drops": "PSY_magi_mon_rnd_delusionian_eye_mon_drops",
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_summon_hostile_eye_hull_base" }, "cooldown": 8 }
+          ],
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "ACIDPROOF",
+          "PACIFIST",
+          "IMMOBILE"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_strong_monster_hullu",
+        "type": "MONSTER",
+        "name": "Strong Monster",
+        "description": "A moderately formidable monster.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "bodytype": "blob",
+        "looks_like": "fd_fatigue",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "15000 ml",
+        "weight": "1 g",
+        "hp": 1,
+        "speed": 60,
+        "material": [ "powder" ],
+        "symbol": "o",
+        "color": "yellow",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 0,
+        "melee_dice": 0,
+        "melee_dice_sides": 0,
+        "dodge": 7,
+        "vision_day": 50,
+        "vision_night": 50,
+        "harvest": "exempt",
+        "death_drops": {  },
+        "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "FLIES",
+          "SEES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF", 
+          "FIREPROOF",
+          "ACIDPROOF",
+          "PACIFIST"
+        ]
       }
 
 

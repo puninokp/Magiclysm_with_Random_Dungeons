@@ -1151,6 +1151,51 @@
             { "monster": "GROUP_PSY_magi_RND_MON_ALL_WEAK_ONLY_PLANT", "x": 2, "y": 4 , "density": 0.05}
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_9x9_kaibutsu",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|%|%|%|%|",
+            "%|||||||%",
+            "|||||||||",
+            "%||hhh||%",
+            "|||hYh|||",
+            "%||hhh||%",
+            "|||||||||",
+            "%|||||||%",
+            "|%|%|%|%|"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_nm_floor_flesh",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "t_nm_wall_flesh",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "t_nm_floor_flesh",
+            "h": "t_nm_floor_flesh",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "items": { 
+            "|": { "item": "remains_human_generic", "chance": 5 } ,
+            "h": { "item": "corpses", "chance": 20 } 
+          },
+          "monster": {
+            "Y": { "monster": "PSY_magi_rnd_mon_delusionian_eye", "chance": 100 }
+          }
+        }
       }
 
 

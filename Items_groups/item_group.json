@@ -74,6 +74,18 @@
           { "item": "PSY_mring_hp_bonus_15", "prob": 3 },
           { "item": "PSY_mring_stamina", "prob": 3 },
           { "item": "PSY_mring_restore_stamina", "prob": 2 },
+          { "item": "PSY_mring_nether_world", "prob": 3 },
+          { "item": "PSY_mring_gunslinger", "prob": 2 },
+          { "item": "PSY_mring_gladiator", "prob": 2 },
+          { "item": "PSY_mring_forcefield", "prob": 1 },
+          { "item": "PSY_mring_brace", "prob": 4 },
+          { "item": "PSY_mring_brace+1", "prob": 2 },
+          { "item": "PSY_mring_brace+2", "prob": 1 },
+          { "item": "PSY_mring_brace+3", "prob": 1 },
+          { "item": "PSY_mring_detection", "prob": 2 },
+          { "item": "PSY_mring_sniper", "prob": 2 },
+          { "item": "PSY_mring_noise", "prob": 4 },
+          { "item": "PSY_mring_subterranean_rumbling", "prob": 1 },
           { "item": "PSY_mring_archmage", "prob": 1 }
         ]
       },

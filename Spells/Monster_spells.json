@@ -5802,6 +5802,46 @@
     "max_level": 0,
     "min_duration": 1000,
     "max_duration": 1000
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_summon_hostile_eye_hull_base",
+    "name": "Summon monsters",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": ["self"],
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 600,
+    "flags": ["NO_EXPLOSION_SFX","SILENT", "NO_LEGS", "NO_HANDS","IGNORE_WALLS","RANDOM_TARGET","NO_PROJECTILE" ],
+    "min_range": 25,
+    "max_range": 25,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_summon_hostile_eye_hull_sub", "hit_self": true},
+      { "id": "PSY_magi_spell_summon_hostile_eye_hull_sub" , "hit_self": true},
+      { "id": "PSY_magi_spell_self_damage_10" , "hit_self": true }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_summon_hostile_eye_hull_sub",
+    "name": "Summon Wisps",
+    "description": "Summons wisps.",
+    "flags": ["NO_EXPLOSION_SFX", "HOSTILE_SUMMON","SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 3,
+    "max_range": 3,
+    "min_duration": 600,
+    "max_duration": 3600,
+    "message": "the eye summons monsters!",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_strong_monster_hullu"
   }
 
 

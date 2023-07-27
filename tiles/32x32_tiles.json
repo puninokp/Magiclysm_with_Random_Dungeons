@@ -652,7 +652,7 @@
             { "id": "overlay_wielded_PSY_magi_fake_mana_gun_sniper_rifle" ,"fg": 763},
             { "id": "PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 758},
             { "id": "overlay_wielded_PSY_magi_fake_mana_gun_rocket_launcher" ,"fg": 768},
-            { "id": "PSY_mon_ghost", "rotates": true,"fg":
+            { "id": "PSY_magi_rnd_mon_ghost", "rotates": true,"fg":
             [
             {"weight": 10, "sprite":782},
             {"weight": 10, "sprite":783},
@@ -675,7 +675,16 @@
               {"weight": 20, "sprite":864}
             ]
             },
+            { "id": "PSY_mring_nether_world" ,"fg": 810},
+            { "id": "PSY_mring_detection" ,"fg": 812},
+            { "id": "PSY_mring_gladiator" ,"fg": 818},
+            { "id": "PSY_mring_gunslinger" ,"fg": 819},
+            { "id": "PSY_mring_forcefield" ,"fg": 820},
+            { "id": "PSY_mring_noise" ,"fg": 821},
+            { "id": [ "PSY_mring_brace", "PSY_mring_brace+1","PSY_mring_brace+2", "PSY_mring_brace+3" ] ,"fg": 830},
+            { "id": "PSY_mring_sniper" ,"fg": 832},
             { "id": "PSY_mring_mana_sparkling" ,"fg": 833},
+            { "id": "PSY_mring_subterranean_rumbling" ,"fg": 834},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash" ,"fg": 840},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash_second" ,"fg": 840},
             { "id": "explosion_PSY_magi_summon_Air_slash" ,"fg": 840},
@@ -824,7 +833,16 @@
             { "id": "PSY_magi_Orb_of_Dodge" ,"fg": 970},
             { "id": "overlay_worn_PSY_magi_Orb_of_Dodge" ,"fg": 971},
             { "id": "PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 972},
-            { "id": "overlay_worn_PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 973}
+            { "id": "overlay_worn_PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 973},
+            { "id": "explosion_PSY_magi_item_spell_bash_ground_sub", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 10, "sprite":980},
+              {"weight": 10, "sprite":981},
+              {"weight": 10, "sprite":982},
+              {"weight": 10, "sprite":983}
+
+            ]
+            }
             
             
           ]

@@ -131,7 +131,7 @@
             { "id": "PSY_magi_rnd_mon_touchrisk" ,"fg": 103 },
             { "id": "PSY_magi_rnd_mon_roselisk" ,"fg": 104 },
             { "id": "PSY_magi_rnd_mon_whisper_Coffin" ,"fg": 105 },
-            { "id": "PSY_magi_rnd_mon_ruby_doll", "rotates": true,"fg":
+            { "id": "PSY_magi_rnd_mon_ruby_doll", "animated": false,"rotates": true,"fg":
             [
             {"weight": 10, "sprite":106},
             {"weight": 10, "sprite":108}
@@ -162,7 +162,7 @@
             { "id": "PSY_magi_rnd_mon_emerald_sprout" ,"fg": 131 },
             { "id": "PSY_magi_rnd_mon_ironavian" ,"fg": 132 },
             { "id": "PSY_magi_rnd_mon_slime_big" ,"fg": 134 },
-            { "id": "PSY_mon_gnome_warrior", "rotates": true,"fg":
+            { "id": "PSY_magi_rnd_mon_gnome_warrior","animated": false, "rotates": true,"fg":
             [
             {"weight": 10, "sprite":179},
             {"weight": 10, "sprite":178},            

@@ -912,6 +912,7 @@
         "chunks": [
           [ "PSY_magi_nested_room_9x9_null", 1 ],
           [ "PSY_magi_nested_room_9x9_ore", 12 ],
+          [ "PSY_magi_nested_room_9x9_kaibutsu", 6 ],
           [ "PSY_magi_nested_room_9x9_fish", 8 ],
           [ "PSY_magi_nested_room_9x9_glass", 12 ],
           [ "PSY_magi_nested_room_9x9_slot", 8 ],
