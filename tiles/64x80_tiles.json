@@ -71,6 +71,17 @@
             {"weight": 30, "sprite":32},
             {"weight": 30, "sprite":31}
             ]
+            },
+            { "id": "explosion_PSY_magi_item_spell_thunder_storm_sub" ,"fg": 44},
+            { "id": "explosion_PSY_magi_item_spell_thunder_storm_sub2" ,"fg": 39},
+            { "id": "explosion_PSY_magi_item_spell_thunder_storm_sub3" ,"fg": 38},
+            { "id": "explosion_PSY_magi_item_spell_thunder_storm_sub4" ,"fg": 37},
+            { "id": "explosion_PSY_magi_item_spell_thunder_storm_self" ,"fg": 37},
+            { "id": "overlay_worn_PSY_magi_item_thunder_storm_aura", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 100, "sprite":50},
+            {"weight": 100, "sprite":51}
+            ]
             }
           ]
         }

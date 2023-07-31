@@ -353,10 +353,89 @@
     "copy-from": "PSY_mring_platinum",
     "type": "TOOL_ARMOR",
     "id": "PSY_mring_noise",
-    "price_postapoc": "100 USD",
+    "price_postapoc": "300 USD",
     "name": { "str": "ring of noise"},
     "description": "When equipped, this ring triples the sound generated when making melee attacks.",
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_NOISE", "multiply": 2.0 } ] } ] }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_rapid",
+    "price_postapoc": "1000 USD",
+    "name": { "str": "ring of rapid"},
+    "description": "When equipped, the ring doubles the attack speed but reduces the damage dealt by 70%.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "ATTACK_SPEED", "multiply": 1.0 } ,
+            { "value": "MELEE_DAMAGE", "multiply": -0.7 } ,
+            { "value": "RANGED_DAMAGE", "multiply": -0.7 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_tofu",
+    "price_postapoc": "3 USD",
+    "name": { "str": "ring of tofu"},
+    "description": "When equipped, this ring eliminates the sound that occurs during melee attacks, but reduces the damage inflicted by 90%.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "ATTACK_NOISE", "multiply": -1.0 } ,
+            { "value": "MELEE_DAMAGE", "multiply": -0.9 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_overkill",
+    "price_postapoc": "100 USD",
+    "name": { "str": "ring of overkill"},
+    "description": "When equipped, this ring turns corpses into splinters when an enemy is killed.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "OVERKILL_DAMAGE", "add": -999 }
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_shout",
+    "price_postapoc": "600 USD",
+    "name": { "str": "ring of shout"},
+    "description": "When equipped, this ring increases the volume of the voice by 10 times.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "SHOUT_NOISE", "multiply": 9.0 }
+          ] 
+        } 
+      ] 
+    }
   },
 
   {
@@ -373,6 +452,24 @@
             "condition": "ALWAYS", 
             "values": [ { "value": "FOOTSTEP_NOISE", "multiply": 4.0 } ] ,
             "intermittent_activation": { "effects": [ { "frequency": "60 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_bash_ground" } ] } ] }
+          } 
+        ] 
+      }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_thunder_storm",
+    "price_postapoc": "30000 USD",
+    "name": { "str": "ring of thunder storm"},
+    "description": "When equipped, this ring releases lightning every 10 seconds to one enemy existing in the surrounding 15 tiles.\nOccasionally, you may be the target yourself.",
+    "relic_data": { 
+      "passive_effects": [ 
+          { 
+            "has": "WORN", 
+            "condition": "ALWAYS", 
+            "intermittent_activation": { "effects": [ { "frequency": "10 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_thunder_storm" } ] } ] }
           } 
         ] 
       }

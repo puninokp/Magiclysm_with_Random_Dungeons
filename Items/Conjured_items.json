@@ -892,6 +892,35 @@
           "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
         },
         "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+      },
+
+      {
+        "id": "PSY_magi_item_thunder_storm_aura",
+        "type": "ARMOR",
+        "looks_like": "protect_env",
+        "name": "thunder storm",
+        "description": "A thundercloud that unleashes lightning that deals 35 damage per second to monsters in the surrounding 15 tiles.",
+        "weight": "1g",
+        "volume": "1ml",
+        "price": 3646,
+        "material": [ "magical_material" ],
+        "symbol": "o",
+        "color": "green",
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "intermittent_activation": { "effects": [ { "frequency": "1 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_thunder_storm_aura", "hit_self": true } ] } ] }
+            }
+          ]
+        }
       }
 
 

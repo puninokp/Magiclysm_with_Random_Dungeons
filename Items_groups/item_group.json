@@ -85,6 +85,11 @@
           { "item": "PSY_mring_detection", "prob": 2 },
           { "item": "PSY_mring_sniper", "prob": 2 },
           { "item": "PSY_mring_noise", "prob": 4 },
+          { "item": "PSY_mring_rapid", "prob": 2 },
+          { "item": "PSY_mring_tofu", "prob": 2 },
+          { "item": "PSY_mring_overkill", "prob": 2 },
+          { "item": "PSY_mring_shout", "prob": 2 },
+          { "item": "PSY_mring_thunder_storm", "prob": 1 },
           { "item": "PSY_mring_subterranean_rumbling", "prob": 1 },
           { "item": "PSY_mring_archmage", "prob": 1 }
         ]

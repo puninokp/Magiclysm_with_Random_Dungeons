@@ -5320,3 +5320,42 @@ msgstr "装備すると、足音が5倍になりますが、1分ごとに周囲3
 
 msgid "When equipped, the ring increases footsteps by a factor of 5, but every minute it causes the ground to shake in 3 squares around it, damaging the terrain."
 msgstr "装備すると、足音が5倍になりますが、1分ごとに周囲3マスに地響きを起こし地形にダメージを与える指輪です。"
+
+msgid "ring of thunder storm"
+msgstr "雷雲の指輪"
+
+msgid "thunder storm"
+msgstr "雷雲"
+
+msgid "When equipped, this ring releases lightning every 10 seconds to one enemy existing in the surrounding 15 tiles.\nOccasionally, you may be the target yourself."
+msgstr "装備すると、周囲15タイルに存在する敵1体に10秒ごとに雷を放つ指輪です。\n時偶に自身が対象になる場合があります。"
+
+msgid "Summons a thundercloud over your head and unleashes lightning that deals 35 damage per second to monsters in the surrounding 15 tiles."
+msgstr "あなたの頭上に雷雲を召喚し、周囲15タイルのモンスターに1秒ごとに35のダメージを与える雷を放ちます。"
+
+msgid "A thundercloud that unleashes lightning that deals 35 damage per second to monsters in the surrounding 15 tiles."
+msgstr "周囲15タイルのモンスターに1秒ごとに35のダメージを与える雷を放つ雷雲です。"
+
+msgid "ring of rapid"
+msgstr "迅速の指輪"
+
+msgid "When equipped, the ring doubles the attack speed but reduces the damage dealt by 70%."
+msgstr "装備すると攻撃速度が2倍になるが、与えるダメージは70%減少する指輪です。"
+
+msgid "ring of tofu"
+msgstr "豆腐の指輪"
+
+msgid "When equipped, this ring eliminates the sound that occurs during melee attacks, but reduces the damage inflicted by 90%."
+msgstr "装備すると近接攻撃時に発生する音が無くなるが、与えるダメージは90%減少する指輪です。"
+
+msgid "ring of overkill"
+msgstr "オーバーキルの指輪"
+
+msgid "When equipped, this ring turns corpses into splinters when an enemy is killed."
+msgstr "装備すると敵を倒した時、死体が木端微塵になる指輪です。"
+
+msgid "ring of shout"
+msgstr "大声の指輪"
+
+msgid "When equipped, this ring increases the volume of the voice by 10 times."
+msgstr "装備すると、声の音量が10倍になる指輪です。"

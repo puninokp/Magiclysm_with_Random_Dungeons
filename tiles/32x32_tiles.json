@@ -675,6 +675,21 @@
               {"weight": 20, "sprite":864}
             ]
             },
+            { "id": [ "PSY_mring_copper", "PSY_mring_silver","PSY_mring_gold", "PSY_mring_platinum" ] ,"animated": false,"fg":
+            [
+              {"weight": 20, "sprite":822},
+              {"weight": 20, "sprite":824},
+              {"weight": 20, "sprite":825},
+              {"weight": 20, "sprite":826},
+              {"weight": 20, "sprite":827},
+              {"weight": 20, "sprite":828},
+              {"weight": 20, "sprite":829},
+              {"weight": 20, "sprite":833}
+            ]
+            },
+            { "id": "PSY_mring_rapid" ,"fg": 827},
+            { "id": "PSY_mring_overkill" ,"fg": 828},
+            { "id": "PSY_mring_shout" ,"fg": 829},
             { "id": "PSY_mring_nether_world" ,"fg": 810},
             { "id": "PSY_mring_detection" ,"fg": 812},
             { "id": "PSY_mring_gladiator" ,"fg": 818},
@@ -685,6 +700,8 @@
             { "id": "PSY_mring_sniper" ,"fg": 832},
             { "id": "PSY_mring_mana_sparkling" ,"fg": 833},
             { "id": "PSY_mring_subterranean_rumbling" ,"fg": 834},
+            { "id": "PSY_mring_thunder_storm" ,"fg": 836},
+            { "id": "PSY_mring_tofu" ,"fg": 837},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash" ,"fg": 840},
             { "id": "explosion_PSY_magi_spell_summon_gale-force_air_slash_second" ,"fg": 840},
             { "id": "explosion_PSY_magi_summon_Air_slash" ,"fg": 840},
