@@ -464,7 +464,33 @@
         "base_casting_time": 300,
         "casting_time_increment": -10.0,
         "final_casting_time": 100
-      }
+      },
+
+      {
+        "id": "PSY_magi_create_arrow_metal_electric",
+        "type": "SPELL",
+        "name": "Create Lightning arrows",
+        "description": "Create 10 metal arrows imbued with lightning energy. The creation time and mana cost decrease with each level of magic.",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "max_level": 20,
+        "effect": "spawn_item",
+        "effect_str": "PSY_arrow_metal_electric",
+        "energy_source": "MANA",
+        "spell_class": "NONE",
+        "shape": "blast",
+        "base_casting_time": 6000,
+        "casting_time_increment": -100.0,
+        "final_casting_time": 4000,
+        "base_energy_cost": 300,
+        "energy_increment": -2.0,
+        "final_energy_cost": 260,
+        "difficulty": 3,
+        "min_duration": 1,
+        "max_duration": 1,
+        "flags": [ "NO_PROJECTILE","PERMANENT_ALL_LEVELS","SILENT", "NO_LEGS" ]
+    }
 
 
 ]

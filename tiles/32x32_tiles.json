@@ -859,6 +859,17 @@
               {"weight": 10, "sprite":983}
 
             ]
+            },
+            { "id": "explosion_PSY_magi_thunder_step_blast" ,"fg": 984},
+            { "id": "explosion_PSY_magi_thunder_step" ,"fg": 984},
+            { "id": "PSY_mon_thunder_falcon", "rotates": true,"animated": true,"fg":
+            [
+              {"weight": 30, "sprite":985},
+              {"weight": 30, "sprite":986},
+              {"weight": 30, "sprite":987},
+              {"weight": 30, "sprite":988}
+
+            ]
             }
             
             

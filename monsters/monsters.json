@@ -1563,6 +1563,44 @@
           "NO_BREATHE",
           "IMMOBILE"
         ]
+      },
+
+      {
+        "id": "PSY_mon_thunder_falcon",
+        "type": "MONSTER",
+        "name": { "str": "thunder falcon" },
+        "description": "The Thunder Falcon is a lightning-clad bird. This bird can inflict an electric shock attack on nearby enemies. When the Thunder Falcon is knocked down, it will also unleash a 10-damage blitz attack on any surrounding enemy or friend in a 15-square radius.",
+        "default_faction": "PSY_magi_summoned_monster",
+        "looks_like": "mon_manhack",
+        "species": [ "PSY_MAGI_SUMMONED_MONS"],
+        "volume": "1450 ml",
+        "weight": "2 kg",
+        "hp": 45,
+        "material": [ "flesh" ],
+        "symbol": "y",
+        "aggression": 100,
+        "morale": 100,
+        "luminance": 7,
+        "diff": 2,
+        "speed": 190,
+        "color": "yellow",
+        "dodge": 3,
+        "armor": { "bash": 2,"stab": 2, "cut": 4, "bullet": 6, "electric": 20 ,"acid": 0, "heat":2},
+        "death_function": {
+          "message": "The %s calls lightning!",
+          "corpse_type": "NO_CORPSE",
+          "effect": { "id": "PSY_magi_spell_thunder_all_base", "hit_self": true }
+        },
+        "special_when_hit": [ "ZAPBACK", 10 ],
+        "melee_skill": 5,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "vision_day": 50,
+        "vision_night": 22,
+        "melee_damage": [ { "damage_type": "electric", "amount": 6 } ],
+        "special_attacks": [ ],
+        "death_drops": "",
+        "flags": [ "SEES","NOGIB", "FLIES", "NO_BREATHE","HIT_AND_RUN", "ALWAYS_SEES_YOU" ]
       }
 
 

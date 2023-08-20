@@ -550,6 +550,35 @@
       "min_duration": 36000,
       "max_duration": 108000,
       "duration_increment": 3600
+    },
+
+    {
+      "id": "PSY_magi_call_thunder_falcon",
+      "type": "SPELL",
+      "name": "Call thunder falcon",
+      "description": "Consumes stamina to summon the 'Thunder Falcon,' a bird clad in lightning. This bird can inflict an electrifying attack on nearby enemies. When the Thunder Falcon is defeated, it will also unleash a 10-damage blitz attack on all surrounding enemies, friend or foe, in a 15-square area.",
+      "valid_targets": [ "ground" ],
+      "min_damage": 1,
+      "max_damage": 1,
+      "max_level": 20,
+      "difficulty": 3,
+      "spell_class": "NONE",
+      "effect": "summon",
+      "effect_str": "PSY_mon_thunder_falcon",
+      "shape": "blast",
+      "energy_source": "STAMINA",
+      "base_energy_cost": 3000,
+      "energy_increment": -50.0,
+      "final_energy_cost": 2000,
+      "base_casting_time": 650,
+      "casting_time_increment": -7.5,
+      "final_casting_time": 500,
+      "min_range": 3,
+      "max_range": 3,
+      "flags": [ "NO_PROJECTILE","SOMATIC", "NO_LEGS","NO_PROJECTILE", "NO_HANDS","RANDOM_TARGET" ],
+      "min_duration": 3000,
+      "max_duration": 12000,
+      "duration_increment": 450
     }
 
 

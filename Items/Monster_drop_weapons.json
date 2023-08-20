@@ -1821,7 +1821,64 @@
   "qualities": [ [ "CUT", 1 ], [ "GRASS_CUT", 2 ], [ "BUTCHER", -22 ] ],
   "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ],
   "weapon_category": [ "BLADED_FARMING", "HOOKING_WEAPONRY", "POLEARMS" ]
+},
+
+{
+  "id": "PSY_magic_shortbow",
+  "type": "GUN",
+  "symbol": "(",
+  "color": "yellow",
+  "looks_like": "longbow",
+  "name": { "str": "magic shortbow" },
+  "description": "Short bow enhanced by magic. It requires less muscle power than a regular bow and is slightly more powerful.",
+  "price": 500000,
+  "material": [ "wood" ],
+  "flags": [
+    "FIRE_TWOHAND",
+    "RELOAD_AND_SHOOT",
+    "PRIMITIVE_RANGED_WEAPON",
+    "BELTED",
+    "WATER_FRIENDLY",
+    "SHEATH_BOW",
+    "WATERPROOF_GUN",
+    "NEVER_JAMS",
+    "TRADER_AVOID",
+    "MAGIC_FOCUS"
+  ],
+  "ammo_effects": [ "NEVER_MISFIRES" ],
+  "skill": "archery",
+  "min_strength": 6,
+  "ammo": [ "arrow" ],
+  "weight": "380 g",
+  "volume": "1800 ml",
+  "longest_side": "99 cm",
+  "price_postapoc": 30000,
+  "armor_data": {
+    "armor": [
+      {
+        "material": [ { "type": "wood", "covered_by_mat": 100, "thickness": 1.0 } ],
+        "encumbrance": 6,
+        "coverage": 4,
+        "covers": [ "torso" ],
+        "specifically_covers": [ "torso_hanging_back" ]
+      }
+    ]
+  },
+  "reload_noise_volume": 3,
+  "loudness": 8,
+  "ranged_damage": { "damage_type": "stab", "amount": 8 },
+  "range": 22,
+  "dispersion": 700,
+  "sight_dispersion": 3000,
+  "durability": 8,
+  "clip_size": 1,
+  "valid_mod_locations": [ [ "dampening", 1 ], [ "arrow rest", 1 ] ],
+  "reload": 50,
+  "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 1 } } ],
+  "melee_damage": { "bash": 12 }
 }
+
+
 
      
 

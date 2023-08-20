@@ -504,7 +504,7 @@
         "diff": 2,
         "speed": 190,
         "color": "light_green",
-
+        "dodge": 3,
         "armor": { "bash": 4,"stab": 4, "cut": 8, "bullet": 6, "electric": 20 ,"acid": 8, "heat":4},
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
         "melee_skill": 5,

@@ -344,7 +344,95 @@
       "base_energy_cost": 600,
       "energy_increment": -10,
       "final_energy_cost": 350
+    },
+
+    {
+      "id": "PSY_magi_thunder_step",
+      "type": "SPELL",
+      "name": "Thunder Step",
+      "description": "This magic instantly moves to the targeted point, inflicts a small amount of electrical damage to enemies in a 5-square area around it, and confuses them for a short period.\nIt is not possible to activate it through a wall.",
+      "valid_targets": ["ground"],
+      "flags": [ "NO_PROJECTILE","LOUD" ],
+      "effect": "attack",
+      "effect_str": "stunned",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "difficulty": 1,
+      "max_level": 10,
+      "min_duration": 200,
+      "max_duration": 200,
+      "base_casting_time": 75,
+      "energy_source": "MANA",
+      "base_energy_cost": 300,
+      "energy_increment": -5,
+      "final_energy_cost": 250,
+      "min_aoe": 5,
+      "max_aoe": 5,
+      "min_damage": 10,
+      "max_damage": 10,
+      "damage_type": "electric",
+      "min_range": 5,
+      "max_range": 8,
+      "range_increment": 0.5,
+      "extra_effects": [
+        { "id": "PSY_magi_thunder_step_blast" }
+      ]
+    },
+
+    {
+      "id": "PSY_magi_thunder_step_blast",
+      "type": "SPELL",
+      "name": "Thunder Step",
+      "description": "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time.",
+      "valid_targets": [ "hostile"],
+      "flags": [ "NO_PROJECTILE","LOUD" ],
+      "effect": "attack",
+      "effect_str": "stunned",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "energy_source": "MANA",
+      "difficulty": 1,
+      "max_level": 20,
+      "base_casting_time": 170,
+      "base_energy_cost": 100,
+      "final_energy_cost": 100,
+      "min_duration": 200,
+      "max_duration": 200,
+      "min_aoe": 5,
+      "max_aoe": 5,
+      "min_damage": 10,
+      "max_damage": 10,
+      "damage_type": "electric",
+      "min_range": 10,
+      "max_range": 10,
+      "extra_effects": [
+        { "id": "PSY_magi_thunder_step_teleport" }
+      ]
+    },
+
+    {
+      "id": "PSY_magi_thunder_step_teleport",
+      "type": "SPELL",
+      "name": "Thunder Step",
+      "description": "This magic instantly moves to the targeted point, inflicts a small amount of electrical damage to enemies in a 5-square area around it, and confuses them for a short period.\nIt is not possible to activate it through a wall.",
+      "effect": "short_range_teleport",
+      "shape": "blast",
+      "valid_targets": [ "ground" ],
+      "flags": [ "SOMATIC","LOUD", "NO_HANDS", "TARGET_TELEPORT" ],
+      "min_range": 5,
+      "max_range": 8,
+      "range_increment": 0.5,
+      "max_level": 10,
+      "difficulty": 2,
+      "base_casting_time": 75,
+      "energy_source": "MANA",
+      "base_energy_cost": 300,
+      "energy_increment": -5,
+      "final_energy_cost": 250
+
     }
+
+
 
 
 ]

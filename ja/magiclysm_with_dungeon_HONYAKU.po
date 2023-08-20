@@ -5359,3 +5359,70 @@ msgstr "大声の指輪"
 
 msgid "When equipped, this ring increases the volume of the voice by 10 times."
 msgstr "装備すると、声の音量が10倍になる指輪です。"
+
+msgid "Shockhawk"
+msgstr "ショックホーク"
+
+msgid "The Thunder Falcon is a lightning-clad bird. This bird can inflict an electric shock attack on nearby enemies. When the Thunder Falcon is knocked down, it will also unleash a 10-damage blitz attack on any surrounding enemy or friend in a 15-square radius."
+msgstr "雷を纏った鳥「サンダーファルコン」です。この鳥は近くの敵に電撃攻撃を与えることができます。また、サンダーファルコンが倒されると、周囲の敵味方を問わずに15マスの範囲に10ダメージの電撃を放ちます。"
+
+msgid "thunder falcon"
+msgstr "サンダーファルコン"
+
+msgid "thunder crow"
+msgstr "サンダークロウ"
+
+msgid "thunder eagle"
+msgstr "サンダーイーグル"
+
+msgid "Call thunder falcon"
+msgstr "招来:サンダーファルコン"
+
+msgid "Consumes stamina to summon the 'Thunder Falcon,' a bird clad in lightning. This bird can inflict an electrifying attack on nearby enemies. When the Thunder Falcon is defeated, it will also unleash a 10-damage blitz attack on all surrounding enemies, friend or foe, in a 15-square area."
+msgstr "スタミナを消費して、雷を纏った鳥「サンダーファルコン」を召喚します。この鳥は近くの敵に電撃攻撃を与えることができます。また、サンダーファルコンが倒されると、周囲の敵味方を問わずに15マスの範囲に10ダメージの電撃を放ちます。"
+
+msgid "The %s calls lightning!"
+msgstr "%sはライトニングを招来した!"
+
+msgctxt "profession_male"
+msgid "[PSY] Electric Archer"
+msgstr "[PSY]エレクトリックアーチャー"
+
+msgctxt "profession_female"
+msgid "[PSY] Electric Archer"
+msgstr "[PSY]エレクトリックアーチャー"
+
+msgctxt "prof_desc_male"
+msgid "The Electric Archer is an archer profession that combines lightning magic with superior marksmanship skills to repel enemies from a distance. They are especially capable of unleashing the power of lightning in their shooting and have a unique style of blitzing the enemy."
+msgstr "エレクトリックアーチャーは、雷魔法と優れた射撃スキルを組み合わせ、遠距離から敵を撃退する射手の職業です。彼らは特に雷の力を射撃に乗せて放つことができ、敵を電撃で攻撃する独特のスタイルを持っています。"
+
+msgctxt "prof_desc_female"
+msgid "The Electric Archer is an archer profession that combines lightning magic with superior marksmanship skills to repel enemies from a distance. They are especially capable of unleashing the power of lightning in their shooting and have a unique style of blitzing the enemy."
+msgstr "エレクトリックアーチャーは、雷魔法と優れた射撃スキルを組み合わせ、遠距離から敵を撃退する射手の職業です。彼らは特に雷の力を射撃に乗せて放つことができ、敵を電撃で攻撃する独特のスタイルを持っています。"
+
+msgid "magic shortbow"
+msgstr "魔法の短弓"
+
+msgid "Short bow enhanced by magic. It requires less muscle power than a regular bow and is slightly more powerful."
+msgstr "魔法によって強化された短弓です。通常の弓よりも筋力を必要とせず、威力も若干高いのが特徴です。"
+
+msgid "metal arrows of lightning"
+msgstr "稲妻の金属矢"
+
+msgid "Unlike ordinary arrows, metal arrows of lightning are magically imbued with lightning energy. This causes a lightning strike to the enemy when the arrow hits, inflicting more damage than a normal arrow."
+msgstr "稲妻の金属矢は、普通の矢とは異なり、魔法によって雷のエネルギーを帯びています。これにより、矢が命中した際に敵に雷撃をもたらし、通常の矢以上のダメージを与えることができます。"
+
+msgid "Create Lightning arrows"
+msgstr "クリエイト・稲妻の矢"
+
+msgid "Create 10 metal arrows imbued with lightning energy. The creation time and mana cost decrease with each level of magic."
+msgstr "雷のエネルギーを纏った金属の矢を10本作成します。魔法のレベルが上がるごとに作成時間とマナコストが短くなります。"
+
+msgid "Thunder Step"
+msgstr "サンダーステップ"
+
+msgid "This magic instantly moves to the targeted point, inflicts a small amount of electrical damage to enemies in a 5-square area around it, and confuses them for a short period."
+msgstr "狙った地点に瞬時に移動し、対象の周囲5マスの敵に少量の電気ダメージを与え、短時間混乱状態にする魔法。"
+
+msgid "This magic instantly moves to the targeted point, inflicts a small amount of electrical damage to enemies in a 5-square area around it, and confuses them for a short period.\nIt is not possible to activate it through a wall."
+msgstr "狙った地点に瞬時に移動し、対象の周囲5マスの敵に少量の電気ダメージを与え、短時間混乱状態にする魔法。\n壁越し発動は不可能です。"

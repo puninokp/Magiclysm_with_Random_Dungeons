@@ -531,6 +531,63 @@
           "male": [ "boxer_shorts" ],
           "female": [ "bra", "boy_shorts" ]
         }
+      },
+
+      {
+        "type": "profession",
+        "id": "profession_PSY_magi_electric_archer",
+        "name": "[PSY] Electric Archer",
+        "description": "The Electric Archer is an archer profession that combines lightning magic with superior marksmanship skills to repel enemies from a distance. They are especially capable of unleashing the power of lightning in their shooting and have a unique style of blitzing the enemy.",
+        "points": 5,
+        "skills": [
+          { "level": 2, "name": "survival" },
+          { "level": 1, "name": "traps" },
+          { "level": 3, "name": "archery" },
+          { "level": 1, "name": "electronics" },
+          { "level": 4, "name": "spellcraft" }
+        ],
+        "spells": [ 
+          { "id": "PSY_magi_create_arrow_metal_electric", "level": 5 },
+          { "id": "PSY_magi_thunder_step", "level": 1 },
+          { "id": "PSY_magi_call_thunder_falcon", "level": 3 }
+        ],
+        "traits": [ ],
+        "items": {
+          "both": {
+            "items": [
+              "backpack",
+              "pants_cargo",
+              "PSY_magi_forest_dungeon_map", 
+              "socks", 
+              "polo_shirt", 
+              "boots", 
+              "wristwatch", 
+              "fancy_sunglasses",
+              "bow_sling",
+              "bow_sight_pin",
+              "hat_hunting",
+              "PSY_magic_shortbow"
+            ],
+            "entries": [
+              { "item": "PSY_arrow_metal_electric", "charges": 20 },
+              { "group": "charged_cell_phone" }, 
+              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
+              { "item": "quiver", "contents-group": "PSY_magic_bow_hunter" },
+              { "item": "sheath", "contents-item": "knife_hunting" },
+              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+            ]
+          },
+          "male": [ "boxer_shorts" ],
+          "female": [ "bra", "boy_shorts" ]
+        }
+       },
+
+       {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magic_bow_hunter",
+        "entries": [ { "item": "PSY_arrow_metal_electric", "charges": 10 } ]
       }
+
 
 ]
