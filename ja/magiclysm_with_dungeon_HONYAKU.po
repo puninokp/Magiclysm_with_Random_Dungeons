@@ -2539,6 +2539,12 @@ msgstr "サムライ商人"
 msgid "He is a mysterious samurai surrounded by a blazing fire.  Apparently, they are willing to do business with us if you give him a riceball(except burned one)."
 msgstr "燃え盛る炎に包まれた謎の侍。 おにぎり（焼いたのは除く）を渡せば取引してくれるらしい。"
 
+msgid "He is a mysterious samurai surrounded by a blazing fire."
+msgstr "燃え盛る炎に包まれた謎の侍。"
+
+msgid "Scorching Samurai"
+msgstr "灼熱のサムライ"
+
 msgid "Guard Mecha"
 msgstr "ガードメカ"
 

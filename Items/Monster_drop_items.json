@@ -16,7 +16,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_big_room", "no_fail": true, "level": 0 }
     },
 
@@ -35,7 +35,7 @@
       "price_postapoc": 2125,
       "symbol": ".",
       "color": "brown",
-      "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+      "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
       "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_big_room", "no_fail": true, "level": 0 }
   },
 
@@ -54,7 +54,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_Light", "no_fail": true, "level": 0 }
     },
 
@@ -73,7 +73,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_Haste", "no_fail": true, "level": 0 }
     },
 
@@ -92,7 +92,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_Frighten", "no_fail": true, "level": 0 }
     },
 
@@ -111,7 +111,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_Freese", "no_fail": true, "level": 0 }
     },
 
@@ -130,7 +130,7 @@
         "price_postapoc": 2125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_summon_base", "no_fail": true, "level": 0 }
     },
 
@@ -149,7 +149,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_scroll_of_collect_item_base", "no_fail": true, "level": 0 }
     },
 
@@ -168,7 +168,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_Create_Sanctuary", "no_fail": true, "level": 20 }
     },
 
@@ -187,7 +187,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_open_summon_gate", "no_fail": true, "level": 20 }
     },
 
@@ -206,7 +206,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_Thunder_snake_base", "no_fail": true, "level": 20 }
     },
 
@@ -225,7 +225,7 @@
         "price_postapoc": 12125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_create_orchard", "no_fail": true, "level": 0 }
     },
 
@@ -244,7 +244,7 @@
         "price_postapoc": 12125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_scroll_of_upgrade", "no_fail": true, "level": 0 }
     },
 
@@ -263,7 +263,7 @@
         "price_postapoc": 12125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_monster_house", "no_fail": true, "level": 0 }
     },
 
@@ -282,7 +282,7 @@
         "price_postapoc": 12125,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_scroll_of_nothing", "no_fail": true, "level": 0 }
     },
 
@@ -341,7 +341,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_pistle_single", "no_fail": true, "level": 0 }
       },
 
@@ -360,7 +360,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_rifle_single", "no_fail": true, "level": 0 }
       },
 
@@ -379,7 +379,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_teleport_to_statue", "no_fail": true, "level": 0 }
       },
 
@@ -467,7 +467,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_summon_Air_slash_strong", "no_fail": true, "level": 0 }
       },
 
@@ -557,7 +557,7 @@
         "price_postapoc": 21025,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_summon_nature", "no_fail": true, "level": 0 }
       },
 

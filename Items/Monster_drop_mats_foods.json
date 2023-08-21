@@ -303,7 +303,7 @@
         "primary_material": "dried_vegetable",
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "TRADER_AVOID", "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spawn_vine_tentacle_permanent", "no_fail": true, "level": 0 }
     },
 
@@ -324,7 +324,7 @@
         "primary_material": "dried_vegetable",
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "TRADER_AVOID", "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spawn_plant_shooter_permanent", "no_fail": true, "level": 0 }
     },
 
@@ -344,7 +344,7 @@
         "stack_size": 1,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "TRADER_AVOID", "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_res_aura_heat", "no_fail": true, "level": 0 }
     },
 
@@ -364,7 +364,7 @@
         "stack_size": 1,
         "symbol": ".",
         "color": "brown",
-        "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
+        "flags": [ "TRADER_AVOID", "IRREPLACEABLE_CONSUMABLE", "NUTRIENT_OVERRIDE","SINGLE_USE" ],
         "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_conj_res_aura_electro", "no_fail": true, "level": 0 }
     },
 
