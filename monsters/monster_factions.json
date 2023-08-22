@@ -38,7 +38,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "PSY_magi_random_dungeon_allies",
-    "friendly": [ "PSY_magi_random_dungeon_kinoko","slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
+    "friendly": [ "PSY_magi_random_dungeon_merchants","PSY_magi_random_dungeon_kinoko","slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
     "neutral": ["human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
     "hate": [  "player"  ]
   },
@@ -65,5 +65,12 @@
     "friendly": [ "human" ,"slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses","player"],
     "neutral": ["berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
     "hate": [  "PSY_magi_magic_tower"]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_merchants",
+    "neutral": ["fish", "PSY_magi_random_dungeon_allies" ],
+    "hate": [ "PSY_magi_summoned_monster","PSY_magi_random_dungeon_chesses","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_angry_kinoko","berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii"]
   }
 ]

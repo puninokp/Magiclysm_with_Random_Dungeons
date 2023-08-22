@@ -1,0 +1,65 @@
+[
+    {
+      "type": "faction",
+      "id": "PSY_dungeon_marchants",
+      "name": "The Dungeon Merchants",
+      "mon_faction": "PSY_magi_random_dungeon_merchants",
+      "likes_u": 50,
+      "respects_u": 50,
+      "known_by_u": false,
+      "size": 3,
+      "power": 100,
+      "food_supply": 115200,
+      "wealth": 55000000,
+      "currency": "denarius",
+      "relations": {
+        "lobby_beggars": {
+          "kill on sight": false,
+          "watch your back": false,
+          "share my stuff": false,
+          "guard your stuff": false,
+          "lets you in": false,
+          "defends your space": false,
+          "knows your voice": true
+        },
+        "free_merchants": {
+          "kill on sight": false,
+          "watch your back": false,
+          "share my stuff": false,
+          "guard your stuff": false,
+          "lets you in": false,
+          "defends your space": false,
+          "knows your voice": true
+        },
+        "old_guard": {
+          "kill on sight": false,
+          "watch your back": false,
+          "share my stuff": false,
+          "guard your stuff": false,
+          "lets you in": false,
+          "defends your space": false,
+          "knows your voice": true
+        },
+        "no_faction": {
+          "kill on sight": false,
+          "watch your back": false,
+          "share my stuff": false,
+          "guard your stuff": false,
+          "lets you in": false,
+          "defends your space": false,
+          "knows your voice": true
+        },
+        "wasteland_scavengers": {
+          "kill on sight": false,
+          "watch your back": false,
+          "share my stuff": false,
+          "guard your stuff": false,
+          "lets you in": false,
+          "defends your space": false,
+          "knows your voice": true
+        }
+      },
+      "description": "A mysterious merchant guild based mainly in dungeons."
+    }
+  ]
+  

@@ -15,28 +15,28 @@
     {
       "type": "npc",
       "id": "PSY_forge_lord_merchant",
-      "//": "The Lord of the Forge of Wonders.",
-      "name_unique": "Valzain of Psiom",
-      "name_suffix": "Forge Lord",
+      "//": "Merchant of dungeon.",
+      "name_unique": "Min・Min・Zemy",
+      "name_suffix": "The Dungeon Merchant",
       "class": "PSY_NC_FORGE_LORD",
       "attitude": 0,
       "mission": 3,
       "gender": "male",
       "chat": "TALK_FORGE_LORD",
-      "faction": "forge_lords"
+      "faction": "PSY_dungeon_marchants"
     },
 
     {
       "type": "npc",
       "id": "PSY_forest_samurai_merchant",
-      "name_unique": "Valzain of Psiom",
-      "name_suffix": "Forge Lord",
+      "name_unique": "Lang・D・Shaar",
+      "name_suffix": "The Dungeon Merchant",
       "class": "PSY_NC_FORGE_LORD_NO_SHOP",
       "attitude": 0,
       "mission": 3,
       "gender": "male",
       "chat": "PSY_TALK_TRADER_MONSTER",
-      "faction": "forge_lords"
+      "faction": "PSY_dungeon_marchants"
     }
 
 ]

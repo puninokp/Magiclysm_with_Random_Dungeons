@@ -624,10 +624,10 @@
     "place_npcs": [ { "class": "PSY_forest_samurai_merchant", "x": 2, "y": 15 } ],
     "items": { "E": { "item": "gym", "chance": 1 }, "N": { "item": "PSY_magi_vending_drink_food", "chance": 100, "repeat": [ 1, 2 ] } },
     "monster": {
-      "P": { "monster": "PSY_magi_mon_scorching_samurai_guard",  "friendly": true},
-      "L": { "monster": "PSY_magi_mon_mecha_guard_purple_immobile",  "friendly": true},
-      "Z": { "monster": "PSY_magi_mon_mecha_floting_armor",  "friendly": true},
-      "H": { "monster": "PSY_magi_mon_mecha_guard_heavy_immobile",  "friendly": true}
+      "P": { "monster": "PSY_magi_mon_scorching_samurai_guard",  "friendly": false},
+      "L": { "monster": "PSY_magi_mon_mecha_guard_purple_immobile",  "friendly": false},
+      "Z": { "monster": "PSY_magi_mon_mecha_floting_armor",  "friendly": false},
+      "H": { "monster": "PSY_magi_mon_mecha_guard_heavy_immobile",  "friendly": false}
     }
   }
 },

@@ -5432,3 +5432,15 @@ msgstr "狙った地点に瞬時に移動し、対象の周囲5マスの敵に�
 
 msgid "This magic instantly moves to the targeted point, inflicts a small amount of electrical damage to enemies in a 5-square area around it, and confuses them for a short period.\nIt is not possible to activate it through a wall."
 msgstr "狙った地点に瞬時に移動し、対象の周囲5マスの敵に少量の電気ダメージを与え、短時間混乱状態にする魔法。\n壁越し発動は不可能です。"
+
+msgid "A mysterious merchant guild based mainly in dungeons."
+msgstr "主にダンジョン内に拠点を持つ謎の商人ギルド。"
+
+msgid "The Dungeon Merchants"
+msgstr "ダンジョン商人"
+
+msgid "The Dungeon Merchant"
+msgstr "ダンジョン商人"
+
+msgid "Merchant Watchdog"
+msgstr "商人の番犬"

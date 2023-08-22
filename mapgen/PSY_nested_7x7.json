@@ -56,7 +56,7 @@
           "mapgensize": [ 7, 7 ],
           "rotation": [ 0, 3 ],
           "faction_owner": [
-            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+            { "id": "PSY_dungeon_marchants", "x": [ 0, 6 ], "y": [ 0, 6 ] }
           ],
           "rows": [
             "|||||||",
@@ -69,9 +69,9 @@
           ],
           "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": false },
-            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
-            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
+            "X": { "monster": "PSY_magi_mon_mecha_guard_purple", "friendly": false },
+            "|": { "monster": "PSY_magi_mon_mecha_guard_blue", "friendly": false , "chance": 3},  
+            "~": { "monster": "PSY_magi_mon_mecha_guard_orange", "friendly": false , "chance": 3}  
           },
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
@@ -118,7 +118,7 @@
             "2": "f_everburning_candelabra"
           },
           "place_zones": [
-            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "PSY_dungeon_marchants", "x": [ 2, 4 ], "y": [ 2, 4 ] }
           ]
         }
       },
@@ -133,7 +133,7 @@
           "mapgensize": [ 7, 7 ],
           "rotation": [ 0, 3 ],
           "faction_owner": [
-            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+            { "id": "PSY_dungeon_marchants", "x": [ 0, 6 ], "y": [ 0, 6 ] }
           ],
           "rows": [
             "Xwh|||X",
@@ -146,9 +146,9 @@
           ],
           "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": false },
-            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
-            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
+            "X": { "monster": "PSY_magi_mon_mecha_guard_heavy", "friendly": false },
+            "|": { "monster": "PSY_magi_mon_mecha_floting_armor", "friendly": false , "chance": 3},  
+            "~": { "monster": "PSY_magi_mon_mecha_floting_armor", "friendly": false , "chance": 3}  
           },
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
@@ -195,7 +195,7 @@
             "2": "f_everburning_candelabra"
           },
           "place_zones": [
-            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+            { "type": "LOOT_ITEM_GROUP", "filter": "PSY_NC_FORGE_LORD_SHOP", "faction": "PSY_dungeon_marchants", "x": [ 2, 4 ], "y": [ 2, 4 ] }
           ]
         }
       },
@@ -210,7 +210,7 @@
           "mapgensize": [ 7, 7 ],
           "rotation": [ 0, 3 ],
           "faction_owner": [
-            { "id": "forge_lords", "x": [ 0, 6 ], "y": [ 0, 6 ] }
+            { "id": "PSY_dungeon_marchants", "x": [ 0, 6 ], "y": [ 0, 6 ] }
           ],
           "rows": [
             "|X|||||",
@@ -223,9 +223,9 @@
           ],
           "place_npcs": [ { "class": "PSY_forge_lord_merchant", "x": 3, "y": 3 } ],
           "monster": { 
-            "X": { "monster": "mon_forgeborn", "friendly": false },
-            "|": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3},  
-            "~": { "monster": "mon_forgedwarves", "friendly": false , "chance": 3}  
+            "X": { "monster": "PSY_mon_forgeborn_armored_dog", "friendly": false },
+            "|": { "monster": "PSY_mon_forgeborn_armored_dog", "friendly": false , "chance": 3},  
+            "~": { "monster": "PSY_mon_forgeborn_armored_dog", "friendly": false , "chance": 3}  
           },
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
@@ -272,7 +272,7 @@
             "2": "f_everburning_candelabra"
           },
           "place_zones": [
-            { "type": "LOOT_ITEM_GROUP", "filter": "NC_FORGE_LORD_SHOP", "faction": "forge_lords", "x": [ 2, 4 ], "y": [ 2, 4 ] }
+            { "type": "LOOT_ITEM_GROUP", "filter": "NC_FORGE_LORD_SHOP", "faction": "PSY_dungeon_marchants", "x": [ 2, 4 ], "y": [ 2, 4 ] }
           ]
         }
       },
