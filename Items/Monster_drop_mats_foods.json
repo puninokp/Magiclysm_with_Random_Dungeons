@@ -168,7 +168,7 @@
         "fun": 3,
         "use_action":[ "PETFOOD" ],
         "petfood":[ "PSY_TRADER_FOOD" ],
-        "vitamins": [ [ "vitA", 5 ],[ "vitC", 5 ], [ "calcium", 10 ], [ "iron", 4 ] ]
+        "vitamins": [ [ "vitC", 5 ], [ "calcium", 10 ], [ "iron", 4 ] ]
     },
 
     {
@@ -192,7 +192,7 @@
         "charges": 1,
         "flags": [ "EATEN_HOT","SINGLE_USE" ],
         "fun": 5,
-        "vitamins": [ [ "vitA", 7 ],[ "vitC", 7 ], [ "calcium", 13 ], [ "iron", 6 ] ]
+        "vitamins": [ [ "vitC", 7 ], [ "calcium", 13 ], [ "iron", 6 ] ]
     },
 
     {
@@ -217,7 +217,7 @@
         "fun": -8,
         "flags": [ "FREEZERBURN", "RAW" ],
         "rot_spawn": "GROUP_PSY_magi_EGG_THUNDER",
-        "vitamins": [ [ "vitA", 9 ], [ "calcium", 3 ], [ "iron", 4 ], [ "vitB", 21 ] ],
+        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ]],
         "rot_spawn_chance": 75
     },
 
@@ -243,7 +243,7 @@
         "fun": -8,
         "flags": [ "FREEZERBURN", "RAW" ],
         "rot_spawn": "GROUP_PSY_magi_EGG_BLAZE",
-        "vitamins": [ [ "vitA", 9 ], [ "calcium", 3 ], [ "iron", 4 ], [ "vitB", 21 ] ],
+        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ] ],
         "rot_spawn_chance": 75
     },
 
@@ -266,7 +266,7 @@
         "charges": 1,
         "flags": [ "EATEN_HOT" ],
         "fun": 3,
-        "vitamins": [ [ "vitA", 8 ],[ "vitC", 8 ], [ "calcium", 14 ], [ "iron", 6 ] ]
+        "vitamins": [ [ "vitC", 8 ], [ "calcium", 14 ], [ "iron", 6 ] ]
     },
 
     {
@@ -529,7 +529,7 @@
         "charges": 1,
         "flags": ["NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE", "SINGLE_USE" ],
         "fun": 5,
-        "vitamins": [ [ "vitA", 1 ],[ "vitC", 2 ],[ "iron", 1 ] ]
+        "vitamins": [ [ "vitC", 2 ],[ "iron", 1 ] ]
     },
 
     {
