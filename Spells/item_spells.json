@@ -2673,6 +2673,10 @@
     "energy_source": "NONE",
     "base_energy_cost": 0,
     "final_energy_cost": 0,
+    "min_range": 10,
+    "max_range": 10,
+    "min_aoe": 5,
+    "max_aoe": 5,
     "base_casting_time": 10,
     "final_casting_time": 10
   },

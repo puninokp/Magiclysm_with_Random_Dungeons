@@ -1922,7 +1922,7 @@
             "!": "PSY_magi_t_dirt"
           },
           "furniture": {
-            "G": "PSY_magi_f_statue_gargoyle",
+            "G": "PSY_magi_f_statue_gargoyle_fake",
             "F": "PSY_magi_f_statue_gargoyle_fake",
             "X": "PSY_magi_f_treasure_chest_gargoyle_closed",
             "y": [ "f_indoor_plant_y", "f_indoor_plant" ],

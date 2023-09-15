@@ -912,6 +912,22 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
+        "countdown_interval": "1 seconds",
+        "countdown_action": {
+          "type": "cast_spell", "spell_id": "PSY_magi_item_summon_nature", "no_fail": true, "level": 0 
+        },
+        "flags": [ "TRADER_AVOID", "SPAWN_ACTIVE" ]
+      },
+
+      {
+        "id": "PSY_magi_item_gargoyle_awaken_act_EX4",
+        "type": "GENERIC",
+        "name": { "str_sp": "gargoyle" },
+        "description": "gargoyle with a hard body made of stone and strong wings. It attacks mercilessly anything that approaches its treasure chest or treasury.",
+        "looks_like": "PSY_mon_gargoyle",
+        "symbol": "_",
+        "weight": "35133 g",
+        "volume": "35750 ml",
         "countdown_interval": 1,
         "countdown_action": { 
           "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
