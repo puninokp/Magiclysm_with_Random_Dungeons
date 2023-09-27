@@ -870,7 +870,33 @@
               {"weight": 30, "sprite":988}
 
             ]
-            }
+            },
+            { "id": "PSY_magi_armor_iron" ,"fg": 1003},
+            { "id": "overlay_worn_PSY_magi_armor_iron" ,"fg": 1013},
+            { "id": "PSY_magi_armor_silver" ,"fg": 1004},
+            { "id": "overlay_worn_PSY_magi_armor_silver" ,"fg": 1014},
+            { "id": "PSY_magi_armor_steel" ,"fg": 1005},
+            { "id": "overlay_worn_PSY_magi_armor_steel" ,"fg": 1015},
+            { "id": "PSY_magi_armor_copper" ,"fg": 1006},
+            { "id": "overlay_worn_PSY_magi_armor_copper" ,"fg": 1016},
+            { "id": "PSY_magi_armor_diamond" ,"fg": 1007},
+            { "id": "overlay_worn_PSY_magi_armor_diamond" ,"fg": 1017},
+            { "id": "PSY_magi_armor_magicite" ,"fg": 1008},
+            { "id": "overlay_worn_PSY_magi_armor_magicite" ,"fg": 1018},
+            { "id": "PSY_magi_armor_chitin" ,"fg": 1009},
+            { "id": "overlay_worn_PSY_magi_armor_chitin" ,"fg": 1019},
+            { "id": "PSY_magi_helmet_silver" ,"fg": 1024},
+            { "id": "overlay_worn_PSY_magi_helmet_silver" ,"fg": 1034},
+            { "id": "PSY_magi_helmet_steel" ,"fg": 1025},
+            { "id": "overlay_worn_PSY_magi_helmet_steel" ,"fg": 1035},
+            { "id": "PSY_magi_helmet_copper" ,"fg": 1026},
+            { "id": "overlay_worn_PSY_magi_helmet_copper" ,"fg": 1036},
+            { "id": "PSY_magi_helmet_diamond" ,"fg": 1027},
+            { "id": "overlay_worn_PSY_magi_helmet_diamond" ,"fg": 1037},
+            { "id": "PSY_magi_helmet_magicite" ,"fg": 1028},
+            { "id": "overlay_worn_PSY_magi_helmet_magicite" ,"fg": 1038},
+            { "id": "PSY_magi_helmet_chitin" ,"fg": 1029},
+            { "id": "overlay_worn_PSY_magi_helmet_chitin" ,"fg": 1039}
             
             
           ]
