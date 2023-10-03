@@ -896,7 +896,21 @@
             { "id": "PSY_magi_helmet_magicite" ,"fg": 1028},
             { "id": "overlay_worn_PSY_magi_helmet_magicite" ,"fg": 1038},
             { "id": "PSY_magi_helmet_chitin" ,"fg": 1029},
-            { "id": "overlay_worn_PSY_magi_helmet_chitin" ,"fg": 1039}
+            { "id": "overlay_worn_PSY_magi_helmet_chitin" ,"fg": 1039},
+            { "id": "PSY_magi_boots_iron" ,"fg": 1043},
+            { "id": "overlay_worn_PSY_magi_boots_iron" ,"fg": 1053},
+            { "id": "PSY_magi_boots_silver" ,"fg": 1044},
+            { "id": "overlay_worn_PSY_magi_boots_silver" ,"fg": 1054},
+            { "id": "PSY_magi_boots_steel" ,"fg": 1045},
+            { "id": "overlay_worn_PSY_magi_boots_steel" ,"fg": 1055},
+            { "id": "PSY_magi_boots_copper" ,"fg": 1046},
+            { "id": "overlay_worn_PSY_magi_boots_copper" ,"fg": 1056},
+            { "id": "PSY_magi_boots_diamond" ,"fg": 1047},
+            { "id": "overlay_worn_PSY_magi_boots_diamond" ,"fg": 1057},
+            { "id": "PSY_magi_boots_magicite" ,"fg": 1048},
+            { "id": "overlay_worn_PSY_magi_boots_magicite" ,"fg": 1058},
+            { "id": "PSY_magi_boots_chitin" ,"fg": 1049},
+            { "id": "overlay_worn_PSY_magi_boots_chitin" ,"fg": 1059}
             
             
           ]

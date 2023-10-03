@@ -821,8 +821,364 @@
   "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
   "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
   "melee_damage": { "bash": 10 }
-}
+},
 
+{
+  "id": "PSY_magi_boots_iron",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of iron boots", "str_pl": "pairs of iron boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_silver",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of silver boots", "str_pl": "pairs of silver boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_steel",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of steel boots", "str_pl": "pairs of steel boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_copper",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of copper boots", "str_pl": "pairs of copper boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_diamond",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of diamond boots", "str_pl": "pairs of diamond boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_magicite",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of magicite boots", "str_pl": "pairs of magicite boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_boots_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of chitin boots", "str_pl": "pairs of chitin boots" },
+  "description": "An extremely heavy set of armor plated boots.",
+  "weight": "1890 g",
+  "volume": "3250 ml",
+  "price": 50000,
+  "price_postapoc": 6000,
+  "to_hit": -2,
+  "symbol": "[",
+  "looks_like": "boots_steel",
+  "color": "light_gray",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 1,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_toes_r",
+        "foot_toes_l",
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_sole_r",
+        "foot_sole_l"
+      ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "encumbrance": 28,
+      "coverage": 100
+    },
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
+        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 7 }
+}
 
 
      
