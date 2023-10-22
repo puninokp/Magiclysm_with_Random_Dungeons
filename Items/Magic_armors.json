@@ -551,276 +551,18 @@
   "category": "armor",
   "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
   "weight": "4250 g",
-  "volume": "12 L",
+  "volume": "3 L",
   "price": 2000000,
   "to_hit": -3,
   "material": [ "steel" ],
   "symbol": "[",
   "color": "black_white",
   "warmth": 25,
-  "material_thickness": 5,
+  "material_thickness": 8,
   "environmental_protection": 3,
   "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
   "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
   "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_silver",
-  "name": { "str": "armor of silver", "str_pl": "armors of silver" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_steel",
-  "name": { "str": "armor of steel", "str_pl": "armors of steel" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_copper",
-  "name": { "str": "armor of copper", "str_pl": "armors of copper" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_diamond",
-  "name": { "str": "armor of diamond", "str_pl": "armors of diamond" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_magicite",
-  "name": { "str": "armor of magicite", "str_pl": "armors of magicite" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_armor_chitin",
-  "name": { "str": "armor of chitin", "str_pl": "armors of chitin" },
-  "type": "ARMOR",
-  "category": "armor",
-  "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",
-  "weight": "4250 g",
-  "volume": "12 L",
-  "price": 2000000,
-  "to_hit": -3,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 25,
-  "material_thickness": 5,
-  "environmental_protection": 3,
-  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
-  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
-  "melee_damage": { "bash": 6 }
-},
-
-{
-  "id": "PSY_magi_helmet_silver",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of silver",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
-},
-
-{
-  "id": "PSY_magi_helmet_steel",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of steel",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
-},
-
-{
-  "id": "PSY_magi_helmet_copper",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of copper",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
-},
-
-{
-  "id": "PSY_magi_helmet_diamond",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of diamond",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
-},
-
-{
-  "id": "PSY_magi_helmet_magicite",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of magicite",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
-},
-
-{
-  "id": "PSY_magi_helmet_chitin",
-  "type": "ARMOR",
-  "category": "armor",
-  "name": "helmet of chitin",
-  "description": "A helmet made from very durable black dragonhide.  It protects your head well, but doesn't cover your face.",
-  "weight": "585 g",
-  "volume": "2 L",
-  "price": 58000,
-  "to_hit": -1,
-  "material": [ "steel" ],
-  "symbol": "[",
-  "color": "black_white",
-  "warmth": 15,
-  "material_thickness": 3,
-  "environmental_protection": 1,
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
-  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head" ] } ],
-  "melee_damage": { "bash": 10 }
 },
 
 {
@@ -838,8 +580,8 @@
   "looks_like": "boots_steel",
   "color": "light_gray",
   "warmth": 20,
-  "material_thickness": 4,
-  "environmental_protection": 1,
+  "material_thickness": 8,
+  "environmental_protection": 2,
   "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
   "armor": [
     {
@@ -872,15 +614,72 @@
     }
   ],
   "melee_damage": { "bash": 7 }
+},
+
+
+{
+  "id": "PSY_magi_helmet_silver",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of silver", "str_pl": "helmets of silver" },
+  "description": "A slightly opulent full-face helmet made of silver. It protects the head and the entire face as if it were covered.",
+  "weight": "2150 g",
+  "volume": "2 L",
+  "price": 128000,
+  "to_hit": -1,
+  "material": [ "silver", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 12,
+  "material_thickness": 8,
+  "environmental_protection": 2,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "PADDED","RAINPROOF" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100, "encumbrance_modifiers": [ "RESTRICTS_NECK", "WELL_SUPPORTED" ] },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 80, "encumbrance": 10 },
+    { "covers": [ "mouth" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 15 }
+  ],
+  "melee_damage": { "bash": 10 }
+},
+
+{
+  "id": "PSY_magi_armor_silver",
+  "name": { "str": "plate armor of silver", "str_pl": "plate armors of silver" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Heavy-duty full plate armor made of silver covering the torso to the thighs. Protects key areas of the body and provides solid protection.",
+  "weight": "14545 g",
+  "volume": "10 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "silver", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 20,
+  "material_thickness": 8,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
+  "armor": [ 
+    { "encumbrance": 22, "coverage": 100, "covers": [  "torso", "arm_l", "arm_r" ] } ,
+    {
+      "covers": [ "leg_l", "leg_r" ],
+      "material": [
+        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 }
+      ],
+      "coverage": 100
+    }
+  ],
+  "melee_damage": { "bash": 6 }
 },
 
 {
   "id": "PSY_magi_boots_silver",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of silver boots", "str_pl": "pairs of silver boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
+  "name": { "str": "pair of silver greave boots", "str_pl": "pairs of silver greave boots" },
+  "description": "Greave boots made of silver. provide good protection from thigh to toe.",
+  "weight": "2290 g",
   "volume": "3250 ml",
   "price": 50000,
   "price_postapoc": 6000,
@@ -888,10 +687,10 @@
   "symbol": "[",
   "looks_like": "boots_steel",
   "color": "light_gray",
-  "warmth": 20,
-  "material_thickness": 4,
-  "environmental_protection": 1,
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "warmth": 16,
+  "material_thickness": 8,
+  "environmental_protection": 2,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY","RAINPROOF" ],
   "armor": [
     {
       "covers": [ "foot_l", "foot_r" ],
@@ -907,7 +706,7 @@
       ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "silver", "covered_by_mat": 100, "thickness": 2.0 }
       ],
       "encumbrance": 28,
       "coverage": 100
@@ -917,21 +716,68 @@
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "silver", "covered_by_mat": 50, "thickness": 2.0 }
       ],
       "coverage": 100
     }
   ],
   "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_helmet_steel",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of steel", "str_pl": "helmets of steel" },
+  "description": "A sturdy full-face helmet made of steel. It firmly protects the entire head and face from enemy attacks.",
+  "weight": "2650 g",
+  "volume": "2 L",
+  "price": 58000,
+  "to_hit": -1,
+  "material": [ "steel", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 15,
+  "material_thickness": 7,
+  "environmental_protection": 2,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "SUN_GLASSES", "PADDED","RAINPROOF" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100, "encumbrance_modifiers": [ "RESTRICTS_NECK", "WELL_SUPPORTED" ] },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 80, "encumbrance": 12 },
+    { "covers": [ "mouth" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 15 }
+  ],
+  "melee_damage": { "bash": 10 }
+},
+
+{
+  "id": "PSY_magi_armor_steel",
+  "name": { "str": "armor of steel", "str_pl": "armors of steel" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Sturdy full plate armor made of steel that covers from the torso to the thighs. Wearing this armor, you will be able to survive any zombie attack.",
+  "weight": "19545 g",
+  "volume": "10 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "steel", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 25,
+  "material_thickness": 6,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
+  "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
+  "melee_damage": { "bash": 6 }
 },
 
 {
   "id": "PSY_magi_boots_steel",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of steel boots", "str_pl": "pairs of steel boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
+  "name": { "str": "pair of steel greave boots", "str_pl": "pairs of steel greave boots" },
+  "description": "Greave boots made of steel. They provide solid protection from thigh to toe.",
+  "weight": "2290 g",
   "volume": "3250 ml",
   "price": 50000,
   "price_postapoc": 6000,
@@ -940,9 +786,9 @@
   "looks_like": "boots_steel",
   "color": "light_gray",
   "warmth": 20,
-  "material_thickness": 4,
-  "environmental_protection": 1,
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "material_thickness": 8,
+  "environmental_protection": 2,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY","RAINPROOF" ],
   "armor": [
     {
       "covers": [ "foot_l", "foot_r" ],
@@ -958,7 +804,7 @@
       ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "steel", "covered_by_mat": 100, "thickness": 3.0 }
       ],
       "encumbrance": 28,
       "coverage": 100
@@ -968,29 +814,75 @@
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "steel", "covered_by_mat": 50, "thickness": 3.0 }
       ],
       "coverage": 100
     }
   ],
   "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_helmet_copper",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of copper", "str_pl": "helmet of copper" },
+  "description": "Lightweight helmet made of copper. It protects the head from some attacks.",
+  "weight": "1085 g",
+  "volume": "1550 ml",
+  "price": 58000,
+  "to_hit": -1,
+  "material": [ "copper", "leather" ],
+  "symbol": "[",
+  "color": "light_red",
+  "warmth": 6,
+  "material_thickness": 6,
+  "environmental_protection": 1,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "PADDED" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100 },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 90, "encumbrance": 14 }
+  ],
+  "melee_damage": { "bash": 10 }
+},
+
+{
+  "id": "PSY_magi_armor_copper",
+  "name": { "str": "armor of copper", "str_pl": "armors of copper" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Lightweight armor made of copper. It protects you from some attacks.",
+  "weight": "6545 g",
+  "volume": "8 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "copper", "leather" ],
+  "symbol": "[",
+  "color": "light_red",
+  "warmth": 16,
+  "material_thickness": 4,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
+  "armor": [ { "encumbrance": 16, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
+  "melee_damage": { "bash": 6 }
 },
 
 {
   "id": "PSY_magi_boots_copper",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of copper boots", "str_pl": "pairs of copper boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
-  "volume": "3250 ml",
+  "name": { "str": "pair of copper greave boots", "str_pl": "pairs of copper greave boots" },
+  "description": "Greave boots made of copper. They provide protection from thigh to toe.",
+  "weight": "1290 g",
+  "volume": "2650 ml",
   "price": 50000,
   "price_postapoc": 6000,
   "to_hit": -2,
   "symbol": "[",
   "looks_like": "boots_steel",
-  "color": "light_gray",
-  "warmth": 20,
+  "color": "light_red",
+  "warmth": 10,
   "material_thickness": 4,
   "environmental_protection": 1,
   "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
@@ -1009,9 +901,9 @@
       ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "copper", "covered_by_mat": 100, "thickness": 2.0 }
       ],
-      "encumbrance": 28,
+      "encumbrance": 22,
       "coverage": 100
     },
     {
@@ -1019,32 +911,79 @@
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "copper", "covered_by_mat": 80, "thickness": 2.0 }
       ],
       "coverage": 100
     }
   ],
   "melee_damage": { "bash": 7 }
+},
+
+{
+  "id": "PSY_magi_helmet_diamond",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of diamond", "str_pl": "helmets of diamond" },
+  "description": "Robust full-face helmet made of diamond. The hard armor provides steady protection for the entire head and face.",
+  "weight": "885 g",
+  "volume": "2 L",
+  "price": 58000,
+  "to_hit": -1,
+  "material": [ "diamond" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 15,
+  "material_thickness": 6,
+  "environmental_protection": 2,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "SUN_GLASSES", "PADDED","RAINPROOF" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100, "encumbrance_modifiers": [ "RESTRICTS_NECK", "WELL_SUPPORTED" ] },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 80, "encumbrance": 18 },
+    { "covers": [ "mouth" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 13 }
+  ],
+  "melee_damage": { "bash": 10 }
+},
+
+{
+  "id": "PSY_magi_armor_diamond",
+  "name": { "str": "armor of diamond", "str_pl": "armors of diamond" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Robust full plate armor made of diamond covering from the torso to the thighs. Equipped with this, you will sleep soundly while surrounded by zombies!",
+  "weight": "4545 g",
+  "volume": "8 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "diamond" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 20,
+  "material_thickness": 5,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ],
+  "armor": [ { "encumbrance": 22, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
+  "melee_damage": { "bash": 6 }
 },
 
 {
   "id": "PSY_magi_boots_diamond",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of diamond boots", "str_pl": "pairs of diamond boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
-  "volume": "3250 ml",
+  "name": { "str": "pair of diamond greave boots", "str_pl": "pairs of diamond greave boots" },
+  "description": "Opulent and elegant greave boots are made of diamonds. While equipped with these, you don't have to be careful with your feet.",
+  "weight": "1090 g",
+  "volume": "2650 ml",
   "price": 50000,
   "price_postapoc": 6000,
   "to_hit": -2,
   "symbol": "[",
   "looks_like": "boots_steel",
   "color": "light_gray",
-  "warmth": 20,
+  "warmth": 15,
   "material_thickness": 4,
-  "environmental_protection": 1,
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "environmental_protection": 2,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY","RAINPROOF" ],
   "armor": [
     {
       "covers": [ "foot_l", "foot_r" ],
@@ -1060,9 +999,9 @@
       ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "diamond", "covered_by_mat": 100, "thickness": 3.0 }
       ],
-      "encumbrance": 28,
+      "encumbrance": 22,
       "coverage": 100
     },
     {
@@ -1070,21 +1009,69 @@
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "diamond", "covered_by_mat": 50, "thickness": 3.0 }
       ],
       "coverage": 100
     }
   ],
   "melee_damage": { "bash": 7 }
+},
+
+
+{
+  "id": "PSY_magi_helmet_magicite",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of magicite", "str_pl": "helmets of magicite" },
+  "description": "Lightweight and sturdy full-face helmet made of magicite. It is wrapped in a magical veil that completely nullifies electrical damage.",
+  "weight": "1585 g",
+  "volume": "2 L",
+  "price": 58000,
+  "to_hit": -1,
+  "material": [ "mithril_metal", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 15,
+  "material_thickness": 8,
+  "environmental_protection": 6,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "SUN_GLASSES", "PADDED","FANCY","RAINPROOF","ELECTRIC_IMMUNE" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100, "encumbrance_modifiers": [ "RESTRICTS_NECK", "WELL_SUPPORTED" ] },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 15 },
+    { "covers": [ "mouth" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 12 }
+  ],
+  "melee_damage": { "bash": 10 }
+},
+
+{
+  "id": "PSY_magi_armor_magicite",
+  "name": { "str": "armor of magicite", "str_pl": "armors of magicite" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Full plate armor made of lightweight yet sturdy magicite covering the body from torso to thighs. It is wrapped in a magical veil that completely nullifies electrical damage.",
+  "weight": "16545 g",
+  "volume": "10 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "mithril_metal", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 25,
+  "material_thickness": 6,
+  "environmental_protection": 8,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER","FANCY","ELECTRIC_IMMUNE"  ],
+  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
+  "melee_damage": { "bash": 6 }
 },
 
 {
   "id": "PSY_magi_boots_magicite",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of magicite boots", "str_pl": "pairs of magicite boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
+  "name": { "str": "pair of magicite greave boots", "str_pl": "pairs of magicite greave boots" },
+  "description": "greave boots made of magicite. They are wrapped in a magical veil that completely nullifies electric damage.",
+  "weight": "1790 g",
   "volume": "3250 ml",
   "price": 50000,
   "price_postapoc": 6000,
@@ -1093,9 +1080,9 @@
   "looks_like": "boots_steel",
   "color": "light_gray",
   "warmth": 20,
-  "material_thickness": 4,
-  "environmental_protection": 1,
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "material_thickness": 6,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY","FANCY","RAINPROOF","ELECTRIC_IMMUNE"  ],
   "armor": [
     {
       "covers": [ "foot_l", "foot_r" ],
@@ -1110,18 +1097,18 @@
         "foot_sole_l"
       ],
       "material": [
-        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "leather", "covered_by_mat": 100, "thickness": 3.0 },
+        { "type": "mithril_metal", "covered_by_mat": 100, "thickness": 3.0 }
       ],
-      "encumbrance": 28,
+      "encumbrance": 22,
       "coverage": 100
     },
     {
       "covers": [ "foot_l", "foot_r" ],
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
-        { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "leather", "covered_by_mat": 100, "thickness": 3.0 },
+        { "type": "mithril_metal", "covered_by_mat": 50, "thickness": 3.0 }
       ],
       "coverage": 100
     }
@@ -1129,14 +1116,62 @@
   "melee_damage": { "bash": 7 }
 },
 
+
+{
+  "id": "PSY_magi_helmet_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "helmet of chitin", "str_pl": "helmets of chitin" },
+  "description": "A special helmet made of chitin. While equipped, it neatens the eyesight and protects the ears from noise.",
+  "weight": "1085 g",
+  "volume": "2 L",
+  "price": 58000,
+  "to_hit": -1,
+  "material": [ "chitin", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 5,
+  "material_thickness": 8,
+  "environmental_protection": 5,
+  "techniques": [ "WBLOCK_1" ],
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "SUN_GLASSES", "PADDED","PSYSHIELD_PARTIAL","RAINPROOF","FIX_FARSIGHT","FIX_NEARSIGHT","PARTIAL_DEAF" ],
+  "armor": [
+    { "covers": [ "head" ], "coverage": 100, "encumbrance_modifiers": [ "RESTRICTS_NECK", "WELL_SUPPORTED" ] },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 8 },
+    { "covers": [ "mouth" ], "rigid_layer_only": true, "coverage": 100, "encumbrance": 6 }
+  ],
+  "melee_damage": { "bash": 4 }
+},
+
+{
+  "id": "PSY_magi_armor_chitin",
+  "name": { "str": "armor of chitin", "str_pl": "armors of chitin" },
+  "type": "ARMOR",
+  "category": "armor",
+  "description": "Armor made of lightweight chitin that covers from the torso to the thighs. It is comfortable to wear and does not cause fatigue even if worn for long periods of time.",
+  "weight": "4005 g",
+  "volume": "7 L",
+  "price": 2000000,
+  "to_hit": -3,
+  "material": [ "chitin", "leather" ],
+  "symbol": "[",
+  "color": "black_white",
+  "warmth": 5,
+  "material_thickness": 4,
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER","PSYSHIELD_PARTIAL" ],
+  "armor": [ { "encumbrance": 8, "coverage": 100, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ] } ],
+  "melee_damage": { "bash": 3 }
+},
+
 {
   "id": "PSY_magi_boots_chitin",
   "type": "ARMOR",
   "category": "armor",
-  "name": { "str": "pair of chitin boots", "str_pl": "pairs of chitin boots" },
-  "description": "An extremely heavy set of armor plated boots.",
-  "weight": "1890 g",
-  "volume": "3250 ml",
+  "name": { "str": "pair of chitin greave boots", "str_pl": "pairs of chitin greave boots" },
+  "description": "greave boots made of chitin. Water repellent and excellent for long trips even on rainy days.",
+  "weight": "890 g",
+  "volume": "2650 ml",
   "price": 50000,
   "price_postapoc": 6000,
   "to_hit": -2,
@@ -1145,8 +1180,8 @@
   "color": "light_gray",
   "warmth": 20,
   "material_thickness": 4,
-  "environmental_protection": 1,
-  "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+  "environmental_protection": 3,
+  "flags": [ "VARSIZE", "WATERPROOF", "STURDY","PSYSHIELD_PARTIAL","RAINPROOF" ],
   "armor": [
     {
       "covers": [ "foot_l", "foot_r" ],
@@ -1162,9 +1197,9 @@
       ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 100, "thickness": 2.0 }
+        { "type": "chitin", "covered_by_mat": 100, "thickness": 2.0 }
       ],
-      "encumbrance": 28,
+      "encumbrance": 8,
       "coverage": 100
     },
     {
@@ -1172,13 +1207,19 @@
       "specifically_covers": [ "foot_ankle_r", "foot_ankle_l" ],
       "material": [
         { "type": "leather", "covered_by_mat": 100, "thickness": 2.0 },
-        { "type": "steel", "covered_by_mat": 50, "thickness": 2.0 }
+        { "type": "chitin", "covered_by_mat": 50, "thickness": 2.0 }
       ],
       "coverage": 100
     }
   ],
   "melee_damage": { "bash": 7 }
 }
+
+
+
+
+
+
 
 
      

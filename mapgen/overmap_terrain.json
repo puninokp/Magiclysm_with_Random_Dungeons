@@ -57,6 +57,20 @@
 
     {
         "type": "overmap_terrain",
+        "id": [ 
+            "PSY_magi_random_dungeon_big_3_NW", "PSY_magi_random_dungeon_big_3_N", "PSY_magi_random_dungeon_big_3_NE",
+            "PSY_magi_random_dungeon_big_3_W",  "PSY_magi_random_dungeon_big_3_M", "PSY_magi_random_dungeon_big_3_E",
+            "PSY_magi_random_dungeon_big_3_SW", "PSY_magi_random_dungeon_big_3_S", "PSY_magi_random_dungeon_big_3_SE"
+        ],
+        "name": "Random Dungeon -3F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
         "id": [ "PSY_magi_random_dungeon_3_NW","PSY_magi_random_dungeon_3_NE","PSY_magi_random_dungeon_3_SW","PSY_magi_random_dungeon_3_SE" ],
         "name": "Random Dungeon -3F",
         "sym": "D",

@@ -975,6 +975,181 @@
       "P": "t_carpet_red",
       "!": "t_carpet_red"
     }
+},
+
+{
+  "type": "palette",
+  "id": "PSY_magi_random_dungeon_big_city_pelette",
+  "terrain": {
+    ",": "t_platform_resin",
+    "#": "t_wall_w",
+    "/": "t_rock",
+    "!": "t_dirt",
+    "|": "t_dirt",
+    ".": "t_dirt",
+    "1": "t_dirt",
+    "2": "t_dirt",
+    "3": "t_dirt",
+    "4": "t_dirt",
+    "5": "t_dirt",
+    "6": "t_dirt",
+    "7": "t_dirt",
+    "8": "t_dirt",
+    "9": "t_dirt",
+    "U": "t_rock",
+    "D": "t_rock",
+    "+": "t_door_c",
+    "<": "t_slope_up",
+    ">": "t_slope_down",
+    "p": "t_platform_resin",
+    "v": "t_open_air",
+    "_": "t_dirt",
+    "@": "t_null"
+  },
+  "nested": {
+    "1": {
+      "//3":"nested_24x24_NW",
+      "chunks": [          
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "2": {
+      "//3":"nested_24x24_N",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "3": {
+      "//3":"nested_24x24_NW",
+      "chunks": [                 
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "4": {
+      "//3":"nested_24x24_W",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "5": {
+      "//3":"nested_24x24_M",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "6": {
+      "//3":"nested_24x24_E",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "7": {
+      "//3":"nested_24x24_SW",
+      "chunks": [                 
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "8": {
+      "//3":"nested_24x24_S",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    },
+    "9": {
+      "//3":"nested_24x24_SE",
+      "chunks": [
+
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+      ]
+    }
+  }
+},
+
+{
+  "type": "palette",
+  "id": "PSY_magi_nested_dungeon_big_city_pelette",
+  "nested": {
+    "1": {
+      "//3":"nested_12x12",
+      "chunks": [
+        [ "PSY_magi_nested_room_12x12_null", 10 ],
+        [ "PSY_magi_nested_room_12x12_city_cabin", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_shop_1", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_camp", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_game", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_vending", 20 ]
+      ]
+    },
+    "2": {
+      "//3":"nested_12x12",
+      "chunks": [
+        [ "PSY_magi_nested_room_12x12_null", 10 ],
+        [ "PSY_magi_nested_room_12x12_city_crate", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_shop_2", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_park", 5 ],
+        [ "PSY_magi_nested_room_12x12_city_warehouse_metal", 5 ],
+        [ "PSY_magi_nested_room_12x12_city_camp_2", 20 ]
+      ]
+    },
+
+    "3": {
+      "//3":"nested_12x12",
+      "chunks": [
+        [ "PSY_magi_nested_room_12x12_null", 10 ],
+        [ "PSY_magi_nested_room_12x12_city_residential", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_farm", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_park_2", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_warehouse_metal_2", 5 ],
+        [ "PSY_magi_nested_room_12x12_city_net_cafe", 5 ]
+      ]
+    },
+    "4": {
+      "//3":"nested_12x12",
+      "chunks": [
+        [ "PSY_magi_nested_room_12x12_null", 10 ],
+        [ "PSY_magi_nested_room_12x12_city_house_1", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_house_2", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_restraunt", 20 ],
+        [ "PSY_magi_nested_room_12x12_city_cave", 20 ]
+      ]
+    }
+
+  },
+  "terrain": {
+    "|": "t_rock",
+    "1": "t_rock",
+    "2": "t_rock",
+    "3": "t_rock",
+    "4": "t_rock",
+    "5": "t_rock",
+    "6": "t_rock",
+    "7": "t_rock",
+    "8": "t_rock",
+    "9": "t_rock",
+    "X": "t_rock",
+    ".": "t_null",
+    "D": "t_door_c",
+    " ": "t_dirt",
+    "@": "t_null",
+    "+": "t_dirt",
+    "%": "t_carpet_red",
+    "$": "t_carpet_red",
+    "=": "t_carpet_red",
+    ",": "t_carpet_red",
+    "~": "t_carpet_red",
+    "Y": "t_carpet_red",
+    "h": "t_carpet_red",
+    "P": "t_carpet_red",
+    "!": "t_carpet_red"
+  }
 }
 
 ]

@@ -5444,3 +5444,137 @@ msgstr "ダンジョン商人"
 
 msgid "Merchant Watchdog"
 msgstr "商人の番犬"
+
+msgid "helmet of silver"
+msgid_plural "helmets of silver"
+msgstr[0] "銀の兜"
+
+msgid "A slightly opulent full-face helmet made of silver. It protects the head and the entire face as if it were covered."
+msgstr "銀でできた少し豪勢なフルフェイスヘルメット。 頭と顔全体を覆い隠すように守ってくれます。"
+
+msgid "plate armor of silver"
+msgid_plural "plate armors of silver"
+msgstr[0] "銀の鎧"
+
+msgid "armor of silver"
+msgid_plural "armors of silver"
+msgstr[0] "銀の鎧"
+
+msgid "Heavy-duty full plate armor made of silver covering the torso to the thighs. Protects key areas of the body and provides solid protection."
+msgstr "胴体から大腿までを覆う銀製の頑丈なフルプレートアーマー。身体の要所を保護し、堅固な防御を提供します。"
+
+msgid "pair of armored silver boots"
+msgid_plural "pairs of armored silver boots"
+msgstr[0] "銀の鎧靴"
+
+msgid "pair of silver greave boots"
+msgid_plural "pairs of silver greave boots"
+msgstr[0] "銀の鎧靴"
+
+msgid "Greave boots made of silver. provide good protection from thigh to toe."
+msgstr "銀で出来たグリーブブーツ。大腿からつま先までしっかりと保護してくれます。"
+
+msgid "helmet of steel"
+msgid_plural "helmets of steel"
+msgstr[0] "鋼の兜"
+
+msgid "A sturdy full-face helmet made of steel. It firmly protects the entire head and face from enemy attacks."
+msgstr "鋼でできた頑丈なフルフェイスヘルメット。 敵の攻撃からしっかりと頭と顔全体を保護してくれます。"
+
+msgid "armor of steel"
+msgid_plural "armors of steel"
+msgstr[0] "鋼の鎧"
+
+msgid "Sturdy full plate armor made of steel that covers from the torso to the thighs. Wearing this armor, you will be able to survive any zombie attack."
+msgstr "胴体から大腿までを覆う鋼製の頑丈なフルプレートアーマー。これを着れば、そこら辺のゾンビの攻撃なんてへっちゃらです。"
+
+msgid "pair of steel greave boots"
+msgid_plural "pairs of steel greave boots"
+msgstr[0] "鋼の鎧靴"
+
+msgid "Greave boots made of steel. They provide solid protection from thigh to toe."
+msgstr "鋼で出来たグリーブブーツ。大腿からつま先までがっちりと保護してくれます。"
+
+msgid "helmet of copper"
+msgid_plural "helmets of copper"
+msgstr[0] "銅の兜"
+
+msgid "Lightweight helmet made of copper. It protects the head from some attacks."
+msgstr "銅でできた軽めのヘルメット。 ある程度の攻撃から頭を保護してくれます。"
+
+msgid "armor of copper"
+msgid_plural "armors of copper"
+msgstr[0] "銅の鎧"
+
+msgid "Lightweight armor made of copper. It protects you from some attacks."
+msgstr "銅製の軽量なアーマー。ある程度の攻撃から身を守ってくれます。"
+
+msgid "pair of copper greave boots"
+msgid_plural "pairs of copper greave boots"
+msgstr[0] "銅の鎧靴"
+
+msgid "Greave boots made of copper. They provide protection from thigh to toe."
+msgstr "銅で出来たグリーブブーツ。大腿からつま先まで保護してくれます。"
+
+msgid "helmet of diamond"
+msgid_plural "helmets of diamond"
+msgstr[0] "ダイヤモンドの兜"
+
+msgid "Robust full-face helmet made of diamond. The hard armor provides steady protection for the entire head and face."
+msgstr "ダイヤモンドでできた堅牢なフルフェイスヘルメット。 強硬な装甲が頭と顔全体を着実に保護してくれます。"
+
+msgid "armor of diamond"
+msgid_plural "armors of diamond"
+msgstr[0] "ダイヤモンドの鎧"
+
+msgid "Robust full plate armor made of diamond covering from the torso to the thighs. Equipped with this, you will sleep soundly while surrounded by zombies!"
+msgstr "胴体から大腿までを覆うダイヤモンドで出来た堅牢なフルプレートアーマー。これを装備していると、ゾンビに囲まれながらもぐっすりと眠りにつけるでしょう。"
+
+msgid "pair of diamond greave boots"
+msgid_plural "pairs of diamond greave boots"
+msgstr[0] "ダイヤモンドの鎧靴"
+
+msgid "Opulent and elegant greave boots are made of diamonds. While equipped with these, you don't have to be careful with your feet."
+msgstr "ダイヤモンドで出来た豪勢で優雅なグリーブブーツ。これを装備している間は足元に気を付けなくても問題ないでしょう。"
+
+msgid "helmet of magicite"
+msgid_plural "helmets of magicite"
+msgstr[0] "魔鉱石の兜"
+
+msgid "Lightweight and sturdy full-face helmet made of magicite. It is wrapped in a magical veil that completely nullifies electrical damage."
+msgstr "魔鉱石でできた軽量かつ頑丈なフルフェイスヘルメット。 魔法のベールに包まれており、電撃ダメージを完全に無効化します。"
+
+msgid "armor of magicite"
+msgid_plural "armors of magicite"
+msgstr[0] "魔鉱石の鎧"
+
+msgid "Full plate armor made of lightweight yet sturdy magicite covering the body from torso to thighs. It is wrapped in a magical veil that completely nullifies electrical damage."
+msgstr "胴体から大腿までを覆う軽量かつ頑丈な魔鉱石で作られたフルプレートアーマー。魔法のベールに包まれており、電撃ダメージを完全に無効化します。"
+
+msgid "pair of magicite greave boots"
+msgid_plural "pairs of magicite greave boots"
+msgstr[0] "魔鉱石の鎧靴"
+
+msgid "greave boots made of magicite. They are wrapped in a magical veil that completely nullifies electric damage."
+msgstr "魔鉱石で作られたグリーブブーツ。魔法のベールに包まれており、電撃ダメージを完全に無効化します。"
+
+msgid "helmet of chitin"
+msgid_plural "helmets of chitin"
+msgstr[0] "キチンの兜"
+
+msgid "A special helmet made of chitin. While equipped, it neatens the eyesight and protects the ears from noise."
+msgstr "キチンで作られた特殊なヘルメット。装備している間は視力が端正され、騒音から耳を守ってくれる。"
+
+msgid "armor of chitin"
+msgid_plural "armors of chitin"
+msgstr[0] "キチンの鎧"
+
+msgid "Armor made of lightweight chitin that covers from the torso to the thighs. It is comfortable to wear and does not cause fatigue even if worn for long periods of time."
+msgstr "胴体から大腿までを覆う軽量なキチンで作られたアーマー。長時間着ていても疲れにくく着心地も良い。"
+
+msgid "pair of chitin greave boots"
+msgid_plural "pairs of chitin greave boots"
+msgstr[0] "キチンの鎧靴"
+
+msgid "greave boots made of chitin. Water repellent and excellent for long trips even on rainy days."
+msgstr "キチンで作られたグリーブブーツ。撥水性で雨の日でも遠出が出来る優れもの。"

@@ -416,7 +416,892 @@
           ]
           
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_cabin",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "~~~~00~~~~~~",
+            "~##W##W##W#~",
+            "~#A     c #~",
+            "~=     CCC#~",
+            "~# RR     W~",
+            "~#####   c#~",
+            "~#B  =   tW~",
+            "~#B  #&  c#~",
+            "~###W##W###~",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [ "cabin_palette" ],
+          "faction_owner": [ { "id": "wasteland_scavengers", "x": [ 1, 23 ], "y": [ 1, 23 ] } ],
+          "items": { "C": [ { "item": "cabin_chemist_sell", "chance": 100, "repeat": [ 4, 5 ] } ] },
+          "place_npcs": [ { "class": "NPC_cabin_chemist", "x": 8, "y": 3 } ],
+          "place_zones": [
+            { "type": "LOOT_UNSORTED", "faction": "wasteland_scavengers", "x": [ 15, 15 ], "y": [ 8, 8 ] },
+            { "type": "LOOT_CURRENCY", "faction": "wasteland_scavengers", "x": [ 17, 17 ], "y": [ 8, 8 ] }
+          ],
+          "terrain": {
+            "~": "PSY_magi_t_dirt",
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "P": { "monster": "PSY_magi_mon_scorching_samurai_guard",  "friendly": true},
+            "L": { "monster": "PSY_magi_mon_mecha_guard_purple_immobile",  "friendly": true},
+            "Z": { "monster": "PSY_magi_mon_mecha_floting_armor",  "friendly": true},
+            "H": { "monster": "PSY_magi_mon_mecha_guard_heavy_immobile",  "friendly": true}
+          }
+        }
+      },
+      
+      {
+      "type": "mapgen",
+      "method": "json",
+      "//": "a nested map for basements",
+      "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_base",
+      "weight": 1000,
+      "object": {
+        "mapgensize": [ 12, 12 ],
+        "rotation": [ 0, 3 ],
+        "rows": [
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||",
+          "||||||||||||"
+        ],
+        "palettes": [ "basement_game" ],
+        "terrain": {
+          "|": "t_dirt"
+        }
       }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_crate",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||CC||||||||",
+            "||CC||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "|||||||CC|||",
+            "|||||||CC|||",
+            "||CC||||||||",
+            "||CC||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+        "terrain": {
+          " ": "t_region_groundcover_urban",
+          "+": "t_door_c",
+          ".": "t_floor",
+          "S": "PSY_magi_t_dirt",
+          "T": "PSY_magi_t_dirt",
+          "'": "PSY_magi_t_dirt",
+          "C": "PSY_magi_t_dirt",
+          "=": "t_door_locked_alarm",
+          "-": "t_door_locked",
+          "O": "t_column",
+          "^": "t_region_shrub_decorative",
+          "s": "t_sidewalk",
+          "w": "t_window",
+          "|": "PSY_magi_t_dirt",
+          "<": "t_stairs_up"
+        },
+        "furniture": {
+          "b": "f_brazier",
+          "#": "f_bench",
+          "S": "f_sink",
+          "c": "f_counter",
+          "d": "f_desk",
+          "e": "f_fridge",
+          "h": "f_chair",
+          "l": "f_rack_coat",
+          "L": "f_locker",
+          "o": "f_bookcase",
+          "t": "f_table",
+          "C": "f_crate_c",
+          "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+          "p": "f_piano",
+          "D": "f_wardrobe"
+        },
+        "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_residential",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "|%%%%%%%||||",
+            "|%&%W.o%||||",
+            "|%+%..i%||||",
+            "|%.....+||||",
+            "|%.....+||||",
+            "|%#.#.T%||||",
+            "|%#.#.T%||||",
+            "|%%%%%%%||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "basement_residential"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_floor",
+            "&": "PSY_magi_t_floor",
+            "o": "PSY_magi_t_floor",
+            "W": "PSY_magi_t_floor",
+            "T": "PSY_magi_t_floor",
+            "#": "PSY_magi_t_floor",
+            "i": "PSY_magi_t_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_house_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||%%%%%%%|||",
+            "||%py.oo%|||",
+            "||%h....%|||",
+            "||+....l%|||",
+            "||%.....+|||",
+            "||%.LLL.%|||",
+            "||%.....%|||",
+            "||%%%%%%%|||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "PSY_magi_church"
+          ],
+          "terrain": {
+            ".": "PSY_magi_t_floor",
+            "|": "PSY_magi_t_dirt",
+            "L": "PSY_magi_t_floor",
+            "l": "PSY_magi_t_floor",
+            "o": "PSY_magi_t_floor",
+            "y": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor",
+            "p": "PSY_magi_t_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_shop_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|;;;;;||||||",
+            "|;6_l;||||||",
+            "|;___;||||||",
+            "|;CCC;;;;;||",
+            "|;___llll;||",
+            "|;_______;||",
+            "|;_______+||",
+            "|;_______;||",
+            "|;_______;||",
+            "|;;;;;;;;;||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "shelter"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "_": "PSY_magi_t_linoleum_white",
+            "l": "PSY_magi_t_linoleum_white",
+            "C": "PSY_magi_t_linoleum_white",
+            "6": "PSY_magi_t_linoleum_white"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_shop_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|;;;;;;;;;||",
+            "|;%___t6e;||",
+            "|;____t__;||",
+            "|;____t__;||",
+            "|;___;;::;||",
+            "|;___;||||||",
+            "|;___;||||||",
+            "|;___;||||||",
+            "|;;+;;||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "shelter"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "_": "PSY_magi_t_linoleum_white",
+            "%": "PSY_magi_t_linoleum_white",
+            "t": "PSY_magi_t_linoleum_white",
+            "e": "PSY_magi_t_linoleum_white",
+            "6": "PSY_magi_t_linoleum_white"
+          },
+          "furniture": {
+            "e": "f_gunsafe_ml"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_farm",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|||WWWWWW|||",
+            "|||Wdw  W|||",
+            "|||W    +|||",
+            "|||W h  +|||",
+            "|||W n  W|||",
+            "|%%WWWWWW%%%",
+            "|%|||||||||%",
+            "|%|||||||``%",
+            "|%66|||||``%",
+            "|%%%%%%%%%%%",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "farm_horse"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "6": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_floor",
+            "d": "PSY_magi_t_floor",
+            "w": "PSY_magi_t_floor",
+            "n": "PSY_magi_t_floor",
+            "h": "PSY_magi_t_floor"
+          },
+          "furniture": {
+            "e": "f_gunsafe_ml"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_house_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|11111||||||",
+            "|1BM,1||||||",
+            "|1,a,11111||",
+            "|1,,,,,i?1||",
+            "|1,,,,,,,1||",
+            "|11+11,,,1||",
+            "|||||1,,d1||",
+            "|||||1,,w1||",
+            "|||||11111||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "basement_game"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "B": "PSY_magi_t_floor",
+            ",": "PSY_magi_t_floor",
+            "a": "PSY_magi_t_floor",
+            "M": "PSY_magi_t_floor",
+            "d": "PSY_magi_t_floor",
+            "w": "PSY_magi_t_floor",
+            "?": "PSY_magi_t_floor",
+            "i": "PSY_magi_t_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_camp",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||||g|||oo||",
+            "||||||||||||",
+            "||oo|||R||||",
+            "||D||b||||||",
+            "||||||||||||",
+            "|||b|i|b||o|",
+            "||||||||||o|",
+            "|o|||b||||||",
+            "|o||||||||||",
+            "|||||||oo|||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "godco_camp"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "g": "PSY_magi_t_dirt",
+            "D": "PSY_magi_t_dirt",
+            "R": "PSY_magi_t_dirt",
+            "b": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_park",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|?||||?||?||",
+            "||I|||||I|||",
+            "||||?|||||||",
+            "||||[[|?||||",
+            "||?|[[[|||?|",
+            "||||[[[[||||",
+            "|I|?||[[?|||",
+            "|||||||[||||",
+            "|||||I||||I|",
+            "||?|||?|||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "triffid"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "?": "PSY_magi_t_dirt",
+            "^": [ "PSY_magi_t_dirt", "t_water_dp", "t_water_dp", "t_water_dp" ]
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_park_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||[[[[||||",
+            "||||[[[[||||",
+            "||||[[[[||||",
+            "||||[[[[||||",
+            "||||[[[[||||",
+            "||||[[[[||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "triffid"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "?": "PSY_magi_t_dirt",
+            "[": [ "PSY_magi_t_dirt", "t_water_dp", "t_water_dp", "t_water_dp" ]
+          },
+          "furniture": {
+            "^": [ "f_rubble_rock", "f_boulder_small", "f_boulder_medium" ],
+            "|": [ [ "f_null", 10 ],"f_dandelion", "f_flower_spurge", "f_burdock", "f_flower_tulip", "f_lily", "f_bluebell", "f_dahlia", "f_datura" ],
+            "T": "f_glowingbulb",
+            "@": "f_brambles",
+            "X": "f_mutpoppy"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_restraunt",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|##########|",
+            "|#y`ƃ`O5EF#|",
+            "|#y`1`````#|",
+            "|#``1`````#|",
+            "|#``111111#|",
+            "|#````A`A`#|",
+            "|#````````#|",
+            "|#AfC`````#|",
+            "|#```````g#|",
+            "|####{{####|",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "commercial_restaurant_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "`": "PSY_magi_t_thconc_floor",
+            "y": "PSY_magi_t_thconc_floor",
+            "ƃ": "PSY_magi_t_thconc_floor",
+            "O": "PSY_magi_t_thconc_floor",
+            "5": "PSY_magi_t_thconc_floor",
+            "E": "PSY_magi_t_thconc_floor",
+            "F": "PSY_magi_t_thconc_floor",
+            "A": "PSY_magi_t_thconc_floor",
+            "f": "PSY_magi_t_thconc_floor",
+            "C": "PSY_magi_t_thconc_floor",
+            "g": "PSY_magi_t_thconc_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_game",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|####{{####|",
+            "|#,,,,,,,Y#|",
+            "|#,,,,,,,,#|",
+            "|#,ÆÆÆÆÆÆ,#|",
+            "|#,AAAAAA,#|",
+            "|#,,,,,,,,#|",
+            "|#,ÆÆÆÆÆÆ,#|",
+            "|#,AACCAA,#|",
+            "|#,,,,,,,,#|",
+            "|####{{####|",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "commercial_restaurant_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "Æ": "PSY_magi_t_thconc_floor",
+            ",": "PSY_magi_t_thconc_floor",
+            "Y": "PSY_magi_t_thconc_floor",
+            "C": "PSY_magi_t_thconc_floor",
+            "A": "PSY_magi_t_thconc_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_warehouse_metal",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||555555555|",
+            "||5tt:!ω_^5|",
+            "||5ωωωωωωω5|",
+            "||5555ωωωω5|",
+            "||5пωςωωωως|",
+            "||5яω555ς55|",
+            "||5qω5TGωM5|",
+            "|O5Pω5ωωωω5|",
+            "|O5555ω5555|",
+            "|||||555||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "aircraft_carrier_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_warehouse_metal_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||ψψψψψψ||||",
+            "||ψ5555ψψψ||",
+            "||ψ5RR555ψ||",
+            "||ψ5;;ee5ψψ|",
+            "||ψ5;;;;55ψ|",
+            "||ψ5;;;;;5ψ|",
+            "||ψ5RRRRR5ψ|",
+            "||ψ5555555ψ|",
+            "||ψψψψψψψψψ|",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "aircraft_carrier_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_cave",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "||,,,,,|||||",
+            "||,|||,|||||",
+            "||,|||,|||||",
+            "||,|||,***||",
+            "||,,|,,,,,,|",
+            "||||||,|||,|",
+            "||||||||||,|",
+            "||dd||,|||,|",
+            "||dd||,|||,|",
+            "||dd||,,,,,|",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "airliner_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "*": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_vending",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|#########||",
+            "|#T#DD&FF#||",
+            "|#+#.....#||",
+            "|#.......#||",
+            "|#.......:||",
+            "|#.hth...:||",
+            "|#####th.#||",
+            "|||||#####||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "bike_shop"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_thconc_floor",
+            "T": "PSY_magi_t_thconc_floor",
+            "D": "PSY_magi_t_thconc_floor",
+            "F": "PSY_magi_t_thconc_floor",
+            "&": "PSY_magi_t_thconc_floor",
+            "h": "PSY_magi_t_thconc_floor",
+            "t": "PSY_magi_t_thconc_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_camp_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|N||||||||||",
+            "||||||||||||",
+            "||||||S|||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "|H||||||||||",
+            "|t|o||||||||",
+            "|H|||HnH||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "campground_palette"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "H": "PSY_magi_t_dirt",
+            "t": "PSY_magi_t_dirt",
+            "n": "PSY_magi_t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_12x12_city_net_cafe",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [
+            12,
+            12
+          ],
+          "rotation": [
+            0,
+            3
+          ],
+          "rows": [
+            "||||||||||||",
+            "|---------||",
+            "|-6-6-6-6-||",
+            "|-a-a-a-a-||",
+            "|-+-3-3-+--|",
+            "|+........-|",
+            "|-------.B-|",
+            "|-~-~-;-..-|",
+            "|-+-+-+-.B-|",
+            "|-.....+..-|",
+            "|----------|",
+            "||||||||||||"
+          ],
+          "palettes": [
+            "robofachq"
+          ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            ".": "t_metal_floor_olight",
+            "6": "t_metal_floor_olight",
+            "a": "t_metal_floor_olight",
+            "B": "t_metal_floor_olight",
+            ";": "t_metal_floor_olight",
+            "~": "t_metal_floor_olight"
+            
+          }
+        }
+      }
+
+      
 
 
 ]
