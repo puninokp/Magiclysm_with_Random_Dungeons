@@ -2115,6 +2115,782 @@
           ],
           "palettes": [ "PSY_magi_nested_dungeon_big_city_pelette" ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_base",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................",
+            "........................"
+          ],
+          "palettes": [ "basement_residential" ],
+          "terrain": {
+            " ": "t_dirt"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_house_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "                        ",
+            "              #####     ",
+            "          #####;_8##### ",
+            "          #__:#A_8#_@@# ",
+            "          #___##+##_@@# ",
+            "          #@@_#___#___# ",
+            "          #@@_+___+___# ",
+            "        S4#___#___#_:_# ",
+            " ###0###3######___##### ",
+            " #EEEF#__777#________D# ",
+            " #=___#_____#__B666B__# ",
+            " 0A____________B666B_9# ",
+            " #E___#_____#__B666B_9# ",
+            " #E__D#_____#________9# ",
+            " ##cc##_H___######3#### ",
+            " #___________H#SSSSSSSS ",
+            " #C____66_?___#SSSSSSSS ",
+            " #CB___66_?___3SSSSSSSS ",
+            " #C___________#SSSSSSSS ",
+            " #____????____#SSSSSSSS ",
+            " ##0########0##SSSSSSSS ",
+            "               SSSSSSSS ",
+            "               SSSSSSSS ",
+            "                        "
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+          "toilets": { ";": {  } },
+          "items": {
+            "7": { "item": "homebooks", "chance": 75, "repeat": [ 1, 5 ] },
+            "_": { "item": "bar_trash", "chance": 5 },
+            " ": { "item": "clutter_yard", "chance": 1 },
+            "@": { "item": "bed", "chance": 80 },
+            ":": [ { "item": "SUS_dresser_mens", "chance": 50 }, { "item": "SUS_dresser_womens", "chance": 50 } ],
+            "E": { "item": "cannedfood", "chance": 70, "repeat": [ 1, 3 ] },
+            "=": { "item": "stash_wood", "chance": 70, "repeat": [ 1, 4 ] },
+            "9": { "item": "home_hw", "chance": 60 },
+            "F": { "item": "SUS_fridge_survivor", "chance": 70 }
+          },
+          "place_items": [
+            { "item": "camping", "x": [ 13, 14 ], "y": [ 13, 13 ], "chance": 70 },
+            { "item": "kitchen", "x": [ 2, 2 ], "y": [ 9, 12 ], "chance": 70 },
+            { "item": "dining", "x": [ 17, 19 ], "y": [ 10, 11 ], "chance": 70 },
+            { "item": "magazines", "x": [ 7, 8 ], "y": [ 16, 17 ], "chance": 50 }
+          ],
+          "place_vehicles": [ { "vehicle": "bandit_vehicles", "x": 19, "y": 19, "chance": 40, "rotation": 90, "status": 0 } ],
+          "terrain": {
+            "4": "t_gutter_downspout",
+            " ": "PSY_magi_t_dirt",
+            "#": "t_wall_log",
+            "+": "t_door_c",
+            "0": "t_window_boarded",
+            "3": "t_door_locked",
+            "6": "PSY_magi_t_floor",
+            "7": "PSY_magi_t_floor",
+            "8": "PSY_magi_t_floor",
+            "9": "PSY_magi_t_floor",
+            ":": "PSY_magi_t_floor",
+            ";": "PSY_magi_t_floor",
+            "=": "t_rock_floor",
+            "?": "PSY_magi_t_floor",
+            "@": "PSY_magi_t_floor",
+            "A": "PSY_magi_t_floor",
+            "B": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "D": "PSY_magi_t_floor",
+            "E": "PSY_magi_t_floor",
+            "F": "PSY_magi_t_floor",
+            "H": "PSY_magi_t_floor",
+            "S": "t_concrete",
+            "_": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor"
+          },
+          "furniture": {
+            "6": "f_table",
+            "7": "f_bookcase",
+            "8": "f_bathtub",
+            "9": "f_rack",
+            ":": "f_dresser",
+            "=": "f_woodstove",
+            "?": "f_sofa",
+            "@": "f_bed",
+            "A": "f_sink",
+            "B": "f_chair",
+            "C": "f_desk",
+            "D": "f_trashcan",
+            "E": "f_cupboard",
+            "F": "f_fridge",
+            "H": "f_armchair",
+            "c": "f_counter"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_house_2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "                        ",
+            "            #####0###   ",
+            "            #G___oif#   ",
+            "            #G_c____#   ",
+            "            #G_ccccc#   ",
+            "            #_______#   ",
+            "            0_______0   ",
+            "      #00####_B666B_#   ",
+            "      #rrdw_#_B666B_#   ",
+            "      #_____#_B666B_##  ",
+            "      #_____#________#  ",
+            "      0_____+________0  ",
+            "      ###3###?_______#  ",
+            "      #88_#&#?______W#  ",
+            "      #88_+_####+#####  ",
+            "  ##0########           ",
+            "  #@@7@@7@@D#           ",
+            "  #_________#           ",
+            "  #_________+           ",
+            "  #_________#           ",
+            "  #@@7@@7::P#           ",
+            "  ##0##0#####           ",
+            "                        ",
+            "                        "
+          ],
+          "palettes": [ "basement_residential" ],
+          "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+          "toilets": { ";": {  } },
+          "items": {
+            "7": { "item": "homebooks", "chance": 75, "repeat": [ 1, 5 ] },
+            "_": { "item": "bar_trash", "chance": 5 },
+            " ": { "item": "clutter_yard", "chance": 1 },
+            "@": { "item": "bed", "chance": 80 },
+            ":": [ { "item": "SUS_dresser_mens", "chance": 50 }, { "item": "SUS_dresser_womens", "chance": 50 } ],
+            "E": { "item": "cannedfood", "chance": 70, "repeat": [ 1, 3 ] },
+            "=": { "item": "stash_wood", "chance": 70, "repeat": [ 1, 4 ] },
+            "9": { "item": "home_hw", "chance": 60 },
+            "F": { "item": "SUS_fridge_survivor", "chance": 70 }
+          },
+          "place_items": [
+            { "item": "camping", "x": [ 13, 14 ], "y": [ 13, 13 ], "chance": 70 },
+            { "item": "kitchen", "x": [ 2, 2 ], "y": [ 9, 12 ], "chance": 70 },
+            { "item": "dining", "x": [ 17, 19 ], "y": [ 10, 11 ], "chance": 70 },
+            { "item": "magazines", "x": [ 7, 8 ], "y": [ 16, 17 ], "chance": 50 }
+          ],
+          "place_vehicles": [ { "vehicle": "bandit_vehicles", "x": 19, "y": 19, "chance": 40, "rotation": 90, "status": 0 } ],
+          "terrain": {
+            "4": "t_gutter_downspout",
+            " ": "PSY_magi_t_dirt",
+            "#": "t_wall_log",
+            "+": "t_door_c",
+            "0": "t_window_boarded",
+            "3": "t_door_locked",
+            "6": "PSY_magi_t_floor",
+            "7": "PSY_magi_t_floor",
+            "8": "PSY_magi_t_floor",
+            "9": "PSY_magi_t_floor",
+            ":": "PSY_magi_t_floor",
+            ";": "PSY_magi_t_floor",
+            "=": "t_rock_floor",
+            "?": "PSY_magi_t_floor",
+            "@": "PSY_magi_t_floor",
+            "A": "PSY_magi_t_floor",
+            "B": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "D": "PSY_magi_t_floor",
+            "E": "PSY_magi_t_floor",
+            "F": "PSY_magi_t_floor",
+            "H": "PSY_magi_t_floor",
+            "S": "t_concrete",
+            "_": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor"
+          },
+          "furniture": {
+            "6": "f_table",
+            "7": "f_bookcase",
+            "8": "f_bathtub",
+            "9": "f_rack",
+            ":": "f_dresser",
+            "=": "f_woodstove",
+            "?": "f_sofa",
+            "@": "f_bed",
+            "A": "f_sink",
+            "B": "f_chair",
+            "C": "f_desk",
+            "D": "f_trashcan",
+            "E": "f_cupboard",
+            "F": "f_fridge",
+            "H": "f_armchair",
+            "c": "f_counter"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_church",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "                        ",
+            "        ||||w||||       ",
+            "        |CC..See|       ",
+            "        |CC.....|       ",
+            "        |.......|       ",
+            "        |LLLL...|       ",
+            "    |||w|||||+||||w||   ",
+            "    |y..........oo.y|   ",
+            "    |.b.b.#.#.#.....|   ",
+            "    |.....#.#.#.....|   ",
+            "    |.....#.#.#.....+   ",
+            "    |.....#.#.#.....+   ",
+            "    |p....#.#.#.....|   ",
+            "    |.b.b.#.#.#.....|   ",
+            "    |y.............y|   ",
+            "    |||w|||+||||||w||   ",
+            "        |.....CC|       ",
+            "        |.....CC|       ",
+            "        |.......|       ",
+            "        |lDDDD..|       ",
+            "        ||||w||||       ",
+            "                        ",
+            "                        ",
+            "                        "
+          ],
+          "palettes": [
+            "church"
+          ],
+          "terrain": {
+            " ": "PSY_magi_t_dirt",
+            ".": "PSY_magi_t_floor",
+            "b": "PSY_magi_t_floor",
+            "p": "PSY_magi_t_floor",
+            "S": "PSY_magi_t_floor",
+            "e": "PSY_magi_t_floor",
+            "l": "PSY_magi_t_floor",
+            "L": "PSY_magi_t_floor",
+            "D": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "#": "PSY_magi_t_floor",
+            "o": "PSY_magi_t_floor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_magic_shop",
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "...........9............",
+            "....9...........9..9....",
+            "..p....x..x.............",
+            "....####++####..........",
+            "....#PP_____N##o###p.9..",
+            ".9..#____________y#ppp..",
+            "....o____________#####..",
+            "....#____________#L__#..",
+            "p...#__HH__HHH__B#L__o..",
+            "....#__HH__HHH__B#d__#..",
+            "..p.o___________B#w__#..",
+            "....#_______JW__B#___#..",
+            "9...#r_______WJ__#___#..",
+            "....#r___________+__t#..",
+            "....#r___a_a_____#__t#..",
+            "..p.###CCCCCCC#####o##..",
+            "......#_______#pppp.....",
+            "......#___J___#p...9....",
+            "...9..o_____h_#p.......9",
+            ".b....#PPK_f?F#p........",
+            "...M..#########p9.p.....",
+            ".9.M....................",
+            ".....p.............9....",
+            "........................"
+          ],
+          "palettes": [
+            "basement_residential"
+          ],
+          "terrain": {
+            "4": "t_gutter_downspout",
+            "9": [
+              "t_tree_blackjack",
+              "t_tree_walnut",
+              "t_tree_chestnut",
+              "t_tree_beech",
+              "t_tree_hazelnut",
+              "t_tree_cottonwood",
+              "t_tree",
+              "t_tree_elm",
+              "t_tree_dead",
+              "t_tree_apple",
+              "t_tree_pear",
+              "t_tree_cherry",
+              "t_tree_peach",
+              "t_tree_apricot",
+              "t_tree_plum",
+              "t_tree_mulberry",
+              "t_tree_elderberry",
+              "t_tree_pine",
+              "t_tree_birch",
+              "t_tree_willow",
+              "t_tree_maple",
+              "t_tree_hickory",
+              "t_tree_almond",
+              "t_tree_pecan"
+            ],
+            ".": [
+              [
+                "t_grass",
+                5
+              ],
+              [
+                "t_grass_long",
+                2
+              ],
+              "t_dirt",
+              "t_shrub"
+            ],
+            "p": "t_grass_long",
+            "M": "t_grass_long",
+            "b": "t_grass_long",
+            "U": "t_grass_long",
+            "R": "t_grass_long",
+            "|": "t_rock_wall",
+            "z": "t_floor_blue",
+            "#": "t_wall_b",
+            "+": "t_door_red_c",
+            "o": "t_window_domestic",
+            "J": "t_carpet_green",
+            "W": "t_carpet_green",
+            "*": "t_carpet_green",
+            "%": "t_privacy_fence",
+            "<": "t_stairs_up",
+            "^": "t_privacy_fencegate_c",
+            "s": "t_sidewalk"
+          },
+          "furniture": {
+            "p": [
+              "f_datura",
+              "f_bluebell",
+              "f_mutpoppy",
+              "f_dahlia",
+              "f_flower_tulip",
+              "f_chamomile",
+              "f_flower_spurge",
+              "f_lily"
+            ],
+            "b": "f_birdbath",
+            "B": "f_bookcase",
+            "Z": "f_bookcase",
+            "?": "f_console_broken",
+            "y": [
+              "f_indoor_plant_y",
+              "f_indoor_plant"
+            ],
+            "f": "f_filing_cabinet",
+            "@": "f_sofa",
+            "Y": "f_armchair",
+            "x": "f_floor_lamp",
+            "N": "f_bigmirror",
+            "I": "f_desk",
+            "o": "f_null",
+            "K": "f_wardrobe",
+            "M": "f_bench",
+            "L": "f_locker",
+            "h": "f_chair",
+            "J": "f_armchair",
+            "W": "f_table",
+            "C": "f_counter",
+            "a": "f_stool",
+            "t": "f_table",
+            "H": "f_displaycase",
+            "P": "f_glass_cabinet",
+            "S": "f_sink"
+          },
+          "toilets": {
+            "&": {}
+          },
+          "items": {
+            "I": {
+              "item": "office",
+              "chance": 30
+            },
+            "f": {
+              "item": "office_paper",
+              "chance": 30
+            },
+            "L": {
+              "item": "cleaning",
+              "chance": 30
+            },
+            "y": {
+              "item": "trash",
+              "chance": 20,
+              "repeat": [
+                2,
+                4
+              ]
+            },
+            "B": {
+              "item": "magic_shop_books",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "Z": {
+              "item": "magic_shop_beginner_books",
+              "chance": 100
+            },
+            "K": {
+              "item": "magic_shop_clothes",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "H": {
+              "item": "magic_shop_wands",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "P": {
+              "item": "magic_shop_potions",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "t": {
+              "item": "magic_shop_books",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "S": {
+              "item": "softdrugs",
+              "chance": 20,
+              "repeat": [
+                1,
+                2
+              ]
+            }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_magic_shop_2",
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "..........///...........",
+            "..........//............",
+            "......9..//.......9.....",
+            "..9.......//....%...9...",
+            "..........//...%%.......",
+            "....9......//.....9..9..",
+            "...........//...........",
+            "........k||++||k....9...",
+            "...9....||    ||........",
+            ".......||a    g||.......",
+            "......||       g||...9..",
+            ".....||y  cccc  g||.....",
+            "..9..|H   cs c   k0....9",
+            ".....|t   c  c   C0.9...",
+            "...9.||C  cccc  g||.....",
+            "......||y      g||....9.",
+            "9...%..||     g||.......",
+            "........||    ||....9...",
+            "...9....k||00||k........",
+            ".......9.........97.7.9.",
+            "...........9......7.7...",
+            "......9...........7.7...",
+            "..........9...9.....9...",
+            ".9......................"
+          ],
+          "palettes": [
+            "basement_residential"
+          ],
+          "terrain": {
+            "0": "t_window_domestic",
+            "/": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor",
+            "y": "PSY_magi_t_floor",
+            "s": "PSY_magi_t_floor",
+            "g": "PSY_magi_t_floor",
+            "k": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "H": "PSY_magi_t_floor",
+            "9": [
+              "t_tree_blackjack",
+              [
+                "t_tree_walnut",
+                5
+              ],
+              [
+                "t_tree_chestnut",
+                5
+              ],
+              "t_tree_beech",
+              "t_tree_hazelnut",
+              "t_tree_cottonwood",
+              [
+                "t_tree",
+                5
+              ],
+              [
+                "t_tree_elm",
+                3
+              ],
+              "t_tree_dead",
+              "t_tree_apple",
+              "t_tree_pear",
+              "t_tree_cherry",
+              "t_tree_peach",
+              "t_tree_apricot",
+              "t_tree_plum",
+              "t_tree_mulberry",
+              "t_tree_elderberry",
+              [
+                "t_tree_pine",
+                5
+              ],
+              "t_tree_birch",
+              [
+                "t_tree_willow",
+                3
+              ],
+              "t_tree_maple",
+              "t_tree_hickory",
+              "t_tree_almond",
+              "t_tree_pecan"
+            ],
+            ".": [
+              [
+                "t_grass",
+                5
+              ],
+              [
+                "t_grass_long",
+                2
+              ],
+              "PSY_magi_t_dirt",
+              "t_shrub"
+            ],
+            "%": [
+              [
+                "t_grass",
+                5
+              ],
+              "t_dirt"
+            ],
+            "|": "t_rock_red",
+            "<": "t_wood_stairs_up",
+            ">": "t_wood_stairs_down",
+            "+": "t_door_red_c"
+          },
+          "furniture": {
+            "7": "f_bench",
+            "%": [
+              [
+                "f_boulder_medium",
+                2
+              ],
+              [
+                "f_boulder_small",
+                1
+              ],
+              [
+                "f_boulder_large",
+                3
+              ]
+            ],
+            "y": [
+              "f_indoor_plant_y",
+              "f_indoor_plant"
+            ],
+            "h": "f_chair",
+            "X": "f_sofa",
+            "t": "f_table",
+            "C": "f_armchair",
+            "a": "f_rack_coat",
+            "g": "f_bookcase",
+            "k": "f_floor_lamp",
+            "I": "f_desk",
+            "H": "f_fireplace"
+          },
+          "items": {
+            "g": [
+              {
+                "item": "homebooks",
+                "chance": 20,
+                "repeat": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "item": "magic_shop_books",
+                "chance": 30
+              },
+              {
+                "item": "novels",
+                "chance": 20,
+                "repeat": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "I": [
+              {
+                "item": "office",
+                "chance": 30,
+                "repeat": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "item": "magic_shop_potions",
+                "chance": 20,
+                "repeat": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "item": "magic_shop_wands",
+                "chance": 15
+              },
+              {
+                "item": "enchanted_small_items",
+                "chance": 20
+              }
+            ],
+            "R": {
+              "item": "trash",
+              "chance": 25,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "W": {
+              "item": "stash_wood",
+              "chance": 25,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "t": {
+              "item": "livingroom",
+              "chance": 25,
+              "repeat": [
+                1,
+                2
+              ]
+            },
+            "a": [
+              {
+                "item": "jackets",
+                "chance": 80,
+                "repeat": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "item": "bags",
+                "chance": 60,
+                "repeat": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "item": "magic_shop_clothes",
+                "chance": 40,
+                "repeat": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "item": "enchanted_worn_items",
+                "chance": 20,
+                "repeat": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        }
       }
 
 ]

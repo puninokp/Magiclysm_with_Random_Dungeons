@@ -1018,7 +1018,8 @@
       "//3":"nested_24x24_N",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_house_1", 5 ]
       ]
     },
     "3": {
@@ -1032,35 +1033,39 @@
       "//3":"nested_24x24_W",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_church", 5 ]
       ]
     },
     "5": {
       "//3":"nested_24x24_M",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_magic_shop_2", 5 ]
       ]
     },
     "6": {
       "//3":"nested_24x24_E",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_magic_shop", 5 ]
       ]
     },
     "7": {
       "//3":"nested_24x24_SW",
       "chunks": [                 
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ]
       ]
     },
     "8": {
       "//3":"nested_24x24_S",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_house_2", 5 ]
       ]
     },
     "9": {
@@ -1080,7 +1085,6 @@
     "1": {
       "//3":"nested_12x12",
       "chunks": [
-        [ "PSY_magi_nested_room_12x12_null", 10 ],
         [ "PSY_magi_nested_room_12x12_city_cabin", 20 ],
         [ "PSY_magi_nested_room_12x12_city_shop_1", 20 ],
         [ "PSY_magi_nested_room_12x12_city_camp", 20 ],
@@ -1091,7 +1095,6 @@
     "2": {
       "//3":"nested_12x12",
       "chunks": [
-        [ "PSY_magi_nested_room_12x12_null", 10 ],
         [ "PSY_magi_nested_room_12x12_city_crate", 20 ],
         [ "PSY_magi_nested_room_12x12_city_shop_2", 20 ],
         [ "PSY_magi_nested_room_12x12_city_park", 5 ],
@@ -1103,7 +1106,6 @@
     "3": {
       "//3":"nested_12x12",
       "chunks": [
-        [ "PSY_magi_nested_room_12x12_null", 10 ],
         [ "PSY_magi_nested_room_12x12_city_residential", 20 ],
         [ "PSY_magi_nested_room_12x12_city_farm", 20 ],
         [ "PSY_magi_nested_room_12x12_city_park_2", 20 ],
@@ -1114,7 +1116,6 @@
     "4": {
       "//3":"nested_12x12",
       "chunks": [
-        [ "PSY_magi_nested_room_12x12_null", 10 ],
         [ "PSY_magi_nested_room_12x12_city_house_1", 20 ],
         [ "PSY_magi_nested_room_12x12_city_house_2", 20 ],
         [ "PSY_magi_nested_room_12x12_city_restraunt", 20 ],
