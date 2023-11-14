@@ -2922,7 +2922,7 @@ msgid "Mana Heal"
 msgstr "マナ回復"
 
 msgid "Summon a flying eye"
-msgstr "サモン　フライングアイ"
+msgstr "サモン フライングアイ"
 
 msgid "Summon a flying eye at target location, It has the ability to share its vision with you without moving from its spot"
 msgstr "対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
@@ -2935,13 +2935,13 @@ msgstr "このトークンは、クラフトメニューでノーマル魔法の
 
 msgid "Scroll of [Summon a flying eye]"
 msgid_plural "Scrolls of [Summon a flying eye]"
-msgstr[0] "【サモン　フライングアイ】の巻物"
+msgstr[0] "巻物:【サモン フライングアイ】"
 
 msgid "You can read this scroll to learn [Summon a flying eye].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
-msgstr "この巻物を読むと[サモン　フライングアイ]を習得できる。対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
+msgstr "この巻物を読むと[サモン フライングアイ]を習得できる。対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
 
 msgid "[1 Magical Forest Core] a Spell Token"
-msgstr "[魔法コア：森1個]スペルトークン1個"
+msgstr "[魔法コア:森1個]スペルトークン1個"
 
 msgid "[30 Magical Coin] a Spell Token"
 msgstr "[魔法のコイン30枚]スペルトークン1個"
@@ -3120,7 +3120,7 @@ msgstr "対象の敵にレーザーを照射し続ける魔法の塔です。そ
 
 msgid "Scroll of [Summon Magic Tower]"
 msgid_plural "Scrolls of [Summon Magic Tower]"
-msgstr[0] "【召喚：マジックタワー】の巻物"
+msgstr[0] "巻物:【召喚：マジックタワー】"
 
 msgid "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
 msgstr "この巻物を読むと[召喚：マジックタワー]を習得できる。対象の敵にレーザーを照射し続ける魔法の塔を召喚します。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
