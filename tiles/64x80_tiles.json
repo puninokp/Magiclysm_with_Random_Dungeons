@@ -64,6 +64,9 @@
             ]
             },
             { "id": "PSY_mon_gargoyle" ,"fg": 19},
+            { "id": "PSY_mon_dragon_head_green_friendly" ,"fg": 20},
+            { "id": "PSY_mon_castle_friendly" ,"fg": 22},
+            { "id": "PSY_mon_mutant_bee_demon_friendly" ,"fg": 27},
             { "id": "PSY_magi_mon_beehive_portal", "rotates": false,"animated": true,"fg":
             [
             {"weight": 30, "sprite":30},

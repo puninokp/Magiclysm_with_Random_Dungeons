@@ -7,6 +7,7 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_mana_turret_random", "level": 0 },
           { "id": "PSY_magi_item_spell_detonate_ice_crystal", "level": 0 },
           { "id": "PSY_anomaly_monster_caller", "level": 0 },
@@ -180,6 +181,7 @@
         "skills": [ { "level": 2, "name": "firstaid" },{ "level": 4, "name": "driving" }, { "level": 3, "name": "spellcraft" }, { "level": 3, "name": "mechanics" } ],
         "proficiencies": [ "prof_helicopter_pilot" ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_spell_vacuum", "level": 1 },
           { "id": "PSY_magi_spell_magnetic_field", "level": 1 },
           { "id": "PSY_magi_spell_remove_telegrow", "level": 1 },
@@ -206,6 +208,7 @@
         "points": 6,
         "skills": [ { "level": 4, "name": "firstaid" },{ "level": 2, "name": "cooking" }, { "level": 3, "name": "spellcraft" }, { "level": 5, "name": "survival" } ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_spawn_vine_tentacle", "level": 1 },
           { "id": "PSY_magi_spawn_plant_shooter", "level": 1 },
           { "id": "PSY_magi_spell_Tangled_vine_line", "level": 1 },
@@ -241,6 +244,7 @@
         "points": 7,
         "skills": [ { "level": 3, "name": "firstaid" },{ "level": 4, "name": "tailor" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_spawn_fear_totem", "level": 1 },
           { "id": "PSY_magi_spawn_charm_totem", "level": 1 },
           { "id": "PSY_magi_spawn_blind_totem", "level": 1 },
@@ -276,6 +280,7 @@
         "points": 10,
         "skills": [  { "level": 7, "name": "spellcraft" }],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_summon_guided_missile", "level": 1 },
           { "id": "PSY_magi_spawn_pushing_orb", "level": 1 },
           { "id": "PSY_magi_call_lightning_tornado", "level": 5 },
@@ -312,6 +317,7 @@
         "points": 7,
         "skills": [  { "level": 3, "name": "melee" },{ "level": 2, "name": "speech" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_summon_animated_steel_utensil", "level": 1 },
           { "id": "PSY_magi_summon_flying_skul", "level": 1 },
           { "id": "PSY_magi_spell_Create_Sanctuary", "level": 1 },
@@ -347,6 +353,7 @@
         "points": 7,
         "skills": [  { "level": 4, "name": "firstaid" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_clone", "level": 5 }
         ],
         "traits": [ "PSY_MANA_REGEN11"],
@@ -374,6 +381,7 @@
           { "level": 3, "name": "spellcraft" }
         ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_summon_blade_dance", "level": 5 },
           { "id": "PSY_magi_summon_boomerang", "level": 5 },
           { "id": "PSY_magi_conj_blade_of_air", "level": 5 },
@@ -412,6 +420,7 @@
           { "level": 6, "name": "spellcraft" }
         ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_spell_Eisbahn_main", "level": 5 },
           { "id": "PSY_magi_conj_ice_barrage", "level": 5 },
           { "id": "PSY_magi_summon_golem_ice", "level": 5 },
@@ -453,6 +462,7 @@
           { "level": 5, "name": "spellcraft" }
         ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_mana_turret_random", "level": 5 },
           { "id": "PSY_magi_create_mana_mech_pod", "level": 5 },
           { "id": "PSY_magi_summon_magic_cannon", "level": 5 },
@@ -505,6 +515,7 @@
           { "level": 3, "name": "spellcraft" }
         ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_mana_bullet_fast", "level": 5 },
           { "id": "PSY_magi_create_mana_pistol", "level": 5 }
         ],
@@ -547,6 +558,7 @@
           { "level": 4, "name": "spellcraft" }
         ],
         "spells": [ 
+          { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_arrow_metal_electric", "level": 5 },
           { "id": "PSY_magi_thunder_step", "level": 1 },
           { "id": "PSY_magi_call_thunder_falcon", "level": 3 }

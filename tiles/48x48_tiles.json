@@ -304,6 +304,15 @@
             {"weight": 10, "sprite":307},
             {"weight": 10, "sprite":308}
             ]
+            },
+
+            { "id":  [ "PSY_mon_soul_collector_merchant", "PSY_mon_soul_collector" ] , "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 30, "sprite":310},
+              {"weight": 30, "sprite":311},
+              {"weight": 30, "sprite":312},
+              {"weight": 30, "sprite":313}
+            ]
             }
           ]
         }

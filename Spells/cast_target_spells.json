@@ -430,6 +430,25 @@
       "energy_increment": -5,
       "final_energy_cost": 250
 
+    },
+
+    {
+      "id": "PSY_magi_meditation_mana",
+      "type": "SPELL",
+      "name": "Mana Meditation",
+      "description": "Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP.",
+      "valid_targets": [ "self" ],
+      "flags": ["CONCENTRATE","SILENT","NO_PROJECTILE","NO_LEGS" ],
+      "effect": "recover_energy",
+      "effect_str": "MANA",
+      "shape": "blast",
+      "spell_class": "NONE",
+      "min_damage": 300,
+      "damage_increment": 30,
+      "max_damage": 600,
+      "difficulty": 1,
+      "base_casting_time": 360000,
+      "max_level": 10
     }
 
 

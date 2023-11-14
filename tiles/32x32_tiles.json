@@ -341,6 +341,10 @@
             {"weight": 50, "sprite":509}
             ]
             },
+            { "id": "PSY_mon_karakuri_puppet_magic_image" ,"fg": 519},
+            { "id": "PSY_mon_karakuri_puppet_bow" ,"fg": 520},
+            { "id": "PSY_mon_karakuri_puppet_magic" ,"fg": 521},
+            { "id": "PSY_mon_karakuri_puppet_sword" ,"fg": 522},
             { "id": "PSY_fd_honey", "rotates": false,"fg":
             [
             {"weight": 10, "sprite":550},

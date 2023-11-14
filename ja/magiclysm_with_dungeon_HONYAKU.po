@@ -4603,6 +4603,9 @@ msgstr "周囲のキノコを破壊されたことにより怒ったキノコで
 msgid "Unicorn"
 msgstr "ユニコーン"
 
+msgid "friendly unicorn"
+msgstr "友好的なユニコーン"
+
 msgid "unicorn has iridescent hair. Their iridescent hair is often long and flowing and radiant. Their bodies are also very graceful, usually with pure white fur and shining eyes."
 msgstr "虹色の髪を生やしたユニコーンです。彼らの虹色の髪は、多くの場合は長く流れるようなものであり、輝きを放っています。また彼らの身体も非常に優美で、通常は真っ白な毛皮を持ち、輝くような目をしています。"
 
@@ -5578,3 +5581,70 @@ msgstr[0] "キチンの鎧靴"
 
 msgid "greave boots made of chitin. Water repellent and excellent for long trips even on rainy days."
 msgstr "キチンで作られたグリーブブーツ。撥水性で雨の日でも遠出が出来る優れもの。"
+
+msgid "soul collector"
+msgstr "ソウルコレクター"
+
+msgid "Soul collectors appear in eerie cemeteries and deep in magical labyrinths and make their living collecting the souls of the dead. Their skulls bear the weight of the souls they have taken from the dead, and their eyes hold the knowledge of magical secrets. Soul collectors are ruthless and mysterious, their words suggestive, and the terms of their contracts never explicit."
+msgstr "ソウルコレクターは、不気味な墓地や魔法の迷宮の奥深くに現れ、死者の魂を集めることを生業としています。彼らの頭蓋骨は、死者たちから奪った魂の重みを示し、その瞳は魔法の秘密を知る知識を宿しています。ソウルコレクターは、冷酷で謎めいた存在であり、彼らの言葉は暗示的で、契約の条件は決して明示されません。"
+
+msgid "Merchant\n\nSoul collectors appear in eerie cemeteries and deep in magical labyrinths and make their living collecting the souls of the dead. Their skulls bear the weight of the souls they have taken from the dead, and their eyes hold the knowledge of magical secrets. Soul collectors are ruthless and mysterious, their words suggestive, and the terms of their contracts never explicit."
+msgstr "商人\n\nソウルコレクターは、不気味な墓地や魔法の迷宮の奥深くに現れ、死者の魂を集めることを生業としています。彼らの頭蓋骨は、死者たちから奪った魂の重みを示し、その瞳は魔法の秘密を知る知識を宿しています。ソウルコレクターは、冷酷で謎めいた存在であり、彼らの言葉は暗示的で、契約の条件は決して明示されません。"
+
+msgid "friendly green dragonhead"
+msgstr "友好的なグリーンドラゴンヘッド"
+
+msgid "The Green Dragonhead is a fearsome entity that reveals itself from within a whirlpool by exposing only its green head. They emerge from the magical whirlpools exposing only their massive green heads. Their green scales reflect the power of life and the magic of nature, and their eyes hold deep wisdom."
+msgstr "渦潮の中から、その緑色の頭だけを露出させる恐るべき存在、それがグリーンドラゴンヘッドです。彼らは魔法の渦潮の中から、その巨大な緑色の頭部だけを露出させて姿を現します。彼らの緑色の鱗は、生命の力と自然の魔法を反映し、瞳には深い知恵を宿しています。"
+
+msgid "Mutant bee demon"
+msgstr "ミュータントハチ魔人"
+
+msgid "Mutant bee demon were once ordinary bees, but their form and power have changed drastically under the influence of forbidden magic and depravity. Because their wings have degenerated, they cannot fly, but can move quickly and attack through magic."
+msgstr "ミュータントハチ魔人は、かつては普通のハチでしたが、禁断の魔法や堕落の影響を受け、その形態と力が極端に変化しました。翼が退化しているため、飛翔はできないが、魔法によって迅速に移動し、攻撃を仕掛けることが出来ます。"
+
+msgid "Merchant\n\nMutant bee demon were once ordinary bees, but their form and power have changed drastically under the influence of forbidden magic and depravity. Because their wings have degenerated, they cannot fly, but can move quickly and attack through magic."
+msgstr "商人\n\nミュータントハチ魔人は、かつては普通のハチでしたが、禁断の魔法や堕落の影響を受け、その形態と力が極端に変化しました。翼が退化しているため、飛翔はできないが、魔法によって迅速に移動し、攻撃を仕掛けることが出来ます。"
+
+msgid "Karakuri Puppet Castle"
+msgstr "からくり人形の城"
+
+msgid "Merchant\n\nThe castle was once built by a great wizard, and its interior is said to be littered with intricate magical and mechanical contraptions, rusting gears and bewitching singing voices!"
+msgstr "商人\n\nこの城は、かつては偉大な魔法師によって造られ、その内部には魔法と機械の複雑な仕掛けが散りばめられ、錆びついた歯車と妖しい歌声が響くと言われています"
+
+msgid "karakuri puppet: Sword"
+msgstr "からくり人形：剣"
+
+msgid "Karakuri puppet swordsmen mimic the human form but have cogs and gears built into them and a core that is powered by magic. They were once created by ancient magicians and serve as guardians of castles and labyrinths even now that the magicians have disappeared."
+msgstr "からくり人形の剣士は、人間の形を模倣しながらも、その内部には歯車やギアが組み込まれており、魔法によって動くコアを持っています。彼らはかつて、古代の魔法師によって創り出され、魔術師が消えた現在でも城や迷宮の守護者として仕えております。"
+
+msgid "karakuri puppet: Bow"
+msgstr "からくり人形：弓"
+
+msgid "Karakuri puppet bowmen mimic the human form but have cogs and gears built into them and a core that is powered by magic. They were once created by ancient magicians and serve as guardians of castles and labyrinths even now that the magicians have disappeared."
+msgstr "からくり人形の弓兵は、人間の形を模倣しながらも、その内部には歯車やギアが組み込まれており、魔法によって動くコアを持っています。彼らはかつて、古代の魔法師によって創り出され、魔術師が消えた現在でも城や迷宮の守護者として仕えております。"
+
+msgid "Karakuri puppet bowmen mimic the human form but have cogs and gears built into them and a core that is powered by magic. They, unlike swordsmen, attack at long range and perform evasive maneuvers when the enemy approaches."
+msgstr "からくり人形の弓兵は、人間の形を模倣しながらも、その内部には歯車やギアが組み込まれており、魔法によって動くコアを持っています。彼らは剣士とは違い、遠距離攻撃を行い、敵が接近してきた際に回避行動を行います。"
+
+msgid "The archer shot an arrow!"
+msgstr "からくり射手は矢を射た!"
+
+msgid "karakuri puppet: Magic"
+msgstr "からくり人形：魔法"
+
+msgid "Karakuri puppet mages mimic the human form but have cogs and gears built into them and a core that is powered by magic. They use a variety of magic to keep their enemies at their mercy."
+msgstr "からくり人形の魔術師は、人間の形を模倣しながらも、その内部には歯車やギアが組み込まれており、魔法によって動くコアを持っています。彼らは様々な魔法を使い、敵を翻弄させます。"
+
+msgid "Mana Meditation"
+msgstr "マナ瞑想"
+
+msgid "Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP."
+msgstr "1時間の瞑想を行い、MPを回復します。\n\nレベルが0の時は300のMPが回復し、\nレベルが10の時は600のMPが回復します。"
+
+msgid "Scroll of [Mana Meditation]"
+msgid_plural "Scrolls of [Mana Meditation]"
+msgstr[0] "巻物:【マナ瞑想】"
+
+msgid "You can read this scroll to learn [Mana Meditation].\n Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP."
+msgstr "この巻物を読むと[マナ瞑想]を習得できる。1時間の瞑想を行い、MPを回復します。\n\nレベルが0の時は300のMPが回復し、\nレベルが10の時は600のMPが回復します。"

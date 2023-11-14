@@ -80,7 +80,7 @@
             "#": "t_strconc_wall",
             "t": "t_ov_reb_cage",
             "%": "PSY_magi_t_carpet_red",
-            "W": "t_water_dp",
+            "W": "t_water_sh",
             "3": "t_water_moving_sh_underground",
             " ": "t_region_groundcover_forest",
             "T": "t_trunk",
@@ -157,7 +157,7 @@
             "#": "t_strconc_wall",
             "t": "t_ov_reb_cage",
             "%": "PSY_magi_t_carpet_red",
-            "W": "t_water_dp",
+            "W": "t_water_sh",
             "3": "t_water_moving_sh_underground",
             " ": "t_region_groundcover_forest",
             "T": "t_trunk",
@@ -234,7 +234,7 @@
             "#": "t_strconc_wall",
             "t": "t_ov_reb_cage",
             "%": "PSY_magi_t_carpet_red",
-            "W": "t_water_dp",
+            "W": "t_water_sh",
             "3": "t_water_moving_sh_underground",
             " ": "t_region_groundcover_forest",
             "T": "t_trunk",
@@ -1733,13 +1733,13 @@
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
             "|": "t_water_sh",
-            "+": "t_water_dp",
+            "+": "t_water_sh",
             " ": "PSY_magi_t_dirt",
             "%": "PSY_magi_t_dirt",
             "$": "PSY_magi_t_dirt",
             "=": [ 
               [ "t_water_sh", 1 ], 
-              [ "t_water_dp", 2 ]
+              [ "t_water_sh", 2 ]
             ],
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",
@@ -1776,13 +1776,13 @@
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
             "|": "t_water_sh",
-            "+": "t_water_dp",
+            "+": "t_water_sh",
             " ": "PSY_magi_t_dirt",
             "%": "PSY_magi_t_dirt",
             "$": "PSY_magi_t_dirt",
             "=": [ 
               [ "t_water_sh", 1 ], 
-              [ "t_water_dp", 4 ]
+              [ "t_water_sh", 4 ]
             ],
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",
@@ -1819,13 +1819,13 @@
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
             "|": "t_water_sh",
-            "+": "t_water_dp",
+            "+": "t_water_sh",
             " ": "PSY_magi_t_dirt",
             "%": "PSY_magi_t_dirt",
             "$": "PSY_magi_t_dirt",
             "=": [ 
               [ "t_water_sh", 1 ], 
-              [ "t_water_dp", 4 ]
+              [ "t_water_sh", 4 ]
             ],
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",
@@ -1862,13 +1862,13 @@
           "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
           "terrain": {
             "|": "t_water_sh",
-            "+": "t_water_dp",
+            "+": "t_water_sh",
             " ": "PSY_magi_t_dirt",
             "%": "PSY_magi_t_dirt",
             "$": "PSY_magi_t_dirt",
             "=": [ 
               [ "t_water_sh", 1 ], 
-              [ "t_water_dp", 4 ]
+              [ "t_water_sh", 4 ]
             ],
             ",": "PSY_magi_t_dirt",
             "~": "PSY_magi_t_dirt",

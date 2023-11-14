@@ -704,6 +704,22 @@
         "symbol": "?",
         "color": "light_red",
         "use_action": { "type": "learn_spell", "spells": ["PSY_magi_create_mana_bullet_fast", "PSY_magi_create_mana_pistol"] }
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_meditation_mana",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_meditation_mana" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Mana Meditation]", "str_pl": "Scrolls of [Mana Meditation]" },
+        "description": "You can read this scroll to learn [Mana Meditation].\n Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP."
     }
 
 ]
