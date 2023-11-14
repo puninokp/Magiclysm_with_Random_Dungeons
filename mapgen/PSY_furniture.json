@@ -893,6 +893,7 @@
       "effect_on_conditions": ["EOC_PSY_treasure_bash"]
     }
 	},
+  
 
   {
 		"type":"furniture",
@@ -1703,6 +1704,31 @@
       "type": "effect_on_condition",
       "effect_on_conditions": ["EOC_PSY_sword_open"]
     }
-  }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_food_box",
+		"name":"Food box",
+		"description":"Breaking this box to get some food.",
+		"symbol":"B",
+		"color":"light_green",
+		"light_emitted":1,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_food_box_collection"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	}
 
 ]

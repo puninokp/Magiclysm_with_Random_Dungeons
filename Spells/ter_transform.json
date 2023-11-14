@@ -693,6 +693,18 @@
             "valid_furniture": [ "f_null" ]    
           }
         ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_f_food_box_transform",
+        "furniture":[
+
+          {
+            "result": [  "PSY_magi_f_food_box" ],
+            "valid_furniture": [ "f_null" ]    
+          }
+        ]
       }
 
 ]

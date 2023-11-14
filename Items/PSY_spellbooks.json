@@ -720,6 +720,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Mana Meditation]", "str_pl": "Scrolls of [Mana Meditation]" },
         "description": "You can read this scroll to learn [Mana Meditation].\n Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_create_food_box",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_create_food_box" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Create foods]", "str_pl": "Scrolls of [Create foods]" },
+        "description": "You can read this scroll to learn [Create foods].\n 10 Magical Coin or Magical Forest Coin and MP to summon a box that, when broken, will yield some food.\n\n If you make it in a place where there is furniture, it will fail."
     }
 
 ]

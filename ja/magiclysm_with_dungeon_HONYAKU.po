@@ -1265,7 +1265,7 @@ msgid "Seeds that grow friendly vines as soon as they are planted."
 msgstr "植えるとすぐに友好的な蔓が生えてくる魔法の種。"
 
 msgid "Magical Coin"
-msgstr "魔法のコイン"
+msgstr "魔法コイン"
 
 msgid "magical sentry-plant seeds"
 msgstr "魔法のセントリープラントの種"
@@ -2290,10 +2290,10 @@ msgid "Magic 3D printers of [Turret]"
 msgstr "魔法の3Dプリンター[タレット]"
 
 msgid "This is a magical 3D printer that produces turrets when you start it up after putting 15 magic coins in it!"
-msgstr "魔法のコインを15枚入れて起動すると、瞬時にタレットが出来上がる魔法の3Dプリンターです!残念ながら弾はついてきません"
+msgstr "魔法コインを15枚入れて起動すると、瞬時にタレットが出来上がる魔法の3Dプリンターです!残念ながら弾はついてきません"
 
 msgid "This is stored in a small glass box with a minuscule fairy that makes two coins each day, which are stored in a cellar that can be opened and closed."
-msgstr "これは極小の妖精がいる小さなガラス箱です。その妖精は毎日2枚ずつ魔法のコインを作ってくれます。"
+msgstr "これは極小の妖精がいる小さなガラス箱です。その妖精は毎日2枚ずつ魔法コインを作ってくれます。"
 
 msgid "The Straight Sword of Death of Yaeza is a sword that appears in the Tales of King Walilnoth.This sword is also known as the 'Sword of Reincarnation,' which derives from the fact that those who are buried by this sword will be reincarnated.The straight sword of death of Yaeza belonged to one of the four swordsmen that King Walilnose chose as his companions when he set out on his adventurous journey.The swordsman's name was Yaeza, who was not only an outstanding swordsman, but also a man of outstanding character, and King Walilnorth trusted him deeply.However, Yaeza lost his life during the journey.The sword, which remained in his hand even after Yaeza's death, had a mysterious power: it could guide mortals to their destiny.It is also said that those who are buried with this sword can be reborn into a new life."
 msgstr "ヤエザの死の直剣とは、ワリルノース王物語に登場する剣である。この剣は別名で、輪廻の剣と呼ばれることもあり、その由来は、この剣により葬られた者は転生することに由来する。"
@@ -2602,7 +2602,7 @@ msgid "Magical Forest Core"
 msgstr "魔法コア：森"
 
 msgid "Magical Forest Coin"
-msgstr "魔法硬貨：森"
+msgstr "魔法コイン：森"
 
 msgid "These coins are used in the crafting menu to enhance your body and acquire magic."
 msgstr "これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
@@ -2611,19 +2611,19 @@ msgid "a rare item that can be obtained from monsters in the forest dungeon by c
 msgstr "森のダンジョンでモンスターから偶に入手できるレアアイテム。これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
 
 msgid "[30 Magical Forest Coin] a longsword +2"
-msgstr "[魔法硬貨：森30枚]ロングソード+2"
+msgstr "[魔法コイン：森30枚]ロングソード+2"
 
 msgid "[35 Magical Forest Coin] a sledge hammer +2"
-msgstr "[魔法硬貨：森35枚]スレッジハンマー+2"
+msgstr "[魔法コイン：森35枚]スレッジハンマー+2"
 
 msgid "[40 Magical Forest Coin] a halberd +2"
-msgstr "[魔法硬貨：森40枚]ハルバード+2"
+msgstr "[魔法コイン：森40枚]ハルバード+2"
 
 msgid "[30 Magical Forest Coin] a morningstar +2"
-msgstr "[魔法硬貨：森30枚]モーニングスター+2"
+msgstr "[魔法コイン：森30枚]モーニングスター+2"
 
 msgid "[40 Magical Forest Coin] a rapier +2"
-msgstr "[魔法硬貨：森40枚]レイピア+2"
+msgstr "[魔法コイン：森40枚]レイピア+2"
 
 msgid "[1 Magical Forest Core] a Magus battle staff"
 msgstr "[魔法コア：森1個]メイガスバトルスタッフ"
@@ -2656,10 +2656,10 @@ msgid "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang 
 msgstr "この巻物を読むと[投擲：ブーメラン]を習得できる。自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
 
 msgid "[50 Magical Forest Coin] a Magical Forest Core"
-msgstr "[魔法硬貨：森50枚]魔法コア：森1個"
+msgstr "[魔法コイン：森50枚]魔法コア：森1個"
 
 msgid "[10 Magical Coin] 15 Magical Forest Coin"
-msgstr "[魔法のコイン10枚】魔法硬貨：森15個"
+msgstr "[魔法コイン10枚】魔法コイン：森15個"
 
 msgid "[1 Magical Forest Core] a ring of wizardry"
 msgstr "[魔法コア：森1個】魔力の指輪Lv3"
@@ -2944,7 +2944,7 @@ msgid "[1 Magical Forest Core] a Spell Token"
 msgstr "[魔法コア:森1個]スペルトークン1個"
 
 msgid "[30 Magical Coin] a Spell Token"
-msgstr "[魔法のコイン30枚]スペルトークン1個"
+msgstr "[魔法コイン30枚]スペルトークン1個"
 
 msgid "CSC_MAGI_EQUIPMENT"
 msgstr "装備"
@@ -3207,10 +3207,10 @@ msgid "This is a scroll of create pistol\n When you read it, Creates a random ri
 msgstr "これはライフル作成の巻物です。これを読むと、目標地点にランダムなライフルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
 
 msgid "[30 Magical Forest Coin] a random pistol with its ammo"
-msgstr "[魔法硬貨：森30枚]ガチャ：弾薬付きピストル"
+msgstr "[魔法コイン：森30枚]ガチャ：弾薬付きピストル"
 
 msgid "[40 Magical Forest Coin] a random rifle with its ammo"
-msgstr "[魔法硬貨：森40枚]ガチャ：弾薬付きライフル"
+msgstr "[魔法コイン：森40枚]ガチャ：弾薬付きライフル"
 
 msgid "Cannon"
 msgstr "大砲"
@@ -5647,4 +5647,27 @@ msgid_plural "Scrolls of [Mana Meditation]"
 msgstr[0] "巻物:【マナ瞑想】"
 
 msgid "You can read this scroll to learn [Mana Meditation].\n Meditate for 1 hour to recover MP.\n\nWhen the level is 0, 300 MP is recovered,\nWhen the level is 10, it recovers 600 MP."
-msgstr "この巻物を読むと[マナ瞑想]を習得できる。1時間の瞑想を行い、MPを回復します。\n\nレベルが0の時は300のMPが回復し、\nレベルが10の時は600のMPが回復します。"
+msgstr "この巻物を読むと[マナ瞑想]を習得できる。\n1時間の瞑想を行い、MPを回復します。\n\nレベルが0の時は300のMPが回復し、\nレベルが10の時は600のMPが回復します。"
+
+msgid "Create foods"
+msgstr "クリエイト:食料"
+
+msgid "10 Magical Coin or Magical Forest Coin and MP to summon a box with some food.\n\n If you make it in a place where there is furniture, it will fail."
+msgstr "10枚の魔法コイン又は魔法コイン:森とマナを消費し、いくつかの食料が入った箱を召喚する。\n\n家具がある場所に作ると失敗します。"
+
+msgid "10 Magical Coin or Magical Forest Coin and MP to summon a box that, when broken, will yield some food.\n\n If you make it in a place where there is furniture, it will fail."
+msgstr "10枚の魔法コイン又は魔法コイン:森とマナを消費し、壊すといくつかの食料が出てくる箱を召喚する。\n\n家具がある場所に作ると失敗します。"
+
+msgid "Food box"
+msgstr "食料箱"
+
+msgid "Breaking this box to get some food."
+msgstr "この箱を壊せば、食料を手に入れることができる。"
+
+msgid "Scroll of [Create foods]"
+msgid_plural "Scrolls of [Create foods]"
+msgstr[0] "巻物:【クリエイト:食料】"
+
+msgid "You can read this scroll to learn [Create foods].\n 10 Magical Coin or Magical Forest Coin and MP to summon a box that, when broken, will yield some food.\n\n If you make it in a place where there is furniture, it will fail."
+msgstr "この巻物を読むと[クリエイト:食料]を習得できる。\n10枚の魔法コイン又は魔法コイン:森とマナを消費し、壊すといくつかの食料が出てくる箱を召喚する。\n\n家具がある場所に作ると失敗します。"
+

@@ -583,6 +583,22 @@
           { "group": "enchanted_tools_plus2", "prob": 20 },
           { "group": "demon_spider_lair_treasure", "prob": 5 }
         ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_food_box_collection",
+        "entries": [
+          { "group": "cannedfood", "prob": 10 },
+          { "group": "foodintincan", "prob": 10 },
+          { "group": "softdrinks_canned", "prob": 100 },
+          { "group": "snacks", "prob": 100 },
+          { "group": "dessert", "prob": 5 },
+          { "group": "any_wild_egg", "prob": 2, "count": 10 },
+          { "group": "produce", "prob": 100, "count": 3 },
+          { "group": "fresh_produce", "prob": 100 , "count": 3}
+        ]
       }
 
 

@@ -99,6 +99,19 @@
       },
 
       {
+        "id": "PSY_magi_spell_components_coin_10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "PSY_magi_magical_coin_forest", 10 ],
+                [ "PSY_magi_magical_coin_bronze", 10 ]
+              ] 
+            
+            ]
+      },
+
+      {
         "id": "PSY_magi_spell_components_magical_coin_forest30",
         "type": "requirement",
         "//": "Sling for the Impact Sling spell",

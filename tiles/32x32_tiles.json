@@ -333,6 +333,14 @@
             {"weight": 50, "sprite":489}
             ]
             },
+            { "id": "PSY_magi_f_food_box", "rotates": false,"animated": false,"fg":
+            [
+            {"weight": 50, "sprite":501},
+            {"weight": 50, "sprite":503},
+            {"weight": 50, "sprite":505},
+            {"weight": 50, "sprite":506}
+            ]
+            },
             { "id": "PSY_fd_healing_heart", "rotates": false,"animated": true,"fg":
             [
             {"weight": 50, "sprite":507},
