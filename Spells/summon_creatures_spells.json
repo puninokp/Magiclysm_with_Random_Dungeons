@@ -312,6 +312,7 @@
         "base_casting_time": 300,
         "casting_time_increment": -5.0,
         "final_casting_time": 200,
+        "min_aoe": 1,
         "min_range": 5,
         "max_range": 15,
         "range_increment": 0.5,

@@ -137,6 +137,7 @@
         "skills": [
           { "level": 10, "name": "spellcraft" }
         ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_STORE1000" ],
         "proficiencies": [ "prof_helicopter_pilot" ],
         "items": {
           "both": {
@@ -189,7 +190,7 @@
           { "id": "PSY_magi_mindcontrol", "level": 1 },
           { "id": "PSY_magi_summon_magic_UFO", "level": 3 }    
         ],
-        "traits": [ "PSY_MANA_STORE1000" ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_STORE1000" ],
         "items": {
           "both": {
             "items": [ "backpack","PSY_magi_weapon_charm_spear","pants_cargo", "PSY_magi_forest_dungeon_map","socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses" ],
@@ -215,7 +216,7 @@
           { "id": "PSY_magi_summon_magic_5x5box", "level": 1 },     
           { "id": "PSY_magi_spell_create_orchard", "level": 1 }
         ],
-        "traits": [ "PSY_PLANT_MUTATION" ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_PLANT_MUTATION" ],
         "items": {
           "both": {
             "items": [ 
@@ -251,7 +252,7 @@
           { "id": "PSY_magi_spell_Speed_UP_line", "level": 1 },
           { "id": "PSY_magi_spell_Create_Sanctuary", "level": 1 }
         ],
-        "traits": [ "PSY_MANA_STORE500" ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_STORE500" ],
         "items": {
           "both": {
             "items": [ 
@@ -288,7 +289,7 @@
           { "id": "PSY_magi_open_summon_gate", "level": 1 },
           { "id": "PSY_magi_meteor", "level": 1 }
         ],
-        "traits": [ "PSY_MANA_STORE1500"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_STORE1500"],
         "items": {
           "both": {
             "items": [ 
@@ -324,7 +325,7 @@
           { "id": "PSY_magi_spawn_resurrect_orb", "level": 1 },
           { "id": "PSY_magi_open_summon_gate", "level": 1 }
         ],
-        "traits": [ "PSY_MANA_REGEN11"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_REGEN11"],
         "items": {
           "both": {
             "items": [ 
@@ -356,7 +357,7 @@
           { "id": "PSY_magi_meditation_mana", "level": 0 },
           { "id": "PSY_magi_create_clone", "level": 5 }
         ],
-        "traits": [ "PSY_MANA_REGEN11"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_REGEN11"],
         "items": {
           "both": {
             "items": [ "backpack","PSY_magi_weapon_thrust_dagger_mana", "pants_cargo","PSY_magi_forest_dungeon_map", "socks", "polo_shirt", "boots", "wristwatch", "fancy_sunglasses","PSY_magi_wand_summon_clone" ],
@@ -387,7 +388,7 @@
           { "id": "PSY_magi_conj_blade_of_air", "level": 5 },
           { "id": "PSY_magi_sweep", "level": 1 }
         ],
-        "traits": [ "PSY_MANA_REGEN11"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_MANA_REGEN11"],
         "items": {
           "both": {
             "items": [
@@ -427,7 +428,7 @@
           { "id": "PSY_magi_item_spell_summon_ice_crystal", "level": 1 },
           { "id": "PSY_magi_item_spell_detonate_ice_crystal", "level": 0 }
         ],
-        "traits": [ "PSY_RESISTCOLD"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_RESISTCOLD"],
         "items": {
           "both": {
             "items": [
@@ -469,7 +470,7 @@
           { "id": "PSY_magi_create_mana_turret_ammo", "level": 0 },
           { "id": "PSY_magi_create_mana_cannon_ammo", "level": 0 }
         ],
-        "traits": [ "PSY_RESISTHEAT"],
+        "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_RESISTHEAT"],
         "items": {
           "both": {
             "items": [
@@ -519,7 +520,7 @@
           { "id": "PSY_magi_create_mana_bullet_fast", "level": 5 },
           { "id": "PSY_magi_create_mana_pistol", "level": 5 }
         ],
-        "traits": [ ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE"],
         "items": {
           "both": {
             "items": [
@@ -563,7 +564,7 @@
           { "id": "PSY_magi_thunder_step", "level": 1 },
           { "id": "PSY_magi_call_thunder_falcon", "level": 3 }
         ],
-        "traits": [ ],
+        "traits": [ "PSY_magi_DUNGEON_MAGE"],
         "items": {
           "both": {
             "items": [
