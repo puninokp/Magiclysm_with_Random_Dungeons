@@ -5671,3 +5671,9 @@ msgstr[0] "巻物:【クリエイト:食料】"
 msgid "You can read this scroll to learn [Create foods].\n 10 Magical Coin or Magical Forest Coin and MP to summon a box that, when broken, will yield some food.\n\n If you make it in a place where there is furniture, it will fail."
 msgstr "この巻物を読むと[クリエイト:食料]を習得できる。\n10枚の魔法コイン又は魔法コイン:森とマナを消費し、壊すといくつかの食料が出てくる箱を召喚する。\n\n家具がある場所に作ると失敗します。"
 
+msgid "Dungeon Mage"
+msgstr "ダンジョン魔法使い"
+
+msgid "The Dungeon Mage has a lot of useful magic for exploring dungeons full of monsters.\n\n Of course, it is also useful at outdoors!"
+msgstr "このクラスは魔物でいっぱいのダンジョンを探索する際に便利な魔法を沢山取り揃えております。もちろん、野外でも便利ですよ！"
+

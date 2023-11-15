@@ -1,0 +1,15 @@
+[
+  {
+    "type": "mutation",
+    "id": "PSY_magi_DUNGEON_MAGE",
+    "name": { "str": "Dungeon Mage" },
+    "points": 0,
+    "description": "The Dungeon Mage has a lot of useful magic for exploring dungeons full of monsters.\n\n Of course, it is also useful at outdoors!",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "spells_learned": [ ],
+    "moncams": [ [ "PSY_magi_mon_eye_bat", 30 ] ]
+  }
+
+]

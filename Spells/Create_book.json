@@ -16,7 +16,7 @@
         "final_casting_time": 60000,
         "base_energy_cost": 1000,
         "difficulty": 12,
-        "spell_class": "NONE",
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
         "energy_source": "MANA",
         "flags": ["SILENT", "NO_LEGS", "NO_HANDS","WONDER" ],
         "extra_effects": [
