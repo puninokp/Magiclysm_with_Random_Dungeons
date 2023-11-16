@@ -5743,6 +5743,9 @@ msgstr "対象範囲に存在する全ての蘇生可能なゾンビの死体を
 msgid "Control Zombies"
 msgstr "ゾンビ操作"
 
+msgid "Control Zombie"
+msgstr "ゾンビ操作(単体)"
+
 msgid "All zombies in the target area with less than 100 HP will be mentally controlled for a certain period of time and turned to our side."
 msgstr "対象範囲に存在するHPが100以下の全てのゾンビを一定期間精神支配し、こちら側に寝返らせます。"
 
@@ -5782,3 +5785,12 @@ msgstr "あなたはこの日が来ることを知っておりました。今こ
 msgctxt "prof_desc_female"
 msgid "You knew this day would come. Now is the time to build a city of the dead and exterminate the remaining living!"
 msgstr "あなたはこの日が来ることを知っておりました。今こそ死者の街を築き、残っている生者どもを駆逐してやりましょう。"
+
+msgid "Summon Dark Fairy"
+msgstr "召喚：ダークフェアリー"
+
+msgid "Zombie Master's Whip"
+msgstr "ゾンビマスターの鞭"
+
+msgid "This whip cannot inflict damage, but it can mind-control the target zombie for 10 seconds."
+msgstr "この鞭はダメージを与えることが出来ませんが、攻撃対象のゾンビを10秒間マインドコントロールすることが出来ます。"

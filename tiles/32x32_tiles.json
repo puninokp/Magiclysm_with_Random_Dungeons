@@ -173,7 +173,7 @@
             { "id": "overlay_wielded_PSY_magi_cactus_mini_gun" ,"fg": 133},
             { "id": "PSY_magi_turret_generator_box" ,"fg": 134},
 
-            { "id": "explosion_PSY_magi_spell_control_zombie" , "rotates": false,"animated": true,"fg":
+            { "id":  ["explosion_PSY_magi_spell_control_zombie", "explosion_PSY_magi_item_spell_control_zombie_whip" ], "rotates": false,"animated": true,"fg":
             [
             {"weight": 20, "sprite":145},
             {"weight": 20, "sprite":146},
@@ -183,7 +183,7 @@
             ]
             },
 
-            { "id": ["explosion_PSY_magi_spell_evolve_zombies", "PSY_magi_conjure_zombie_disguise" ], "rotates": false,"animated": true,"fg":
+            { "id": ["explosion_PSY_magi_spell_evolve_zombies", "explosion_PSY_magi_conjure_zombie_disguise" ], "rotates": false,"animated": true,"fg":
             [
             {"weight": 20, "sprite":150},
             {"weight": 20, "sprite":151},
@@ -338,6 +338,8 @@
             { "id": "PSY_magi_weapon_charm_spear" ,"fg": 484},
             { "id": "overlay_wielded_PSY_magi_weapon_charm_spear" ,"fg": 485},
             { "id": "metal_vine_whip" ,"fg": 486},
+            { "id": "PSY_magi_weapon_zombie_master_whip" ,"fg": 498},
+            { "id": "overlay_wielded_PSY_magi_weapon_zombie_master_whip" ,"fg": 499},
             { "id": "PSY_mring_mana_recovery_minor" ,"fg": 494},
             { "id": "PSY_mring_mana_recovery_normal" ,"fg": 495},
             { "id": "PSY_mring_mana_recovery_greater" ,"fg": 497},

@@ -962,6 +962,28 @@
  },
 
  {
+  "id": "PSY_magi_weapon_zombie_master_whip",
+  "type": "GENERIC",
+  "symbol": "/",
+  "color": "brown",
+  "looks_like": "bullwhip",
+  "name": { "str": "Zombie Master's Whip" },
+  "description": "This whip cannot inflict damage, but it can mind-control the target zombie for 10 seconds.",
+  "weight": "3460 g",
+  "volume": "2 L",
+  "price": 3500,
+  "price_postapoc": 500,
+  "material": [ "steel" ],
+  "flags": ["MAGIC_FOCUS", "REACH_ATTACK", "REACH3", "WHIP" ],
+  "melee_damage": { "pure": 0},
+  "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "neutral" },
+  "category": "weapons",
+  "relic_data": {
+    "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "PSY_magi_item_spell_control_zombie_whip" } ] } ]
+  }
+ },
+
+ {
   "id": "PSY_honey_crossbow",
   "looks_like": "crossbow",
   "type": "GUN",

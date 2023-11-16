@@ -3867,6 +3867,32 @@
     "max_level": 0,
     "base_casting_time": 100,
     "energy_source": "MANA"
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_control_zombie_whip",
+    "name": "Control Zombie",
+    "description": "This whip cannot inflict damage, but it can mind-control the target zombie for 10 seconds.",
+    "valid_targets": [ "hostile","ground"],
+    "effect": "charm_monster",
+    "message": "",
+    "spell_class": "NONE",
+    "targeted_monster_species": [
+      "ZOMBIE"
+    ],
+    "min_damage": 999,
+    "max_damage": 999,
+    "base_casting_time": 100,
+    "final_casting_time": 100,
+    "shape": "blast",
+    "difficulty": 4,
+    "max_level": 0,
+    "min_range": 20,
+    "max_range": 20,
+    "min_duration": 1000,
+    "max_duration": 1000,
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ]
   }
 
 ]
