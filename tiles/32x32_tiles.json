@@ -91,6 +91,7 @@
             { "id": "PSY_magi_rnd_mon_healing_fairy2" ,"fg": 68},
             { "id": "PSY_magi_rnd_mon_healing_fairy" ,"fg": 69},
             { "id": "PSY_magi_rnd_mon_dark_fairy" ,"fg": 70},
+            { "id": "PSY_magi_mon_dark_fairy_ressurect" ,"fg": 70},
             { "id": "PSY_magi_rnd_mon_heal_enchanter" ,"fg": 71},
             { "id": "PSY_magi_rnd_mon_vegitable_botanist" ,"fg": 72},
             { "id": "PSY_magi_rnd_mon_eye_bat" ,"fg": 73},
@@ -171,6 +172,26 @@
             { "id": "PSY_magi_cactus_mini_gun" ,"fg": 132},
             { "id": "overlay_wielded_PSY_magi_cactus_mini_gun" ,"fg": 133},
             { "id": "PSY_magi_turret_generator_box" ,"fg": 134},
+
+            { "id": "explosion_PSY_magi_spell_control_zombie" , "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":145},
+            {"weight": 20, "sprite":146},
+            {"weight": 20, "sprite":147},
+            {"weight": 20, "sprite":148},
+            {"weight": 20, "sprite":149}
+            ]
+            },
+
+            { "id": ["explosion_PSY_magi_spell_evolve_zombies", "PSY_magi_conjure_zombie_disguise" ], "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":150},
+            {"weight": 20, "sprite":151},
+            {"weight": 20, "sprite":152},
+            {"weight": 20, "sprite":153},
+            {"weight": 20, "sprite":154}
+            ]
+            },
             { "id": "fd_PSY_magi_field_of_death", "rotates": false,"animated": true,"fg":
             [
             {"weight": 30, "sprite":156},
@@ -450,6 +471,12 @@
             {"weight": 50, "sprite":619}
             ]
             },
+            { "id": "explosion_PSY_magi_spell_revive_zombies" , "rotates": false,"animated": false,"fg":
+            [
+            {"weight": 50, "sprite":617},
+            {"weight": 50, "sprite":617}
+            ]
+            },
             { "id": "fd_PSY_magi_icy_air1" ,"fg": 620},
             { "id": "fd_PSY_magi_hot_air1" ,"fg": 621},
             { "id": "PSY_magi_ice_mage_book" ,"fg": 638},
@@ -727,6 +754,7 @@
             { "id": "explosion_PSY_magi_item_summon_bats_sub" ,"fg": 842},
             { "id": "explosion_PSY_magi_item_summon_evil_tentacle_sub" ,"fg": 842},
             { "id": "explosion_PSY_magi_item_spell_Orb_of_Black_Mist_summon" ,"fg": 842},
+            { "id": "explosion_PSY_magi_item_spell_classic_zombie_charm_palse" ,"fg": 849},
             { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Nocturne_of_Heavy_Feet" ,"fg": 857},
             { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Ballad_of_the_Sword" ,"fg": 858},
             { "id": "explosion_PSY_magi_item_spell_Orb_of_Melody_Chant_of_Courage" ,"fg": 859},
@@ -922,7 +950,9 @@
             { "id": "PSY_magi_boots_magicite" ,"fg": 1048},
             { "id": "overlay_worn_PSY_magi_boots_magicite" ,"fg": 1058},
             { "id": "PSY_magi_boots_chitin" ,"fg": 1049},
-            { "id": "overlay_worn_PSY_magi_boots_chitin" ,"fg": 1059}
+            { "id": "overlay_worn_PSY_magi_boots_chitin" ,"fg": 1059},
+            { "id": "PSY_magi_mmask_zombie_disguise" ,"fg": 1061},
+            { "id": "overlay_worn_PSY_magi_mmask_zombie_disguise" ,"fg": 1060}
             
             
           ]

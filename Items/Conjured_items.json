@@ -967,8 +967,8 @@
       {
         "id": "PSY_magi_Orb_of_Zombie_Eyes",
         "type": "TOOL",
-        "name": "Orb of Zombie Eyes",
-        "description": "While held in the hand, you will be able to see the world as classic zombies usually see it. However, the footsteps will reach noise levels.",
+        "name": "Orb of Master of Classic Zombies",
+        "description": "While held in the hand,\n every 3 minutes it will release a pulse that can mind-control the classic zombies in the surrounding 10 tiles for 10 minutes,\nIts pulse also increases the movement speed of all enemy and friendly zombies by 30.\n---CLASSIC ZOMBIES---\n・zombie\n・scarred zombie\n・zombie cop\n・crawling zombie\n・fat zombie\n・firefighter zombie\n・hazmat zombie\n・decayed zombie\n・SWAT zombie\n・tough zombie",
         "weight": "3 kg",
         "volume": "1250 ml",
         "looks_like":"PSY_magi_Orb_of_Black_Mist",
@@ -984,12 +984,7 @@
             {
               "has": "WIELD",
               "condition": "ALWAYS",
-              "values": [
-                { "value": "FOOTSTEP_NOISE", "multiply": 5.0 }
-              ],
-              "mutations": [
-                "PSY_magi_ZOMBIE_EYE"
-              ]
+              "intermittent_activation": { "effects": [ { "frequency": "180 seconds", "spell_effects": [ { "id": "PSY_magi_item_spell_classic_zombie_charm_palse", "hit_self": false } ] } ] }
             }
           ]
         }

@@ -1288,6 +1288,12 @@ msgstr "忍術に精通している中忍です。彼の術に錯乱させられ
 msgid "Dark Fairy"
 msgstr "ダークフェアリー"
 
+msgid "Translucent dark fairy that resurrects surrounding revivable zombies as allies."
+msgstr "周囲の蘇生可能なゾンビを味方として復活させる半透明なダークフェアリーです。"
+
+msgid "Summon a translucent dark fairy that resurrects surrounding revivable zombies as allies."
+msgstr "周囲の蘇生可能なゾンビを味方として復活させる半透明なダークフェアリーを召喚します。"
+
 msgid "Thunder Snake"
 msgstr "サンダースネーク"
 
@@ -5683,8 +5689,96 @@ msgstr "ゾンビアイ"
 msgid "You can now see the world as classic zombies usually see it."
 msgstr "あなたはクラシックなゾンビが見ている世界が見えるようになりました。"
 
+msgid "You can now see the world as friendly classic zombies usually see it."
+msgstr "あなたは友好的なクラシックゾンビが見ている世界が見えるようになりました。"
+
+msgid "You can now see the world as friendly classic zombies usually see it.\n---CLASSIC ZOMBIES---\n・zombie\n・scarred zombie\n・zombie cop\n・crawling zombie\n・fat zombie\n・firefighter zombie\n・hazmat zombie\n・decayed zombie\n・SWAT zombie\n・tough zombie"
+msgstr "あなたは友好的なクラシックゾンビが見ている世界が見えるようになりました。\n---クラシックゾンビ一覧---:\n・ゾンビ\n・負傷ゾンビ\n・警官ゾンビ\n・爬行ゾンビ\n・肥満ゾンビ\n・消防士ゾンビ\n・科学防護ゾンビ\n・腐敗ゾンビ\n・SWATゾンビ\n・頑強ゾンビ"
+
 msgid "Orb of Zombie Eyes"
 msgstr "オーブ:ゾンビアイ"
 
-msgid "While held in the hand, you will be able to see the world as classic zombies usually see it. However, the footsteps will reach noise levels."
-msgstr "これを持っている間、あなたはクラシックなゾンビが見ている世界が見えるようになります。しかし足音が騒音レベルまで達します。"
+msgid "Orb of Master of Classic Zombies"
+msgstr "オーブ:クラシックゾンビマスター"
+
+msgid "While held in the hand, every 3 minutes it will release a pulse that can mind-control the classic zombies in the surrounding 10 tiles for 10 minutes, allowing you to see the world those friendly zombies are seeing. However, the footsteps will reach noise levels."
+msgstr "これを持っている間、3分毎に周囲10タイルのクラシックゾンビを10分間マインドコントロール出来るパルスを放ち、それらの友好的なゾンビが見ている世界が見えるようになります。しかし足音が騒音レベルまで達します。"
+
+msgid "While held in the hand,\n every 3 minutes it will release a pulse that can mind-control the classic zombies in the surrounding 10 tiles for 10 minutes,\nHowever, the footsteps will reach noise levels.\n---CLASSIC ZOMBIES---\n・zombie\n・scarred zombie\n・zombie cop\n・crawling zombie\n・fat zombie\n・firefighter zombie\n・hazmat zombie\n・decayed zombie\n・SWAT zombie\n・tough zombie"
+msgstr "これを持っている間、\n3分毎に周囲10タイルのクラシックゾンビを10分間マインドコントロール出来るパルスを放ちます。\nしかし足音が騒音レベルまで達します。\n---クラシックゾンビ一覧---:\n・ゾンビ\n・負傷ゾンビ\n・警官ゾンビ\n・爬行ゾンビ\n・肥満ゾンビ\n・消防士ゾンビ\n・科学防護ゾンビ\n・腐敗ゾンビ\n・SWATゾンビ\n・頑強ゾンビ"
+
+msgid "While held in the hand,\n every 3 minutes it will release a pulse that can mind-control the classic zombies in the surrounding 10 tiles for 10 minutes,\nIts pulse also increases the movement speed of all enemy and friendly zombies by 30.\n---CLASSIC ZOMBIES---\n・zombie\n・scarred zombie\n・zombie cop\n・crawling zombie\n・fat zombie\n・firefighter zombie\n・hazmat zombie\n・decayed zombie\n・SWAT zombie\n・tough zombie"
+msgstr "これを持っている間、\n3分毎に周囲10タイルのクラシックゾンビを10分間マインドコントロール出来るパルスを放ちます。\nまた、そのパルスにより敵と味方全てのゾンビの移動速度を30上昇させます。\n---クラシックゾンビ一覧---:\n・ゾンビ\n・負傷ゾンビ\n・警官ゾンビ\n・爬行ゾンビ\n・肥満ゾンビ\n・消防士ゾンビ\n・科学防護ゾンビ\n・腐敗ゾンビ\n・SWATゾンビ\n・頑強ゾンビ"
+
+msgid "Charm Zombie"
+msgstr "メロメロゾンビ"
+
+msgid "Charm Classic Zombie"
+msgstr "メロメロクラシックゾンビ"
+
+msgid "Mind control the classic zombies present in the surrounding 10 tiles for 10 minutes."
+msgstr "周囲10タイルに存在するクラシックなゾンビを10分間マインドコントロールします。"
+
+msgid "Speedy Zombie"
+msgstr "素早いゾンビ"
+
+msgid "Your movement is accelerating by the pulse!"
+msgstr "パルスによって移動速度が上がっている!"
+
+msgid "Evolve Zombies"
+msgstr "ゾンビ昇格"
+
+msgid "Evolve all evolvable zombies present in the target area."
+msgstr "対象範囲に存在する全ての進化可能なゾンビを進化させ0ます。"
+
+msgid "Resurrect Zombies"
+msgstr "ゾンビ復活"
+
+msgid "Resurrect all revivable corpses of zombie present in the target area."
+msgstr "対象範囲に存在する全ての蘇生可能なゾンビの死体を復活させます。"
+
+msgid "Resurrect all revivable corpses of zombie present in the target area.\nAfter being revived, zombies that were originally hostile will remain hostile."
+msgstr "対象範囲に存在する全ての蘇生可能なゾンビの死体を復活させます。蘇った後も、敵対だったゾンビは敵対のままです。"
+
+msgid "Control Zombies"
+msgstr "ゾンビ操作"
+
+msgid "All zombies in the target area with less than 100 HP will be mentally controlled for a certain period of time and turned to our side."
+msgstr "対象範囲に存在するHPが100以下の全てのゾンビを一定期間精神支配し、こちら側に寝返らせます。"
+
+msgid "All zombies in the target area with less than \n100 HP at lvl:0\n150 at lvl:5\n200 at lvl:10\n will be mentally controlled for a certain period of time and turned to our side."
+msgstr "対象範囲に存在する\nレベル0の時にはHPが100\nレベル5の時にはHPが150\nレベル10の時にはHPが200\n以下の全てのゾンビを一定期間精神支配し、こちら側に寝返らせます。"
+
+msgid "Zombie disguise mask"
+msgstr "ゾンビ変装マスク"
+
+msgid "Zombie Disguise"
+msgstr "ゾンビ変装"
+
+msgid "If you wear this mask, zombies will not be interested in you. However, humans will recognize your disguise."
+msgstr "このマスクをしていれば、ゾンビはあなたに興味を持たないでしょう。ただし、人間にはあなたの変装がバレバレです。"
+
+msgid "While in disguise, zombies will not be interested in you."
+msgstr "変装中はゾンビはあなたに興味を持たないでしょう。"
+
+msgid "Conjure Zombie disguise mask"
+msgstr "召喚：ゾンビ変装マスク"
+
+msgid "Summon a magic mask for a short while. This mask will no longer be of interest to zombies while it is equipped and will allow you to safely explore the city with zombies!"
+msgstr "しばしの間、魔法のマスクを召喚する。このマスクは、装備している間はゾンビから興味を持たれなくなり、ゾンビがいる街中でも安全に探索することが出来るようになる。"
+
+msgctxt "profession_male"
+msgid "[PSY] Zombie Master"
+msgstr "[PSY]ゾンビマスター"
+
+msgctxt "profession_female"
+msgid "[PSY] Zombie Master"
+msgstr "[PSY]ゾンビマスター"
+
+msgctxt "prof_desc_male"
+msgid "You knew this day would come. Now is the time to build a city of the dead and exterminate the remaining living!"
+msgstr "あなたはこの日が来ることを知っておりました。今こそ死者の街を築き、残っている生者どもを駆逐してやりましょう。"
+
+msgctxt "prof_desc_female"
+msgid "You knew this day would come. Now is the time to build a city of the dead and exterminate the remaining living!"
+msgstr "あなたはこの日が来ることを知っておりました。今こそ死者の街を築き、残っている生者どもを駆逐してやりましょう。"

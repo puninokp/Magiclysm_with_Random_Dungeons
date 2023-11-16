@@ -581,6 +581,36 @@
       "min_duration": 3000,
       "max_duration": 12000,
       "duration_increment": 450
+    },
+
+    {
+      "id": "PSY_magi_summon_Dark_fairy",
+      "type": "SPELL",
+      "name": "Summon Dark Fairy",
+      "description": "Summon a translucent dark fairy that resurrects surrounding revivable zombies as allies.",
+      "valid_targets": [ "ground" ],
+      "min_damage": 1,
+      "max_damage": 1,
+      "max_level": 50,
+      "difficulty": 7,
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "effect": "summon",
+      "effect_str": "PSY_magi_mon_dark_fairy_ressurect",
+      "shape": "blast",
+      "energy_source": "MANA",
+      "base_energy_cost": 800,
+      "energy_increment": -6.0,
+      "final_energy_cost": 500,
+      "base_casting_time": 18000,
+      "casting_time_increment": -300.0,
+      "final_casting_time": 3000,
+      "min_range": 5,
+      "max_range": 30,
+      "range_increment": 0.5,
+      "flags": [ "SOMATIC", "NO_LEGS","SILENT"],
+      "min_duration": 30000,
+      "max_duration": 180000,
+      "duration_increment": 3000
     }
 
 

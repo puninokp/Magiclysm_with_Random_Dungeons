@@ -351,26 +351,38 @@
         "id": "PSY_magi_ZOMBIE_EYE",
         "name": { "str": "ZOMBIE EYE" },
         "points": 0,
-        "description": "You can now see the world as classic zombies usually see it.",
+        "description": "You can now see the world as friendly classic zombies usually see it.\n---CLASSIC ZOMBIES---\n・zombie\n・scarred zombie\n・zombie cop\n・crawling zombie\n・fat zombie\n・firefighter zombie\n・hazmat zombie\n・decayed zombie\n・SWAT zombie\n・tough zombie",
         "starting_trait": false,
         "purifiable": false,
         "valid": false,
         "spells_learned": [ ],
         "moncams": [ 
-          [ "mon_zombie", 8 ],
-          [ "mon_beekeeper", 5 ],
-          [ "mon_zombie_cop", 10 ],
-          [ "mon_zombie_crawler", 3 ],
-          [ "mon_zombie_fat", 7 ],
-          [ "mon_zombie_fireman", 10 ],
-          [ "mon_zombie_hazmat", 6 ],
-          [ "mon_zombie_rot", 2 ],
-          [ "mon_zombie_swat", 10 ],
-          [ "mon_zombie_tough", 10 ],
-          [ "mon_zombie_resort_dancer", 5 ],
-          [ "mon_zombie_resort_bouncer", 5 ],
-          [ "mon_zombie_resort_staff", 5 ] 
+          [ "mon_zombie", 50 ],
+          [ "mon_beekeeper", 50 ],
+          [ "mon_zombie_cop", 50 ],
+          [ "mon_zombie_crawler", 50 ],
+          [ "mon_zombie_fat", 50 ],
+          [ "mon_zombie_fireman", 50 ],
+          [ "mon_zombie_hazmat", 50 ],
+          [ "mon_zombie_rot", 50 ],
+          [ "mon_zombie_swat", 50 ],
+          [ "mon_zombie_tough", 50 ],
+          [ "mon_zombie_resort_dancer", 50 ],
+          [ "mon_zombie_resort_bouncer", 50 ],
+          [ "mon_zombie_resort_staff", 50 ] 
         ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_ZOMBIE_DISGUISE",
+        "name": { "str": "Zombie Disguise" },
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "points": 0,
+        "ignored_by": [ "ZOMBIE" ],
+        "description": "While in disguise, zombies will not be interested in you."
       }
 
 

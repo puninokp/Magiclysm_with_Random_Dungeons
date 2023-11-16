@@ -68,6 +68,28 @@
  },
 
  {
+  "type": "TOOL_ARMOR",
+  "id": "PSY_magi_mmask_zombie_disguise",
+  "name": { "str": "Zombie disguise mask" },
+  "description": "If you wear this mask, zombies will not be interested in you. However, humans will recognize your disguise.",
+  "copy-from": "mmask",
+  "looks_like": "mask_guy_fawkes",
+  "material": [ "steel", "leather" ],
+  "flags": [  ],
+  "relic_data": {
+    "passive_effects": [ 
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "mutations": [
+          "PSY_ZOMBIE_DISGUISE"
+        ]
+      }
+    ]
+  }
+ },
+
+ {
   "id": "PSY_magi_armor_death_shield",
   "type": "TOOL_ARMOR",
   "name": { "str": "The Shield of Envy and Hatred" },

@@ -3803,6 +3803,70 @@
       { "id": "PSY_magi_item_spell_thunder_storm_sub3", "hit_self": true },
       { "id": "PSY_magi_item_spell_thunder_storm_sub4", "hit_self": true }
     ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_item_spell_classic_zombie_charm_palse",
+    "name": "Charm Classic Zombie",
+    "description": "Mind control the classic zombies present in the surrounding 10 tiles for 10 minutes.",
+    "valid_targets": [ "hostile","ground"],
+    "effect": "charm_monster",
+    "message": "",
+    "spell_class": "NONE",
+    "targeted_monster_ids": [
+      "mon_zombie",
+      "mon_beekeeper",
+      "mon_zombie_cop",
+      "mon_zombie_crawler",
+      "mon_zombie_fat",
+      "mon_zombie_fireman",
+      "mon_zombie_hazmat",
+      "mon_zombie_rot",
+      "mon_zombie_swat",
+      "mon_zombie_tough",
+      "mon_zombie_resort_dancer",
+      "mon_zombie_resort_bouncer",
+      "mon_zombie_resort_staff"
+    ],
+    "min_damage": 200,
+    "max_damage": 200,
+    "max_level": 0,
+    "shape": "blast",
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "min_duration": 60000,
+    "max_duration": 60000,
+    "duration_increment": 0,
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "extra_effects": [
+      { "id": "PSY_magi_item_spell_classic_zombie_charm_palse_sub", "hit_self": false }
+    ]
+  },
+
+  {
+    "id": "PSY_magi_item_spell_classic_zombie_charm_palse_sub",
+    "type": "SPELL",
+    "name": "Charm Classic Zombie",
+    "description": "A spell scroll that affects a wide area. Greatly increases the movement speed of all affected units.",
+    "valid_targets": ["hostile", "ally"],
+    "flags": [ "NO_EXPLOSION_SFX","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ],
+    "targeted_monster_species": [
+      "ZOMBIE"
+    ],
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "base_energy_cost": 0,
+    "spell_class": "NONE",
+    "effect_str": "PSY_magi_zombie_accelerating",
+    "difficulty": 0,
+    "min_duration": 60000,
+    "max_duration": 60000,
+    "shape": "blast",
+    "effect": "attack",
+    "max_level": 0,
+    "base_casting_time": 100,
+    "energy_source": "MANA"
   }
 
 ]

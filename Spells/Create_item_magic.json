@@ -490,7 +490,33 @@
         "min_duration": 1,
         "max_duration": 1,
         "flags": [ "NO_PROJECTILE","PERMANENT_ALL_LEVELS","SILENT", "NO_LEGS" ]
-    }
+      },
+
+      {
+        "id": "PSY_magi_conjure_zombie_disguise",
+        "type": "SPELL",
+        "name": "Conjure Zombie disguise mask",
+        "description": "Summon a magic mask for a short while. This mask will no longer be of interest to zombies while it is equipped and will allow you to safely explore the city with zombies!",
+        "valid_targets": [ "self" ],
+        "min_damage": 1,
+        "max_damage": 1,
+        "max_level": 20,
+        "effect": "spawn_item",
+        "effect_str": "PSY_magi_mmask_zombie_disguise",
+        "energy_source": "MANA",
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "shape": "blast",
+        "base_casting_time": 60000,
+        "casting_time_increment": -2000.0,
+        "final_casting_time": 20000,
+        "base_energy_cost": 1000,
+        "final_energy_cost": 1000,
+        "difficulty": 5,
+        "min_duration": 180000,
+        "max_duration": 480000,
+        "duration_increment": 15000,
+        "flags": [ "NO_PROJECTILE","SILENT", "NO_LEGS" ]
+      }
 
 
 ]

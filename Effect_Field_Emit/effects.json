@@ -260,6 +260,22 @@
 
   {
     "type": "effect_type",
+    "id": "PSY_magi_zombie_accelerating",
+    "name":  [ 
+      "Speedy Zombie"        
+    ],
+    "desc": [ "Your movement is accelerating by the pulse!" ],
+    "rating": "good",
+    "max_duration": "60 m",
+    "max_intensity": 5,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ 30 ] },
+    "scaling_mods": { "speed_mod": [ 30 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
     "id": "PSY_magi_bird_accelerating",
     "name":  [ 
       "Bird Accelerating"        
