@@ -5677,3 +5677,14 @@ msgstr "ダンジョン魔法使い"
 msgid "The Dungeon Mage has a lot of useful magic for exploring dungeons full of monsters.\n\n Of course, it is also useful at outdoors!"
 msgstr "このクラスは魔物でいっぱいのダンジョンを探索する際に便利な魔法を沢山取り揃えております。もちろん、野外でも便利ですよ！"
 
+msgid "ZOMBIE EYE"
+msgstr "ゾンビアイ"
+
+msgid "You can now see the world as classic zombies usually see it."
+msgstr "あなたはクラシックなゾンビが見ている世界が見えるようになりました。"
+
+msgid "Orb of Zombie Eyes"
+msgstr "オーブ:ゾンビアイ"
+
+msgid "While held in the hand, you will be able to see the world as classic zombies usually see it. However, the footsteps will reach noise levels."
+msgstr "これを持っている間、あなたはクラシックなゾンビが見ている世界が見えるようになります。しかし足音が騒音レベルまで達します。"

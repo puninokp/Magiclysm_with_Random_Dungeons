@@ -962,6 +962,37 @@
             }
           ]
         }
+      },
+
+      {
+        "id": "PSY_magi_Orb_of_Zombie_Eyes",
+        "type": "TOOL",
+        "name": "Orb of Zombie Eyes",
+        "description": "While held in the hand, you will be able to see the world as classic zombies usually see it. However, the footsteps will reach noise levels.",
+        "weight": "3 kg",
+        "volume": "1250 ml",
+        "looks_like":"PSY_magi_Orb_of_Black_Mist",
+        "price": 3100,
+        "melee_damage": { "bash": 9 },
+        "to_hit": -1,
+        "material": [ "stone" ],
+        "symbol": "o",
+        "color": "blue",
+        "flags": [ "MAGIC_FOCUS" ],
+        "relic_data": {
+          "passive_effects": [ 
+            {
+              "has": "WIELD",
+              "condition": "ALWAYS",
+              "values": [
+                { "value": "FOOTSTEP_NOISE", "multiply": 5.0 }
+              ],
+              "mutations": [
+                "PSY_magi_ZOMBIE_EYE"
+              ]
+            }
+          ]
+        }
       }
 
 

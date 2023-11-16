@@ -344,6 +344,33 @@
         "points": -1,
         "description": "This ring is made of platinum and emits light according to the amount of mana present. The more mana you have, the more intense the glow.",
         "enchantments": [ "PSY_MANA_LUMINATION" ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_magi_ZOMBIE_EYE",
+        "name": { "str": "ZOMBIE EYE" },
+        "points": 0,
+        "description": "You can now see the world as classic zombies usually see it.",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "spells_learned": [ ],
+        "moncams": [ 
+          [ "mon_zombie", 8 ],
+          [ "mon_beekeeper", 5 ],
+          [ "mon_zombie_cop", 10 ],
+          [ "mon_zombie_crawler", 3 ],
+          [ "mon_zombie_fat", 7 ],
+          [ "mon_zombie_fireman", 10 ],
+          [ "mon_zombie_hazmat", 6 ],
+          [ "mon_zombie_rot", 2 ],
+          [ "mon_zombie_swat", 10 ],
+          [ "mon_zombie_tough", 10 ],
+          [ "mon_zombie_resort_dancer", 5 ],
+          [ "mon_zombie_resort_bouncer", 5 ],
+          [ "mon_zombie_resort_staff", 5 ] 
+        ]
       }
 
 
