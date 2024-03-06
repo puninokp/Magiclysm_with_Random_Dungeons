@@ -43,27 +43,6 @@
 
   {
     "type": "effect_on_condition",
-    "id": "EOC_PSY_lightning",
-    "recurrence": 1,
-    "global": true,
-    "condition": {
-      "and": [
-        { "is_weather": "lightning" },
-        { "one_in_chance": 600 },
-        { "compare_int": [ { "u_val": "pos_z" }, ">=", { "const": 0 } ] }
-      ]
-    },
-    "deactivate_condition": { "not": { "is_weather": "lightning" } },
-    "effect": [
-      { "u_message": "A flash of lightning illuminates your surroundings!" },
-      { "sound_effect": "thunder_near", "id": "environment" },
-      "lightning",
-      { "custom_light_level": 100, "length": [ "1 seconds", "1 seconds" ] }
-    ]
-  },
-
-  {
-    "type": "effect_on_condition",
     "id": "EOC_PSY_magi_slow_dammy",
     "recurrence": [ "25 minutes", "1 hours 15 minutes" ],
     "condition": { "and": [ { "u_has_effect": "PSY_magi_slow_dammy" }, { "not": { "u_has_effect": "PSY_magi_weak_slow" } } ] },

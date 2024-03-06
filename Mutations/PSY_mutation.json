@@ -93,7 +93,7 @@
         "purifiable": false,
         "description": "Your muscles are bulging. STR+1",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "str_mod": 1 }
+        "enchantments": [ { "values": [ { "value": "STRENGTH", "add": 1 } ] } ]
       },
 
       {
@@ -105,7 +105,7 @@
         "purifiable": false,
         "description": "Your muscles are more bulging. STR+2",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "str_mod": 2 }
+        "enchantments": [ { "values": [ { "value": "STRENGTH", "add": 2 } ] } ]
       },
 
       {
@@ -117,7 +117,7 @@
         "purifiable": false,
         "description": "Your feel smarter. INT+1",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "int_mod": 1 }
+        "enchantments": [ { "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ]
       },
 
       {
@@ -129,7 +129,7 @@
         "purifiable": false,
         "description": "Your feel more smarter. INT+2",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "int_mod": 2 }
+        "enchantments": [ { "values": [ { "value": "INTELLIGENCE", "add": 2 } ] } ]
       },
 
       {
@@ -141,7 +141,7 @@
         "purifiable": false,
         "description": "You're dexterous. DEX+1",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "dex_mod": 1 }
+        "enchantments": [ { "values": [ { "value": "DEXTERITY", "add": 1 } ] } ]
       },
 
       {
@@ -153,7 +153,7 @@
         "purifiable": false,
         "description": "You're very dexterous. DEX+2",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "dex_mod": 2 }
+        "enchantments": [ { "values": [ { "value": "DEXTERITY", "add": 2 } ] } ]
       },
 
       {
@@ -165,7 +165,7 @@
         "purifiable": false,
         "description": "You're have a wider view. PER+1",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "per_mod": 1 }
+        "enchantments": [ { "values": [ { "value": "PERCEPTION", "add": 1 } ] } ]
       },
 
       {
@@ -177,7 +177,7 @@
         "purifiable": false,
         "description": "You're have a broader view. PER+2",
         "flags": [ "NON_THRESH" ],
-        "passive_mods": { "per_mod": 2 }
+        "enchantments": [ { "values": [ { "value": "PERCEPTION", "add": 2 } ] } ]
       },
 
       {
@@ -237,7 +237,7 @@
         "purifiable": false,
         "description": "It takes a lot to bring you down!  You get a 10% bonus to all hit points.",
         "flags": [ "NON_THRESH" ],
-        "hp_modifier": 0.1
+        "enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.1 } ] } ]
       },
 
       {

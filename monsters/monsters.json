@@ -220,6 +220,7 @@
         "dodge": 15,
         "vision_day": 50,
         "vision_night": 50,
+        "path_settings": { "max_dist": 30 },
         "harvest": "exempt",
         "special_attacks": [ [ "RESURRECT", 0 ] ],
         "death_drops": {  },

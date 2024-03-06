@@ -590,7 +590,7 @@
             "x": "f_pinball_machine"
           },
           "monster": { "|": { "monster": "PSY_magi_rnd_mon_flying_mask", "chance": 6 }, "=": { "monster": "PSY_magi_rnd_mon_flying_mask2", "chance": 5 } },
-          "items": { "T": { "item": "arcade_prizes", "chance": 90 }, "|": { "item": "m_merch_7", "chance": 4 } }
+          "items": { "T": { "item": "arcade_prizes", "chance": 90 }, "|": { "item": "midden_heap", "chance": 14 } }
         }
       },
 
@@ -647,7 +647,7 @@
           "vendingmachines": { "l": { "item_group": "vending_drink" } },
           "items": { 
             "T": { "item": "arcade_prizes", "chance": 90 }, 
-            "|": { "item": "m_merch_7", "chance": 4 } }
+            "|": { "item": "midden_heap", "chance": 14 } }
         }
       },
 

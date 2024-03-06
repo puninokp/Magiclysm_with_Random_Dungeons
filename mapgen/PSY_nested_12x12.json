@@ -911,7 +911,8 @@
           "terrain": {
             "|": "PSY_magi_t_dirt",
             "?": "PSY_magi_t_dirt",
-            "^": [ "PSY_magi_t_dirt", "t_water_dp", "t_water_dp", "t_water_dp" ]
+            "^": [ "PSY_magi_t_dirt", "t_water_dp", "t_water_dp", "t_water_dp" ],
+            "[": [ "PSY_magi_t_dirt", "t_water_dp", "t_water_dp", "t_water_dp" ]
           }
         }
       },
