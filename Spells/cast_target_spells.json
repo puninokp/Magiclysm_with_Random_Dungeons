@@ -571,6 +571,30 @@
       "max_duration": 180000,
       "duration_increment": 12000,
       "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS" ]
+    },
+
+    {
+      "id": "PSY_magi_self_sonar_spell",
+      "type": "SPELL",
+      "name": "SONAR",
+      "description": "Sonar.",
+      "valid_targets": [ "self" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+      "effect": "attack",
+      "effect_str": "subaquatic_sonar",
+      "shape": "blast",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "difficulty": 0,
+      "base_energy_cost": 110,
+      "energy_increment": -2.0,
+      "final_energy_cost": 70,
+      "base_casting_time": 80,
+      "max_level": 20,
+      "min_range": 10,
+      "max_range": 15,
+      "range_increment": 0.25,
+      "min_duration": 12000,
+      "max_duration": 30000
     }
 
 

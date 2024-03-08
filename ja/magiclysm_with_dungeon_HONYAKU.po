@@ -5794,3 +5794,145 @@ msgstr "ゾンビマスターの鞭"
 
 msgid "This whip cannot inflict damage, but it can mind-control the target zombie for 10 seconds."
 msgstr "この鞭はダメージを与えることが出来ませんが、攻撃対象のゾンビを10秒間マインドコントロールすることが出来ます。"
+
+msgid "Set Magic Trap: Glass"
+msgstr "魔法罠設置:ガラス"
+
+msgid "Place a glass trap at the target location."
+msgstr "対象地点にガラスの罠を設置する。"
+
+msgid "Set Magic Trap: Land Mine"
+msgstr "魔法罠設置:地雷"
+
+msgid "Place a landmine trap at the target location."
+msgstr "対象地点に地雷の罠を設置する。"
+
+msgid "Magic Trap: Fireball"
+msgstr "魔法罠:ファイアーボール"
+
+msgid "Taste of melting snow"
+msgstr "雪解けの味"
+
+msgid "Placing a warding on food or drink, allows the target item to be eaten even if it is frozen."
+msgstr "食べ物や飲み物に結界を張り、対象物が凍っていても食べることをできるようにする。"
+
+msgid "Harden the weapon"
+msgstr "武器硬化"
+
+msgid "Placing a warding on weapon or tool, makes the target item less likely to break when used for melee attacks. This effect does not overlap."
+msgstr "武器やツールに結界を張り、近接攻撃に使用時に対象のアイテムが壊れにくくなる。この効果は重複しない。"
+
+msgid "Protect armor from wet"
+msgstr "濡れ防止アーマー"
+
+msgid "Placing a warding on armor, prevents the covered body-parts from getting wet in any circumstance. This effect does not overlap."
+msgstr "鎧や服に結界を張り、いかなる状況下でも鎧の部分が濡れるのを防ぐ。この効果は重複しない。"
+
+msgid "Comfortable Armor"
+msgstr "快適アーマー"
+
+msgid "Placing a warding on armor, makes the armor count as comfortable even if none of the specific materials are soft. This effect does not overlap."
+msgstr "鎧や服に結界を張り、その鎧が柔らかい素材でなくても、着心地抜群な鎧として扱える。この効果は重複しない。"
+
+msgid "[<good>Lift-up Lv:1</good>]This item will <info>increase your Maximum Weight Possessed by 10 kg</info> while worn."
+msgstr "[<good>リフトアップLv:1</good>]このアイテムは装備している間、<info>所持重量を10kg増加</info>させます。"
+
+msgid "[<good>Lift-up Lv:2</good>]This item will <info>increase your Maximum Weight Possessed by 20 kg</info> while worn."
+msgstr "[<good>リフトアップLv:2</good>]このアイテムは装備している間、<info>所持重量を20kg増加</info>させます。"
+
+msgid "[<good>Lift-up Lv:3</good>]This item will <info>increase your Maximum Weight Possessed by 30 kg</info> while worn."
+msgstr "[<good>リフトアップLv:3</good>]このアイテムは装備している間、<info>所持重量を30kg増加</info>させます。"
+
+msgid "[<good>Lift-up Lv:1</good>]This item will <info>increase your weight</info> while worn."
+msgstr "[<good>リフトアップLv:1</good>]このアイテムは装備している間、<info>所持重量を10kg増加</info>させます。"
+
+msgid "[<good>Lift-up Lv:2</good>]This item will <info>increase your weight</info> while worn."
+msgstr "[<good>リフトアップLv:2</good>]このアイテムは装備している間、<info>所持重量を20kg増加</info>させます。"
+
+msgid "[<good>Lift-up Lv:3</good>]This item will <info>increase your weight</info> while worn."
+msgstr "[<good>リフトアップLv:3</good>]このアイテムは装備している間、<info>所持重量を30kg増加</info>させます。"
+
+
+msgid "Enchant Armor: Lift Up LV1~3"
+msgstr "エンチャント防具: リフトアップLV1~3"
+
+msgid "Placing a warding on armor, Enchanted armors are increase the total weight of items that can be carried while it is equipped. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張り、装備中に持ち運べるアイテムの総重量が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "Placing a warding on armor. total weight of items that can be carried is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張り、この魔法によってエンチャントされた鎧を装備している間、持ち運べるアイテムの総重量が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "This item can be <info>enchanted </info> <good>3</good> more times."
+msgstr "このアイテムは残り<good>3</good>回、<info>エンチャント</info>が可能です。"
+
+msgid "This item can be <info>enchanted </info> <good>2</good> more times."
+msgstr "このアイテムは残り<good>2</good>回、<info>エンチャント</info>が可能です。"
+
+msgid "This item can be <info>enchanted </info> <good>1</good> more times."
+msgstr "このアイテムは残り<good>1</good>回、<info>エンチャント</info>が可能です。"
+
+msgid "This item can be <info>enchanted </info> <bad>0</bad> more times."
+msgstr "このアイテムは残り<bad>0</bad>回、<info>エンチャント</info>が可能です。"
+
+msgid "No further <bad>enchantments</bad> are <info>possible</info>."
+msgstr "このアイテムは残り<bad>0</bad>回、<info>エンチャント</info>が可能です。"
+
+msgid "<npc_name> has no more space available for enchantment."
+msgstr "<npc_name>にエンチャントが可能なスペースがありません。"
+
+msgid "<npc_name> has 3 more spaces available for enchantment."
+msgstr "<npc_name>にエンチャントが可能なスペースが残り3つあります。"
+
+msgid "<npc_name> has 2 more spaces available for enchantment."
+msgstr "<npc_name>にエンチャントが可能なスペースが残り2つあります。"
+
+msgid "<npc_name> has 1 more space available for enchantment."
+msgstr "<npc_name>にエンチャントが可能なスペースが残り1つあります。"
+
+msgid "<npc_name> has 0 more space available for enchantment."
+msgstr "<npc_name>にエンチャントが可能なスペースが残り0つあります。"
+
+msgid "Enchant Armor: Muscle Up LV1~3"
+msgstr "エンチャント防具: マッスルアップLV1~3"
+
+msgid "Placing a warding on armor. Strength is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張る。この魔法によってエンチャントされた鎧を装備している間、筋力が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "[<good>Muscle-up Lv:1</good>]This item will <info>increase 1 of your strength</info> while worn."
+msgstr "[<good>マッスルアップLv:1</good>]このアイテムは装備している間、<info>筋力を1増加</info>させます。"
+
+msgid "[<good>Muscle-up Lv:2</good>]This item will <info>increase 2 of your strength</info> while worn."
+msgstr "[<good>マッスルアップLv:2</good>]このアイテムは装備している間、<info>筋力を2増加</info>させます。"
+
+msgid "[<good>Muscle-up Lv:3</good>]This item will <info>increase 3 of your strength</info> while worn."
+msgstr "[<good>マッスルアップLv:3</good>]このアイテムは装備している間、<info>筋力を3増加</info>させます。"
+
+msgid "Enchant Armor: Wise Up LV1~3"
+msgstr "エンチャント防具: インテリアップLV1~3"
+
+msgid "Placing a warding on armor. Intelligence is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張る。この魔法によってエンチャントされた鎧を装備している間、知力が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "[<good>Wise-up Lv:1</good>]This item will <info>increase your 1 of intelligence</info> while worn."
+msgstr "[<good>インテリアップLv:1</good>]このアイテムは装備している間、<info>知力を1増加</info>させます。"
+
+msgid "[<good>Wise-up Lv:2</good>]This item will <info>increase your 2 of intelligence</info> while worn."
+msgstr "[<good>インテリアップLv:2</good>]このアイテムは装備している間、<info>知力を2増加</info>させます。"
+
+msgid "[<good>Wise-up Lv:3</good>]This item will <info>increase your 3 of intelligence</info> while worn."
+msgstr "[<good>インテリアップLv:3</good>]このアイテムは装備している間、<info>知力を3増加</info>させます。"
+
+msgid "Enchant Armor: Deft fingers LV1~3"
+msgstr "エンチャント防具: デフトフィンガーLV1~3"
+
+msgid "Placing a warding on armor. Dexterity is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張る。この魔法によってエンチャントされた鎧を装備している間、器用が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "[<good>Deft fingers Lv:1</good>]This item will <info>increase your 1 of dexterity</info> while worn."
+msgstr "[<good>デフトフィンガーLv:1</good>]このアイテムは装備している間、<info>器用を1増加</info>させます。"
+
+msgid "[<good>Deft fingers Lv:2</good>]This item will <info>increase your 2 of dexterity</info> while worn."
+msgstr "[<good>デフトフィンガーLv:2</good>]このアイテムは装備している間、<info>器用を2増加</info>させます。"
+
+msgid "[<good>Deft fingers Lv:3</good>]This item will <info>increase your 3 of dexterity</info> while worn."
+msgstr "[<good>デフトフィンガーLv:3</good>]このアイテムは装備している間、<info>器用を3増加</info>させます。"

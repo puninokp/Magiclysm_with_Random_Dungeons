@@ -954,7 +954,8 @@
             { "id": "PSY_magi_boots_chitin" ,"fg": 1049},
             { "id": "overlay_worn_PSY_magi_boots_chitin" ,"fg": 1059},
             { "id": "PSY_magi_mmask_zombie_disguise" ,"fg": 1061},
-            { "id": "overlay_worn_PSY_magi_mmask_zombie_disguise" ,"fg": 1060}
+            { "id": "overlay_worn_PSY_magi_mmask_zombie_disguise" ,"fg": 1060},
+            { "id": "PSY_tr_landmine" ,"fg": 1063}
             
             
           ]

@@ -1,0 +1,499 @@
+[
+
+  {
+    "id": "PSY_food_edible_frozen_spell",
+    "type": "SPELL",
+    "name": "Taste of melting snow",
+    "description": "Placing a warding on food or drink, allows the target item to be eaten even if it is frozen.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "food" }, { "category": "drink" } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL_ITEM",
+            "effect": [ { "npc_set_flag": "EDIBLE_FROZEN" }, { "npc_set_flag": "EATEN_COLD" } ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_weapon_durable_melee_spell",
+    "type": "SPELL",
+    "name": "Harden the weapon",
+    "description": "Placing a warding on weapon or tool, makes the target item less likely to break when used for melee attacks. This effect does not overlap.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_WEAPON_DURABLE_MELEE_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_WEAPON_DURABLE_MELEE_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "weapons" }, { "category": "tools" } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_WEAPON_DURABLE_MELEE_SPELL_ITEM",
+            "effect": [ { "npc_unset_flag": "FRAGILE_MELEE" } ,{ "npc_set_flag": "DURABLE_MELEE" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_waterproof_spell",
+    "type": "SPELL",
+    "name": "Protect armor from wet",
+    "description": "Placing a warding on armor, prevents the covered body-parts from getting wet in any circumstance. This effect does not overlap.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_ARMOR_WATERPROOF_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ARMOR_WATERPROOF_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ARMOR_WATERPROOF_SPELL_ITEM",
+            "effect": [ { "npc_set_flag": "WATERPROOF" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_padded_spell",
+    "type": "SPELL",
+    "name": "Comfortable Armor",
+    "description": "Placing a warding on armor, makes the armor count as comfortable even if none of the specific materials are soft. This effect does not overlap.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_ARMOR_PADDED_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ARMOR_PADDED_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ARMOR_PADDED_SPELL_ITEM",
+            "effect": [ { "npc_set_flag": "PADDED" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_lift_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Lift Up LV1~3",
+    "description": "Placing a warding on armor. total weight of items that can be carried is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_LIFT_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_LIFT_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_LIFT1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_LIFT2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_LIFT3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_LIFT3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_LIFT3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_lift_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_LIFT2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_LIFT2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_lift_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_LIFT1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_LIFT1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_lift_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_muscle_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Muscle Up LV1~3",
+    "description": "Placing a warding on armor. Strength is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_MUSCLE_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_MUSCLE_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MUSCLE1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MUSCLE2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MUSCLE3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MUSCLE3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MUSCLE3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_muscle_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MUSCLE2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MUSCLE2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_muscle_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MUSCLE1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MUSCLE1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_muscle_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_wise_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Wise Up LV1~3",
+    "description": "Placing a warding on armor. Intelligence is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_WISE_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_WISE_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WISE1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WISE2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WISE3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WISE3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WISE3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_wise_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WISE2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WISE2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_wise_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WISE1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WISE1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_wise_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_deft_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Deft fingers LV1~3",
+    "description": "Placing a warding on armor. Dexterity is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_DEFT_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_DEFT_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_DEFT1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_DEFT2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_DEFT3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_DEFT3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_DEFT3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_deft_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_DEFT2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_DEFT2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_deft_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_DEFT1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_DEFT1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_deft_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  }
+
+]
