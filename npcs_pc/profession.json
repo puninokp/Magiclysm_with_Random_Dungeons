@@ -12,6 +12,8 @@
           { "id": "PSY_weapon_durable_melee_spell", "level": 0 },
           { "id": "PSY_armor_waterproof_spell", "level": 0 },
           { "id": "PSY_armor_padded_spell", "level": 0 },
+          { "id": "PSY_armor_enchant_sense_spell", "level": 0 },
+          { "id": "PSY_armor_enchant_deft_spell", "level": 0 },
           { "id": "PSY_armor_enchant_muscle_spell", "level": 0 },
           { "id": "PSY_armor_enchant_wise_spell", "level": 0 },
           { "id": "PSY_armor_enchant_lift_spell", "level": 0 },

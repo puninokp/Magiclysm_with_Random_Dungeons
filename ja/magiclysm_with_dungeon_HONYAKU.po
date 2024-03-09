@@ -5936,3 +5936,18 @@ msgstr "[<good>デフトフィンガーLv:2</good>]このアイテムは装備�
 
 msgid "[<good>Deft fingers Lv:3</good>]This item will <info>increase your 3 of dexterity</info> while worn."
 msgstr "[<good>デフトフィンガーLv:3</good>]このアイテムは装備している間、<info>器用を3増加</info>させます。"
+
+msgid "Enchant Armor: Sense Up LV1~3"
+msgstr "エンチャント防具: センスアップLV1~3"
+
+msgid "Placing a warding on armor. Perception is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment."
+msgstr "防具に結界を張る。この魔法によってエンチャントされた鎧を装備している間、感覚が増加する。違う装備についている場合でも、各レベルの効果は1つずつしか発動しない。"
+
+msgid "[<good>Sense-up Lv:1</good>]This item will <info>increase your 1 of perception</info> while worn."
+msgstr "[<good>センスアップLv:1</good>]このアイテムは装備している間、<info>感覚を1増加</info>させます。"
+
+msgid "[<good>Sense-up Lv:2</good>]This item will <info>increase your 2 of perception</info> while worn."
+msgstr "[<good>センスアップLv:2</good>]このアイテムは装備している間、<info>感覚を2増加</info>させます。"
+
+msgid "[<good>Sense-up Lv:3</good>]This item will <info>increase your 3 of perception</info> while worn."
+msgstr "[<good>センスアップLv:3</good>]このアイテムは装備している間、<info>感覚を3増加</info>させます。"

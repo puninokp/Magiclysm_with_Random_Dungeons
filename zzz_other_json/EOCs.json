@@ -271,6 +271,7 @@
     "id": "EOC_PSY_enchant_worn_item_all",
     "effect": [
        { "run_eocs": "EOC_PSY_enchant_lift" },
+       { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
        { "run_eocs": "EOC_PSY_enchant_muscle" }  
@@ -283,6 +284,7 @@
     "required_event": "character_wears_item",
     "effect": [
        { "run_eocs": "EOC_PSY_enchant_lift" },
+       { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
        { "run_eocs": "EOC_PSY_enchant_muscle" }  
@@ -295,6 +297,7 @@
     "required_event": "character_wields_item",
     "effect": [ 
        { "run_eocs": "EOC_PSY_enchant_lift" },
+       { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
        { "run_eocs": "EOC_PSY_enchant_muscle" } 
@@ -594,5 +597,79 @@
     "type": "effect_type",
     "id": "PSY_enchant_deft",
     "enchantments": [ { "values": [ { "value": "DEXTERITY", "add": { "math": [ "u_EOC_PSY_enchant_deft_val" ] } } ] } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_enchant_sense",
+    "effect": [
+      {
+        "if": { "u_has_worn_with_flag": "PSY_enchant_sense_3" },
+        "then": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_sense_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_sense_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "6" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "5" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_sense_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "4" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "3" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ]
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_sense_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_sense_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "3" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "2" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_sense_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_sense_val", "=", "1" ] },
+                  { "u_add_effect": "PSY_enchant_sense", "duration": "PERMANENT" }
+                ],
+                "else": { "u_lose_effect": "PSY_enchant_sense" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "PSY_enchant_sense",
+    "enchantments": [ { "values": [ { "value": "PERCEPTION", "add": { "math": [ "u_EOC_PSY_enchant_sense_val" ] } } ] } ]
   }
 ]

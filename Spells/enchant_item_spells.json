@@ -494,6 +494,96 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_sense_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Sense Up LV1~3",
+    "description": "Placing a warding on armor. Perception is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_SENSE_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_SENSE_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SENSE1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SENSE2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SENSE3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SENSE3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SENSE3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_sense_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SENSE2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SENSE2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_sense_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SENSE1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SENSE1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_sense_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
   }
 
 ]

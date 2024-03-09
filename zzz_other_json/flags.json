@@ -78,19 +78,37 @@
     {
         "id": "PSY_enchant_deft_1",
         "type": "json_flag",
-        "info": "[<good>deft fingers Lv:1</good>]This item will <info>increase your 1 of dexterity</info> while worn."
+        "info": "[<good>Deft fingers Lv:1</good>]This item will <info>increase your 1 of dexterity</info> while worn."
     },
 
     {
         "id": "PSY_enchant_deft_2",
         "type": "json_flag",
-        "info": "[<good>deft fingers Lv:2</good>]This item will <info>increase your 2 of dexterity</info> while worn."
+        "info": "[<good>Deft fingers Lv:2</good>]This item will <info>increase your 2 of dexterity</info> while worn."
     },
     
     {
         "id": "PSY_enchant_deft_3",
         "type": "json_flag",
-        "info": "[<good>deft fingers Lv:3</good>]This item will <info>increase your 3 of dexterity</info> while worn."
+        "info": "[<good>Deft fingers Lv:3</good>]This item will <info>increase your 3 of dexterity</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_sense_1",
+        "type": "json_flag",
+        "info": "[<good>Sense-up Lv:1</good>]This item will <info>increase your 1 of perception</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_sense_2",
+        "type": "json_flag",
+        "info": "[<good>Sense-up Lv:2</good>]This item will <info>increase your 2 of perception</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_sense_3",
+        "type": "json_flag",
+        "info": "[<good>Sense-up Lv:3</good>]This item will <info>increase your 3 of perception</info> while worn."
     }
 
 ]
