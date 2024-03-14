@@ -10,7 +10,7 @@
         "description": "You are able to store more mana in your body than usual.",
         "starting_trait": false,
         "flags": [ "NON_THRESH" ],
-        "mana_modifier": 20000
+        "enchantments": [ { "values": [ { "value": "MAX_MANA", "add": 20000 } ] } ]
       },
 
      {
@@ -23,7 +23,7 @@
         "description": "Your natural mana regeneration is very faster than normal.",
         "starting_trait": false,
         "flags": [ "NON_THRESH" ],
-        "mana_regen_multiplier": 2.0
+        "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": 2.0 } ] } ]
       },
 
       {
@@ -36,7 +36,7 @@
         "flags": [ "NON_THRESH" ],
         "description": "You are able to store more mana in your body than usual.",
         "starting_trait": false,
-        "mana_modifier": 5000
+        "enchantments": [ { "values": [ { "value": "MAX_MANA", "add": 5000 } ] } ]
       },
 
       {
