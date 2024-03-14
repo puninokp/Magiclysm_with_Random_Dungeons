@@ -1154,6 +1154,20 @@
     "max_duration": "1 m",
     "resist_traits": [ "PAINRESIST" ],
     "base_mods": { "pain_amount": [ 3 ] }
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_voice_noise_effect",
+    "name":  [ 
+      "Voice of Noise"
+    ],
+    "desc": [ "Your voice will be 30 times louder. Maybe the zombies from the next town over will gather when you yell?"],
+    "rating": "good",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "SHOUT_NOISE", "multiply": 30.0 } ] } ]
   }
 
 ]

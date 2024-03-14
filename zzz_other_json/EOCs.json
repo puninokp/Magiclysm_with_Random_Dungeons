@@ -274,6 +274,7 @@
        { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
+       { "run_eocs": "EOC_PSY_enchant_speed" },
        { "run_eocs": "EOC_PSY_enchant_muscle" }  
       ]
   },
@@ -287,6 +288,7 @@
        { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
+       { "run_eocs": "EOC_PSY_enchant_speed" },
        { "run_eocs": "EOC_PSY_enchant_muscle" }  
       ]
   },
@@ -300,6 +302,7 @@
        { "run_eocs": "EOC_PSY_enchant_sense" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
+       { "run_eocs": "EOC_PSY_enchant_speed" },
        { "run_eocs": "EOC_PSY_enchant_muscle" } 
       ]
   },
@@ -374,6 +377,12 @@
   {
     "type": "effect_type",
     "id": "PSY_enchant_lift",
+    "name":  [ 
+      "Lift Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "CARRY_WEIGHT", "add": { "math": [ "u_EOC_PSY_enchant_lift_val" ] } } ] } ]
   },
 
@@ -448,6 +457,12 @@
   {
     "type": "effect_type",
     "id": "PSY_enchant_muscle",
+    "name":  [ 
+      "Muscle Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "STRENGTH", "add": { "math": [ "u_EOC_PSY_enchant_muscle_val" ] } } ] } ]
   },
 
@@ -522,6 +537,12 @@
   {
     "type": "effect_type",
     "id": "PSY_enchant_wise",
+    "name":  [ 
+      "Wise Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "INTELLIGENCE", "add": { "math": [ "u_EOC_PSY_enchant_wise_val" ] } } ] } ]
   },
 
@@ -596,6 +617,12 @@
   {
     "type": "effect_type",
     "id": "PSY_enchant_deft",
+    "name":  [ 
+      "Deft fingers"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "DEXTERITY", "add": { "math": [ "u_EOC_PSY_enchant_deft_val" ] } } ] } ]
   },
 
@@ -670,6 +697,252 @@
   {
     "type": "effect_type",
     "id": "PSY_enchant_sense",
+    "name":  [ 
+      "Sense Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "PERCEPTION", "add": { "math": [ "u_EOC_PSY_enchant_sense_val" ] } } ] } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_enchant_speed",
+    "effect": [
+      {
+        "if": { "u_has_worn_with_flag": "PSY_enchant_speed_3" },
+        "then": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_speed_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_speed_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "30" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "25" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_speed_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "20" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "15" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ]
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_speed_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_speed_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "15" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "10" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_speed_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_speed_val", "=", "5" ] },
+                  { "u_add_effect": "PSY_enchant_speed", "duration": "PERMANENT" }
+                ],
+                "else": { "u_lose_effect": "PSY_enchant_speed" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "PSY_enchant_speed",
+    "name":  [ 
+      "Speed Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "SPEED", "add": { "math": [ "u_EOC_PSY_enchant_speed_val" ] } } ] } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_enchant_mana",
+    "effect": [
+      {
+        "if": { "u_has_worn_with_flag": "PSY_enchant_mana_3" },
+        "then": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_mana_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "1800" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "1500" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "1200" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "900" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_mana_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "900" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "600" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_mana_val", "=", "300" ] },
+                  { "u_add_effect": "PSY_enchant_mana", "duration": "PERMANENT" }
+                ],
+                "else": { "u_lose_effect": "PSY_enchant_mana" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "PSY_enchant_mana",
+    "name":  [ 
+      "Mana Up"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_MANA", "add": { "math": [ "u_EOC_PSY_enchant_mana_val" ] } } ] } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_enchant_regen_mana",
+    "effect": [
+      {
+        "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_3" },
+        "then": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1800" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1500" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1200" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "900" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_2" },
+            "then": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "900" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ],
+                "else": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "600" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
+                "then": [
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "300" ] },
+                  { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
+                ],
+                "else": { "u_lose_effect": "PSY_enchant_regen_mana" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "PSY_enchant_regen_mana",
+    "name":  [ 
+      "Mana Regen"      
+    ],
+    "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
+    "rating": "good",
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": { "math": [ "u_EOC_PSY_enchant_regen_mana_val" ] } } ] } ]
   }
 ]

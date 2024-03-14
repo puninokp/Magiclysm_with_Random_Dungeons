@@ -4,14 +4,14 @@
     "id": "PSY_food_edible_frozen_spell",
     "type": "SPELL",
     "name": "Taste of melting snow",
-    "description": "Placing a warding on food or drink, allows the target item to be eaten even if it is frozen.",
+    "description": "Placing a warding on foods or drinks that are not in wrappers or bottles, freezing the object and allowing it to be eaten even when frozen.",
     "valid_targets": [ "self" ],
     "spell_class": "PSY_magi_DUNGEON_MAGE",
     "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
     "effect": "effect_on_condition",
     "effect_str": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL",
     "shape": "blast",
-    "difficulty": 5,
+    "difficulty": 3,
     "max_level": 15,
     "energy_source": "MANA",
     "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
@@ -27,7 +27,41 @@
         "true_eocs": [
           {
             "id": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL_ITEM",
-            "effect": [ { "npc_set_flag": "EDIBLE_FROZEN" }, { "npc_set_flag": "EATEN_COLD" } ]
+            "effect": [ { "npc_set_flag": "FROZEN" },{ "npc_set_flag": "EDIBLE_FROZEN" }, { "npc_set_flag": "EATEN_COLD" } ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_food_edible_hot_spell",
+    "type": "SPELL",
+    "name": "Hot bento",
+    "description": "Placing a warding on foods or drinks that are not in wrappers or bottles, warms the target items and makes it tastier.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_FOOD_EDIBLE_HOT_SPELL",
+    "shape": "blast",
+    "difficulty": 3,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_FOOD_EDIBLE_HOT_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "food" }, { "category": "drink" } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_FOOD_EDIBLE_HOT_SPELL_ITEM",
+            "effect": [ { "npc_unset_flag": "FROZEN" }, { "npc_set_flag": "HOT" } , { "npc_set_flag": "EATEN_HOT" } ]
           }
         ]
       }
@@ -584,6 +618,277 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_speed_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Speed Up LV1~3",
+    "description": "Placing a warding on armor. Perception is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_SPEED_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_SPEED_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SPEED1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SPEED2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_SPEED3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SPEED3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SPEED3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_speed_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SPEED2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SPEED2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_speed_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_SPEED1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_SPEED1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_speed_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_mana_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Mana Up LV1~3",
+    "description": "Placing a warding on armor. Max Mana is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_MANA_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_MANA_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MANA1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MANA2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_MANA3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MANA3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MANA3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_mana_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MANA2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MANA2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_mana_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_MANA1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_MANA1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_mana_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_armor_enchant_regen_mana_spell",
+    "type": "SPELL",
+    "name": "Enchant Armor: Mana Regen LV1~3",
+    "description": "Placing a warding on armor. Mana Regeneration is increased while equipped with armor enchanted by this spell. Only one effect of each level is activated at a time, even if they are attached to different equipment.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_REGEN_MANA_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_REGEN_MANA_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(2)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_REGEN_MANA1_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_REGEN_MANA2_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_REGEN_MANA3_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_REGEN_MANA3_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_REGEN_MANA3_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_regen_mana_3" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_REGEN_MANA2_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_REGEN_MANA2_SPELL_ITEM2",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_regen_mana_2" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_REGEN_MANA1_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "search_data": [ { "category": "armor" }],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_REGEN_MANA1_SPELL_ITEM",
+            "condition": { "not": { "npc_has_flag": "PSY_ALREADY_ENCHANTED" } },
+            "effect": [ { "npc_set_flag": "PSY_enchant_regen_mana_1" },{ "run_eocs": "EOC_PSY_max_4_times_enchanted" },{ "run_eocs": "EOC_PSY_enchant_worn_item_all" }],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
   }
+
 
 ]

@@ -595,6 +595,53 @@
       "range_increment": 0.25,
       "min_duration": 12000,
       "max_duration": 30000
+    },
+
+    {
+      "id": "PSY_magi_self_noise_voice_spell",
+      "type": "SPELL",
+      "name": "Voice of Noise",
+      "description": "The voice temporarily becomes 30 times louder. Shouting might also attract zombies from neighboring towns?",
+      "valid_targets": [ "self" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS","SOMATIC" ],
+      "effect": "attack",
+      "effect_str": "PSY_magi_voice_noise_effect",
+      "shape": "blast",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "difficulty": 0,
+      "base_energy_cost": 50,
+      "energy_increment": -2.0,
+      "final_energy_cost": 30,
+      "base_casting_time": 50,
+      "max_level": 10,
+      "min_duration": 12000,
+      "max_duration": 30000,
+      "duration_increment": 1800
+    },
+
+    {
+      "id": "PSY_magi_self_serenade_spirits_spell",
+      "type": "SPELL",
+      "name": "Serenade of Spirits",
+      "description": "Summons several invisibly small spirits around it and makes them play music.\nThis music is the result of the resonance and power of the spirits that govern the elements of nature, such as earth, water, wind, and fire. The unique energies of each spirit merge to create a harmonious melody that elevates the listener's motivation.",
+      "valid_targets": [ "self" ],
+      "flags": [ "RANDOM_DAMAGE","NO_PROJECTILE","NO_LEGS","SOMATIC" ],
+      "effect": "morale",
+      "effect_str": "morale_feeling_good",
+      "message": "You're filled with euphoria!",
+      "shape": "blast",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "difficulty": 2,
+      "min_damage": 20,
+      "max_damage": 50,
+      "base_energy_cost": 150,
+      "energy_increment": -2.0,
+      "final_energy_cost": 110,
+      "base_casting_time": 6000,
+      "max_level": 20,
+      "min_duration": 360000,
+      "max_duration": 3600000,
+      "duration_increment": 180000
     }
 
 

@@ -8,7 +8,10 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_magi_meditation_mana", "level": 0 },
+          { "id": "PSY_food_edible_hot_spell", "level": 0 },
           { "id": "PSY_food_edible_frozen_spell", "level": 0 },
+          { "id": "PSY_magi_self_serenade_spirits_spell", "level": 0 },
+          { "id": "PSY_magi_self_noise_voice_spell", "level": 0 },
           { "id": "PSY_weapon_durable_melee_spell", "level": 0 },
           { "id": "PSY_armor_waterproof_spell", "level": 0 },
           { "id": "PSY_armor_padded_spell", "level": 0 },

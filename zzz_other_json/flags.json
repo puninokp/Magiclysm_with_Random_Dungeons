@@ -109,6 +109,61 @@
         "id": "PSY_enchant_sense_3",
         "type": "json_flag",
         "info": "[<good>Sense-up Lv:3</good>]This item will <info>increase your 3 of perception</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_speed_1",
+        "type": "json_flag",
+        "info": "[<good>Speed-up Lv:1</good>]This item will <info>increase your 5 of speed</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_speed_2",
+        "type": "json_flag",
+        "info": "[<good>Speed-up Lv:2</good>]This item will <info>increase your 10 of speed</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_speed_3",
+        "type": "json_flag",
+        "info": "[<good>Speed-up Lv:3</good>]This item will <info>increase your 15 of speed</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_mana_1",
+        "type": "json_flag",
+        "info": "[<good>Mana-up Lv:1</good>]This item will <info>increase your 300 of max mana</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_mana_2",
+        "type": "json_flag",
+        "info": "[<good>Mana-up Lv:2</good>]This item will <info>increase your 600 of max mana</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_mana_3",
+        "type": "json_flag",
+        "info": "[<good>Mana-up Lv:3</good>]This item will <info>increase your 900 of max mana</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_regen_mana_1",
+        "type": "json_flag",
+        "info": "[<good>Mana Regen Lv:1</good>]This item will <info>increase your mana regeneration by x1.1</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_regen_mana_2",
+        "type": "json_flag",
+        "info": "[<good>Mana Regen Lv:2</good>]This item will <info>increase your mana regeneration by x1.2</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_regen_mana_3",
+        "type": "json_flag",
+        "info": "[<good>Mana Regen Lv:3</good>]This item will <info>increase your mana regeneration by x1.3</info> while worn."
     }
+
 
 ]
