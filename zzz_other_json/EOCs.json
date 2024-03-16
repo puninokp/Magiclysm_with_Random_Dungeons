@@ -270,12 +270,14 @@
     "type": "effect_on_condition",
     "id": "EOC_PSY_enchant_worn_item_all",
     "effect": [
-       { "run_eocs": "EOC_PSY_enchant_lift" },
-       { "run_eocs": "EOC_PSY_enchant_sense" },
-       { "run_eocs": "EOC_PSY_enchant_wise" },
-       { "run_eocs": "EOC_PSY_enchant_deft" },
-       { "run_eocs": "EOC_PSY_enchant_speed" },
-       { "run_eocs": "EOC_PSY_enchant_muscle" }  
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_lift" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_regen_mana" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_mana" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_sense" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_wise" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_deft" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_speed" },
+       { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_muscle" }  
       ]
   },
   {
@@ -285,7 +287,9 @@
     "required_event": "character_wears_item",
     "effect": [
        { "run_eocs": "EOC_PSY_enchant_lift" },
+       { "run_eocs": "EOC_PSY_enchant_regen_mana" },
        { "run_eocs": "EOC_PSY_enchant_sense" },
+       { "run_eocs": "EOC_PSY_enchant_mana" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
        { "run_eocs": "EOC_PSY_enchant_speed" },
@@ -299,7 +303,9 @@
     "required_event": "character_wields_item",
     "effect": [ 
        { "run_eocs": "EOC_PSY_enchant_lift" },
+       { "run_eocs": "EOC_PSY_enchant_regen_mana" },
        { "run_eocs": "EOC_PSY_enchant_sense" },
+       { "run_eocs": "EOC_PSY_enchant_mana" },
        { "run_eocs": "EOC_PSY_enchant_wise" },
        { "run_eocs": "EOC_PSY_enchant_deft" },
        { "run_eocs": "EOC_PSY_enchant_speed" },
@@ -320,10 +326,12 @@
                 "if": { "u_has_worn_with_flag": "PSY_enchant_lift_1" },
                 "then": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "60000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "6" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ],
                 "else": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "50000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "5" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ]
               }
@@ -333,10 +341,12 @@
                 "if": { "u_has_worn_with_flag": "PSY_enchant_lift_1" },
                 "then": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "40000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "4" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ],
                 "else": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "30000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "4" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ]
               }
@@ -351,10 +361,12 @@
                 "if": { "u_has_worn_with_flag": "PSY_enchant_lift_1" },
                 "then": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "30000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "3" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ],
                 "else": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "20000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "2" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ]
               }
@@ -364,6 +376,7 @@
                 "if": { "u_has_worn_with_flag": "PSY_enchant_lift_1" },
                 "then": [
                   { "math": [ "u_EOC_PSY_enchant_lift_val", "=", "10000" ] },
+                  { "math": [ "u_counter_var_love_points_love_point", "=", "1" ] },
                   { "u_add_effect": "PSY_enchant_lift", "duration": "PERMANENT" }
                 ],
                 "else": { "u_lose_effect": "PSY_enchant_lift" }
@@ -378,7 +391,7 @@
     "type": "effect_type",
     "id": "PSY_enchant_lift",
     "name":  [ 
-      "Lift Up"      
+      "Lift Up"
     ],
     "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
     "rating": "good",
@@ -944,5 +957,121 @@
     "rating": "good",
     "show_in_info": true,
     "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": { "math": [ "u_EOC_PSY_enchant_regen_mana_val" ] } } ] } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_teleport_item_to_your_feet",
+    "effect": [
+      { "u_location_variable": { "context_val": "PSY_your_location" } },
+      {
+        
+      "if": { "u_query_tile": "anywhere", "target_var": { "context_val": "PSY_teleport_items_location" }, "message": "Select point" },
+        "then": {
+          "u_map_run_item_eocs": "manual_mult",
+          "loc": { "context_val": "PSY_teleport_items_location" },
+          "min_radius": 0,
+          "max_radius": 0,
+          "title": "Teleport Items",
+          "true_eocs": [
+            {
+              "id": "PSY_EOC_teleport_item_to_your_feet_main",
+              "effect": [ { "npc_teleport": { "context_val": "PSY_your_location" } }, { "u_message": "Items rolled at your feet." } ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_teleport_your_feet_item_to_target",
+    "effect": [
+      { "u_location_variable": { "context_val": "PSY_your_location" } },
+      {
+        
+      "if": { "u_query_tile": "anywhere", "target_var": { "context_val": "PSY_teleport_items_location" }, "message": "Select point" },
+        "then": {
+          "u_map_run_item_eocs": "manual_mult",
+          "loc": { "context_val": "PSY_your_location" },
+          "min_radius": 0,
+          "max_radius": 0,
+          "title": "Teleport Items",
+          "true_eocs": [
+            {
+              "id": "PSY_EOC_teleport_your_feet_item_to_target_main",
+              "effect": [ { "npc_teleport": { "context_val": "PSY_teleport_items_location" } }, { "u_message": "Items rolled at target tile." } ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_magic_fountain",
+    "global": true,
+    "effect": { "open_dialogue": { "topic": "PSY_TALK_MAGIC_FOUNTAIN" } }
+  },
+
+  {
+    "id": "EOC_PSY_MAGIC_FOUNTAIN_RANDOM_ENCHANT_ARMOR",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(7)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_LIFT_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_MUSCLE_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_WISE_SPELL" } ] },
+          { "case": 3, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_DEFT_SPELL" } ] },
+          { "case": 4, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_SENSE_SPELL" } ] },
+          { "case": 5, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_SPEED_SPELL" } ] },
+          { "case": 6, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_MANA_SPELL" } ] },
+          { "case": 7, "effect": [ { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_REGEN_MANA_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_TALK_MAGIC_FOUNTAIN",
+    "type": "talk_topic",
+    "dynamic_line": "You can enchant random effects on your equipment at the magic fountain.",
+    "responses": [
+      { "text": "[I want to enchant my armor.]", "topic": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1" },
+      { "text": "[I don't want any right now.]", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//1": "WEAPON",
+    "id": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1",
+    "type": "talk_topic",
+    "dynamic_line": "Do you really want to enchant your armor?",
+    "responses": [
+      {
+        "text": "[Yes.]",
+          "topic": "PSY_TALK_MAGIC_FOUNTAIN_ANSWER",
+          "effect": [
+            { "run_eocs": "EOC_PSY_MAGIC_FOUNTAIN_RANDOM_ENCHANT_ARMOR" },
+            {
+              "u_cast_spell": {
+                "id": "PSY_magi_item_spell_no_more_use_magic_fountain",
+                "message": "The fountain lost its luster."
+              },
+              "targeted": false
+            }
+          ]
+      },
+      { "text": "[I don't want any right now.]", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_MAGIC_FOUNTAIN_ANSWER",
+    "dynamic_line": "The fountain lost its luster.",
+    "responses": [ { "text": "...", "topic": "TALK_DONE" } ]
   }
 ]

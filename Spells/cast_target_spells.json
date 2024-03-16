@@ -642,6 +642,42 @@
       "min_duration": 360000,
       "max_duration": 3600000,
       "duration_increment": 180000
+    },
+
+    {
+      "id": "PSY_magi_teleport_items_feet_spell",
+      "type": "SPELL",
+      "name": "Magical Stealing",
+      "description": "Select as many items at the target location as you like and move them instantly to your feet.\nCan be activated ignoring walls.",
+      "valid_targets": [ "self" ],
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+      "effect": "effect_on_condition",
+      "effect_str": "PSY_EOC_teleport_item_to_your_feet",
+      "shape": "blast",
+      "difficulty": 2,
+      "max_level": 15,
+      "energy_source": "MANA",
+      "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(150)" ] },
+      "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(6000)" ] }
+    },
+
+    {
+      "id": "PSY_magi_teleport_items_feet_to_spell",
+      "type": "SPELL",
+      "name": "Item Transfer",
+      "description": "Select an item at your feet and move it instantly to the target point.\nCan be activated ignoring walls.",
+      "valid_targets": [ "self" ],
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+      "effect": "effect_on_condition",
+      "effect_str": "PSY_EOC_teleport_your_feet_item_to_target",
+      "shape": "blast",
+      "difficulty": 2,
+      "max_level": 15,
+      "energy_source": "MANA",
+      "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(150)" ] },
+      "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(6000)" ] }
     }
 
 

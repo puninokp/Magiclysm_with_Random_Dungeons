@@ -531,6 +531,124 @@
             "+": { "monster": "PSY_magi_rnd_mon_ironavian", "chance": 100 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_10x10_magic_fountain1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "||||||||||",
+            "||F||||U||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "||U||||U||",
+            "||||||||||",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "F": "PSY_magi_t_dirt",
+            "U": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "F": "PSY_magi_f_magic_fountain",
+            "U": "PSY_magi_f_magic_fountain_used",
+            "|": [
+              [ "f_null", 22 ],
+              "f_platonic_flower",
+              "f_moonflower",
+              "f_kampuch",
+              "f_glowing_mushroom",
+              "f_golden_reed",
+              "f_barnacle_weed",
+              "f_dragonail",
+              "f_moly",
+              "f_flowering_fern",
+              "f_whiskflower",
+              "f_olieribos"
+            ]
+          }
+        }
+      },
+      
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_10x10_magic_fountain2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "||||||||||",
+            "||U||||F||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "||F||||U||",
+            "||||||||||",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "F": "PSY_magi_t_dirt",
+            "U": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "F": "PSY_magi_f_magic_fountain",
+            "U": "PSY_magi_f_magic_fountain_used",
+            "|": [
+              [ "f_null", 16 ],
+              "f_platonic_flower",
+              "f_moonflower",
+              "f_kampuch",
+              "f_glowing_mushroom",
+              "f_golden_reed",
+              "f_barnacle_weed",
+              "f_dragonail",
+              "f_moly",
+              "f_flowering_fern",
+              "f_whiskflower",
+              "f_olieribos"
+            ]
+          }
+        }
       }
 
 

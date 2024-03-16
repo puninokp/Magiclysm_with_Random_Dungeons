@@ -705,6 +705,18 @@
             "valid_furniture": [ "f_null" ]    
           }
         ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_magic_fountain_transform",
+        "furniture":[
+
+          {
+            "result": [  "PSY_magi_f_magic_fountain_used" ],
+            "valid_furniture": [ "PSY_magi_f_magic_fountain" ]    
+          }
+        ]
       }
 
 ]

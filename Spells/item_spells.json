@@ -2309,6 +2309,28 @@
   },
 
   {
+    "id": "PSY_magi_item_spell_no_more_use_magic_fountain",
+    "type": "SPELL",
+    "name": "Treasure Hunt",
+    "description": "Come on! Let's get the treasure!",
+    "valid_targets": ["hostile","self","ground","ally"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX", "NO_PROJECTILE","IGNORE_WALLS" ],
+    "range_increment": 1.0,
+    "min_aoe": 1,
+    "max_aoe": 1,
+    "aoe_increment": 0.125,
+    "base_energy_cost": 200,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "max_level": 20,
+    "base_casting_time": 100,
+    "energy_source": "MANA",
+    "shape": "blast",
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_magic_fountain_transform"
+  },
+
+  {
     "id": "PSY_magi_item_spell_open_gargoyle_treasure_chest",
     "type": "SPELL",
     "name": "Treasure Hunt",

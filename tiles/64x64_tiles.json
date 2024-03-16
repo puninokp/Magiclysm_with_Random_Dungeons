@@ -183,7 +183,14 @@
             { "id": "PSY_magi_f_huge_carne_stone" ,"fg": 159 },
             { "id": "PSY_magi_f_huge_emerald_leaf" ,"fg": 160 },
             { "id": "PSY_magi_f_huge_emerald_manite" ,"fg": 164 },
-            { "id": "PSY_magi_f_huge_siren_blue" ,"fg": 166 }
+            { "id": "PSY_magi_f_huge_siren_blue" ,"fg": 166 },
+            { "id": "PSY_magi_f_magic_fountain","animated": true, "rotates": false,"fg":
+            [
+            {"weight": 100, "sprite":185},
+            {"weight": 100, "sprite":186}
+            ]
+            },
+            { "id": "PSY_magi_f_magic_fountain_used" ,"fg": 187 }
 
           ]
         }

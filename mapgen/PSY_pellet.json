@@ -927,6 +927,8 @@
           [ "PSY_magi_nested_room_10x10_null", 1 ],
           [ "PSY_magi_nested_room_10x10_magic_flower", 10 ],
           [ "PSY_magi_nested_room_10x10_vat", 10 ],
+          [ "PSY_magi_nested_room_10x10_magic_fountain1", 7 ],
+          [ "PSY_magi_nested_room_10x10_magic_fountain2", 3 ],
           [ "PSY_magi_nested_room_10x10_stone", 10 ]
         ]
       },

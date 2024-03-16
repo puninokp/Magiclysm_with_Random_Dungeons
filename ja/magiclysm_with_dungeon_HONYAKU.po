@@ -2572,8 +2572,6 @@ msgstr "足がなく、浮遊しながら動く鎧です。胸にある3つの�
 msgid "Welcome! What would you like?"
 msgstr "ようこそ！何をお望みですか？"
 
-
-
 msgid "[I need some kind of spells.]"
 msgstr "呪文が必要だ"
 
@@ -6052,3 +6050,42 @@ msgstr "[<good>マナリジェネLv:2</good>]このアイテムは装備して�
 
 msgid "[<good>Mana Regen Lv:3</good>]This item will <info>increase your mana regeneration by x1.3</info> while worn."
 msgstr "[<good>マナリジェネLv:3</good>]このアイテムは装備している間、<info>マナ回復を1.3倍に増加</info>させます。"
+
+msgid "Magical Stealing"
+msgstr "マジカル窃盗"
+
+msgid "Teleport Items"
+msgstr "瞬間移動するアイテムを選択"
+
+msgid "Select an item at your feet and move it instantly to the target point.\nCan be activated ignoring walls."
+msgstr "自分の足元のアイテムを選択し、対象地点に瞬間移動させる。\n壁を無視して発動可能。"
+
+msgid "Item Transfer"
+msgstr "アイテム転送"
+
+msgid "Magic Fountain"
+msgstr "魔法の泉"
+
+msgid "Normal Fountain"
+msgstr "普通の泉"
+
+msgid "A magical fountain that exists in the dungeon. If there is any sparkle left, magic can be enchanted on equipment."
+msgstr "ダンジョンに存在する魔法の泉。輝きが残っている場合、装備に魔法をエンチャントすることが出来る。"
+
+msgid "[I want to enchant my armor.]"
+msgstr "鎧にエンチャントしたい!"
+
+msgid "Do you really want to enchant your armor?"
+msgstr "本当に防具にエンチャントしたいのですか？"
+
+msgid "[Yes.]"
+msgstr "はい"
+
+msgid "You can enchant random effects on your equipment at the magic fountain."
+msgstr "あなたは魔法の泉で装備にランダムな効果をエンチャントすることが出来ます。"
+
+msgid "Select the armor you want to enchant."
+msgstr "エンチャントする鎧を選択してください。"
+
+msgid "The fountain lost its luster."
+msgstr "泉は輝きを失った。"

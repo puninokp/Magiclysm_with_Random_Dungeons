@@ -22,7 +22,7 @@
     "id": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "food" }, { "category": "drink" } ],
         "true_eocs": [
           {
@@ -56,7 +56,7 @@
     "id": "EOC_PSY_FOOD_EDIBLE_HOT_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "food" }, { "category": "drink" } ],
         "true_eocs": [
           {
@@ -90,7 +90,7 @@
     "id": "EOC_PSY_WEAPON_DURABLE_MELEE_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "weapons" }, { "category": "tools" } ],
         "true_eocs": [
           {
@@ -124,7 +124,7 @@
     "id": "EOC_PSY_ARMOR_WATERPROOF_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -158,7 +158,7 @@
     "id": "EOC_PSY_ARMOR_PADDED_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -208,7 +208,7 @@
     "id": "EOC_PSY_ENCHANT_LIFT3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -227,7 +227,7 @@
     "id": "EOC_PSY_ENCHANT_LIFT2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -246,7 +246,7 @@
     "id": "EOC_PSY_ENCHANT_LIFT1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -298,7 +298,7 @@
     "id": "EOC_PSY_ENCHANT_MUSCLE3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -317,7 +317,7 @@
     "id": "EOC_PSY_ENCHANT_MUSCLE2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -336,7 +336,7 @@
     "id": "EOC_PSY_ENCHANT_MUSCLE1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -388,7 +388,7 @@
     "id": "EOC_PSY_ENCHANT_WISE3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -407,7 +407,7 @@
     "id": "EOC_PSY_ENCHANT_WISE2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -426,7 +426,7 @@
     "id": "EOC_PSY_ENCHANT_WISE1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -478,7 +478,7 @@
     "id": "EOC_PSY_ENCHANT_DEFT3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -497,7 +497,7 @@
     "id": "EOC_PSY_ENCHANT_DEFT2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -516,7 +516,7 @@
     "id": "EOC_PSY_ENCHANT_DEFT1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -568,7 +568,7 @@
     "id": "EOC_PSY_ENCHANT_SENSE3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -587,7 +587,7 @@
     "id": "EOC_PSY_ENCHANT_SENSE2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -606,7 +606,7 @@
     "id": "EOC_PSY_ENCHANT_SENSE1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -658,7 +658,7 @@
     "id": "EOC_PSY_ENCHANT_SPEED3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -677,7 +677,7 @@
     "id": "EOC_PSY_ENCHANT_SPEED2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -696,7 +696,7 @@
     "id": "EOC_PSY_ENCHANT_SPEED1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -748,7 +748,7 @@
     "id": "EOC_PSY_ENCHANT_MANA3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -767,7 +767,7 @@
     "id": "EOC_PSY_ENCHANT_MANA2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -786,7 +786,7 @@
     "id": "EOC_PSY_ENCHANT_MANA1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -838,7 +838,7 @@
     "id": "EOC_PSY_ENCHANT_REGEN_MANA3_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -857,7 +857,7 @@
     "id": "EOC_PSY_ENCHANT_REGEN_MANA2_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
@@ -876,7 +876,7 @@
     "id": "EOC_PSY_ENCHANT_REGEN_MANA1_SPELL",
     "effect": [
       {
-        "u_run_inv_eocs": "manual_mult",
+        "u_run_inv_eocs": "manual",
         "search_data": [ { "category": "armor" }],
         "true_eocs": [
           {
