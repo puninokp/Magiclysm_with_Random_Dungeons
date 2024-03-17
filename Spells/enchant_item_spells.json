@@ -14,8 +14,8 @@
     "difficulty": 3,
     "max_level": 15,
     "energy_source": "MANA",
-    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
-    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(300)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(60000)" ] }
   },
   {
     "type": "effect_on_condition",
@@ -27,7 +27,7 @@
         "true_eocs": [
           {
             "id": "EOC_PSY_FOOD_EDIBLE_FROZEN_SPELL_ITEM",
-            "effect": [ { "npc_set_flag": "FROZEN" },{ "npc_set_flag": "EDIBLE_FROZEN" }, { "npc_set_flag": "EATEN_COLD" } ]
+            "effect": [ { "npc_unset_flag": "HOT" },{ "npc_set_flag": "FROZEN" },{ "npc_set_flag": "EDIBLE_FROZEN" }, { "npc_set_flag": "EATEN_COLD" } ]
           }
         ]
       }
@@ -48,8 +48,8 @@
     "difficulty": 3,
     "max_level": 15,
     "energy_source": "MANA",
-    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
-    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(300)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(60000)" ] }
   },
   {
     "type": "effect_on_condition",
@@ -125,7 +125,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ARMOR_WATERPROOF_SPELL_ITEM",
@@ -159,7 +159,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ARMOR_PADDED_SPELL_ITEM",
@@ -209,7 +209,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_LIFT3_SPELL_ITEM",
@@ -228,7 +228,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_LIFT2_SPELL_ITEM2",
@@ -247,7 +247,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_LIFT1_SPELL_ITEM",
@@ -299,7 +299,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MUSCLE3_SPELL_ITEM",
@@ -318,7 +318,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MUSCLE2_SPELL_ITEM2",
@@ -337,7 +337,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MUSCLE1_SPELL_ITEM",
@@ -389,7 +389,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_WISE3_SPELL_ITEM",
@@ -408,7 +408,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_WISE2_SPELL_ITEM2",
@@ -427,7 +427,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_WISE1_SPELL_ITEM",
@@ -479,7 +479,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_DEFT3_SPELL_ITEM",
@@ -498,7 +498,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_DEFT2_SPELL_ITEM2",
@@ -517,7 +517,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_DEFT1_SPELL_ITEM",
@@ -569,7 +569,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SENSE3_SPELL_ITEM",
@@ -588,7 +588,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SENSE2_SPELL_ITEM2",
@@ -607,7 +607,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SENSE1_SPELL_ITEM",
@@ -659,7 +659,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SPEED3_SPELL_ITEM",
@@ -678,7 +678,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SPEED2_SPELL_ITEM2",
@@ -697,7 +697,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_SPEED1_SPELL_ITEM",
@@ -749,7 +749,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MANA3_SPELL_ITEM",
@@ -768,7 +768,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MANA2_SPELL_ITEM2",
@@ -787,7 +787,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_MANA1_SPELL_ITEM",
@@ -839,7 +839,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_REGEN_MANA3_SPELL_ITEM",
@@ -858,7 +858,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_REGEN_MANA2_SPELL_ITEM2",
@@ -877,7 +877,7 @@
     "effect": [
       {
         "u_run_inv_eocs": "manual",
-        "search_data": [ { "category": "armor" }],
+        "search_data": [ { "worn_only": true } ],
         "true_eocs": [
           {
             "id": "EOC_PSY_ENCHANT_REGEN_MANA1_SPELL_ITEM",

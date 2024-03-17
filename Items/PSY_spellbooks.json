@@ -736,6 +736,38 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Create foods]", "str_pl": "Scrolls of [Create foods]" },
         "description": "You can read this scroll to learn [Create foods].\n 10 Magical Coin or Magical Forest Coin and MP to summon a box that, when broken, will yield some food.\n\n If you make it in a place where there is furniture, it will fail."
+    },
+
+    {
+        "id": "spell_scroll_PSY_food_edible_frozen_spell",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_food_edible_frozen_spell" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Taste of melting snow]", "str_pl": "Scrolls of [Taste of melting snow]" },
+        "description": "You can read this scroll to learn [Taste of melting snow].\n Placing a warding on foods or drinks that are not in wrappers or bottles, freezing the object and allowing it to be eaten even when frozen."
+    },
+
+    {
+        "id": "spell_scroll_PSY_food_edible_hot_spell",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_food_edible_hot_spell" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Hot bento]", "str_pl": "Scrolls of [Hot bento]" },
+        "description": "You can read this scroll to learn [Hot bento].\n Placing a warding on foods or drinks that are not in wrappers or bottles, warms the target items and makes it tastier."
     }
 
 ]

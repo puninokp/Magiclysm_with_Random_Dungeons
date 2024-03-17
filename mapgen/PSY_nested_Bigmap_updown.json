@@ -776,7 +776,7 @@
         "9": "PSY_magi_t_floor",
         ":": "PSY_magi_t_floor",
         ";": "PSY_magi_t_floor",
-        "|": "t_rock_floor",
+        "|": "PSY_magi_t_floor",
         "g": "t_sandbox",
         "?": "PSY_magi_t_floor",
         "v": "PSY_magi_t_floor",
@@ -804,7 +804,7 @@
         "F": "PSY_magi_f_magic_fountain",
         "U": "PSY_magi_f_magic_fountain_used",
         ".": [
-          [ "f_null", 25 ],
+          [ "f_null", 55 ],
           "f_platonic_flower",
           "f_moonflower",
           "f_kampuch",

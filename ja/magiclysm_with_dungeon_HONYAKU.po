@@ -2452,7 +2452,6 @@ msgstr[0] "巻物:【エアブレード】"
 msgid "You can read this scroll to learn [Blade of Air].\n Continuously summons blades of air that slices the target for a certain period of time."
 msgstr "この巻物を読むと[エアブレード]を習得できる。一定期間の間、対象を切り刻む空気の刃を召喚し続けます"
 
-
 msgid "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
 msgstr "この巻物を読むと[悪魔リンゴの木召喚]を習得できる。多数の悪魔りんごを生む、悪魔リンゴの木のモンスターを召喚します。"
 
@@ -6075,8 +6074,14 @@ msgstr "ダンジョンに存在する魔法の泉。輝きが残っている場
 msgid "[I want to enchant my armor.]"
 msgstr "鎧にエンチャントしたい!"
 
+msgid "[I want to enchant my currently equipped armor!]"
+msgstr "現在装備している防具にエンチャントしたい!"
+
 msgid "Do you really want to enchant your armor?"
 msgstr "本当に防具にエンチャントしたいのですか？"
+
+msgid "Do you really want to enchant your armor?\n*Make sure you are equipped with the armor you want to enchant!"
+msgstr "本当に防具にエンチャントしたいのですか？\n*エンチャントしたい防具を装備しているか確認してください!"
 
 msgid "[Yes.]"
 msgstr "はい"
@@ -6089,3 +6094,17 @@ msgstr "エンチャントする鎧を選択してください。"
 
 msgid "The fountain lost its luster."
 msgstr "泉は輝きを失った。"
+
+msgid "Scroll of [Taste of melting snow]"
+msgid_plural "Scrolls of [Taste of melting snow]"
+msgstr[0] "巻物:【雪解けの味】"
+
+msgid "You can read this scroll to learn [Taste of melting snow].\n Placing a warding on foods or drinks that are not in wrappers or bottles, freezing the object and allowing it to be eaten even when frozen."
+msgstr "この巻物を読むと[雪解けの味]を習得できる。包装紙やボトルに入っていない食べ物や飲み物に結界を張り、対象物を凍らせ、凍っていても食べることをできるようにする。"
+
+msgid "Scroll of [Hot bento]"
+msgid_plural "Scrolls of [Hot bento]"
+msgstr[0] "巻物:【ホカホカ弁当】"
+
+msgid "You can read this scroll to learn [Hot bento].\n Placing a warding on foods or drinks that are not in wrappers or bottles, warms the target items and makes it tastier."
+msgstr "この巻物を読むと[ホカホカ弁当]を習得できる。包装紙やボトルに入っていない食べ物や飲み物に結界を張り、対象のアイテムを温め、美味しく食べれるようにする。"

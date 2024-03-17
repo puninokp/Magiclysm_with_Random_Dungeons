@@ -1041,7 +1041,7 @@
     "type": "talk_topic",
     "dynamic_line": "You can enchant random effects on your equipment at the magic fountain.",
     "responses": [
-      { "text": "[I want to enchant my armor.]", "topic": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1" },
+      { "text": "[I want to enchant my currently equipped armor!]", "topic": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1" },
       { "text": "[I don't want any right now.]", "topic": "TALK_DONE" }
     ]
   },
@@ -1049,7 +1049,7 @@
     "//1": "WEAPON",
     "id": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1",
     "type": "talk_topic",
-    "dynamic_line": "Do you really want to enchant your armor?",
+    "dynamic_line": "Do you really want to enchant your armor?\n*Make sure you are equipped with the armor you want to enchant!",
     "responses": [
       {
         "text": "[Yes.]",
