@@ -2348,6 +2348,7 @@
           },
           "furniture": {
             "6": "f_table",
+            "#": "f_null",
             "7": "f_bookcase",
             "8": "f_bathtub",
             "9": "f_rack",
@@ -2541,6 +2542,7 @@
             "Y": "f_armchair",
             "x": "f_floor_lamp",
             "N": "f_bigmirror",
+            "#": "f_null",
             "I": "f_desk",
             "o": "f_null",
             "K": "f_wardrobe",
@@ -2778,6 +2780,7 @@
             "C": "f_armchair",
             "a": "f_rack_coat",
             "g": "f_bookcase",
+            "#": "f_null",
             "k": "f_floor_lamp",
             "I": "f_desk",
             "H": "f_fireplace"
