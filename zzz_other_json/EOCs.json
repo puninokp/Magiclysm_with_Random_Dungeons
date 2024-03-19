@@ -268,6 +268,22 @@
 
   {
     "type": "effect_on_condition",
+    "id": "EOC_PSY_max_1_times_special_enchanted",
+    "effect": [
+      {
+        "if": { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" },
+        "then": [
+          { "npc_unset_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" },
+          { "npc_set_flag": "PSY_ALREADY_SPECIAL_ENCHANTED" },
+          { "u_message": "<npc_name> has 0 more space available for enchantment." }
+        ],
+        "else": [{ "u_message": "<npc_name> has 0 more spaces available for enchantment." }]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
     "id": "EOC_PSY_enchant_worn_item_all",
     "effect": [
        { "time_in_future": "1 s","queue_eoc_with": "EOC_PSY_enchant_lift" },
@@ -1011,6 +1027,58 @@
 
   {
     "type": "effect_on_condition",
+    "id": "PSY_EOC_melee_attacks_character",
+    "eoc_type": "EVENT",
+    "required_event": "character_melee_attacks_character",
+    "condition": { "and": [ { "math": [ "_hits", "==", "1" ] } ] },
+    "effect": {
+      "run_eocs": [
+        "PSY_EOC_weapon_enchant_Frostwolf",
+        "PSY_EOC_weapon_enchant_Flameburst",
+        "PSY_EOC_weapon_enchant_Frostbite",
+        "PSY_EOC_weapon_enchant_Bloodsucking",
+        "PSY_EOC_weapon_enchant_Swift",
+        "PSY_EOC_weapon_enchant_Vacuum",
+        "PSY_EOC_weapon_enchant_Sonic",
+        "PSY_EOC_weapon_enchant_Darkness",
+        "PSY_EOC_weapon_enchant_Tentacle",
+        "PSY_EOC_weapon_enchant_Bug_Swarm",
+        "PSY_EOC_weapon_enchant_Summoning",
+        "PSY_EOC_weapon_enchant_Mist",
+        "PSY_EOC_weapon_enchant_Floral",
+        "PSY_EOC_weapon_enchant_Manasucking"
+      ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_melee_attacks_monster",
+    "eoc_type": "EVENT",
+    "required_event": "character_melee_attacks_monster",
+    "condition": { "and": [ { "math": [ "_hits", "==", "1" ] } ] },
+    "effect": {
+      "run_eocs": [
+        "PSY_EOC_weapon_enchant_Frostwolf",
+        "PSY_EOC_weapon_enchant_Flameburst",
+        "PSY_EOC_weapon_enchant_Frostbite",
+        "PSY_EOC_weapon_enchant_Bloodsucking",
+        "PSY_EOC_weapon_enchant_Swift",
+        "PSY_EOC_weapon_enchant_Vacuum",
+        "PSY_EOC_weapon_enchant_Sonic",
+        "PSY_EOC_weapon_enchant_Darkness",
+        "PSY_EOC_weapon_enchant_Tentacle",
+        "PSY_EOC_weapon_enchant_Bug_Swarm",
+        "PSY_EOC_weapon_enchant_Summoning",
+        "PSY_EOC_weapon_enchant_Mist",
+        "PSY_EOC_weapon_enchant_Floral",
+        "PSY_EOC_weapon_enchant_Manasucking"
+      ]
+    }
+  },
+
+
+  {
+    "type": "effect_on_condition",
     "id": "PSY_EOC_magic_fountain",
     "global": true,
     "effect": { "open_dialogue": { "topic": "PSY_TALK_MAGIC_FOUNTAIN" } }
@@ -1041,7 +1109,31 @@
     "type": "talk_topic",
     "dynamic_line": "You can enchant random effects on your equipment at the magic fountain.",
     "responses": [
+      { "text": "[I want to enchant an enchantable weapon picked up in a dungeon!]", "topic": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_WEAPON1" },
       { "text": "[I want to enchant my currently equipped armor!]", "topic": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_ARMOR1" },
+      { "text": "[I don't want any right now.]", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//1": "WEAPON",
+    "id": "PSY_TALK_MAGIC_FOUNTAIN_ENCHANT_WEAPON1",
+    "type": "talk_topic",
+    "dynamic_line": "Do you really want to enchant your weapon?\n*Make sure you have a weapon in your inventory that you are equipping or that you acquired in a dungeon that can be enchanted in your inventory!",
+    "responses": [
+      {
+        "text": "[Yes.]",
+          "topic": "PSY_TALK_MAGIC_FOUNTAIN_ANSWER",
+          "effect": [
+            { "run_eocs": "EOC_PSY_CHOICE_ENCHANT_WEAPON_SPELL" },
+            {
+              "u_cast_spell": {
+                "id": "PSY_magi_item_spell_no_more_use_magic_fountain",
+                "message": "The fountain lost its luster."
+              },
+              "targeted": false
+            }
+          ]
+      },
       { "text": "[I don't want any right now.]", "topic": "TALK_DONE" }
     ]
   },

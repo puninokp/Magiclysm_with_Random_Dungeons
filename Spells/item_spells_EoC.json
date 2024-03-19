@@ -1,0 +1,496 @@
+[
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Frostwolf",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Frostwolf" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_cold_damage", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Frostbite",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Frostbite" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_cold_damage", "min_level": 4, "max_level": 4 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_cold_damage",
+    "type": "SPELL",
+    "name": "Frostwolf",
+    "description": "Frostwolf",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "shape": "blast",
+    "damage_type": "cold",
+    "max_level": 20,
+    "base_casting_time": 0,
+    "min_range": 10,
+    "min_damage": 1,
+    "max_damage": 21,
+    "damage_increment": 1
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Flameburst",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Flameburst" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_heat_damage", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+  
+  {
+    "id": "PSY_spell_weapon_enchant_heat_damage",
+    "type": "SPELL",
+    "name": "Frostwolf",
+    "description": "Frostwolf",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "shape": "blast",
+    "damage_type": "heat",
+    "max_level": 20,
+    "base_casting_time": 0,
+    "min_range": 10,
+    "min_damage": 1,
+    "max_damage": 21,
+    "damage_increment": 1
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Bloodsucking",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Bloodsucking" },
+        "then": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_heal_damage", "min_level": 0, "max_level": 0 } }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_heal_damage",
+    "type": "SPELL",
+    "name": "Bloodsucking",
+    "description": "Bloodsucking",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "shape": "blast",
+    "max_level": 10,
+    "base_casting_time": 0,
+    "min_range": 1,
+    "min_damage": -1,
+    "max_damage": -11,
+    "damage_increment": -1
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Manasucking",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Manasucking" },
+        "then": { 
+          "math": [ "u_val('mana')", "+=", "5" ]
+        }
+      },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Manasucking" },
+        "then": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_fakespell_mana", "min_level": 0, "max_level": 0 } }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_fakespell_mana",
+    "type": "SPELL",
+    "name": { "str": "Fake Spell" },
+    "description": "A spell that doesn't do anything.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "shape": "blast",
+    "max_level": 10,
+    "base_casting_time": 0,
+    "min_range": 1,
+    "min_damage": 0,
+    "max_damage": 0
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Floral",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Floral" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Floral", "min_level": 0, "max_level": 0 } }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_Floral",
+    "type": "SPELL",
+    "name": "Flower Gardening Honey Syrup",
+    "description": "magic that makes the surrounding ground bloom.",
+    "valid_targets": ["hostile","self", "ground","ally"],
+    "flags": ["NO_FAIL", "NO_LEGS", "NO_HANDS","NO_EXPLOSION_SFX"],
+    "range_increment": 1.0,
+    "min_aoe": 2,
+    "max_aoe": 2,
+    "aoe_increment": 0.125,
+    "base_energy_cost": 200,
+    "spell_class": "NONE",
+    "difficulty": 4,
+    "max_level": 20,
+    "base_casting_time": 300,
+    "energy_source": "MANA",
+    "shape": "blast",
+    "effect": "ter_transform",
+    "effect_str": "PSY_magi_flower_transform"
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Summoning",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Summoning" },
+        "then": {         
+          "switch": { "math": [ "rand(8)" ] },
+          "cases": [
+            { "case": 8, "effect": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Summoning", "min_level": 0, "max_level": 0 } } }
+        ] }
+      }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_spell_weapon_enchant_Summoning",
+    "name": "Summon insects",
+    "description": "Summons a random insect.",
+    "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET","SPAWN_GROUP","NO_EXPLOSION_SFX" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 2000,
+    "max_duration": 2000,
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "GROUP_PSY_magi_RND_MONSTERS_ALL1"
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Bug_Swarm",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Bug_Swarm" },
+        "then": {         
+          "switch": { "math": [ "rand(4)" ] },
+          "cases": [
+            { "case": 4, "effect": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Bug_Swarm" } } }
+        ] }
+      }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_spell_weapon_enchant_Bug_Swarm",
+    "name": "Summon insects",
+    "description": "Summons a random insect.",
+    "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET","SPAWN_GROUP","NO_EXPLOSION_SFX" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 1500,
+    "max_duration": 1500,
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "GROUP_PSY_magi_RND_INSECTS"
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Tentacle",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Tentacle" },
+        "then": {         
+          "switch": { "math": [ "rand(10)" ] },
+          "cases": [
+            { "case": 10, "effect": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Tentacle" } } }
+        ] }
+      }
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_spell_weapon_enchant_Tentacle",
+    "name": "Summon insects",
+    "description": "Summons a random insect.",
+    "flags": ["SILENT", "NO_PROJECTILE","RANDOM_DURATION","RANDOM_TARGET","NO_EXPLOSION_SFX" ],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "min_duration": 3000,
+    "max_duration": 3000,
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_evil_tentacle"
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Mist",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Mist" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Mist", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+  
+  {
+    "id": "PSY_spell_weapon_enchant_Mist",
+    "type": "SPELL",
+    "name": "Create Darkness Field",
+    "description": "Create a field of darkness in the area of the target point.",
+    "valid_targets": [ "hostile", "ally" ,"ground"],
+    "flags": [ "NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 8,
+    "max_level": 1,
+    "base_casting_time": 470,
+    "base_energy_cost": 500,
+    "final_energy_cost": 500,
+    "min_duration": 3000,
+    "max_duration": 3000,
+    "min_damage": 0,
+    "max_damage": 0,
+    "damage_type": "pure",
+    "field_id": "fd_fog",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "min_range": 18,
+    "max_range": 18,
+    "range_increment": 1.0
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Darkness",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Darkness" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Darkness", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+  
+  {
+    "id": "PSY_spell_weapon_enchant_Darkness",
+    "type": "SPELL",
+    "name": "Create Darkness Field",
+    "description": "Create a field of darkness in the area of the target point.",
+    "valid_targets": [ "hostile", "ally" ,"ground"],
+    "flags": [ "NO_PROJECTILE","LOUD" ],
+    "effect": "attack",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "difficulty": 8,
+    "max_level": 1,
+    "base_casting_time": 470,
+    "base_energy_cost": 500,
+    "final_energy_cost": 500,
+    "min_duration": 3000,
+    "max_duration": 3000,
+    "min_damage": 0,
+    "max_damage": 0,
+    "damage_type": "pure",
+    "field_id": "fd_darkness",
+    "min_field_intensity": 2,
+    "max_field_intensity": 2,
+    "min_range": 18,
+    "max_range": 18,
+    "range_increment": 1.0
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Sonic",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Sonic" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Sonic", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+  
+  {
+    "id": "PSY_spell_weapon_enchant_Sonic",
+    "type": "SPELL",
+    "name": "Starlight Confusion",
+    "description": "You blast a cone of dizzling light toward the target.",
+    "effect": "attack",
+    "shape": "cone",
+    "valid_targets": [ "hostile","ground","ally"],
+    "flags": ["NO_LEGS", "NO_HANDS","RANDOM_DAMAGE"],
+    "max_level": 20,
+    "min_damage": 3,
+    "max_damage": 3,
+    "min_aoe": 30,
+    "max_aoe": 30,
+    "min_range": 3,
+    "max_range": 3,
+    "range_increment": 1.0,
+    "base_casting_time": 200,
+    "damage_type": "pure"
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Vacuum",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Vacuum" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Vacuum", "min_level": 9, "max_level": 9 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_Vacuum",
+    "type": "SPELL",
+    "name": "Vacuum Collect ",
+    "description": "This is a scroll of collect items. When you read it, collect surrounding items in the target area.\n This effects ignore walls",
+    "valid_targets": ["ground","hostile"],
+    "flags": [ "WONDER","NO_PROJECTILE","NO_LEGS","IGNORE_WALLS","NO_EXPLOSION_SFX" ],
+    "effect": "none",
+    "shape": "blast",
+    "max_level": 20,
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "base_energy_cost": 350,
+    "energy_increment": -5.0,
+    "final_energy_cost": 250,
+    "min_damage": 5,
+    "max_damage": 5,
+    "damage_increment": 0.5,
+    "min_range": 10,
+    "max_range": 10,
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "base_casting_time": 200,
+    "final_casting_time": 100,
+    "casting_time_increment": -5.0,
+    "extra_effects": [
+      { "id": "PSY_spell_weapon_enchant_Vacuum_sub"}
+    ]
+},
+
+{
+    "id": "PSY_spell_weapon_enchant_Vacuum_sub",
+    "type": "SPELL",
+    "name": "Vacuum sub",
+    "description": "Distort space-time for a moment and collect surrounding items in the target tile.\n This effects ignore walls",
+    "valid_targets": ["hostile","ground"],
+    "flags": [ "NO_PROJECTILE","NO_LEGS","IGNORE_WALLS","NO_EXPLOSION_SFX" ],
+    "effect": "area_pull",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "max_level": 20,
+    "min_range": 10,
+    "max_range": 10,
+    "min_aoe": 10,
+    "max_aoe": 10,
+    "base_casting_time": 100
+},
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_weapon_enchant_Swift",
+    "effect": [
+      {
+        "if": { "u_has_wielded_with_flag": "PSY_enchant_Swift" },
+        "then": { "u_cast_spell": { "id": "PSY_spell_weapon_enchant_Swift", "min_level": 0, "max_level": 0 } }
+      }
+    ]
+  },
+
+  {
+    "id": "PSY_spell_weapon_enchant_Swift",
+    "type": "SPELL",
+    "name": "Attack Tempo",
+    "description": "force fear.",
+    "valid_targets": [ "self","hostile","ally" ],
+    "flags": [ "NO_PROJECTILE","NO_LEGS" ],
+    "effect": "attack",
+    "effect_str": "PSY_magi_bird_attack_tempo",
+    "shape": "blast",
+    "spell_class": "NONE",
+    "difficulty": 0,
+    "base_casting_time": 100,
+    "max_level": 0,
+    "min_duration": 500,
+    "max_duration": 500
+  }
+]

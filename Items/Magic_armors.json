@@ -569,6 +569,9 @@
  {
   "id": "PSY_magi_armor_iron",
   "name": { "str": "armor of iron", "str_pl": "armors of iron" },
+  "conditional_names": [
+    { "type": "FLAG", "condition": "PSY_enchant_Flaming", "name": { "str_sp": "Flaming %s" } }
+  ],
   "type": "ARMOR",
   "category": "armor",
   "description": "A full suit of incredibly durable black dragon scale mail.  It comes with all the accoutrements that cover your torso, legs, and arms, with the benefit of being very light and flexible.",

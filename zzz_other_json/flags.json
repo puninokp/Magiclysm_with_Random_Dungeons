@@ -163,7 +163,111 @@
         "id": "PSY_enchant_regen_mana_3",
         "type": "json_flag",
         "info": "[<good>Mana Regen Lv:3</good>]This item will <info>increase your mana regeneration by x1.3</info> while worn."
+    },
+
+    {
+        "id": "PSY_enchant_Flaming",
+        "type": "json_flag",
+        "info": "[<good>Flaming </good>]This item will <info>increase your fire resistance by 30</info> while worn."
+    },
+
+    {
+        "id": "PSY_1_LEFT_SPECIAL_ENCHANTED",
+        "type": "json_flag",
+        "info": "This weapon can be <info>specially enchanted </info>at a <good>magical fountain</good> located in the dungeon."
+    },
+
+    {
+        "id": "PSY_ALREADY_SPECIAL_ENCHANTED",
+        "type": "json_flag",
+        "info": "This weapon is already <good>specially enchanted</good> and no more can be <bad>enchanted</bad>."
+    },
+
+    {
+        "id": "PSY_enchant_Frostwolf",
+        "type": "json_flag",
+        "info": "[<good>Frostwolf</good>] This weapon gives <info>Additional 10 cold damage</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Frostbite",
+        "type": "json_flag",
+        "info": "[<good>Frostbite</good>] This weapon gives <info>Additional 5 cold damage</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Flameburst",
+        "type": "json_flag",
+        "info": "[<good>Flameburst</good>] This weapon gives <info>Additional 10 heat damage</info>."
+    },
+    
+    {
+        "id": "PSY_enchant_Bloodsucking",
+        "type": "json_flag",
+        "info": "[<good>Bloodsucking</good>] This weapon gives <info>1 HP recovery on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Manasucking",
+        "type": "json_flag",
+        "info": "[<good>Manasucking</good>] This weapon gives <info>5 MP recovery on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Floral",
+        "type": "json_flag",
+        "info": "[<good>Floral</good>] This weapon gives <info>make flowers bloom around you on attack.</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Summoning",
+        "type": "json_flag",
+        "info": "[<good>Summoning</good>] This weapon gives <info>summon friendly monster around you at a low probability on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Bug_Swarm",
+        "type": "json_flag",
+        "info": "[<good>Bug Swarm</good>] This weapon gives <info>summon friendly bugs around you at a low probability on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Tentacle",
+        "type": "json_flag",
+        "info": "[<good>Tentacle</good>] This weapon gives <info>summon friendly tentacle around you at a low probability on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Mist",
+        "type": "json_flag",
+        "info": "[<good>Mist</good>] This weapon gives <info>Fog occurs on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Darkness",
+        "type": "json_flag",
+        "info": "[<good>Darkness</good>] This weapon gives <info>Darkness occurs on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Sonic",
+        "type": "json_flag",
+        "info": "[<good>Sonic</good>] This weapon gives <info>Sound wave attack occurs in a fan shape of 3 tiles on attack</info>."
+    },
+    
+    {
+        "id": "PSY_enchant_Vacuum",
+        "type": "json_flag",
+        "info": "[<good>Vacuum</good>] This weapon gives <info>Vacuum enemies present within 10 tiles on attack</info>."
+    },
+
+    {
+        "id": "PSY_enchant_Swift",
+        "type": "json_flag",
+        "info": "[<good>Swift</good>] This weapon gives <info>Gains movement speed buff for a short while on attack</info>."
     }
+
+
 
 
 ]

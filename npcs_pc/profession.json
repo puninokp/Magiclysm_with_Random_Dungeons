@@ -8,6 +8,7 @@
         "points": 99,
         "spells": [ 
           { "id": "PSY_magi_meditation_mana", "level": 0 },
+          { "id": "PSY_weapon_enchant_special_spell", "level": 0 },
           { "id": "PSY_food_edible_hot_spell", "level": 0 },
           { "id": "PSY_magi_teleport_items_feet_spell", "level": 0 },
           { "id": "PSY_magi_teleport_items_feet_to_spell", "level": 0 },

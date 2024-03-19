@@ -888,7 +888,371 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "PSY_weapon_enchant_special_spell",
+    "type": "SPELL",
+    "name": "Enchant Weapon: Special",
+    "description": "Placing a warding on weapon. Enchant random magic.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_CHOICE_ENCHANT_WEAPON_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 15,
+    "energy_source": "MANA",
+    "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(550)" ] },
+    "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(90000)" ] }
+  },
+
+  {
+    "id": "EOC_PSY_CHOICE_ENCHANT_WEAPON_SPELL",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "switch": { "math": [ "rand(13)" ] },
+        "cases": [
+          { "case": 0, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_FROSTWOLF_SPELL" } ] },
+          { "case": 1, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_FROSTBITE_SPELL" } ] },
+          { "case": 2, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_FLAMEBURST_SPELL" } ] },
+          { "case": 3, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_BLOODSUCKING_SPELL" } ] },
+          { "case": 4, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_MANASUCKING_SPELL" } ] },
+          { "case": 5, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_FLORAL_SPELL" } ] },
+          { "case": 6, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_SUMMONING_SPELL" } ] },
+          { "case": 7, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_BUG_SWARM_SPELL" } ] },
+          { "case": 8, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_TENTACLE_SPELL" } ] },
+          { "case": 9, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_MIST_SPELL" } ] },
+          { "case": 10, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_DARKNESS_SPELL" } ] },
+          { "case": 11, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_SONIC_SPELL" } ] },
+          { "case": 12, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_VACUUM_SPELL" } ] },
+          { "case": 13, "effect": [ { "run_eocs": "EOC_PSY_ENCHANT_WEAPON_SWIFT_SPELL" } ] }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_FROSTWOLF_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_FROSTWOLF_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Frostwolf" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_FROSTBITE_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_FROSTBITE_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Frostbite" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_FLAMEBURST_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_FLAMEBURST_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Flameburst" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_BLOODSUCKING_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_BLOODSUCKING_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Bloodsucking" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_MANASUCKING_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_MANASUCKING_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Manasucking" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_FLORAL_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_FLORAL_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Floral" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_SUMMONING_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_SUMMONING_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Summoning" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_BUG_SWARM_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_BUG_SWARM_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Bug_Swarm" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_TENTACLE_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_TENTACLE_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Tentacle" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_MIST_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_MIST_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Mist" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_DARKNESS_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_DARKNESS_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Darkness" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_SONIC_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_SONIC_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Sonic" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_VACUUM_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_VACUUM_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Vacuum" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_ENCHANT_WEAPON_SWIFT_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "flags": [ "PSY_1_LEFT_SPECIAL_ENCHANTED" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_ENCHANT_WEAPON_SWIFT_SPELL_ITEM",
+            "condition": { "and": [ { "npc_has_flag": "PSY_1_LEFT_SPECIAL_ENCHANTED" }, { "not": { "npc_has_flag": "PSY_ALREADY_SPECIAL_ENCHANTED"  } } ] },
+            "effect": [ 
+              { "run_eocs": "EOC_PSY_max_1_times_special_enchanted" },
+              { "npc_set_flag": "PSY_enchant_Swift" },
+              { "run_eocs": "EOC_PSY_enchant_worn_item_all" }
+            ],
+            "false_effect": { "u_message": "<npc_name> has no more space available for enchantment." }
+          }
+        ]
+      }
+    ]
   }
-
-
 ]

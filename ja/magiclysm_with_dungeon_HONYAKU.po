@@ -6074,6 +6074,9 @@ msgstr "ダンジョンに存在する魔法の泉。輝きが残っている場
 msgid "[I want to enchant my armor.]"
 msgstr "鎧にエンチャントしたい!"
 
+msgid "[I want to enchant an enchantable weapon picked up in a dungeon!]"
+msgstr "ダンジョンで拾ったエンチャント可能な武器にエンチャントしたい！"
+
 msgid "[I want to enchant my currently equipped armor!]"
 msgstr "現在装備している防具にエンチャントしたい!"
 
@@ -6082,6 +6085,9 @@ msgstr "本当に防具にエンチャントしたいのですか？"
 
 msgid "Do you really want to enchant your armor?\n*Make sure you are equipped with the armor you want to enchant!"
 msgstr "本当に防具にエンチャントしたいのですか？\n*エンチャントしたい防具を装備しているか確認してください!"
+
+msgid "Do you really want to enchant your weapon?\n*Make sure you have a weapon in your inventory that you are equipping or that you acquired in a dungeon that can be enchanted in your inventory!"
+msgstr "本当に防具にエンチャントしたいのですか？\n*装備中のもの、又はインベントリ内でエンチャント可能なダンジョンで獲得した武器を所持しているか確認してください!"
 
 msgid "[Yes.]"
 msgstr "はい"
@@ -6108,3 +6114,186 @@ msgstr[0] "巻物:【ホカホカ弁当】"
 
 msgid "You can read this scroll to learn [Hot bento].\n Placing a warding on foods or drinks that are not in wrappers or bottles, warms the target items and makes it tastier."
 msgstr "この巻物を読むと[ホカホカ弁当]を習得できる。包装紙やボトルに入っていない食べ物や飲み物に結界を張り、対象のアイテムを温め、美味しく食べれるようにする。"
+
+msgid "[<good>Flaming Lv:3</good>]This item will <info>increase your fire resistance by 30</info> while worn."
+msgstr "[<good>燃え盛るLv:3</good>]このアイテムは装備している間、<info>炎耐性を30増加</info>させます。"
+
+msgid "This weapon can be <info>specially enchanted </info>at a <good>magical fountain</good> located in the dungeon."
+msgstr "この武器はダンジョン内に存在する<good>魔法の泉</good>で<info>特別なエンチャント</info>を施すことができる。"
+
+msgid "%s(Enchantable)"
+msgstr "%s(エンチャント可能)"
+
+msgid "This weapon is already <good>specially enchanted</good> and no more can be <bad>enchanted</bad>."
+msgstr "この武器は既に<good>特別なエンチャント</good>が施されており、これ以上のエンチャントは不可能。"
+
+msgid "Flaming %s"
+msgstr "燃え盛る%s"
+
+msgid "Frostwolf %s"
+msgstr "氷狼の%s"
+
+msgid "[<good>Frostwolf</good>] This weapon gives <info>Additional 10 cold damage</info>."
+msgstr "[<good>氷狼</good>] この武器は<info>追加の10冷気ダメージ</info>を与えます。"
+
+msgid "Flameburst %s"
+msgstr "炎煌の%s"
+
+msgid "[<good>Flameburst</good>] This weapon gives <info>Additional 10 heat damage</info>."
+msgstr "[<good>炎煌</good>] この武器は<info>追加の10熱ダメージ</info>を与えます。"
+
+msgid "Radiant %s"
+msgstr "光輝の%s"
+
+msgid "[<good>Radiant</good>] This weapon gives <info>Light occurs on attack</info>."
+msgstr "[<good>光輝</good>] この武器は<info>攻撃時に光が発生</info>を与えます。"
+
+msgid "Frostbite %s"
+msgstr "青凍の%s"
+
+msgid "[<good>Frostbite</good>] This weapon gives <info>Additional 5 cold damage</info>."
+msgstr "[<good>青凍</good>] この武器は<info>追加の5冷気ダメージ</info>を与えます。"
+
+msgid "Bloodsucking %s"
+msgstr "吸血の%s"
+
+msgid "[<good>Bloodsucking</good>] This weapon gives <info>1 HP recovery on attack</info>."
+msgstr "[<good>吸血</good>] この武器は<info>攻撃時1HP回復</info>を与えます。"
+
+msgid "Manasucking %s"
+msgstr "吸魔の%s"
+
+msgid "[<good>Manasucking</good>] This weapon gives <info>5 MP recovery on attack</info>."
+msgstr "[<good>吸魔</good>] この武器は<info>攻撃時5MP回復</info>を与えます。"
+
+msgid "Floral %s"
+msgstr "花園の%s"
+
+msgid "[<good>Floral</good>] This weapon gives <info>make flowers bloom around you on attack</info>."
+msgstr "[<good>花園</good>] この武器は<info>攻撃時に周囲に花召喚</info>を与えます。"
+
+msgid "Summoning %s"
+msgstr "召喚の%s"
+
+msgid "[<good>Summoning</good>] This weapon gives <info>summon friendly monster around you at a low probability on attack</info>."
+msgstr "[<good>召喚</good>] この武器は<info>攻撃時に時々周囲に味方モンスター召喚</info>を与えます。"
+
+msgid "Bug Swarm %s"
+msgstr "蟲群の%s"
+
+msgid "[<good>Bug Swarm</good>] This weapon gives <info>summon friendly bugs around you at a low probability on attack</info>."
+msgstr "[<good>蟲群</good>] この武器は<info>攻撃時に時々周囲に数匹の味方の虫召喚</info>を与えます。"
+
+msgid "Tentacle %s"
+msgstr "触手の%s"
+
+msgid "[<good>Tentacle</good>] This weapon gives <info>summon friendly tentacle around you at a low probability on attack</info>."
+msgstr "[<good>触手</good>] この武器は<info>攻撃時に時々周囲に味方の触手召喚</info>を与えます。"
+
+msgid "Mist %s"
+msgstr "霧の%s"
+
+msgid "[<good>Mist</good>] This weapon gives <info>Fog occurs on attack</info>."
+msgstr "[<good>霧</good>] この武器は<info>攻撃時に霧が発生</info>を与えます。"
+
+msgid "Darkness %s"
+msgstr "暗闇の%s"
+
+msgid "[<good>Darkness</good>] This weapon gives <info>Darkness occurs on attack</info>."
+msgstr "[<good>暗闇</good>] この武器は<info>攻撃時に暗闇が発生</info>を与えます。"
+
+msgid "Sonic %s"
+msgstr "音波の%s"
+
+msgid "[<good>Sonic</good>] This weapon gives <info>Sound wave attack occurs in a fan shape of 3 tiles on attack</info>."
+msgstr "[<good>音波</good>] この武器は<info>攻撃時に3マスの扇状に音波攻撃が発生</info>を与えます。"
+
+msgid "Vacuum %s"
+msgstr "吸引の%s"
+
+msgid "[<good>Vacuum</good>] This weapon gives <info>Vacuum enemies present within 10 tiles on attack</info>."
+msgstr "[<good>吸引</good>] この武器は<info>攻撃時に周囲10マスの敵を引き寄せ</info>を与えます。"
+
+msgid "Swift %s"
+msgstr "迅速の%s"
+
+msgid "[<good>Swift</good>] This weapon gives <info>Gains movement speed buff for a short while on attack</info>."
+msgstr "[<good>迅速</good>] この武器は<info>攻撃時に移動速度バフを数秒間獲得</info>を与えます。"
+
+msgid "Infernal %s"
+msgstr "魔炎の%s"
+
+msgid "Ethereal %s"
+msgstr "幽冥の%s"
+
+msgid "Aquamirror %s"
+msgstr "水鏡の%s"
+
+msgid "Chaos %s"
+msgstr "混沌の%s"
+
+msgid "Glacial Prison %s"
+msgstr "氷獄の%s"
+
+msgid "Healing %s"
+msgstr "回復の%s"
+
+msgid "Crimson %s"
+msgstr "真紅の%s"
+
+msgid "Void %s"
+msgstr "虚空の%s"
+
+msgid "Eternal %s"
+msgstr "不滅の%s"
+
+msgid "Starry %s"
+msgstr "聖夜の%s"
+
+msgid "Divine Swiftness %s"
+msgstr "神速の%s"
+
+msgid "Holy %s"
+msgstr "聖光の%s"
+
+msgid "Miracle %s"
+msgstr "奇跡の%s"
+
+msgid "Luck %s"
+msgstr "幸運の%s"
+
+msgid "Undeath %s"
+msgstr "不死の%s"
+
+msgid "Silvermoon %s"
+msgstr "銀月の%s"
+
+msgid "Cursed %s"
+msgstr "呪われし%s"
+
+msgid "Malevolence %s"
+msgstr "悪霊の%s"
+
+msgid "Volcanic %s"
+msgstr "火山の%s"
+
+msgid "Stardust %s"
+msgstr "星芒の%s"
+
+msgid "Arcane %s"
+msgstr "妖炎の%s"
+
+msgid "Illusion %s"
+msgstr "幻影の%s"
+
+msgid "Abyssal %s"
+msgstr "堕天の%s"
+
+msgid "Vox %s"
+msgstr "声命の%s"
+
+msgid "Nightfall %s"
+msgstr "闇夜の%s"
+
+msgid "Thunder %s"
+msgstr "雷鳴の%s"
