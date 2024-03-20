@@ -293,7 +293,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }
@@ -318,7 +318,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }
@@ -343,7 +343,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }
@@ -368,7 +368,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }
@@ -1515,7 +1515,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }
@@ -1540,7 +1540,7 @@
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "splinter", "count": [ 0, 20 ] },
         { "item": "rock", "count": [ 8, 12 ] }
       ]
     }

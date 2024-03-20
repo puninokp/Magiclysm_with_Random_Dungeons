@@ -512,8 +512,7 @@
               { "item": "scrap", "charges": 10 }, 
               { "item": "PSY_magi_mana_bullet", "charges": 100 }, 
               { "group": "charged_cell_phone" }, 
-              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
-              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } 
             ]
           },
           "male": [ "boxer_shorts" ],
@@ -554,8 +553,7 @@
             "entries": [
               { "item": "PSY_magi_mana_bullet", "charges": 300 }, 
               { "group": "charged_cell_phone" }, 
-              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
-              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+              { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } 
             ]
           },
           "male": [ "boxer_shorts" ],
@@ -604,8 +602,7 @@
               { "group": "charged_cell_phone" }, 
               { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] } ,
               { "item": "quiver", "contents-group": "PSY_magic_bow_hunter" },
-              { "item": "sheath", "contents-item": "knife_hunting" },
-              { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "soldering_iron" }
+              { "item": "sheath", "contents-item": "knife_hunting" }
             ]
           },
           "male": [ "boxer_shorts" ],
