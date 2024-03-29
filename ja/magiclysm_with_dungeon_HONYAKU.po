@@ -91,7 +91,7 @@ msgstr "脳震盪光線"
 msgid "This spell stuns enemy in short distance for a short time."
 msgstr "敵に脳に直接ダメージを与える見えない光線を放ち、一定の間動けなくする。"
 
-msgid "Sweep"
+msgid "Magical Sweep"
 msgstr "マジカル足払い"
 
 msgid "Sweeping with magical legs around and knock down units to the ground for a short time."
@@ -103,13 +103,13 @@ msgstr "睨み汚染除去"
 msgid ""
 "Remove Tainted effect caused by flaming eye and immune for 1-3 hours.\n"
 " This spell also removes nausea symptoms."
-msgstr "フレーミングアイから睨まれたことで起きるデバフを取り除き、そのあと１～3時間の間睨みに耐性がある透明な膜を張る。また、それによる吐き気も抑える。"
+msgstr "フレーミングアイから睨まれたことで起きるデバフを取り除き、そのあと１~3時間の間睨みに耐性がある透明な膜を張る。また、それによる吐き気も抑える。"
 
 msgid "Create floating earth"
 msgstr "創造：浮遊する大地"
 
 msgid "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil."
-msgstr "周辺に漂う物質を凝縮し、空中に留まる踏める大地を召喚する。　水上や溶岩の上にも召喚することができる。"
+msgstr "周辺に漂う物質を凝縮し、空中に留まる踏める大地を召喚する。 水上や溶岩の上にも召喚することができる。"
 
 msgid "Necrotic Calamity"
 msgstr "ネクロティック・カラミティ"
@@ -237,18 +237,18 @@ msgstr "召喚：空飛ぶ頭蓋骨"
 msgid "Summon a flying skul that deals cold damage to enemies while keeping a certain distance ."
 msgstr "対象の地点に空飛ぶ頭蓋骨を召喚する。頭蓋骨は敵と一定の距離を保ちながら遠くの敵に冷却属性のダメージを与える連射攻撃と近くの敵に範囲攻撃をする。範囲攻撃には吸い込むと少しの間移動速度を下げる霧を発生させる"
 
-msgid "Summon an Animated Utensil"
+msgid "Summon Animated Utensil"
 msgstr "アニメーテッド・食器"
 
 msgid "Summon an animated utensil to target location using your blood and a steel utensil not suitable for combat."
-msgstr "魔力によって戦闘にはあまり向かない食器に少しの魂を分け与え、自分の敵を襲わせる動く凶器に変える。"
+msgstr "魔力によって戦闘にはあまり向かない食器に少しの血を分け与え、自分の敵を襲わせる動く凶器に変える。"
 
 msgid "Summon 5 Animated Utensils EX"
-msgstr "アニメーテッド・食器　X5"
+msgstr "アニメーテッド・食器 X5"
 
 msgid "Summon 5 animated utensil to target locations using your blood and 5 steel utensil not suitable for combat."
 msgstr ""
-"強化版[アニメーテッド・食器]　\n"
+"強化版[アニメーテッド・食器] \n"
 " 5本の戦闘にあまり向かない食器に全てに魂を分け与え、自分の敵を集団で襲わせる動く災害に変える。"
 
 msgid "Fallen Resurrection "
@@ -6297,3 +6297,83 @@ msgstr "闇夜の%s"
 
 msgid "Thunder %s"
 msgstr "雷鳴の%s"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Serenade of Spirits)"
+msgstr "ダンジョン魔法(精霊のソナタ)"
+
+msgctxt "prof_desc_male"
+msgid "You were one of the hundreds of millions of people who knew a single spell. In your case, Serenade of Spirits. You learned it to relieve my daily stress. While listening to the ensemble played by the spirits summoned by this spell, I can happily and energetically do the work I don't want to do, even the hardest muscle training.\nAnd of course, exterminate zombies!"
+msgstr "呪文を一つだけ身に付けている何億人もの人々の内の一人です。精霊のソナタを取得していました。日頃のストレスを解消するために覚えました。この呪文によって召喚される精霊による合奏を聞いている間は、やりたくない仕事も、キツイ筋トレも楽しく元気にこなせるようになります。\nもちろんゾンビ退治もね!"
+
+msgctxt "profession_female"
+msgid "Dungeon Magic (Serenade of Spirits)"
+msgstr "ダンジョン魔法(精霊のソナタ)"
+
+msgctxt "prof_desc_female"
+msgid "You were one of the hundreds of millions of people who knew a single spell. In your case, Serenade of Spirits. You learned it to relieve my daily stress. While listening to the ensemble played by the spirits summoned by this spell, I can happily and energetically do the work I don't want to do, even the hardest muscle training.\nAnd of course, exterminate zombies!"
+msgstr "呪文を一つだけ身に付けている何億人もの人々の内の一人です。精霊のソナタを取得していました。日頃のストレスを解消するために覚えました。この呪文によって召喚される精霊による合奏を聞いている間は、やりたくない仕事も、キツイ筋トレも楽しく元気にこなせるようになります。\nもちろんゾンビ退治もね!"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Voice of Noise)"
+msgstr "ダンジョン魔法(騒音の声)"
+
+msgctxt "prof_desc_male"
+msgid "Civil unrest has led to heat up of political activity, and in some states, the use of loudspeakers has been restricted. But the passion of the politicians knew no bounds! They turned to the magic schools to find a new solution.\nThe politicians who knocked on the school's door were clear: 'We want to speak louder, farther, and more effectively!'\n With this magic, politicians could speak much louder than they normally would, and their voices could reach farther. But be careful! Too much of this magic could cause people around them to cover their ears and run away!\nPoliticians get the magic of the 'voice of noise' and prepare for the next election campaign. But the collapse of human society has brought together not citizens interested in politics, but only hostile ones."
+msgstr "市民の不安により政治活動の白熱化が高まる中、ある州では拡声器の使用が制限される事態となりました。しかし、政治家たちの情熱はとどまるところを知りません！そこで彼らは魔法学校に目をつけ、新たな解決策を見出そうとしました。\n魔法学校の門を叩いた政治家たちの要望は明確でした:「もっと大きな声で、もっと遠くに、もっと効果的にアピールしたいのだ!」ということでした。\n\nこの魔法を使えば、政治家たちは通常の声よりもはるかに大きな声を発することができ、しかもその声は遠くまで届くのです。だが、ここで注意が必要です!この魔法の威力が高すぎるため、周囲の人々が耳を塞いで逃げ出してしまうかもしれません！\n政治家たちは「騒音の声」の魔法を手に入れ、次の選挙戦に備えます。しかし、人類社会の崩壊により、政治への興味を持つ市民ではなく、敵対的な者たちだけが集まるようになりました。"
+
+msgctxt "profession_female"
+msgid "Dungeon Magic (Voice of Noise)"
+msgstr "ダンジョン魔法(騒音の声)"
+
+msgctxt "prof_desc_female"
+msgid "Civil unrest has led to heat up of political activity, and in some states, the use of loudspeakers has been restricted. But the passion of the politicians knew no bounds! They turned to the magic schools to find a new solution.\nThe politicians who knocked on the school's door were clear: 'We want to speak louder, farther, and more effectively!'\n With this magic, politicians could speak much louder than they normally would, and their voices could reach farther. But be careful! Too much of this magic could cause people around them to cover their ears and run away!\nPoliticians get the magic of the 'voice of noise' and prepare for the next election campaign. But the collapse of human society has brought together not citizens interested in politics, but only hostile ones."
+msgstr "市民の不安により政治活動の白熱化が高まる中、ある州では拡声器の使用が制限される事態となりました。しかし、政治家たちの情熱はとどまるところを知りません！そこで彼らは魔法学校に目をつけ、新たな解決策を見出そうとしました。\n魔法学校の門を叩いた政治家たちの要望は明確でした:「もっと大きな声で、もっと遠くに、もっと効果的にアピールしたいのだ!」ということでした。\n\nこの魔法を使えば、政治家たちは通常の声よりもはるかに大きな声を発することができ、しかもその声は遠くまで届くのです。だが、ここで注意が必要です!この魔法の威力が高すぎるため、周囲の人々が耳を塞いで逃げ出してしまうかもしれません！\n政治家たちは「騒音の声」の魔法を手に入れ、次の選挙戦に備えます。しかし、人類社会の崩壊により、政治への興味を持つ市民ではなく、敵対的な者たちだけが集まるようになりました。"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Mana Meditation)"
+msgstr "ダンジョン魔法(マナ瞑想)"
+
+msgctxt "prof_desc_male"
+msgid "I was using magic as usual when suddenly I ran out of mana! What should I do? I can't use any more magic! Then I remembered the method I had heard from my teacher at the magic school. What a special magic to restore mana, that is 'mana meditation'!\nMana meditation is like yoga: you sit still for an hour, take deep breaths, quiet your mind, and restore your mana. It can be a little difficult at first, but once you get used to it, it's pleasant and comfortable! You can feel the magical energy slowly returning to your mind.\nBut you have to be careful. If you lose concentration or doze off, you may lose the mana recovery effect. Therefore, it is important to keep a calm mind and to continue the meditation for an hour.\nIf you can recover your mana in this way, you will be able to use your powerful magic again and go on an adventure. Mana meditation, a necessity of a wizard's life!"
+msgstr "いつものように魔法を使っていると、突然マナが底をついてしまった！どうしよう、これでは魔法を使えないじゃないか！\nそこで私は、魔法学校の先生から聞いた方法を思い出しました。それはなんと、マナを回復させるための特別な魔法、それが「マナ瞑想」だ!\nマナ瞑想は、まるでヨガのようなものです。1時間、じっと座って深呼吸をし、心を静めてマナを回復させるんだ。最初はちょっと難しいかもしれないけど、慣れてくると気持ちよくて快適だよ!心の中で魔法のエネルギーが徐々に戻ってくるのを感じるんだ。\nでも注意しなきゃいけないこともあるよ。集中力が途切れたり、うとうとしてしまうと、マナ回復の効果が無くなってしてしまうかもしれないんだ。だから、しっかりと心を落ち着かせて、1時間の瞑想をしっかりと続けることが大事なんだ。\nそうしてマナを回復させることができれば、また強力な魔法を使って冒険に出かけることができるんだ。マナ瞑想、まさに魔法使いの生活の必需品だ!"
+
+msgctxt "profession_female"
+msgid "Dungeon Magic (Mana Meditation)"
+msgstr "ダンジョン魔法(マナ瞑想)"
+
+msgctxt "prof_desc_female"
+msgid "I was using magic as usual when suddenly I ran out of mana! What should I do? I can't use any more magic! Then I remembered the method I had heard from my teacher at the magic school. What a special magic to restore mana, that is 'mana meditation'!\nMana meditation is like yoga: you sit still for an hour, take deep breaths, quiet your mind, and restore your mana. It can be a little difficult at first, but once you get used to it, it's pleasant and comfortable! You can feel the magical energy slowly returning to your mind.\nBut you have to be careful. If you lose concentration or doze off, you may lose the mana recovery effect. Therefore, it is important to keep a calm mind and to continue the meditation for an hour.\nIf you can recover your mana in this way, you will be able to use your powerful magic again and go on an adventure. Mana meditation, a necessity of a wizard's life!"
+msgstr "いつものように魔法を使っていると、突然マナが底をついてしまった！どうしよう、これでは魔法を使えないじゃないか！\nそこで私は、魔法学校の先生から聞いた方法を思い出しました。それはなんと、マナを回復させるための特別な魔法、それが「マナ瞑想」だ!\nマナ瞑想は、まるでヨガのようなものです。1時間、じっと座って深呼吸をし、心を静めてマナを回復させるんだ。最初はちょっと難しいかもしれないけど、慣れてくると気持ちよくて快適だよ!心の中で魔法のエネルギーが徐々に戻ってくるのを感じるんだ。\nでも注意しなきゃいけないこともあるよ。集中力が途切れたり、うとうとしてしまうと、マナ回復の効果が無くなってしてしまうかもしれないんだ。だから、しっかりと心を落ち着かせて、1時間の瞑想をしっかりと続けることが大事なんだ。\nそうしてマナを回復させることができれば、また強力な魔法を使って冒険に出かけることができるんだ。マナ瞑想、まさに魔法使いの生活の必需品だ!"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Magical Sweep)"
+msgstr "ダンジョン魔法(マジカル足払い)"
+
+msgctxt "prof_desc_male"
+msgid "You invoke your magical powers in the middle of a fight, and suddenly, out of nowhere, a spiritual foot appears! Yes, that is the magic of 'Magical Foot Dispelling'!\nThis magic is as mysterious as if it defied the laws of the universe or a cat's fear of water. Even if your enemy has no legs, you can still make him pay for his feet! Yes, even those without legs can be made to fall! The scene is like a scene from a comedy movie, and you can't stop laughing!\nWhile the enemy falls, you have time to think about your next move. It's like a comedy show set on the battlefield!\nBut you have to be careful. If you use this magic too much, not only will your enemies laugh at you, but you may become the target of their laughter! In such a case, control the timing of using the Magical Foot Payoff well, and you will get the laughs and the victory!"
+msgstr "あなたが戦いの最中に魔法の力を発動すると、突然、どこからともなく霊的な足が現れました！そう、それが「マジカル足払い」の魔法です！\nこの魔法はまるで宇宙の法則に逆らったり、猫が水を怖がったりするくらい不思議なもの。敵が足がなくても、足払いをかけるんです!そう、足の無い者でも転ばせることができちゃうんですよ!その様子はまるでコメディ映画のワンシーンのようで、笑いが止まりません!\n敵が転ぶ間に、あなたは次の一手を考える時間を稼げるんです。それはもう、戦場を舞台にしたコメディショーみたい!\nでもね、注意しなきゃいけないこともあるんですよ。この魔法を使いすぎると、敵から笑い者にされるどころか、自分が笑いのターゲットにされちゃうかもしれません!そんな時は、マジカル足払いを使うタイミングを上手にコントロールして、笑いと勝利を手に入れましょう!"
+
+msgctxt "profession_female"
+msgid "Dungeon Magic (Magical Sweep)"
+msgstr "ダンジョン魔法(マジカル足払い)"
+
+msgctxt "prof_desc_female"
+msgid "You invoke your magical powers in the middle of a fight, and suddenly, out of nowhere, a spiritual foot appears! Yes, that is the magic of 'Magical Foot Dispelling'!\nThis magic is as mysterious as if it defied the laws of the universe or a cat's fear of water. Even if your enemy has no legs, you can still make him pay for his feet! Yes, even those without legs can be made to fall! The scene is like a scene from a comedy movie, and you can't stop laughing!\nWhile the enemy falls, you have time to think about your next move. It's like a comedy show set on the battlefield!\nBut you have to be careful. If you use this magic too much, not only will your enemies laugh at you, but you may become the target of their laughter! In such a case, control the timing of using the Magical Foot Payoff well, and you will get the laughs and the victory!"
+msgstr "あなたが戦いの最中に魔法の力を発動すると、突然、どこからともなく霊的な足が現れました！そう、それが「マジカル足払い」の魔法です！\nこの魔法はまるで宇宙の法則に逆らったり、猫が水を怖がったりするくらい不思議なもの。敵が足がなくても、足払いをかけるんです!そう、足の無い者でも転ばせることができちゃうんですよ!その様子はまるでコメディ映画のワンシーンのようで、笑いが止まりません!\n敵が転ぶ間に、あなたは次の一手を考える時間を稼げるんです。それはもう、戦場を舞台にしたコメディショーみたい!\nでもね、注意しなきゃいけないこともあるんですよ。この魔法を使いすぎると、敵から笑い者にされるどころか、自分が笑いのターゲットにされちゃうかもしれません!そんな時は、マジカル足払いを使うタイミングを上手にコントロールして、笑いと勝利を手に入れましょう!"
+
+msgctxt "profession_female"
+msgid "Dungeon Magic (Summon Animated Utensil)"
+msgstr "ダンジョン魔法(アニメーテッド・食器)"
+
+msgctxt "prof_desc_female"
+msgid "You are quietly enjoying your meal when suddenly your enemies attack! At such times, the [Animated Tableware] will confront your enemies. The spoon quickly scratches your enemy's hand, the fork stabs with pinpoint accuracy, and the knife and pizza cutter slice through. And you sporks and pans also leap toward your enemies with their additions.\nIf you are bewildered in the midst of this great battle, your coffee cup will whisper in your ear in a friendly manner, 'Calm down, boss!' And the teaspoon advises, 'Relax and enjoy the chat! And finally, your ordinary dinnerware rushes toward the enemy, screaming like a banzai.\nYes, this magic can transform your dining table from a mere place to eat into an exciting little battlefield!"
+msgstr "あなたが静かに食事を楽しんでいると、突然、敵が襲ってきた！そんな時には、「アニメーテッド・食器」があなたの敵に立ち向かいます。スプーンは素早く敵の手を引っ掻き、フォークはピンポイントで突き刺し、ナイフやピザカッターは切り裂きます。そして、あなたスポークやフライパンも、彼らの加勢で敵に向かって飛びかかります。\nもしあなたがこの一大戦闘の中で困惑していると、あなたのコーヒーカップが親しげに耳元でささやきます。「落ち着いて、ボス!」と。そして、ティースプーンが「リラックスして、おしゃべりを楽しんで!」とアドバイスします。そして、最後に、あなたの普通の食器がバンザイのように叫びながら、敵に向かって突進します。\nそう、この魔法はあなたの食卓を単なる食事の場所から、エキサイティングでちょっとした戦場へと変えることができるのです!"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Summon Animated Utensil)"
+msgstr "ダンジョン魔法(アニメーテッド・食器)"
+
+msgctxt "prof_desc_male"
+msgid "You are quietly enjoying your meal when suddenly your enemies attack! At such times, the [Animated Tableware] will confront your enemies. The spoon quickly scratches your enemy's hand, the fork stabs with pinpoint accuracy, and the knife and pizza cutter slice through. And you sporks and pans also leap toward your enemies with their additions.\nIf you are bewildered in the midst of this great battle, your coffee cup will whisper in your ear in a friendly manner, 'Calm down, boss!' And the teaspoon advises, 'Relax and enjoy the chat! And finally, your ordinary dinnerware rushes toward the enemy, screaming like a banzai.\nYes, this magic can transform your dining table from a mere place to eat into an exciting little battlefield!"
+msgstr "あなたが静かに食事を楽しんでいると、突然、敵が襲ってきた！そんな時には、「アニメーテッド・食器」があなたの敵に立ち向かいます。スプーンは素早く敵の手を引っ掻き、フォークはピンポイントで突き刺し、ナイフやピザカッターは切り裂きます。そして、あなたスポークやフライパンも、彼らの加勢で敵に向かって飛びかかります。\nもしあなたがこの一大戦闘の中で困惑していると、あなたのコーヒーカップが親しげに耳元でささやきます。「落ち着いて、ボス!」と。そして、ティースプーンが「リラックスして、おしゃべりを楽しんで!」とアドバイスします。そして、最後に、あなたの普通の食器がバンザイのように叫びながら、敵に向かって突進します。\nそう、この魔法はあなたの食卓を単なる食事の場所から、エキサイティングでちょっとした戦場へと変えることができるのです!"

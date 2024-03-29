@@ -1,0 +1,56 @@
+[
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "PSY_dungeon_magic_self_serenade_spirits_spell",
+    "name": "Dungeon Magic (Serenade of Spirits)",
+    "description": "You were one of the hundreds of millions of people who knew a single spell. In your case, Serenade of Spirits. You learned it to relieve my daily stress. While listening to the ensemble played by the spirits summoned by this spell, I can happily and energetically do the work I don't want to do, even the hardest muscle training.\nAnd of course, exterminate zombies!",
+    "points": 4,
+    "spells": [ { "id": "PSY_magi_self_serenade_spirits_spell", "level": 5 } ],
+    "traits": [ "PSY_magi_DUNGEON_MAGE" ]
+  },
+
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "PSY_dungeon_magic_self_noise_voice_spell",
+    "name": "Dungeon Magic (Voice of Noise)",
+    "description": "Civil unrest has led to heat up of political activity, and in some states, the use of loudspeakers has been restricted. But the passion of the politicians knew no bounds! They turned to the magic schools to find a new solution.\nThe politicians who knocked on the school's door were clear: 'We want to speak louder, farther, and more effectively!'\n With this magic, politicians could speak much louder than they normally would, and their voices could reach farther. But be careful! Too much of this magic could cause people around them to cover their ears and run away!\nPoliticians get the magic of the 'voice of noise' and prepare for the next election campaign. But the collapse of human society has brought together not citizens interested in politics, but only hostile ones.",
+    "points": 4,
+    "spells": [ { "id": "PSY_magi_self_noise_voice_spell", "level": 5 } ],
+    "traits": [ "PSY_magi_DUNGEON_MAGE" ]
+  },
+
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "PSY_dungeon_magic_meditation_mana_spell",
+    "name": "Dungeon Magic (Mana Meditation)",
+    "description": "I was using magic as usual when suddenly I ran out of mana! What should I do? I can't use any more magic! Then I remembered the method I had heard from my teacher at the magic school. What a special magic to restore mana, that is 'mana meditation'!\nMana meditation is like yoga: you sit still for an hour, take deep breaths, quiet your mind, and restore your mana. It can be a little difficult at first, but once you get used to it, it's pleasant and comfortable! You can feel the magical energy slowly returning to your mind.\nBut you have to be careful. If you lose concentration or doze off, you may lose the mana recovery effect. Therefore, it is important to keep a calm mind and to continue the meditation for an hour.\nIf you can recover your mana in this way, you will be able to use your powerful magic again and go on an adventure. Mana meditation, a necessity of a wizard's life!",
+    "points": 4,
+    "spells": [ { "id": "PSY_magi_meditation_mana", "level": 5 } ],
+    "traits": [ "PSY_magi_DUNGEON_MAGE" ]
+  },
+
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "PSY_dungeon_magic_sweep_spell",
+    "name": "Dungeon Magic (Magical Sweep)",
+    "description": "You invoke your magical powers in the middle of a fight, and suddenly, out of nowhere, a spiritual foot appears! Yes, that is the magic of 'Magical Foot Dispelling'!\nThis magic is as mysterious as if it defied the laws of the universe or a cat's fear of water. Even if your enemy has no legs, you can still make him pay for his feet! Yes, even those without legs can be made to fall! The scene is like a scene from a comedy movie, and you can't stop laughing!\nWhile the enemy falls, you have time to think about your next move. It's like a comedy show set on the battlefield!\nBut you have to be careful. If you use this magic too much, not only will your enemies laugh at you, but you may become the target of their laughter! In such a case, control the timing of using the Magical Foot Payoff well, and you will get the laughs and the victory!",
+    "points": 4,
+    "spells": [ { "id": "PSY_magi_sweep", "level": 5 } ],
+    "traits": [ "PSY_magi_DUNGEON_MAGE" ]
+  },
+
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "PSY_dungeon_magic_summon_animated_steel_utensil_spell",
+    "name": "Dungeon Magic (Summon Animated Utensil)",
+    "description": "You are quietly enjoying your meal when suddenly your enemies attack! At such times, the [Animated Tableware] will confront your enemies. The spoon quickly scratches your enemy's hand, the fork stabs with pinpoint accuracy, and the knife and pizza cutter slice through. And you sporks and pans also leap toward your enemies with their additions.\nIf you are bewildered in the midst of this great battle, your coffee cup will whisper in your ear in a friendly manner, 'Calm down, boss!' And the teaspoon advises, 'Relax and enjoy the chat! And finally, your ordinary dinnerware rushes toward the enemy, screaming like a banzai.\nYes, this magic can transform your dining table from a mere place to eat into an exciting little battlefield!",
+    "points": 4,
+    "spells": [ { "id": "PSY_magi_summon_animated_steel_utensil", "level": 5 } ],
+    "traits": [ "PSY_magi_DUNGEON_MAGE" ]
+  }
+]

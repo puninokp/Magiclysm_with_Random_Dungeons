@@ -149,7 +149,7 @@
         "id": "PSY_magi_summon_animated_steel_utensil",
         "type": "SPELL",
         "components": "PSY_magi_spell_components_steel_utensil",
-        "name": "Summon an Animated Utensil",
+        "name": "Summon Animated Utensil",
         "description": "Summon an animated utensil to target location using your blood and a steel utensil not suitable for combat.",
         "valid_targets": [ "ground" ],
         "min_damage": 1,
