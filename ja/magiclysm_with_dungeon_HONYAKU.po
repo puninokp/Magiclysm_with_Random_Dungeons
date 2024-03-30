@@ -6377,3 +6377,6 @@ msgstr "ダンジョン魔法(アニメーテッド・食器)"
 msgctxt "prof_desc_male"
 msgid "You are quietly enjoying your meal when suddenly your enemies attack! At such times, the [Animated Tableware] will confront your enemies. The spoon quickly scratches your enemy's hand, the fork stabs with pinpoint accuracy, and the knife and pizza cutter slice through. And you sporks and pans also leap toward your enemies with their additions.\nIf you are bewildered in the midst of this great battle, your coffee cup will whisper in your ear in a friendly manner, 'Calm down, boss!' And the teaspoon advises, 'Relax and enjoy the chat! And finally, your ordinary dinnerware rushes toward the enemy, screaming like a banzai.\nYes, this magic can transform your dining table from a mere place to eat into an exciting little battlefield!"
 msgstr "あなたが静かに食事を楽しんでいると、突然、敵が襲ってきた！そんな時には、「アニメーテッド・食器」があなたの敵に立ち向かいます。スプーンは素早く敵の手を引っ掻き、フォークはピンポイントで突き刺し、ナイフやピザカッターは切り裂きます。そして、あなたスポークやフライパンも、彼らの加勢で敵に向かって飛びかかります。\nもしあなたがこの一大戦闘の中で困惑していると、あなたのコーヒーカップが親しげに耳元でささやきます。「落ち着いて、ボス!」と。そして、ティースプーンが「リラックスして、おしゃべりを楽しんで!」とアドバイスします。そして、最後に、あなたの普通の食器がバンザイのように叫びながら、敵に向かって突進します。\nそう、この魔法はあなたの食卓を単なる食事の場所から、エキサイティングでちょっとした戦場へと変えることができるのです!"
+
+msgid "You are already in the middle of listening to 'Serenade of Spirits'!"
+msgstr "あなたは既に'精霊のソナタ'を聞いている最中だ！"

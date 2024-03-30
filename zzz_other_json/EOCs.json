@@ -1165,5 +1165,26 @@
     "id": "PSY_TALK_MAGIC_FOUNTAIN_ANSWER",
     "dynamic_line": "The fountain lost its luster.",
     "responses": [ { "text": "...", "topic": "TALK_DONE" } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_self_serenade_spirits_mood_buff",
+    "condition": { "not":  { "u_has_effect": "PSY_magi_self_serenade_spirits_effect" } },
+    "//": "duration doesn't matter, since morale is added every hour, therefore it will always be mismatched with bad_food_ennui; instead, if you loose bad_food_ennui effect, you will lost the mood debuff also",
+    "effect": [
+      {
+        "u_add_effect": "PSY_magi_self_serenade_spirits_effect",
+        "duration": { "math": [ "( 3600 + (u_spell_level('PSY_magi_self_serenade_spirits_spell') * 3600)) " ] }
+      },
+      {
+        "u_add_morale": "morale_forest_unity",
+        "bonus": 20,
+        "max_bonus": 30,
+        "duration": { "math": [ "( 3600 + (u_spell_level('PSY_magi_self_serenade_spirits_spell') * 3600) )" ] }
+      },
+      { "u_message": "You're filled with euphoria!", "type": "info" }
+    ],
+    "false_effect": [ { "u_message": "You are already in the middle of listening to 'Serenade of Spirits'!", "type": "info" } ]
   }
 ]

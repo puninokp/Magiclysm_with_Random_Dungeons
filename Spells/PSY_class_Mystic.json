@@ -7,6 +7,7 @@
         "description": "Control an enemy under 180 MAX HP and change to our side for short of period.",
         "valid_targets": [ "hostile" ],
         "effect": "charm_monster",
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
         "message": "",
         "min_damage": 180,
         "max_damage": 180,
