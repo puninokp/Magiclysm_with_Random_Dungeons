@@ -1174,8 +1174,9 @@
     "type": "effect_type",
     "id": "PSY_magi_self_serenade_spirits_effect",
     "name": [ "Serenade of Spirits" ],
-    "desc": [ "Life is good." ],
-    "rating": "good"
+    "desc": [ "You are in the middle of listening to 'Serenade of Spirits'!\nIt is not possible to overlay a new 'Serenade of Spirits' while you are in this." ],
+    "rating": "good",
+    "remove_message": "The performance by 'Serenade of Spirit' was over!"
   }
 
 ]

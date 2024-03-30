@@ -5990,6 +5990,10 @@ msgstr "この音楽は、大地、水、風、火など自然の要素を司る
 msgid "Summons several invisibly small spirits around it and makes them play music.\nThis music is the result of the resonance and power of the spirits that govern the elements of nature, such as earth, water, wind, and fire. The unique energies of each spirit merge to create a harmonious melody that elevates the listener's motivation."
 msgstr "周囲に目に見えないほどの小さな精霊を複数召喚し、音楽を奏でさせます。\nこの音楽は、大地、水、風、火など自然の要素を司る精霊たちが共振し、その力を込めて奏でる音楽です。各精霊の独自のエネルギーが融合し、調和のとれたメロディが生まれ、聴いたものの意欲を上昇させます。"
 
+msgid "Summons several invisibly small spirits around it and makes them play music.\nThis music is the result of the resonance and power of the spirits that govern the elements of nature, such as earth, water, wind, and fire. The unique energies of each spirit merge to create a harmonious melody that elevates the listener's motivation.\n\nLV0:1h\nLV5:5h\nLV10:10h"
+msgstr "周囲に目に見えないほどの小さな精霊を複数召喚し、音楽を奏でさせます。\nこの音楽は、大地、水、風、火など自然の要素を司る精霊たちが共振し、その力を込めて奏でる音楽です。各精霊の独自のエネルギーが融合し、調和のとれたメロディが生まれ、聴いたものの意欲を上昇させます。\n\nLV0:1時間\nLV5:5時間\nLV10:10時間"
+
+
 msgid "Hot bento"
 msgstr "ホカホカ弁当"
 
@@ -6379,4 +6383,10 @@ msgid "You are quietly enjoying your meal when suddenly your enemies attack! At 
 msgstr "あなたが静かに食事を楽しんでいると、突然、敵が襲ってきた！そんな時には、「アニメーテッド・食器」があなたの敵に立ち向かいます。スプーンは素早く敵の手を引っ掻き、フォークはピンポイントで突き刺し、ナイフやピザカッターは切り裂きます。そして、あなたスポークやフライパンも、彼らの加勢で敵に向かって飛びかかります。\nもしあなたがこの一大戦闘の中で困惑していると、あなたのコーヒーカップが親しげに耳元でささやきます。「落ち着いて、ボス!」と。そして、ティースプーンが「リラックスして、おしゃべりを楽しんで!」とアドバイスします。そして、最後に、あなたの普通の食器がバンザイのように叫びながら、敵に向かって突進します。\nそう、この魔法はあなたの食卓を単なる食事の場所から、エキサイティングでちょっとした戦場へと変えることができるのです!"
 
 msgid "You are already in the middle of listening to 'Serenade of Spirits'!"
-msgstr "あなたは既に'精霊のソナタ'を聞いている最中だ！"
+msgstr "あなたは既に'精霊のソナタ'を聞いている最中だ!"
+
+msgid "You are in the middle of listening to 'Serenade of Spirits'!\nIt is not possible to overlay a new 'Serenade of Spirits' while you are in this."
+msgstr "あなたは既に'精霊のソナタ'を聞いている最中だ! この最中は新たな'精霊のソナタ'の重ね掛けは不可能。"
+
+msgid "The performance by 'Serenade of Spirit' was over!"
+msgstr "'精霊のソナタ'による演奏が終わってしまった!"
