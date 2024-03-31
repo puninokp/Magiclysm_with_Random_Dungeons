@@ -1,4 +1,24 @@
 [
+
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_CASTED_A_SPELL_LEARN_BOOST",
+    "eoc_type": "EVENT",
+    "required_event": "character_casts_spell",
+    "//": "imported magiclysm level up systems for dungeon spells",
+    "condition": { "compare_string": [ "PSY_magi_DUNGEON_MAGE", { "context_val": "school" } ] },
+    "effect": [
+      {
+        "math": [
+          "u_spell_exp(_spell)",
+          "+=",
+          "mc_spell_exp_diff(u_spell_level(_spell)) / mc_spell_cost_train_factor(_cost, 16, 65) * mc_spell_train_focus_factor(u_val('focus'),u_spell_level(_spell))"
+        ]
+      }
+    ]
+  },
+
   {
     "type": "effect_on_condition",
     "id": "EOC_PSY_TELEPORT_TEST",
