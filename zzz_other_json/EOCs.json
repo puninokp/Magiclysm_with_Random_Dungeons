@@ -20,6 +20,138 @@
   },
 
   {
+    "type": "effect_type",
+    "id": "PSY_effect_exp_potion_1000",
+    "name":  [ 
+      "Spell EXP Potion(1000)"      
+    ],
+    "desc": [ "The experience gained the next time magic is used is increased." ],
+    "rating": "good",
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_effect_exp_potion_5000",
+    "name":  [ 
+      "Spell EXP Potion(5000)"      
+    ],
+    "desc": [ "The experience gained the next time magic is used is increased." ],
+    "rating": "good",
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_effect_exp_potion_10000",
+    "name":  [ 
+      "Spell EXP Potion(10000)"      
+    ],
+    "desc": [ "The experience gained the next time magic is used is increased." ],
+    "rating": "good",
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_CASTED_A_SPELL_LEARN_BOOST_POTION",
+    "eoc_type": "EVENT",
+    "required_event": "character_casts_spell",
+    "//": "imported magiclysm level up systems for dungeon spells",
+    "condition": {
+      "or": [
+        { "u_has_effect": "PSY_effect_exp_potion_10000" },
+        { "u_has_effect": "PSY_effect_exp_potion_5000" },
+        { "u_has_effect": "PSY_effect_exp_potion_1000" }
+      ]
+    },
+    "effect": [
+      {
+        "if": { "u_has_effect": "PSY_effect_exp_potion_10000" },
+        "then": [
+          {
+            "if": { "u_has_effect": "PSY_effect_exp_potion_5000" },
+            "then": [
+              {
+                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
+                "then": [
+                  {"math": ["u_spell_exp(_spell)","+=","16000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+16000 EXP" }
+                ],
+                "else": [
+                  {"math": ["u_spell_exp(_spell)","+=","15000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+15000 EXP" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
+                "then": [
+                  {"math": ["u_spell_exp(_spell)","+=","11000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+11000 EXP" }
+                ],
+                "else": [
+                  {"math": ["u_spell_exp(_spell)","+=","10000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+10000 EXP" }
+                ]
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "u_has_effect": "PSY_effect_exp_potion_5000" },
+            "then": [
+              {
+                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
+                "then": [
+                  {"math": ["u_spell_exp(_spell)","+=","6000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+6000 EXP" }
+                ],
+                "else": [
+                  {"math": ["u_spell_exp(_spell)","+=","5000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+5000 EXP" }
+                ]
+              }
+            ],
+            "else": [
+              {
+                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
+                "then": [
+                  {"math": ["u_spell_exp(_spell)","+=","1000"]},
+                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+                  { "u_message": "+1000 EXP" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "type": "effect_on_condition",
     "id": "EOC_PSY_TELEPORT_TEST",
     "//": "This is the EOC which actually teleports you up.",

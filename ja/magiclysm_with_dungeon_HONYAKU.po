@@ -6390,3 +6390,27 @@ msgstr "あなたは既に'精霊のソナタ'を聞いている最中だ! こ�
 
 msgid "The performance by 'Serenade of Spirit' was over!"
 msgstr "'精霊のソナタ'による演奏が終わってしまった!"
+
+msgid "Spell EXP Potion(1000)"
+msgstr "魔法経験値ポーション(1000)"
+
+msgid "Spell EXP Potion(5000)"
+msgstr "魔法経験値ポーション(5000)"
+
+msgid "Spell EXP Potion(10000)"
+msgstr "魔法経験値ポーション(10000)"
+
+msgid "Spell EXP Potion(3000)"
+msgstr "魔法経験値ポーション(3000)"
+
+msgid "Spell EXP Potion(500)"
+msgstr "魔法経験値ポーション(500)"
+
+msgid "The experience gained the next time magic is used is increased."
+msgstr "次に魔法を使ったときに得られる経験値が上昇する。"
+
+msgid "You have used a magic experience increasing potion."
+msgstr "あなたは魔法経験値上昇ポーションを使用しました。"
+
+msgid "A potion that increases the experience value of the next magic used.\nCannot be stacked with the same item."
+msgstr "次に使った魔法の経験値が上昇するポーション。同アイテムの重ね掛けは不可能"

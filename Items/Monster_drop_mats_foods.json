@@ -547,7 +547,73 @@
         "qualities": [ [ "HAMMER", 2 ] ],
         "use_action": [ "CROWBAR" ],
         "//": "In terms of alchemy the gastrolith could serve to combie different effects, such as safely mixing together potions, or it could be used as an element of change, such as for shapechanging potions."
-      }
+    },
+
+    {
+        "id": "PSY_magi_item_exp_potion_10000",
+        "type": "COMESTIBLE",
+        "looks_like": "flask_glass",
+        "comestible_type": "MED",
+        "name": { "str": "Spell EXP Potion(10000)" },
+        "description": "A potion that increases the experience value of the next magic used.\nCannot be stacked with the same item.",
+        "material": [ "drug_filler" ],
+        "weight": "125 g",
+        "volume": "255 ml",
+        "price": "1000 USD",
+        "price_postapoc": "1000 USD",
+        "symbol": "P",
+        "color": "yellow",
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE", "EDIBLE_FROZEN" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You have used a magic experience increasing potion.",
+          "effects": [ { "id": "PSY_effect_exp_potion_10000", "duration": "720 h" } ]
+        }
+    },
+
+    {
+        "id": "PSY_magi_item_exp_potion_5000",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "looks_like": "flask_glass",
+        "name": { "str": "Spell EXP Potion(5000)" },
+        "description": "A potion that increases the experience value of the next magic used.\nCannot be stacked with the same item.",
+        "material": [ "drug_filler" ],
+        "weight": "125 g",
+        "volume": "255 ml",
+        "price": "500 USD",
+        "price_postapoc": "500 USD",
+        "symbol": "P",
+        "color": "yellow",
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE", "EDIBLE_FROZEN" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You have used a magic experience increasing potion.",
+          "effects": [ { "id": "PSY_effect_exp_potion_5000", "duration": "720 h" } ]
+        }
+    },
+
+    {
+        "id": "PSY_magi_item_exp_potion_1000",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "looks_like": "flask_glass",
+        "name": { "str": "Spell EXP Potion(1000)" },
+        "description": "A potion that increases the experience value of the next magic used.\nCannot be stacked with the same item.",
+        "material": [ "drug_filler" ],
+        "weight": "125 g",
+        "volume": "255 ml",
+        "price": "100 USD",
+        "price_postapoc": "100 USD",
+        "symbol": "P",
+        "color": "yellow",
+        "flags": [ "TRADER_AVOID","EATEN_COLD", "NO_AUTO_CONSUME", "NUTRIENT_OVERRIDE","SINGLE_USE", "EDIBLE_FROZEN" ],
+        "use_action": {
+          "type": "consume_drug",
+          "activation_message": "You have used a magic experience increasing potion.",
+          "effects": [ { "id": "PSY_effect_exp_potion_1000", "duration": "720 h" } ]
+        }
+    }
 
 
 

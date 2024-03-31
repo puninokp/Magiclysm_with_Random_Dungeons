@@ -318,6 +318,54 @@
         "components": [
            [ [ "PSY_magi_magical_coin_bronze", 75 ] ]
          ]
+    },
+
+    {
+      "type": "recipe",
+      "result": "PSY_magi_item_exp_potion_1000",
+      "id_suffix": "using_mwmi",
+      "activity_level": "LIGHT_EXERCISE",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+      "skill_used": "chemistry",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "components": [
+         [ [ "PSY_magi_magical_coin_bronze", 10 ] ]
+       ]
+    },
+
+    {
+      "type": "recipe",
+      "result": "PSY_magi_item_exp_potion_5000",
+      "id_suffix": "using_mwmi",
+      "activity_level": "LIGHT_EXERCISE",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+      "skill_used": "chemistry",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "components": [
+         [ [ "PSY_magi_magical_coin_bronze", 45 ] ]
+       ]
+    },
+
+    {
+      "type": "recipe",
+      "result": "PSY_magi_item_exp_potion_10000",
+      "id_suffix": "using_mwmi",
+      "activity_level": "LIGHT_EXERCISE",
+      "category": "CC_PSY_MAGI",
+      "subcategory": "CSC_PSY_MAGI_ENHANCEMENT",
+      "skill_used": "chemistry",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "components": [
+         [ [ "PSY_magi_magical_coin_bronze", 80 ] ]
+       ]
     }
 
 ]
