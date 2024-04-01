@@ -59,95 +59,33 @@
     "required_event": "character_casts_spell",
     "//": "imported magiclysm level up systems for dungeon spells",
     "condition": {
-      "or": [
-        { "u_has_effect": "PSY_effect_exp_potion_10000" },
-        { "u_has_effect": "PSY_effect_exp_potion_5000" },
-        { "u_has_effect": "PSY_effect_exp_potion_1000" }
-      ]
+            "and": [
+                { "or":
+                  [
+                    { "u_has_effect": "PSY_effect_exp_potion_10000" },
+                    { "u_has_effect": "PSY_effect_exp_potion_5000" },
+                    { "u_has_effect": "PSY_effect_exp_potion_1000" }
+                  ]
+                },
+                { "math": [ "u_spell_exp(_spell) >= 0" ] }
+              ]
     },
     "effect": [
-      {
-        "if": { "u_has_effect": "PSY_effect_exp_potion_10000" },
-        "then": [
-          {
-            "if": { "u_has_effect": "PSY_effect_exp_potion_5000" },
-            "then": [
-              {
-                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
-                "then": [
-                  {"math": ["u_spell_exp(_spell)","+=","16000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+16000 EXP" }
-                ],
-                "else": [
-                  {"math": ["u_spell_exp(_spell)","+=","15000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+15000 EXP" }
-                ]
-              }
-            ],
-            "else": [
-              {
-                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
-                "then": [
-                  {"math": ["u_spell_exp(_spell)","+=","11000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+11000 EXP" }
-                ],
-                "else": [
-                  {"math": ["u_spell_exp(_spell)","+=","10000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+10000 EXP" }
-                ]
-              }
-            ]
-          }
-        ],
-        "else": [
-          {
-            "if": { "u_has_effect": "PSY_effect_exp_potion_5000" },
-            "then": [
-              {
-                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
-                "then": [
-                  {"math": ["u_spell_exp(_spell)","+=","6000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+6000 EXP" }
-                ],
-                "else": [
-                  {"math": ["u_spell_exp(_spell)","+=","5000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+5000 EXP" }
-                ]
-              }
-            ],
-            "else": [
-              {
-                "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
-                "then": [
-                  {"math": ["u_spell_exp(_spell)","+=","1000"]},
-                  { "u_lose_effect": "PSY_effect_exp_potion_10000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_5000" },
-                  { "u_lose_effect": "PSY_effect_exp_potion_1000" },
-                  { "u_message": "+1000 EXP" }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+      { "math": [ "_sum_exp", "=", "0" ] },
+      { "if": { "u_has_effect": "PSY_effect_exp_potion_10000" },
+        "then": { "math": [ "_sum_exp", "+=", "10000" ] }
+      },
+      { "if": { "u_has_effect": "PSY_effect_exp_potion_5000" },
+        "then": { "math": [ "_sum_exp", "+=", "5000" ] }
+      },
+      { "if": { "u_has_effect": "PSY_effect_exp_potion_1000" },
+        "then": { "math": [ "_sum_exp", "+=", "1000" ] }
+      },
+      { "math": [ "u_spell_exp(_spell)", "+=", "_sum_exp" ] },
+      { "u_lose_effect": "PSY_effect_exp_potion_10000" },
+      { "u_lose_effect": "PSY_effect_exp_potion_5000" },
+      { "u_lose_effect": "PSY_effect_exp_potion_1000" },
+      { "u_message": "+<context_val:sum_exp> EXP" }
     ]
   },
 
