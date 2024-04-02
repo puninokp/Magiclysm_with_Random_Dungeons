@@ -1153,6 +1153,124 @@
     "P": "t_carpet_red",
     "!": "t_carpet_red"
   }
+},
+
+{
+  "type": "palette",
+  "id": "PSY_magi_basement_residential",
+  "terrain": {
+    "|": "t_wall_w",
+    "%": "t_concrete_wall",
+    "<": "t_stairs_up",
+    "+": "t_door_c",
+    ".": "t_floor",
+    "_": "t_linoleum_gray",
+    "B": "t_floor",
+    "c": "t_floor",
+    "i": "t_floor",
+    "S": "t_floor",
+    "r": "t_linoleum_gray",
+    "f": "t_linoleum_gray",
+    "t": "t_floor",
+    "&": "t_floor",
+    "C": "t_floor",
+    "d": "t_floor",
+    "w": "t_floor",
+    "D": "t_floor",
+    "P": "t_floor",
+    "#": "t_floor",
+    "G": "t_floor",
+    "s": "t_floor",
+    "F": "t_linoleum_gray",
+    "W": "t_linoleum_gray",
+    "o": "t_linoleum_gray",
+    "b": "t_floor",
+    "T": "t_floor"
+  },
+  "furniture": {
+    "B": "f_bookcase",
+    "c": "f_counter",
+    "i": "f_sink",
+    "S": "f_shower",
+    "r": "f_rack",
+    "f": "f_fridge",
+    "t": "f_table",
+    "&": "f_toilet",
+    "C": "f_sofa",
+    "d": "f_dryer",
+    "w": "f_washer",
+    "D": "f_dresser",
+    "P": "f_wardrobe",
+    "G": "f_glass_cabinet",
+    "s": "f_chair",
+    "F": "f_home_furnace",
+    "W": [ "f_water_heater", "f_water_heater_family" ],
+    "b": "f_cupboard",
+    "T": "f_rack"
+  },
+  "toilets": { "&": {  } }
+},
+
+{
+  "type": "palette",
+  "id": "PSY_magi_church",
+  "terrain": {
+    " ": "t_region_groundcover_urban",
+    "+": "t_door_c",
+    "%": "t_wall",
+    ".": "t_floor",
+    "S": "t_linoleum_gray",
+    "T": "t_linoleum_gray",
+    "'": "t_linoleum_gray",
+    "=": "t_door_locked_alarm",
+    "-": "t_door_locked",
+    "O": "t_column",
+    "^": "t_region_shrub_decorative",
+    "s": "t_sidewalk",
+    "w": "t_window",
+    "|": "t_dirt",
+    "L": "t_floor",
+    "o": "t_floor",
+    "y": "t_floor",
+    "h": "t_floor",
+    "p": "t_floor",
+    "<": "t_stairs_up"
+  },
+  "furniture": {
+    "b": "f_brazier",
+    "#": "f_bench",
+    "S": "f_sink",
+    "c": "f_counter",
+    "d": "f_desk",
+    "e": "f_fridge",
+    "h": "f_chair",
+    "l": "f_rack_coat",
+    "L": "f_locker",
+    "o": "f_bookcase",
+    "t": "f_table",
+    "C": "f_crate_c",
+    "y": [ "f_indoor_plant_y", "f_indoor_plant" ],
+    "p": "f_piano",
+    "D": "f_wardrobe"
+  },
+  "toilets": { "T": {  } },
+  "computers": {
+    "6": {
+      "name": "Church Bells 1.2",
+      "options": [
+        { "name": "Gathering Toll", "action": "toll" },
+        { "name": "Wedding Toll", "action": "toll" },
+        { "name": "Funeral Toll", "action": "toll" }
+      ]
+    }
+  },
+  "items": {
+    "L": { "item": "SUS_janitors_closet", "chance": 80 },
+    "#": { "item": "church", "chance": 40 },
+    ".": { "item": "church", "chance": 5 },
+    ",": { "item": "church", "chance": 5 },
+    "l": { "item": "jackets", "chance": 60 }
+  }
 }
 
 ]

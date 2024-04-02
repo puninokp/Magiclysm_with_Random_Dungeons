@@ -2152,7 +2152,7 @@
             "........................",
             "........................"
           ],
-          "palettes": [ "basement_residential" ],
+          "palettes": [ "PSY_magi_basement_residential" ],
           "terrain": {
             " ": "t_dirt"
           }
@@ -2298,7 +2298,7 @@
             "                        ",
             "                        "
           ],
-          "palettes": [ "basement_residential" ],
+          "palettes": [ "PSY_magi_basement_residential" ],
           "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
           "toilets": { ";": {  } },
           "items": {
@@ -2458,7 +2458,7 @@
             "........................"
           ],
           "palettes": [
-            "basement_residential"
+            "PSY_magi_basement_residential"
           ],
           "terrain": {
             "4": "t_gutter_downspout",
@@ -2673,7 +2673,7 @@
             ".9......................"
           ],
           "palettes": [
-            "basement_residential"
+            "PSY_magi_basement_residential"
           ],
           "terrain": {
             "0": "t_window_domestic",
