@@ -1291,7 +1291,7 @@
           ],
           "terrain": {
             "|": "PSY_magi_t_dirt",
-            ".": "t_metal_floor_olight",
+            ".": "t_metal_floor",
             "6": "t_metal_floor_olight",
             "a": "t_metal_floor_olight",
             "B": "t_metal_floor_olight",

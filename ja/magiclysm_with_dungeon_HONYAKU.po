@@ -6414,3 +6414,66 @@ msgstr "あなたは魔法経験値上昇ポーションを使用しました。
 
 msgid "A potion that increases the experience value of the next magic used.\nCannot be stacked with the same item."
 msgstr "次に使った魔法の経験値が上昇するポーション。同アイテムの重ね掛けは不可能"
+
+msgid "Dungeon Priest"
+msgstr "ダンジョンプリースト"
+
+msgid "Oh! You came here with a map of the dungeon.\nWelcome to the Church of the Dungeon!\n\nHere you can use the coins you earn to acquire healing and buffs!\nAnd some supplies can also be traded."
+msgstr "おお! ダンジョンの地図を頼りにここへ来たのですね。\nダンジョンの教会にようこそ!\n\nここでは獲得したコインを使って治癒やバフを獲得することが出来ますよ!\nそれといくつかの物資もトレードすることが出来ます。"
+
+msgid "Welcome to the Church of the Dungeon!\n\nHere you can use the coins you earn to acquire healing and buffs!\nAnd some supplies can also be traded."
+msgstr "ダンジョンの教会にようこそ!\n\nここでは獲得したコインを使って治癒やバフを獲得することが出来ますよ!\nそれといくつかの物資もトレードすることが出来ます。"
+
+msgid "Oh! You came here with a map of the dungeon."
+msgstr "おお! ダンジョンの地図を頼りにここへ来たのですね。"
+
+msgid "Welcome to the Church of the Dungeon!"
+msgstr "ダンジョンの教会にようこそ!"
+
+msgid "Here you can use the coins you earn to acquire healing and buffs!"
+msgstr "ここでは獲得したコインを使って治癒やバフを獲得することが出来ますよ!"
+
+msgid "And some supplies can also be traded."
+msgstr "それといくつかの物資もトレードすることが出来ます。"
+
+msgid "Well...\nI was a dungeon priest in this church without my knowledge, you know. That's all."
+msgstr "そうですね...\n私は知らないうちに、この教会でダンジョンの司祭をしていたのですよ。それだけです。"
+
+msgid "I was a dungeon priest in this church without my knowledge, you know. That's really all there is to it."
+msgstr "私は知らないうちに、この教会でダンジョンの司祭をしていたのですよ。本当にそれだけです。"
+
+msgid "I need to be healed or buffed!"
+msgstr "治癒かバフを受けたい!"
+
+msgid "Please select the buff you want."
+msgstr "買いたいバフを選んでください。"
+
+msgid "[20 Magical Coin]:1 day of [Blessing of mysterious] \nAll of your status are increased by 3 and +20 speed."
+msgstr "[20 魔法のコイン]:1日間の[神秘の祝福]\n全ステータス+3,速度+20"
+
+msgid "[50 Magical Coin]:3 days of [Blessing of mysterious] \nAll of your status are increased by 3 and +20 speed."
+msgstr "[50 魔法のコイン]:3日間の[神秘の祝福]\n全ステータス+3,速度+20"
+
+msgid "[70 Magical Coin]:7 days of [Blessing of mysterious] \nAll of your status are increased by 3 and +20 speed."
+msgstr "[70 魔法のコイン]:7日間の[神秘の祝福]\n全ステータス+3,速度+20"
+
+msgid "[20 Magical Coin]:1 day of [Blessing of Swamp] \nStamina recovery speed increased significantly, stun resistance."
+msgstr "[20 魔法のコイン]:1日間の[湿地の恵み]\nスタミナ回復速度大幅上昇、気絶耐性"
+
+msgid "[50 Magical Coin]:3 days of [Blessing of Swamp] \nStamina recovery speed increased significantly, stun resistance."
+msgstr "[50 魔法のコイン]:3日間の[湿地の恵み]\nスタミナ回復速度大幅上昇、気絶耐性"
+
+msgid "[70 Magical Coin]:7 days of [Blessing of Swamp] \nStamina recovery speed increased significantly, stun resistance."
+msgstr "[70 魔法のコイン]:7日間の[湿地の恵み]\nスタミナ回復速度大幅上昇、気絶耐性"
+
+msgid "[20 Magical Coin]:1 day of [Blessing of Cleric] \nimmune from most conditions."
+msgstr "[20 魔法のコイン]:1日間の[クレリックの祝福]\n殆どの状態異常免疫"
+
+msgid "[50 Magical Coin]:3 days of [Blessing of Cleric] \nimmune from most conditions."
+msgstr "[50 魔法のコイン]:3日間の[クレリックの祝福]\n殆どの状態異常免疫"
+
+msgid "[70 Magical Coin]:7 days of [Blessing of Cleric] \nimmune from most conditions."
+msgstr "[70 魔法のコイン]:7日間の[クレリックの祝福]\n殆どの状態異常免疫"
+
+msgid "[10 Magical Coin]:[Heal] \nRecover 20 HP."
+msgstr "[10 魔法のコイン]:[回復]\nHPを20回復"

@@ -1,0 +1,204 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_NC_PSY_CLONE",
+    "dynamic_line": "Hello one of me!\nDo you want to travel with me?",
+    "responses": [
+      { "text": "Who are you?", "topic": "TALK_NC_PSY_CLONE_INTRO" },
+      {
+        "text": "That's exactly my thought. We have so much in common, let's travel together!!",
+        "topic": "TALK_NC_PSY_CLONE_HIRE"
+      },
+      { "text": "A daring trader?  Yes.  Let's trade items.", "topic": "TALK_NONE", "effect": "start_trade" },
+      { "text": "I don't have time for this.", "topic": "TALK_DONE" }
+    ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "TALK_NC_PSY_CLONE_INTRO",
+    "dynamic_line": "Hey, I'm you! I was made from you.",
+    "responses": [
+      { "text": "Wanna get outta here?", "topic": "TALK_NC_PSY_CLONE_HIRE" },
+      { "text": "Have anything to trade?", "topic": "TALK_NONE", "effect": "start_trade" },
+      { "text": "Oh yeah?.", "topic": "TALK_DONE" }
+    ]
+  },
+
+  {
+    "id": "TALK_NC_PSY_CLONE_HIRE",
+    "type": "talk_topic",
+    "dynamic_line": "Of course!",
+    "responses": [
+      {
+        "text": "Let's together",
+        "success": { "effect": "follow", "topic": "TALK_DONE" }
+      }
+    ]
+  },
+
+  
+  {
+    "id": "PSY_TALK_DUNGEON_PRIEST",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_item": "PSY_magi_dungeon_map",
+      "yes": [
+        "Oh! You came here with a map of the dungeon.\nWelcome to the Church of the Dungeon!\n\nHere you can use the coins you earn to acquire healing and buffs!\nAnd some supplies can also be traded."
+      ],
+      "no": [ 
+        "Welcome to the Church of the Dungeon!\n\nHere you can use the coins you earn to acquire healing and buffs!\nAnd some supplies can also be traded."
+      ]
+    },
+    "responses": [
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "PSY_TALK_DUNGEON_PRIEST" },
+      { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_PRIEST_DOING" },
+      { "text": "I need to be healed or buffed!", "topic": "PSY_TALK_DUNGEON_PRIEST_BUFF" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_DUNGEON_PRIEST_NOCASH",
+    "dynamic_line": "You don't have enough currency.",
+    "responses": [ { "text": "Yeah!", "topic": "PSY_TALK_DUNGEON_PRIEST" } ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+    "dynamic_line": "Thank you very much. Is there anything else you need?",
+    "responses": [ { "text": "Maybe there is.", "topic": "PSY_TALK_DUNGEON_PRIEST" } ]
+  },
+
+  {
+    "id": "PSY_TALK_DUNGEON_PRIEST_DOING",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_var": "u_met_DUNGEON_PRIEST",
+      "type": "general",
+      "context": "meeting",
+      "value": "yes",
+      "no": "Well...\nI was a dungeon priest in this church without my knowledge, you know. That's all.",
+      "yes": "I was a dungeon priest in this church without my knowledge, you know. That's really all there is to it."
+    },
+    "responses": [
+      {
+        "text": "Good day, sir.",
+        "effect": { "u_add_var": "u_met_DUNGEON_PRIEST", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": { "not": { "u_has_var": "u_met_DUNGEON_PRIEST", "type": "general", "context": "meeting", "value": "yes" } },
+        "topic": "PSY_TALK_DUNGEON_PRIEST"
+      }
+    ]
+  },
+
+  {
+    "//1": "BUFF and HEAL",
+    "id": "PSY_TALK_DUNGEON_PRIEST_BUFF",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the buff you want.",
+    "responses": [
+      {
+        "text": "[20 Magical Coin]:1 day of [Blessing of mysterious] \nAll of your status are increased by 3 and +20 speed.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 20 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_mysterious", "duration": "1 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 20 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[50 Magical Coin]:3 days of [Blessing of mysterious] \nAll of your status are increased by 3 and +20 speed.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 50 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_mysterious", "duration": "3 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 50 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[20 Magical Coin]:1 day of [Blessing of Swamp] \nStamina recovery speed increased significantly, stun resistance.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 20 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_swamp", "duration": "1 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 20 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[50 Magical Coin]:3 days of [Blessing of Swamp] \nStamina recovery speed increased significantly, stun resistance.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 50 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_swamp", "duration": "3 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 50 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[20 Magical Coin]:1 day of [Blessing of Cleric] \nimmune from most conditions.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 20 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_cleric", "duration": "1 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 20 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[50 Magical Coin]:3 days of [Blessing of Cleric] \nimmune from most conditions.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 50 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            { "u_add_effect": "PSY_magi_statue_blessing_cleric", "duration": "3 days" },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 50 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      {
+        "text": "[10 Magical Coin]:[Heal] \nRecover 20 HP.",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_PRIEST_ANSWER",
+          "effect": [
+            {
+              "u_cast_spell": {
+                "id": "light_healing",
+                "min_level": 15, "max_level": 15,
+                "message": ""
+              }
+            },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 10 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_PRIEST_NOCASH" }
+      },
+
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "PSY_TALK_DUNGEON_PRIEST" },
+      { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_PRIEST_DOING" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  }
+]
