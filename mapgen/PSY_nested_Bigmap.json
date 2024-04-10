@@ -2921,6 +2921,122 @@
             ]
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_room_24x24_city_coin_exchanger_1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 24, 24 ],
+          "rotation": [ 0, 2 ],
+          "rows": [
+            "........................",
+            "........................",
+            "........................",
+            "...........++++.........",
+            "..........++++..........",
+            "...........++++.........",
+            "..........++++..........",
+            ".....#|||#&&&&#|||#.....",
+            ".....#   A        #.....",
+            ".....#      7  7  #.....",
+            ".....#      7  7  #.....",
+            ".....|      7  7  |.....",
+            ".....|  T         |.....",
+            ".....| W          |.....",
+            ".....# !       E  #.....",
+            ".....#   S        #.....",
+            ".....#XXXX#F     R#.....",
+            ".....#$$$$#XXXXXXX#.....",
+            ".....#$$$$3   Q   #.....",
+            ".....##############.....",
+            "........................",
+            "........................",
+            "........................",
+            "........................"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+          "toilets": { ";": {  } },
+          "items": {
+            "!": { "item": "magic_smith", "chance": 40, "repeat": [ 1, 2 ] },
+            "7": { "item": "novels", "chance": 100, "repeat": [ 2, 4 ] },
+            "$": [
+              { "item": "forge_vault_items", "chance": 1, "repeat": [ 1, 2 ] },
+              { "item": "forge_vault_money", "chance": 100, "repeat": [ 1, 3 ] }
+            ]
+          },
+          "terrain": {
+            "4": "t_gutter_downspout",
+            " ": "PSY_magi_t_floor",
+            "W": "t_water_dp",
+            "&": "t_ballistic_door_glass_c",
+            "|": "t_window_stained_green",
+            ".": "PSY_magi_t_dirt",
+            "#": "t_magiconc_wall",
+            "+": "t_railroad_rubble",
+            "5": "t_bollard",
+            "0": "t_window_boarded",
+            "3": "t_door_locked",
+            "6": "PSY_magi_t_floor",
+            "7": "PSY_magi_t_floor",
+            "8": "PSY_magi_t_floor",
+            "9": "PSY_magi_t_floor",
+            ":": "PSY_magi_t_floor",
+            ";": "PSY_magi_t_floor",
+            "=": "t_rock_floor",
+            "?": "PSY_magi_t_floor",
+            "@": "PSY_magi_t_floor",
+            "$": "PSY_magi_t_floor",
+            "Q": "PSY_magi_t_floor",
+            "!": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "D": "PSY_magi_t_floor",
+            "E": "PSY_magi_t_floor",
+            "F": "PSY_magi_t_floor",
+            "G": "PSY_magi_t_floor",
+            "A": "PSY_magi_t_floor",
+            "R": "PSY_magi_t_floor",
+            "X": "t_wall_glassteel_alarm",
+            "K": "PSY_magi_t_floor",
+            "T": "PSY_magi_t_floor",
+            "H": "PSY_magi_t_floor",
+            "S": "PSY_magi_t_floor",
+            "_": "PSY_magi_t_floor",
+            "c": "PSY_magi_t_floor"
+          },
+          "furniture": {
+            "6": "f_table",
+            "7": "f_bookcase",
+            "8": "f_bathtub",
+            "!": "f_anvil",
+            "9": "f_rack",
+            ":": "f_dresser",
+            "=": "f_woodstove",
+            "?": "f_sofa",
+            "@": "f_bed",
+            "B": "f_chair",
+            "C": "f_desk",
+            "D": "f_trashcan",
+            "H": "f_armchair",
+            "c": "f_counter"
+          },
+          "npcs": { "Q": { "class": "PSY_dungeon_coin_exchanger" } },
+          "monster": {
+            "R": { "monster": "PSY_mon_mana_turret_railgun_npc",  "friendly": false},
+            "F": { "monster": "PSY_mon_mana_turret_frostbeam_npc",  "friendly": false},
+            "A": { "monster": "PSY_mon_mana_turret_acidsplatter_npc",  "friendly": false},
+            "T": { "monster": "PSY_mon_mana_mech_electro_bat_npc",  "friendly": true},
+            "E": { "monster": "PSY_mon_mana_mech_magic_eye_npc",  "friendly": true},
+            "S": { "monster": "PSY_mon_mana_mech_skylock_npc",  "friendly": true}
+          },
+          "place_zones": [
+            { "type": "LOOT_UNSORTED", "faction": "PSY_dungeon_marchants", "x": [ 5, 18 ], "y": [ 16, 19 ] }
+          ]
+        }
       }
 
 ]

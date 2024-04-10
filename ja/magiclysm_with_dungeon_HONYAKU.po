@@ -3940,6 +3940,9 @@ msgstr "魔法の力によって作成されたマナのロケットランチャ
 msgid "Mana Turret: Railgun"
 msgstr "マナタレット:超電磁砲"
 
+msgid "Mana Turret: Railgun EX"
+msgstr "マナタレット:超電磁砲EX"
+
 msgid "inactive Mana Railgun"
 msgstr "マナタレット:超電磁砲(停止中)"
 
@@ -4021,6 +4024,9 @@ msgstr "ミストを吸い込むと冷たく感じます。"
 msgid "Mana Turret: Frost beam"
 msgstr "マナタレット:フロストビーム"
 
+msgid "Mana Turret: Frost beam EX"
+msgstr "マナタレット:フロストビームEX"
+
 msgid "inactive Mana Turret: Frost beam"
 msgstr "マナタレット:フロストビーム(停止中)"
 
@@ -4029,6 +4035,9 @@ msgstr "魔法の力によって作成されたマナのフロストビームタ
 
 msgid "Mana Turret: Acid splatter"
 msgstr "マナタレット:アシッドスプラッター"
+
+msgid "Mana Turret: Acid splatter EX"
+msgstr "マナタレット:アシッドスプラッターEX"
 
 msgid "inactive Mana Turret: Acid splatter"
 msgstr "マナタレット:アシッドスプラッター(停止中)"
@@ -6477,3 +6486,66 @@ msgstr "[70 魔法のコイン]:7日間の[クレリックの祝福]\n殆どの�
 
 msgid "[10 Magical Coin]:[Heal] \nRecover 20 HP."
 msgstr "[10 魔法のコイン]:[回復]\nHPを20回復"
+
+msgid "Welcoooooome!"
+msgstr "いらっしゃあああああい!!"
+
+msgid "Welcoooooome!\n\nI'll exchange that magic coin you have for another currency!"
+msgstr "いらっしゃあああああい!!\n\nあなたの持っているその魔法のコインを別の通貨に交換してあげましょう!"
+
+msgid "I'm collecting magic coins!"
+msgstr "魔法のコインをあつめているんですよ!"
+
+msgid "I'm collecting 'magic coins', the most valuable currency in this dungeon!"
+msgstr "このダンジョン内では一番の価値がある魔法のコインをあつめているんですよ!"
+
+msgid "I want to change my magic coin into another currency!"
+msgstr "魔法のコインを別の通貨に変えたい!"
+
+msgid "[10 Magical Coin]:\nBuy [5 denarii]"
+msgstr "[10 魔法のコイン]:\n[5 デナリウスコイン]と交換"
+
+msgid "[50 Magical Coin]:\nBuy [25 denarii]"
+msgstr "[50 魔法のコイン]:\n[25 デナリウスコイン]と交換"
+
+msgid "[100 Magical Coin]:\nBuy [50 denarii]"
+msgstr "[100 魔法のコイン]:\n[50 デナリウスコイン]と交換"
+
+msgid "[10 Magical Coin]:\nBuy [50 merchs]"
+msgstr "[10 魔法のコイン]:\n[50 マーチ]と交換"
+
+msgid "[100 Magical Coin]:\nBuy [500 merchs]"
+msgstr "[100 魔法のコイン]:\n[500 マーチ]と交換"
+
+msgid "[20 Magical Coin]:\nBuy [5 Hub 01 Gold Coins]"
+msgstr "[20 魔法のコイン]:\n[5 ハブ01ゴールドコイン]と交換"
+
+msgid "[200 Magical Coin]:\nBuy [50 Hub 01 Gold Coins]"
+msgstr "[200 魔法のコイン]:\n[50 ハブ01ゴールドコイン]と交換"
+
+msgid "[100 Magical Coin]:\nBuy [120 silvers]"
+msgstr "[100 魔法のコイン]:\n[120 銀]と交換"
+
+msgid "[100 Magical Coin]:\nBuy [60 golds]"
+msgstr "[100 魔法のコイン]:\n[60 金]と交換"
+
+msgid "[200 Magical Coin]:\nBuy [50 platinums]"
+msgstr "[200 魔法のコイン]:\n[50 白金]と交換"
+
+msgid "Dungeon Coin Exchanger"
+msgstr "ダンジョンコイントレーダー"
+
+msgid "Money Money Money"
+msgstr "マニーマニーマニー"
+
+msgid "Late'o'Choco"
+msgstr "レート'オ'チョコ"
+
+msgid "Lang・D・Shaar"
+msgstr "ラング・D・シャー"
+
+msgid "Min・Min・Zemy"
+msgstr "ミン・ミン・ゼミー"
+
+msgid "Choose the currency you want to exchange for the magic coin!"
+msgstr "魔法のコインで交換したい通貨を選んでください!"

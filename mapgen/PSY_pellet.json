@@ -1027,8 +1027,8 @@
     "3": {
       "//3":"nested_24x24_NW",
       "chunks": [                 
-
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 5 ]
+        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
+        [ "PSY_magi_room_24x24_city_house_2", 5 ]
       ]
     },
     "4": {
@@ -1065,8 +1065,7 @@
       "//3":"nested_24x24_S",
       "chunks": [
 
-        [ "PSY_magi_room_big_24x24_city_1_NSWE", 1 ],
-        [ "PSY_magi_room_24x24_city_house_2", 5 ]
+        [ "PSY_magi_room_24x24_city_coin_exchanger_1", 5 ]
       ]
     },
     "9": {

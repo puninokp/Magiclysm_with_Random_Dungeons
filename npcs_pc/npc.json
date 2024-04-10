@@ -44,11 +44,24 @@
       "id": "PSY_dungeon_priest",
       "name_unique": "Late'o'Choco",
       "name_suffix": "Dungeon Priest",
-      "class": "PSY_NC_FORGE_LORD_NO_SHOP",
+      "class": "PSY_NC_FORGE_LORD_NO_SHOP_CHITIN",
       "attitude": 0,
       "mission": 3,
       "gender": "female",
       "chat": "PSY_TALK_DUNGEON_PRIEST",
+      "faction": "PSY_dungeon_marchants"
+    },
+
+    {
+      "type": "npc",
+      "id": "PSY_dungeon_coin_exchanger",
+      "name_unique": "Money Money Money",
+      "name_suffix": "Dungeon Coin Exchanger",
+      "class": "PSY_NC_FORGE_LORD_NO_SHOP_SILVER",
+      "attitude": 0,
+      "mission": 3,
+      "gender": "male",
+      "chat": "PSY_TALK_DUNGEON_COIN_EXCHANGER",
       "faction": "PSY_dungeon_marchants"
     }
 

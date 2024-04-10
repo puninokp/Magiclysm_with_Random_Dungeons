@@ -200,5 +200,202 @@
       { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_PRIEST_DOING" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
+  },
+
+  {
+    "id": "PSY_TALK_DUNGEON_COIN_EXCHANGER",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_item": "PSY_magi_magical_coin_bronze",
+      "yes": [
+        "Welcoooooome!\n\nI'll exchange that magic coin you have for another currency!"
+      ],
+      "no": [ 
+        "Welcoooooome!"
+      ]
+    },
+    "responses": [
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER" },
+      { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_DOING" },
+      { "text": "I want to change my magic coin into another currency!", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_EXCHANGE" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH",
+    "dynamic_line": "You don't have enough currency.",
+    "responses": [ { "text": "Yeah!", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_EXCHANGE" } ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+    "dynamic_line": "Thank you very much. Is there anything else you need?",
+    "responses": [ { "text": "Maybe there is.", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_EXCHANGE" } ]
+  },
+
+  {
+    "id": "PSY_TALK_DUNGEON_COIN_EXCHANGER_DOING",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_var": "u_met_DUNGEON_COIN_EXCHANGER",
+      "type": "general",
+      "context": "meeting",
+      "value": "yes",
+      "no": "I'm collecting 'magic coins', the most valuable currency in this dungeon!",
+      "yes": "I'm collecting magic coins!"
+    },
+    "responses": [
+      {
+        "text": "Good day, sir.",
+        "effect": { "u_add_var": "u_met_DUNGEON_COIN_EXCHANGER", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": { "not": { "u_has_var": "u_met_DUNGEON_COIN_EXCHANGER", "type": "general", "context": "meeting", "value": "yes" } },
+        "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER"
+      }
+    ]
+  },
+
+  {
+    "//1": "Value: magical coin=1250,denarius=2500,merch=250,Hub 01 Gold Coins=5000",
+    "id": "PSY_TALK_DUNGEON_COIN_EXCHANGER_EXCHANGE",
+    "type": "talk_topic",
+    "dynamic_line": "Choose the currency you want to exchange for the magic coin!",
+    "responses": [
+      {
+        "text": "[10 Magical Coin]:\nBuy [5 denarii]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "denarius", "count": 5 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 10 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[50 Magical Coin]:\nBuy [25 denarii]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 50 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "denarius", "count": 25 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 50 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[100 Magical Coin]:\nBuy [50 denarii]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 100 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "denarius", "count": 50 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 100 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[10 Magical Coin]:\nBuy [50 merchs]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "FMCNote", "count": 50 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 10 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[100 Magical Coin]:\nBuy [500 merchs]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 100 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "FMCNote", "count": 500 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 100 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[20 Magical Coin]:\nBuy [5 Hub 01 Gold Coins]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 20 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "RobofacCoin", "count": 5 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 20 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[200 Magical Coin]:\nBuy [50 Hub 01 Gold Coins]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 200 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "RobofacCoin", "count": 50 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 200 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[100 Magical Coin]:\nBuy [120 silvers]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 100 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "silver_small", "count": 120 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 100 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[100 Magical Coin]:\nBuy [60 golds]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 100 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "gold_small", "count": 60 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 100 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      {
+        "text": "[200 Magical Coin]:\nBuy [50 platinums]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 200 } } },
+        "success": {
+          "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "platinum_small", "count": 50 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 200 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_NOCASH" }
+      },
+
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER" },
+      { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_DOING" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
   }
 ]

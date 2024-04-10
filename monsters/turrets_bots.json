@@ -485,6 +485,7 @@
         "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
       },
 
+
       {
         "id": "PSY_mon_mana_mech_electro_bat",
         "type": "MONSTER",
