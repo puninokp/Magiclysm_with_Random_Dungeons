@@ -658,8 +658,8 @@
       "difficulty": 2,
       "max_level": 15,
       "energy_source": "MANA",
-      "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(150)" ] },
-      "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(6000)" ] }
+      "base_energy_cost": 150,
+      "base_casting_time": 6000
     },
 
     {
@@ -676,8 +676,8 @@
       "difficulty": 2,
       "max_level": 15,
       "energy_source": "MANA",
-      "base_energy_cost": { "math": [ "channeling_proficiency_negate_calculate(150)" ] },
-      "base_casting_time": { "math": [ "channeling_proficiency_negate_calculate(6000)" ] }
+      "base_energy_cost": 150,
+      "base_casting_time": 6000
     }
 
 
