@@ -5199,9 +5199,7 @@
         "families": [ "prof_intro_biology" ],
         "fear_triggers": [ "SOUND" ],
         "death_drops":  "PSY_magi_mon_rnd_touchrisk_mon_drops",
-        "special_attacks": 
-        [ 
-          [ "TENTACLE", 3 ],
+        "special_attacks": [
           { "id": "ranged_pull", "range": 6 , "cooldown": 22}
         ],
         "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "ANIMAL", "PATH_AVOID_DANGER_1" ]
@@ -5669,7 +5667,7 @@
           "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
           "pet": "The %s runs around your leg."
         },
-        "special_attacks": [ [ "SHRIEK", 10 ],  [ "LONGSWIPE", 8 ]],
+        "special_attacks": [ [ "SHRIEK", 10 ]],
         "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "CANPLAY", "SWARMS" ]
       },
 
