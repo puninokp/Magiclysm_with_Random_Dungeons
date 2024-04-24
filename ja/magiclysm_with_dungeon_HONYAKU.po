@@ -6622,6 +6622,9 @@ msgstr "エレメントマジック"
 msgid "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state."
 msgstr "変身しているエレメントに対応した攻撃魔法を発動します。\n人間の状態では魔法は必ず失敗します。"
 
+msgid "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\nFire:\n・AoE:4 Damage:40heat Range:12 burn effect\nWater:\n・Aoe:45Cone Damage:20pure Range:12 Fog effect\nAir:\n・AoE:4 Damage:55cut Range:12 pull effect\nEarth:\n・AoE:7 Damage30bash Range:2 downed effect"
+msgstr "変身しているエレメントに対応した攻撃魔法を発動します。\n人間の状態では魔法は必ず失敗します。\n火:\n・範囲4 威力40熱 射程12 燃焼効果\n水:\n・範囲45扇状 威力20純 射程12 霧作成\n風:\n・範囲4 威力55斬撃 射程12 対象地点に引き寄せ効果\n土:\n・範囲7 威力30打撃 射程2 転倒効果"
+
 msgid "Element Summon"
 msgstr "エレメントサモン"
 
