@@ -87,6 +87,7 @@
       { "value": "ARMOR_STAB", "multiply": -0.5 },
       { "value": "ARMOR_BULLET", "multiply": -0.5 },
       { "value": "MOVE_COST", "multiply": 1.0 },
+      { "value": "MELEE_STAMINA_CONSUMPTION", "multiply": 1.0 },
       { "value": "FOOTSTEP_NOISE", "multiply": 2.0 }
     ]
   }

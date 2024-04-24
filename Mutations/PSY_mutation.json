@@ -460,7 +460,7 @@
         "type": "mutation",
         "id": "PSY_SHAPESHIFTER_EARTH_FORM",
         "name": { "str": "Earth Element Form" },
-        "description": "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\nCONS\n・2x move costs.\n・3x footstep noise.",
+        "description": "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2.",
         "points": 0,
         "valid": false,
         "starting_trait": false,
