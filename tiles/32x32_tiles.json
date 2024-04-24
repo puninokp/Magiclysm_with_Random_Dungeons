@@ -901,7 +901,7 @@
             { "id": "overlay_worn_PSY_magi_Orb_of_Dodge" ,"fg": 971},
             { "id": "PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 972},
             { "id": "overlay_worn_PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 973},
-            { "id": ["explosion_PSY_roulette_seismic_stomp","explosion_PSY_magi_earth_elemental_seismic_stomp", "explosion_PSY_magi_item_spell_bash_ground_sub" ], "rotates": false,"animated": true,"fg":
+            { "id": ["explosion_PSY_magi_earth_elemental_seismic_stomp_melee","explosion_PSY_roulette_seismic_stomp","explosion_PSY_magi_earth_elemental_seismic_stomp", "explosion_PSY_magi_item_spell_bash_ground_sub" ], "rotates": false,"animated": true,"fg":
             [
               {"weight": 10, "sprite":980},
               {"weight": 10, "sprite":981},

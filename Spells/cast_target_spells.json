@@ -955,6 +955,34 @@
       "energy_source": "MANA",
       "difficulty": 2,
       "damage_type": "bash"
+    },
+
+    {
+      "id": "PSY_magi_earth_elemental_seismic_stomp_melee",
+      "type": "SPELL",
+      "name": "Seismic Stomp",
+      "description": "Focusing mana into your leg, you stomp your foot and send out a shockwave, knocking enemies around you onto the ground.",
+      "effect": "attack",
+      "effect_str": "downed",
+      "shape": "line",
+      "valid_targets": [ "hostile", "ground" ],
+      "flags": [ "SOMATIC", "LOUD", "NO_PROJECTILE" ],
+      "max_level": 10,
+      "min_damage": 0,
+      "max_damage": 0,
+      "min_aoe": 2,
+      "max_aoe": 2,
+      "min_range": 3,
+      "max_range": 3,
+      "aoe_increment": 1,
+      "min_duration": 500,
+      "max_duration": 500,
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "base_casting_time": 100,
+      "base_energy_cost": 250,
+      "energy_source": "MANA",
+      "difficulty": 2,
+      "damage_type": "bash"
     }
 
 
