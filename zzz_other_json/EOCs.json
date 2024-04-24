@@ -1297,7 +1297,7 @@
         "descriptions": [
           "Shapeshift the your body into a water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures.",
           "Shapeshift the your body into a fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
-          "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used).",
+          "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used).\n・Additional pain when damaged.",
           "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2."
         ]
       }

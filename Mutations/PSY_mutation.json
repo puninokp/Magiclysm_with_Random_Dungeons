@@ -444,7 +444,7 @@
         "type": "mutation",
         "id": "PSY_SHAPESHIFTER_AIR_FORM",
         "name": { "str": "Air Element Form" },
-        "description": "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used).",
+        "description": "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used).\n・Additional pain when damaged.",
         "points": 0,
         "valid": false,
         "starting_trait": false,

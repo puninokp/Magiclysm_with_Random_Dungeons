@@ -49,6 +49,7 @@
       { "value": "ARMOR_HEAT", "add": -100.0 },
       { "value": "SLEEPINESS", "multiply": 1.0 },
       { "value": "WEAKNESS_TO_WATER", "add": 0.5 },
+      { "value": "MOTION_VISION_RANGE", "add": 10 },
       { "value": "CLIMATE_CONTROL_CHILL", "add": 100 }
     ]
   },
@@ -69,6 +70,7 @@
       { "value": "ARMOR_STAB", "multiply": -0.9 },
       { "value": "ARMOR_BULLET", "multiply": -0.9 },
       { "value": "ARMOR_ELEC", "multiply": -0.9 },
+      { "value": "PAIN", "add": 4 },
       { "value": "FOOTSTEP_NOISE", "multiply": -1.0 }
     ]
   },
