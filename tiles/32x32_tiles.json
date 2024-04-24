@@ -55,6 +55,7 @@
             { "id": "PSY_magi_mon_plant_shooter" ,"fg": 33},
             { "id": "PSY_magi_mon_push_orb" ,"fg": 34, "rotates": false},
             { "id": "explosion_PSY_magi_air_elemental_air_blast" ,"fg": 34},
+            { "id": "explosion_PSY_magi_air_elemental_air_blast_push" ,"fg": 34},
             { "id": "PSY_magi_mon_flying_skul" ,"fg": 35},
             { "id": "PSY_magi_mon_ethereal_turret" ,"fg": 36},
             { "id": "PSY_magi_mon_black_hole" ,"fg": 37},
