@@ -104,6 +104,42 @@
   },
 
   {
+    "id": "PSY_weapon_magic_focus_spell",
+    "type": "SPELL",
+    "name": "magical weapon",
+    "description": "Placing a warding on weapon or tool, makes the target item to able to cast spells while equipped. This effect does not overlap.",
+    "valid_targets": [ "self" ],
+    "spell_class": "PSY_magi_DUNGEON_MAGE",
+    "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_PSY_WEAPON_MAGIC_FOCUS_SPELL",
+    "shape": "blast",
+    "difficulty": 5,
+    "max_level": 20,
+    "energy_source": "MANA",
+    "base_energy_cost": 1000,
+    "base_casting_time": 120000,
+    "casting_time_increment": -1500,
+    "final_casting_time": 90000
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_WEAPON_MAGIC_FOCUS_SPELL",
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual",
+        "search_data": [ { "category": "weapons" }, { "category": "tools" } ],
+        "true_eocs": [
+          {
+            "id": "EOC_PSY_WEAPON_MAGIC_FOCUS_SPELL_ITEM",
+            "effect": [ { "npc_set_flag": "MAGIC_FOCUS" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "PSY_armor_waterproof_spell",
     "type": "SPELL",
     "name": "Protect armor from wet",

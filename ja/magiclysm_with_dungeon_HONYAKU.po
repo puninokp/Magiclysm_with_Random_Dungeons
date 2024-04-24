@@ -4406,11 +4406,23 @@ msgstr "魔法で作られたロケットランチャーです。'マナの弾�
 msgid "Fire Element"
 msgstr "ファイアーエレメント"
 
+msgid "Fire Elemental"
+msgstr "ファイアーエレメント"
+
+msgid "Fire Elemental Vassal"
+msgstr "ファイアーエレメント眷属"
+
 msgid "A fire element that looks like a mass of burning flames. It is able to control the power of flames and release powerful flames at will. The flames within its body are always ablaze, burning opponents hot just by touching them, and it can protect itself with a shield of flames."
 msgstr "燃え盛る炎の塊のような姿をしたファイアーエレメント。炎の力を自在に操り、強力な炎を放つことができる。体内の炎は常に燃え盛り、触れるだけで相手を熱く燃やし、炎のシールドで自身を守ることができる。"
 
 msgid "Water Element"
 msgstr "ウォーターエレメント"
+
+msgid "Water Elemental"
+msgstr "ウォーターエレメント"
+
+msgid "Water Elemental Vassal"
+msgstr "ウォーターエレメント眷属"
 
 msgid "The water element has the appearance of clear blue water. It has arm- and leg-like parts and can swim with fluid-like supple movements. It can spew water from its mouth, which can also be used for attacks."
 msgstr "ウォーターエレメントは、青く澄んだ水の姿をしている。腕や足のような部位があり、流体のようなしなやかな動きで泳ぐことができる。口から水を噴き出すことができるため、攻撃にも使える。"
@@ -4418,11 +4430,23 @@ msgstr "ウォーターエレメントは、青く澄んだ水の姿をしてい
 msgid "Earth Element"
 msgstr "アースエレメント"
 
+msgid "Earth Elemental"
+msgstr "アースエレメント"
+
+msgid "Earth Elemental Vassal"
+msgstr "アースエレメント眷属"
+
 msgid "An element that manipulates the power of the earth. It specializes in earth-shaking attacks and surprise attacks from underground. In appearance, it has a massive appearance that looks like a stone or rock motif."
 msgstr "地の力を操るエレメント。大地を揺るがすような攻撃や、地中からの奇襲を得意とする。外見は、石や岩をモチーフにしたような重厚感のある姿をしている。"
 
 msgid "Air Element"
 msgstr "エアーエレメント"
+
+msgid "Air Elemental"
+msgstr "エアーエレメント"
+
+msgid "Air Elemental Vassal"
+msgstr "エアーエレメント眷属"
 
 msgid "An air element that looks like a typhoon. It constantly manipulates the wind around it and flies through the air. The force of its wind is said to be so strong that it can easily blow away buildings. It has an aggressive character and is a natural disaster, so it must be handled with care."
 msgstr "台風のような姿をしたエアーエレメント。常に周囲の風を操り、空中を舞う。その風の力は強く、建物をも簡単に吹き飛ばすことができるという。攻撃的な性格を持ち、自然災害としての一面もあるため、扱いには注意が必要である。"
@@ -6549,3 +6573,97 @@ msgstr "ミン・ミン・ゼミー"
 
 msgid "Choose the currency you want to exchange for the magic coin!"
 msgstr "魔法のコインで交換したい通貨を選んでください!"
+
+msgid "The transformation has already been applied."
+msgstr "その変身はもう適応されているよ!"
+
+msgid "The shapeshifting has already been applied."
+msgstr "その変身はもう適応されているよ!"
+
+msgid "You are already human form."
+msgstr "あなたは既に人間だよ!"
+
+msgid "Shapeshift:Element"
+msgstr "変身:エレメント"
+
+msgid "Shapeshift:Human"
+msgstr "変身:人間"
+
+msgid "Shapeshift into a human form."
+msgstr "人間状態に戻る"
+
+msgid "Choose one of the four types of elements and shapeshift yourself."
+msgstr "4種類のエレメントから1つを選び、自分を変身させる。"
+
+msgid "Choose one of the four types of elements and shapeshift yourself.\nWhile shapeshifting, natural recovery of MP is disabled and hunger speed is tripled.\nOther details of each element can be found in the selection dialog that appears after the magic is casted."
+msgstr "4種類のエレメントから1つを選び、自分を変身させる。\n変身中はMPの自然回復無効及び、空腹速度3倍。\nその他の各エレメントの詳細は、魔法発動後に出てくる選択ダイアログにて確認できる。"
+
+msgid "Shapeshift the your body into a water Element."
+msgstr "水の精霊に変身する。"
+
+msgid "Shapeshift the your body into a water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures."
+msgstr "水の精霊に変身する。\nこの変身状態の時、\nメリット\n・水中歩行\n・被銃弾ダメージ無効\n・匂い無し\n・傷の治りが早い\n・被近接ダメージ6割カット\n・濡れた時10%の確率で1HP/秒回復\nデメリット\n・被冷気ダメージ3倍\n・近接ダメージ半減\n・喉の渇き2倍\n・寒さに弱い"
+
+msgid "Shapeshift the your body into a fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet."
+msgstr "火の精霊に変身する。\nこの変身状態の時、\nメリット\n・赤外線視認可\n・火ダメージ無効\n・体が光る\n・近接攻撃時炎上効果\n・被近接ダメージ3割カット\n・暑さにほぼ無敵\nデメリット\n・倦怠2倍\n・濡れた時50%の確率で1ダメージ/1秒毎"
+
+msgid "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used)."
+msgstr "風の精霊に変身する。\nこの変身状態の時、\nメリット\n・落下ダメージ無効\n・壁登れる\n・空中を滑空できる\n・被電撃ダメージ9割カット\n・被近接ダメージ9割カット\n・足音無し\nデメリット\n・変身中は攻撃不可(魔法は使える)"
+
+msgid "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\nCONS\n・2x move costs.\n・3x footstep noise."
+msgstr "土の精霊に変身する。\nこの変身状態の時、\nメリット\n・苦痛無効\n・素手ダメージにボーナス\n・近接ダメージ3倍\n・被銃撃ダメージ5割カット\n・被近接ダメージ5割カット\nデメリット\n・移動コスト2倍\n・足音3倍"
+
+msgid "Cannot cast this spell while human form."
+msgstr "人間状態ではこの魔法は唱えることが出来ない。"
+
+msgid "Element Magic"
+msgstr "エレメントマジック"
+
+msgid "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state."
+msgstr "変身しているエレメントに対応した攻撃魔法を発動します。\n人間の状態では魔法は必ず失敗します。"
+
+msgid "Element Summon"
+msgstr "エレメントサモン"
+
+msgid "Summon Elemental Vassal"
+msgstr "エレメンタル眷属召喚"
+
+msgid "Casts a summon magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state."
+msgstr "変身しているエレメントに対応した召喚魔法を発動します。\n人間の状態では魔法は必ず失敗します。"
+
+msgid "Water Element Form"
+msgstr "水の精霊状態"
+
+msgid "Fire Element Form"
+msgstr "火の精霊状態"
+
+msgid "Earth Element Form"
+msgstr "土の精霊状態"
+
+msgid "Air Element Form"
+msgstr "風の精霊状態"
+
+msgid "Cone of Mist"
+msgstr "ミストブレス"
+
+msgid "ELEMENTAL EYE"
+msgstr "エレメンタル アイ"
+
+msgid "You can see the world through the friendly elementals of your summoned."
+msgstr "召喚した仲間のエレメンタルを通じて、世界を見ることが出来ます。"
+
+msgctxt "profession_male"
+msgid "[PSY] Elemental Shape Shifter"
+msgstr "[PSY]元素シェイプシフター"
+
+msgctxt "profession_female"
+msgid "[PSY] Elemental Shape Shifter"
+msgstr "[PSY]元素シェイプシフター"
+
+msgctxt "prof_desc_male"
+msgid "You have the ability to shape shift into elementals of the four elements: earth, water, fire, and wind. You can manipulate the forces of nature and apply your powers in battle and adventure. Your ability to flexibly change your forms in response to changes in the environment and the demands of battle allows them to deploy a wide variety of tactics and strategies!"
+msgstr "四大元素である地、水、火、風のエレメンタルに変身する能力を持っています。彼らは自然の力を操り、その力を戦いや冒険の中で活かすことができます。彼らの能力は、環境の変化や戦闘の需要に応じて、柔軟に形を変えることができ、多彩な戦術や戦略を展開することができるのが特徴です。"
+
+msgctxt "prof_desc_female"
+msgid "You have the ability to shape shift into elementals of the four elements: earth, water, fire, and wind. You can manipulate the forces of nature and apply your powers in battle and adventure. Your ability to flexibly change your forms in response to changes in the environment and the demands of battle allows them to deploy a wide variety of tactics and strategies!"
+msgstr "四大元素である地、水、火、風のエレメンタルに変身する能力を持っています。彼らは自然の力を操り、その力を戦いや冒険の中で活かすことができます。彼らの能力は、環境の変化や戦闘の需要に応じて、柔軟に形を変えることができ、多彩な戦術や戦略を展開することができるのが特徴です。"

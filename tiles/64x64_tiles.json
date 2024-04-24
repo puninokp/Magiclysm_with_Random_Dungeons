@@ -190,7 +190,11 @@
             {"weight": 100, "sprite":186}
             ]
             },
-            { "id": "PSY_magi_f_magic_fountain_used" ,"fg": 187 }
+            { "id": "PSY_magi_f_magic_fountain_used" ,"fg": 187 },
+            { "id": "PSY_magi_mon_fire_element_vassal" ,"fg": 192 },
+            { "id": "PSY_magi_mon_water_element_vassal" ,"fg": 193 },
+            { "id": "PSY_magi_mon_air_element_vassal" ,"fg": 194 },
+            { "id": "PSY_magi_mon_earth_element_vassal" ,"fg": 195 }
 
           ]
         }

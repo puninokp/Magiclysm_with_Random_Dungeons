@@ -54,6 +54,7 @@
             },
             { "id": "PSY_magi_mon_plant_shooter" ,"fg": 33},
             { "id": "PSY_magi_mon_push_orb" ,"fg": 34, "rotates": false},
+            { "id": "explosion_PSY_magi_air_elemental_air_blast" ,"fg": 34},
             { "id": "PSY_magi_mon_flying_skul" ,"fg": 35},
             { "id": "PSY_magi_mon_ethereal_turret" ,"fg": 36},
             { "id": "PSY_magi_mon_black_hole" ,"fg": 37},
@@ -899,7 +900,7 @@
             { "id": "overlay_worn_PSY_magi_Orb_of_Dodge" ,"fg": 971},
             { "id": "PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 972},
             { "id": "overlay_worn_PSY_magi_Orb_of_Ironclad_Eyes" ,"fg": 973},
-            { "id": "explosion_PSY_magi_item_spell_bash_ground_sub", "rotates": false,"animated": true,"fg":
+            { "id": ["explosion_PSY_roulette_seismic_stomp","explosion_PSY_magi_earth_elemental_seismic_stomp", "explosion_PSY_magi_item_spell_bash_ground_sub" ], "rotates": false,"animated": true,"fg":
             [
               {"weight": 10, "sprite":980},
               {"weight": 10, "sprite":981},
@@ -961,7 +962,9 @@
             { "id": "overlay_worn_PSY_magi_boots_chitin" ,"fg": 1059},
             { "id": "PSY_magi_mmask_zombie_disguise" ,"fg": 1061},
             { "id": "overlay_worn_PSY_magi_mmask_zombie_disguise" ,"fg": 1060},
-            { "id": "PSY_tr_landmine" ,"fg": 1063}
+            { "id": "PSY_tr_landmine" ,"fg": 1063},
+            { "id": "explosion_PSY_spell_fire_element_melee_heat_damage" ,"fg": 1064},
+            { "id": "explosion_PSY_magi_fire_elemental_point_flare" ,"fg": 1064}
             
             
           ]

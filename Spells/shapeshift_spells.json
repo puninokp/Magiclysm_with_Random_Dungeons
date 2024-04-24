@@ -1,0 +1,118 @@
+[
+
+
+
+    {
+        "id": "PSY_magi_shapeshift_to_element_spell",
+        "type": "SPELL",
+        "name": "Shapeshift:Element",
+        "description": "Choose one of the four types of elements and shapeshift yourself.\nWhile shapeshifting, natural recovery of MP is disabled and hunger speed is tripled.\nOther details of each element can be found in the selection dialog that appears after the magic is casted.",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_CHANGE_ELEMENT_FORM",
+        "shape": "blast",
+        "difficulty": 4,
+        "max_level": 20,
+        "energy_source": "MANA",
+        "base_energy_cost": 750,
+        "energy_increment": -10.0,
+        "final_energy_cost": 550,
+        "base_casting_time": 6000,
+        "casting_time_increment": -290,
+        "final_casting_time": 100
+    },
+
+    
+    {
+        "id": "PSY_magi_shapeshift_water_element_spell",
+        "type": "SPELL",
+        "name": "Water Element Form",
+        "description": "Transform into a water element",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_WATER_ELEMENT",
+        "shape": "blast",
+        "difficulty": 2,
+        "max_level": 15,
+        "energy_source": "MANA",
+        "base_energy_cost": 150,
+        "base_casting_time": 6000
+    },
+
+    {
+        "id": "PSY_magi_shapeshift_fire_element_spell",
+        "type": "SPELL",
+        "name": "Fire Element Form",
+        "description": "Transform into a fire element",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_FIRE_ELEMENT",
+        "shape": "blast",
+        "difficulty": 2,
+        "max_level": 15,
+        "energy_source": "MANA",
+        "base_energy_cost": 150,
+        "base_casting_time": 6000
+    },
+
+    {
+        "id": "PSY_magi_shapeshift_air_element_spell",
+        "type": "SPELL",
+        "name": "Air Element Form",
+        "description": "Transform into an air element",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_AIR_ELEMENT",
+        "shape": "blast",
+        "difficulty": 2,
+        "max_level": 15,
+        "energy_source": "MANA",
+        "base_energy_cost": 150,
+        "base_casting_time": 6000
+    },
+
+    {
+        "id": "PSY_magi_shapeshift_earth_element_spell",
+        "type": "SPELL",
+        "name": "Earth Element Form",
+        "description": "Transform into an earth element",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_EARTH_ELEMENT",
+        "shape": "blast",
+        "difficulty": 2,
+        "max_level": 15,
+        "energy_source": "MANA",
+        "base_energy_cost": 150,
+        "base_casting_time": 6000
+    },
+
+    {
+        "id": "PSY_magi_shapeshift_human_spell",
+        "type": "SPELL",
+        "name": "Shapeshift:Human",
+        "description": "Shapeshift into a human form.",
+        "valid_targets": [ "self" ],
+        "spell_class": "PSY_magi_DUNGEON_MAGE",
+        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "effect": "effect_on_condition",
+        "effect_str": "PSY_EOC_SHAPESHIFT_HUMAN_FORM",
+        "shape": "blast",
+        "difficulty": 0,
+        "max_level": 0,
+        "energy_source": "MANA",
+        "base_energy_cost": 0,
+        "base_casting_time": 500
+    }
+
+]

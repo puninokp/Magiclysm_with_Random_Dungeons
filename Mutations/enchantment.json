@@ -10,6 +10,85 @@
         "add": { "math": [ "u_monsters_nearby('radius': 25) * 20" ] }
       }
     ]
+  },
+  
+  {
+    "type": "enchantment",
+    "id": "PSY_ench_water_element_form",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "values": [
+      { "value": "HUNGER", "multiply": 2.0 },
+      { "value": "REGEN_MANA", "multiply": -1.0 },
+      { "value": "MELEE_DAMAGE", "multiply": -0.5 },
+      { "value": "ARMOR_BASH", "multiply": -0.6 },
+      { "value": "ARMOR_CUT", "multiply": -0.6 },
+      { "value": "ARMOR_STAB", "multiply": -0.6 },
+      { "value": "ARMOR_BULLET", "multiply": -1.0 },
+      { "value": "ARMOR_COLD", "multiply": 2.0 },
+      { "value": "THIRST", "multiply": 1.0 },
+      { "value": "REGEN_HP", "multiply": 1.0 },
+      { "value": "WEAKNESS_TO_WATER", "add": -0.1 },
+      { "value": "CLIMATE_CONTROL_HEAT", "add": -20 }
+    ]
+  },
+
+  {
+    "type": "enchantment",
+    "id": "PSY_ench_fire_element_form",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "values": [
+      { "value": "HUNGER", "multiply": 2.0 },
+      { "value": "REGEN_MANA", "multiply": -1.0 },
+      { "value": "ARMOR_BASH", "multiply": -0.3 },
+      { "value": "ARMOR_CUT", "multiply": -0.3 },
+      { "value": "ARMOR_STAB", "multiply": -0.3 },
+      { "value": "ARMOR_BULLET", "multiply": -0.3 },
+      { "value": "LUMINATION", "add": 30.0 },
+      { "value": "ARMOR_HEAT", "add": -100.0 },
+      { "value": "SLEEPINESS", "multiply": 1.0 },
+      { "value": "WEAKNESS_TO_WATER", "add": 0.5 },
+      { "value": "CLIMATE_CONTROL_CHILL", "add": 100 }
+    ]
+  },
+
+  {
+    "type": "enchantment",
+    "id": "PSY_ench_air_element_form",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "values": [
+      { "value": "HUNGER", "multiply": 2.0 },
+      { "value": "REGEN_MANA", "multiply": -1.0 },
+      { "value": "MELEE_DAMAGE", "multiply": -1.0 },
+      { "value": "RANGE", "multiply": -1.0 },
+      { "value": "RANGED_DAMAGE", "multiply": -1.0 },
+      { "value": "ARMOR_BASH", "multiply": -0.9 },
+      { "value": "ARMOR_CUT", "multiply": -0.9 },
+      { "value": "ARMOR_STAB", "multiply": -0.9 },
+      { "value": "ARMOR_BULLET", "multiply": -0.9 },
+      { "value": "ARMOR_ELEC", "multiply": -0.9 },
+      { "value": "FOOTSTEP_NOISE", "multiply": -1.0 }
+    ]
+  },
+
+  {
+    "type": "enchantment",
+    "id": "PSY_ench_earth_element_form",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "values": [
+      { "value": "HUNGER", "multiply": 2.0 },
+      { "value": "REGEN_MANA", "multiply": -1.0 },
+      { "value": "MELEE_DAMAGE", "multiply": 2.0 },
+      { "value": "ARMOR_BASH", "multiply": -0.5 },
+      { "value": "ARMOR_CUT", "multiply": -0.5 },
+      { "value": "ARMOR_STAB", "multiply": -0.5 },
+      { "value": "ARMOR_BULLET", "multiply": -0.5 },
+      { "value": "MOVE_COST", "multiply": 1.0 },
+      { "value": "FOOTSTEP_NOISE", "multiply": 2.0 }
+    ]
   }
 
 

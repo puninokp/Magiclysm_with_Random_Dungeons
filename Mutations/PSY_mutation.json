@@ -375,6 +375,28 @@
 
       {
         "type": "mutation",
+        "id": "PSY_magi_ELEMENTAL_EYE",
+        "name": { "str": "ELEMENTAL EYE" },
+        "points": 0,
+        "description": "You can see the world through the friendly elementals of your summoned.",
+        "starting_trait": false,
+        "purifiable": false,
+        "valid": false,
+        "spells_learned": [ ],
+        "moncams": [ 
+          [ "PSY_magi_mon_air_element_vassal", 50 ],
+          [ "PSY_magi_mon_air_element", 50 ],
+          [ "PSY_magi_mon_earth_element_vassal", 50 ],
+          [ "PSY_magi_mon_earth_element", 50 ],
+          [ "PSY_magi_mon_water_element_vassal", 50 ],
+          [ "PSY_magi_mon_water_element", 50 ],
+          [ "PSY_magi_mon_fire_element_vassal", 50 ],
+          [ "PSY_magi_mon_fire_element", 50 ]
+        ]
+      },
+
+      {
+        "type": "mutation",
         "id": "PSY_ZOMBIE_DISGUISE",
         "name": { "str": "Zombie Disguise" },
         "starting_trait": false,
@@ -383,6 +405,71 @@
         "points": 0,
         "ignored_by": [ "ZOMBIE" ],
         "description": "While in disguise, zombies will not be interested in you."
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_SHAPESHIFTER_WATER_FORM",
+        "name": { "str": "Water Element Form" },
+        "description": "Shapeshift the your body into a water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures.",
+        "points": 0,
+        "valid": false,
+        "starting_trait": false,
+        "purifiable": false,
+        "override_look": { "id": "PSY_magi_mon_water_element", "tile_category": "monster" },
+        "enchantments": [
+          "PSY_ench_water_element_form",
+          { "values": [ { "value": "MOVECOST_SWIM_MOD", "multiply": -0.5 } ] }
+        ],
+        "flags": [ "STEADY", "WALK_UNDERWATER", "BULLET_IMMUNE","NO_SCENT","GILLS" ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_SHAPESHIFTER_FIRE_FORM",
+        "name": { "str": "Fire Element Form" },
+        "description": "Shapeshift the your body into a fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
+        "points": 0,
+        "valid": false,
+        "starting_trait": false,
+        "purifiable": false,
+        "override_look": { "id": "PSY_magi_mon_fire_element", "tile_category": "monster" },
+        "enchantments": [
+          "PSY_ench_fire_element_form"
+        ],
+        "flags": [ "STEADY", "INFRARED", "HEAT_IMMUNE" ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_SHAPESHIFTER_AIR_FORM",
+        "name": { "str": "Air Element Form" },
+        "description": "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 90%.\n・No footstep noise.\nCONS\n・Cannot attack(spells can be used).",
+        "points": 0,
+        "valid": false,
+        "starting_trait": false,
+        "purifiable": false,
+        "override_look": { "id": "PSY_magi_mon_air_element", "tile_category": "monster" },
+        "enchantments": [
+          "PSY_ench_air_element_form"
+        ],
+        "flags": [ "STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT" ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_SHAPESHIFTER_EARTH_FORM",
+        "name": { "str": "Earth Element Form" },
+        "description": "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\nCONS\n・2x move costs.\n・3x footstep noise.",
+        "points": 0,
+        "valid": false,
+        "starting_trait": false,
+        "purifiable": false,
+        "override_look": { "id": "PSY_magi_mon_earth_element", "tile_category": "monster" },
+        "enchantments": [
+          "PSY_ench_earth_element_form"
+        ],
+        "flags": [ "STEADY", "UNARMED_BONUS", "PAIN_IMMUNE","DOWNED_RECOVERY","TELEPORT_LOCK" ]
       }
 
 
