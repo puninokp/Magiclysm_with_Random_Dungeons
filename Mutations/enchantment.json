@@ -71,6 +71,7 @@
       { "value": "ARMOR_BULLET", "multiply": -0.9 },
       { "value": "ARMOR_ELEC", "multiply": -0.9 },
       { "value": "PAIN", "multiply": 1 },
+      { "value": "PAIN", "add": 2 },
       { "value": "FOOTSTEP_NOISE", "multiply": -1.0 }
     ]
   },
