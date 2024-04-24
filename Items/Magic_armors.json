@@ -559,7 +559,7 @@
         ]
       }
     ],
-    "charge_info": { "recharge_type": "periodic", "time": "8 h", "regenerate_ammo": true }
+    "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true }
   },
   "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_element", "no_fail": true, "level": 0, "need_worn": true },
   "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 2 } } ],
