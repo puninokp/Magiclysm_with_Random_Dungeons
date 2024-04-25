@@ -453,7 +453,7 @@
         "enchantments": [
           "PSY_ench_air_element_form"
         ],
-        "flags": [ "STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT" ]
+        "flags": [ "STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT","WALK_UNDERWATER" ]
       },
 
       {
