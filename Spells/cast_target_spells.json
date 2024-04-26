@@ -684,7 +684,7 @@
       "id": "PSY_magi_shapeshift_element_castable_spell",
       "type": "SPELL",
       "name": "Element Magic",
-      "description": "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\nFire:\n・AoE:4 Damage:40heat Range:12 burn effect\nWater:\n・Aoe:45Cone Damage:20pure Range:12 Fog effect\nAir:\n・AoE:4 Damage:55cut Range:12 pull effect\nEarth:\n・AoE:7 Damage30bash Range:2 downed effect",
+      "description": "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\nFire:\n・AoE:4 Damage:40heat Range:12 burn effect\nWater:\n・Aoe:45Cone Damage:20pure Range:12 Create Fog & slow effect\nAir:\n・AoE:4 Damage:55cut Range:12 pull effect\nEarth:\n・AoE:7 Damage30bash Range:2 downed effect",
       "valid_targets": [ "self" ],
       "spell_class": "PSY_magi_DUNGEON_MAGE",
       "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
@@ -846,6 +846,36 @@
     },
 
     {
+      "id": "PSY_roulette_cone_mist",
+      "type": "SPELL",
+      "name": "Cone of Mist",
+      "description": "You blast a cone of mist air toward the target.",
+      "effect": "attack",
+      "shape": "cone",
+      "valid_targets": [ "ally", "hostile", "ground" ],
+      "flags": [ "SOMATIC", "VERBAL" ],
+      "max_level": 0,
+      "min_damage": 20,
+      "max_damage": 20,
+      "min_aoe": 45,
+      "max_aoe": 45,
+      "min_range": 12,
+      "max_range": 12,
+      "effect_str": "PSY_magi_slow_50",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "base_casting_time": 200,
+      "base_energy_cost": 350,
+      "min_duration": 1000,
+      "max_duration": 1000,
+      "energy_source": "MANA",
+      "difficulty": 4,
+      "field_id": "fd_fog",
+      "min_field_intensity": 1,
+      "max_field_intensity": 1,
+      "damage_type": "pure"
+    },
+
+    {
       "id": "PSY_roulette_vacuum_decompression",
       "type": "SPELL",
       "name": "Vacuum Decompression",
@@ -983,6 +1013,44 @@
       "energy_source": "MANA",
       "difficulty": 2,
       "damage_type": "bash"
+    },
+    
+    {
+      "id": "PSY_spell_water_element_melee_slow_damage",
+      "type": "SPELL",
+      "name": "Slow",
+      "description": "Water Slow",
+      "valid_targets": [ "hostile","ally","ground" ],
+      "flags": [ "SILENT" ],
+      "effect": "attack",
+      "effect_str": "PSY_magi_slow_50",
+      "shape": "blast",
+      "damage_type": "pure",
+      "max_level": 0,
+      "base_casting_time": 0,
+      "min_range": 10,
+      "min_duration": 300,
+      "max_duration": 300,
+      "min_damage": 1,
+      "max_damage": 1
+    },
+  
+    {
+      "id": "PSY_spell_fire_element_melee_heat_damage",
+      "type": "SPELL",
+      "name": "Flameburst",
+      "description": "Flameburst",
+      "valid_targets": [ "hostile","ally","ground" ],
+      "flags": [ "SILENT","IGNITE_FLAMMABLE" ],
+      "effect": "attack",
+      "shape": "blast",
+      "damage_type": "heat",
+      "max_level": 20,
+      "base_casting_time": 0,
+      "min_range": 10,
+      "min_damage": 1,
+      "max_damage": 21,
+      "damage_increment": 1
     }
 
 

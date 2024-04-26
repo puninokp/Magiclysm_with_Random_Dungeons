@@ -1127,6 +1127,7 @@
         "PSY_EOC_fire_element_melee_Flameburst",
         "PSY_EOC_air_element_melee_Airburst",
         "PSY_EOC_air_element_melee_Stomp",
+        "PSY_EOC_water_element_melee_waterslow",
         "PSY_EOC_weapon_enchant_Flameburst",
         "PSY_EOC_weapon_enchant_Frostbite",
         "PSY_EOC_weapon_enchant_Bloodsucking",
@@ -1155,6 +1156,7 @@
         "PSY_EOC_fire_element_melee_Flameburst",
         "PSY_EOC_air_element_melee_Airburst",
         "PSY_EOC_air_element_melee_Stomp",
+        "PSY_EOC_water_element_melee_waterslow",
         "PSY_EOC_weapon_enchant_Flameburst",
         "PSY_EOC_weapon_enchant_Frostbite",
         "PSY_EOC_weapon_enchant_Bloodsucking",
@@ -1299,10 +1301,10 @@
         "names": [ "Water Element", "Fire Element", "Air Element", "Earth Element" ],
         "keys": [ "1", "2", "3", "4" ],
         "descriptions": [
-          "Shapeshift the your body into a water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures.",
-          "Shapeshift the your body into a fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
-          "Shapeshift the your body into an air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged.",
-          "Shapeshift the your body into an earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2."
+          "Shapeshift the your body into a Water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\n・Slow effect when hit by melee attacks\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures.",
+          "Shapeshift the your body into a Fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
+          "Shapeshift the your body into an Air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged.",
+          "Shapeshift the your body into an Earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2."
         ]
       }
     ]
@@ -1447,21 +1449,18 @@
   },
 
   {
-    "id": "PSY_spell_fire_element_melee_heat_damage",
-    "type": "SPELL",
-    "name": "Flameburst",
-    "description": "Flameburst",
-    "valid_targets": [ "hostile","ally","ground" ],
-    "flags": [ "SILENT","IGNITE_FLAMMABLE" ],
-    "effect": "attack",
-    "shape": "blast",
-    "damage_type": "heat",
-    "max_level": 20,
-    "base_casting_time": 0,
-    "min_range": 10,
-    "min_damage": 1,
-    "max_damage": 21,
-    "damage_increment": 1
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_water_element_melee_waterslow",
+    "effect": [
+      { "npc_location_variable": { "context_val": "loc" } },
+      {
+        "if": { "u_has_trait": "PSY_SHAPESHIFTER_WATER_FORM" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_spell_water_element_melee_slow_damage", "min_level": 0, "max_level": 0 },
+          "loc": { "context_val": "loc" }
+        }
+      }
+    ]
   },
 
 
@@ -1508,7 +1507,7 @@
       {
         "if": { "u_has_trait": "PSY_SHAPESHIFTER_WATER_FORM" },
         "then": { 
-          "u_cast_spell": { "id": "PSY_roulette_cone_fog" },
+          "u_cast_spell": { "id": "PSY_roulette_cone_mist" },
           "targeted": true 
         }
       }

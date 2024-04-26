@@ -769,6 +769,8 @@
             { "id": "explosion_PSY_magi_spell_endelluus_Tangled_vine_line_sub" ,"fg": 865},
             { "id": "explosion_PSY_magi_item_spell_Tangled_vine_orb" ,"fg": 865},
             { "id": "explosion_PSY_dog_line_water_breath" ,"fg": 866},
+            { "id": "explosion_PSY_spell_water_element_melee_slow_damage" ,"fg": 866},
+            { "id": "explosion_PSY_roulette_cone_mist" ,"fg": 866},
             { "id": "explosion_PSY_spell_weapon_enchant_cold_damage" ,"fg": 866},
             { "id": "explosion_PSY_magi_dragon_breath" ,"fg": 870},
             { "id": "explosion_PSY_magi_spell_elephant_breath" ,"fg": 871},
