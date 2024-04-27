@@ -6655,6 +6655,12 @@ msgstr "対象に向かって円錐状の霧を噴射する。"
 msgid "Air Blast"
 msgstr "エアブラスト"
 
+msgid "Remove Grabbed"
+msgstr "拘束解除"
+
+msgid "Disables grabbing attacks by monsters."
+msgstr "モンスターによる掴み攻撃を無効化します。"
+
 msgid "ELEMENTAL EYE"
 msgstr "エレメンタル アイ"
 
