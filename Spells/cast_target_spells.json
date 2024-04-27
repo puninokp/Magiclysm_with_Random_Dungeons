@@ -214,10 +214,6 @@
         "max_duration": 30000
       },
 
-
-
-
-
     {
         "id": "PSY_magi_flying_spell",
         "type": "SPELL",
@@ -1012,7 +1008,32 @@
       "base_energy_cost": 250,
       "energy_source": "MANA",
       "difficulty": 2,
-      "damage_type": "bash"
+      "damage_type": "bash",
+      "extra_effects": [
+        { "id": "PSY_magi_earth_elemental_seismic_stomp_remove_grabbed", "hit_self": true }
+      ]
+    },
+
+    {
+      "id": "PSY_magi_earth_elemental_seismic_stomp_remove_grabbed",
+      "type": "SPELL",
+      "name": "Remove Grabbed",
+      "description": "Remove Grabbed.",
+      "valid_targets": [ "self" ],
+      "flags": [ "NO_PROJECTILE","NO_LEGS","NO_EXPLOSION_SFX" ],
+      "effect": "attack",
+      "effect_str": "PSY_magi_remove_grabbed",
+      "shape": "blast",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "difficulty": 0,
+      "base_energy_cost": 10,
+      "final_energy_cost": 10,
+      "base_casting_time": 80,
+      "max_level": 0,
+      "min_range": 1,
+      "max_range": 1,
+      "min_duration": 100,
+      "max_duration": 100
     },
     
     {

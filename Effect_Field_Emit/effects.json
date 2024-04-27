@@ -130,6 +130,15 @@
 
     {
       "type": "effect_type",
+      "id": "PSY_magi_remove_grabbed",
+      "name": [ "Remove Grabbed" ],
+      "desc": [ "Disables the polluting effect of floating eyes" ],
+      "rating": "good",
+      "removes_effects": [ "grabbed" ]
+    },
+
+    {
+      "type": "effect_type",
       "id": "PSY_magi_remove_teleglow",
       "name": [ "Remove Taint" ],
       "desc": [ "Disables the polluting effect of floating eyes" ],
@@ -138,6 +147,7 @@
       "rating": "good",
       "removes_effects": [ "taint" ]
     },
+
 
     {
       "type": "effect_type",

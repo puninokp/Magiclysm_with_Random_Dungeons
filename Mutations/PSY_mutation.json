@@ -428,14 +428,15 @@
         "type": "mutation",
         "id": "PSY_SHAPESHIFTER_FIRE_FORM",
         "name": { "str": "Fire Element Form" },
-        "description": "Shapeshift the your body into a Fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
+        "description": "Shapeshift the your body into a Fire Element.\nWhile this form,\nPROS\n・Charge electric power 0.1KJ/1m\n・Infrared visibility available\n・fireproof(No resistance to smoke)\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet.",
         "points": 0,
         "valid": false,
         "starting_trait": false,
         "purifiable": false,
         "override_look": { "id": "PSY_magi_mon_fire_element", "tile_category": "monster" },
         "enchantments": [
-          "PSY_ench_fire_element_form"
+          "PSY_ench_fire_element_form",
+          { "values": [ { "value": "POWER_TRICKLE", "add": 240 } ] }
         ],
         "flags": [ "STEADY", "INFRARED", "HEAT_IMMUNE" ]
       },
@@ -444,14 +445,15 @@
         "type": "mutation",
         "id": "PSY_SHAPESHIFTER_AIR_FORM",
         "name": { "str": "Air Element Form" },
-        "description": "Shapeshift the your body into an Air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged.",
+        "description": "Shapeshift the your body into an Air Element.\nWhile this form,\nPROS\n・Speed up by 20%\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged.",
         "points": 0,
         "valid": false,
         "starting_trait": false,
         "purifiable": false,
         "override_look": { "id": "PSY_magi_mon_air_element", "tile_category": "monster" },
         "enchantments": [
-          "PSY_ench_air_element_form"
+          "PSY_ench_air_element_form",
+          { "values": [ { "value": "SPEED", "multiply": 0.2 } ] }
         ],
         "flags": [ "STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT","WALK_UNDERWATER" ]
       },
@@ -460,14 +462,15 @@
         "type": "mutation",
         "id": "PSY_SHAPESHIFTER_EARTH_FORM",
         "name": { "str": "Earth Element Form" },
-        "description": "Shapeshift the your body into an Earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2.",
+        "description": "Shapeshift the your body into an Earth Element.\nWhile this form,\nPROS\n・Stamina recovery up by 50%\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect & remove grabbed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2.",
         "points": 0,
         "valid": false,
         "starting_trait": false,
         "purifiable": false,
         "override_look": { "id": "PSY_magi_mon_earth_element", "tile_category": "monster" },
         "enchantments": [
-          "PSY_ench_earth_element_form"
+          "PSY_ench_earth_element_form",
+          { "values": [ { "value": "REGEN_STAMINA", "multiply": 0.5 } ] }
         ],
         "flags": [ "STEADY", "UNARMED_BONUS", "PAIN_IMMUNE","DOWNED_RECOVERY","TELEPORT_LOCK" ]
       }

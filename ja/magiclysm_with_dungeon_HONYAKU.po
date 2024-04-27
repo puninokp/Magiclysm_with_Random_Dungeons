@@ -6604,14 +6604,14 @@ msgstr "水の精霊に変身する。"
 msgid "Shapeshift the your body into a Water Element.\nWhile this form,\nPROS\n・Walking in water\n・bulletproof\n・No smell\n・Wounds heal faster.\n・Taking physical damage reduced by 60%.\n・10% chance of recovering 1 HP/second when wet.\n・Slow effect when hit by melee attacks\nCONS\n・Taking cold damage increased by 200%.\n・Melee damage dealt reduced by 50%.\n・Thirst doubled\n・Weak at cooler temperatures."
 msgstr "水の精霊に変身する。\nこの変身状態の時、\nメリット\n・水中歩行\n・被銃弾ダメージ無効\n・匂い無し\n・傷の治りが早い\n・被物理ダメージ6割カット\n・濡れた時10%の確率で1HP/秒回復\n・近接攻撃ヒット時鈍足効果\nデメリット\n・被冷気ダメージ3倍\n・近接ダメージ半減\n・喉の渇き2倍\n・寒さに弱い"
 
-msgid "Shapeshift the your body into a Fire Element.\nWhile this form,\nPROS\n・Infrared visibility available\n・fireproof\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet."
-msgstr "火の精霊に変身する。\nこの変身状態の時、\nメリット\n・赤外線視認可\n・火ダメージ無効\n・体が光る\n・近接攻撃時炎上効果\n・被物理ダメージ3割カット\n・暑さにほぼ無敵\nデメリット\n・倦怠2倍\n・濡れた時50%の確率で1ダメージ/1秒毎"
+msgid "Shapeshift the your body into a Fire Element.\nWhile this form,\nPROS\n・Charge electric power 0.1KJ/1m\n・Infrared visibility available\n・fireproof(No resistance to smoke)\n・Body is glowing\n・Flame effect on melee attack.\n・Taking physical damage reduced by 30%.\n・High temperature resistant.\nCONS\n・2x fatigue.\n・50% chance of 1 damage/second when wet."
+msgstr "火の精霊に変身する。\nこの変身状態の時、\nメリット\n・電力チャージ0.1KJ/1分\n・赤外線視認可\n・火ダメージ無効(煙には耐性なし)\n・体が光る\n・近接攻撃時炎上効果\n・被物理ダメージ3割カット\n・暑さにほぼ無敵\nデメリット\n・倦怠2倍\n・濡れた時50%の確率で1ダメージ/1秒毎"
 
-msgid "Shapeshift the your body into an Air Element.\nWhile this form,\nPROS\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged."
-msgstr "風の精霊に変身する。\nこの変身状態の時、\nメリット\n・落下ダメージ無効\n・壁登れる\n・空中を滑空できる\n・被電撃ダメージ9割カット\n・被物理ダメージ8割カット\n・足音無し\n・回避率アップ\n・近接攻撃ヒット時吹き飛ばし効果\nデメリット\n・変身中は近接及び遠距離攻撃ダメージ0(魔法は使える)\n・被ダメージ時追加の苦痛"
+msgid "Shapeshift the your body into an Air Element.\nWhile this form,\nPROS\n・Speed up by 20%\n・Falling Damage Immune\n・able to climb walls\n・Can glide through the air.\n・Taking Electronical damage reduced by 90%.\n・Taking physical damage reduced by 80%.\n・No footstep noise.\n・Evasion rate up\n・push effect when hit by melee attacks\nCONS\n・melee and ranged attacks deal no damage(spells can be used).\n・Additional pain when damaged."
+msgstr "風の精霊に変身する。\nこの変身状態の時、\nメリット\n・速度上昇20%\n・落下ダメージ無効\n・壁登れる\n・空中を滑空できる\n・被電撃ダメージ9割カット\n・被物理ダメージ8割カット\n・足音無し\n・回避率アップ\n・近接攻撃ヒット時吹き飛ばし効果\nデメリット\n・変身中は近接及び遠距離攻撃ダメージ0(魔法は使える)\n・被ダメージ時追加の苦痛"
 
-msgid "Shapeshift the your body into an Earth Element.\nWhile this form,\nPROS\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2."
-msgstr "土の精霊に変身する。\nこの変身状態の時、\nメリット\n・苦痛無効\n・素手ダメージにボーナス\n・近接ダメージ3倍\n・被銃撃ダメージ5割カット\n・被近接ダメージ5割カット\n・近接攻撃ヒット時範囲転倒効果\nデメリット\n・移動コスト2倍\n・足音3倍\n・近接攻撃のスタミナコスト2倍"
+msgid "Shapeshift the your body into an Earth Element.\nWhile this form,\nPROS\n・Stamina recovery up by 50%\n・No feel pains\n・Bonus to bare hand damage\n・3x melee damage\n・Taking bullet damage reduced by 50%.\n・Taking physical damage reduced by 50%.\n・AoE downed effect & remove grabbed effect when hit by melee attacks\nCONS\n・2x move costs.\n・3x footstep noise.\n・Stamina consumption for melee attacks x2."
+msgstr "土の精霊に変身する。\nこの変身状態の時、\nメリット\n・スタミナ回復上昇50%\n・苦痛無効\n・素手ダメージにボーナス\n・近接ダメージ3倍\n・被銃撃ダメージ5割カット\n・被近接ダメージ5割カット\n・近接攻撃ヒット時範囲転倒効果&自身の拘束効果解除\nデメリット\n・移動コスト2倍\n・足音3倍\n・近接攻撃のスタミナコスト2倍"
 
 msgid "Cannot cast this spell while human form."
 msgstr "人間状態ではこの魔法は唱えることが出来ない。"
