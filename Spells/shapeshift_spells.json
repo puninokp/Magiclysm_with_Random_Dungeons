@@ -104,7 +104,7 @@
         "description": "Shapeshift into a human form.",
         "valid_targets": [ "self" ],
         "spell_class": "PSY_magi_DUNGEON_MAGE",
-        "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
+        "flags": [ "SILENT","NO_LEGS", "NO_HANDS" ],
         "effect": "effect_on_condition",
         "effect_str": "PSY_EOC_SHAPESHIFT_HUMAN_FORM",
         "shape": "blast",
