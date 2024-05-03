@@ -1411,7 +1411,7 @@
       {
         "if": { "u_has_trait": "PSY_SHAPESHIFTER_FIRE_FORM" },
         "then": { 
-          "u_cast_spell": { "id": "PSY_spell_fire_element_melee_heat_damage", "min_level": 9, "max_level": 9 },
+          "u_cast_spell": { "id": "PSY_spell_fire_element_melee_heat_damage", "min_level": 0, "max_level": 0 },
           "loc": { "context_val": "loc" }
         }
       }
@@ -1614,6 +1614,84 @@
         "if": { "u_has_trait": "PSY_SHAPESHIFTER_EARTH_FORM" },
         "then": { 
           "u_cast_spell": { "id": "PSY_magi_shapeshift_element_summon_earth" }, 
+          "targeted": false
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_element_support_spell_cast",
+    "condition": {
+      "or":[
+      { "u_has_trait": "PSY_SHAPESHIFTER_WATER_FORM" },
+      { "u_has_trait": "PSY_SHAPESHIFTER_EARTH_FORM" },
+      { "u_has_trait": "PSY_SHAPESHIFTER_FIRE_FORM" },
+      { "u_has_trait": "PSY_SHAPESHIFTER_AIR_FORM" }
+      ]  
+    },
+    "effect": {
+      "run_eocs": [
+        "PSY_EOC_fire_element_spell_support",
+        "PSY_EOC_water_element_spell_support",
+        "PSY_EOC_air_element_spell_support",
+        "PSY_EOC_earth_element_spell_support"
+      ]
+    },
+    "false_effect": [ { "u_message": "Cannot cast this spell while human form." } ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_fire_element_spell_support",
+    "effect": [
+      {
+        "if": { "u_has_trait": "PSY_SHAPESHIFTER_FIRE_FORM" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_magi_shapeshift_element_spell_create_fire_shield" }, 
+          "targeted": false 
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_water_element_spell_support",
+    "effect": [
+      {
+        "if": { "u_has_trait": "PSY_SHAPESHIFTER_WATER_FORM" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_magi_shapeshift_element_spell_create_med" }, 
+          "targeted": false 
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_air_element_spell_support",
+    "effect": [
+      {
+        "if": { "u_has_trait": "PSY_SHAPESHIFTER_AIR_FORM" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_magi_shapeshift_element_spell_rocket_jump" }, 
+          "targeted": true
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "PSY_EOC_earth_element_spell_support",
+    "effect": [
+      {
+        "if": { "u_has_trait": "PSY_SHAPESHIFTER_EARTH_FORM" },
+        "then": { 
+          "u_cast_spell": { "id": "PSY_magi_shapeshift_element_overload" }, 
           "targeted": false
         }
       }

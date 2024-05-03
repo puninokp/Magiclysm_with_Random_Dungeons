@@ -194,8 +194,8 @@
             { "id": "PSY_magi_mon_fire_element_vassal" ,"fg": 192 },
             { "id": "PSY_magi_mon_water_element_vassal" ,"fg": 193 },
             { "id": "PSY_magi_mon_air_element_vassal" ,"fg": 194 },
-            { "id": "PSY_magi_mon_earth_element_vassal" ,"fg": 195 }
-
+            { "id": "PSY_magi_mon_earth_element_vassal" ,"fg": 195 },
+            { "id": "overlay_worn_PSY_magi_item_element_fire_shield" ,"fg": 196}
           ]
         }
       ]

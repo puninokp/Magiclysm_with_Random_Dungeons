@@ -677,28 +677,6 @@
     },
 
     {
-      "id": "PSY_magi_shapeshift_element_castable_spell",
-      "type": "SPELL",
-      "name": "Element Magic",
-      "description": "Casts an attack magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\nFire:\n・AoE:4 Damage:40heat Range:12 burn effect\nWater:\n・Aoe:45Cone Damage:20pure Range:12 Create Fog & slow effect\nAir:\n・AoE:4 Damage:55cut Range:12 pull effect\nEarth:\n・AoE:7 Damage30bash Range:2 downed effect",
-      "valid_targets": [ "self" ],
-      "spell_class": "PSY_magi_DUNGEON_MAGE",
-      "flags": [ "CONCENTRATE", "VERBAL", "SOMATIC" ],
-      "effect": "effect_on_condition",
-      "effect_str": "PSY_EOC_element_spell_cast",
-      "shape": "blast",
-      "difficulty": 3,
-      "max_level": 20,
-      "energy_source": "STAMINA",
-      "base_energy_cost": 3000,
-      "energy_increment": -50.0,
-      "final_energy_cost": 2000,
-      "base_casting_time": 300,
-      "casting_time_increment": -10,
-      "final_casting_time": 100
-    },
-
-    {
       "type": "effect_on_condition",
       "id": "PSY_EOC_ROULETTE_MAGIC_ATTACK",
       "effect": {
@@ -1069,7 +1047,7 @@
       "max_level": 20,
       "base_casting_time": 0,
       "min_range": 10,
-      "min_damage": 1,
+      "min_damage": 10,
       "max_damage": 21,
       "damage_increment": 1
     }

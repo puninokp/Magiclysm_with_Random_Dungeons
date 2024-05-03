@@ -3330,13 +3330,13 @@ msgid "thick sticky honey"
 msgstr "厚いねばねばのはちみつ"
 
 msgid "Honey"
-msgstr "はちみつ状態"
+msgstr "はちみつ"
 
 msgid "Honey[2]"
-msgstr "はちみつ状態[2]"
+msgstr "はちみつ[2]"
 
 msgid "Honey[3](max)"
-msgstr "はちみつ状態[3](max)"
+msgstr "はちみつ[3](max)"
 
 msgid "The movement speed is reduced for a short period of time, but recovery from injuries is faster."
 msgstr "移動速度が短時間低下しますが、その間、ケガの回復が早くなります。"
@@ -6655,8 +6655,32 @@ msgstr "対象に向かって円錐状の霧を噴射する。"
 msgid "Air Blast"
 msgstr "エアブラスト"
 
+msgid "Air Jump"
+msgstr "エアジャンプ"
+
+msgid "Makes the most of the power of the wind, and after flying a certain distance instantly, it can stay suspended in the air for 30 seconds."
+msgstr "風の力を最大限に活用し、一定距離を瞬時に飛んだ後、30秒間空中に浮遊し続けることが出来る。"
+
 msgid "Remove Grabbed"
 msgstr "拘束解除"
+
+msgid "Create mass of cleansed water"
+msgstr "作成:清水の塊"
+
+msgid "mass of cleansed water"
+msgstr "清水の塊"
+
+msgid "The body is thinly clad with a mass of cleared water. It has the effect of gain bonus to all status and relieving pain, as well as inducing sleepiness."
+msgstr "身体に清水の塊が薄く纏っております。全ステータスを上昇させ、痛みを和らげる効果があると同時に、眠気を誘う効果もあります。"
+
+msgid "Create 2 mass of cleansed water with super strong disinfectant properties that can be used to instantly disinfect wounds."
+msgstr "瞬時に傷口の消毒に使うことが出来る超強力な消毒効果のある浄化された水の塊を2つ作成する。"
+
+msgid "Mass of cleansed water that super powerful antiseptic used to disinfect wounds."
+msgstr "傷口の消毒に使うことが出来る超強力な消毒薬である浄化された水の塊。"
+
+msgid "A mass of cleansed water with super strong disinfectant properties that can be used to instantly disinfect wounds."
+msgstr "瞬時に傷口の消毒に使うことが出来る超強力な消毒効果のある浄化された水の塊。"
 
 msgid "Disables grabbing attacks by monsters."
 msgstr "モンスターによる掴み攻撃を無効化します。"
@@ -6682,3 +6706,52 @@ msgstr "四大元素である地、水、火、風のエレメンタルに変身
 msgctxt "prof_desc_female"
 msgid "You have the ability to shape shift into elementals of the four elements: earth, water, fire, and wind. You can manipulate the forces of nature and apply your powers in battle and adventure. Your ability to flexibly change your forms in response to changes in the environment and the demands of battle allows them to deploy a wide variety of tactics and strategies!"
 msgstr "四大元素である地、水、火、風のエレメンタルに変身する能力を持っています。彼らは自然の力を操り、その力を戦いや冒険の中で活かすことができます。彼らの能力は、環境の変化や戦闘の需要に応じて、柔軟に形を変えることができ、多彩な戦術や戦略を展開することができるのが特徴です。"
+
+msgid "Element Special"
+msgstr "エレメントスペシャル"
+
+msgid "Air Flight"
+msgstr "空中浮遊"
+
+msgid "Overload"
+msgstr "オーバーロード"
+
+msgid "Restores all stamina and significantly increases status for a certain period of time."
+msgstr "スタミナを全回復し、一定時間の間、大幅にステータスを増加させる。"
+
+msgid "Restores all stamina and significantly increases status for a certain period of time.\nStackable up to 100 times\nsleepiness increases with each cast."
+msgstr "スタミナを全回復し、一定時間の間、大幅にステータスを増加させる。\n100回まで重ね掛け可能、使うたびに眠気が増える。"
+
+msgid "Restores all stamina and significantly increases status for 3 minutes.\nStackable up to 100 times\nsleepiness increases with each cast."
+msgstr "スタミナを全回復し、3分間、大幅にステータスを増加させる。\n100回まで重ね掛け可能、使うたびに眠気が増える。"
+
+msgid "Significantly increases status for a certain period of time."
+msgstr "一定時間の間、大幅にステータスを増加させる。"
+
+msgid "Significantly increases status for 3 minutes."
+msgstr "3分間、大幅にステータスを増加させる。"
+
+msgid "You are flying."
+msgstr "空中を泳いでおります。"
+
+msgid "Overload was over!"
+msgstr "オーバーロードが終了した!"
+
+msgid "Fire Shield"
+msgstr "ファイヤーシールド"
+
+msgid "Stamina is back!"
+msgstr "スタミナが回復した!"
+
+msgid "A little fatigued due to overload."
+msgstr "オーバーロードの影響で少し疲労している。"
+
+msgid "Summons an aura of fire that protects from the harmful environment for one hour and sets the attacker on fire."
+msgstr "1時間の間、有害な環境から守り、攻撃者に炎上を与える火のオーラを召喚する。"
+
+msgid "Aura of fire that protects from the harmful environment for one hour and sets the attacker on fire."
+msgstr "1時間の間、有害な環境から守り、攻撃者に炎上を与える火のオーラ。"
+
+msgid "Casts a special magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\n\nFire:\n・Summons an aura of fire that protects from the harmful environment for one hour and sets the attacker on fire.\n\nWater:\n・Create 2 mass of cleansed water with super strong disinfectant properties that can be used to instantly disinfect wounds.\n\nAir:\n・Makes the most of the power of the wind, and after flying a certain distance instantly, it can stay suspended in the air for 30 seconds.\n\nEarth:\n・Restores all stamina and significantly increases status for 3 minutes.\nStackable up to 100 times\nsleepiness increases with each cast."
+msgstr "変身しているエレメントに対応した特殊魔法を発動します。\n人間の状態では魔法は必ず失敗します。\n\n火:\n・1時間の間、有害な環境から守り、攻撃者に炎上を与える火のオーラを召喚する。\n\n水:\n・瞬時に傷口の消毒に使うことが出来る超強力な消毒効果のある浄化された水の塊を2つ作成する。\n\n風:\n・風の力を最大限に活用し、一定距離を瞬時に飛んだ後、30秒間空中に浮遊し続けることが出来る。\n\n土:\n・スタミナを全回復し、3分間、大幅にステータスを増加させる。\n100回まで重ね掛け可能、使うたびに眠気が増える。"
+

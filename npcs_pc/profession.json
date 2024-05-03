@@ -7,6 +7,7 @@
         "description": "This is a character for debugging. It is not a bug even if this is displayed.",
         "points": 99,
         "spells": [ 
+          { "id": "PSY_magi_shapeshift_element_castable_spell_support", "level": 0 },
           { "id": "PSY_magi_shapeshift_element_castable_spell_summon", "level": 0 },
           { "id": "PSY_magi_shapeshift_human_spell", "level": 0 },
           { "id": "PSY_magi_shapeshift_element_castable_spell", "level": 0 },
@@ -654,10 +655,11 @@
         "skills": [  { "level": 3, "name": "melee" },{ "level": 3, "name": "unarmed" },{ "level": 5, "name": "spellcraft" }],
         "spells": [ 
           { "id": "PSY_magi_meditation_mana", "level": 0 },
-          { "id": "PSY_magi_shapeshift_to_element_spell", "level": 0 },
+          { "id": "PSY_magi_shapeshift_to_element_spell", "level": 5 },
           { "id": "PSY_magi_shapeshift_human_spell", "level": 0 },
-          { "id": "PSY_magi_shapeshift_element_castable_spell_summon", "level": 0 },
-          { "id": "PSY_magi_shapeshift_element_castable_spell", "level": 0 }
+          { "id": "PSY_magi_shapeshift_element_castable_spell_summon", "level": 5 },
+          { "id": "PSY_magi_shapeshift_element_castable_spell", "level": 5 },
+          { "id": "PSY_magi_shapeshift_element_castable_spell_support", "level": 5 }
 
         ],
         "traits": [ "PSY_magi_DUNGEON_MAGE","PSY_magi_ELEMENTAL_EYE"],

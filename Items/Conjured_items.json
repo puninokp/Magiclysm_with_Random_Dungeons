@@ -988,7 +988,63 @@
             }
           ]
         }
-      }
+      },
+
+      {
+        "id": "PSY_magi_item_element_fire_shield",
+        "type": "ARMOR",
+        "name": "Fire Shield",
+        "description": "Aura of fire that protects from the harmful environment for one hour and sets the attacker on fire.",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "symbol": "o",
+        "color": "red",
+        "material": [ "magical_material" ],
+        "environmental_protection": 20,
+        "flags": [
+          "AURA",
+          "SEMITANGIBLE",
+          "OVERSIZE",
+          "ONLY_ONE",
+          "TRADER_AVOID",
+          "NO_TAKEOFF",
+          "NONCONDUCTIVE",
+          "UNBREAKABLE",
+          "ALLOWS_NATURAL_ATTACKS"
+        ],
+        "armor": [
+          {
+            "encumbrance": 0,
+            "coverage": 100,
+            "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+          }
+        ],
+        "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "hit_me_effect": [ { "id": "PSY_spell_fire_element_melee_heat_damage" } ] } ] }
+      },
+
+      {
+        "id": "PSY_magi_element_cleansed_water",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "looks_like": "flu_shot",
+        "name": { "str_sp": "mass of cleansed water" },
+        "description": "A mass of cleansed water with super strong disinfectant properties that can be used to instantly disinfect wounds.",
+        "weight": "27 g",
+        "volume": "250 ml",
+        "material": [ "water" ],
+        "price": "15 USD",
+        "price_postapoc": "5 USD",
+        "symbol": "~",
+        "color": "light_cyan",
+        "freezing_point": -56,
+        "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "EDIBLE_FROZEN"  ],
+        "use_action": {
+            "type": "heal",
+            "disinfectant_power": 6,
+            "bite": 0.99,
+            "move_cost": 200
+        }
+      }  
 
 
       

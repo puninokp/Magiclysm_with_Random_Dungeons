@@ -1187,6 +1187,81 @@
     "desc": [ "You are in the middle of listening to 'Serenade of Spirits'!\nIt is not possible to overlay a new 'Serenade of Spirits' while you are in this." ],
     "rating": "good",
     "remove_message": "The performance by 'Serenade of Spirit' was over!"
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_element_med_after_effect",
+    "name": [ "mass of cleansed water" ],
+    "desc": [
+      "You are coming down with some kind of sickness.  It's too early to tell how bad it's going to be, but it might be a good idea to find a safe place to rest."
+    ],
+    "rating": "good",
+    "base_mods": {
+      "pkill_tick": [ 60 ], 
+      "pkill_min": [ 1 ],
+      "sleepiness_tick": [ 1200 ],
+      "sleepiness_min": [ 1 ],
+      "str_mod": [ 1 ],
+      "per_mod": [ 1 ],
+      "dex_mod": [ 1 ],
+      "int_mod": [ 1 ]
+    }
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_element_overload_effect",
+    "name": [ "Overload" ],
+    "desc": [
+      "Significantly increases status for a certain period of time."
+    ],
+    "rating": "good",
+    "remove_message": "Overload was over!",
+    "show_in_info": true,
+    "max_intensity": 100,
+    "int_add_val": 1,
+    "base_mods": {
+      "speed_mod": [ 100 ],
+      "str_mod": [ 5 ],
+      "per_mod": [ 5 ],
+      "dex_mod": [ 5 ],
+      "int_mod": [ 5 ]
+    },
+    "scaling_mods": { 
+      "speed_mod": [ 20 ],
+      "str_mod": [ 1 ],
+      "per_mod": [ 1 ],
+      "dex_mod": [ 1 ],
+      "int_mod": [ 1 ]
+    }
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_element_overload_effect_heal",
+    "name": [ "Overload" ],
+    "desc": [
+      "Significantly increases status for a certain period of time."
+    ],
+    "rating": "good",
+    "apply_message": "Stamina is back!",
+    "remove_message": "A little fatigued due to overload.",
+    "show_in_info": false,
+    "base_mods": {
+      "stamina_amount": [ 20000 ],
+      "sleepiness_amount": [ 10 ]
+    }
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_element_flight_effect",
+    "name": [ "Air Flight" ],
+    "desc": [ "You are flying." ],
+    "rating": "good",
+    "flags": [ "LEVITATION" ],
+    "show_in_info": true
   }
 
 ]
