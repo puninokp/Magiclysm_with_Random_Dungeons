@@ -1262,6 +1262,20 @@
     "rating": "good",
     "flags": [ "LEVITATION" ],
     "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_remove_wet",
+    "name": [ "Human Dry" ],
+    "desc": [ "The body is protected from wet conditions.\nHowever, the thirst is a little faster." ],
+    "rating": "good",
+    "removes_effects": [ "wet" ],
+    "base_mods": {
+      "thirst_min": [ 1 ],
+      "thirst_tick": [ 600 ]
+    },
+    "show_in_info": true
   }
 
 ]

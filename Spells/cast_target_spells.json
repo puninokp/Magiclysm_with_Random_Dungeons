@@ -1050,6 +1050,28 @@
       "min_damage": 10,
       "max_damage": 21,
       "damage_increment": 1
+    },
+
+    {
+      "id": "PSY_magi_self_human_dry_spell",
+      "type": "SPELL",
+      "name": "Human Dry",
+      "description": "Instantly disperses water from your own clothes and body by magic.\nYou will also not get wet for an hour, but this will make you thirsty a little faster.",
+      "valid_targets": [ "self" ],
+      "flags": [ "RANDOM_DAMAGE","NO_PROJECTILE","NO_LEGS","SOMATIC" ],
+      "effect": "attack",
+      "effect_str": "PSY_magi_remove_wet",
+      "shape": "blast",
+      "spell_class": "PSY_magi_DUNGEON_MAGE",
+      "difficulty": 1,
+      "energy_source": "MANA",
+      "base_energy_cost": 300,
+      "energy_increment": -10.0,
+      "final_energy_cost": 250,
+      "base_casting_time": 36000,
+      "min_duration": 360000,
+      "max_duration": 360000,
+      "max_level": 10
     }
 
 

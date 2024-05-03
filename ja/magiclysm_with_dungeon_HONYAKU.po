@@ -6743,6 +6743,34 @@ msgstr "ファイヤーシールド"
 msgid "Stamina is back!"
 msgstr "スタミナが回復した!"
 
+msgctxt "profession_female"
+msgid "Dungeon Magic (Human Dry)"
+msgstr "ダンジョン魔法(人間乾燥)"
+
+msgctxt "prof_desc_female"
+msgid "The [Human Dry] is the magic that instantly dries your body and the clothes you are wearing!\nWhen it rains or you suddenly step into a puddle, you can immediately activate this magic.\nThen your damp clothes and hair will dry instantly and you will be back to squeaky clean and comfortable!\nThis is a very useful magic in everyday life as well.\nFor example, if you are in a hurry to get out of the bath or when you come out of the pool or the ocean, you can change from soggy and wet to dry instantly.\nIt also works great when you can't hang your laundry outside or when it gets wet from a sudden rain shower."
+msgstr "「人間乾燥」は、あなたの身体と着用している服を瞬時に乾かす魔法です!\n雨の日や突然の水たまりに踏み込んでしまった時、あなたはただちにこの魔法を発動させることができます。\nすると、湿った衣服や髪は瞬く間に乾いて、キュッと快適な状態に戻ります!\nこれは、普段の生活においても大変便利な魔法です。\n例えば、お風呂から出てすぐに急いで外出する場合や、プールや海から出てきたときに、ぐっしょり濡れた状態から瞬時にドライな状態に変えることができます。\nまた、洗濯物が外に干せない場合や、急な雨で濡れてしまった時にも大活躍します。"
+
+msgctxt "profession_male"
+msgid "Dungeon Magic (Human Dry)"
+msgstr "ダンジョン魔法(人間乾燥)"
+
+msgctxt "prof_desc_male"
+msgid "The [Human Dry] is the magic that instantly dries your body and the clothes you are wearing!\nWhen it rains or you suddenly step into a puddle, you can immediately activate this magic.\nThen your damp clothes and hair will dry instantly and you will be back to squeaky clean and comfortable!\nThis is a very useful magic in everyday life as well.\nFor example, if you are in a hurry to get out of the bath or when you come out of the pool or the ocean, you can change from soggy and wet to dry instantly.\nIt also works great when you can't hang your laundry outside or when it gets wet from a sudden rain shower."
+msgstr "「人間乾燥」は、あなたの身体と着用している服を瞬時に乾かす魔法です!\n雨の日や突然の水たまりに踏み込んでしまった時、あなたはただちにこの魔法を発動させることができます。\nすると、湿った衣服や髪は瞬く間に乾いて、キュッと快適な状態に戻ります!\nこれは、普段の生活においても大変便利な魔法です。\n例えば、お風呂から出てすぐに急いで外出する場合や、プールや海から出てきたときに、ぐっしょり濡れた状態から瞬時にドライな状態に変えることができます。\nまた、洗濯物が外に干せない場合や、急な雨で濡れてしまった時にも大活躍します。"
+
+msgid "Human Dry"
+msgstr "人間乾燥"
+
+msgid "Instantly disperses water from its own clothes and body."
+msgstr "自身の服や体に付いた水分を瞬時に飛散させる。"
+
+msgid "Instantly disperses water from your own clothes and body by magic.\nYou will also not get wet for an hour, but this will make you thirsty a little faster."
+msgstr "魔法によって自身の服や体に付いた水分を瞬時に飛散させる。\nまた1時間の間、濡れることが無くなるが、少し喉の渇きが早くなります。"
+
+msgid "The body is protected from wet conditions.\nHowever, the thirst is a little faster."
+msgstr "身体が濡れ状態から守られております。\nしかし喉の渇きが少し早くなっております。"
+
 msgid "A little fatigued due to overload."
 msgstr "オーバーロードの影響で少し疲労している。"
 
