@@ -89,7 +89,8 @@
             {"weight": 100, "sprite":50},
             {"weight": 100, "sprite":51}
             ]
-            }
+            },
+            { "id": "PSY_mon_gargoyle_shop_defender_ally" ,"fg": 52}
           ]
         }
       ]

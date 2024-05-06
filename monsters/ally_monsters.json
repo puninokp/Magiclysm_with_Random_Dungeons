@@ -977,6 +977,85 @@
     "anger_triggers":[ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "IMMOBILE", "NO_BREATHE", "DROPS_AMMO", "STUN_IMMUNE" ]
+  },
+
+  {
+    "id": "PSY_mon_gargoyle_shop_defender",
+    "type": "MONSTER",
+    "name": { "str_sp": "gargoyle" },
+    "looks_like":"PSY_mon_gargoyle",
+    "description": "gargoyle with a hard body made of stone and strong wings. It attacks mercilessly anything that approaches its treasure chest or treasury.",
+    "volume": "200 L",
+    "weight": "300 kg",
+    "default_faction": "PSY_magi_random_dungeon_merchants",
+    "bodytype": "angel",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "hp": 480,
+    "speed": 70,
+    "material": [ "stone" ],
+    "symbol": "Y",
+    "color": "light_gray",
+    "aggression": 0,
+    "morale": 0,
+    "aggro_character": false,
+    "melee_skill": 7,
+    "melee_dice": 3,
+    "melee_dice_sides": 8,
+    "armor": { "bash": 12,"stab": 13, "cut": 33, "bullet": 23, "electric": 2,"acid": 10, "heat":0},
+    "melee_damage": [ { "damage_type": "cut", "amount": 15 } ],
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 6,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_penetration": 20 } ]
+      }
+    ],
+    "vision_day": 25,
+    "vision_night": 25,
+    "death_drops":  "PSY_magi_mon_rnd_gargoyle_mon_drops",
+    "flags": [ "PET_WONT_FOLLOW","FLIES","SEES", "HEARS", "SWIMS" ]
+  },
+
+  {
+    "id": "PSY_mon_gargoyle_shop_defender_ally",
+    "type": "MONSTER",
+    "name": { "str_sp": "gargoyle" },
+    "looks_like":"PSY_mon_gargoyle",
+    "description": "gargoyle with a hard body made of stone and strong wings. It attacks mercilessly anything that approaches its treasure chest or treasury.",
+    "volume": "200 L",
+    "weight": "300 kg",
+    "default_faction": "PSY_magi_random_dungeon_merchants",
+    "bodytype": "angel",
+    "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+    "hp": 20,
+    "speed": 50,
+    "material": [ "stone" ],
+    "symbol": "Y",
+    "color": "light_gray",
+    "aggression": 0,
+    "morale": 0,
+    "aggro_character": false,
+    "melee_skill": 1,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "armor": { "bash": 1,"stab": 1, "cut": 1, "bullet": 1, "electric": 1,"acid": 1, "heat":0},
+    "melee_damage": [ { "damage_type": "cut", "amount": 15 } ],
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 6,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_penetration": 20 } ]
+      }
+    ],
+    "death_function": {
+      "message": "The %s has anger!",
+      "effect": { "id": "PSY_magi_spell_death_gargoyle_shop_defender", "hit_self": true },
+      "corpse_type": "NO_CORPSE"
+    },
+    "vision_day": 15,
+    "vision_night": 15,
+    "death_drops":  "",
+    "flags": [ "PET_WONT_FOLLOW","FLIES","SEES", "HEARS", "SWIMS" ]
   }
 
 

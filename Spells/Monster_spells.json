@@ -6136,6 +6136,20 @@
     "max_level": 0,
     "min_damage": 3,
     "max_damage": 3
+  },
+
+  {
+    "id": "PSY_magi_spell_death_gargoyle_shop_defender",
+    "type": "SPELL",
+    "name": { "str": "Death Halfworm" },
+    "description": "Spawns two halfworms.",
+    "valid_targets": [ "ground", "self" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "flags": [ "SILENT", "HOSTILE_SUMMON", "PERMANENT" ],
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_mon_gargoyle_shop_defender"
   }
 
 
