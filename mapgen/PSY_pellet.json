@@ -1269,6 +1269,93 @@
     ",": { "item": "church", "chance": 5 },
     "l": { "item": "jackets", "chance": 60 }
   }
+},
+
+{
+  "type": "palette",
+  "id": "PSY_magi_nested_dungeon_big_3F4F_pelette",
+  "nested": {
+    "5": {
+      "//4":"nested_5x5",
+      "chunks": [
+        [ "PSY_magi_nested_room_5x5_magicshop_4", 2 ]
+      ]
+    },
+
+    "6": {
+      "//2":"nested_6x6",
+      "chunks": [
+        [ "PSY_magi_nested_room_6x6_null", 1 ]
+      ]
+    },
+
+    "7": {
+      "//3":"nested_7x7",
+      "chunks": [
+        [ "PSY_magi_nested_room_7x7_null", 1 ]
+      ]
+    },
+
+    "8": {
+      "//3":"nested_8x8",
+      "chunks": [
+        [ "PSY_magi_nested_room_8x8_null", 1 ]
+      ]
+    },
+
+    "9": {
+      "//3":"nested_9x9",
+      "chunks": [
+        [ "PSY_magi_nested_room_9x9_null", 1 ]
+      ]
+    },
+    "X": {
+      "//3":"nested_10x10",
+      "chunks": [
+        [ "PSY_magi_nested_room_10x10_null", 1 ]
+      ]
+    },
+    "1": {
+      "//3":"nested_11x11",
+      "chunks": [
+        [ "PSY_magi_nested_room_11x11_null", 1 ]
+      ]
+    },
+    "2": {
+      "//3":"nested_12x12",
+      "chunks": [
+        [ "PSY_magi_nested_room_12x12_null", 1 ]
+      ]
+    }
+
+  },
+  "terrain": {
+    "|": "t_strconc_wall_y",
+    "1": "t_strconc_wall_y",
+    "2": "t_strconc_wall_y",
+    "3": "t_strconc_wall_y",
+    "4": "t_strconc_wall_y",
+    "5": "t_strconc_wall_y",
+    "6": "t_strconc_wall_y",
+    "7": "t_strconc_wall_y",
+    "8": "t_strconc_wall_y",
+    "9": "t_strconc_wall_y",
+    "X": "t_strconc_wall_y",
+    ".": "t_null",
+    "D": "t_door_c",
+    " ": "t_dirt",
+    "@": "t_null",
+    "+": "t_carpet_red",
+    "%": "t_carpet_red",
+    "$": "t_carpet_red",
+    "=": "t_carpet_red",
+    ",": "t_carpet_red",
+    "~": "t_carpet_red",
+    "Y": "t_carpet_red",
+    "h": "t_carpet_red",
+    "P": "t_carpet_red",
+    "!": "t_carpet_red"
+  }
 }
 
 ]
