@@ -662,7 +662,7 @@
           ],
           "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "FIREPROOF", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "FIREPROOF", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -697,7 +697,7 @@
           ],
           "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -732,7 +732,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -767,7 +767,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -802,7 +802,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -873,7 +873,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "POISON","SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
+        "flags": [ "POISON","SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE", "ALWAYS_SEES_YOU" ]
       },
 
 
@@ -912,7 +912,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -948,7 +948,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "PUSH_MON","DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "PUSH_MON","DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -985,7 +985,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "DESTROYS","SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -1019,7 +1019,7 @@
         "special_attacks": [],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -1056,7 +1056,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -1093,7 +1093,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       },
 
       {
@@ -1130,7 +1130,7 @@
         ],
         "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
         "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "ALWAYS_SEES_YOU" ]
       }
 
 

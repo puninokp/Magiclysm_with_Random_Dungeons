@@ -686,7 +686,7 @@
               "FLIES", 
               "NOHEAD", 
               "NO_BREATHE",
-              "PATH_AVOID_DANGER_1",
+              "PATH_AVOID_DANGER",
               "HIT_AND_RUN" 
             ]
       },
@@ -1002,7 +1002,7 @@
         "special_attacks": [
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_plague_bite_spell" }, "cooldown": 18 }
         ],
-        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER" ]
       },
 
       {
@@ -1036,7 +1036,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_plague_bite_spell" }, "cooldown": 30 }
         ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER_1","HIT_AND_RUN"  ]
+        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER","HIT_AND_RUN"  ]
       },
 
       {

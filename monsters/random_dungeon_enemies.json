@@ -469,7 +469,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -520,7 +520,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -570,7 +570,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -621,7 +621,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -670,7 +670,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -720,7 +720,7 @@
           "GROUP_MORALE",
           "HEARS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -819,8 +819,6 @@
         "melee_skill": 5,
         "melee_dice": 1,
         "melee_dice_sides": 6,
-        
-        "special_attacks": [ [ "STRETCH_ATTACK", 25 ] ],
         "dodge": 3,
         "vision_day": 10,
         "vision_night": 5,
@@ -1091,7 +1089,7 @@
           "NOGIB",
           "NO_BREATHE",
           "COLDPROOF",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "HEARS"
         ]
       },
@@ -1132,7 +1130,7 @@
           "pet": "The %s runs around your leg."
         },
         "upgrades": { "age_grow": 28, "into": "PSY_magi_rnd_mon_thunder_bird" },
-        "flags": [ "SEES", "HEARS", "SMELLS","ELECTRIC", "PATH_AVOID_DANGER_1", "WARM", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS","ELECTRIC", "PATH_AVOID_DANGER", "WARM", "FLIES" ]
       },
 
       {
@@ -1172,7 +1170,7 @@
           "pet": "The %s runs around your leg."
         },
         "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
-        "flags": [ "SEES", "HEARS", "SMELLS","ELECTRIC", "PATH_AVOID_DANGER_1", "WARM", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS","ELECTRIC", "PATH_AVOID_DANGER", "WARM", "FLIES" ]
       },
 
       {
@@ -1211,7 +1209,7 @@
           "pet": "The %s runs around your leg."
         },
         "upgrades": { "age_grow": 28, "into": "PSY_magi_rnd_mon_thunder_bird" },
-        "flags": [ "SEES", "HEARS", "SMELLS","FIREPROOF", "PATH_AVOID_DANGER_1", "WARM", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS","FIREPROOF", "PATH_AVOID_DANGER", "WARM", "FLIES" ]
       },
 
       {
@@ -1251,7 +1249,7 @@
           "pet": "The %s runs around your leg."
         },
         "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
-        "flags": [ "SEES", "HEARS", "SMELLS","FIREPROOF", "PATH_AVOID_DANGER_1", "WARM", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS","FIREPROOF", "PATH_AVOID_DANGER", "WARM", "FLIES" ]
       },
 
       {
@@ -1539,7 +1537,7 @@
         "special_attacks": [
           { "type": "spell", "spell_data": { "id": "PSY_magi_monster_plague_bite_spell" }, "cooldown": 18 }
         ],
-        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "ACIDPROOF","SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "PATH_AVOID_DANGER" ]
       },
 
       {
@@ -2144,7 +2142,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -2195,7 +2193,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -2244,7 +2242,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -2286,7 +2284,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -2337,7 +2335,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -2386,7 +2384,7 @@
           "NOGIB",
           "SMELLS",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1"
+          "PATH_AVOID_DANGER"
         ]
       },
 
@@ -4260,7 +4258,7 @@
             { "group": "PSY_magi_mon_rnd_coin_1_mon_drops", "prob": 100 }
           ]
         },
-        "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER" ]
       },
       {
         "type": "MONSTER",
@@ -4355,7 +4353,7 @@
         "vision_day": 30,
         "vision_night": 8,
         "death_drops": "PSY_magi_mon_rnd_gnome_1_mon_drops",
-        "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER" ]
       },
 
       {
@@ -4417,7 +4415,7 @@
         "placate_triggers": [ "PLAYER_WEAK" ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
-        "flags": [ "PATH_AVOID_DANGER_1","SEES", "HEARS", "SWIMS" ]
+        "flags": [ "PATH_AVOID_DANGER","SEES", "HEARS", "SWIMS" ]
       },
 
       {
@@ -4445,7 +4443,7 @@
         "fear_triggers": [ "FIRE" ],
         "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
         "death_drops":  "PSY_magi_mon_rnd_coin_1_mon_drops",
-        "flags": [ "PATH_AVOID_DANGER_1","SEES", "HEARS", "SWIMS" ]
+        "flags": [ "PATH_AVOID_DANGER","SEES", "HEARS", "SWIMS" ]
       },
 
       {
@@ -4481,7 +4479,7 @@
         "special_attacks": [ [ "EAT_CROP", 60 ] ],
         "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
         "death_drops":  "PSY_magi_mon_rnd_unicorn_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PET_MOUNTABLE", "PATH_AVOID_DANGER_1", "WARM" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PET_MOUNTABLE", "PATH_AVOID_DANGER", "WARM" ]
       },
 
       {
@@ -4652,7 +4650,7 @@
         "reproduction": { "baby_egg": "egg_owlbear_rock", "baby_count": 1, "baby_timer": 20 },
         "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
         "special_attacks": [ { "type": "bite", "cooldown": 10 }, { "id": "grab", "cooldown": 7 }, [ "scratch", 7 ] ],
-        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "WARM", "GRABS", "SWARMS" ],
+        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "WARM", "GRABS", "SWARMS" ],
         "death_drops":  "PSY_magi_mon_rnd_coin_2_mon_drops",
         "zombify_into": "mon_owlbear_zombie"
       },
@@ -4688,7 +4686,7 @@
         "special_attacks": [ { "type": "bite", "cooldown": 10 }, { "id": "grab", "cooldown": 8 }, [ "scratch", 6 ] ],
         "anger_triggers": [ "PLAYER_NEAR_BABY" ],
         "death_drops":  "PSY_magi_mon_rnd_coin_2_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "WARM", "GRABS" ],
+        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "WARM", "GRABS" ],
         "zombify_into": "mon_yulecat_zombie"
       },
 
@@ -4726,7 +4724,7 @@
           [ "scratch", 7 ],
           { "type": "spell", "spell_data": { "id": "dragon_breath_black", "min_level": 4 }, "cooldown": 20 }
         ],
-        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "WARM", "SWIMS", "ACIDPROOF", "PUSH_MON", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "WARM", "SWIMS", "ACIDPROOF", "PUSH_MON", "FLIES" ]
       },
 
       {
@@ -4861,7 +4859,7 @@
           { "type": "spell", "spell_data": { "id": "PSY_magi_spell_summon_gale-force_air_slash" }, "cooldown": 32 }
         ],
         "biosignature": { "biosig_item": "feces_bird", "biosig_timer": 8 },
-        "flags": [ "HIT_AND_RUN","SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES" ]
+        "flags": [ "HIT_AND_RUN","SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "FLIES" ]
       },
 
       {
@@ -4912,7 +4910,7 @@
           "PET_MOUNTABLE",
           "HIT_AND_RUN",
           "KEENNOSE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -4984,7 +4982,7 @@
           { "type": "bite", "cooldown": 24 },
           { "type": "spell", "spell_data": { "id": "PSY_magi_dragon_breath", "min_level": 0 }, "cooldown": 40 }
         ],
-        "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "ACIDPROOF", "FLIES" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER", "WARM", "ACIDPROOF", "FLIES" ]
       },
 
       {
@@ -5087,7 +5085,7 @@
         "anger_triggers": [ "FRIEND_DIED" ],
         "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
         "death_drops":  "PSY_magi_mon_rnd_megawing_mon_drops",
-        "flags": [ "HIT_AND_RUN","SEES", "SMELLS", "HEARS", "GOODHEARING", "WARM", "FLIES", "ANIMAL", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "HIT_AND_RUN","SEES", "SMELLS", "HEARS", "GOODHEARING", "WARM", "FLIES", "ANIMAL", "PATH_AVOID_DANGER" ]
       },
 
       {
@@ -5168,7 +5166,7 @@
         "families": [ "prof_intro_biology" ],
         "biosignature": { "biosig_item": "feces_manure", "biosig_timer": 8 },
         "death_drops":  "PSY_magi_mon_rnd_crystallostep_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "PET_MOUNTABLE", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "PET_MOUNTABLE", "ANIMAL", "PATH_AVOID_DANGER", "WARM" ]
       },
 
       {
@@ -5202,7 +5200,7 @@
         "special_attacks": [
           { "id": "ranged_pull", "range": 6 , "cooldown": 22}
         ],
-        "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "ANIMAL", "PATH_AVOID_DANGER_1" ]
+        "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "ANIMAL", "PATH_AVOID_DANGER" ]
       },
 
       {
@@ -5233,7 +5231,7 @@
         "emit_fields": [ { "emit_id": "PSY_magi_emit_aroma_pollen", "delay": "3 s" } ],
         "fear_triggers": [ "SOUND", "PLAYER_CLOSE","FRIEND_ATTACKED", "FRIEND_DIED" ],
         "death_drops":  "PSY_magi_mon_rnd_roselisk_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "HIT_AND_RUN", "KEENNOSE", "SWIMS" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "HIT_AND_RUN", "KEENNOSE", "SWIMS" ]
       },
 
       {
@@ -5331,7 +5329,7 @@
         "path_settings": { "max_dist": 5 },
         "special_attacks": [ [ "EAT_FOOD", 20 ] ,{ "id": "ranged_pull", "range": 4 , "cooldown": 44}, { "type": "leap", "cooldown": 22, "move_cost": 0, "max_range": 6, "min_consider_range": 2 } ],
         "anger_triggers": [ "STALK", "PLAYER_CLOSE" ],
-        "flags": [ "SEES", "SMELLS", "HEARS", "SWIMS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "PUSH_MON" ]
+        "flags": [ "SEES", "SMELLS", "HEARS", "SWIMS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "BASHES", "PUSH_MON" ]
       },
 
       {
@@ -5379,7 +5377,7 @@
         "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
         "fear_triggers": [ "FIRE", "HURT" ],
         "death_drops":  "PSY_magi_mon_rnd_dolface_mon_drops",  
-        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "PUSH_MON", "SWIMS" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "ANIMAL", "PUSH_MON", "SWIMS" ]
       },
 
       {
@@ -5593,7 +5591,7 @@
         "death_drops": "PSY_magi_mon_rnd_gracefrost_mon_drops",
         "special_attacks": [ { "type": "spell", "spell_data": { "id": "PSY_magi_spell_cone_cold", "min_level": 0 }, "cooldown": 35 } ],
         "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_CLOSE" ],
-        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "COLDPROOF","HIT_AND_RUN" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "KEENNOSE", "COLDPROOF","HIT_AND_RUN" ]
       },
 
       {
@@ -5668,7 +5666,7 @@
           "pet": "The %s runs around your leg."
         },
         "special_attacks": [ [ "SHRIEK", 10 ]],
-        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "CANPLAY", "SWARMS" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "CANPLAY", "SWARMS" ]
       },
 
       {
@@ -5811,9 +5809,9 @@
         "dissect": "dissect_batrachian_sample_huge",
         "death_drops": "PSY_magi_mon_rnd_skylipper_mon_drops",
         "path_settings": { "max_dist": 7 },
-        "special_attacks": [[ "SHRIEK", 11 ],[ "RATTLE", 22 ],[ "PARROT_AT_DANGER", 33 ],[ "SHRIEK_ALERT", 44 ],[ "HOWL", 55 ],[ "DANCE", 66 ] ],
+        "special_attacks": [[ "SHRIEK", 11 ],[ "RATTLE", 22 ],[ "PARROT_AT_DANGER", 33 ],[ "SHRIEK_ALERT", 44 ],[ "DANCE", 66 ] ],
         "anger_triggers": [ "STALK", "PLAYER_CLOSE" ],
-        "flags": [ "SEES", "SMELLS", "HEARS",  "PATH_AVOID_DANGER_1", "WARM", "BASHES", "PUSH_MON" ]
+        "flags": [ "SEES", "SMELLS", "HEARS",  "PATH_AVOID_DANGER", "WARM", "BASHES", "PUSH_MON" ]
       },
 
       {
@@ -5851,7 +5849,7 @@
         "anger_triggers": [ "HURT" ],
         "placate_triggers": [ "PLAYER_WEAK" ],
         "death_drops": "PSY_magi_mon_rnd_skylipper_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "CANPLAY", "SWARMS" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "CANPLAY", "SWARMS" ]
       },
 
       {
@@ -5972,7 +5970,7 @@
           "CANPLAY",
           "HEARS",
           "PET_MOUNTABLE",
-          "PATH_AVOID_DANGER_1",
+          "PATH_AVOID_DANGER",
           "SEES",
           "SMELLS",
           "SWARMS",
@@ -6014,7 +6012,7 @@
           "pet": "The %s runs around your leg."
         },
         "special_attacks": [ { "id": "grab_drag", "cooldown": 10 }, { "id": "ranged_pull", "range": 4 , "cooldown": 10}, [ "SHRIEK", 10 ] ],
-        "flags": [ "SEES","HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "CANPLAY", "SWARMS" ]
+        "flags": [ "SEES","HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM", "CANPLAY", "SWARMS" ]
       },
 
       {
@@ -6099,7 +6097,7 @@
         "regenerates": 3,
         "regen_morale": true,
         "death_drops":  "PSY_magi_mon_rnd_mudro_mole_mon_drops",
-        "flags": [ "PUSH_MON", "BORES", "CAN_DIG", "HEARS", "KEENNOSE", "PATH_AVOID_DANGER_1", "SMELLS", "WARM" ]
+        "flags": [ "PUSH_MON", "BORES", "CAN_DIG", "HEARS", "KEENNOSE", "PATH_AVOID_DANGER", "SMELLS", "WARM" ]
       },
 
       {
@@ -6137,7 +6135,7 @@
         "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
         "fear_triggers": [ "FIRE", "HURT", "FRIEND_DIED" ],
         "death_drops":  "PSY_magi_mon_rnd_blaster_lizard_mon_drops",
-        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "PUSH_MON", "SWIMS" ]
+        "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "ANIMAL", "PUSH_MON", "SWIMS" ]
       },
 
       {
@@ -6174,7 +6172,7 @@
         "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "FRIEND_DIED" ],
         "fear_triggers": [ "HURT" ],
         "death_drops":  "PSY_magi_mon_rnd_leafback_rat_mon_drops",
-        "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "ANIMAL", "PATH_AVOID_DANGER_1", "STUMBLES" ]
+        "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "ANIMAL", "PATH_AVOID_DANGER", "STUMBLES" ]
       },
 
       {
@@ -6256,7 +6254,7 @@
           "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
           "pet": "The %s runs around your leg."
         },
-        "flags": [ "CANPLAY","HIT_AND_RUN","SEES", "SMELLS", "HEARS", "GOODHEARING", "WARM", "FLIES", "ANIMAL", "PATH_AVOID_DANGER_1","COLDPROOF","ACIDPROOF" ]
+        "flags": [ "CANPLAY","HIT_AND_RUN","SEES", "SMELLS", "HEARS", "GOODHEARING", "WARM", "FLIES", "ANIMAL", "PATH_AVOID_DANGER","COLDPROOF","ACIDPROOF" ]
 
       },
 
@@ -6389,6 +6387,48 @@
           "ACIDPROOF",
           "PACIFIST"
         ]
+      },
+
+      {
+        "abstract": "PSY_magi_mon_skeleton_soldier_base",
+        "type": "MONSTER",
+        "name": { "str": "Skeleton Soldier" },
+        "description": "The skeleton soldiers are undead warriors lurking deep within dungeons, protected by heavy armor on their heads and feet, reminiscent of their former glory.\n This makes them even more formidable than ordinary bone monsters, posing a significant challenge for adventurers.\nThe weapons of skeleton soldiers include rusted swords, axes, and sometimes shields, boasting remarkable precision in their attacks. While their movements are mechanical and expressionless, glimpses of the former warriors' skills are evident in their ruthless assaults.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "bodytype": "human",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "102500 ml",
+        "weight": "121500 g",
+        "hp": 150,
+        "speed": 60,
+        "material": [ "bone" ],
+        "symbol": "S",
+        "color": "white",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 6,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "melee_damage": [ { "damage_type": "cut", "amount": 5 } ],
+        "vision_night": 3,
+        "weakpoint_sets": [ "wps_humanoid_body","wps_bone_armor" ],
+        "families": [ "prof_intro_biology", "prof_physiology", "prof_wp_skeleton" ],
+        "harvest": "mr_bones",
+        "special_attacks": [],
+        "death_drops": "",
+        "flags": [
+          "SEES",
+          "HEARS",
+          "STUMBLES",
+          "WARM",
+          "BASHES",
+          "GROUP_BASH",
+          "POISON",
+          "NO_BREATHE",
+          "PUSH_MON",
+          "FILTHY"
+        ],
+        "armor": { "bash": 6,"cut": 22, "stab": 30, "acid": 3, "bullet": 24, "electric": 3 }
       }
 
 

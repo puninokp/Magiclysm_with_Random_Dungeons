@@ -27,7 +27,7 @@
     "petfood":{"food": [ "PSY_TRADER_FOOD" ],"feed": "You gave him rice ball to make a trade","pet": "You gave him rice ball to make a trade"},
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_1", "IMMOBILE", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER", "IMMOBILE", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -75,7 +75,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER_1", "IMMOBILE", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_DANGER", "IMMOBILE", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -107,7 +107,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -140,7 +140,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE"]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE"]
   },
 
   {
@@ -172,7 +172,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -204,7 +204,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -237,7 +237,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE" ]
   },
 
   {
@@ -271,7 +271,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "WARM", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE" ]
   },
 
   {
@@ -315,7 +315,7 @@
     ],
     "death_drops": {  },
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","SEES", "PATH_AVOID_DANGER_1", "NO_BREATHE", "STUN_IMMUNE","PRIORITIZE_TARGETS","FLIES" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "PATH_AVOID_DANGER", "NO_BREATHE", "STUN_IMMUNE","PRIORITIZE_TARGETS","FLIES" ]
   },
 
   {
@@ -349,7 +349,7 @@
     "path_settings": { "avoid_traps": true, "avoid_sharp": true },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "PET_WONT_FOLLOW","NOGIB","SEES", "NO_BREATHE", "PATH_AVOID_DANGER_1", "LOUDMOVES" ]
+    "flags": [ "PET_WONT_FOLLOW","NOGIB","SEES", "NO_BREATHE", "PATH_AVOID_DANGER", "LOUDMOVES" ]
   },
 
   {
@@ -443,7 +443,7 @@
     "special_attacks": [ [ "EAT_CROP", 60 ] ],
     "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
     "death_drops":  "",
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "WARM" ]
   },
 
   {
@@ -480,7 +480,7 @@
       { "type": "bite", "cooldown": 10 },
       { "type": "spell", "spell_data": { "id": "dragon_breath_black", "min_level": 4 }, "cooldown": 20 }
     ],
-    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "WARM", "SWIMS", "ACIDPROOF" ]
+    "flags": [ "PET_WONT_FOLLOW","SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER", "WARM", "SWIMS", "ACIDPROOF" ]
   },
 
   {

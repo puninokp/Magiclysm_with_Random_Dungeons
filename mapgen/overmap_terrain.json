@@ -71,6 +71,34 @@
 
     {
         "type": "overmap_terrain",
+        "id": [ 
+            "PSY_magi_random_dungeon_big_4_NW", "PSY_magi_random_dungeon_big_4_N", "PSY_magi_random_dungeon_big_4_NE",
+            "PSY_magi_random_dungeon_big_4_W",  "PSY_magi_random_dungeon_big_4_M", "PSY_magi_random_dungeon_big_4_E",
+            "PSY_magi_random_dungeon_big_4_SW", "PSY_magi_random_dungeon_big_4_S", "PSY_magi_random_dungeon_big_4_SE"
+        ],
+        "name": "Random Dungeon -4F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
+        "id": [ 
+            "PSY_magi_random_dungeon_big_5_NW", "PSY_magi_random_dungeon_big_5_N", "PSY_magi_random_dungeon_big_5_NE",
+            "PSY_magi_random_dungeon_big_5_W",  "PSY_magi_random_dungeon_big_5_M", "PSY_magi_random_dungeon_big_5_E",
+            "PSY_magi_random_dungeon_big_5_SW", "PSY_magi_random_dungeon_big_5_S", "PSY_magi_random_dungeon_big_5_SE"
+        ],
+        "name": "Random Dungeon -5F",
+        "sym": "D",
+        "color": "light_gray",
+        "mondensity": 2,
+        "flags": [ "RISK_HIGH" ]
+    },
+
+    {
+        "type": "overmap_terrain",
         "id": [ "PSY_magi_random_dungeon_3_NW","PSY_magi_random_dungeon_3_NE","PSY_magi_random_dungeon_3_SW","PSY_magi_random_dungeon_3_SE" ],
         "name": "Random Dungeon -3F",
         "sym": "D",

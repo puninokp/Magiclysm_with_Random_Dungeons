@@ -1273,6 +1273,103 @@
 
 {
   "type": "palette",
+  "id": "PSY_magi_random_dungeon_3F4F_big_pelette",
+  "terrain": {
+    ",": "t_platform_resin",
+    "#": "t_wall_w",
+    "/": "t_strconc_wall_y",
+    "!": "t_strconc_wall_y",
+    ".": "t_strconc_wall_y",
+    "|": "t_strconc_wall_y",
+    "1": "t_strconc_wall_y",
+    "2": "t_strconc_wall_y",
+    "3": "t_strconc_wall_y",
+    "4": "t_strconc_wall_y",
+    "5": "t_strconc_wall_y",
+    "6": "t_strconc_wall_y",
+    "7": "t_strconc_wall_y",
+    "8": "t_strconc_wall_y",
+    "9": "t_strconc_wall_y",
+    "X": "t_strconc_wall_y",
+    "U": "t_strconc_wall_y",
+    "D": "t_strconc_wall_y",
+    "+": "t_door_c",
+    "<": "t_slope_up",
+    ">": "t_slope_down",
+    "p": "t_platform_resin",
+    "v": "t_open_air",
+    "_": "t_dirt",
+    "@": "t_null"
+  },
+  "nested": {
+    "1": {
+      "//3":"nested_24x24_N",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "2": {
+      "//3":"nested_24x24_N",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "3": {
+      "//3":"nested_24x24_NW",
+      "chunks": [                 
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "4": {
+      "//3":"nested_24x24_W",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "5": {
+      "//3":"nested_24x24_M",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "6": {
+      "//3":"nested_24x24_E",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "7": {
+      "//3":"nested_24x24_SW",
+      "chunks": [                 
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "8": {
+      "//3":"nested_24x24_S",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    },
+    "9": {
+      "//3":"nested_24x24_SE",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ]
+      ]
+    }
+  }
+},
+
+{
+  "type": "palette",
   "id": "PSY_magi_nested_dungeon_big_3F4F_pelette",
   "nested": {
     "5": {

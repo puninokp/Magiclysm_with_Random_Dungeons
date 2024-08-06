@@ -6783,3 +6783,62 @@ msgstr "1時間の間、有害な環境から守り、攻撃者に炎上を与�
 msgid "Casts a special magic corresponding to the element being shapeshifted.\nIt fails to cast when in the human state.\n\nFire:\n・Summons an aura of fire that protects from the harmful environment for one hour and sets the attacker on fire.\n\nWater:\n・Create 2 mass of cleansed water with super strong disinfectant properties that can be used to instantly disinfect wounds.\n\nAir:\n・Makes the most of the power of the wind, and after flying a certain distance instantly, it can stay suspended in the air for 30 seconds.\n\nEarth:\n・Restores all stamina and significantly increases status for 3 minutes.\nStackable up to 100 times\nsleepiness increases with each cast."
 msgstr "変身しているエレメントに対応した特殊魔法を発動します。\n人間の状態では魔法は必ず失敗します。\n\n火:\n・1時間の間、有害な環境から守り、攻撃者に炎上を与える火のオーラを召喚する。\n\n水:\n・瞬時に傷口の消毒に使うことが出来る超強力な消毒効果のある浄化された水の塊を2つ作成する。\n\n風:\n・風の力を最大限に活用し、一定距離を瞬時に飛んだ後、30秒間空中に浮遊し続けることが出来る。\n\n土:\n・スタミナを全回復し、3分間、大幅にステータスを増加させる。\n100回まで重ね掛け可能、使うたびに眠気が増える。"
 
+msgid "Skeleton Soldier"
+msgstr "スケルトン兵"
+
+msgid "The skeleton soldiers are undead warriors lurking deep within dungeons, protected by heavy armor on their heads and feet, reminiscent of their former glory.\n This makes them even more formidable than ordinary bone monsters, posing a significant challenge for adventurers.\nThe weapons of skeleton soldiers include rusted swords, axes, and sometimes shields, boasting remarkable precision in their attacks. While their movements are mechanical and expressionless, glimpses of the former warriors' skills are evident in their ruthless assaults."
+msgstr "スケルトン兵は、ダンジョンの奥深くに潜むアンデッドの戦士で、かつての栄光を思わせるように頭と足を重厚な鎧で守っています。\nこれにより、単なる骨のモンスターよりもさらに手強く、冒険者たちにとっては厄介な存在となっています。\nスケルトン兵の武器は、錆びついた剣や斧、時には盾を持ち、その攻撃は驚くほどの精度を誇ります。彼らの動きは機械的で無表情ですが、その冷徹な攻撃にはかつての戦士の技術が垣間見えます。"
+
+msgid "%1$s hits your %2$s with a Shield!"
+msgstr "%1$sは盾で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Shield!"
+msgstr "%1$sは盾で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Sword!"
+msgstr "%1$sは剣で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Sword!"
+msgstr "%1$sは剣で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Dagger!"
+msgstr "%1$sは短剣で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Dagger!"
+msgstr "%1$sは短剣で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s twice quickly with Daggers!"
+msgstr "%1$sは短剣で%2$sを素早く2回攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s twice quickly with Daggers!"
+msgstr "%1$sは短剣で<npcname>の%2$sを素早く2回攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Staff!"
+msgstr "%1$sは杖で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Staff!"
+msgstr "%1$sは杖で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Scythe!"
+msgstr "%1$sは大鎌で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Scythe!"
+msgstr "%1$sは大鎌で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Cudgel!"
+msgstr "%1$sは棍棒で%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Cudgel!"
+msgstr "%1$sは棍棒で<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with a Crossbow!"
+msgstr "%1$sはクロスボウで%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with a Crossbow!"
+msgstr "%1$sはクロスボウで<npcname>の%2$sを攻撃しました!"
+
+msgid "%1$s hits your %2$s with an Orb!"
+msgstr "%1$sはオーブで%2$sを攻撃しました!"
+
+msgid "%1$s hits <npcname>'s %2$s with an Orb!"
+msgstr "%1$sはオーブで<npcname>の%2$sを攻撃しました!"
