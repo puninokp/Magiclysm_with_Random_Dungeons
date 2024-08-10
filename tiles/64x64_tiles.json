@@ -31,6 +31,25 @@
           "file": "./tiles/64x64_pictures.png",
           "sprite_width": 64, 
           "sprite_height": 64,
+          "sprite_offset_x": 0, 
+          "sprite_offset_y": 0,
+          "pixelscale": 0.5,
+          "tiles": [
+            { "id": "PSY_magi_mana_gun_shotgun" ,"fg": 210 },
+            { "id": "PSY_magi_mana_gun_shotgun2" ,"fg": 211 },
+            { "id": "PSY_magi_mana_gun_shotgun3" ,"fg": 212 },
+            { "id": "PSY_magi_mana_gun_shotgun4" ,"fg": 213 },
+            { "id": "PSY_magi_mana_gun_shotgun5" ,"fg": 214 },
+            { "id": "PSY_magi_mana_gun_rifle" ,"fg": 215 },
+            { "id": "PSY_magi_mana_gun_rifle2" ,"fg": 216 },
+            { "id": "PSY_magi_mana_gun_rifle3" ,"fg": 217 },
+            { "id": "PSY_magi_mana_gun_rifle4" ,"fg": 218 }
+          ]
+        },
+        {
+          "file": "./tiles/64x64_pictures.png",
+          "sprite_width": 64, 
+          "sprite_height": 64,
           "sprite_offset_x": -16, 
           "sprite_offset_y": -32,
           "tiles": [

@@ -7,6 +7,7 @@
         "sym": "B",
         "color": "light_gray",
         "mondensity": 2,
+        "see_cost": "none",
         "flags": [ "RISK_HIGH" ]
     },
 
@@ -21,6 +22,7 @@
         "name": "Random Dungeon",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -36,6 +38,7 @@
         "name": "Random Dungeon -1F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -51,6 +54,7 @@
         "name": "Random Dungeon -2F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -65,6 +69,7 @@
         "name": "Random Dungeon -3F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -79,6 +84,7 @@
         "name": "Random Dungeon -4F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -93,6 +99,7 @@
         "name": "Random Dungeon -5F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -103,6 +110,7 @@
         "name": "Random Dungeon -3F",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -113,6 +121,7 @@
         "name": "Random Dungeon",
         "sym": "D",
         "color": "light_gray",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -123,6 +132,7 @@
         "name": "Random Dungeon<Forest>",
         "sym": "F",
         "color": "yellow",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -141,6 +151,7 @@
         "name": "Random Dungeon<Forest>",
         "sym": "F",
         "color": "yellow",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -159,6 +170,7 @@
         "name": "Random Dungeon<Forest> -1F",
         "sym": "F",
         "color": "yellow",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -177,6 +189,7 @@
         "name": "Random Dungeon<Forest> -2F",
         "sym": "F",
         "color": "yellow",
+        "see_cost": "none",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]
     },
@@ -194,6 +207,7 @@
         ],
         "name": "Random Dungeon<Forest> -3F",
         "sym": "F",
+        "see_cost": "none",
         "color": "yellow",
         "mondensity": 2,
         "flags": [ "RISK_HIGH" ]

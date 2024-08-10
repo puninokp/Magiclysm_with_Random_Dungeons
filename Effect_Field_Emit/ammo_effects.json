@@ -203,5 +203,109 @@
     "id": "PSY_MAGIC_CANNON",
     "type": "ammo_effect",
     "explosion": { "power": 498, "shrapnel": { "casing_mass": 1000, "fragment_mass": 0.15 } }
+  },
+
+  {
+    "id": "PSY_FUSION_FAN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_fusion_fan" }
+  },
+
+  {
+    "id": "PSY_FREEZE_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_freeze_gun" }
+  },
+  {
+    "id": "PSY_PULL_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_pull_gun" }
+  },
+  {
+    "id": "PSY_PUSH_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_push_gun" }
+  },
+  {
+    "id": "PSY_VINE_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_vine_gun" }
+  },
+  {
+    "id": "PSY_CHARM_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_charm_gun" }
+  },
+  {
+    "id": "PSY_BANISH_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_banish_gun" }
+  },
+  {
+    "id": "PSY_HEAL_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_heal_gun" }
+  },
+  {
+    "id": "PSY_WARP_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_warp_gun" }
+  },
+  {
+    "id": "PSY_LASER_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_laser_gun" }
+  },
+  {
+    "id": "PSY_GLASS_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_glass_gun" }
+  },
+  {
+    "id": "PSY_MINE_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_mine_gun" }
+  },
+  {
+    "id": "PSY_COW_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_polymorph_cow_gun" }
+  },
+  {
+    "id": "PSY_BEAR_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_polymorph_bear_gun" }
+  },
+  {
+    "id": "PSY_CHICKEN_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_polymorph_chicken_gun" }
+  },
+  {
+    "id": "PSY_STUN_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_stun_gun" }
+  },
+  {
+    "id": "PSY_BLIND_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_blind_gun" }
   }
 ]

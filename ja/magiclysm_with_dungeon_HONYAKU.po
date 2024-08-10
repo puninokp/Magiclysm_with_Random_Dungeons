@@ -3826,6 +3826,105 @@ msgstr "魔法の力によって作成されたマナのタレットです。自
 msgid "Mana Bullet"
 msgstr "マナの弾丸"
 
+msgid "Mana Bullet:Fusion"
+msgstr "マナの弾丸:溶融"
+
+msgid "Mana Bullet:Freeze"
+msgstr "マナの弾丸:凍結"
+
+msgid "Mana bullets made by compressing magic power.\nGreatly reduces the movement speed of the person it hits for a certain period of time. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者の移動速度を一定時間の間、大幅に下げます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Hook"
+msgstr "マナの弾丸:フック"
+
+msgid "Mana bullets made by compressing magic power.\nDraws the hit person closer to you. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者を自分の近くに引き寄せます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Push"
+msgstr "マナの弾丸:押し出し"
+
+msgid "Mana bullets made by compressing magic power.\nPushes the hit person farther away. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者を自分の近くに引き寄せます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Vine"
+msgstr "マナの弾丸:蔦"
+
+msgid "Mana bullets made by compressing magic power.\nSummons two vines around the person hit. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者の周囲に2本の蔦を召喚します。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Charm"
+msgstr "マナの弾丸:魅了"
+
+msgid "Mana bullets made by compressing magic power.\nThe hit person temporarily becomes the player's side. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者が一時的にプレイヤーの味方になります。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Heal"
+msgstr "マナの弾丸:回復"
+
+msgid "Mana bullets made by compressing magic power.\nRestores 30~60 HP to the person hit. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者のHPを20~60回復させます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Banish"
+msgstr "マナの弾丸:抹消"
+
+msgid "Mana bullets made by compressing magic power.\nThe existence of the hit person is banished. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者の存在が抹消されます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Warp"
+msgstr "マナの弾丸:ワープ"
+
+msgid "Mana bullets made by compressing magic power.\nWarps to the point where it hits or near the target it hits. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった地点、または当たった対象の近くにワープします。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Laser"
+msgstr "マナの弾丸:レーザー"
+
+msgid "Mana bullets made by compressing magic power.\nA straight laser is shot to the target point, dealing 20 heat damage to everything it hits. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n直線状のレーザーが対象地点まで放たれ、当たった全てに20の熱ダメージを与えます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Glass"
+msgstr "マナの弾丸:ガラス"
+
+msgid "Mana bullets made by compressing magic power.\nIf it hits the ground, glass is scattered at the target point. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n地面に当たった場合、対象地点にガラスがばら撒かれます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Mine"
+msgstr "マナの弾丸:地雷"
+
+msgid "Mana bullets made by compressing magic power.\nIf it hits the ground, a mine will be placed at the target location. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n地面に当たった場合、対象地点に地雷が設置されます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Cow"
+msgstr "マナの弾丸:牛"
+
+msgid "Mana bullets made by compressing magic power.\nTurns monster with less than 200 HP that are hit into cow. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たったHPが200未満のモンスターを牛に変身させます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Bear"
+msgstr "マナの弾丸:熊"
+
+msgid "Mana bullets made by compressing magic power.\nTurns monster with less than 300 HP that are hit into bear. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たったHPが300未満のモンスターを熊に変身させます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Chicken"
+msgstr "マナの弾丸:鶏"
+
+msgid "Mana bullets made by compressing magic power.\nTurns monster with less than 120 HP that are hit into chicken. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たったHPが120未満のモンスターを鶏に変身させます。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Stun"
+msgstr "マナの弾丸:スタン"
+
+msgid "Mana bullets made by compressing magic power.\nThe person hit is stunned for a short while. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者はしばらくの間、スタン状態になります。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
+msgid "Mana Bullet:Blind"
+msgstr "マナの弾丸:盲目"
+
+msgid "Mana bullets made by compressing magic power.\nThe person hit is blinded for a short while. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。\n当たった者はしばらくの間、盲目状態になります。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
+
 msgid "Create Mana Turret"
 msgstr "クリエイト・マナタレット"
 
@@ -3841,8 +3940,8 @@ msgstr "魔力と沢山の素材を使ってランダムな魔法のタレット
 msgid "Create a random magic Drone Mechs with magic power and lots of materials. There are a total of 10 different types of Drone Mechs."
 msgstr "魔力と沢山の素材を使ってランダムな魔法のドローンメカを作ります。ドローンメカは全部で10種類存在します。"
 
-msgid "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets and mana robots."
-msgstr "魔力を圧縮して作られたマナの弾丸です。主にマナタレットやマナロボットの為の弾薬です。"
+msgid "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets, mana robots and mana guns."
+msgstr "魔力を圧縮して作られたマナの弾丸です。主にマナタレット、マナロボットやマナ銃の為の弾薬です。"
 
 msgid "It is a turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets."
 msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。"
