@@ -4478,26 +4478,203 @@ msgstr "商人の命綱"
 msgid "ice field"
 msgstr "アイスフィールド"
 
+msgid "Mana Shotgun"
+msgstr "魔法銃<ショットガン>"
+
+msgid "Mana Gun<Shotgun>"
+msgstr "魔法銃<ショットガン>"
+
+msgid "A shotgun made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mud Spreader"
+msgstr "魔法銃<マッドスプレッダー>"
+
+msgid "Mana Gun<Mud Spreader>"
+msgstr "魔法銃<マッドスプレッダー>"
+
+msgid "A shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun can shoot low-power mud bullets and can reduce the movement speed of enemies it hits for a certain period of time."
+msgstr "魔法で作られたショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は威力の低い泥の弾を撃つことが可能で、当たった敵の移動速度を一定時間下げることが出来ます。"
+
+msgid "Glare Burst"
+msgstr "魔法銃<グレアバースト>"
+
+msgid "Mana Gun<Glare Burst>"
+msgstr "魔法銃<グレアバースト>"
+
+msgid "A shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun can shoot light bullets of minute power, which can dazzle the eyes of enemies who are hit by it."
+msgstr "魔法で作られたショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は威力が微量な光の弾を撃つことが可能で、当たった敵の目を眩ますことが出来ます。"
+
+msgid "Violet Breaker"
+msgstr "魔法銃<バイオレットブレイカー>"
+
+msgid "Mana Gun<Violet Breaker>"
+msgstr "魔法銃<バイオレットブレイカー>"
+
+msgid "A shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun has great power, but has a range problem."
+msgstr "魔法で作られたショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は威力は絶大ですが、射程距離に問題を抱えております。"
+
+msgid "Quicksilver"
+msgstr "魔法銃<クイックシルバー>"
+
+msgid "Mana Gun<Quicksilver>"
+msgstr "魔法銃<クイックシルバー>"
+
+msgid "A shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun can spray toxic mercury radially."
+msgstr "魔法で作られたショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は毒性のある水銀を放射状に散布することが出来ます。"
+
+msgid "Mana Hunting Shotgun"
+msgstr "魔法銃<狩猟ショットガン>"
+
+msgid "Mana Gun<Hunting Shotgun>"
+msgstr "魔法銃<狩猟ショットガン>"
+
+msgid "A hunting shotgun made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られた狩猟ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Thunder Striker"
+msgstr "魔法銃<サンダーストライカー>"
+
+msgid "Mana Gun<Thunder Striker>"
+msgstr "魔法銃<サンダーストライカー>"
+
+msgid "A hunting shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun releases a powerful chain of lightning."
+msgstr "魔法で作られた狩猟ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は強力な連鎖する雷を放ちます。"
+
+msgid "Wisp Emitter"
+msgstr "魔法銃<ウィスプエミッター>"
+
+msgid "Mana Gun<Wisp Emitter>"
+msgstr "魔法銃<ウィスプエミッター>"
+
+msgid "A hunting shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun summons wisp around the area where the bullet hits."
+msgstr "魔法で作られた狩猟ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は弾が当たった場所の周囲にウィスプを召喚します。"
+
+msgid "Red Eclipse"
+msgstr "魔法銃<レッドエクリプス>"
+
+msgid "Mana Gun<Red Eclipse>"
+msgstr "魔法銃<レッドエクリプス>"
+
+msgid "A hunting shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun scatters a large amount of blood around the area where the bullet hits."
+msgstr "魔法で作られた狩猟ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は弾が当たった場所の周囲に大量の血がばら撒かれます。"
+
+msgid "Poison Stinger"
+msgstr "魔法銃<ポイズンスティンガー>"
+
+msgid "Mana Gun<Poison Stinger>"
+msgstr "魔法銃<ポイズンスティンガー>"
+
+msgid "A hunting shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun is highly poisonous to those who are hit by its bullets."
+msgstr "魔法で作られた狩猟ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は弾が当たった者は猛毒に侵されます。"
+
+msgid "Mana Auto Shotgun"
+msgstr "魔法銃<オートショットガン>"
+
+msgid "Mana Gun<Auto Shotgun>"
+msgstr "魔法銃<オートショットガン>"
+
+msgid "An Auto shotgun made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られた自動ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Tidal Wave"
+msgstr "魔法銃<タイダルウェーブ>"
+
+msgid "Mana Gun<Tidal Wave>"
+msgstr "魔法銃<タイダルウェーブ>"
+
+msgid "An Auto shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun releases a large amount of magical water in a cone."
+msgstr "魔法で作られた自動ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は大量の魔法の水を円錐状に放出する。"
+
+msgid "Mana Double-Barrel Shotgun"
+msgstr "魔法銃<ダブルバレルショットガン>"
+
+msgid "Mana Gun<Double-Barrel Shotgun>"
+msgstr "魔法銃<ダブルバレルショットガン>"
+
+msgid "A Double-Barrel Shotgun made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたダブルバレルショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Impact Shotgun"
+msgstr "魔法銃<衝撃ショットガン>"
+
+msgid "Mana Gun<Impact Shotgun>"
+msgstr "魔法銃<衝撃ショットガン>"
+
+msgid "An Impact Shotgun made by magic. It can be fired by loading 'mana bullets'.\n\nThis gun is extremely powerful, but it fires all its rounds in one shot."
+msgstr "魔法で作られた衝撃ショットガンです。'マナの弾丸'を装填することで撃つことが出来ます。\n\nこの銃は威力は極大ですが、一度の射撃で全ての弾を撃ち尽くします。"
+
 msgid "Mana Pistol"
-msgstr "マナピストル"
+msgstr "魔法銃<ピストル>"
+
+msgid "Mana Gun<Pistol>"
+msgstr "魔法銃<ピストル>"
 
 msgid "a pistol made by magic. It can be fired by loading 'mana bullets'."
 msgstr "魔法で作られたピストルです。'マナの弾丸'を装填することで撃つことが出来ます。"
 
 msgid "Mana Rifle"
-msgstr "マナライフル"
+msgstr "魔法銃<ライフル>"
+
+msgid "Mana Gun<Rifle>"
+msgstr "魔法銃<ライフル>"
 
 msgid "a rifle made by magic. It can be fired by loading 'mana bullets'."
 msgstr "魔法で作られたライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
 
+msgid "A rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Light Machine Gun"
+msgstr "魔法銃<ライトマシンガン>"
+
+msgid "Mana Gun<Light Machine Gun>"
+msgstr "魔法銃<ライトマシンガン>"
+
+msgid "A Light Machine Gun made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたライトマシンガンです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Burst Rifle"
+msgstr "魔法銃<バーストライフル>"
+
+msgid "Mana Gun<Mana Burst Rifle>"
+msgstr "魔法銃<バーストライフル>"
+
+msgid "A Burst Rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたバーストライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Assult Rifle"
+msgstr "魔法銃<アサルトライフル>"
+
+msgid "Mana Gun<Assult Rifle>"
+msgstr "魔法銃<アサルトライフル>"
+
+msgid "An Assult Rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたアサルトライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Old Rifle"
+msgstr "魔法銃<オールドライフル>"
+
+msgid "Mana Gun<Old Rifle>"
+msgstr "魔法銃<オールドライフル>"
+
+msgid "An Old Rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたオールドライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
 msgid "Mana Sniper Rifle"
-msgstr "マナスナイパーライフル"
+msgstr "魔法銃<スナイパーライフル>"
+
+msgid "Mana Gun<Sniper Rifle>"
+msgstr "魔法銃<スナイパーライフル>"
 
 msgid "a sniper rifle made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 3 mana bullets."
 msgstr "魔法で作られたスナイパーライフルです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で3発のマナの弾丸が必要です。"
 
 msgid "Mana Rocket Launcher"
-msgstr "マナロケットランチャー"
+msgstr "魔法銃<ロケットランチャー>"
+
+msgid "Mana Gun<Rocket Launcher>"
+msgstr "魔法銃<ロケットランチャー>"
 
 msgid "a rocket launcher made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 20 mana bullets."
 msgstr "魔法で作られたロケットランチャーです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で20発のマナの弾丸が必要です。"
@@ -6941,3 +7118,9 @@ msgstr "%1$sはオーブで%2$sを攻撃しました!"
 
 msgid "%1$s hits <npcname>'s %2$s with an Orb!"
 msgstr "%1$sはオーブで<npcname>の%2$sを攻撃しました!"
+
+msgid "Your weapon releases mud."
+msgstr "泥を放った。"
+
+msgid "Blast a cone of toxic mercury toward the target."
+msgstr "ターゲットに向かって円錐状の毒性水銀を噴射する。"

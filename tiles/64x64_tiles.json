@@ -43,7 +43,16 @@
             { "id": "PSY_magi_mana_gun_rifle" ,"fg": 215 },
             { "id": "PSY_magi_mana_gun_rifle2" ,"fg": 216 },
             { "id": "PSY_magi_mana_gun_rifle3" ,"fg": 217 },
-            { "id": "PSY_magi_mana_gun_rifle4" ,"fg": 218 }
+            { "id": "PSY_magi_mana_gun_rifle4" ,"fg": 218 },
+            { "id": "PSY_magi_mana_gun_shotgun_Mud_Spreader" ,"fg": 230 },
+            { "id": "PSY_magi_mana_gun_shotgun_Glare_Burst" ,"fg": 231 },
+            { "id": "PSY_magi_mana_gun_shotgun_Violet_Breaker" ,"fg": 232 },
+            { "id": "PSY_magi_mana_gun_shotgun_Quicksilver" ,"fg": 233 },
+            { "id": "PSY_magi_mana_gun_shotgun2_Thunder_Striker" ,"fg": 234 },
+            { "id": "PSY_magi_mana_gun_shotgun2_Wisp_Emitter" ,"fg": 235 },
+            { "id": "PSY_magi_mana_gun_shotgun2_Red_Eclipse" ,"fg": 236 },
+            { "id": "PSY_magi_mana_gun_shotgun2_Poison_Stinger" ,"fg": 237 },
+            { "id": "PSY_magi_mana_gun_shotgun3_Tidal_Wave" ,"fg": 238 }
           ]
         },
         {

@@ -332,6 +332,80 @@
         ]
       },
 
+      {
+        "type": "item_group",
+        "id": "PSY_magic_gun_shop_weapon_normal",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_mana_gun_shotgun", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun2", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun3", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun4", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun5", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_rifle", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_rifle2", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_rifle3", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_rifle4", "prob": 10 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magic_gun_shop_weapon_rare",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_mana_gun_shotgun_Mud_Spreader", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun_Glare_Burst", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun_Violet_Breaker", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun_Quicksilver", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun2_Thunder_Striker", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun2_Wisp_Emitter", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun2_Red_Eclipse", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun2_Poison_Stinger", "prob": 10 },
+          { "item": "PSY_magi_mana_gun_shotgun3_Tidal_Wave", "prob": 10 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magic_gun_shop_ammo_normal",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_mana_bullet", "prob": 100, "count": [ 20, 30 ] }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magic_gun_shop_ammo_rare",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_mana_bullet_freeze", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_hook", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_push", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_Vine", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_Charm", "prob": 10, "count": [ 5, 10 ] },
+          { "item": "PSY_magi_mana_bullet_Heal", "prob": 10, "count": [ 5, 10 ] },
+          { "item": "PSY_magi_mana_bullet_Laser", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_Glass", "prob": 10, "count": [ 10, 20 ] },
+          { "item": "PSY_magi_mana_bullet_Stun", "prob": 10, "count": [ 5, 10 ] },
+          { "item": "PSY_magi_mana_bullet_Blind", "prob": 10, "count": [ 5, 10 ] }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "id": "PSY_magic_gun_shop_ammo_veryrare",
+        "subtype": "distribution",
+        "entries": [
+          { "item": "PSY_magi_mana_bullet_Chicken", "prob": 10, "count": [ 2, 5 ] },
+          { "item": "PSY_magi_mana_bullet_Bear", "prob": 10, "count": [ 2, 5 ] },
+          { "item": "PSY_magi_mana_bullet_Cow", "prob": 10, "count": [ 2, 5 ] },
+          { "item": "PSY_magi_mana_bullet_Mine", "prob": 10, "count": [ 3, 6 ] },
+          { "item": "PSY_magi_mana_bullet_Warp", "prob": 10, "count": [ 2, 3 ] },
+          { "item": "PSY_magi_mana_bullet_Banish", "prob": 3, "count": [ 1, 2 ] }
+        ]
+      },
 
       {
         "type": "item_group",
@@ -343,7 +417,12 @@
           { "group": "PSY_magi_mon_ninja_drop_scrolls", "count": [ 2, 4 ], "prob": 100 },
           { "group": "enchanted_misc", "count": [ 3, 4 ],"prob": 100 },
           { "group": "PSY_honey_potion_shop", "count": [ 2, 3 ],"prob": 100 },
+          { "group": "PSY_magic_gun_shop_weapon_normal", "count": 1,"prob": 80 },
+          { "group": "PSY_magic_gun_shop_weapon_rare", "count": 1,"prob": 60 },
           { "group": "enchanted_rings_unusual","prob": 20 },
+          { "group": "PSY_magic_gun_shop_ammo_normal","prob": 100 },
+          { "group": "PSY_magic_gun_shop_ammo_rare","prob": 100 },
+          { "group": "PSY_magic_gun_shop_ammo_veryrare","prob": 20 },
           { "group": "enchanted_rings_rare","prob": 40 },
           { "group": "enchanted_wands_greater","prob": 60 },
           { "group": "enchanted_wands_lesser", "count": [ 1, 2 ],"prob": 100 },

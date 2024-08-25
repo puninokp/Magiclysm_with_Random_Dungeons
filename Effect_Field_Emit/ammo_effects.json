@@ -307,5 +307,44 @@
     "type": "ammo_effect",
     "always_cast_spell": true,
     "spell_data": { "id": "PSY_magi_item_spell_blind_gun" }
+  },
+  {
+    "id": "PSY_MUD_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_Mud_Spreader" }
+  },
+  {
+    "id": "PSY_QUICKSILVER_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_Quicksilver" }
+  },
+
+  {
+    "id": "PSY_THUNDER_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_Thunder_Striker_base" }
+  },
+
+  {
+    "id": "PSY_WISP_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_wisp_gun" }
+  },
+
+  {
+    "id": "PSY_BLOOD_AOE_5",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_blood", "intensity_min": 1, "intensity_max": 3,"radius": 5, "size": 5 }
+  },
+
+  {
+    "id": "PSY_TIDALWAVE_GUN",
+    "type": "ammo_effect",
+    "always_cast_spell": true,
+    "spell_data": { "id": "PSY_magi_item_spell_Tidalwave" }
   }
 ]

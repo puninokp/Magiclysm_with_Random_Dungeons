@@ -1276,6 +1276,32 @@
       "thirst_tick": [ 600 ]
     },
     "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_poison_mercury",
+    "name": [ "Poisoned" ],
+    "desc": [ "You have been poisoned!" ],
+    "miss_messages": [ [ "You feel bad inside.", 1 ] ],
+    "rating": "bad",
+    "immune_bp_flags": [ "BIONIC_LIMB" ],
+    "resist_traits": [ "POISRESIST" ],
+    "resist_effects": [ "prophylactic_antivenom" ],
+    "pain_sizing": true,
+    "hurt_sizing": true,
+    "main_parts_only": true,
+    "base_mods": {
+      "per_mod": [ -2, -1 ],
+      "dex_mod": [ -1, -1 ],
+      "str_mod": [ -2, 0 ],
+      "pain_min": [ 1 ],
+      "pain_chance": [ 5, 10 ],
+      "hurt_min": [ 1 ],
+      "hurt_chance": [ 3, 5 ]
+    },
+    "show_in_info": true,
+    "blood_analysis_description": "Poison"
   }
 
 ]
