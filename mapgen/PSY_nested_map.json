@@ -49,11 +49,11 @@
               { "item": "guns_obscure", "chance": 20, "ammo": 100, "magazine": 100, "repeat": [ 1, 2 ] }
             ],
             ",": [
-              { "item": "mags_pistol_rare", "chance": 40, "repeat": [ 1, 2 ] },
-              { "item": "mags_pistol_common", "chance": 60, "repeat": [ 1, 2 ] },
-              { "item": "mags_smg_common", "chance": 30, "repeat": [ 1, 2 ] },
-              { "item": "mags_rifle_common", "chance": 40, "repeat": [ 1, 2 ] },
-              { "item": "mags_pistol_rare", "chance": 20, "repeat": [ 1, 2 ] }
+              { "item": "guns_smg_rare", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_smg_common", "chance": 50, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_shotgun_common", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_shotgun_rare_static", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_obscure", "chance": 20, "ammo": 100, "magazine": 100, "repeat": [ 1, 2 ] }
             ],
             "=": [
               { "item": "ammo_rifle_reloaded", "chance": 40, "repeat": [ 1, 2 ] },
@@ -126,11 +126,11 @@
               { "item": "guns_obscure", "chance": 20, "ammo": 100, "magazine": 100, "repeat": [ 1, 2 ] }
             ],
             ",": [
-              { "item": "mags_pistol_rare", "chance": 40, "repeat": [ 1, 2 ] },
-              { "item": "mags_pistol_common", "chance": 60, "repeat": [ 1, 2 ] },
-              { "item": "mags_smg_common", "chance": 30, "repeat": [ 1, 2 ] },
-              { "item": "mags_rifle_common", "chance": 40, "repeat": [ 1, 2 ] },
-              { "item": "mags_pistol_rare", "chance": 20, "repeat": [ 1, 2 ] }
+              { "item": "guns_smg_rare", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_smg_common", "chance": 50, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_shotgun_common", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_shotgun_rare_static", "chance": 30, "magazine": 100, "repeat": [ 1, 2 ] },
+              { "item": "guns_obscure", "chance": 20, "ammo": 100, "magazine": 100, "repeat": [ 1, 2 ] }
             ],
             "=": [
               { "item": "ammo_rifle_reloaded", "chance": 40, "repeat": [ 1, 2 ] },
