@@ -444,6 +444,30 @@
 
       {
         "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_NC_FORGE_LORD_STORE_WEAK",
+        "items": [
+          { "group": "potions_common", "count": [ 2, 3 ], "prob": 100 },
+          { "group": "PSY_magi_mon_ninja_drop_scrolls", "count": [ 2, 4 ], "prob": 100 },
+          { "group": "PSY_honey_potion_shop", "count": [ 2, 3 ],"prob": 100 },
+          { "group": "PSY_magic_gun_shop_ammo_normal","prob": 100 },
+          { "group": "PSY_magic_gun_shop_ammo_rare","prob": 100 },
+          { "group": "enchanted_wands_lesser", "count": [ 1, 2 ],"prob": 100 },
+          { "group": "enchanted_rings_common", "prob": 80 },
+          { "group": "enchanted_bracelets", "prob": 32 },
+          { "group": "spellbook_loot_1", "prob": 100}
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_NC_FORGE_LORD_SHOP_WEAK",
+        "items": [ { "group": "PSY_NC_FORGE_LORD_STORE_WEAK", "count": [ 2, 3 ], "prob": 100 } ]
+      },
+
+      {
+        "type": "item_group",
         "id": "PSY_guns_rifle_common",
         "//": "Rifles commonly owned by citizens and found in many locations.",
         "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",

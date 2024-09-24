@@ -1006,6 +1006,74 @@
             { "monster": "GROUP_PSY_magi_CHESS", "x": [ 3, 4 ], "y": [ 3, 4 ]}
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for high level dungeon",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_6x6_water_pump1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 6, 6 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||",
+            "|====|",
+            "|=||=|",
+            "||||||",
+            "||==||",
+            "||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_pavement_bg_dp",
+            " ": "PSY_magi_t_dirtfloor",
+            "%": "PSY_magi_t_dirtfloor",
+            "$": "PSY_magi_t_dirtfloor",
+            "=": "t_vitrified_water_pump",
+            ",": "PSY_magi_t_dirtfloor",
+            "~": "PSY_magi_t_dirtfloor",
+            "Y": "PSY_magi_t_dirtfloor",
+            "h": "PSY_magi_t_dirtfloor",
+            "P": "PSY_magi_t_dirtfloor",
+            "!": "PSY_magi_t_dirtfloor"
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for high level dungeon",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_6x6_water_tank1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 6, 6 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||",
+            "||==||",
+            "||==||",
+            "||==||",
+            "||==||",
+            "||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_pavement_bg_dp",
+            " ": "PSY_magi_t_dirtfloor",
+            "%": "PSY_magi_t_dirtfloor",
+            "$": "PSY_magi_t_dirtfloor",
+            "=": "t_bulk_tank",
+            ",": "PSY_magi_t_dirtfloor",
+            "~": "PSY_magi_t_dirtfloor",
+            "Y": "PSY_magi_t_dirtfloor",
+            "h": "PSY_magi_t_dirtfloor",
+            "P": "PSY_magi_t_dirtfloor",
+            "!": "PSY_magi_t_dirtfloor"
+          }
+        }
       }
 
 ]

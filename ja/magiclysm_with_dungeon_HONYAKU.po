@@ -7124,3 +7124,33 @@ msgstr "泥を放った。"
 
 msgid "Blast a cone of toxic mercury toward the target."
 msgstr "ターゲットに向かって円錐状の毒性水銀を噴射する。"
+
+msgid "Oh! You came here with a map of the dungeon.\nWelcome to the Dungeon!\n\nHere you can use the coins you earn to improve your relationship with the dungeon merchants!\nAnd some supplies can also be traded."
+msgstr "おお! ダンジョンの地図を頼りにここへ来たのですね。\nダンジョンへようこそ!\n\nここでは獲得したコインを使ってダンジョン商人との関係を改善することが出来ますよ!\nそれといくつかの物資もトレードすることが出来ます。"
+
+msgid "Welcome to the Dungeon!\n\nHere you can use the coins you earn to improve your relationship with the dungeon merchants!\nAnd some supplies can also be traded."
+msgstr "ダンジョンへようこそ!\n\nダンジョンにようこそ!\n\nここでは獲得したコインを使ってダンジョン商人との関係を改善することが出来ますよ!\nそれといくつかの物資もトレードすることが出来ます。"
+
+msgid "If you are hostile to the faction of the dungeon merchants,\nyou can use the coins and you will no longer be hostile to the others, except those you have already antagonized."
+msgstr "もしダンジョン商人の勢力と敵対した場合に、コインを使えば、すでに敵対したものを除く他の者とは敵対関係ではなくなりますよ。"
+
+msgid "Is this your first time here?\n If you are hostile to the faction of the dungeon merchants,\nyou can use the coins and you will no longer be hostile to the others, except those you have already antagonized."
+msgstr "ここは初めてですか?\nもしダンジョン商人の勢力と敵対した場合に、コインを使えば、すでに敵対したものを除く他の者とは敵対関係ではなくなりますよ。"
+
+msgid "What can I do here?"
+msgstr "ここでは何ができますか？"
+
+msgid "I want to improve relations with the faction of the dungeon merchants."
+msgstr "ダンジョン商人の勢力との関係を改善したい。"
+
+msgid "Spend 100 coins to improve relations with the faction of the dungeon merchants?"
+msgstr "コインを100枚使ってダンジョン商人の勢力との関係を改善する?"
+
+msgid "[100 Magical Coin]:\nImprove relations."
+msgstr "[100 魔法のコイン]:\n関係を改善"
+
+msgid "Dungeon Mediator"
+msgstr "ダンジョン調停者"
+
+msgid "Sun・Moon・Lemon"
+msgstr "サンムーンレモン"

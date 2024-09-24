@@ -861,7 +861,6 @@
       "max_level": 0,
       "min_damage": 55,
       "max_damage": 55,
-      "damage_increment": { "math": [ "evocation_proficiency_bonus_calculate(5, 0.042)" ] },
       "min_aoe": 4,
       "max_aoe": 4,
       "min_range": 12,

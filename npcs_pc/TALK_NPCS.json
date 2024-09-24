@@ -397,5 +397,83 @@
       { "text": "What are you doing here?", "topic": "PSY_TALK_DUNGEON_COIN_EXCHANGER_DOING" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  }
+  },
+
+  {
+    "id": "PSY_TALK_DUNGEON_MEDIATOR",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_item": "PSY_magi_dungeon_map",
+      "yes": [
+        "Oh! You came here with a map of the dungeon.\nWelcome to the Dungeon!\n\nHere you can use the coins you earn to improve your relationship with the dungeon merchants!\nAnd some supplies can also be traded."
+      ],
+      "no": [ 
+        "Welcome to the Dungeon!\n\nHere you can use the coins you earn to improve your relationship with the dungeon merchants!\nAnd some supplies can also be traded."
+      ]
+    },
+    "responses": [
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "PSY_TALK_DUNGEON_MEDIATOR" },
+      { "text": "What can I do here?", "topic": "PSY_TALK_DUNGEON_MEDIATOR_DOING" },
+      { "text": "I want to improve relations with the faction of the dungeon merchants.", "topic": "PSY_TALK_DUNGEON_MEDIATOR_IMPROVE" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  },
+
+  {
+    "id": "PSY_TALK_DUNGEON_MEDIATOR_DOING",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_var": "u_met_DUNGEON_MEDIATOR",
+      "type": "general",
+      "context": "meeting",
+      "value": "yes",
+      "no": "Is this your first time here?\n If you are hostile to the faction of the dungeon merchants,\nyou can use the coins and you will no longer be hostile to the others, except those you have already antagonized.",
+      "yes": "If you are hostile to the faction of the dungeon merchants,\nyou can use the coins and you will no longer be hostile to the others, except those you have already antagonized."
+    },
+    "responses": [
+      {
+        "text": "Good day, sir.",
+        "effect": { "u_add_var": "u_met_DUNGEON_MEDIATOR", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": { "not": { "u_has_var": "u_met_DUNGEON_MEDIATOR", "type": "general", "context": "meeting", "value": "yes" } },
+        "topic": "PSY_TALK_DUNGEON_MEDIATOR"
+      }
+    ]
+  },
+  
+ {
+  "type": "talk_topic",
+  "id": "PSY_TALK_DUNGEON_MEDIATOR_IMPROVE",
+  "dynamic_line": "Spend 100 coins to improve relations with the faction of the dungeon merchants?",
+  "responses": [
+    {
+      "text": "[100 Magical Coin]:\nImprove relations.",
+      "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 100 } } },
+      "success": {
+        "topic": "PSY_TALK_DUNGEON_MEDIATOR_ANSWER",
+        "effect": [ 
+          { "math": [ "faction_trust('PSY_dungeon_marchants')", "+=", "100" ] },
+          { "math": [ "faction_like('PSY_dungeon_marchants')", "+=", "100" ] } 
+        ]
+      },
+      "failure": { "topic": "PSY_TALK_DUNGEON_MEDIATOR_NOCASH" }
+    },
+    {
+      "text": "No.",
+      "topic": "PSY_TALK_DUNGEON_MEDIATOR"
+    }
+  ]
+ },
+
+ {
+  "type": "talk_topic",
+  "id": "PSY_TALK_DUNGEON_MEDIATOR_ANSWER",
+  "dynamic_line": "Thank you very much. Is there anything else you need?",
+  "responses": [ { "text": "Maybe there is.", "topic": "PSY_TALK_DUNGEON_MEDIATOR" } ]
+ },
+ {
+  "type": "talk_topic",
+  "id": "PSY_TALK_DUNGEON_MEDIATOR_NOCASH",
+  "dynamic_line": "You don't have enough currency.",
+  "responses": [ { "text": "Yeah!", "topic": "PSY_TALK_DUNGEON_MEDIATOR" } ]
+ }
 ]

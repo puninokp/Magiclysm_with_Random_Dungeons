@@ -313,7 +313,10 @@
               {"weight": 30, "sprite":312},
               {"weight": 30, "sprite":313}
             ]
-            }
+            },
+            { "id": "PSY_magi_mon_skeleton_soldier_spear_shield" ,"fg": 320,"rotates": true},
+            { "id": "PSY_magi_mon_skeleton_soldier_sword_shield" ,"fg": 321,"rotates": true},
+            { "id": "PSY_magi_mon_skeleton_soldier_orb_staff" ,"fg": 324,"rotates": true}
           ]
         }
       ]

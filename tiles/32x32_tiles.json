@@ -967,7 +967,17 @@
             { "id": "overlay_worn_PSY_magi_mmask_zombie_disguise" ,"fg": 1060},
             { "id": "PSY_tr_landmine" ,"fg": 1063},
             { "id": "explosion_PSY_spell_fire_element_melee_heat_damage" ,"fg": 1064},
-            { "id": "explosion_PSY_magi_fire_elemental_point_flare" ,"fg": 1064}
+            { "id": "explosion_PSY_magi_fire_elemental_point_flare" ,"fg": 1064},
+            { "id": "PSY_magi_mon_skeleton_soldier_base" ,"fg": 1071},
+            { "id": "PSY_magi_mon_skeleton_soldier_daggers" ,"fg": 1072},
+            { "id": "PSY_magi_mon_skeleton_soldier_cudgel" ,"fg": 1073},
+            { "id": "PSY_magi_mon_skeleton_soldier_scythe" ,"fg": 1075},
+            { "id": "PSY_magi_mon_skeleton_soldier_dagger" ,"fg": 1076},
+            { "id": "PSY_magi_mon_skeleton_soldier_spear" ,"fg": 1078},
+            { "id": "PSY_magi_mon_skeleton_soldier_crossbow" ,"fg": 1079},
+            { "id": "PSY_magi_mon_skeleton_soldier_staff" ,"fg": 1082},
+            { "id": "PSY_magi_mon_skeleton_soldier_orb" ,"fg": 1083},
+            { "id": "PSY_magi_mon_skeleton_soldier_shield" ,"fg": 1084}
             
             
           ]

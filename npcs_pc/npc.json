@@ -63,6 +63,19 @@
       "gender": "male",
       "chat": "PSY_TALK_DUNGEON_COIN_EXCHANGER",
       "faction": "PSY_dungeon_marchants"
+    },
+
+    {
+      "type": "npc",
+      "id": "PSY_dungeon_mediator",
+      "name_unique": "Sun・Moon・Lemon",
+      "name_suffix": "Dungeon Mediator",
+      "class": "PSY_NC_FORGE_LORD_NO_SHOP_MEDIATOR",
+      "attitude": 0,
+      "mission": 3,
+      "gender": "male",
+      "chat": "PSY_TALK_DUNGEON_MEDIATOR",
+      "faction": "no_faction"
     }
 
 ]

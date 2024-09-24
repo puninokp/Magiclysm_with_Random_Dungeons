@@ -186,6 +186,43 @@
       { "item": "PSY_magi_boots_chitin", "prob": 100 },
       { "item": "PSY_mbelt_pockets_merchant", "prob": 100 }
     ]
+  },
+
+  {
+    "type": "npc_class",
+    "id": "PSY_NC_FORGE_LORD_NO_SHOP_MEDIATOR",
+    "name": { "str": "Wondrous Dreamer" },
+    "job_description": "I created this place from dreams and magic.",
+    "traits": [ { "trait": "PSY_VAULT_SUMMONER" },{ "trait": "PSY_VAULT_DEFENDER" }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "common": false,
+    "bonus_dex": { "rng": [ 50, 75 ] },
+    "bonus_str": { "rng": [ 5, 15 ] },
+    "bonus_int": { "rng": [ 50, 75 ] },
+    "bonus_per": { "rng": [ 50, 75 ] },
+    "worn_override": "PSY_NC_DUNEGON_TRADER_clothes_magicite",
+    "shopkeeper_item_group": [ { "group": "PSY_NC_FORGE_LORD_SHOP_WEAK", "rigid": true } ],
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": { "mul": [ { "one_in": 5 }, { "sum": [ { "dice": [ 2, 2 ] }, { "constant": -2 }, { "one_in": 4 } ] } ] }
+      },
+      { "skill": "mechanics", "bonus": { "one_in": 2 } },
+      { "skill": "computer", "bonus": { "one_in": 2 } },
+      { "skill": "electronics", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "speech", "bonus": { "rng": [ 10, 20 ] } }
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "PSY_NC_DUNEGON_TRADER_clothes_magicite",
+    "subtype": "collection",
+    "entries": [
+      { "item": "PSY_magi_helmet_magicite", "prob": 100 },
+      { "item": "PSY_magi_armor_magicite", "prob": 100 },
+      { "item": "PSY_magi_boots_magicite", "prob": 100 },
+      { "item": "PSY_mbelt_pockets_merchant", "prob": 100 }
+    ]
   }
 
 ]
