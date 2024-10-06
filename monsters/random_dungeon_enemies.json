@@ -4788,6 +4788,7 @@
         ],
         "vision_day": 5,
         "vision_night": 15,
+        "harvest": "exempt",
         "death_drops":  "PSY_magi_mon_rnd_gargoyle_mon_drops",
         "flags": [ "FLIES","SEES", "HEARS","STUMBLES", "SWIMS", "PUSH_MON" ]
       },
@@ -6964,7 +6965,656 @@
           "FILTHY"
         ],
         "armor": { "bash": 14,"cut": 18, "stab": 28, "acid": 2, "bullet": 19, "electric": 10 }
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_icicle_ant_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Icicle Ant" },
+        "description": "An ant-shaped mecha that can magically manipulate icicles. It can fire icicles to attack enemies. It can also collect icicles to surround and ice its enemies. It has a simple appearance with white and blue as its base color.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_icicle_ant",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 2,
+        "volume": "30 L",
+        "weight": "40750 g",
+        "hp": 40,
+        "speed": 135,
+        "material": [ "steel" ],
+        "symbol": "a",
+        "color": "light_blue",
+        "aggression": 100,
+        "morale": 100,
+        "armor": { "bash": 12,"stab": 12, "cut": 12, "bullet": 12, "electric": 8,"acid": 4, "heat":4},
+        "vision_day": 50,
+        "vision_night": 5,
+        "luminance": 3,
+        "melee_skill": 5,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "melee_damage": [ { "damage_type": "cold", "amount": 6 } ],
+        "revert_to_itype": "PSY_bot_mana_mech_icicle_ant",
+        "special_attacks": 
+          [ 
+            { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_icicle_enemy_ant_base" }, "cooldown": 22 }
+          ],
+          "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE" ]
+      },
+
+      {
+        "id": "PSY_magi_mon_ice_barrage_enemy",
+        "type": "MONSTER",
+        "name": "Ice Thorn",
+        "description": "A thorn made of flying sharp ice.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_magi_mon_ice_barrage",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "100 ml",
+        "weight": "1 g",
+        "hp": 1,
+        "speed": 200,
+        "material": [ "powder" ],
+        "symbol": "V",
+        "color": "white",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 4,
+        "melee_dice": 1,
+        "melee_dice_sides": 4,
+        "luminance": 1,
+        "dodge": 1,
+        "vision_day": 50,
+        "vision_night": 50,
+        "armor": { "bash": 4,"stab": 3, "cut": 3, "bullet": 15, "electric": 0 ,"acid": 5},
+        "special_attacks": [
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell__kaze_ice_barrage_strike" }, "cooldown": 0 }
+        ],
+        "death_function": { "message": "", "corpse_type": "NO_CORPSE" },
+        "flags": [
+          "SEES",
+          "FLIES",
+          "HARDTOSHOOT",
+          "NOGIB",
+          "NOHEAD",
+          "NO_BREATHE",
+          "COLDPROOF",
+          "PACIFIST" 
+        ]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_acid_arachnid_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Acid Arachnid"},
+        "description": "A mecha has a spider-like appearance and is capable of powerful acid attacks. The acid attack is highly potent and can dissolve all enemies.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_acid_arachnid",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 2,
+        "volume": "65 L",
+        "weight": "70750 g",
+        "hp": 85,
+        "speed": 105,
+        "material": [ "steel" ],
+        "symbol": "a",
+        "color": "light_blue",
+        "aggression": 100,
+        "morale": 100,
+        "armor": { "bash": 12,"stab": 12, "cut": 12, "bullet": 12, "electric": 8,"acid": 4, "heat":4},
+        "vision_day": 50,
+        "vision_night": 5,
+        "luminance": 10,
+        "melee_skill": 6,
+        "melee_dice": 3,
+        "melee_dice_sides": 4,
+        "melee_damage": [ { "damage_type": "acid", "amount": 10 } ],
+        "revert_to_itype": "PSY_bot_mana_mech_acid_arachnid",
+        "special_attacks": 
+        [ 
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_acid_arachnid_cone" }, "cooldown": 50 }
+        ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "ACIDPROOF","COLDPROOF", "NO_BREATHE","STUN_IMMUNE"]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_night_stalker_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Night Stalker" },
+        "description": "A mecha that can magically manipulate darkness. It can see in the dark and attack enemies. It also has sharp claws and can cut through objects. It is specialized for nighttime operations and can surprise the enemy.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_night_stalker",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "59 L",
+        "weight": "99 kg",
+        "bodytype": "human",
+        "material": [ "steel" ],
+        "speed": 130,
+        "symbol": "e",
+        "morale": 100,
+        "aggression": 100,
+        "aggro_character": false,
+        "hp": 75,
+        "color": "light_gray",
+        "armor": { "bash": 12,"stab": 12, "cut": 12, "bullet": 12, "electric": 8,"acid": 14, "heat":4},
+        "vision_day": 50,
+        "vision_night": 50,
+        "melee_skill": 7,
+        "melee_dice": 3,
+        "melee_dice_sides": 4,
+        "dodge": 5,
+        "melee_damage": [ { "damage_type": "cut", "amount": 12 } ],
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "3 s" } ],
+        "revert_to_itype": "PSY_bot_mana_mech_night_stalker",
+        "special_attacks": [],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS" ]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_blood_storm_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Blood Storm" },
+        "description": "A mecha that can magically manipulate blood. It can attack enemies, manipulate their blood with its magical power, and summon orbs of recovery around it. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_blood_storm",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "109 L",
+        "weight": "109 kg",
+        "bodytype": "human",
+        "material": [ "steel" ],
+        "speed": 120,
+        "symbol": "e",
+        "morale": 100,
+        "aggression": 100,
+        "aggro_character": false,
+        "hp": 85,
+        "color": "light_gray",
+        "armor": { "bash": 14,"stab": 14, "cut": 14, "bullet": 14, "electric": 0 ,"acid": 8, "heat":4},
+        "vision_day": 50,
+        "vision_night": 10,
+        "melee_skill": 4,
+        "melee_dice": 3,
+        "melee_dice_sides": 3,
+        "dodge": 2,
+        "luminance": 1,
+        "melee_damage": [ { "damage_type": "pure", "amount": 3 } ],
+        "revert_to_itype": "PSY_bot_mana_mech_blood_storm",
+        "special_attacks": 
+        [ 
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_blood_storm_drain" }, "cooldown": 10 }
+        ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_2_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS" ]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_light_bringer_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Light Bringer" },
+        "description": "A mecha that is magically imbued with the power of light. It can fire rays of light to attack enemies. It can also use its magical power to illuminate its surroundings, making it useful for nighttime operations. With its clean, white-based appearance, it can boost the morale of allies.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_light_bringer",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 2,
+        "volume": "30 L",
+        "weight": "40750 g",
+        "hp": 55,
+        "speed": 140,
+        "material": [ "steel" ],
+        "symbol": "a",
+        "color": "light_blue",
+        "aggression": 100,
+        "morale": 100,
+        "armor": { "bash": 12,"stab": 12, "cut": 12, "bullet": 12, "electric": 8,"acid": 4, "heat":4},
+        "vision_day": 50,
+        "vision_night": 5,
+        "luminance": 30,
+        "melee_skill": 2,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "melee_damage": [ { "damage_type": "bash", "amount": 2 } ],
+        "revert_to_itype": "PSY_bot_mana_mech_light_bringer",
+        "special_attacks": 
+        [ 
+          { "type": "spell", "spell_data": { "id": "PSY_magi_spell_mana_mech_light_bringer_laser" }, "cooldown": 20 }
+        ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER", "STUN_IMMUNE"]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_electro_bat_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Drone: Electro Bat" },
+        "description": "A magic drone that manipulates electric blasts. It can fly at high speed and attack enemies with electric blasts.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_electro_bat",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 25,
+        "material": [ "steel" ],
+        "symbol": "e",
+        "aggression": 100,
+        "morale": 100,
+        "luminance": 3,
+        "diff": 2,
+        "speed": 170,
+        "color": "light_green",
+        "dodge": 3,
+        "armor": { "bash": 4,"stab": 4, "cut": 8, "bullet": 6, "electric": 20 ,"acid": 8, "heat":4},
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "melee_skill": 5,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "vision_day": 50,
+        "vision_night": 7,
+        "revert_to_itype": "PSY_bot_mana_mech_electro_bat",
+        "melee_damage": [ { "damage_type": "electric", "amount": 9 } ],
+        "special_attacks": [ [ "TAZER", 5 ] ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_1_drops",
+        "flags": [ "SEES", "FLIES", "NOHEAD","COLDPROOF", "ELECTRONIC", "NO_BREATHE","STUN_IMMUNE","HIT_AND_RUN"]
+      },
+
+      {
+        "id": "PSY_mon_mana_mech_iron_fist_enemy",
+        "type": "MONSTER",
+        "name": { "str": "Mana Mecha: Iron Fist" },
+        "description": "A mecha that wields two huge metal fists to strike the enemy. With its strong power, it can push the enemy far away. The powerful design is based on indigo and light blue.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "looks_like":"PSY_mon_mana_mech_iron_fist",
+        "species": [ "ROBOT","PSY_MAGI_SUMMONED_MONS" ],
+        "volume": "119 L",
+        "weight": "221 kg",
+        "bodytype": "human",
+        "material": [ "steel" ],
+        "speed": 80,
+        "symbol": "e",
+        "morale": 100,
+        "aggression": 100,
+        "aggro_character": false,
+        "hp": 135,
+        "color": "light_gray",
+        "armor": { "bash": 22,"stab": 22, "cut": 32, "bullet": 32, "electric": 18,"acid": 14, "heat":34},
+        "vision_day": 50,
+        "vision_night": 10,
+        "melee_skill": 8,
+        "melee_dice": 2,
+        "melee_dice_sides": 6,
+        "luminance": 1,
+        "melee_damage": [ { "damage_type": "bash", "amount": 16 } ],
+        "revert_to_itype": "PSY_bot_mana_mech_iron_fist",
+        "special_attacks": [ 
+          { "id": "smash", "throw_strength": 52, "cooldown": 32 },
+          { "id": "slam" }
+        ],
+        "death_drops": "PSY_magi_mon_rnd_mon_mana_mech_3_drops",
+        "death_function": { "message": "The %s's interior compartment sizzles with destructive energy.", "corpse_type": "NO_CORPSE" },
+        "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "NO_BREATHE", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS" ]
+      },
+
+      {
+        "id": "PSY_magi_mon_shadow_babble",
+        "type": "MONSTER",
+        "name": {
+          "str": "shadow"
+        },
+        "description": "An animate shadow.  Looking like nothing more than an errant patch of normal shadow, it draws your attention by the way it moves subtly and whispers softly in the back of your mind.  Strange intrusive thoughts accompany the quiet murmur, trying to forcefully supplant your own.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 5,
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 80,
+        "speed": 100,
+        "symbol": "A",
+        "color": "dark_gray",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 6,
+        "melee_dice": 1,
+        "luminance": 1,
+        "melee_dice_sides": 3,
+        "melee_damage": [
+          {
+            "damage_type": "bash",
+            "amount": 0
+          }
+        ],
+        "dodge": 5,
+        "vision_day": 50,
+        "families": [
+          "prof_wp_netherium_abomination"
+        ],
+        "weakpoint_sets": [
+          "wps_netherium_abomination"
+        ],
+        "harvest": "exempt",
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "1 s" } ],
+        "death_function": {
+          "corpse_type": "NO_CORPSE",
+          "message": "The %s melts away."
+        },
+        "flags": [
+          "SEES",
+          "HEARS",
+          "GOODHEARING",
+          "SMELLS",
+          "NOHEAD",
+          "HARDTOSHOOT",
+          "WEBWALK",
+          "FLIES",
+          "PLASTIC",
+          "SUNDEATH",
+          "ELECTRIC",
+          "ACIDPROOF",
+          "HIT_AND_RUN",
+          "NO_BREATHE",
+          "NOGIB"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_shadow_fairy",
+        "type": "MONSTER",
+        "name": {
+          "str": "shadow"
+        },
+        "description": "An animate shadow.  Looking like nothing more than an errant patch of normal shadow, it draws your attention by the way it moves subtly and whispers softly in the back of your mind.  Strange intrusive thoughts accompany the quiet murmur, trying to forcefully supplant your own.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 5,
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 20,
+        "speed": 150,
+        "symbol": "A",
+        "color": "dark_gray",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 6,
+        "melee_dice": 1,
+        "luminance": 1,
+        "melee_dice_sides": 3,
+        "melee_damage": [
+          {
+            "damage_type": "cut",
+            "amount": 0
+          }
+        ],
+        "dodge": 7,
+        "vision_day": 50,
+        "families": [
+          "prof_wp_netherium_abomination"
+        ],
+        "weakpoint_sets": [
+          "wps_netherium_abomination"
+        ],
+        "harvest": "exempt",
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "1 s" } ],
+        "death_function": {
+          "corpse_type": "NO_CORPSE",
+          "message": "The %s melts away."
+        },
+        "flags": [
+          "SEES",
+          "HEARS",
+          "GOODHEARING",
+          "SMELLS",
+          "NOHEAD",
+          "HARDTOSHOOT",
+          "WEBWALK",
+          "FLIES",
+          "PLASTIC",
+          "SUNDEATH",
+          "ELECTRIC",
+          "ACIDPROOF",
+          "HIT_AND_RUN",
+          "NO_BREATHE",
+          "NOGIB"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_shadow_wisp",
+        "type": "MONSTER",
+        "name": {
+          "str": "shadow"
+        },
+        "description": "An animate shadow.  Looking like nothing more than an errant patch of normal shadow, it draws your attention by the way it moves subtly and whispers softly in the back of your mind.  Strange intrusive thoughts accompany the quiet murmur, trying to forcefully supplant your own.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 5,
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 10,
+        "speed": 140,
+        "symbol": "A",
+        "color": "dark_gray",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 3,
+        "melee_dice": 1,
+        "luminance": 1,
+        "melee_dice_sides": 2,
+        "melee_damage": [
+          {
+            "damage_type": "cold",
+            "amount": 1
+          }
+        ],
+        "dodge": 7,
+        "vision_day": 50,
+        "families": [
+          "prof_wp_netherium_abomination"
+        ],
+        "weakpoint_sets": [
+          "wps_netherium_abomination"
+        ],
+        "harvest": "exempt",
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "1 s" } ],
+        "death_function": {
+          "corpse_type": "NO_CORPSE",
+          "message": "The %s melts away."
+        },
+        "flags": [
+          "SEES",
+          "HEARS",
+          "GOODHEARING",
+          "SMELLS",
+          "NOHEAD",
+          "HARDTOSHOOT",
+          "WEBWALK",
+          "FLIES",
+          "PLASTIC",
+          "SUNDEATH",
+          "ELECTRIC",
+          "ACIDPROOF",
+          "HIT_AND_RUN",
+          "NO_BREATHE",
+          "NOGIB"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_shadow_frog",
+        "type": "MONSTER",
+        "name": {
+          "str": "shadow"
+        },
+        "description": "An animate shadow.  Looking like nothing more than an errant patch of normal shadow, it draws your attention by the way it moves subtly and whispers softly in the back of your mind.  Strange intrusive thoughts accompany the quiet murmur, trying to forcefully supplant your own.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 5,
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 100,
+        "speed": 70,
+        "symbol": "A",
+        "color": "dark_gray",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 2,
+        "melee_dice": 1,
+        "luminance": 1,
+        "melee_dice_sides": 4,
+        "melee_damage": [
+          {
+            "damage_type": "cold",
+            "amount": 1
+          }
+        ],
+        "dodge": 3,
+        "vision_day": 50,
+        "families": [
+          "prof_wp_netherium_abomination"
+        ],
+        "weakpoint_sets": [
+          "wps_netherium_abomination"
+        ],
+        "harvest": "exempt",
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "1 s" } ],
+        "death_function": {
+          "corpse_type": "NO_CORPSE",
+          "message": "The %s melts away."
+        },
+        "flags": [
+          "SEES",
+          "HEARS",
+          "GOODHEARING",
+          "SMELLS",
+          "NOHEAD",
+          "HARDTOSHOOT",
+          "WEBWALK",
+          "FLIES",
+          "PLASTIC",
+          "SUNDEATH",
+          "ELECTRIC",
+          "ACIDPROOF",
+          "HIT_AND_RUN",
+          "NO_BREATHE",
+          "NOGIB"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_shadow_seed",
+        "type": "MONSTER",
+        "name": {
+          "str": "shadow"
+        },
+        "description": "An animate shadow.  Looking like nothing more than an errant patch of normal shadow, it draws your attention by the way it moves subtly and whispers softly in the back of your mind.  Strange intrusive thoughts accompany the quiet murmur, trying to forcefully supplant your own.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "diff": 5,
+        "volume": "750 ml",
+        "weight": "1 kg",
+        "hp": 50,
+        "speed": 90,
+        "symbol": "A",
+        "color": "dark_gray",
+        "aggression": 100,
+        "morale": 100,
+        "melee_skill": 3,
+        "melee_dice": 1,
+        "luminance": 1,
+        "melee_dice_sides": 3,
+        "melee_damage": [
+          {
+            "damage_type": "biological",
+            "amount": 1
+          }
+        ],
+        "dodge": 4,
+        "vision_day": 50,
+        "families": [
+          "prof_wp_netherium_abomination"
+        ],
+        "weakpoint_sets": [
+          "wps_netherium_abomination"
+        ],
+        "harvest": "exempt",
+        "emit_fields": [ { "emit_id": "PSY_magi_emit_darkness_weak", "delay": "1 s" } ],
+        "death_function": {
+          "corpse_type": "NO_CORPSE",
+          "message": "The %s melts away."
+        },
+        "flags": [
+          "SEES",
+          "HEARS",
+          "GOODHEARING",
+          "SMELLS",
+          "NOHEAD",
+          "HARDTOSHOOT",
+          "WEBWALK",
+          "FLIES",
+          "PLASTIC",
+          "SUNDEATH",
+          "ELECTRIC",
+          "ACIDPROOF",
+          "HIT_AND_RUN",
+          "NO_BREATHE",
+          "NOGIB"
+        ]
+      },
+
+      {
+        "id": "PSY_magi_mon_alien_tantacle",
+        "type": "MONSTER",
+        "name": { "str": "Tentacled Eye" },
+        "description": "This gigantic being has one large, unusually developed eye and countless undulating tentacles. Its appearance is said to be that of an intruder from another world, giving it a somewhat eerie and disfiguring aura.",
+        "default_faction": "PSY_magi_random_dungeon_monsters",
+        "species": [ "PSY_MAGI_SUMMONED_MONS" ],
+        "bodytype": "migo",
+        "volume": "108500 ml",
+        "weight": "120 kg",
+        "hp": 210,
+        "speed": 120,
+        "material": [ "mi-go_flesh" ],
+        "symbol": "&",
+        "color": "pink",
+        "aggression": 20,
+        "morale": 30,
+        "melee_skill": 5,
+        "melee_dice": 4,
+        "melee_dice_sides": 6,
+        "melee_damage": [ { "damage_type": "cut", "amount": 6 } ],
+        "dodge": 4,
+        "bleed_rate": 75,
+        "vision_day": 50,
+        "vision_night": 20,
+        "weakpoint_sets": [ "wps_mi-go", "wps_natural_armor" ],
+        "families": [ "prof_wp_mi-go_basic", "prof_wp_mi-go_advanced", "prof_wp_nat_armored" ],
+        "harvest": "mi-go",
+        "path_settings": { "max_dist": 50, "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
+        "scents_ignored": [ "sc_fetid" ],
+        "special_attacks": [
+          { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] }
+        ],
+        "flags": [
+          "SEES",
+          "SMELLS",
+          "HEARS",
+          "WARM",
+          "HAS_MIND",
+          "BASHES",
+          "POISON",
+          "NO_BREATHE",
+          "ARTHROPOD_BLOOD",
+          "PATH_AVOID_DANGER",
+          "PRIORITIZE_TARGETS",
+          "CORNERED_FIGHTER"
+        ],
+        "armor": { "bash": 4, "cut": 12, "bullet": 10, "electric": 2 }
       }
+
 
 
 

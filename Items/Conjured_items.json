@@ -1264,11 +1264,11 @@
         "symbol": "_",
         "weight": "35133 g",
         "volume": "35750 ml",
-        "countdown_interval": 1,
+        "countdown_interval": "1 seconds",
         "countdown_action": { 
-          "type": "cast_spell", "spell_id": "PSY_magi_spell_awaken_gargoyle", "no_fail": true, "level": 0 
+          "type": "cast_spell", "spell_id": "PSY_magi_spell_summon_gargoyle", "no_fail": true, "level": 0 
         },
-        "flags": [ "TRADER_AVOID", "BOMB","ACTIVATE_ON_PLACE" ]
+        "flags": [ "TRADER_AVOID", "SPAWN_ACTIVE" ]
       },
 
       {

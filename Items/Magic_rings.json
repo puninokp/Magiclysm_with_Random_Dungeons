@@ -221,7 +221,7 @@
     "price_postapoc": "6000 USD",
     "name": { "str": "ring of bionic power"},
     "description": "A golden ring that increases the maximum value of bionic power when you wear it.",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BIONIC_POWER", "add": 500 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BIONIC_POWER", "add": 200000000 } ] } ] }
   },
 
   {
@@ -493,5 +493,83 @@
         }
         ] 
       }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_throw_str",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of long throw"},
+    "description": "When equipped, this ring greatly increases the distance to throw things.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "THROW_STR", "add": 10.0 }
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_throw_damage",
+    "price_postapoc": "6000 USD",
+    "name": { "str": "ring of heavy throw"},
+    "description": "When equipped, this ring increases the damage to throw things.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "THROW_DAMAGE", "multiply": 1.0 }
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_bionic_power+1",
+    "looks_like":"PSY_mring_bionic_power",
+    "price_postapoc": "12000 USD",
+    "name": { "str": "ring of bionic power+1"},
+    "description": "A platinum ring that increases the maximum value of bionic power when you wear it.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "BIONIC_POWER", "add": 500000000 }
+          ] 
+        } 
+      ] 
+    }
+  },
+
+  {
+    "copy-from": "PSY_mring_platinum",
+    "type": "TOOL_ARMOR",
+    "id": "PSY_mring_bionic_power+2",
+    "looks_like":"PSY_mring_bionic_power",
+    "price_postapoc": "30000 USD",
+    "name": { "str": "ring of bionic power+2"},
+    "description": "A platinum ring that increases the maximum value of bionic power when you wear it.",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "BIONIC_POWER", "add": 1000000000 }
+          ] 
+        } 
+      ] 
+    }
   }
 ]

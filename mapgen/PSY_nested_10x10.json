@@ -649,6 +649,135 @@
             ]
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_10x10_glass1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "|GGG||GGG|",
+            "|G||||||G|",
+            "|G|+||+|G|",
+            "||||GG||||",
+            "||||GG||||",
+            "|G|+||+|G|",
+            "|G||||||G|",
+            "|GGG||GGG|",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_linoleum_white",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "G":"t_ballistic_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "+": { "monster": "PSY_mon_mana_mech_icicle_ant_enemy", "chance": 75 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_10x10_glass2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "|||GGGG|||",
+            "|G||||||G|",
+            "|G|+||+|G|",
+            "||||||||||",
+            "||||||||||",
+            "|G|+||+|G|",
+            "|G||||||G|",
+            "|||GGGG|||",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_linoleum_white",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "G":"t_ballistic_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "+": { "monster": "PSY_mon_mana_mech_icicle_ant_enemy", "chance": 75 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_10x10_glass3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "|||G||G|||",
+            "|||G||G|||",
+            "|||+||+|||",
+            "||GG||GG||",
+            "|||+||+|||",
+            "|||G||G|||",
+            "|G||||||G|",
+            "|GGG||GGG|",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_linoleum_white",
+            "+": "PSY_magi_t_linoleum_white",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "G": "t_ballistic_glass",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "+": { "monster": "PSY_mon_mana_mech_icicle_ant_enemy", "chance": 75 }
+          }
+        }
       }
 
 

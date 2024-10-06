@@ -290,6 +290,18 @@
       },
 
       {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_RND_TOTEMS2",
+        "default": "PSY_magi_rnd_mon_blind_totem",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_rnd_mon_Slow_totem", "freq": 300, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_taunt_totem", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_rnd_mon_plague_rat_totem", "freq": 450, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
         "name": "GROUP_PSY_magi_EGG_THUNDER",
         "type": "monstergroup",
         "default": "PSY_magi_rnd_mon_thunder_bird_chick",
@@ -1013,6 +1025,20 @@
           { "monster": "PSY_magi_rnd_mon_mascara_doll", "freq": 425, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_ghost", "freq": 150, "cost_multiplier": 1 },
           { "monster": "PSY_magi_rnd_mon_gnome_warrior", "freq": 400, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_SHADOW",
+        "default": "PSY_magi_mon_shadow_wisp",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_mon_shadow_babble", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_shadow_fairy", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_shadow_wisp", "freq": 150, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_shadow_frog", "freq": 200, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_shadow_seed", "freq": 200, "cost_multiplier": 1 }
         ]
       }
 

@@ -977,7 +977,13 @@
             { "id": "PSY_magi_mon_skeleton_soldier_crossbow" ,"fg": 1079},
             { "id": "PSY_magi_mon_skeleton_soldier_staff" ,"fg": 1082},
             { "id": "PSY_magi_mon_skeleton_soldier_orb" ,"fg": 1083},
-            { "id": "PSY_magi_mon_skeleton_soldier_shield" ,"fg": 1084}
+            { "id": "PSY_magi_mon_skeleton_soldier_shield" ,"fg": 1084},
+            { "id": "PSY_magi_mon_shadow_babble" ,"fg": 1110},
+            { "id": "PSY_magi_mon_shadow_fairy" ,"fg": 1111},
+            { "id": "PSY_magi_mon_shadow_wisp" ,"fg": 1112},
+            { "id": "PSY_magi_mon_shadow_frog" ,"fg": 1113},
+            { "id": "PSY_magi_mon_shadow_seed" ,"fg": 1114},
+            { "id": "PSY_magi_mon_alien_tantacle" ,"fg": 1121}
             
             
           ]

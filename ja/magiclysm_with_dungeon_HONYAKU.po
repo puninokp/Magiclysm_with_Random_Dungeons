@@ -3044,10 +3044,10 @@ msgid "A golden ring that increases the maximum value of stamina when you wear i
 msgstr "身につけるとスタミナの最大値が上がる黄金の指輪。"
 
 msgid "ring of bionic power"
-msgstr "バイオ電力のリング"
+msgstr "蓄電容量のリング"
 
 msgid "A golden ring that increases the maximum value of bionic power when you wear it."
-msgstr "装着するとバイオニック電力の最大値が増加する黄金の指輪。"
+msgstr "装着すると蓄電容量の最大値が増加する黄金の指輪。"
 
 msgid "ring of resting"
 msgstr "休息のリング"
@@ -7154,3 +7154,30 @@ msgstr "ダンジョン調停者"
 
 msgid "Sun・Moon・Lemon"
 msgstr "サンムーンレモン"
+
+msgid "ring of long throw"
+msgstr "遠投の指輪"
+
+msgid "When equipped, this ring greatly increases the distance to throw things."
+msgstr "装備すると、物を投げる距離が大幅に増える指輪です。"
+
+msgid "ring of heavy throw"
+msgstr "重投の指輪"
+
+msgid "When equipped, this ring increases the damage to throw things."
+msgstr "装備すると、投げた物が与えるダメージが増える指輪です。"
+
+msgid "ring of bionic power+1"
+msgstr "蓄電容量のリング+1"
+
+msgid "ring of bionic power+2"
+msgstr "蓄電容量のリング+2"
+
+msgid "A platinum ring that increases the maximum value of bionic power when you wear it."
+msgstr "装着すると蓄電容量の最大値が増加するプラチナの指輪。"
+
+msgid "Tentacled Eye"
+msgstr "テンタクルアイ"
+
+msgid "This gigantic being has one large, unusually developed eye and countless undulating tentacles. Its appearance is said to be that of an intruder from another world, giving it a somewhat eerie and disfiguring aura."
+msgstr "この巨大な存在は、異様に発達した一つの大きな目と、無数のうねる触手を持っています。その姿は、異界からの侵入者とも言われ、どこか不気味で禍々しいオーラを放っています。"

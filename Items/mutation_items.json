@@ -9,7 +9,7 @@
         "quench": 10,
         "calories": 75,
         "volume": "250ml",
-        "fun": -1,
+        "fun": 1,
         "healthy": 1,
         "symbol": "~",
         "looks_like": "mana_potion_lesser",

@@ -192,6 +192,99 @@
             { "monster": "GROUP_PSY_magi_ICE_GOLEMS", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.15}
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_11x11_dead_tree1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 11, 11 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||||",
+            "|||||T|||||",
+            "||T||||TT||",
+            "|||||||||||",
+            "|||||T|||||",
+            "||||||||T||",
+            "|||T|||||||",
+            "||||||||T||",
+            "|||||TT||||",
+            "|||T|||||||",
+            "|||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "M": "PSY_magi_t_dirt",
+            "#": "t_rock",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "T": "t_tree_very_dead",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [ [ "f_null", 10 ], "f_boulder_small" ]
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_RND_TOTEMS2", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.15}
+          ]
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_11x11_dead_tree2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 11, 11 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "!!!!!!!!!!!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!|||||||||!",
+            "!!!!!!!!!!!"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [ [ "PSY_magi_t_dirt", 7 ], "t_tree_very_dead" ],
+            "M": "PSY_magi_t_dirt",
+            "#": "t_rock",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "T": "t_tree_very_dead",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": [
+            { "monster": "GROUP_PSY_magi_RND_TOTEMS2", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.15}
+          ]
+        }
       }
 
 

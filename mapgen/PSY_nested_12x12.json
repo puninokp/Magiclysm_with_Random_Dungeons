@@ -1300,6 +1300,115 @@
             
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_12x12_bush1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": [
+              [ "PSY_magi_t_dirt", 20 ],
+              "t_shrub_rose",
+              "t_shrub_grape",
+              "t_shrub_lilac",
+              "t_shrub_peanut",
+              "t_shrub_raspberry",
+              "t_shrub_blueberry",
+              "t_shrub_hydrangea",
+              "t_shrub_strawberry",
+              "t_shrub_blackberry",
+              "t_shrub_huckleberry"
+            ],
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_MONSTER_APPLES", "x": [ 1, 10 ], "y": [ 1, 10 ], "density": 0.25}
+          ]
+        }
+      },
+
+      
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_12x12_mirror1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||",
+            "||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [ [ "f_null", 5 ],"f_bigmirror", "f_bigmirror_b" ]
+          },
+          "item": { 
+            "|": { "item": "glass_shard", "chance": 40 }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_MON_STRONG", "x": [ 1, 10 ], "y": [ 1, 10 ], "density": 0.20}
+          ]
+        }
       }
 
       

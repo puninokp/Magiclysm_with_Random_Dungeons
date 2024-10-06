@@ -1196,6 +1196,55 @@
             "Y": { "monster": "PSY_magi_rnd_mon_delusionian_eye", "chance": 100 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_9x9_cardboard1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 9, 9 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||",
+            "|||||||||",
+            "||||B||||",
+            "|||BXB|||",
+            "||BXXXB||",
+            "|BXXXXXB|",
+            "|BBBBBBB|",
+            "|||||||||",
+            "|||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_linoleum_gray",
+            "+": "PSY_magi_t_dirt",
+            "B": "PSY_magi_t_linoleum_white",
+            "X": "PSY_magi_t_linoleum_white",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "B": "f_cardboard_box"
+          },
+          "items": { 
+            "B": { "item": "PSY_magi_group_rice_balls", "chance": 33 }
+          },
+          "place_monsters": 
+          [ 
+            { "monster": "GROUP_PSY_magi_DUNGEON_MON_STRONG", "x": [ 1, 8 ], "y": [ 1, 8 ], "density": 0.10}
+          ]
+        }
       }
 
 

@@ -998,11 +998,11 @@
               {
                 "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
                 "then": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1800" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "6" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ],
                 "else": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1500" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "5" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ]
               }
@@ -1011,11 +1011,11 @@
               {
                 "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
                 "then": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1200" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "4" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ],
                 "else": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "900" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "3" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ]
               }
@@ -1029,11 +1029,11 @@
               {
                 "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
                 "then": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "900" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "3" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ],
                 "else": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "600" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "2" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ]
               }
@@ -1042,7 +1042,7 @@
               {
                 "if": { "u_has_worn_with_flag": "PSY_enchant_regen_mana_1" },
                 "then": [
-                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "300" ] },
+                  { "math": [ "u_EOC_PSY_enchant_regen_mana_val", "=", "1" ] },
                   { "u_add_effect": "PSY_enchant_regen_mana", "duration": "PERMANENT" }
                 ],
                 "else": { "u_lose_effect": "PSY_enchant_regen_mana" }
@@ -1062,7 +1062,7 @@
     "desc": [ "The status is increased by the armor currently being equipped.\nIf the status is not applied, it can be resolved by re-equipping the equipment." ],
     "rating": "good",
     "show_in_info": true,
-    "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": { "math": [ "u_EOC_PSY_enchant_regen_mana_val" ] } } ] } ]
+    "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": { "math": [ "u_EOC_PSY_enchant_regen_mana_val * 0.1" ] } } ] } ]
   },
 
   {

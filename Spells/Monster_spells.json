@@ -4486,6 +4486,46 @@
 
   {
     "type": "SPELL",
+    "id": "PSY_magi_spell_mana_mech_icicle_enemy_ant_base",
+    "name": "Eye Laser",
+    "description": "Causes one of the summon spells to be cast.",
+    "valid_targets": ["hostile","self","ground"],
+    "effect": "none",
+    "shape": "blast",
+    "min_damage": 2,
+    "max_damage": 2,
+    "base_casting_time": 100,
+    "flags": ["NO_EXPLOSION_SFX","WONDER","NO_LEGS", "NO_HANDS","IGNORE_WALLS","NO_PROJECTILE" ],
+    "min_range": 15,
+    "max_range": 15,
+    "message": "",
+    "extra_effects": [
+      { "id": "PSY_magi_spell_mana_mech_icicle_ant_summon_icicle_enemy", "hit_self": true}
+    ]
+  },
+
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_spell_mana_mech_icicle_ant_summon_icicle_enemy",
+    "name": "Summon icicle",
+    "description": "",
+    "flags": ["NO_EXPLOSION_SFX","SILENT", "NO_PROJECTILE","RANDOM_TARGET","HOSTILE_SUMMON"],
+    "valid_targets": [ "ground" ],
+    "base_casting_time": 100,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 4,
+    "max_range": 4,
+    "min_duration": 500,
+    "max_duration": 500,
+    "message": "",
+    "shape": "blast",
+    "effect": "summon",
+    "effect_str": "PSY_magi_mon_ice_barrage_enemy"
+  },
+
+  {
+    "type": "SPELL",
     "id": "PSY_magi_spell_mana_mech_light_bringer_laser",
     "name": "Eye Laser",
     "description": "Causes one of the summon spells to be cast.",

@@ -1510,13 +1510,12 @@
     "flags": [ "BLOCKSDOOR", "MINEABLE"],
     "light_emitted": 0,
     "bash": {
-      "str_min": 48,
-      "str_max": 120,
+      "str_min": 1,
+      "str_max": 1,
       "sound": "smash!",
       "sound_fail": "thump.",
       "items": [
-        { "item": "splinter", "count": [ 0, 20 ] },
-        { "item": "rock", "count": [ 8, 12 ] }
+        { "item": "PSY_magi_item_gargoyle_awaken_act_EX4", "prob": 100 }
       ]
     }
   },
@@ -1565,7 +1564,7 @@
       "sound": "glass shattering!",
       "sound_fail": "mana crackling!",
       "items": [
-        { "item": "PSY_magi_item_gargoyle_awaken_act_EX3", "prob": 100 }
+        { "item": "PSY_magi_item_gargoyle_awaken_act_EX4", "prob": 100 }
       ]
     }
   },
