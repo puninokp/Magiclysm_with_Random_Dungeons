@@ -1431,7 +1431,8 @@
     "8": {
       "//3":"nested_8x8",
       "chunks": [
-        [ "PSY_magi_nested_room_8x8_null", 1 ]
+        [ "PSY_magi_nested_room_8x8_null", 1 ],
+        [ "PSY_magi_nested_high_room_8x8_alien1", 3]
       ]
     },
 

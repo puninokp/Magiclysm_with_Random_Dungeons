@@ -2246,7 +2246,12 @@
             "Y": "f_trashcan",
             "L": "f_locker",
             "m": "f_mannequin"
-          }
+          },
+          "place_monster": [
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 3, "y": 3 },
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 4, "y": 4 },
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 5, "y": 5 }
+          ]
         }
       }
 
