@@ -214,9 +214,8 @@
         "stack_size": 1,
         "fun": -8,
         "flags": [ "FREEZERBURN", "RAW" ],
-        "rot_spawn": "GROUP_PSY_magi_EGG_THUNDER",
-        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ]],
-        "rot_spawn_chance": 75
+        "rot_spawn": { "group": "GROUP_PSY_magi_EGG_THUNDER", "chance": 75 },
+        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ]]
     },
 
     {
@@ -240,9 +239,8 @@
         "stack_size": 1,
         "fun": -8,
         "flags": [ "FREEZERBURN", "RAW" ],
-        "rot_spawn": "GROUP_PSY_magi_EGG_BLAZE",
-        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ] ],
-        "rot_spawn_chance": 75
+        "rot_spawn": { "group": "GROUP_PSY_magi_EGG_BLAZE", "chance": 75 },
+        "vitamins": [  [ "calcium", 3 ], [ "iron", 4 ] ]
     },
 
     {

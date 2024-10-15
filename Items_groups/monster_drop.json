@@ -218,8 +218,8 @@
         "entries": [ 
             { "item": "PSY_magi_magical_coin_bronze", "count": [ 10, 30 ] } ,
             { "group": "PSY_magi_mon_ninja_drop_scrolls", "prob": 3 },
-            { "group": "potions_common", "count-min": 2, "count-max": 3 },
-            { "group": "alchemy_items", "count-min": 3, "count-max": 5 }
+            { "group": "potions_common", "count": [ 2, 3 ] },
+            { "group": "alchemy_items", "count": [ 3, 5 ] }
         ]
     },
 
