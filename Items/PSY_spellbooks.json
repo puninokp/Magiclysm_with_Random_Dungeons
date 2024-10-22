@@ -768,6 +768,22 @@
         "color": "light_blue",
         "name": { "str": "Scroll of [Hot bento]", "str_pl": "Scrolls of [Hot bento]" },
         "description": "You can read this scroll to learn [Hot bento].\n Placing a warding on foods or drinks that are not in wrappers or bottles, warms the target items and makes it tastier."
+    },
+
+    {
+        "id": "PSY_magi_magic_element_shapeshifter",
+        "type": "BOOK",
+        "name": { "str": "The Element Shape Shifter Book", "str_pl": "copies of The Element Shape Shifter Book" },
+        "//": "3 classless spell",
+        "looks_like": "PSY_magi_ice_mage_book",
+        "description": "A magic book that describes how to inhabit spirits in the body and how to transform into them.",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 250000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_shapeshift_to_element_spell"] }
     }
 
 ]

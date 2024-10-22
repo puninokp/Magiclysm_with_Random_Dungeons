@@ -9,5 +9,11 @@
     "type": "SPECIES",
     "id": "PSY_MAGI_CHESS_MONS",
     "description": "a chess creature"
+  },
+
+  {
+    "type": "SPECIES",
+    "id": "PSY_MAGI_GUARDIAN",
+    "description": "a summoned creature"
   }
 ]

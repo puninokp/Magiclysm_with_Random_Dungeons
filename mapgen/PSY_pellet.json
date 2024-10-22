@@ -1309,8 +1309,7 @@
         [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
         [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ],
         [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_3_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 1 ]
+        [ "PSY_magi_room_big_3F4F_24x24_3room_3_NSWE", 3 ]
       ]
     },
     "2": {
@@ -1319,8 +1318,7 @@
         [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
         [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
         [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 1 ]
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ]
       ]
     },
     "3": {
@@ -1336,10 +1334,10 @@
     "4": {
       "//3":"nested_24x24_W",
       "chunks": [
-        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
         [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 1 ]
       ]
     },
@@ -1356,10 +1354,10 @@
     "6": {
       "//3":"nested_24x24_E",
       "chunks": [
-        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
         [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 1 ]
       ]
     },
@@ -1376,10 +1374,10 @@
     "8": {
       "//3":"nested_24x24_S",
       "chunks": [
-        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 3 ],
-        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 3 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_2_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_2room_1_NSWE", 30 ],
+        [ "PSY_magi_room_big_3F4F_24x24_3room_1_NSWE", 30 ],
         [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 1 ]
       ]
     },
@@ -1392,6 +1390,12 @@
         [ "PSY_magi_room_big_3F4F_24x24_3room_3_NSWE", 3 ],
         [ "PSY_magi_room_big_3F4F_24x24_3room_2_NSWE", 3 ]
       ]
+    },
+    "X": {
+      "//3":"nested_24x24_SE",
+      "chunks": [
+        [ "PSY_magi_room_big_3F4F_24x24_1room_1_NSWE", 10 ]
+      ]
     }
   }
 },
@@ -1403,23 +1407,23 @@
     "5": {
       "//4":"nested_5x5",
       "chunks": [
-        [ "PSY_magi_nested_room_5x5_magicshop_4", 2 ]
+        [ "PSY_magi_nested_high_room_5x5_campfire1", 5 ]
       ]
     },
 
     "6": {
       "//2":"nested_6x6",
       "chunks": [
-        [ "PSY_magi_nested_room_6x6_null", 1 ],
         [ "PSY_magi_nested_high_room_6x6_water_pump1", 10 ],
-        [ "PSY_magi_nested_high_room_6x6_water_tank1", 10 ]
+        [ "PSY_magi_nested_high_room_6x6_water_tank1", 10 ],
+        [ "PSY_magi_nested_high_room_6x6_pumpkin1", 10 ],
+        [ "PSY_magi_nested_high_room_6x6_plant1", 10 ]
       ]
     },
 
     "7": {
       "//3":"nested_7x7",
       "chunks": [
-        [ "PSY_magi_nested_room_7x7_null", 1 ],
         [ "PSY_magi_nested_high_room_7x7_shadow1", 4 ],
         [ "PSY_magi_nested_high_room_7x7_gargoyle", 2 ],
         [ "PSY_magi_nested_high_room_7x7_gargoyle2", 2 ],
@@ -1431,47 +1435,53 @@
     "8": {
       "//3":"nested_8x8",
       "chunks": [
-        [ "PSY_magi_nested_room_8x8_null", 1 ],
-        [ "PSY_magi_nested_high_room_8x8_alien1", 3]
+        [ "PSY_magi_nested_high_room_8x8_alien1", 3],
+        [ "PSY_magi_nested_high_room_8x8_alien2", 2],
+        [ "PSY_magi_nested_high_room_8x8_alien3", 2]
       ]
     },
 
     "9": {
       "//3":"nested_9x9",
       "chunks": [
-        [ "PSY_magi_nested_room_9x9_null", 1 ],
-        [ "PSY_magi_nested_high_room_9x9_cardboard1", 3 ]
+
+        [ "PSY_magi_nested_high_room_9x9_cardboard1", 3 ],
+        [ "PSY_magi_nested_high_room_9x9_skeleton1", 3 ],
+        [ "PSY_magi_nested_high_room_9x9_skeleton2", 3 ]
       ]
     },
     "X": {
       "//3":"nested_10x10",
       "chunks": [
-        [ "PSY_magi_nested_room_10x10_null", 1 ],
-        [ "PSY_magi_nested_high_room_10x10_glass1", 1 ],
-        [ "PSY_magi_nested_high_room_10x10_glass2", 1 ],
-        [ "PSY_magi_nested_high_room_10x10_glass3", 1 ]
+        [ "PSY_magi_nested_high_room_10x10_glass1", 2 ],
+        [ "PSY_magi_nested_high_room_10x10_glass2", 2 ],
+        [ "PSY_magi_nested_high_room_10x10_glass3", 2 ],
+        [ "PSY_magi_nested_high_room_vending_machine1", 1 ],
+        [ "PSY_magi_nested_high_room_vending_machine2", 1 ],
+        [ "PSY_magi_nested_high_room_vending_machine3", 1 ]
       ]
     },
     "1": {
       "//3":"nested_11x11",
       "chunks": [
-        [ "PSY_magi_nested_room_11x11_null", 1 ],
-        [ "PSY_magi_nested_high_room_11x11_dead_tree1", 1 ],
-        [ "PSY_magi_nested_high_room_11x11_dead_tree2", 3 ]
+        [ "PSY_magi_nested_high_room_11x11_dead_tree1", 2 ],
+        [ "PSY_magi_nested_high_room_11x11_dead_tree2", 3 ],
+        [ "PSY_magi_nested_high_room_11x11_treasureroom1", 1 ]
       ]
     },
     "2": {
       "//3":"nested_12x12",
       "chunks": [
-        [ "PSY_magi_nested_room_12x12_null", 1 ],
         [ "PSY_magi_nested_high_room_12x12_bush1", 4 ],
-        [ "PSY_magi_nested_high_room_12x12_mirror1", 4 ]
+        [ "PSY_magi_nested_high_room_12x12_mirror1", 4 ],
+        [ "PSY_magi_nested_high_room_12x12_mech1", 1 ],
+        [ "PSY_magi_nested_high_room_12x12_marchant1", 2 ]
       ]
     },
     "4": {
       "//3":"nested_14x14",
       "chunks": [
-        [ "PSY_magi_nested_room_14x14_null", 1 ]
+        [ "PSY_magi_nested_room_14x14_miniboss1", 5 ]
       ]
     }
 

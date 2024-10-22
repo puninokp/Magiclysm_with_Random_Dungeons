@@ -2253,6 +2253,132 @@
             { "monster": "PSY_magi_mon_alien_tantacle", "x": 5, "y": 5 }
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_8x8_alien2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||||||||",
+            "||~~||||",
+            "||~~||||",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_platform_resin",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "t_platform_resin",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "#": "f_counter",
+            "C": "f_counter_gate_c",
+            "%": "f_sink",
+            "R": "f_rack",
+            "r": "f_warehouse_shelf",
+            "O": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "o": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "|": [ [ "f_null", 8 ], "f_alien_pod","f_alien_pod_organ","f_alien_table" ],
+            "x": "f_locker",
+            "B": "f_bulletin",
+            "^": "f_indoor_plant",
+            "F": "f_filing_cabinet",
+            "c": "f_chair",
+            "f": "f_fridge",
+            "I": "f_desk",
+            "Y": "f_trashcan",
+            "L": "f_locker",
+            "m": "f_mannequin"
+          },
+          "item": {
+            "|": { "item": "blood", "chance": 40 },
+            "~": { "item": "blood_acid", "chance": 70 }
+          },
+          "place_monster": [
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 3, "y": 3 },
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 4, "y": 4 },
+            { "monster": "PSY_magi_mon_alien_tantacle", "x": 5, "y": 5 }
+          ]
+        }
+      },
+      
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_8x8_alien3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 8, 8 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||",
+            "|||||~||",
+            "||~|||||",
+            "|||||~||",
+            "||||~|||",
+            "||~|||||",
+            "||||~~||",
+            "||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "t_platform_resin",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "t_platform_resin",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "#": "f_counter",
+            "C": "f_counter_gate_c",
+            "%": "f_sink",
+            "R": "f_rack",
+            "r": "f_warehouse_shelf",
+            "O": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "o": [ [ "f_crate_c", 3 ], "f_cardboard_box", "f_crate_o" ],
+            "|": [ [ "f_null", 6 ], "f_alien_pod","f_alien_pod_organ","f_alien_table" ],
+            "x": "f_locker",
+            "B": "f_bulletin",
+            "^": "f_indoor_plant",
+            "F": "f_filing_cabinet",
+            "c": "f_chair",
+            "f": "f_fridge",
+            "I": "f_desk",
+            "Y": "f_trashcan",
+            "L": "f_locker",
+            "m": "f_mannequin"
+          },
+          "monster": {
+            "~": { "monster": "PSY_magi_rnd_mon_evil_tentacle", "chance": 35 }
+          }
+        }
       }
 
 

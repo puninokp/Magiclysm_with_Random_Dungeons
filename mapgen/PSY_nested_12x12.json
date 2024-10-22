@@ -1406,7 +1406,125 @@
           },
           "place_monsters": 
           [ 
-            { "monster": "GROUP_PSY_magi_DUNGEON_MON_STRONG", "x": [ 1, 10 ], "y": [ 1, 10 ], "density": 0.20}
+            { "monster": "GROUP_PSY_magi_DUNGEON_MON_STRONG", "x": [ 1, 10 ], "y": [ 1, 10 ], "density": 0.12}
+          ]
+        }
+      },
+
+            
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_12x12_mech1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||BB|||||",
+            "|hhhhPPhhhh|",
+            "|hhhhPPhhhh|",
+            "|hh$C$$C$hh|",
+            "|hh$$$$$$hh|",
+            "BPP$C$$C$PPB",
+            "BPP$$M$$$PPB",
+            "|hh$C$$C$hh|",
+            "|hh$$$$$$hh|",
+            "|hhhhPPhhhh|",
+            "|hhhhPPhhhh|",
+            "|||||BB|||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_thconc_floor",
+            "C": "PSY_magi_t_thconc_floor",
+            "M": "PSY_magi_t_thconc_floor",
+            "+": "t_reinforced_glass",
+            " ": "PSY_magi_t_dirt",
+            "B": "PSY_magi_t_floor",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_thconc_floor",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "t_ballistic_glass",
+            "P": "t_laminated_glass",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [ [ "f_null", 5 ] ],
+            "C": "PSY_magi_f_high_treasure_chest_money_closed"
+          },
+          "items": { "$": [ { "item": "PSY_magi_weapon_drop_distribution", "chance": 100 } ] },
+          "monster": {
+            "M": { "monster": "PSY_magi_mon_mecha_boss_sigma_forge_noammo",  "friendly": false}
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_12x12_marchant1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 12, 12 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||BB|||||",
+            "|hhhhPPhhhh|",
+            "|hhhh$$hhhh|",
+            "|hhR$$$$Rhh|",
+            "|hh$HHHH$hh|",
+            "BP$$HGQH$$PB",
+            "BP$$HGGH$$PB",
+            "|hh$HHHH$hh|",
+            "|hhR$$$$Rhh|",
+            "|hhhh$$hhhh|",
+            "|hhhhPPhhhh|",
+            "|||||BB|||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_thconc_floor",
+            "M": "PSY_magi_t_thconc_floor",
+            "Q": "PSY_magi_t_carpet_red",
+            "R": "PSY_magi_t_thconc_floor",
+            "H": "PSY_magi_t_carpet_red",
+            "G": "PSY_magi_t_carpet_red",
+            "+": "t_reinforced_glass",
+            " ": "PSY_magi_t_dirt",
+            "B": "PSY_magi_t_floor",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_thconc_floor",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "t_ballistic_glass",
+            "P": "t_door_glass_gray_c",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "|": [ [ "f_null", 5 ] ],
+            "C": "PSY_magi_f_high_treasure_chest_money_closed"
+          },
+          "npcs": { "Q": { "class": "PSY_dungeon_mechanic" } },
+          "faction_owner": [
+            { "id": "PSY_dungeon_marchants", "x": [ 1, 10 ], "y": [ 1, 10 ] }
+          ],
+          "items": { "G": [ { "item": "PSY_all_mana_mech_lv2", "chance": 100 } ],"H": [ { "item": "PSY_all_mana_mech_lv1", "chance": 100 } ],"Q": [ { "item": "PSY_all_mana_mech_lv3", "chance": 100 } ] },
+          "monster": {
+            "R": { "monster": "PSY_mon_mana_turret_railgun_npc",  "friendly": false},
+            "F": { "monster": "PSY_mon_mana_turret_frostbeam_npc",  "friendly": false},
+            "A": { "monster": "PSY_mon_mana_turret_acidsplatter_npc",  "friendly": false}
+          },
+          "place_zones": [
+            { "type": "LOOT_ITEM_GROUP", "faction": "PSY_dungeon_marchants", "x": [ 4, 7 ], "y": [ 4, 7 ] }
           ]
         }
       }

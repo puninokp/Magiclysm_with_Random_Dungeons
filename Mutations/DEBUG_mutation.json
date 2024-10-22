@@ -82,6 +82,24 @@
             "values": [ { "value": "PERCEPTION", "add": 5 } ]
           }
         ]
+      },
+
+      {
+        "type": "mutation",
+        "id": "PSY_VAULT_ROBOT",
+        "name": { "str": "I'm robot" },
+        "points": 99,
+        "valid": false,
+        "player_display": false,
+        "description": "To cast bug killing spells.",
+        "debug": false,
+        "override_look": { "id": "PSY_magi_mon_mecha_boss_Titan_Fist", "tile_category": "monster" },
+        "enchantments": [
+          {
+            "condition": "ALWAYS",
+            "values": [ { "value": "PERCEPTION", "add": 5 } ]
+          }
+        ]
       }
 
 ]

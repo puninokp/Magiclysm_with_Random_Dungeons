@@ -285,6 +285,56 @@
             { "monster": "GROUP_PSY_magi_RND_TOTEMS2", "x": [ 1, 9 ], "y": [ 1, 9 ], "density": 0.15}
           ]
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_11x11_treasureroom1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 11, 11 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||||||||",
+            "||Y|||||Y||",
+            "||LLLLLLL||",
+            "||LLDDDLL||",
+            "||LLDDDLL||",
+            "||LLDCDLL||",
+            "||LLDDDLL||",
+            "||LLDDDLL||",
+            "||LLLLLLL||",
+            "||Y|||||Y||",
+            "|||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor_blue",
+            "L": "PSY_magi_t_carpet_red",
+            "D": "PSY_magi_t_carpet_yellow",
+            "C": "PSY_magi_t_carpet_yellow",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_floor_blue",
+            "h": "PSY_magi_t_dirt",
+            "T": "t_tree_very_dead",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "S": [ [ "f_null", 10 ], "f_boulder_small" ],
+            "C": "PSY_magi_f_treasure_high_chest_closed"
+          },
+          "monster": {
+            "Y": { "monster": "PSY_magi_rnd_mon_griffin_immobile", "chance": 100 }
+          }
+        }
       }
 
 

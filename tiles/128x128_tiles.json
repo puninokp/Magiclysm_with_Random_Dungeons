@@ -1,0 +1,19 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "MshockXottoplus","Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/128x128_pictures.png",
+          "sprite_width": 128, 
+          "sprite_height": 128,
+          "sprite_offset_x": -48, 
+          "sprite_offset_y": -96,
+          "tiles": [
+            { "id": "PSY_magi_mon_mecha_boss_Titan_Fist","fg": 2 },
+            { "id": "PSY_magi_mon_mecha_boss_sigma_forge_noammo","fg": 7 }
+          ]
+        }
+      ]
+    }
+]

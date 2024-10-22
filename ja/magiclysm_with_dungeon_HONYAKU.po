@@ -3515,6 +3515,9 @@ msgstr "あなたは宝箱を開けた！ 殴ると宝箱の中身を獲得す�
 msgid "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest."
 msgstr "とても大きくて豪華な宝箱です。`E`ボタンを押して開けることが出来ます。開けた後にその宝箱を壊す必要があります。"
 
+msgid "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button."
+msgstr "とても大きくて豪華な宝箱です。`E`ボタンを押して開けることが出来ます。"
+
 msgid "Treasure Hunt"
 msgstr "トレジャーハント"
 
@@ -5906,6 +5909,12 @@ msgstr "商人\n\nソウルコレクターは、不気味な墓地や魔法の�
 msgid "friendly green dragonhead"
 msgstr "友好的なグリーンドラゴンヘッド"
 
+msgid "green dragonhead"
+msgstr "グリーンドラゴンヘッド"
+
+msgid "green dragonhead(weaken)"
+msgstr "グリーンドラゴンヘッド(弱体)"
+
 msgid "The Green Dragonhead is a fearsome entity that reveals itself from within a whirlpool by exposing only its green head. They emerge from the magical whirlpools exposing only their massive green heads. Their green scales reflect the power of life and the magic of nature, and their eyes hold deep wisdom."
 msgstr "渦潮の中から、その緑色の頭だけを露出させる恐るべき存在、それがグリーンドラゴンヘッドです。彼らは魔法の渦潮の中から、その巨大な緑色の頭部だけを露出させて姿を現します。彼らの緑色の鱗は、生命の力と自然の魔法を反映し、瞳には深い知恵を宿しています。"
 
@@ -7181,3 +7190,54 @@ msgstr "テンタクルアイ"
 
 msgid "This gigantic being has one large, unusually developed eye and countless undulating tentacles. Its appearance is said to be that of an intruder from another world, giving it a somewhat eerie and disfiguring aura."
 msgstr "この巨大な存在は、異様に発達した一つの大きな目と、無数のうねる触手を持っています。その姿は、異界からの侵入者とも言われ、どこか不気味で禍々しいオーラを放っています。"
+
+msgid "Magic Campfire"
+msgstr "魔法のキャンプファイア"
+
+msgid "A magic campfire that is bright but not hot to the touch.\n When touched, it restores the HP and MP of surrounding members only once."
+msgstr "明るいが触れても熱くはない魔法のキャンプファイア。\n触れると一度だけ周囲のメンバーの体力とMPを回復してくれる。"
+
+msgid "Magic Campfire(used)"
+msgstr "魔法のキャンプファイア(使用済み)"
+
+msgid "A magical campfire that has already been extinguished."
+msgstr "既に火が消えている魔法のキャンプファイア。"
+
+msgid "Your party's HP and MP have been restored by a magical campfire!"
+msgstr "あなたのパーティーは魔法のキャンプファイアによってHPとMPが回復した!"
+
+msgid "griffin"
+msgstr "グリフォン"
+
+msgid "This monster is characterized by a figure that combines the features of a lion and an eagle.\nThey are mainly guardians of treasures and valuables, and will show no mercy to those who try to obtain them."
+msgstr "このモンスターの特徴は、ライオンとワシの特徴を併せ持つ姿である。\n主に財宝や貴重品の守護者であり、それらを手に入れようとする者には容赦しない。"
+
+msgid "sigma forge"
+msgstr "シグマフォージ"
+
+msgid "sigma forge(no ammo)"
+msgstr "シグマフォージ(弾切れ)"
+
+msgid "The Sigma Forge is a large, medium-range gunner designed to dominate strategic points on the battlefield. Combining unparalleled firepower and precision marksmanship, they specialize in eliminating the enemy from a distance. Its armor is covered with reinforced composite materials, which provide high durability while also ensuring ample mobility."
+msgstr "シグマフォージは、戦場の戦略的要所を制圧するために設計された大型中距離ガンナー。圧倒的な火力と精密な射撃能力を兼ね備え、敵を遠くから排除することに特化した存在です。装甲は強化された複合素材で覆われており、高い耐久性を誇る一方、機動力も十分に確保されています。"
+
+msgid "Money treasure chest"
+msgstr "金貨宝箱"
+
+msgid "It is a very elegance treasure chest. You can open it by pressing the `E` button."
+msgstr "とても優雅な宝箱です。`E`ボタンを押して開けることが出来ます。"
+
+msgid "Mech Tech"
+msgstr "メックテック"
+
+msgid "Dungeon Mechanic"
+msgstr "ダンジョンメカニック"
+
+msgid "The Element Shape Shifter Book"
+msgstr "エレメントシェイプシフターの本"
+
+msgid "copies of The Element Shape Shifter Book"
+msgstr "エレメントシェイプシフターの本"
+
+msgid "A magic book that describes how to inhabit spirits in the body and how to transform into them."
+msgstr "精霊を身体に宿す方法、そしてそれらに変身する方法が書かれている魔法書。"

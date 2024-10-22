@@ -43,6 +43,55 @@
             "!": "PSY_magi_t_dirt"
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_room_14x14_miniboss1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 14, 14 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||G|||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||",
+            "||||||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "G": "PSY_magi_t_dirt",
+            "M": "PSY_magi_t_dirt",
+            "#": "t_rock",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "monster": {
+            "G": { "monster": "PSY_magi_rnd_mon_statue_high_bosses",  "friendly": false}
+          }
+        }
       }
 
 

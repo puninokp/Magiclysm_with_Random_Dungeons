@@ -583,6 +583,12 @@
             "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_potion_closed" ],
             "message": "",
             "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_treasure_high_chest_opened",
+            "valid_furniture": [ "PSY_magi_f_treasure_high_chest_closed" ],
+            "message": "",
+            "message_good": true
           }
         ]
       },
@@ -715,6 +721,37 @@
           {
             "result": [  "PSY_magi_f_magic_fountain_used" ],
             "valid_furniture": [ "PSY_magi_f_magic_fountain" ]    
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_magic_campfire_transform",
+        "furniture":[
+
+          {
+            "result": [  "PSY_magi_f_magic_campfire_off" ],
+            "valid_furniture": [ "PSY_magi_f_magic_campfire_on" ]    
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_high_treasure_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_treasure_high_chest_opened",
+            "valid_furniture": [ "PSY_magi_f_treasure_high_chest_closed" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_high_treasure_chest_money_opened",
+            "valid_furniture": [ "PSY_magi_f_high_treasure_chest_money_closed" ],
+            "message": "",
+            "message_good": true
           }
         ]
       }

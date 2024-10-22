@@ -21,7 +21,8 @@
         "final_energy_cost": 550,
         "base_casting_time": 6000,
         "casting_time_increment": -290,
-        "final_casting_time": 100
+        "final_casting_time": 100,
+        "learn_spells": { "PSY_magi_shapeshift_human_spell": 0, "PSY_magi_shapeshift_element_castable_spell": 0, "PSY_magi_shapeshift_element_castable_spell_summon": 0 } 
     },
 
     

@@ -1983,6 +1983,43 @@
             "|": { "item": "PSY_honey_food", "chance": 20 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_5x5_campfire1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 5, 5 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "|||||",
+            "|||||",
+            "||C||",
+            "|||||",
+            "|||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirt",
+            "+": "PSY_magi_t_dirt",
+            " ": "PSY_magi_t_dirt",
+            "%": "PSY_magi_t_dirt",
+            "C": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "P": "PSY_magi_t_dirt",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "C": "PSY_magi_f_magic_campfire_on"
+          }
+        }
       }
 
 ]

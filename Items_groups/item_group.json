@@ -178,6 +178,52 @@
 
       {
         "type": "item_group",
+        "id": "PSY_magi_weapon_drop_distribution",
+        "subtype": "distribution",
+        "items": [
+          { "item": "PSY_magi_weapon_ice_lance", "prob": 3 },
+          { "item": "PSY_magi_weapon_great_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_excelent_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_elite_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_bastard_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_Juggler_Rainbow_Sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_long_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_great_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_lich_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_enchanted_dragon_hunter_sword", "prob": 3 },
+          { "item": "PSY_magi_weapon_thrust_dagger_mana", "prob": 3 },
+          { "item": "PSY_magi_weapon_charm_spear", "prob": 3 },
+          { "item": "PSY_magic_wrench", "prob": 3 },
+          { "item": "metal_vine_whip", "prob": 3 },
+          { "item": "cudgel_plus_two", "prob": 13 },
+          { "item": "q_staff_plus_two", "prob": 13 },
+          { "item": "i_staff_plus_two", "prob": 13 },
+          { "item": "longsword_plus_two", "prob": 13 },
+          { "item": "sledge_plus_two", "prob": 13 },
+          { "item": "sledge_heavy_plus_two", "prob": 13 },
+          { "item": "warhammer_plus_two", "prob": 13 },
+          { "item": "bat_plus_two", "prob": 13 },
+          { "item": "bat_metal_plus_two", "prob": 13 },
+          { "item": "spear_steel_plus_two", "prob": 13 },
+          { "item": "qiang_plus_two", "prob": 13 },
+          { "item": "halberd_plus_two", "prob": 13 },
+          { "item": "glaive_plus_two", "prob": 13 },
+          { "item": "naginata_plus_two", "prob": 13 },
+          { "item": "mace_plus_two", "prob": 13 },
+          { "item": "morningstar_plus_two", "prob": 13 },
+          { "item": "jian_plus_two", "prob": 13 },
+          { "item": "scimitar_plus_two", "prob": 13 },
+          { "item": "estoc_plus_two", "prob": 13 },
+          { "item": "arming_sword_plus_two", "prob": 13 },
+          { "item": "broadsword_plus_two", "prob": 13 },
+          { "item": "battleaxe_plus_two", "prob": 13 },
+          { "item": "cavalry_sabre_plus_two", "prob": 13 }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "id": "PSY_magi_shield_drop_collection",
         "items": [
           { "item": "PSY_magi_armor_death_shield", "prob": 3 },
@@ -247,6 +293,23 @@
           { "group": "alchemy_items", "count": [6, 12] },
           { "group": "PSY_magi_weapon_shield_drops", "count": [1, 2] },
           { "group": "PSY_magi_weapon_shield_drops", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_high_tresure_box_drops",
+        "entries": [
+          { "group": "PSY_magic_gun_shop_ammo_normal", "count": [2, 3] },
+          { "group": "PSY_magic_gun_shop_ammo_rare", "count": [1, 2] },
+          { "group": "potions_common", "prob": 100, "count": [2, 5] },
+          { "group": "PSY_magic_gun_shop_ammo_veryrare", "count": [1, 2] },
+          { "group": "PSY_all_mana_mech_lv1", "prob": 100 },
+          { "group": "alchemy_items", "count": [6, 12] },
+          { "group": "PSY_magic_gun_shop_weapon_normal", "count": [1, 2] },
+          { "group": "PSY_magic_gun_shop_weapon_rare", "prob": 100 },
+          { "group": "PSY_magi_armor_set_distribution", "prob": 100 }
         ]
       },
 
@@ -501,6 +564,17 @@
 
       {
         "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_NC_FORGE_LORD_SHOP_MECHS",
+        "items": [ 
+          { "group": "PSY_all_mana_mech_lv1", "count": [ 8, 10 ], "prob": 100 },
+          { "group": "PSY_all_mana_mech_lv2", "count": [ 4, 5 ], "prob": 100 },
+          { "group": "PSY_all_mana_mech_lv3", "count": [ 1, 3 ], "prob": 100 }
+         ]
+      },
+
+      {
+        "type": "item_group",
         "id": "PSY_guns_pistol_common",
         "//": "Pistols that are reasonably prolific amongst civilians, commonly owned and reliably obtainable by citizens and that are found in many locations.",
         "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
@@ -658,6 +732,21 @@
 
       {
         "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_big_money_collection",
+        "entries": [
+          { "item": "RobofacCoin", "prob": 100, "count": [ 10, 20 ] },
+          { "item": "FMCNote", "prob": 100, "count": [ 20, 50 ] },
+          { "item": "signed_chit", "prob": 100, "count": [ 20, 30 ] },
+          { "item": "icon", "prob": 100, "count": [ 10, 20 ] },
+          { "item": "gold_small", "prob": 100, "count": [ 2, 4 ] },
+          { "item": "denarius", "prob": 100, "count": [ 30, 50 ] },
+          { "item": "silver_small", "prob": 100, "count": [ 2, 4 ] }
+        ]
+      },
+
+      {
+        "type": "item_group",
         "subtype": "distribution",
         "id": "PSY_magi_money_little_distribution",
         "entries": [
@@ -700,6 +789,138 @@
           { "group": "any_wild_egg", "prob": 2, "count": 10 },
           { "group": "produce", "prob": 100, "count": 3 },
           { "group": "fresh_produce", "prob": 100 , "count": 3}
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_item_weak_wands",
+        "entries": [
+          { "group": "alchemy_items", "count": [5, 10] },
+          { "group": "alchemy_items", "prob": 20, "count": [5, 10] },
+          { "group": "enchanted_wands_greater", "prob": 5 },
+          { "group": "enchanted_wands_lesser", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_item_mech",
+        "entries": [
+          { "group": "PSY_all_mana_mech_lv1", "count": [1, 2] },
+          { "group": "any_wild_egg", "prob": 100, "count": 10 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_item_potion_weak",
+        "entries": [
+          { "group": "potions_common", "count": [ 5, 10 ], "prob": 100 },
+          { "group": "spellbook_loot_1", "prob": 100}
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_item_honey_potion_weak",
+        "entries": [
+          { "group": "PSY_honey_potion_shop", "count": [ 2, 4 ], "prob": 100 },
+          { "group": "spellbook_loot_1", "prob": 100}
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_vending_item_book_weak",
+        "entries": [
+          { "group": "spellbook_loot_1", "count": [ 2, 4 ],"prob": 100}
+        ]
+      },
+
+      
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_chitin_collections",
+        "entries": [
+          { "item": "PSY_magi_boots_chitin", "prob": 100 },
+          { "item": "PSY_magi_armor_chitin", "prob": 100 },
+          { "item": "PSY_magi_helmet_chitin", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_magicite_collections",
+        "entries": [
+          { "item": "PSY_magi_helmet_magicite", "prob": 100 },
+          { "item": "PSY_magi_armor_magicite", "prob": 100 },
+          { "item": "PSY_magi_boots_magicite", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_diamond_collections",
+        "entries": [
+          { "item": "PSY_magi_helmet_diamond", "prob": 100 },
+          { "item": "PSY_magi_armor_diamond", "prob": 100 },
+          { "item": "PSY_magi_boots_diamond", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_copper_collections",
+        "entries": [
+          { "item": "PSY_magi_helmet_copper", "prob": 100 },
+          { "item": "PSY_magi_armor_copper", "prob": 100 },
+          { "item": "PSY_magi_boots_copper", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_steel_collections",
+        "entries": [
+          { "item": "PSY_magi_helmet_steel", "prob": 100 },
+          { "item": "PSY_magi_armor_steel", "prob": 100 },
+          { "item": "PSY_magi_boots_steel", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "PSY_magi_armor_silver_collections",
+        "entries": [
+          { "item": "PSY_magi_helmet_silver", "prob": 100 },
+          { "item": "PSY_magi_armor_silver", "prob": 100 },
+          { "item": "PSY_magi_boots_silver", "prob": 100 }
+        ]
+      },
+
+      {
+        "type": "item_group",
+        "subtype": "distribution",
+        "id": "PSY_magi_armor_set_distribution",
+        "entries": [
+          { "group": "PSY_magi_armor_silver_collections", "prob": 5},
+          { "group": "PSY_magi_armor_copper_collections", "prob": 5},
+          { "group": "PSY_magi_armor_steel_collections", "prob": 3},
+          { "group": "PSY_magi_armor_diamond_collections", "prob": 2},
+          { "group": "PSY_magi_armor_magicite_collections", "prob": 1},
+          { "group": "PSY_magi_armor_chitin_collections", "prob": 5}
         ]
       }
 

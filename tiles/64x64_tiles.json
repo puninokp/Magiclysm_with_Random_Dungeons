@@ -67,6 +67,7 @@
             { "id": "PSY_magi_mon_scorching_samurai_trader" ,"fg": 2 },
             { "id": "PSY_magi_mon_tree_shaman" ,"fg": 6 },
             { "id": "PSY_magi_mon_Sprit_Great_tree" ,"fg": 7 },
+            { "id": "PSY_mon_dragon_head_green_boss_moguru" ,"fg": 9 },
             { "id": "PSY_magi_mon_mecha_guard_heavy" ,"fg": 14 },
             { "id": "PSY_magi_mon_chimera_afterimage" ,"fg": 16 },
             { "id": "PSY_magi_mon_mecha_guard_purple" ,"fg": 17 },
@@ -133,7 +134,9 @@
             { "id": "PSY_magi_f_honey_treasure_chest_event_closed" ,"fg": 82 },
             { "id": "PSY_magi_f_honey_treasure_chest_event_opened" ,"fg": 83 },
             { "id": "PSY_magi_f_honey_treasure_chest_potion_closed" ,"fg": 84 },
+            { "id": "PSY_magi_f_treasure_high_chest_closed" ,"fg": 84 },
             { "id": "PSY_magi_f_honey_treasure_chest_potion_opened" ,"fg": 85 },
+            { "id": "PSY_magi_f_treasure_high_chest_opened" ,"fg": 85 },
             { "id": "PSY_magi_f_ice_magic_crystal_large", "rotates": true,"animated": true,"fg":
             [
             {"weight": 100, "sprite":87},
@@ -223,7 +226,9 @@
             { "id": "PSY_magi_mon_water_element_vassal" ,"fg": 193 },
             { "id": "PSY_magi_mon_air_element_vassal" ,"fg": 194 },
             { "id": "PSY_magi_mon_earth_element_vassal" ,"fg": 195 },
-            { "id": "overlay_worn_PSY_magi_item_element_fire_shield" ,"fg": 196}
+            { "id": "overlay_worn_PSY_magi_item_element_fire_shield" ,"fg": 196},
+            { "id": "PSY_magi_rnd_mon_griffin_immobile" ,"fg": 197},
+            { "id": "PSY_magi_rnd_mon_griffin" ,"fg": 197}
           ]
         }
       ]

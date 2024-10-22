@@ -778,6 +778,169 @@
             "+": { "monster": "PSY_mon_mana_mech_icicle_ant_enemy", "chance": 75 }
           }
         }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_vending_machine1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "|||J||N|||",
+            "||NL||LN||",
+            "|||N||C|||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "N": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "J": "PSY_magi_t_floor",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "L": "t_utility_light",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "c": "f_null",
+            "_": "f_null",
+            "L": "f_null",
+            "N": "f_vending_c",
+            "C": "f_vending_c",
+            "J": "f_vending_c"
+          },
+          "items": { 
+            "|": { "item": "gym", "chance": 1 }, 
+            "N": { "item": "softdrinks_canned", "chance": 100, "repeat": [ 3, 5 ] } ,
+            "C": { "item": "PSY_magi_vending_item_weak_wands", "chance": 100} ,
+            "J": { "item": "PSY_magi_vending_item_mech", "chance": 100 } 
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_vending_machine2",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "||N||||N||",
+            "||||||||||",
+            "|||N||N|||",
+            "||||||||||",
+            "||||CJ||||",
+            "||||||||||",
+            "|||N||N|||",
+            "||N||||N||",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "N": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "J": "PSY_magi_t_floor",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "L": "t_utility_light",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "c": "f_null",
+            "_": "f_null",
+            "L": "f_null",
+            "N": "f_vending_c",
+            "C": "f_vending_c",
+            "J": "f_vending_c"
+          },
+          "items": { 
+            "|": { "item": "gym", "chance": 1 }, 
+            "N": { "item": "softdrinks_canned", "chance": 100, "repeat": [ 3, 5 ] } ,
+            "C": { "item": "PSY_magi_vending_item_potion_weak", "chance": 100} ,
+            "J": { "item": "PSY_magi_vending_item_honey_potion_weak", "chance": 100 } 
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for basements",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_vending_machine3",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 10, 10 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||||||",
+            "||||||||||",
+            "|__N|||__|",
+            "||||||||||",
+            "|__|||N__|",
+            "||||||||||",
+            "|__N||C__|",
+            "||||||||||",
+            "|__|||N__|",
+            "||||||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_floor",
+            "N": "PSY_magi_t_floor",
+            "C": "PSY_magi_t_floor",
+            "J": "PSY_magi_t_floor",
+            "_": "PSY_magi_t_floor",
+            "%": "PSY_magi_t_dirt",
+            "$": "PSY_magi_t_dirt",
+            "=": "PSY_magi_t_dirt",
+            ",": "PSY_magi_t_dirt",
+            "~": "PSY_magi_t_dirt",
+            "Y": "PSY_magi_t_dirt",
+            "h": "PSY_magi_t_dirt",
+            "L": "t_utility_light",
+            "!": "PSY_magi_t_dirt"
+          },
+          "furniture": {
+            "c": "f_null",
+            "_": "f_bed",
+            "L": "f_null",
+            "N": "f_vending_c",
+            "C": "f_vending_c",
+            "J": "f_vending_c"
+          },
+          "items": { 
+            "|": { "item": "gym", "chance": 1 }, 
+            "N": { "item": "softdrinks_canned", "chance": 100, "repeat": [ 3, 5 ] } ,
+            "C": { "item": "PSY_magi_vending_item_book_weak", "chance": 100} ,
+            "J": { "item": "PSY_magi_vending_item_honey_potion_weak", "chance": 100 } 
+          }
+        }
       }
 
 

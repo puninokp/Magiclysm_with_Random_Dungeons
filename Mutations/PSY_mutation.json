@@ -453,9 +453,22 @@
         "override_look": { "id": "PSY_magi_mon_air_element", "tile_category": "monster" },
         "enchantments": [
           "PSY_ench_air_element_form",
+          {
+            "condition": "ALWAYS",
+            "ench_effects": [ { "effect": "PSY_effect_air_form_levitation", "intensity": 1 } ]
+          },
           { "values": [ { "value": "SPEED", "multiply": 0.2 } ] }
         ],
-        "flags": [ "STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT","WALK_UNDERWATER" ]
+        "flags": [ "LEVITATION","STEADY", "FEATHER_FALL","WALL_CLING","GLIDE","HARDTOHIT","WALK_UNDERWATER" ]
+      },
+
+      {
+        "type": "effect_type",
+        "id": "PSY_effect_air_form_levitation",
+        "//": "Hidden effect, used because LEVITATION flag does not work on mutations",
+        "name": [ "" ],
+        "desc": [ "" ],
+        "flags": [ "LEVITATION", "CLIMB_FLYING" ]
       },
 
       {

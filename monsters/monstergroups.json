@@ -1040,6 +1040,33 @@
           { "monster": "PSY_magi_mon_shadow_frog", "freq": 200, "cost_multiplier": 1 },
           { "monster": "PSY_magi_mon_shadow_seed", "freq": 200, "cost_multiplier": 1 }
         ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_SKELETON_MEDIUM",
+        "default": "PSY_magi_mon_skeleton_soldier_base",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_magi_mon_skeleton_soldier_daggers", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_cudgel", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_scythe", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_dagger", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_spear", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_crossbow", "freq": 100, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_shield", "freq": 120, "cost_multiplier": 1 },
+          { "monster": "PSY_magi_mon_skeleton_soldier_spear", "freq": 120, "cost_multiplier": 1 }
+        ]
+      },
+
+      {
+        "type": "monstergroup",
+        "name": "GROUP_PSY_magi_DUNGEON_4F_BOSSES",
+        "default": "PSY_mon_dragon_head_green_boss",
+        "//": "Random Dungeon Monster",
+        "monsters": [
+          { "monster": "PSY_mon_dragon_head_green_boss", "freq": 999, "cost_multiplier": 1 }
+        ]
       }
 
 

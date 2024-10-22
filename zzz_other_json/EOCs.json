@@ -1696,5 +1696,35 @@
         }
       }
     ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_magic_campfire_heal",
+    "//": "This is the EOC which heal your party.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_magic_campfire_lit_off",
+          "message": "Your party's HP and MP have been restored by a magical campfire!"
+        },
+        "targeted": false
+      }
+    ]
+  },
+
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_high_treasure_open",
+    "//": "This is the EOC which open the nearly treasure chest.",
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "PSY_magi_item_spell_open_high_treasure_chest",
+          "message": "You opened treasure chest! When you hit them, you can acquire the contents of the treasure chest."
+        },
+        "targeted": false
+      }
+    ]
   }
 ]

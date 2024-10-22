@@ -76,6 +76,19 @@
       "gender": "male",
       "chat": "PSY_TALK_DUNGEON_MEDIATOR",
       "faction": "no_faction"
+    },
+
+    {
+      "type": "npc",
+      "id": "PSY_dungeon_mechanic",
+      "name_unique": "Mech Tech",
+      "name_suffix": "Dungeon Mechanic",
+      "class": "PSY_NC_FORGE_LORD_SHOP_MECH",
+      "attitude": 0,
+      "mission": 3,
+      "gender": "male",
+      "chat": "TALK_FORGE_LORD",
+      "faction": "PSY_dungeon_marchants"
     }
 
 ]

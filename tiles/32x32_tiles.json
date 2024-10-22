@@ -374,6 +374,15 @@
             {"weight": 50, "sprite":509}
             ]
             },
+            { "id": "explosion_PSY_magi_item_spell_magic_campfire_healing_mana", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":507},
+            {"weight": 50, "sprite":508},
+            {"weight": 50, "sprite":507},
+            {"weight": 50, "sprite":509}
+            ]
+            },
+            { "id":  ["explosion_PSY_magi_item_spell_magic_campfire_recover_HP_head", "explosion_PSY_magi_item_spell_magic_campfire_recover_HP_torso" ], "rotates": false,"animated": false,"fg": 617},
             { "id": "PSY_mon_karakuri_puppet_magic_image" ,"fg": 519},
             { "id": "PSY_mon_karakuri_puppet_bow" ,"fg": 520},
             { "id": "PSY_mon_karakuri_puppet_magic" ,"fg": 521},
@@ -983,7 +992,15 @@
             { "id": "PSY_magi_mon_shadow_wisp" ,"fg": 1112},
             { "id": "PSY_magi_mon_shadow_frog" ,"fg": 1113},
             { "id": "PSY_magi_mon_shadow_seed" ,"fg": 1114},
-            { "id": "PSY_magi_mon_alien_tantacle" ,"fg": 1121}
+            { "id": "PSY_magi_mon_alien_tantacle" ,"fg": 1121},
+            { "id": "PSY_magi_f_magic_campfire_off" , "rotates": false,"fg": 1124},
+            { "id": "PSY_magi_f_magic_campfire_on", "rotates": false,"animated": true,"fg":
+            [
+              {"weight": 100, "sprite":1125},
+              {"weight": 100, "sprite":1126}
+
+            ]
+            }
             
             
           ]

@@ -1038,6 +1038,9 @@
             "h": "PSY_magi_t_dirtfloor",
             "P": "PSY_magi_t_dirtfloor",
             "!": "PSY_magi_t_dirtfloor"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_mon_workshop_elf", "chance": 12 }
           }
         }
       },
@@ -1072,6 +1075,89 @@
             "h": "PSY_magi_t_dirtfloor",
             "P": "PSY_magi_t_dirtfloor",
             "!": "PSY_magi_t_dirtfloor"
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_mon_workshop_elf", "chance": 12 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for high level dungeon",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_6x6_pumpkin1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 6, 6 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirtfloor",
+            " ": "PSY_magi_t_dirtfloor",
+            "%": "PSY_magi_t_dirtfloor",
+            "$": "PSY_magi_t_dirtfloor",
+            "=": "t_vitrified_water_pump",
+            ",": "PSY_magi_t_dirtfloor",
+            "~": "PSY_magi_t_dirtfloor",
+            "Y": "PSY_magi_t_dirtfloor",
+            "h": "PSY_magi_t_dirtfloor",
+            "P": "PSY_magi_t_dirtfloor",
+            "!": "PSY_magi_t_dirtfloor"
+          },
+          "item": {
+            "|": { "item": "pumpkin", "chance": 20 }
+          },
+          "monster": {
+            "|": { "monster": "mon_leprechaun", "chance": 5 }
+          }
+        }
+      },
+
+      {
+        "type": "mapgen",
+        "method": "json",
+        "//": "a nested map for high level dungeon",
+        "nested_mapgen_id": "PSY_magi_nested_high_room_6x6_plant1",
+        "weight": 1000,
+        "object": {
+          "mapgensize": [ 6, 6 ],
+          "rotation": [ 0, 3 ],
+          "rows": [
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||",
+            "||||||"
+          ],
+          "palettes": [ "PSY_magi_nested_dungeon_small_pelette" ],
+          "terrain": {
+            "|": "PSY_magi_t_dirtfloor",
+            " ": "PSY_magi_t_dirtfloor",
+            "%": "PSY_magi_t_dirtfloor",
+            "$": "PSY_magi_t_dirtfloor",
+            "=": "t_vitrified_water_pump",
+            ",": "PSY_magi_t_dirtfloor",
+            "~": "PSY_magi_t_dirtfloor",
+            "Y": "PSY_magi_t_dirtfloor",
+            "h": "PSY_magi_t_dirtfloor",
+            "P": "PSY_magi_t_dirtfloor",
+            "!": "PSY_magi_t_dirtfloor"
+          },
+          "furniture": {
+            "|": [ [ "f_plant_seedling", 5 ], "f_plant_mature", "f_plant_harvest" ]
+          },
+          "monster": {
+            "|": { "monster": "PSY_magi_mon_dryad", "chance": 5,  "friendly": true }
           }
         }
       }

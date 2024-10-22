@@ -958,6 +958,20 @@
             { "item": "armguard_scrap", "prob": 40 },
             { "item": "cuirass_scrap", "prob": 40 }
         ]
+    },
+
+    {
+        "type": "item_group",
+        "id": "PSY_magi_mon_greenhead_drops",
+        "subtype": "collection",
+        "entries": [ 
+            { "item": "PSY_magi_magical_coin_bronze", "count": [ 50, 100 ] } ,
+            { "item": "PSY_magi_magical_coin_forest_core", "prob": 100 },
+            { "item": "PSY_magi_scroll_of_escape", "prob": 100 },
+            { "item": "PSY_magi_magic_element_shapeshifter", "prob": 100 },
+            { "group": "potions_common", "count": [ 10, 15 ] },
+            { "group": "PSY_magi_magic_ring_drops", "count": [ 3, 4 ] }
+        ]
     }
 
 
